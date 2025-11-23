@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: aot-postgres
+    environment:
+      POSTGRES_DB: aot_db
+      POSTGRES_USER: aot_user
+      POSTGRES_PASSWORD: aot_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aot_user -d aot_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: aot-api
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/aot_db
+      SPRING_DATASOURCE_USERNAME: aot_user
+      SPRING_DATASOURCE_PASSWORD: aot_password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./server/src/main/resources/static:/app/static
+
+volumes:
+  postgres_data:
