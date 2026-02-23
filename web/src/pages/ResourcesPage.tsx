@@ -4,6 +4,8 @@ import { getSubject, getResourcesBySubject } from '../services/api'
 import type { Subject, StudyResource } from '../types/api'
 import { getTopicalExamBySubjectName } from '../data/topicalQuestions'
 import PracticeProblemsQuiz from '../components/PracticeProblemsQuiz'
+import { getUnitOverviewBySubjectName } from '../data/unitOverviews'
+import UnitOverviews from '../components/UnitOverviews'
 
 type ResourceCategory = 'cheat-sheets' | 'practice-problems' | 'video-resources' | 'practice-exams'
 
@@ -17,8 +19,8 @@ interface CategoryInfo {
 const CATEGORIES: CategoryInfo[] = [
   {
     id: 'cheat-sheets',
-    title: 'Cheat Sheets',
-    description: 'Quick reference guides and formula sheets for fast review.',
+    title: 'Unit Overviews',
+    description: 'High-level summaries of each unit and subunit.',
     icon: '📋',
   },
   {
@@ -54,6 +56,11 @@ export default function ResourcesPage() {
 
   const topicalExam = useMemo(
     () => (subject ? getTopicalExamBySubjectName(subject.name) : undefined),
+    [subject]
+  )
+
+  const unitOverview = useMemo(
+    () => (subject ? getUnitOverviewBySubjectName(subject.name) : undefined),
     [subject]
   )
 
@@ -174,8 +181,17 @@ export default function ResourcesPage() {
         </section>
       )}
 
-      {/* Active Category View (non-practice-problems) */}
-      {activeCategory !== null && !(activeCategory === 'practice-problems' && topicalExam) && (
+      {/* Unit Overviews (CS subjects) */}
+      {activeCategory === 'cheat-sheets' && unitOverview && (
+        <section>
+          <UnitOverviews overview={unitOverview} onBack={() => setActiveCategory(null)} />
+        </section>
+      )}
+
+      {/* Active Category View (non-practice-problems, non-unit-overviews) */}
+      {activeCategory !== null &&
+        !(activeCategory === 'practice-problems' && topicalExam) &&
+        !(activeCategory === 'cheat-sheets' && unitOverview) && (
         <section>
           <button
             onClick={() => setActiveCategory(null)}
