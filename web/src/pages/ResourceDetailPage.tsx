@@ -44,7 +44,8 @@ export default function ResourceDetailPage() {
         </div>
         <button
           onClick={() => navigate('/')}
-          className="mt-4 text-blue-600 hover:underline"
+          className="mt-4 hover:underline cursor-pointer"
+          style={{ color: 'var(--color-primary)' }}
         >
           Back to Exams
         </button>
@@ -53,19 +54,23 @@ export default function ResourceDetailPage() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-5xl mx-auto">
       <button
         onClick={() => navigate(`/subjects/${resource.subjectId}`)}
-        className="text-blue-600 hover:underline mb-6 flex items-center"
+        className="hover:underline mb-6 flex items-center cursor-pointer"
+        style={{ color: 'var(--color-primary)' }}
       >
         ← Back to {resource.subjectName}
       </button>
 
-      <div className="bg-white rounded-lg shadow-lg p-8">
+      <div className="rounded-lg shadow-lg p-8 border border-black/35" style={{ backgroundColor: 'var(--color-secondary)' }}>
         <h1 className="text-3xl font-bold mb-4">{resource.title}</h1>
 
         <div className="flex gap-3 mb-6">
-          <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+          <span
+            className="px-3 py-1 rounded-full text-sm font-medium"
+            style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
+          >
             {resource.subjectName}
           </span>
           {resource.examYear && (
@@ -80,13 +85,27 @@ export default function ResourceDetailPage() {
 
         <p className="text-gray-700 mb-8">{resource.description}</p>
 
+        {/* Inline PDF Viewer */}
+        <div className="border-t pt-6 mb-8">
+          <h2 className="text-xl font-semibold mb-4">View Resource</h2>
+          <div className="w-full rounded-lg overflow-hidden border border-gray-300 bg-gray-100">
+            <iframe
+              src={resource.fileUrl}
+              title={resource.title}
+              className="w-full border-0"
+              style={{ height: '80vh', minHeight: '600px' }}
+            />
+          </div>
+        </div>
+
         <div className="border-t pt-6">
           <h2 className="text-xl font-semibold mb-4">Download Resource</h2>
           <a
             href={resource.fileUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg transition-opacity hover:opacity-90 font-medium cursor-pointer"
+            style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
           >
             <svg
               className="w-5 h-5"

@@ -41,10 +41,11 @@ export default function SubjectsPage() {
       <div className="text-center py-12">
         <div className="text-xl text-red-600">Error: {error}</div>
         <button
-          onClick={() => navigate('/')}
-          className="mt-4 text-blue-600 hover:underline"
+          onClick={() => navigate(examId ? `/exams/${examId}/hub` : '/')}
+          className="mt-4 hover:underline cursor-pointer"
+          style={{ color: 'var(--color-primary)' }}
         >
-          Back to Exams
+          Back to Hub
         </button>
       </div>
     )
@@ -55,10 +56,11 @@ export default function SubjectsPage() {
   return (
     <div>
       <button
-        onClick={() => navigate('/')}
-        className="text-blue-600 hover:underline mb-4 flex items-center"
+        onClick={() => navigate(`/exams/${examId}/hub`)}
+        className="hover:underline mb-4 flex items-center cursor-pointer"
+        style={{ color: 'var(--color-primary)' }}
       >
-        ← Back to Exams
+        ← Back to {examName} Hub
       </button>
 
       <h1 className="text-4xl font-bold mb-6">{examName} Subjects</h1>
@@ -67,18 +69,21 @@ export default function SubjectsPage() {
       </p>
 
       <div className="grid md:grid-cols-3 gap-4">
-        {subjects.map((subject) => (
-          <Link
-            key={subject.id}
-            to={`/subjects/${subject.id}`}
-            className="block p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow border border-gray-200 hover:border-blue-500"
-          >
-            <h3 className="font-semibold text-lg mb-2">{subject.name}</h3>
-            {subject.description && (
-              <p className="text-sm text-gray-600">{subject.description}</p>
-            )}
-          </Link>
-        ))}
+        {subjects
+          .filter((subject) => subject.name.toLowerCase() !== 'sat essay')
+          .map((subject) => (
+            <Link
+              key={subject.id}
+              to={`/subjects/${subject.id}`}
+              className="block p-4 rounded-lg shadow hover:shadow-lg transition-shadow border border-black/35 cursor-pointer"
+              style={{ backgroundColor: 'var(--color-secondary)' }}
+            >
+              <h3 className="font-semibold text-lg mb-2">{subject.name}</h3>
+              {subject.description && (
+                <p className="text-sm text-gray-600">{subject.description}</p>
+              )}
+            </Link>
+          ))}
       </div>
     </div>
   )
