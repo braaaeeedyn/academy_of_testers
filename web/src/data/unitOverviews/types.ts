@@ -4,7 +4,7 @@ export interface SubunitOverview {
   summary: string
   keyIdeas: string[]
   exampleCode?: string
-  exampleLanguage?: 'java' | 'pseudocode'
+  exampleLanguage?: 'java' | 'pseudocode' | 'latex'
   exampleExplanation?: string
 }
 

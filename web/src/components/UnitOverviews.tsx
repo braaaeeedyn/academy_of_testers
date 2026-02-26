@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import type { SubjectUnitOverview, UnitOverview, SubunitOverview } from '../data/unitOverviews'
+import MathText, { renderLatexBlock } from './MathText'
 
 interface Props {
   overview: SubjectUnitOverview
@@ -114,16 +115,18 @@ export default function UnitOverviews({ overview, onBack }: Props) {
               .split('\n\n')
               .filter((p) => p.trim().length > 0)
               .map((para, idx) => (
-                <p key={idx} className="mb-4 text-sm text-gray-800">
+                <MathText key={idx} component="p" className="mb-4 text-sm text-gray-800">
                   {para}
-                </p>
+                </MathText>
               ))}
             {currentSubunit.keyIdeas.length > 0 && (
               <>
                 <h4 className="text-sm font-semibold mb-2">Key ideas:</h4>
                 <ul className="list-disc list-inside space-y-1 text-sm text-gray-800">
                   {currentSubunit.keyIdeas.map((idea, idx) => (
-                    <li key={idx}>{idea}</li>
+                    <li key={idx}>
+                      <MathText>{idea}</MathText>
+                    </li>
                   ))}
                 </ul>
               </>
@@ -131,18 +134,30 @@ export default function UnitOverviews({ overview, onBack }: Props) {
 
             {currentSubunit.exampleCode && (
               <div className="mt-6">
-                <h4 className="text-sm font-semibold mb-2">Example code:</h4>
-                <pre
-                  className="text-xs md:text-sm rounded-lg p-3 overflow-x-auto border border-black/25 bg-black/90 text-gray-100"
-                >
-                  <code>
-                    {currentSubunit.exampleCode}
-                  </code>
-                </pre>
+                <h4 className="text-sm font-semibold mb-2">
+                  {currentSubunit.exampleLanguage === 'latex' ? 'Example:' : 'Example code:'}
+                </h4>
+                {currentSubunit.exampleLanguage === 'latex' ? (
+                  <div
+                    className="text-sm rounded-lg p-3 overflow-x-auto border border-black/25 bg-gray-50 text-gray-900 katex-display"
+                    dangerouslySetInnerHTML={{
+                      __html: renderLatexBlock(currentSubunit.exampleCode),
+                    }}
+                  />
+                ) : (
+                  <pre
+                    className="text-xs md:text-sm rounded-lg p-3 overflow-x-auto border border-black/25 bg-black/90 text-gray-100"
+                  >
+                    <code>{currentSubunit.exampleCode}</code>
+                  </pre>
+                )}
                 {currentSubunit.exampleExplanation && (
-                  <p className="mt-3 text-xs md:text-sm text-gray-200 bg-black/60 rounded-lg p-3">
+                  <MathText
+                    component="p"
+                    className="mt-3 text-xs md:text-sm text-gray-200 bg-black/60 rounded-lg p-3"
+                  >
                     {currentSubunit.exampleExplanation}
-                  </p>
+                  </MathText>
                 )}
               </div>
             )}
