@@ -135,7 +135,7 @@ export default function UnitOverviews({ overview, onBack }: Props) {
             {currentSubunit.exampleCode && (
               <div className="mt-6">
                 <h4 className="text-sm font-semibold mb-2">
-                  {currentSubunit.exampleLanguage === 'latex' ? 'Example:' : 'Example code:'}
+                  {currentSubunit.exampleLanguage === 'latex' ? 'Example:' : 'Example'}
                 </h4>
                 {currentSubunit.exampleLanguage === 'latex' ? (
                   <div
@@ -145,11 +145,9 @@ export default function UnitOverviews({ overview, onBack }: Props) {
                     }}
                   />
                 ) : (
-                  <pre
-                    className="text-xs md:text-sm rounded-lg p-3 overflow-x-auto border border-black/25 bg-black/90 text-gray-100"
-                  >
-                    <code>{currentSubunit.exampleCode}</code>
-                  </pre>
+                  <MathText component="p" className="text-sm text-gray-800">
+                    {currentSubunit.exampleCode}
+                  </MathText>
                 )}
                 {currentSubunit.exampleExplanation && (
                   <MathText

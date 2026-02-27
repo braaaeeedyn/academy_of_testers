@@ -5,9 +5,12 @@ export type MathSegment =
   | { type: 'text'; content: string }
   | { type: 'inline'; content: string }
   | { type: 'display'; content: string }
+  | { type: 'code'; content: string }
 
 /**
- * Parses a string for LaTeX inline \\( ... \\) and display \\[ ... \\] and returns segments.
+ * Parses a string for:
+ *  - Code blocks delimited by triple backticks (```)
+ *  - LaTeX inline \\( ... \\) and display \\[ ... \\]
  */
 export function parseMathString(str: string): MathSegment[] {
   const result: MathSegment[] = []
@@ -15,29 +18,38 @@ export function parseMathString(str: string): MathSegment[] {
   const len = str.length
 
   while (i < len) {
-    const rest = str.slice(i)
     const nextInline = str.indexOf('\\(', i)
     const nextDisplay = str.indexOf('\\[', i)
+    const nextCode = str.indexOf('```', i)
 
-    const next =
-      nextInline === -1 && nextDisplay === -1
-        ? -1
-        : nextInline === -1
-          ? nextDisplay
-          : nextDisplay === -1
-            ? nextInline
-            : Math.min(nextInline, nextDisplay)
+    const candidates: number[] = []
+    if (nextInline !== -1) candidates.push(nextInline)
+    if (nextDisplay !== -1) candidates.push(nextDisplay)
+    if (nextCode !== -1) candidates.push(nextCode)
 
-    if (next === -1) {
-      if (i < len) result.push({ type: 'text', content: rest })
+    if (candidates.length === 0) {
+      if (i < len) result.push({ type: 'text', content: str.slice(i) })
       break
     }
+
+    const next = Math.min(...candidates)
 
     if (i < next) {
       result.push({ type: 'text', content: str.slice(i, next) })
     }
 
-    if (str.substring(next, next + 2) === '\\(') {
+    if (next === nextCode) {
+      const end = str.indexOf('```', next + 3)
+      if (end === -1) {
+        result.push({ type: 'text', content: str.slice(next) })
+        break
+      }
+      let code = str.slice(next + 3, end)
+      if (code.startsWith('\n')) code = code.slice(1)
+      if (code.endsWith('\n')) code = code.slice(0, -1)
+      result.push({ type: 'code', content: code })
+      i = end + 3
+    } else if (next === nextInline && str.substring(next, next + 2) === '\\(') {
       const end = str.indexOf('\\)', next + 2)
       if (end === -1) {
         result.push({ type: 'text', content: str.slice(next) })
@@ -68,6 +80,13 @@ function renderSegment(seg: MathSegment): string {
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/\n/g, '<br/>')
+  }
+  if (seg.type === 'code') {
+    const escaped = seg.content
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+    return `<pre style="background:#1e1e2e;color:#cdd6f4;padding:14px 16px;border-radius:8px;font-size:0.85em;line-height:1.6;overflow-x:auto;margin:8px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"><code>${escaped}</code></pre>`
   }
   try {
     return katex.renderToString(seg.content, {

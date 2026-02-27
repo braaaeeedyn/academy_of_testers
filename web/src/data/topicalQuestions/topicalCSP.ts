@@ -244,7 +244,7 @@ export const TOPICAL_CSP: TopicalExam = {
         ], 2, 'Procedures (functions) allow programmers to organize code into reusable blocks, improving readability, reducing redundancy, and making programs easier to maintain.')
       ],
       medium: [
-        q(36, 'Consider the following pseudocode:\na ← 10\nb ← 20\na ← b\nb ← a\nWhat are the final values of a and b?', [
+        q(36, 'Consider the following pseudocode:\n\n```\na ← 10\nb ← 20\na ← b\nb ← a\n```\n\nWhat are the final values of a and b?', [
           'a = 20, b = 10',
           'a = 20, b = 20',
           'a = 10, b = 20',
@@ -256,7 +256,7 @@ export const TOPICAL_CSP: TopicalExam = {
           'The list must have an even number of elements',
           'The list must contain only positive numbers'
         ], 1, 'Binary search requires the list to be sorted. It works by repeatedly dividing the search interval in half, which only works on sorted data.'),
-        q(38, 'What is the output of the following pseudocode?\nresult ← 0\nFOR EACH item IN [1, 2, 3, 4, 5]\n{\n  IF (item MOD 2 = 1)\n  {\n    result ← result + item\n  }\n}\nDISPLAY(result)', [
+        q(38, 'What is the output of the following pseudocode?\n\n```\nresult ← 0\nFOR EACH item IN [1, 2, 3, 4, 5]\n{\n  IF (item MOD 2 = 1)\n  {\n    result ← result + item\n  }\n}\nDISPLAY(result)\n```', [
           '6',
           '9',
           '15',

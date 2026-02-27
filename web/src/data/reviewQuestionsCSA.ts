@@ -38,26 +38,86 @@ export const AP_CS_A: APPracticeExam = {
       unitNumber: 2,
       title: 'Selection and Iteration',
       questions: [
-        q(1, 'What is the output of: if (5 > 3) System.out.println("Yes");?', ['"Yes"', '"No"', 'Nothing', 'Error'], 0, '5 > 3 is true, so "Yes" is printed.'),
+        q(
+          1,
+          'What is the output of:\n\nif (5 > 3) {\n  System.out.println("Yes");\n}',
+          ['"Yes"', '"No"', 'Nothing', 'Error'],
+          0,
+          '5 > 3 is true, so "Yes" is printed.'
+        ),
         q(2, 'Which operator is used for logical AND in Java?', ['&', '&&', 'AND', '||'], 1, '&& is the logical AND operator in Java.'),
         q(3, 'What is the result of: !(true && false)?', ['true', 'false', 'null', 'Error'], 0, 'true && false = false, then !false = true.'),
-        q(4, 'How many times does this loop execute: for(int i=0; i<5; i++)?', ['4', '5', '6', '0'], 1, 'i goes from 0 to 4 (inclusive), so 5 iterations.'),
-        q(5, 'What is the output of: int x=10; while(x>0) { x-=3; } System.out.println(x);?', ['1', '-2', '0', '10'], 1, 'x: 10->7->4->1->-2. Loop stops when x=-2.'),
+        q(
+          4,
+          'How many times does this loop execute?\n\nfor (int i = 0; i < 5; i++) {\n  // body\n}',
+          ['4', '5', '6', '0'],
+          1,
+          'i goes from 0 to 4 (inclusive), so 5 iterations.'
+        ),
+        q(
+          5,
+          'What is the output?\n\nint x = 10;\nwhile (x > 0) {\n  x -= 3;\n}\nSystem.out.println(x);',
+          ['1', '-2', '0', '10'],
+          1,
+          'x: 10 -> 7 -> 4 -> 1 -> -2. Loop stops when x becomes -2, so -2 is printed.'
+        ),
         q(6, 'Which statement is used to exit a loop early?', ['return', 'break', 'continue', 'exit'], 1, 'break immediately exits the current loop.'),
         q(7, 'What does "continue" do in a loop?', ['Exits the loop', 'Skips to the next iteration', 'Restarts the loop', 'Pauses the loop'], 1, 'continue skips the rest of the current iteration and moves to the next.'),
-        q(8, 'What is the output of: for(int i=1; i<=3; i++) for(int j=1; j<=2; j++) count++;?', ['5', '6', '3', '2'], 1, 'Outer loop runs 3 times, inner runs 2 times each = 3x2 = 6.'),
+        q(
+          8,
+          'What is the value of count after this code runs?\n\nint count = 0;\nfor (int i = 1; i <= 3; i++) {\n  for (int j = 1; j <= 2; j++) {\n    count++;\n  }\n}',
+          ['5', '6', '3', '2'],
+          1,
+          'Outer loop runs 3 times, inner runs 2 times each, so count increments 3×2 = 6 times.'
+        ),
         q(9, 'Which of the following is an infinite loop?', ['for(int i=0; i<10; i++)', 'while(true) {}', 'for(int i=10; i>0; i--)', 'while(false) {}'], 1, 'while(true) never has a false condition, so it loops forever.'),
-        q(10, 'What is the value of x after: int x=0; for(int i=0; i<4; i++) x += i;?', ['6', '10', '4', '3'], 0, 'x = 0+0+1+2+3 = 6.'),
+        q(
+          10,
+          'What is the value of x after this code runs?\n\nint x = 0;\nfor (int i = 0; i < 4; i++) {\n  x += i;\n}',
+          ['6', '10', '4', '3'],
+          0,
+          'The loop adds 0 + 1 + 2 + 3, so x ends as 6.'
+        ),
         q(11, 'What does the else-if construct allow?', ['Only one condition check', 'Multiple condition checks in sequence', 'Loop repetition', 'Variable declaration'], 1, 'else-if allows checking multiple conditions sequentially.'),
-        q(12, 'What is the output of: System.out.println(10 == 10);?', ['"10"', 'true', 'false', '1'], 1, '== compares values; 10 equals 10, so true.'),
+        q(
+          12,
+          'What is the output of this statement?\n\nSystem.out.println(10 == 10);',
+          ['"10"', 'true', 'false', '1'],
+          1,
+          '== compares values; 10 equals 10, so true is printed.'
+        ),
         q(13, 'Which loop is guaranteed to execute at least once?', ['for loop', 'while loop', 'do-while loop', 'enhanced for loop'], 2, 'A do-while loop checks the condition after executing the body.'),
         q(14, 'What is De Morgan\'s Law for !(A && B)?', ['!A && !B', '!A || !B', 'A || B', 'A && B'], 1, 'De Morgan\'s: !(A && B) = !A || !B.'),
-        q(15, 'What is the output of a switch statement without break?', ['Only the matching case executes', 'Fall-through to subsequent cases', 'Compilation error', 'Nothing'], 1, 'Without break, execution falls through to subsequent cases.'),
-        q(16, 'What is the result of: "abc".compareTo("abd")?', ['0', '-1', '1', 'Error'], 1, '"c" comes before "d", so compareTo returns a negative value.'),
+        q(
+          15,
+          'In a switch statement without break statements, what happens when a case matches?\n\nswitch (value) {\n  case 1:\n    // code\n  case 2:\n    // more code\n}',
+          ['Only the matching case executes', 'Fall-through to subsequent cases', 'Compilation error', 'Nothing'],
+          1,
+          'Without break, control falls through from the matching case to subsequent cases.'
+        ),
+        q(
+          16,
+          'What is the result of this expression?\n\n\"abc\".compareTo(\"abd\")',
+          ['0', '-1', '1', 'Error'],
+          1,
+          '"c" comes before "d", so compareTo returns a negative value (such as -1).'
+        ),
         q(17, 'How many times does: for(int i=10; i>=1; i-=2) execute?', ['5', '10', '4', '6'], 0, 'i: 10, 8, 6, 4, 2 -> 5 iterations.'),
         q(18, 'What is short-circuit evaluation?', ['Evaluating all conditions', 'Stopping evaluation when result is determined', 'A type of loop', 'A compilation optimization'], 1, 'Short-circuit evaluation stops as soon as the result is known.'),
-        q(19, 'What is the output of: int x=5; if(x>3 && x<10) System.out.println("Range");?', ['"Range"', 'Nothing', 'Error', '"5"'], 0, '5>3 is true and 5<10 is true, so "Range" prints.'),
-        q(20, 'What does the ternary operator ?: do?', ['Loops three times', 'Provides a shorthand for if-else', 'Declares three variables', 'Compares three values'], 1, 'The ternary operator is a compact if-else: condition ? valueIfTrue : valueIfFalse.'),
+        q(
+          19,
+          'What is the output of this code?\n\nint x = 5;\nif (x > 3 && x < 10) {\n  System.out.println(\"Range\");\n}',
+          ['"Range"', 'Nothing', 'Error', '"5"'],
+          0,
+          '5 > 3 is true and 5 < 10 is true, so "Range" prints.'
+        ),
+        q(
+          20,
+          'What does the ternary operator ?: do?\n\ncondition ? valueIfTrue : valueIfFalse',
+          ['Loops three times', 'Provides a shorthand for if-else', 'Declares three variables', 'Compares three values'],
+          1,
+          'The ternary operator is a compact form of if-else: it evaluates to one of two expressions based on a boolean condition.'
+        ),
       ],
     },
     {
