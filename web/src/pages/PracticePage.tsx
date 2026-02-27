@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { AP_PRACTICE_DATA } from '../data/apPracticeQuestions'
 import type { APPracticeExam, ExamUnit, PracticeQuestion } from '../data/apPracticeQuestions'
+import MathText from '../components/MathText'
 
 export default function PracticePage() {
   const { examId } = useParams<{ examId: string }>()
@@ -209,7 +210,9 @@ export default function PracticePage() {
             </div>
 
             <div className="p-6">
-              <p className="text-lg font-semibold mb-6">{question.question}</p>
+              <MathText className="text-lg font-semibold mb-6" component="p">
+                {question.question}
+              </MathText>
 
               <div className="space-y-3">
                 {question.options.map((option, idx) => {
@@ -243,7 +246,9 @@ export default function PracticePage() {
                         >
                           {String.fromCharCode(65 + idx)}
                         </span>
-                        <span className="text-sm">{option}</span>
+                        <MathText className="text-sm" component="span">
+                          {option}
+                        </MathText>
                       </div>
                     </button>
                   )
@@ -259,7 +264,9 @@ export default function PracticePage() {
                       {selectedAnswer === question.correctAnswer ? 'Correct!' : `Incorrect — Answer: ${String.fromCharCode(65 + question.correctAnswer)}`}
                     </span>
                   </div>
-                  <p className="text-sm text-gray-700">{question.explanation}</p>
+                  <MathText className="text-sm text-gray-700" component="p">
+                    {question.explanation}
+                  </MathText>
                 </div>
               )}
 

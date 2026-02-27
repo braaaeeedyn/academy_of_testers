@@ -1,5 +1,6 @@
 import { useState, useMemo, useCallback } from 'react'
 import type { TopicalExam, TopicalQuestion, TopicalUnit } from '../data/topicalQuestions'
+import MathText from './MathText'
 
 type Difficulty = 'easy' | 'medium' | 'hard'
 
@@ -226,7 +227,9 @@ export default function PracticeProblemsQuiz({ exam, onBack }: Props) {
         </div>
 
         <div className="p-6">
-          <p className="text-lg font-semibold mb-6">{q.question}</p>
+          <MathText className="text-lg font-semibold mb-6" component="p">
+            {q.question}
+          </MathText>
 
           <div className="space-y-3">
             {q.options.map((option, idx) => {
@@ -260,7 +263,9 @@ export default function PracticeProblemsQuiz({ exam, onBack }: Props) {
                     >
                       {String.fromCharCode(65 + idx)}
                     </span>
-                    <span className="text-sm">{option}</span>
+                    <MathText className="text-sm" component="span">
+                      {option}
+                    </MathText>
                   </div>
                 </button>
               )
@@ -281,7 +286,9 @@ export default function PracticeProblemsQuiz({ exam, onBack }: Props) {
                     : `Incorrect — Answer: ${String.fromCharCode(65 + q.correctAnswer)}`}
                 </span>
               </div>
-              <p className="text-sm text-gray-700">{q.explanation}</p>
+              <MathText className="text-sm text-gray-700" component="p">
+                {q.explanation}
+              </MathText>
             </div>
           )}
 
