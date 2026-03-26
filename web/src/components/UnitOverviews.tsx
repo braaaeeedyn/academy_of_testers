@@ -47,7 +47,7 @@ export default function UnitOverviews({ overview, onBack }: Props) {
       </button>
 
       <h2 className="text-2xl font-bold mb-4">Unit Overviews</h2>
-      <p className="text-gray-700 mb-6">
+      <p className="mb-6" style={{ color: 'var(--color-primary)', opacity: 0.7 }}>
         Browse high-level summaries of each unit and subunit for{' '}
         <span className="font-semibold">{overview.subjectName}</span>. Start by choosing a unit, then
         select a subunit to view focused notes.
@@ -115,14 +115,22 @@ export default function UnitOverviews({ overview, onBack }: Props) {
               .split('\n\n')
               .filter((p) => p.trim().length > 0)
               .map((para, idx) => (
-                <MathText key={idx} component="p" className="mb-4 text-sm text-gray-800">
+                <MathText
+                  key={idx}
+                  component="p"
+                  className="mb-4 text-sm"
+                  style={{ color: 'var(--color-primary)', opacity: 0.85 }}
+                >
                   {para}
                 </MathText>
               ))}
             {currentSubunit.keyIdeas.length > 0 && (
               <>
                 <h4 className="text-sm font-semibold mb-2">Key ideas:</h4>
-                <ul className="list-disc list-inside space-y-1 text-sm text-gray-800">
+                <ul
+                  className="list-disc list-inside space-y-1 text-sm"
+                  style={{ color: 'var(--color-primary)', opacity: 0.85 }}
+                >
                   {currentSubunit.keyIdeas.map((idea, idx) => (
                     <li key={idx}>
                       <MathText>{idea}</MathText>
@@ -139,13 +147,26 @@ export default function UnitOverviews({ overview, onBack }: Props) {
                 </h4>
                 {currentSubunit.exampleLanguage === 'latex' ? (
                   <div
-                    className="text-sm rounded-lg p-3 overflow-x-auto border border-black/25 bg-gray-50 text-gray-900 katex-display"
-                    dangerouslySetInnerHTML={{
-                      __html: renderLatexBlock(currentSubunit.exampleCode),
+                    className="text-sm rounded-lg p-3 overflow-x-auto border border-black/25"
+                    style={{
+                      backgroundColor:
+                        'color-mix(in srgb, var(--color-primary) 8%, var(--color-secondary))',
                     }}
-                  />
+                  >
+                    <div
+                      className="katex-display"
+                      style={{ color: 'var(--color-primary)', opacity: 0.85 }}
+                      dangerouslySetInnerHTML={{
+                        __html: renderLatexBlock(currentSubunit.exampleCode),
+                      }}
+                    />
+                  </div>
                 ) : (
-                  <MathText component="p" className="text-sm text-gray-800">
+                  <MathText
+                    component="p"
+                    className="text-sm"
+                    style={{ color: 'var(--color-primary)', opacity: 0.85 }}
+                  >
                     {currentSubunit.exampleCode}
                   </MathText>
                 )}

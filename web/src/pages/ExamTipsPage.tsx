@@ -93,7 +93,12 @@ export default function ExamTipsPage() {
             <span className="text-4xl">{activeTips.icon}</span>
             <div>
               <h2 className="text-2xl font-bold">{activeTips.label}</h2>
-              <p className="text-sm text-gray-500">{activeTips.description}</p>
+              <p
+                className="text-sm"
+                style={{ color: 'var(--color-primary)', opacity: 0.5 }}
+              >
+                {activeTips.description}
+              </p>
             </div>
           </div>
 
@@ -185,10 +190,19 @@ export default function ExamTipsPage() {
 
       {/* Empty State */}
       {!activeTips && (
-        <div className="text-center py-16 bg-gray-50 rounded-xl">
+        <div
+          className="text-center py-16 rounded-xl"
+          style={{
+            backgroundColor:
+              'color-mix(in srgb, var(--color-primary) 8%, var(--color-secondary))',
+          }}
+        >
           <div className="text-5xl mb-4">💡</div>
           <h3 className="text-xl font-bold mb-2">Select a Category Above</h3>
-          <p className="text-gray-600 max-w-md mx-auto">
+          <p
+            className="max-w-md mx-auto"
+            style={{ color: 'var(--color-primary)', opacity: 0.7 }}
+          >
             Choose an exam category to view targeted tips and strategies for
             those specific AP exams.
           </p>

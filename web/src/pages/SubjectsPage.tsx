@@ -31,7 +31,12 @@ export default function SubjectsPage() {
   if (loading) {
     return (
       <div className="text-center py-12">
-        <div className="text-xl text-gray-600">Loading subjects...</div>
+        <div
+          className="text-xl"
+          style={{ color: 'var(--color-primary)', opacity: 0.65 }}
+        >
+          Loading subjects...
+        </div>
       </div>
     )
   }
@@ -39,7 +44,7 @@ export default function SubjectsPage() {
   if (error) {
     return (
       <div className="text-center py-12">
-        <div className="text-xl text-red-600">Error: {error}</div>
+        <div className="text-xl text-red-500">Error: {error}</div>
         <button
           onClick={() => navigate(examId ? `/exams/${examId}/hub` : '/')}
           className="mt-4 hover:underline cursor-pointer"
@@ -64,7 +69,10 @@ export default function SubjectsPage() {
       </button>
 
       <h1 className="text-4xl font-bold mb-6">{examName} Subjects</h1>
-      <p className="text-gray-600 mb-8">
+      <p
+        className="mb-8"
+        style={{ color: 'var(--color-primary)', opacity: 0.65 }}
+      >
         Select a subject to view available study resources
       </p>
 
@@ -80,7 +88,12 @@ export default function SubjectsPage() {
             >
               <h3 className="font-semibold text-lg mb-2">{subject.name}</h3>
               {subject.description && (
-                <p className="text-sm text-gray-600">{subject.description}</p>
+                <p
+                  className="text-sm"
+                  style={{ color: 'var(--color-primary)', opacity: 0.65 }}
+                >
+                  {subject.description}
+                </p>
               )}
             </Link>
           ))}

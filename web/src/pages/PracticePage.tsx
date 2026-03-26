@@ -101,7 +101,10 @@ export default function PracticePage() {
           <select
             value={selectedSlug}
             onChange={(e) => setSelectedSlug(e.target.value)}
-            className="flex-1 px-4 py-3 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 cursor-pointer"
+            className="flex-1 px-4 py-3 border rounded-lg text-sm focus:outline-none focus:ring-2 cursor-pointer"
+            style={{
+              borderColor: 'color-mix(in srgb, var(--color-primary) 20%, transparent)',
+            }}
           >
             <option value="">-- Choose an exam --</option>
             {AP_PRACTICE_DATA.map((exam) => (
@@ -146,7 +149,9 @@ export default function PracticePage() {
                   <h3 className="text-lg font-bold mb-1 group-hover:underline">
                     {unit.title}
                   </h3>
-                  <p className="text-xs text-gray-500">{unit.questions.length} questions</p>
+                  <p className="text-xs" style={{ color: 'var(--color-primary)', opacity: 0.5 }}>
+                    {unit.questions.length} questions
+                  </p>
                 </div>
                 <div
                   className="px-5 py-2 text-xs font-semibold mt-auto"
@@ -172,7 +177,10 @@ export default function PracticePage() {
               ← Back to units
             </button>
             <div className="flex items-center gap-4">
-              <span className="text-sm font-medium text-gray-600">
+              <span
+                className="text-sm font-medium"
+                style={{ color: 'var(--color-primary)', opacity: 0.65 }}
+              >
                 Score: {score}/{answered}
               </span>
               <span
@@ -185,7 +193,12 @@ export default function PracticePage() {
           </div>
 
           {/* Progress Bar */}
-          <div className="w-full bg-gray-200 rounded-full h-2 mb-6">
+          <div
+            className="w-full rounded-full h-2 mb-6"
+            style={{
+              backgroundColor: 'color-mix(in srgb, var(--color-primary) 15%, var(--color-secondary))',
+            }}
+          >
             <div
               className="h-2 rounded-full transition-all duration-300"
               style={{
@@ -264,7 +277,11 @@ export default function PracticePage() {
                       {selectedAnswer === question.correctAnswer ? 'Correct!' : `Incorrect — Answer: ${String.fromCharCode(65 + question.correctAnswer)}`}
                     </span>
                   </div>
-                  <MathText className="text-sm text-gray-700" component="p">
+                  <MathText
+                    className="text-sm"
+                    component="p"
+                    style={{ color: 'var(--color-primary)', opacity: 0.7 }}
+                  >
                     {question.explanation}
                   </MathText>
                 </div>
@@ -307,10 +324,15 @@ export default function PracticePage() {
 
       {/* Empty State */}
       {!activeExam && (
-        <div className="text-center py-16 bg-gray-50 rounded-xl">
+        <div
+          className="text-center py-16 rounded-xl"
+          style={{
+            backgroundColor: 'color-mix(in srgb, var(--color-primary) 8%, var(--color-secondary))',
+          }}
+        >
           <div className="text-5xl mb-4">🎯</div>
           <h3 className="text-xl font-bold mb-2">Select an Exam Above</h3>
-          <p className="text-gray-600 max-w-md mx-auto">
+          <p className="max-w-md mx-auto" style={{ color: 'var(--color-primary)', opacity: 0.65 }}>
             Choose an AP exam from the dropdown and click Search to start
             practicing with unit-based multiple choice questions.
           </p>

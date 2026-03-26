@@ -208,7 +208,12 @@ export default function PracticeProblemsQuiz({ exam, onBack }: Props) {
       </div>
 
       {/* Progress Bar */}
-      <div className="w-full bg-gray-200 rounded-full h-2 mb-6">
+      <div
+        className="w-full rounded-full h-2 mb-6"
+        style={{
+          backgroundColor: 'color-mix(in srgb, var(--color-primary) 15%, var(--color-secondary))',
+        }}
+      >
         <div
           className="h-2 rounded-full transition-all duration-300"
           style={{
@@ -286,7 +291,11 @@ export default function PracticeProblemsQuiz({ exam, onBack }: Props) {
                     : `Incorrect — Answer: ${String.fromCharCode(65 + q.correctAnswer)}`}
                 </span>
               </div>
-              <MathText className="text-sm text-gray-700" component="p">
+              <MathText
+                className="text-sm"
+                component="p"
+                style={{ color: 'var(--color-primary)', opacity: 0.7 }}
+              >
                 {q.explanation}
               </MathText>
             </div>

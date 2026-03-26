@@ -31,7 +31,12 @@ export default function ResourceDetailPage() {
   if (loading) {
     return (
       <div className="text-center py-12">
-        <div className="text-xl text-gray-600">Loading resource...</div>
+        <div
+          className="text-xl"
+          style={{ color: 'var(--color-primary)', opacity: 0.65 }}
+        >
+          Loading resource...
+        </div>
       </div>
     )
   }
@@ -39,7 +44,7 @@ export default function ResourceDetailPage() {
   if (error || !resource) {
     return (
       <div className="text-center py-12">
-        <div className="text-xl text-red-600">
+        <div className="text-xl text-red-500">
           Error: {error || 'Resource not found'}
         </div>
         <button
@@ -74,21 +79,48 @@ export default function ResourceDetailPage() {
             {resource.subjectName}
           </span>
           {resource.examYear && (
-            <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">
+            <span
+              className="px-3 py-1 rounded-full text-sm font-medium"
+              style={{
+                backgroundColor:
+                  'color-mix(in srgb, var(--color-primary) 10%, var(--color-secondary))',
+                color: 'color-mix(in srgb, var(--color-primary) 85%, var(--color-secondary))',
+              }}
+            >
               Year: {resource.examYear}
             </span>
           )}
-          <span className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">
+          <span
+            className="px-3 py-1 rounded-full text-sm font-medium"
+            style={{
+              backgroundColor:
+                'color-mix(in srgb, var(--color-primary) 10%, var(--color-secondary))',
+              color: 'color-mix(in srgb, var(--color-primary) 85%, var(--color-secondary))',
+            }}
+          >
             {resource.fileType}
           </span>
         </div>
 
-        <p className="text-gray-700 mb-8">{resource.description}</p>
+        <p
+          className="mb-8"
+          style={{ color: 'var(--color-primary)', opacity: 0.75 }}
+        >
+          {resource.description}
+        </p>
 
         {/* Inline PDF Viewer */}
         <div className="border-t pt-6 mb-8">
           <h2 className="text-xl font-semibold mb-4">View Resource</h2>
-          <div className="w-full rounded-lg overflow-hidden border border-gray-300 bg-gray-100">
+          <div
+            className="w-full rounded-lg overflow-hidden border"
+            style={{
+              borderColor:
+                'color-mix(in srgb, var(--color-primary) 20%, transparent)',
+              backgroundColor:
+                'color-mix(in srgb, var(--color-primary) 10%, var(--color-secondary))',
+            }}
+          >
             <iframe
               src={resource.fileUrl}
               title={resource.title}
@@ -124,9 +156,18 @@ export default function ResourceDetailPage() {
           </a>
         </div>
 
-        <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+        <div
+          className="mt-6 p-4 rounded-lg"
+          style={{
+            backgroundColor:
+              'color-mix(in srgb, var(--color-primary) 8%, var(--color-secondary))',
+          }}
+        >
           <h3 className="font-semibold mb-2">About This Resource</h3>
-          <p className="text-sm text-gray-600">
+          <p
+            className="text-sm"
+            style={{ color: 'var(--color-primary)', opacity: 0.65 }}
+          >
             This is a free educational resource. Click the download button above to
             open or save the PDF file.
           </p>

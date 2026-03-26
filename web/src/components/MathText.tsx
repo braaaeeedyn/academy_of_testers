@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react'
 import katex from 'katex'
 import 'katex/dist/katex.min.css'
 
@@ -102,6 +103,7 @@ interface MathTextProps {
   children: string
   className?: string
   component?: 'span' | 'p' | 'div'
+  style?: CSSProperties
 }
 
 /**
@@ -111,6 +113,7 @@ export default function MathText({
   children,
   className = '',
   component: Component = 'span',
+  style,
 }: MathTextProps) {
   if (!children) return null
   const segments = parseMathString(children)
@@ -118,6 +121,7 @@ export default function MathText({
   return (
     <Component
       className={className}
+      style={style}
       dangerouslySetInnerHTML={{ __html: html }}
     />
   )
