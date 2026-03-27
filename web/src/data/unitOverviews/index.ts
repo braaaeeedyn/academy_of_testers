@@ -7,6 +7,12 @@ import { CALC_AB_UNIT_OVERVIEWS, CALC_BC_UNIT_OVERVIEWS } from './calcUnitOvervi
 import { PRECALC_UNIT_OVERVIEWS } from './precalcUnitOverviews'
 import { STATS_UNIT_OVERVIEWS } from './statsUnitOverviews'
 import { PHYSICS1_UNIT_OVERVIEWS } from './physics1UnitOverviews'
+import { AFRICAN_AMERICAN_STUDIES_UNIT_OVERVIEWS } from './africanAmericanStudiesUnitOverviews'
+import { COMPARATIVE_GOVERNMENT_UNIT_OVERVIEWS } from './comparativeGovernmentUnitOverviews'
+import { EUROPEAN_HISTORY_UNIT_OVERVIEWS } from './europeanHistoryUnitOverviews'
+import { HUMAN_GEOGRAPHY_UNIT_OVERVIEWS } from './humanGeographyUnitOverviews'
+import { MACROECONOMICS_UNIT_OVERVIEWS } from './macroeconomicsUnitOverviews'
+import { MICROECONOMICS_UNIT_OVERVIEWS } from './microeconomicsUnitOverviews'
 
 const SUBJECT_OVERVIEWS: SubjectUnitOverview[] = [
   CSA_UNIT_OVERVIEWS,
@@ -16,6 +22,12 @@ const SUBJECT_OVERVIEWS: SubjectUnitOverview[] = [
   PRECALC_UNIT_OVERVIEWS,
   STATS_UNIT_OVERVIEWS,
   PHYSICS1_UNIT_OVERVIEWS,
+  AFRICAN_AMERICAN_STUDIES_UNIT_OVERVIEWS,
+  COMPARATIVE_GOVERNMENT_UNIT_OVERVIEWS,
+  EUROPEAN_HISTORY_UNIT_OVERVIEWS,
+  HUMAN_GEOGRAPHY_UNIT_OVERVIEWS,
+  MACROECONOMICS_UNIT_OVERVIEWS,
+  MICROECONOMICS_UNIT_OVERVIEWS,
 ]
 
 export function getUnitOverviewBySubjectName(subjectName: string): SubjectUnitOverview | undefined {

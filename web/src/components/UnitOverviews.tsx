@@ -4,10 +4,10 @@ import MathText, { renderLatexBlock } from './MathText'
 
 interface Props {
   overview: SubjectUnitOverview
-  onBack: () => void
+  onBack?: () => void
 }
 
-export default function UnitOverviews({ overview, onBack }: Props) {
+export default function UnitOverviews({ overview }: Props) {
   const [selectedUnitNumber, setSelectedUnitNumber] = useState<number>(
     overview.units[0]?.unitNumber ?? 1
   )
@@ -38,14 +38,6 @@ export default function UnitOverviews({ overview, onBack }: Props) {
 
   return (
     <div>
-      <button
-        onClick={onBack}
-        className="hover:underline mb-4 flex items-center cursor-pointer"
-        style={{ color: 'var(--color-primary)' }}
-      >
-        ← Back to {overview.subjectName} categories
-      </button>
-
       <h2 className="text-2xl font-bold mb-4">Unit Overviews</h2>
       <p className="mb-6" style={{ color: 'var(--color-primary)', opacity: 0.7 }}>
         Browse high-level summaries of each unit and subunit for{' '}

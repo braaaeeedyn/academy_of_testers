@@ -183,7 +183,7 @@ export default function ResourcesPage() {
           </div>
         </div>
         <button
-          onClick={() => navigate(`/exams/${subject.examId}/hub`)}
+          onClick={() => activeCategory !== null ? setActiveCategory(null) : navigate(`/exams/${subject.examId}/hub`)}
           className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity flex-shrink-0"
           style={{
             color: 'var(--color-secondary)',
@@ -193,7 +193,7 @@ export default function ResourcesPage() {
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
             <path d="M15 19l-7-7 7-7" />
           </svg>
-          {subject.examName} Hub
+          {activeCategory !== null ? subject.name : `${subject.examName} Hub`}
         </button>
       </div>
 
@@ -240,10 +240,7 @@ export default function ResourcesPage() {
       {/* Topical Unit Review (from PracticePage data) */}
       {activeCategory === 'topical-review' && (
         <section>
-          <TopicalReviewInline
-            subjectName={subject.name}
-            onBack={() => setActiveCategory(null)}
-          />
+          <TopicalReviewInline subjectName={subject.name} />
         </section>
       )}
 
@@ -270,14 +267,6 @@ export default function ResourcesPage() {
         !(activeCategory === 'practice-problems' && topicalExam) &&
         !(activeCategory === 'cheat-sheets' && unitOverview) && (
         <section>
-          <button
-            onClick={() => setActiveCategory(null)}
-            className="hover:underline mb-4 flex items-center cursor-pointer text-sm"
-            style={{ color: 'var(--color-primary)' }}
-          >
-            ← Back to {subject.name} categories
-          </button>
-
           <h2 className="text-xl font-bold mb-6">
             {categories.find((c) => c.id === activeCategory)?.title}
           </h2>
@@ -418,10 +407,8 @@ export default function ResourcesPage() {
 
 function TopicalReviewInline({
   subjectName,
-  onBack,
 }: {
   subjectName: string
-  onBack: () => void
 }) {
   const slug = subjectName.toLowerCase().replace(/\s+/g, '-').replace(/:/g, '')
   const exam = AP_PRACTICE_DATA.find((e) => e.slug === slug)
@@ -444,13 +431,6 @@ function TopicalReviewInline({
   if (!exam) {
     return (
       <div>
-        <button
-          onClick={onBack}
-          className="hover:underline mb-4 flex items-center cursor-pointer text-sm"
-          style={{ color: 'var(--color-primary)' }}
-        >
-          ← Back to categories
-        </button>
         <p style={{ color: 'var(--color-primary)', opacity: 0.6 }}>
           No topical review data available for this subject.
         </p>
@@ -461,13 +441,6 @@ function TopicalReviewInline({
   if (!activeUnit) {
     return (
       <div>
-        <button
-          onClick={onBack}
-          className="hover:underline mb-4 flex items-center cursor-pointer text-sm"
-          style={{ color: 'var(--color-primary)' }}
-        >
-          ← Back to categories
-        </button>
         <h2 className="text-xl font-bold mb-4">Topical Unit Review — Select a Unit</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
           {exam.units.map((unit) => (

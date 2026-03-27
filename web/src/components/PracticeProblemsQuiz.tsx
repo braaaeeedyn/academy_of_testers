@@ -24,10 +24,10 @@ function buildQuiz(exam: TopicalExam, difficulty: Difficulty): QuizQuestion[] {
 
 interface Props {
   exam: TopicalExam
-  onBack: () => void
+  onBack?: () => void
 }
 
-export default function PracticeProblemsQuiz({ exam, onBack }: Props) {
+export default function PracticeProblemsQuiz({ exam }: Props) {
   const [difficulty, setDifficulty] = useState<Difficulty>('easy')
   const [seed, setSeed] = useState(0)
   const [currentQ, setCurrentQ] = useState(0)
@@ -104,14 +104,6 @@ export default function PracticeProblemsQuiz({ exam, onBack }: Props) {
     const pct = answered === 0 ? 0 : Math.round((score / answered) * 100)
     return (
       <div>
-        <button
-          onClick={onBack}
-          className="hover:underline mb-6 flex items-center cursor-pointer"
-          style={{ color: 'var(--color-primary)' }}
-        >
-          ← Back to categories
-        </button>
-
         <div className="rounded-xl shadow-md border border-black/35 overflow-hidden" style={{ backgroundColor: 'var(--color-secondary)' }}>
           <div className="px-6 py-4" style={{ backgroundColor: 'var(--color-primary)' }}>
             <h3 className="text-lg font-bold" style={{ color: 'var(--color-secondary)' }}>
@@ -147,13 +139,6 @@ export default function PracticeProblemsQuiz({ exam, onBack }: Props) {
                   Try {difficulty === 'easy' ? 'Medium' : 'Hard'} →
                 </button>
               )}
-              <button
-                onClick={onBack}
-                className="px-6 py-3 rounded-lg font-semibold text-sm cursor-pointer border border-black/35 transition-opacity hover:opacity-80"
-                style={{ backgroundColor: 'var(--color-secondary)' }}
-              >
-                Back to Categories
-              </button>
             </div>
           </div>
         </div>
@@ -165,14 +150,6 @@ export default function PracticeProblemsQuiz({ exam, onBack }: Props) {
 
   return (
     <div>
-      <button
-        onClick={onBack}
-        className="hover:underline mb-4 flex items-center cursor-pointer"
-        style={{ color: 'var(--color-primary)' }}
-      >
-        ← Back to categories
-      </button>
-
       {/* Difficulty Selector */}
       <div className="flex items-center gap-2 mb-6">
         <span className="text-sm font-medium mr-1" style={{ color: 'var(--color-primary)' }}>
