@@ -744,6 +744,33 @@ export const AP_EXAM_DATA: APExamInfo[] = [
     ],
   },
   {
+    label: 'AP Research',
+    slug: 'ap-research',
+    sourceUrl: 'https://apstudents.collegeboard.org/courses/ap-research/assessment',
+    sections: [
+      {
+        title: 'Academic Paper',
+        questionCount: '4,000–5,000 words',
+        scoreWeight: '75%',
+        details: [
+          'Year-long independent research on a topic of your choosing',
+          'Problem-based inquiry with method appropriate to the discipline',
+          'Sustained argument supported by evidence and documented sources',
+        ],
+      },
+      {
+        title: 'Presentation and Oral Defense',
+        questionCount: 'Presentation + defense',
+        scoreWeight: '25%',
+        details: [
+          'Communicate research process and findings to an audience',
+          'Respond to questions about the inquiry, methods, and conclusions',
+          'There is no end-of-course exam; the course is assessed entirely through these tasks',
+        ],
+      },
+    ],
+  },
+  {
     label: 'AP Statistics',
     slug: 'ap-statistics',
     sourceUrl: 'https://apstudents.collegeboard.org/courses/ap-statistics/assessment',
