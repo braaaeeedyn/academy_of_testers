@@ -412,13 +412,26 @@ export default function ThemesPage() {
     const list = isDark ? darkThemes : lightThemes
     return (
       <div>
-        <button
-          onClick={() => setView('categories')}
-          className="hover:underline mb-4 flex items-center cursor-pointer"
-          style={{ color: 'var(--color-primary)' }}
-        >
-          ← Back to categories
-        </button>
+        <div className="flex items-center justify-end mb-4">
+          <button
+            onClick={() => setView('categories')}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity"
+            style={{ color: 'var(--color-secondary)', backgroundColor: 'var(--color-primary)' }}
+          >
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M15 19l-7-7 7-7" />
+            </svg>
+            Back to categories
+          </button>
+        </div>
 
         <h1 className="text-4xl font-bold mb-2">
           {isDark ? 'Dark' : 'Light'} Themes
@@ -436,13 +449,26 @@ export default function ThemesPage() {
 
   return (
     <div>
-      <button
-        onClick={() => navigate(-1)}
-        className="hover:underline mb-4 flex items-center cursor-pointer"
-        style={{ color: 'var(--color-primary)' }}
-      >
-        ← Back
-      </button>
+      <div className="flex items-center justify-end mb-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity"
+          style={{ color: 'var(--color-secondary)', backgroundColor: 'var(--color-primary)' }}
+        >
+          <svg
+            className="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M15 19l-7-7 7-7" />
+          </svg>
+          Back
+        </button>
+      </div>
 
       <h1 className="text-4xl font-bold mb-2">Color Schemes</h1>
       <p className="mb-8" style={{ color: 'var(--color-primary)', opacity: 0.65 }}>

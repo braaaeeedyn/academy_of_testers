@@ -73,11 +73,6 @@ const AP_SUBJECT_CATEGORIES: SubjectCategory[] = [
       'AP Physics C: Mechanics',
     ],
   },
-  {
-    category: 'World Languages & Cultures',
-    iconPath: 'M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129',
-    subjectNames: ['AP Foreign Languages'],
-  },
 ]
 
 const SUBJECT_ICONS: Record<string, string> = {
@@ -111,7 +106,6 @@ const SUBJECT_ICONS: Record<string, string> = {
   'AP Physics 2': 'M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
   'AP Physics C: E&M': 'M13 10V3L4 14h7v7l9-11h-7z',
   'AP Physics C: Mechanics': 'M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z M15 12a3 3 0 11-6 0 3 3 0 016 0z',
-  'AP Foreign Languages': 'M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129',
 }
 
 function getSubjectIcon(name: string): string {

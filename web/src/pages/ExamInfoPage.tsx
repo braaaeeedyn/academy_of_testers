@@ -17,13 +17,26 @@ export default function ExamInfoPage() {
 
   return (
     <div>
-      <button
-        onClick={() => navigate(examId ? `/exams/${examId}/hub` : '/')}
-        className="hover:underline mb-6 flex items-center cursor-pointer"
-        style={{ color: 'var(--color-primary)' }}
-      >
-        ← Back to Hub
-      </button>
+      <div className="flex items-center justify-end mb-6">
+        <button
+          onClick={() => navigate(examId ? `/exams/${examId}/hub` : '/')}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity"
+          style={{ color: 'var(--color-secondary)', backgroundColor: 'var(--color-primary)' }}
+        >
+          <svg
+            className="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M15 19l-7-7 7-7" />
+          </svg>
+          Back to Hub
+        </button>
+      </div>
 
       {/* Exam Selector */}
       <div className="rounded-xl shadow-md p-6 mb-8 border border-black/35" style={{ backgroundColor: 'var(--color-secondary)' }}>

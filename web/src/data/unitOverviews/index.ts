@@ -23,6 +23,7 @@ import { AP_ENGLISH_LITERATURE_UNIT_OVERVIEWS } from './apEnglishLiteratureUnitO
 import { AP_RESEARCH_UNIT_OVERVIEWS } from './apResearchUnitOverviews'
 import { AP_SEMINAR_UNIT_OVERVIEWS } from './apSeminarUnitOverviews'
 import { AP_CHEMISTRY_UNIT_OVERVIEWS } from './apChemistryUnitOverviews'
+import { AP_ENV_SCIENCE_UNIT_OVERVIEWS } from './apEnvScienceUnitOverviews'
 
 const SUBJECT_OVERVIEWS: SubjectUnitOverview[] = [
   CSA_UNIT_OVERVIEWS,
@@ -48,6 +49,7 @@ const SUBJECT_OVERVIEWS: SubjectUnitOverview[] = [
   AP_RESEARCH_UNIT_OVERVIEWS,
   AP_SEMINAR_UNIT_OVERVIEWS,
   AP_CHEMISTRY_UNIT_OVERVIEWS,
+  AP_ENV_SCIENCE_UNIT_OVERVIEWS,
 ]
 
 export function getUnitOverviewBySubjectName(subjectName: string): SubjectUnitOverview | undefined {
