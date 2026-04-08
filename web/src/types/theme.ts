@@ -18,15 +18,15 @@ export const lightThemes: Theme[] = [
 ]
 
 export const darkThemes: Theme[] = [
-  { id: 'cold-lake', name: 'Cold Lake', primary: '#3A97D4', secondary: '#1A2037' },
-  { id: 'soft-olive', name: 'Soft Olive', primary: '#ABC8A2', secondary: '#1A2417' },
-  { id: 'silver-silk', name: 'Silver Silk', primary: '#C4C3D0', secondary: '#50222D' },
-  { id: 'sleek-noir', name: 'Sleek Noir', primary: '#B388FF', secondary: '#0D0D0D' },
-  { id: 'midnight-ember', name: 'Midnight Ember', primary: '#FF6B35', secondary: '#1C1C1E' },
-  { id: 'deep-sapphire', name: 'Deep Sapphire', primary: '#64B5F6', secondary: '#0A1929' },
-  { id: 'shadow-mint', name: 'Shadow Mint', primary: '#80CBC4', secondary: '#1B2A2A' },
-  { id: 'obsidian-gold', name: 'Obsidian Gold', primary: '#FFD54F', secondary: '#1A1A2E' },
-  { id: 'carbon-rose', name: 'Carbon Rose', primary: '#F48FB1', secondary: '#1E1E1E' },
+  { id: 'cold-lake', name: 'Cold Lake', primary: '#7FA8C9', secondary: '#1A2037' },
+  { id: 'soft-olive', name: 'Soft Olive', primary: '#8FA888', secondary: '#1E2A1C' },
+  { id: 'slate-dusk', name: 'Slate Dusk', primary: '#A0A4B0', secondary: '#2A2D35' },
+  { id: 'navy-ash', name: 'Navy Ash', primary: '#8E9AAF', secondary: '#1B2332' },
+  { id: 'deep-sapphire', name: 'Deep Sapphire', primary: '#7CA1C0', secondary: '#141E2E' },
+  { id: 'shadow-mint', name: 'Shadow Mint', primary: '#7EB0AA', secondary: '#1C2828' },
+  { id: 'charcoal-sand', name: 'Charcoal Sand', primary: '#B5A992', secondary: '#252320' },
+  { id: 'iron-walnut', name: 'Iron Walnut', primary: '#9C8B7A', secondary: '#1F1B18' },
+  { id: 'midnight-steel', name: 'Midnight Steel', primary: '#8A9BAE', secondary: '#171B22' },
 ]
 
 export const themes: Theme[] = [...lightThemes, ...darkThemes]

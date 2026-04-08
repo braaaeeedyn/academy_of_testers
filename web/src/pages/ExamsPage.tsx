@@ -1,38 +1,146 @@
-import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-import { getExams } from '../services/api'
-import type { Exam } from '../types/api'
+import { useEffect, useState, useMemo } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import { getExams, getSubjectsByExam } from '../services/api'
+import type { Exam, Subject } from '../types/api'
 import CircularText from '../components/CircularText'
+import CardNav from '../components/CardNav'
+import LogoLoop from '../components/LogoLoop'
 
 const LOGO_PATH = '/aotpfp.png'
 
+function FeatureIcon({ d }: { d: string }) {
+  return (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--color-primary)' }}>
+      <path d={d} />
+    </svg>
+  )
+}
+
+const FEATURE_CARD_STYLE: React.CSSProperties = {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  justifyContent: 'center',
+  textAlign: 'center',
+  padding: '14px 20px',
+  borderRadius: '0.75rem',
+  backgroundColor: 'var(--color-secondary)',
+  border: '1px solid color-mix(in srgb, var(--color-primary) 10%, transparent)',
+  boxShadow: '0 1px 4px rgba(0,0,0,0.06)',
+  width: 140,
+  height: 120,
+  flexShrink: 0,
+}
+
+const FEATURE_ICON_BOX: React.CSSProperties = {
+  width: 40,
+  height: 40,
+  borderRadius: 8,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  marginBottom: 8,
+  backgroundColor: 'color-mix(in srgb, var(--color-primary) 10%, var(--color-secondary))',
+}
+
+const FEATURES_DATA = [
+  { label: 'Unit Overviews', desc: 'Summaries per unit', icon: 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01' },
+  { label: 'Practice Problems', desc: 'Questions by topic', icon: 'M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z' },
+  { label: 'Testy AI', desc: 'Ask & get answers', icon: 'M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z' },
+  { label: 'Scoring Rubrics', desc: 'Exam breakdowns', icon: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z' },
+  { label: 'Review Videos', desc: 'Visual walkthroughs', icon: 'M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664zM21 12a9 9 0 11-18 0 9 9 0 0118 0z' },
+  { label: 'Practice Exams', desc: 'Full-length tests', icon: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z' },
+]
+
+const FEATURES = FEATURES_DATA.map((f) => ({
+  node: (
+    <div style={FEATURE_CARD_STYLE}>
+      <div style={FEATURE_ICON_BOX}>
+        <FeatureIcon d={f.icon} />
+      </div>
+      <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--color-primary)' }}>{f.label}</span>
+      <span style={{ fontSize: 10, marginTop: 2, color: 'var(--color-primary)', opacity: 0.45 }}>{f.desc}</span>
+    </div>
+  ),
+  title: f.label,
+}))
+
+const CARD_NAV_CATEGORIES = [
+  {
+    label: 'Math & CS',
+    subjects: ['AP Calculus AB', 'AP Statistics', 'AP Computer Science A'],
+  },
+  {
+    label: 'Sciences',
+    subjects: ['AP Biology', 'AP Chemistry', 'AP Psychology'],
+  },
+  {
+    label: 'Humanities',
+    subjects: ['AP US History', 'AP English Language', 'AP World History'],
+  },
+]
+
+
 export default function ExamsPage() {
   const [exams, setExams] = useState<Exam[]>([])
+  const [apSubjects, setApSubjects] = useState<Subject[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [logoError, setLogoError] = useState(false)
+  const navigate = useNavigate()
 
   useEffect(() => {
-    async function loadExams() {
+    async function loadData() {
       try {
         setLoading(true)
-        const data = await getExams()
-        setExams(data)
+        const examData = await getExams()
+        setExams(examData)
+        const apExam = examData.find((e) => e.name.toUpperCase() === 'AP')
+        if (apExam) {
+          const subjects = await getSubjectsByExam(apExam.id)
+          setApSubjects(subjects)
+        }
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load exams')
       } finally {
         setLoading(false)
       }
     }
-
-    loadExams()
+    loadData()
   }, [])
+
+  const apExam = exams.find((e) => e.name.toUpperCase() === 'AP')
+
+  const cardNavItems = useMemo(() => {
+    if (apSubjects.length === 0) return []
+    const colors = [
+      { bg: 'color-mix(in srgb, var(--color-primary) 85%, #1a1a2e)', text: 'var(--color-secondary)' },
+      { bg: 'color-mix(in srgb, var(--color-primary) 70%, #16213e)', text: 'var(--color-secondary)' },
+      { bg: 'color-mix(in srgb, var(--color-primary) 55%, #0f3460)', text: 'var(--color-secondary)' },
+    ]
+    return CARD_NAV_CATEGORIES.map((cat, i) => ({
+      label: cat.label,
+      bgColor: colors[i].bg,
+      textColor: colors[i].text,
+      links: cat.subjects
+        .map((name) => {
+          const subj = apSubjects.find((s) => s.name === name)
+          if (!subj) return null
+          return {
+            label: name.replace('AP ', ''),
+            ariaLabel: name,
+            onClick: () => navigate(`/subjects/${subj.id}`),
+          }
+        })
+        .filter(Boolean) as { label: string; ariaLabel: string; onClick: () => void }[],
+    }))
+  }, [apSubjects, navigate])
 
   return (
     <div>
-      {/* Hero */}
-      <div className="flex flex-col items-center text-center py-10 mb-6">
-        <div className="mb-4 relative flex items-center justify-center" style={{ width: 180, height: 180 }}>
+      {/* Hero — compact */}
+      <div className="flex flex-col items-center text-center pt-4 pb-5 mb-2">
+        <div className="mb-3 relative flex items-center justify-center" style={{ width: 180, height: 180 }}>
           <div className="absolute inset-0">
             <CircularText
               text="ACADEMY*OF*TESTERS*"
@@ -58,13 +166,23 @@ export default function ExamsPage() {
           )}
         </div>
         <h1 className="text-3xl font-bold leading-tight">Academy of Testers</h1>
-        <p className="text-sm mt-2 max-w-md" style={{ color: 'var(--color-primary)', opacity: 0.6 }}>
-          Free AP &amp; SAT prep with study guides, practice exams, unit reviews, and AI-powered help. Pick an exam to start.
+        <p className="text-sm mt-1.5 max-w-md" style={{ color: 'var(--color-primary)', opacity: 0.6 }}>
+          Where every tester has the opportunity to excel.
         </p>
+        <button
+          onClick={() => {
+            const section = document.getElementById('exam-cards')
+            section?.scrollIntoView({ behavior: 'smooth' })
+          }}
+          className="mt-4 px-6 py-2.5 rounded-xl text-sm font-semibold cursor-pointer hover:opacity-90 transition-all shadow-md hover:shadow-lg"
+          style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
+        >
+          Start Practicing
+        </button>
       </div>
 
-      <section>
-
+      {/* Exam cards */}
+      <section id="exam-cards" className="mb-8">
         {loading && (
           <div className="text-center py-12">
             <div className="text-xl" style={{ color: 'var(--color-primary)', opacity: 0.6 }}>Loading...</div>
@@ -90,29 +208,42 @@ export default function ExamsPage() {
               const iconPath = isAP
                 ? 'M12 14l9-5-9-5-9 5 9 5zM12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zM12 14v7'
                 : 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'
+              const subjectCount = isAP ? '25+ subjects' : isSAT ? '5 sections' : ''
               return (
                 <Link
                   key={exam.id}
                   to={`/exams/${exam.id}/hub`}
-                  className="group flex items-center gap-4 p-5 rounded-xl border border-black/10 hover:shadow-lg transition-all cursor-pointer"
-                  style={{ backgroundColor: 'var(--color-secondary)' }}
+                  className="group flex items-center gap-5 p-6 rounded-xl border hover:shadow-xl transition-all cursor-pointer shadow-sm"
+                  style={{
+                    backgroundColor: 'var(--color-secondary)',
+                    borderColor: 'color-mix(in srgb, var(--color-primary) 15%, transparent)',
+                  }}
                 >
                   <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                    className="w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm"
                     style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
                   >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round">
+                    <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round">
                       <path d={iconPath} />
                     </svg>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h3 className="text-lg font-bold group-hover:underline">{exam.name}</h3>
-                    <p
-                      className="text-xs mt-0.5"
-                      style={{ color: 'var(--color-primary)', opacity: 0.55 }}
-                    >
+                    <h3 className="text-xl font-bold group-hover:underline">{exam.name} Exams</h3>
+                    <p className="text-xs mt-1" style={{ color: 'var(--color-primary)', opacity: 0.55 }}>
                       {subtitle}
                     </p>
+                    {subjectCount && (
+                      <span
+                        className="inline-block mt-2 px-2.5 py-0.5 rounded-full text-[10px] font-semibold"
+                        style={{
+                          backgroundColor: 'color-mix(in srgb, var(--color-primary) 10%, var(--color-secondary))',
+                          color: 'var(--color-primary)',
+                          opacity: 0.7,
+                        }}
+                      >
+                        {subjectCount}
+                      </span>
+                    )}
                   </div>
                   <svg
                     className="w-5 h-5 flex-shrink-0 opacity-20 group-hover:opacity-60 group-hover:translate-x-0.5 transition-all"
@@ -129,52 +260,50 @@ export default function ExamsPage() {
         )}
       </section>
 
-      {/* What's included */}
-      <section className="mt-10 mb-10">
-        <h2 className="text-lg font-bold mb-4">What You Get</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {[
-            { label: 'Unit Overviews', desc: 'Concise summaries per unit', icon: 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01' },
-            { label: 'Practice Problems', desc: 'Targeted questions by topic', icon: 'M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z' },
-            { label: 'AI Tutor', desc: 'Ask questions, get answers', icon: 'M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z' },
-            { label: 'Scoring Rubrics', desc: 'Official exam breakdowns', icon: 'M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z' },
-          ].map((f) => (
-            <div
-              key={f.label}
-              className="flex flex-col items-center text-center p-4 rounded-xl"
-              style={{
-                backgroundColor: 'color-mix(in srgb, var(--color-primary) 6%, var(--color-secondary))',
-              }}
-            >
-              <svg
-                className="w-6 h-6 mb-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                style={{ color: 'var(--color-primary)', opacity: 0.5 }}
-              >
-                <path d={f.icon} />
-              </svg>
-              <h3 className="text-xs font-semibold">{f.label}</h3>
-              <p className="text-[11px] mt-0.5" style={{ color: 'var(--color-primary)', opacity: 0.4 }}>{f.desc}</p>
-            </div>
-          ))}
+      {/* Popular Subjects — CardNav */}
+      {cardNavItems.length > 0 && (
+        <section className="mb-8">
+          <CardNav
+            title="Popular Subjects"
+            items={cardNavItems}
+            ctaLabel="View All"
+            onCtaClick={apExam ? () => navigate(`/exams/${apExam.id}/hub`) : undefined}
+          />
+        </section>
+      )}
+
+      {/* What You Get */}
+      <section className="mb-4">
+        <h2 className="text-lg font-bold mb-3">What You Get</h2>
+        <div style={{ height: '130px', position: 'relative', overflow: 'hidden' }}>
+          <LogoLoop
+            logos={FEATURES}
+            speed={25}
+            direction="left"
+            logoHeight={28}
+            gap={16}
+            hoverSpeed={0}
+            scaleOnHover
+            fadeOut
+            fadeOutColor="var(--color-secondary)"
+            ariaLabel="Platform features"
+          />
         </div>
       </section>
 
-      {/* About & Mission cards */}
-      <section className="mb-10">
+      {/* About & Mission */}
+      <section className="mb-8">
         <div className="grid sm:grid-cols-2 gap-4">
           <Link
             to="/about"
-            className="group flex items-center gap-4 p-5 rounded-xl border border-black/10 hover:shadow-lg transition-all cursor-pointer"
-            style={{ backgroundColor: 'var(--color-secondary)' }}
+            className="group flex items-center gap-4 p-5 rounded-xl border hover:shadow-lg transition-all cursor-pointer shadow-sm"
+            style={{
+              backgroundColor: 'var(--color-secondary)',
+              borderColor: 'color-mix(in srgb, var(--color-primary) 12%, transparent)',
+            }}
           >
             <div
-              className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+              className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm"
               style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round">
@@ -194,11 +323,14 @@ export default function ExamsPage() {
 
           <Link
             to="/mission"
-            className="group flex items-center gap-4 p-5 rounded-xl border border-black/10 hover:shadow-lg transition-all cursor-pointer"
-            style={{ backgroundColor: 'var(--color-secondary)' }}
+            className="group flex items-center gap-4 p-5 rounded-xl border hover:shadow-lg transition-all cursor-pointer shadow-sm"
+            style={{
+              backgroundColor: 'var(--color-secondary)',
+              borderColor: 'color-mix(in srgb, var(--color-primary) 12%, transparent)',
+            }}
           >
             <div
-              className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+              className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 shadow-sm"
               style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round">
@@ -221,8 +353,11 @@ export default function ExamsPage() {
       {/* Social / follow */}
       <section className="mb-6">
         <div
-          className="flex flex-col sm:flex-row items-center justify-between gap-4 p-5 rounded-xl"
-          style={{ backgroundColor: 'color-mix(in srgb, var(--color-primary) 8%, var(--color-secondary))' }}
+          className="flex flex-col sm:flex-row items-center justify-between gap-4 p-5 rounded-xl shadow-sm border"
+          style={{
+            backgroundColor: 'var(--color-secondary)',
+            borderColor: 'color-mix(in srgb, var(--color-primary) 12%, transparent)',
+          }}
         >
           <div className="text-center sm:text-left">
             <h3 className="text-sm font-bold">Follow Academy of Testers</h3>

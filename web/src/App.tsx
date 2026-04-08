@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext'
+import ClickSpark from './components/ClickSpark'
 import LogoLoop from './components/LogoLoop'
 import ExamsPage from './pages/ExamsPage'
 import SubjectsPage from './pages/SubjectsPage'
@@ -250,27 +251,29 @@ function App() {
   return (
     <ThemeProvider>
       <Router>
-        <div className="min-h-screen flex flex-col" style={{ backgroundColor: 'var(--color-secondary)' }}>
-          <AppHeader onChatOpen={() => setChatOpen(true)} />
+        <ClickSpark sparkColor="var(--color-primary)" sparkSize={10} sparkRadius={15} sparkCount={8} duration={400}>
+          <div className="min-h-screen flex flex-col" style={{ backgroundColor: 'var(--color-secondary)' }}>
+            <AppHeader onChatOpen={() => setChatOpen(true)} />
 
-          <main className="container mx-auto px-4 py-8 flex-1">
-            <Routes>
-              <Route path="/" element={<ExamsPage />} />
-              <Route path="/exams/:examId/hub" element={<ExamHubPage />} />
-              <Route path="/exams/:examId/exam-info" element={<ExamInfoPage />} />
-              <Route path="/exams/:examId/practice" element={<PracticePage />} />
-              <Route path="/exams/:examId/tips" element={<ExamTipsPage />} />
-              <Route path="/exams/:examId" element={<SubjectsPage />} />
-              <Route path="/subjects/:subjectId" element={<ResourcesPage />} />
-              <Route path="/resources/:resourceId" element={<ResourceDetailPage />} />
-              <Route path="/themes" element={<ThemesPage />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/mission" element={<MissionPage />} />
-            </Routes>
-          </main>
+            <main className="container mx-auto px-4 py-8 flex-1">
+              <Routes>
+                <Route path="/" element={<ExamsPage />} />
+                <Route path="/exams/:examId/hub" element={<ExamHubPage />} />
+                <Route path="/exams/:examId/exam-info" element={<ExamInfoPage />} />
+                <Route path="/exams/:examId/practice" element={<PracticePage />} />
+                <Route path="/exams/:examId/tips" element={<ExamTipsPage />} />
+                <Route path="/exams/:examId" element={<SubjectsPage />} />
+                <Route path="/subjects/:subjectId" element={<ResourcesPage />} />
+                <Route path="/resources/:resourceId" element={<ResourceDetailPage />} />
+                <Route path="/themes" element={<ThemesPage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/mission" element={<MissionPage />} />
+              </Routes>
+            </main>
 
-          <AppFooter />
-        </div>
+            <AppFooter />
+          </div>
+        </ClickSpark>
 
         <AiChat isOpen={chatOpen} onClose={() => setChatOpen(false)} />
       </Router>
