@@ -1,14 +1,5 @@
-import type { SubjectUnitOverview, UnitOverview, SubunitOverview } from './types'
-
-function subunit(
-  id: string,
-  title: string,
-  summary: string = '',
-  keyIdeas: string[] = [],
-  opts?: { exampleCode?: string; exampleLanguage?: 'java' | 'pseudocode' | 'latex'; exampleExplanation?: string }
-): SubunitOverview {
-  return { id, title, summary, keyIdeas, ...opts }
-}
+import type { SubjectUnitOverview, UnitOverview } from './types'
+import { subunit } from './parseRawOverview'
 
 const STATS_UNITS: UnitOverview[] = [
   {
@@ -82,7 +73,7 @@ const STATS_UNITS: UnitOverview[] = [
         {
           exampleCode: '\\text{Test scores } 60\\text{--}100 \\text{ grouped into bins of width } 5.',
           exampleLanguage: 'latex',
-          exampleExplanation: 'Bins might be 60–65, 65–70, etc.; count how many values fall in each.',
+          exampleExplanation: 'Bins might be 60,65, 65,70, etc.; count how many values fall in each.',
         }
       ),
       subunit(
@@ -190,7 +181,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '2-2',
         'Representing Two Categorical Variables',
-        'Relationships between two categorical variables are displayed in two-way tables (contingency tables). Rows and columns show the two variables; cells show counts. Conditional proportions (row or column proportions) help determine whether an association exists—compare the distribution of one variable across categories of the other.\n\n' +
+        'Relationships between two categorical variables are displayed in two-way tables (contingency tables). Rows and columns show the two variables; cells show counts. Conditional proportions (row or column proportions) help determine whether an association exists, compare the distribution of one variable across categories of the other.\n\n' +
           'General method: (1) Construct a two-way table with counts. (2) Calculate row or column conditional proportions. (3) Compare proportions across rows or columns. (4) Conclude whether an association appears present.',
         [
           'Compare conditional proportions, not overall totals.',
@@ -317,7 +308,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '3-2',
         'Introduction to Planning a Study',
-        'Studies are designed to collect data that answer specific research questions. Two main types: observational study—observe individuals without imposing treatments; experiment—impose treatments and measure the response. Observational studies can show association; experiments with random assignment can support causal conclusions.\n\n' +
+        'Studies are designed to collect data that answer specific research questions. Two main types: observational study, observe individuals without imposing treatments; experiment, impose treatments and measure the response. Observational studies can show association; experiments with random assignment can support causal conclusions.\n\n' +
           'General method: (1) Identify the research question. (2) Determine explanatory and response variables. (3) Decide whether an observational study or experiment is appropriate. (4) Define the population and how the sample will be obtained.',
         [
           'Observational study: observe only; shows association.',
@@ -333,7 +324,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '3-3',
         'Random Sampling and Data Collection',
-        'Random sampling ensures that every individual (or every set of individuals of a given size) has a known chance of being selected, which reduces selection bias. Common methods: Simple Random Sample (SRS)—every possible sample of size n equally likely; stratified—divide population into strata, sample from each; cluster—randomly select groups and use all individuals in those groups; systematic—select every kth individual.\n\n' +
+        'Random sampling ensures that every individual (or every set of individuals of a given size) has a known chance of being selected, which reduces selection bias. Common methods: Simple Random Sample (SRS), every possible sample of size n equally likely; stratified, divide population into strata, sample from each; cluster, randomly select groups and use all individuals in those groups; systematic, select every kth individual.\n\n' +
           'General method: (1) Define the population and sampling frame. (2) Choose a sampling method. (3) Use a random mechanism to select the sample. (4) Collect data from selected individuals.',
         [
           'SRS: every group of size n equally likely to be chosen.',
@@ -350,7 +341,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '3-4',
         'Potential Problems with Sampling',
-        'Bias occurs when the sampling method systematically favors certain outcomes or underrepresents parts of the population. Common sources: undercoverage—some groups not in the sampling frame or underrepresented; nonresponse—selected individuals do not respond; response bias—wording of questions or context leads to inaccurate answers.\n\n' +
+        'Bias occurs when the sampling method systematically favors certain outcomes or underrepresents parts of the population. Common sources: undercoverage, some groups not in the sampling frame or underrepresented; nonresponse, selected individuals do not respond; response bias, wording of questions or context leads to inaccurate answers.\n\n' +
           'General method: (1) Identify the sampling frame and check who might be excluded. (2) Determine if certain groups are underrepresented (undercoverage). (3) Examine response rate and consider nonresponse bias. (4) Evaluate question wording and context for response bias.',
         [
           'Undercoverage: some groups in the population are not represented.',
@@ -367,7 +358,7 @@ const STATS_UNITS: UnitOverview[] = [
         '3-5',
         'Introduction to Experimental Design',
         'Well-designed experiments use control, randomization, and replication. Control: use a control group (e.g. placebo) for comparison. Randomization: randomly assign subjects to treatments to balance confounding variables across groups. Replication: use enough subjects (or experimental units) so that random variation can be assessed and effects can be detected.\n\n' +
-          'General method: (1) Define treatments and control. (2) Randomly assign subjects to treatment groups. (3) Use a control group when appropriate. (4) Replicate—ensure sufficient sample size and consistent procedures.',
+          'General method: (1) Define treatments and control. (2) Randomly assign subjects to treatment groups. (3) Use a control group when appropriate. (4) Replicate, ensure sufficient sample size and consistent procedures.',
         [
           'Random assignment balances groups and reduces confounding.',
           'Control group provides a baseline for comparison.',
@@ -382,7 +373,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '3-6',
         'Selecting an Experimental Design',
-        'Common designs: Completely randomized design—all subjects randomly assigned to treatments with no blocking. Randomized block design—form blocks of similar subjects, then randomly assign within each block to reduce variability due to the blocking variable. Matched pairs—pair similar individuals and randomly assign which member gets which treatment (or use each subject as their own control).\n\n' +
+        'Common designs: Completely randomized design; all subjects randomly assigned to treatments with no blocking. Randomized block design, form blocks of similar subjects, then randomly assign within each block to reduce variability due to the blocking variable. Matched pairs, pair similar individuals and randomly assign which member gets which treatment (or use each subject as their own control).\n\n' +
           'General method: (1) Identify blocking variables if variability can be reduced by grouping similar units. (2) Randomly assign treatments within blocks (or within pairs). (3) Keep treatment conditions consistent. (4) Collect response data.',
         [
           'Blocking reduces variability by comparing within similar groups.',
@@ -1097,7 +1088,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '9-5',
         'Carrying Out a Test for the Slope of a Regression Model',
-        'Compute \\(t = \\frac{b}{SE_b}\\) with \\(df = n - 2\\). Find the p-value (two-tailed or one-tailed). Compare to \\(\\alpha\\): if \\(p \\le \\alpha\\), reject \\(H_0\\) and conclude there is convincing evidence of a linear relationship (or that the slope is positive/negative); if \\(p > \\alpha\\), fail to reject \\(H_0\\)—there is not convincing evidence of a linear relationship. The test is equivalent to testing whether the correlation differs from 0. Always interpret in terms of the explanatory and response variables.',
+        'Compute \\(t = \\frac{b}{SE_b}\\) with \\(df = n - 2\\). Find the p-value (two-tailed or one-tailed). Compare to \\(\\alpha\\): if \\(p \\le \\alpha\\), reject \\(H_0\\) and conclude there is convincing evidence of a linear relationship (or that the slope is positive/negative); if \\(p > \\alpha\\), fail to reject \\(H_0\\); there is not convincing evidence of a linear relationship. The test is equivalent to testing whether the correlation differs from 0. Always interpret in terms of the explanatory and response variables.',
         [
           'Small p-value \\(\\Rightarrow\\) evidence of linear association; equivalent to testing correlation \\(\\neq 0\\).',
           'Interpret in context: name the explanatory and response variables and the direction of the relationship.',
@@ -1130,4 +1121,5 @@ const STATS_UNITS: UnitOverview[] = [
 export const STATS_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Statistics',
   units: STATS_UNITS,
+  features: { latex: true, codeExamples: false, defaultExampleLanguage: 'latex' },
 }

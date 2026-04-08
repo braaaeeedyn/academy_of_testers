@@ -1,8 +1,9 @@
-import type { SubjectUnitOverview, UnitOverview, SubunitOverview } from './types'
+import type { SubjectUnitOverview } from './types'
+import { parseRawOverview } from './parseRawOverview'
 
 // NOTE: Source-preserving content. Paste your AP Environmental Science raw unit overview text into RAW_AP_ENV_SCIENCE.
 // Expected format (same as other unit-overview files in this folder):
-//   Unit N – Title
+//   Unit N , Title
 //   N.N Subunit title
 //   ...paragraphs...
 //   Key ideas: ...
@@ -594,79 +595,10 @@ Addressing the intersecting crises of climate change and biodiversity loss simul
 Key ideas: More than 75% of Earth's land surface is modified by human activities; habitat destruction is the primary driver of biodiversity loss. Planetary boundaries framework identifies nine Earth system limits; at least four have been exceeded. 30x30 initiative commits nations to protect 30% of land and ocean by 2030. Climate change and biodiversity loss are interconnected crises requiring integrated solutions; intact ecosystems are critical carbon sinks and adaptation assets.
 `
 
-function parseEnvScience(raw: string): UnitOverview[] {
-  const lines = raw.split('\n')
-  const units: UnitOverview[] = []
-
-  let currentUnit: UnitOverview | null = null
-  let currentSubunit:
-    | { id: string; title: string; summaryLines: string[]; keyIdeasLine: string }
-    | null = null
-
-  const flushSubunit = () => {
-    if (!currentUnit || !currentSubunit) return
-    const summary = currentSubunit.summaryLines.join('\n').trim()
-    const keyIdeas = currentSubunit.keyIdeasLine ? [currentSubunit.keyIdeasLine] : []
-
-    const sub: SubunitOverview = {
-      id: currentSubunit.id,
-      title: currentSubunit.title,
-      summary,
-      keyIdeas,
-    }
-    currentUnit.subunits.push(sub)
-    currentSubunit = null
-  }
-
-  const flushUnit = () => {
-    if (!currentUnit) return
-    units.push(currentUnit)
-    currentUnit = null
-  }
-
-  for (const line of lines) {
-    const unitMatch = line.match(/^Unit (\d+)\s+[–-]\s+(.+)$/)
-    if (unitMatch) {
-      flushSubunit()
-      flushUnit()
-      currentUnit = {
-        unitNumber: Number(unitMatch[1]),
-        title: unitMatch[2].trim(),
-        subunits: [],
-      }
-      continue
-    }
-
-    const subunitMatch = line.match(/^(\d+)\.(\d+)\s+(.+)$/)
-    if (subunitMatch) {
-      flushSubunit()
-      if (!currentUnit) continue
-      const id = `${subunitMatch[1]}-${subunitMatch[2]}`
-      currentSubunit = {
-        id,
-        title: subunitMatch[3].trim(),
-        summaryLines: [],
-        keyIdeasLine: '',
-      }
-      continue
-    }
-
-    const keyIdeasMatch = line.match(/^\s*Key ideas:\s*(.+)$/)
-    if (keyIdeasMatch && currentSubunit) {
-      currentSubunit.keyIdeasLine = keyIdeasMatch[1].trim()
-      continue
-    }
-
-    if (currentSubunit) currentSubunit.summaryLines.push(line)
-  }
-
-  flushSubunit()
-  flushUnit()
-  return units
-}
 
 export const AP_ENV_SCIENCE_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Environmental Science',
-  units: parseEnvScience(RAW_AP_ENV_SCIENCE),
+  units: parseRawOverview(RAW_AP_ENV_SCIENCE),
+  features: { latex: false, codeExamples: false },
 }
 

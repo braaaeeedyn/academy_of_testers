@@ -1,14 +1,5 @@
-import type { SubjectUnitOverview, UnitOverview, SubunitOverview } from './types'
-
-function subunit(
-  id: string,
-  title: string,
-  summary: string = '',
-  keyIdeas: string[] = [],
-  opts?: { exampleCode?: string; exampleLanguage?: 'java' | 'pseudocode' | 'latex'; exampleExplanation?: string }
-): SubunitOverview {
-  return { id, title, summary, keyIdeas, ...opts }
-}
+import type { SubjectUnitOverview, UnitOverview } from './types'
+import { subunit } from './parseRawOverview'
 
 const PRECALC_UNITS: UnitOverview[] = [
   {
@@ -48,7 +39,7 @@ x\\to -\\infty \\Rightarrow f(x)\\to \\infty`,
       subunit(
         '1-3',
         'Rational Function Structure and Behavior',
-        'A rational function is \\(f(x)=\\frac{p(x)}{q(x)}\\). Zeros come from the numerator (where \\(p(x)=0\\) and the factor does not cancel). Vertical asymptotes come from denominator zeros that remain after simplification. Holes occur when a factor cancels—the zero of that factor is not in the domain, but the limit exists. End behavior depends on the degrees of numerator and denominator: if degree(num) < degree(denom), horizontal asymptote \\(y=0\\); if equal, \\(y\\) = ratio of leading coefficients; if degree(num) > degree(denom), slant asymptote.\n\n' +
+        'A rational function is \\(f(x)=\\frac{p(x)}{q(x)}\\). Zeros come from the numerator (where \\(p(x)=0\\) and the factor does not cancel). Vertical asymptotes come from denominator zeros that remain after simplification. Holes occur when a factor cancels, the zero of that factor is not in the domain, but the limit exists. End behavior depends on the degrees of numerator and denominator: if degree(num) < degree(denom), horizontal asymptote \\(y=0\\); if equal, \\(y\\) = ratio of leading coefficients; if degree(num) > degree(denom), slant asymptote.\n\n' +
           'General method: (1) Factor numerator and denominator. (2) Cancel common factors (identify holes). (3) Remaining denominator zeros \\(\\Rightarrow\\) vertical asymptotes. (4) Compare degrees for horizontal or slant asymptote.',
         ['Zeros from numerator; vertical asymptotes from denominator zeros (after canceling); holes where factors cancel.', 'Degree num < denom \\(\\Rightarrow\\) \\(y=0\\); equal \\(\\Rightarrow\\) ratio of leading coefficients; num > denom \\(\\Rightarrow\\) slant asymptote.', 'Factor and simplify to identify holes vs vertical asymptotes.'],
         {
@@ -571,4 +562,5 @@ f(t)=P_0(1.05)^t`,
 export const PRECALC_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Precalculus',
   units: PRECALC_UNITS,
+  features: { latex: true, codeExamples: false, defaultExampleLanguage: 'latex' },
 }

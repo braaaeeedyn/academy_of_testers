@@ -1,4 +1,5 @@
-export type { SubunitOverview, UnitOverview, SubjectUnitOverview } from './types'
+export type { SubunitOverview, UnitOverview, SubjectUnitOverview, SubjectFeatures } from './types'
+export { parseRawOverview, subunit } from './parseRawOverview'
 
 import type { SubjectUnitOverview } from './types'
 import { CSA_UNIT_OVERVIEWS } from './csaUnitOverviews'
@@ -24,6 +25,11 @@ import { AP_RESEARCH_UNIT_OVERVIEWS } from './apResearchUnitOverviews'
 import { AP_SEMINAR_UNIT_OVERVIEWS } from './apSeminarUnitOverviews'
 import { AP_CHEMISTRY_UNIT_OVERVIEWS } from './apChemistryUnitOverviews'
 import { AP_ENV_SCIENCE_UNIT_OVERVIEWS } from './apEnvScienceUnitOverviews'
+import { AP_ART_HISTORY_UNIT_OVERVIEWS } from './apArtHistoryUnitOverviews'
+import { AP_MUSIC_THEORY_UNIT_OVERVIEWS } from './apMusicTheoryUnitOverviews'
+import { AP_PHYSICS_2_UNIT_OVERVIEWS } from './apPhysics2UnitOverviews'
+import { AP_PHYSICS_C_MECHANICS_UNIT_OVERVIEWS } from './apPhysicsCMechanicsUnitOverviews'
+import { AP_PHYSICS_C_EM_UNIT_OVERVIEWS } from './apPhysicsCEMUnitOverviews'
 
 const SUBJECT_OVERVIEWS: SubjectUnitOverview[] = [
   CSA_UNIT_OVERVIEWS,
@@ -50,6 +56,11 @@ const SUBJECT_OVERVIEWS: SubjectUnitOverview[] = [
   AP_SEMINAR_UNIT_OVERVIEWS,
   AP_CHEMISTRY_UNIT_OVERVIEWS,
   AP_ENV_SCIENCE_UNIT_OVERVIEWS,
+  AP_ART_HISTORY_UNIT_OVERVIEWS,
+  AP_MUSIC_THEORY_UNIT_OVERVIEWS,
+  AP_PHYSICS_2_UNIT_OVERVIEWS,
+  AP_PHYSICS_C_MECHANICS_UNIT_OVERVIEWS,
+  AP_PHYSICS_C_EM_UNIT_OVERVIEWS,
 ]
 
 export function getUnitOverviewBySubjectName(subjectName: string): SubjectUnitOverview | undefined {

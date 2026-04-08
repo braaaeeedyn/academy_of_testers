@@ -2,6 +2,7 @@ import type { SubjectUnitOverview } from './types'
 
 export const CSP_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Computer Science Principles',
+  features: { latex: false, codeExamples: true, defaultExampleLanguage: 'pseudocode' },
   units: [
     {
       unitNumber: 1,
@@ -90,7 +91,7 @@ totalScore <- 0`,
           id: '2-1',
           title: 'Data Representation',
           summary:
-            'Data is information stored by a computer. Everything—text, images, music, videos, numbers—eventually becomes numbers.\n\n' +
+            'Data is information stored by a computer. Everything, text, images, music, videos, numbers, eventually becomes numbers.\n\n' +
             'Computers only understand binary: 0 and 1. These are bits. Groups of bits form larger units like bytes (8 bits = 1 byte). Files are just many bytes grouped together.\n\n' +
             'Different types of data are represented differently depending on context. Numbers are stored in binary. Text uses encodings like ASCII or Unicode (for example, \'A\' maps to 65). Images are grids of pixels with numeric color values (often red/green/blue). Sound is stored as samples taken many times per second.\n\n' +
             'Big idea: computers don’t store “meaning.” They store numbers, and humans decide what those numbers mean. Every representation is a trade-off between accuracy, file size, speed, and quality.',
@@ -116,7 +117,7 @@ totalScore <- 0`,
             'Big Data refers to extremely large collections of information gathered from phones, apps, websites, sensors, social media, and purchases. This data is analyzed to find patterns and make predictions.\n\n' +
             'Big Data can recommend products, predict traffic, detect fraud, improve healthcare, and target advertisements. It is powerful because patterns can emerge only when you have enough data.\n\n' +
             'But Big Data also creates privacy risks: tracking without consent, leaks of personal information, misuse or sale of data, and “anonymous” data that can sometimes be re-identified. Location history, health data, and browsing history can reveal extremely personal details.\n\n' +
-            'Ethical responsibility means asking: Did users consent? Is data stored securely? Who has access? Could this harm someone? Big idea: Big Data creates opportunity—but also responsibility.',
+            'Ethical responsibility means asking: Did users consent? Is data stored securely? Who has access? Could this harm someone? Big idea: Big Data creates opportunity, but also responsibility.',
           keyIdeas: [
             'Big Data enables powerful prediction and personalization.',
             'Privacy risks include tracking, leaks, misuse, and re-identification.',
@@ -128,7 +129,7 @@ totalScore <- 0`,
           title: 'Data Abstraction and Visualization',
           summary:
             'Data abstraction means hiding unnecessary details and focusing on what matters. With data, that often means summarizing large data sets using statistics like mean, max, and min, or grouping values into categories.\n\n' +
-            'Visualization turns data into images—graphs, charts, and maps—so humans can see patterns quickly. Good visuals reveal trends, outliers, and relationships.\n\n' +
+            'Visualization turns data into images, graphs, charts, and maps, so humans can see patterns quickly. Good visuals reveal trends, outliers, and relationships.\n\n' +
             'Visualization choices matter: misleading scales, missing labels, or poor chart types can create false impressions. A good visualization clarifies; a bad one confuses.\n\n' +
             'Big idea: abstraction simplifies data, and visualization communicates it. Together, they turn numbers into insight.',
           keyIdeas: [
@@ -174,7 +175,7 @@ totalScore <- 0`,
           title: 'Procedures and Abstraction',
           summary:
             'A procedure (also called a method or function) is a named block of code that performs a task. Instead of rewriting the same logic multiple times, you call the procedure.\n\n' +
-            'Procedures reduce repetition, improve readability, make programs modular, and hide complexity—this is abstraction in action. Parameters allow procedures to receive input, and some procedures return values that can be used elsewhere.\n\n' +
+            'Procedures reduce repetition, improve readability, make programs modular, and hide complexity; this is abstraction in action. Parameters allow procedures to receive input, and some procedures return values that can be used elsewhere.\n\n' +
             'You do not need to know how a procedure works internally to use it, just as you do not need to understand how a car engine works to drive. Big idea: procedures organize logic, and abstraction hides details so programmers can build large systems.',
           keyIdeas: [
             'Procedures encapsulate logic behind a descriptive name.',
@@ -194,7 +195,7 @@ totalScore <- 0`,
           summary:
             'The Internet is a global network of computers connected so they can share information. Your phone, laptop, and servers around the world communicate by sending data packets across this network.\n\n' +
             'No single company owns the Internet; it is made of millions of independent networks working together. When you load a website, your device breaks data into small packets, each packet travels independently through routers, and the destination reassembles them. Packets may take different routes but still arrive at the same place, making the Internet flexible and resilient.\n\n' +
-            'Protocols are sets of rules that computers follow to communicate—like grammar for computers. Common Internet protocols include IP (addresses and routes packets), TCP (ensures reliable delivery, resending lost packets and reordering them), HTTP/HTTPS (web traffic, with HTTPS encrypting data), and DNS (translates human-readable names to IP addresses). Big idea: shared protocols allow billions of devices to communicate reliably.',
+            'Protocols are sets of rules that computers follow to communicate, like grammar for computers. Common Internet protocols include IP (addresses and routes packets), TCP (ensures reliable delivery, resending lost packets and reordering them), HTTP/HTTPS (web traffic, with HTTPS encrypting data), and DNS (translates human-readable names to IP addresses). Big idea: shared protocols allow billions of devices to communicate reliably.',
           keyIdeas: [
             'The Internet is a network of networks with redundant paths.',
             'IP, TCP, HTTP/HTTPS, and DNS are key Internet protocols.',
@@ -205,9 +206,9 @@ totalScore <- 0`,
           id: '4-2',
           title: 'Reliability and Fault Tolerance',
           summary:
-            'Reliability means a system keeps working even when parts fail. Hardware breaks, networks drop, and power goes out—yet many websites and apps remain online.\n\n' +
+            'Reliability means a system keeps working even when parts fail. Hardware breaks, networks drop, and power goes out, yet many websites and apps remain online.\n\n' +
             'Fault tolerance is designing systems so failures do not cause total collapse. Instead of relying on a single component, systems use redundancy (duplicates), backups, and multiple paths. Data replication stores information in multiple locations so that if one copy is lost, others still exist.\n\n' +
-            'Routing around failures lets network traffic find alternate paths when links break. Systems may also degrade gracefully—slowing down or lowering quality instead of fully crashing (for example, video quality drops when a connection is weak). Big idea: modern systems expect failure; good design doesn’t prevent failures—it survives them.',
+            'Routing around failures lets network traffic find alternate paths when links break. Systems may also degrade gracefully, slowing down or lowering quality instead of fully crashing (for example, video quality drops when a connection is weak). Big idea: modern systems expect failure; good design doesn’t prevent failures; it survives them.',
           keyIdeas: [
             'Redundancy and replication keep systems running when parts fail.',
             'Networks reroute packets around broken paths.',
@@ -239,7 +240,7 @@ totalScore <- 0`,
           title: 'Computing Innovations',
           summary:
             'A computing innovation is a new or improved technology that uses computing to solve problems or create new possibilities. Examples include smartphones, artificial intelligence, GPS navigation, streaming platforms, medical imaging, and cloud computing.\n\n' +
-            'Innovations often automate tasks, improve efficiency, create new industries, and change how people live and work. Many build on previous technologies—progress is cumulative.\n\n' +
+            'Innovations often automate tasks, improve efficiency, create new industries, and change how people live and work. Many build on previous technologies, progress is cumulative.\n\n' +
             'Benefits include improved healthcare, increased access to information, global connectivity, and boosted productivity. Risks include job replacement, increased surveillance, spread of misinformation, and deepened inequality. Every innovation has tradeoffs.\n\n' +
             'Big idea: technology is not neutral. Its impact depends on how humans design and use it.',
           keyIdeas: [
@@ -253,7 +254,7 @@ totalScore <- 0`,
           title: 'Legal and Ethical Issues',
           summary:
             'Legal issues involve laws around data privacy, copyright, cybercrime, and online harassment. These laws vary by country and set minimum standards for acceptable behavior.\n\n' +
-            'Ethics goes beyond the law and asks, “Just because we can do something—should we?” Questions include: Should companies collect user data? Is facial recognition acceptable? Who is responsible for AI decisions? Should algorithms be transparent?\n\n' +
+            'Ethics goes beyond the law and asks, “Just because we can do something, should we?” Questions include: Should companies collect user data? Is facial recognition acceptable? Who is responsible for AI decisions? Should algorithms be transparent?\n\n' +
             'Intellectual property means creators own their work (software, music, videos, writing). Piracy violates these rights. Algorithmic bias can appear when models are trained on biased data, affecting hiring, lending, policing, and education.\n\n' +
             'Big idea: law sets minimum standards; ethics guides responsible behavior beyond the law. Developers must actively work to reduce unfairness and harm.',
           keyIdeas: [
@@ -267,9 +268,9 @@ totalScore <- 0`,
           title: 'Global and Economic Impacts',
           summary:
             'Computing connects the world through international communication, global markets, remote work, and online education. Geography matters less than ever for many types of work and learning.\n\n' +
-            'Economically, computing creates new industries and high-paying tech jobs and enables automation. At the same time, it can displace workers, create skill gaps, and widen unequal access—this is part of the digital divide.\n\n' +
+            'Economically, computing creates new industries and high-paying tech jobs and enables automation. At the same time, it can displace workers, create skill gaps, and widen unequal access; this is part of the digital divide.\n\n' +
             'The digital divide means some people lack internet access, devices, or technical education, limiting their opportunities. Bridging this gap is a major global challenge.\n\n' +
-            'Big idea: computing reshapes economies and societies worldwide. Its benefits are huge—but unevenly distributed.',
+            'Big idea: computing reshapes economies and societies worldwide. Its benefits are huge, but unevenly distributed.',
           keyIdeas: [
             'Global connectivity enables new forms of collaboration and work.',
             'Automation changes the job market, sometimes displacing workers.',

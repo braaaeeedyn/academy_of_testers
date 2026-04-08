@@ -1,8 +1,9 @@
-import type { SubjectUnitOverview, UnitOverview, SubunitOverview } from './types'
+import type { SubjectUnitOverview } from './types'
+import { parseRawOverview } from './parseRawOverview'
 
 // NOTE: Source-preserving content. Paste your AP Chemistry raw unit overview text into RAW_AP_CHEMISTRY.
 // Expected format (same as other unit overviews in this folder):
-//   Unit N – Title
+//   Unit N , Title
 //   N.N Subunit title
 //   ...paragraphs...
 //   Key ideas: ...
@@ -514,81 +515,10 @@ Faraday's law of electrolysis quantifies the relationship between the quantity o
 Key ideas: E degrees_cell = E degrees_cathode - E degrees_anode (using reduction potentials); positive E degrees_cell means spontaneous. delta G degrees = -nFE degrees_cell; delta G degrees = -RT ln K: connects E degrees, delta G degrees, K. Nernst equation: E_cell = E degrees_cell - (0.0592/n) log Q at 25 degrees C; E_cell decreases as Q increases (battery discharges). Faraday's law: moles e- = (A x s) / 96485; moles substance = moles e- / n (stoichiometric electrons per formula unit).
 `
 
-function parseChemistry(raw: string): UnitOverview[] {
-  const lines = raw.split('\n')
-  const units: UnitOverview[] = []
-
-  let currentUnit: UnitOverview | null = null
-  let currentSubunit:
-    | { id: string; title: string; summaryLines: string[]; keyIdeasLine: string }
-    | null = null
-
-  const flushSubunit = () => {
-    if (!currentUnit || !currentSubunit) return
-    const summary = currentSubunit.summaryLines.join('\n').trim()
-    const keyIdeas = currentSubunit.keyIdeasLine
-      ? [currentSubunit.keyIdeasLine]
-      : []
-
-    const sub: SubunitOverview = {
-      id: currentSubunit.id,
-      title: currentSubunit.title,
-      summary,
-      keyIdeas,
-    }
-    currentUnit.subunits.push(sub)
-    currentSubunit = null
-  }
-
-  const flushUnit = () => {
-    if (!currentUnit) return
-    units.push(currentUnit)
-    currentUnit = null
-  }
-
-  for (const line of lines) {
-    const unitMatch = line.match(/^Unit (\d+)\s+[–-]\s+(.+)$/)
-    if (unitMatch) {
-      flushSubunit()
-      flushUnit()
-      currentUnit = {
-        unitNumber: Number(unitMatch[1]),
-        title: unitMatch[2].trim(),
-        subunits: [],
-      }
-      continue
-    }
-
-    const subunitMatch = line.match(/^(\d+)\.(\d+)\s+(.+)$/)
-    if (subunitMatch) {
-      flushSubunit()
-      if (!currentUnit) continue
-      const id = `${subunitMatch[1]}-${subunitMatch[2]}`
-      currentSubunit = {
-        id,
-        title: subunitMatch[3].trim(),
-        summaryLines: [],
-        keyIdeasLine: '',
-      }
-      continue
-    }
-
-    const keyIdeasMatch = line.match(/^\s*Key ideas:\s*(.+)$/)
-    if (keyIdeasMatch && currentSubunit) {
-      currentSubunit.keyIdeasLine = keyIdeasMatch[1].trim()
-      continue
-    }
-
-    if (currentSubunit) currentSubunit.summaryLines.push(line)
-  }
-
-  flushSubunit()
-  flushUnit()
-  return units
-}
 
 export const AP_CHEMISTRY_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Chemistry',
-  units: parseChemistry(RAW_AP_CHEMISTRY),
+  units: parseRawOverview(RAW_AP_CHEMISTRY),
+  features: { latex: false, codeExamples: false },
 }
 

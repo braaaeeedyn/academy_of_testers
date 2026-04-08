@@ -1,4 +1,5 @@
-import type { SubjectUnitOverview, UnitOverview, SubunitOverview } from './types'
+import type { SubjectUnitOverview } from './types'
+import { parseRawOverview } from './parseRawOverview'
 
 // NOTE: This is source-preserving content. Do not edit wording/length unless the source changes.
 const RAW_PSYCHOLOGY = `AP Psychology
@@ -286,74 +287,9 @@ Biomedical treatments include antidepressants (SSRIs increase serotonin), antian
 Key ideas: CBT is the most empirically supported psychotherapy. Medications target specific neurotransmitter systems for different disorders. The therapeutic alliance predicts treatment success across therapy types. Combined psychotherapy and medication is often most effective.
 `
 
-function parsePsychology(raw: string): UnitOverview[] {
-  const lines = raw.split('\n')
-  const units: UnitOverview[] = []
-
-  let currentUnit: UnitOverview | null = null
-  let currentSubunit: { id: string; title: string; summaryLines: string[]; keyIdeasLine: string } | null = null
-
-  const flushSubunit = () => {
-    if (!currentUnit || !currentSubunit) return
-    const summary = currentSubunit.summaryLines.join('\n').trim()
-    const keyIdeas = currentSubunit.keyIdeasLine ? [currentSubunit.keyIdeasLine] : []
-    const sub: SubunitOverview = {
-      id: currentSubunit.id,
-      title: currentSubunit.title,
-      summary,
-      keyIdeas,
-    }
-    currentUnit.subunits.push(sub)
-    currentSubunit = null
-  }
-
-  const flushUnit = () => {
-    if (!currentUnit) return
-    units.push(currentUnit)
-    currentUnit = null
-  }
-
-  for (const line of lines) {
-    const unitMatch = line.match(/^Unit (\d+)\s+[–-]\s+(.+)$/)
-    if (unitMatch) {
-      flushSubunit()
-      flushUnit()
-      currentUnit = {
-        unitNumber: Number(unitMatch[1]),
-        title: unitMatch[2].trim(),
-        subunits: [],
-      }
-      continue
-    }
-
-    const subunitMatch = line.match(/^(\d+)\.(\d+)\s+(.+)$/)
-    if (subunitMatch) {
-      flushSubunit()
-      const id = `${subunitMatch[1]}-${subunitMatch[2]}`
-      currentSubunit = {
-        id,
-        title: subunitMatch[3].trim(),
-        summaryLines: [],
-        keyIdeasLine: '',
-      }
-      continue
-    }
-
-    const keyIdeasMatch = line.match(/^\s*Key ideas:\s*(.+)$/)
-    if (keyIdeasMatch && currentSubunit) {
-      currentSubunit.keyIdeasLine = keyIdeasMatch[1].trim()
-      continue
-    }
-
-    if (currentSubunit) currentSubunit.summaryLines.push(line)
-  }
-
-  flushSubunit()
-  flushUnit()
-  return units
-}
 
 export const PSYCHOLOGY_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Psychology',
-  units: parsePsychology(RAW_PSYCHOLOGY),
+  units: parseRawOverview(RAW_PSYCHOLOGY),
+  features: { latex: false, codeExamples: false },
 }

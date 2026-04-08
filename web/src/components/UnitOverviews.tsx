@@ -2,6 +2,35 @@ import { useState, useMemo } from 'react'
 import type { SubjectUnitOverview, UnitOverview, SubunitOverview } from '../data/unitOverviews'
 import MathText, { renderLatexBlock } from './MathText'
 
+/** Render text — only runs KaTeX parsing when the subject uses LaTeX. */
+function TextBlock({
+  children,
+  latex,
+  className = '',
+  component = 'span',
+  style,
+}: {
+  children: string
+  latex: boolean
+  className?: string
+  component?: 'span' | 'p' | 'div'
+  style?: React.CSSProperties
+}) {
+  if (latex) {
+    return (
+      <MathText component={component} className={className} style={style}>
+        {children}
+      </MathText>
+    )
+  }
+  const Component = component
+  return (
+    <Component className={className} style={style}>
+      {children}
+    </Component>
+  )
+}
+
 interface Props {
   overview: SubjectUnitOverview
   onBack?: () => void
@@ -107,14 +136,15 @@ export default function UnitOverviews({ overview }: Props) {
               .split('\n\n')
               .filter((p) => p.trim().length > 0)
               .map((para, idx) => (
-                <MathText
+                <TextBlock
                   key={idx}
+                  latex={overview.features.latex}
                   component="p"
                   className="mb-4 text-sm"
                   style={{ color: 'var(--color-primary)', opacity: 0.85 }}
                 >
                   {para}
-                </MathText>
+                </TextBlock>
               ))}
             {currentSubunit.keyIdeas.length > 0 && (
               <>
@@ -125,7 +155,7 @@ export default function UnitOverviews({ overview }: Props) {
                 >
                   {currentSubunit.keyIdeas.map((idea, idx) => (
                     <li key={idx}>
-                      <MathText>{idea}</MathText>
+                      <TextBlock latex={overview.features.latex}>{idea}</TextBlock>
                     </li>
                   ))}
                 </ul>
@@ -135,9 +165,11 @@ export default function UnitOverviews({ overview }: Props) {
             {currentSubunit.exampleCode && (
               <div className="mt-6">
                 <h4 className="text-sm font-semibold mb-2">
-                  {currentSubunit.exampleLanguage === 'latex' ? 'Example:' : 'Example'}
+                  {(currentSubunit.exampleLanguage ?? overview.features.defaultExampleLanguage) === 'latex'
+                    ? 'Example:'
+                    : 'Example'}
                 </h4>
-                {currentSubunit.exampleLanguage === 'latex' ? (
+                {(currentSubunit.exampleLanguage ?? overview.features.defaultExampleLanguage) === 'latex' ? (
                   <div
                     className="text-sm rounded-lg p-3 overflow-x-auto border border-black/25"
                     style={{
@@ -154,21 +186,23 @@ export default function UnitOverviews({ overview }: Props) {
                     />
                   </div>
                 ) : (
-                  <MathText
+                  <TextBlock
+                    latex={overview.features.latex}
                     component="p"
                     className="text-sm"
                     style={{ color: 'var(--color-primary)', opacity: 0.85 }}
                   >
                     {currentSubunit.exampleCode}
-                  </MathText>
+                  </TextBlock>
                 )}
                 {currentSubunit.exampleExplanation && (
-                  <MathText
+                  <TextBlock
+                    latex={overview.features.latex}
                     component="p"
                     className="mt-3 text-xs md:text-sm text-gray-200 bg-black/60 rounded-lg p-3"
                   >
                     {currentSubunit.exampleExplanation}
-                  </MathText>
+                  </TextBlock>
                 )}
               </div>
             )}

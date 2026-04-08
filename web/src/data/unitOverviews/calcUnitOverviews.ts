@@ -1,16 +1,7 @@
-import type { SubjectUnitOverview, UnitOverview, SubunitOverview } from './types'
+import type { SubjectUnitOverview, UnitOverview } from './types'
+import { subunit } from './parseRawOverview'
 
-function subunit(
-  id: string,
-  title: string,
-  summary: string = '',
-  keyIdeas: string[] = [],
-  opts?: { exampleCode?: string; exampleLanguage?: 'java' | 'pseudocode' | 'latex'; exampleExplanation?: string }
-): SubunitOverview {
-  return { id, title, summary, keyIdeas, ...opts }
-}
-
-/** Shared unit definitions for AP Calculus AB and BC. AB uses units 1–8; BC uses units 1–10. */
+/** Shared unit definitions for AP Calculus AB and BC. AB uses units 1,8; BC uses units 1,10. */
 const CALC_UNITS: UnitOverview[] = [
   {
     unitNumber: 1,
@@ -75,7 +66,7 @@ const CALC_UNITS: UnitOverview[] = [
       subunit(
         '1-4',
         'Algebraic Manipulation & The Squeeze Theorem',
-        "If substitution gives 0/0 we simplify—for example by factoring, rationalizing, or using the squeeze theorem. When a function is trapped between two others that have the same limit, it must have that limit too.",
+        "If substitution gives 0/0 we simplify, for example by factoring, rationalizing, or using the squeeze theorem. When a function is trapped between two others that have the same limit, it must have that limit too.",
         ['Indeterminate form 0/0 often can be resolved by factoring, canceling, or rationalizing.', 'The Squeeze Theorem: if g(x) ≤ f(x) ≤ h(x) and lim g = lim h = L, then lim f = L.', 'Use the squeeze theorem when direct substitution or algebra is not enough.'],
         {
           exampleCode: `\\text{Factoring: } \\lim_{x\\to 2} \\frac{x^2-4}{x-2} = \\lim_{x\\to 2} \\frac{(x-2)(x+2)}{x-2} = \\lim_{x\\to 2}(x+2) = 4
@@ -88,7 +79,7 @@ const CALC_UNITS: UnitOverview[] = [
       subunit(
         '1-5',
         'Types of Discontinuities',
-        'Discontinuities occur when continuity fails—jump, removable, or infinite. Identifying the type helps you describe behavior and decide whether a limit exists.',
+        'Discontinuities occur when continuity fails, jump, removable, or infinite. Identifying the type helps you describe behavior and decide whether a limit exists.',
         ['Jump discontinuity: left-hand and right-hand limits exist but are not equal.', 'Removable discontinuity: the limit exists but does not equal the function value (or the function is undefined there).', 'Infinite discontinuity: the function grows without bound (vertical asymptote).'],
         {
           exampleCode: `f(x) = \\begin{cases} 2 & x<1 \\\\ 5 & x\\ge 1 \\end{cases}
@@ -195,7 +186,7 @@ f(0)=0,\\quad f(2)=8-2=6
         '2-1',
         'Average & Instantaneous Rates of Change',
         'The average rate of change measures how much a function changes over an interval. It is the slope of the secant line between two points: \\(\\frac{f(b)-f(a)}{b-a}\\). This is the same idea as "rise over run" between two points on the graph.\n\n' +
-          'The instantaneous rate of change is the slope at a single point—this becomes the derivative and represents the slope of the tangent line. As the interval shrinks to a point, the secant line approaches the tangent line, and the average rate approaches the instantaneous rate.\n\n' +
+          'The instantaneous rate of change is the slope at a single point; this becomes the derivative and represents the slope of the tangent line. As the interval shrinks to a point, the secant line approaches the tangent line, and the average rate approaches the instantaneous rate.\n\n' +
           'In applications, average rate might be "miles per hour over a trip"; instantaneous rate is "speed at this moment" (what the speedometer reads).',
         ['Average rate of change = slope of secant line = \\(\\frac{f(b)-f(a)}{b-a}\\).', 'Instantaneous rate of change = derivative = slope of tangent line.', 'The derivative is the limit of average rates as the interval shrinks to a point.'],
         {
@@ -207,14 +198,14 @@ f(0)=0,\\quad f(2)=8-2=6
 \\\\
 \\text{Extra: On } [2,4],\\ \\frac{f(4)-f(2)}{4-2} = \\frac{16-4}{2} = 6 \\text{ (average); } f'(3)=6 \\text{ (instantaneous at midpoint).}`,
           exampleLanguage: 'latex',
-          exampleExplanation: 'Average rate on \\([1,3]\\) is 4; the instantaneous rate at \\(x=3\\) is 6. On \\([2,4]\\), the average rate equals the instantaneous rate at the midpoint \\(x=3\\)—a useful pattern for quadratic functions.',
+          exampleExplanation: 'Average rate on \\([1,3]\\) is 4; the instantaneous rate at \\(x=3\\) is 6. On \\([2,4]\\), the average rate equals the instantaneous rate at the midpoint \\(x=3\\), a useful pattern for quadratic functions.',
         }
       ),
       subunit(
         '2-2',
         'Definition of the Derivative & Notation',
         'The derivative is defined using the limit of the difference quotient. It measures how a function changes as \\(h\\to 0\\). Several notations exist: \\(f\'(x)\\) (prime notation), \\(\\frac{dy}{dx}\\) (Leibniz), or \\(D_x f(x)\\) (operator notation).\n\n' +
-          'Using the definition strengthens conceptual understanding before applying rules. On the exam, you may be asked to find a derivative from the limit definition; expanding, simplifying, and then taking the limit is the standard approach. Once the limit is taken, the result is a new function—the derivative.',
+          'Using the definition strengthens conceptual understanding before applying rules. On the exam, you may be asked to find a derivative from the limit definition; expanding, simplifying, and then taking the limit is the standard approach. Once the limit is taken, the result is a new function, the derivative.',
         ['\\(f\'(x) = \\lim_{h\\to 0} \\frac{f(x+h)-f(x)}{h}\\) when the limit exists.', 'Notation: \\(f\'(x)\\), \\(\\frac{dy}{dx}\\), \\(D_x f\\).', 'Expand, simplify, then take the limit; often \\(h\\) cancels before substituting \\(h=0\\).'],
         {
           exampleCode: `f(x)=x^2 \\Rightarrow f'(x) = \\lim_{h\\to 0} \\frac{(x+h)^2 - x^2}{h}
@@ -232,7 +223,7 @@ f(0)=0,\\quad f(2)=8-2=6
         '2-3',
         'Estimating Derivatives from Graphs & Tables',
         'When an explicit formula is not available, derivatives can be estimated using nearby values. We approximate the slope of the tangent line using a small difference quotient: \\(\\frac{f(x+h)-f(x)}{h}\\) or \\(\\frac{f(x)-f(x-h)}{h}\\) for small \\(h\\).\n\n' +
-          'From a table, choose two points close to the point of interest and compute the slope between them. From a graph, sketch the tangent line and estimate its slope using two points on that line. The smaller \\(h\\) is, the better the approximation—but in practice, very small \\(h\\) can lead to rounding error.',
+          'From a table, choose two points close to the point of interest and compute the slope between them. From a graph, sketch the tangent line and estimate its slope using two points on that line. The smaller \\(h\\) is, the better the approximation, but in practice, very small \\(h\\) can lead to rounding error.',
         ['Use \\(\\frac{f(x+h)-f(x)}{h}\\) or symmetric difference \\(\\frac{f(x+h)-f(x-h)}{2h}\\) for small \\(h\\).', 'From tables: pick two nearby \\(x\\) values and compute slope.', 'The exact derivative is the limit of these approximations as \\(h\\to 0\\).'],
         {
           exampleCode: `f(x)=x^3,\\ \\text{estimate } f'(2)
@@ -334,7 +325,7 @@ f(0)=0,\\quad f(2)=8-2=6
         '2-9',
         'Selecting Appropriate Differentiation Techniques',
         'Many functions require combining multiple rules. The key is identifying structure: Is it a product? Quotient? Composition (next unit: chain rule)? A sum of simpler pieces? Start by labeling parts and deciding which rule applies to each.\n\n' +
-          'For products, use the product rule and then simplify or factor. For quotients, use the quotient rule and then simplify the numerator. If the function is a composition (e.g. \\(\\sin(x^2)\\)), you will need the chain rule—covered in Unit 3.',
+          'For products, use the product rule and then simplify or factor. For quotients, use the quotient rule and then simplify the numerator. If the function is a composition (e.g. \\(\\sin(x^2)\\)), you will need the chain rule, covered in Unit 3.',
         ['Identify structure: product, quotient, sum, or composition.', 'Apply one rule at a time; simplify between steps.', 'Product: \\(f\'g+fg\'\\); quotient: \\(\\frac{f\'g-fg\'}{g^2}\\); sum: differentiate term by term.'],
         {
           exampleCode: `f(x)=x^2 e^x \\Rightarrow f'(x) = 2xe^x + x^2 e^x = e^x(2x+x^2)
@@ -357,7 +348,7 @@ f(x)=\\frac{\\sin x}{x^2} \\Rightarrow f'(x) = \\frac{x^2\\cos x - 2x\\sin x}{x^
         'Unit Overview',
         'In earlier units we differentiated straightforward expressions using the power rule, product rule, and quotient rule. In this unit we learn how to differentiate more complex structures: compositions of functions (one function inside another), equations that are not solved for one variable (implicit relations), and inverse relationships.\n\n' +
           'The key idea is that derivatives respect structure. When functions are nested, multiplied, or implicitly defined, we must apply rules that carefully track how quantities depend on one another. The chain rule captures the idea that if \\(y = f(g(x))\\), then the rate of change of \\(y\\) with respect to \\(x\\) flows through both the outer function \\(f\\) and the inner function \\(g\\). Implicit differentiation extends this by treating \\(y\\) as a function of \\(x\\) even when we cannot solve for \\(y\\) explicitly.\n\n' +
-          'Inverse functions and inverse trigonometric functions have derivative formulas that follow from the chain rule and the definition of an inverse. Higher-order derivatives (second derivative, third derivative, and so on) measure how rates themselves change—leading to acceleration, concavity, and more refined approximations.',
+          'Inverse functions and inverse trigonometric functions have derivative formulas that follow from the chain rule and the definition of an inverse. Higher-order derivatives (second derivative, third derivative, and so on) measure how rates themselves change, leading to acceleration, concavity, and more refined approximations.',
         ['Compositions require the chain rule: differentiate outer, then multiply by derivative of inner.', 'Implicit relations: differentiate both sides with respect to \\(x\\), treating \\(y\\) as a function of \\(x\\).', 'Inverse and inverse trig derivatives follow from the chain rule and \\((f^{-1})\'(x) = 1/f\'(f^{-1}(x))\\).'],
         {
           exampleCode: `\\text{If } y = f(g(x)), \\text{ then } \\frac{dy}{dx} = f'(g(x))\\cdot g'(x).
@@ -392,7 +383,7 @@ f'(x) = 5(3x^2+1)^4 \\cdot 6x = 30x(3x^2+1)^4
         '3-2',
         'Implicit Differentiation',
         'Implicit differentiation is used when \\(y\\) is not isolated on one side of the equation. We differentiate both sides with respect to \\(x\\), treating \\(y\\) as a function of \\(x\\) and applying the chain rule whenever we hit \\(y\\). The key is that \\(\\frac{d}{dx}(y) = \\frac{dy}{dx}\\), and \\(\\frac{d}{dx}(y^n) = ny^{n-1}\\frac{dy}{dx}\\).\n\n' +
-          'After differentiating, collect all terms involving \\(\\frac{dy}{dx}\\) on one side and factor; then solve for \\(\\frac{dy}{dx}\\). The result is usually in terms of both \\(x\\) and \\(y\\), which is fine—we often evaluate it at a specific point.\n\n' +
+          'After differentiating, collect all terms involving \\(\\frac{dy}{dx}\\) on one side and factor; then solve for \\(\\frac{dy}{dx}\\). The result is usually in terms of both \\(x\\) and \\(y\\), which is fine, we often evaluate it at a specific point.\n\n' +
           'Use the product rule when a term is \\(xy\\) or \\(x^2 y\\): \\(\\frac{d}{dx}(xy) = x\\frac{dy}{dx} + y\\). Implicit differentiation is essential for curves that are not functions (e.g. circles, ellipses) and for related rates when the relation between variables is implicit.',
         ['Differentiate both sides with respect to \\(x\\); treat \\(y\\) as a function of \\(x\\).', '\\(\\frac{d}{dx}(y) = \\frac{dy}{dx}\\); for \\(y^n\\) use chain rule: \\(ny^{n-1}\\frac{dy}{dx}\\).', 'Solve for \\(\\frac{dy}{dx}\\); product rule for terms like \\(xy\\).'],
         {
@@ -428,7 +419,7 @@ xy=10 \\Rightarrow x\\frac{dy}{dx} + y = 0 \\Rightarrow \\frac{dy}{dx} = -\\frac
         '3-4',
         'Higher-Order Derivatives',
         'Higher-order derivatives measure how rates themselves change. The second derivative is the derivative of the first derivative; it often represents acceleration (in motion) or concavity (in graphing). Notation: \\(f\'\'(x)\\) or \\(f^{(2)}(x)\\), and \\(\\frac{d^2 y}{dx^2}\\) in Leibniz form.\n\n' +
-          'To find the second derivative, differentiate once to get \\(f\'(x)\\), then differentiate again. If the first derivative used the product or quotient rule, the second derivative may require those rules again—so keep expressions tidy.\n\n' +
+          'To find the second derivative, differentiate once to get \\(f\'(x)\\), then differentiate again. If the first derivative used the product or quotient rule, the second derivative may require those rules again, so keep expressions tidy.\n\n' +
           'The third derivative and beyond appear less often but follow the same idea. Higher-order derivatives are used in Taylor polynomials and in differential equations.',
         ['Second derivative: \\(f\'\'(x) = \\frac{d}{dx}[f\'(x)]\\); notation \\(\\frac{d^2 y}{dx^2}\\).', 'Interpretation: second derivative = acceleration (motion) or concavity (graphing).', 'Differentiate the first derivative; simplify before differentiating again when possible.'],
         {
@@ -471,7 +462,7 @@ f(x)=e^{\\sin x} \\Rightarrow f'(x) = e^{\\sin x}\\cos x
         'Unit Overview',
         'Derivatives are not just symbolic tools; they describe real-world change. In this unit we apply derivatives to motion, growth, optimization, and approximation. We move from computing derivatives to interpreting what they mean in context.\n\n' +
           'If \\(f(x)\\) represents a quantity (revenue, position, population, area), then \\(f\'(x)\\) represents the rate at which that quantity changes with respect to \\(x\\) (often time). Units matter: if \\(f\\) is in dollars and \\(x\\) in units sold, \\(f\'\\) is in dollars per unit; if \\(s(t)\\) is position in meters and \\(t\\) in seconds, \\(s\'(t)\\) is velocity in m/s.\n\n' +
-          'Key applications include position–velocity–acceleration relationships, related rates (two or more quantities changing with respect to time), linearization (using the tangent line to approximate values), and L\'Hôpital\'s rule for limits that yield indeterminate forms.',
+          'Key applications include position,velocity,acceleration relationships, related rates (two or more quantities changing with respect to time), linearization (using the tangent line to approximate values), and L\'Hôpital\'s rule for limits that yield indeterminate forms.',
         ['\\(f\'(x)\\) = rate of change of \\(f\\) with respect to \\(x\\); interpret units.', 'Position \\(s(t)\\), velocity \\(v(t)=s\'(t)\\), acceleration \\(a(t)=v\'(t)\\).', 'Related rates: differentiate with respect to time; linearization: \\(L(x)=f(a)+f\'(a)(x-a)\\).'],
         {
           exampleCode: `\\text{Rate of change of } f \\text{ at } x \\text{ is } f'(x).
@@ -548,7 +539,7 @@ f(x)=e^{\\sin x} \\Rightarrow f'(x) = e^{\\sin x}\\cos x
         'Linearization & Local Linearity',
         'Near a point, a differentiable function behaves like its tangent line. The linear approximation (linearization) at \\(x=a\\) is \\(L(x) = f(a) + f\'(a)(x-a)\\). We use it to approximate \\(f(x)\\) when \\(x\\) is close to \\(a\\).\n\n' +
           'To approximate \\(\\sqrt{4.1}\\), let \\(f(x)=\\sqrt{x}\\) and \\(a=4\\); then \\(f(4)=2\\), \\(f\'(x)=\\frac{1}{2\\sqrt{x}}\\) so \\(f\'(4)=\\frac{1}{4}\\), and \\(L(4.1)=2+\\frac{1}{4}(0.1)=2.025\\). The error is small when \\(x\\) is close to \\(a\\); the approximation is best for values near the point of tangency.\n\n' +
-          'Local linearity means that zooming in on a differentiable function makes it look like a line—the tangent line. This idea underlies both linear approximation and the definition of the derivative.',
+          'Local linearity means that zooming in on a differentiable function makes it look like a line, the tangent line. This idea underlies both linear approximation and the definition of the derivative.',
         ['\\(L(x)=f(a)+f\'(a)(x-a)\\) is the tangent line at \\(x=a\\); use to approximate \\(f(x)\\) near \\(a\\).', 'Choose \\(a\\) close to the \\(x\\) at which you want the value.', 'Error increases as \\(x\\) moves away from \\(a\\).'],
         {
           exampleCode: `f(x)=\\sqrt{x},\\ a=4 \\Rightarrow f(4)=2,\\ f'(x)=\\frac{1}{2\\sqrt{x}},\\ f'(4)=\\frac{1}{4}
@@ -585,7 +576,7 @@ L(x)=2+\\frac{1}{4}(x-4),\\quad L(4.1)=2+\\frac{1}{4}(0.1)=2.025 \\approx \\sqrt
         '5-0',
         'Unit Overview',
         'In this unit, derivatives move from computation to analysis. Instead of just finding \\(f\'(x)\\), we use derivatives to determine where functions increase, decrease, reach maximum or minimum values, and change concavity. This is the structural toolkit for understanding graphs without graphing technology.\n\n' +
-          'By analyzing the first derivative we learn where \\(f\'\\) is positive (increasing), negative (decreasing), or zero (horizontal tangents and candidates for extrema). By analyzing the second derivative we learn where the graph is concave up or concave down and where inflection points occur. Together, the first and second derivatives let us reconstruct the behavior of a function from scratch—critical points, intervals of increase/decrease, local and absolute extrema, and concavity.\n\n' +
+          'By analyzing the first derivative we learn where \\(f\'\\) is positive (increasing), negative (decreasing), or zero (horizontal tangents and candidates for extrema). By analyzing the second derivative we learn where the graph is concave up or concave down and where inflection points occur. Together, the first and second derivatives let us reconstruct the behavior of a function from scratch, critical points, intervals of increase/decrease, local and absolute extrema, and concavity.\n\n' +
           'The Mean Value Theorem and Extreme Value Theorem provide the theoretical foundation: the EVT guarantees that a continuous function on a closed interval attains a maximum and minimum; the MVT says that somewhere the instantaneous rate equals the average rate. Optimization problems apply these ideas to real-world constraints: express the quantity to maximize or minimize as a function of one variable, then find critical points and classify them.',
         ['First derivative: sign of \\(f\'\\) gives increase/decrease; zeros give critical points.', 'Second derivative: sign of \\(f\'\'\\) gives concavity; zeros give inflection candidates.', 'EVT: continuous on \\([a,b]\\) \\(\\Rightarrow\\) absolute max and min exist. MVT: \\(f\'(c)\\) = average rate for some \\(c\\in(a,b)\\).'],
         {
@@ -642,7 +633,7 @@ f'(x)=0 \\Rightarrow x = \\pm 1
         '5-3',
         'First and Second Derivative Tests',
         'The First Derivative Test classifies a critical point by the sign of \\(f\'\\) on either side: if \\(f\'\\) changes from positive to negative at \\(c\\), then \\(f\\) has a local maximum at \\(c\\); if from negative to positive, a local minimum. If there is no sign change, the critical point is neither a max nor a min (e.g. \\(f(x)=x^3\\) at \\(x=0\\)).\n\n' +
-          'The Second Derivative Test uses concavity at the critical point: if \\(f\'(c)=0\\) and \\(f\'\'(c)>0\\), then \\(f\\) is concave up at \\(c\\) and there is a local minimum; if \\(f\'\'(c)<0\\), then \\(f\\) is concave down and there is a local maximum. If \\(f\'\'(c)=0\\), the test is inconclusive—use the first derivative test or check concavity on both sides.',
+          'The Second Derivative Test uses concavity at the critical point: if \\(f\'(c)=0\\) and \\(f\'\'(c)>0\\), then \\(f\\) is concave up at \\(c\\) and there is a local minimum; if \\(f\'\'(c)<0\\), then \\(f\\) is concave down and there is a local maximum. If \\(f\'\'(c)=0\\), the test is inconclusive, use the first derivative test or check concavity on both sides.',
         ['First derivative test: sign change of \\(f\'\\) at \\(c\\): + to − \\(\\Rightarrow\\) local max; − to + \\(\\Rightarrow\\) local min.', 'Second derivative test: \\(f\'(c)=0\\) and \\(f\'\'(c)>0\\) \\(\\Rightarrow\\) local min; \\(f\'\'(c)<0\\) \\(\\Rightarrow\\) local max.', 'If \\(f\'\'(c)=0\\), second derivative test is inconclusive; use first derivative test.'],
         {
           exampleCode: `f(x)=x^4-4x^2 \\Rightarrow f'(x)=4x^3-8x = 4x(x^2-2)
@@ -662,7 +653,7 @@ f''(\\sqrt{2})=12(2)-8=16>0 \\Rightarrow \\text{local min.}
         '5-4',
         'Concavity and Inflection Points',
         'Concavity is determined by the sign of the second derivative: \\(f\'\'(x)>0\\) means the graph is concave up (holds water); \\(f\'\'(x)<0\\) means concave down. On intervals where \\(f\'\'\\) is positive, \\(f\'\\) is increasing (slopes of tangent lines get steeper); where \\(f\'\'\\) is negative, \\(f\'\\) is decreasing.\n\n' +
-          'An inflection point is a point where the concavity changes—that is, where \\(f\'\'\\) changes sign. Candidates are where \\(f\'\'(x)=0\\) or where \\(f\'\'\\) does not exist. Confirm by checking that \\(f\'\'\\) actually changes sign on either side; not every zero of \\(f\'\'\\) is an inflection point (e.g. \\(f(x)=x^4\\) has \\(f\'\'(0)=0\\) but no sign change).',
+          'An inflection point is a point where the concavity changes; that is, where \\(f\'\'\\) changes sign. Candidates are where \\(f\'\'(x)=0\\) or where \\(f\'\'\\) does not exist. Confirm by checking that \\(f\'\'\\) actually changes sign on either side; not every zero of \\(f\'\'\\) is an inflection point (e.g. \\(f(x)=x^4\\) has \\(f\'\'(0)=0\\) but no sign change).',
         ['\\(f\'\'(x)>0\\) \\(\\Rightarrow\\) concave up; \\(f\'\'(x)<0\\) \\(\\Rightarrow\\) concave down.', 'Inflection point: concavity changes; candidates where \\(f\'\'(x)=0\\) or \\(f\'\'\\) DNE.', 'Verify sign change of \\(f\'\'\\) on both sides; \\(f\'\'(c)=0\\) alone is not enough.'],
         {
           exampleCode: `f(x)=x^3 \\Rightarrow f'(x)=3x^2,\\quad f''(x)=6x
@@ -671,7 +662,7 @@ f''(x)=0 \\Rightarrow x=0.\\quad x<0 \\Rightarrow f''<0 \\text{ (concave down); 
 \\\\
 \\text{Inflection point at } x=0.
 \\\\
-\\text{Extra: } p(x)=x^4 \\Rightarrow p''(x)=12x^2;\\ p''(0)=0 \\text{ but no sign change—no inflection at } 0.`,
+\\text{Extra: } p(x)=x^4 \\Rightarrow p''(x)=12x^2;\\ p''(0)=0 \\text{ but no sign change, no inflection at } 0.`,
           exampleLanguage: 'latex',
           exampleExplanation: 'For \\(x^3\\), the second derivative \\(6x\\) changes from negative to positive at 0, so 0 is an inflection point. For \\(x^4\\), \\(12x^2\\ge 0\\) everywhere, so no concavity change.',
         }
@@ -691,16 +682,16 @@ f''(x)=0 \\Rightarrow x=0.\\quad x<0 \\Rightarrow f''<0 \\text{ (concave down); 
 \\\\
 \\text{Extra: } f(-1)=2,\\ f(0)=0,\\ f(1)=-2 \\text{ give key points for the sketch.}`,
           exampleLanguage: 'latex',
-          exampleExplanation: 'With extrema at \\(\\pm 1\\) and inflection at 0, the cubic has a local max, then decreases through an inflection, then a local min, then increases—the classic cubic shape.',
+          exampleExplanation: 'With extrema at \\(\\pm 1\\) and inflection at 0, the cubic has a local max, then decreases through an inflection, then a local min, then increases, the classic cubic shape.',
         }
       ),
       subunit(
         '5-6',
         'Optimization',
         'Optimization problems ask for the maximum or minimum value of some quantity (area, volume, profit, cost, distance) subject to constraints. The quantity we want to optimize is the objective function; the constraints often relate two or more variables so we can express the objective in one variable, differentiate, and find critical points.\n\n' +
-          'Strategy: (1) Read the problem and identify what is to be maximized or minimized. (2) Draw a diagram and label variables. (3) Write the objective function in one variable—use the constraints to eliminate other variables. (4) Determine the domain (often \\(x>0\\) and physical limits). (5) Find \\(f\'(x)\\) and set it to zero; solve for critical points. (6) Check critical points and endpoints (if the domain is closed) by evaluating \\(f\\); the largest value is the maximum, the smallest is the minimum. (7) Answer the question with units.\n\n' +
+          'Strategy: (1) Read the problem and identify what is to be maximized or minimized. (2) Draw a diagram and label variables. (3) Write the objective function in one variable, use the constraints to eliminate other variables. (4) Determine the domain (often \\(x>0\\) and physical limits). (5) Find \\(f\'(x)\\) and set it to zero; solve for critical points. (6) Check critical points and endpoints (if the domain is closed) by evaluating \\(f\\); the largest value is the maximum, the smallest is the minimum. (7) Answer the question with units.\n\n' +
           'Common pitfalls: forgetting to express the objective in a single variable; using the wrong endpoint or forgetting that the domain might be open (e.g. \\(x>0\\) with no upper bound); misidentifying whether you need a max or a min; and not checking that the critical point actually gives a max or min (use first or second derivative test, or compare values).\n\n' +
-          'Classic examples: rectangle of fixed perimeter (maximize area—square is best); open-top box from a rectangle by cutting squares from corners (maximize volume); cylinder of fixed surface area (maximize volume); distance from a point to a curve (minimize distance squared to avoid square roots). In each case, the constraint reduces the number of free variables so the objective becomes a function of one variable.',
+          'Classic examples: rectangle of fixed perimeter (maximize area, square is best); open-top box from a rectangle by cutting squares from corners (maximize volume); cylinder of fixed surface area (maximize volume); distance from a point to a curve (minimize distance squared to avoid square roots). In each case, the constraint reduces the number of free variables so the objective becomes a function of one variable.',
         ['Identify objective (what to max/min) and constraints; express objective as a function of one variable.', 'Find domain (physical and mathematical); find \\(f\'\\) and critical points; evaluate \\(f\\) at critical points and endpoints.', 'Confirm max vs min (second derivative test or compare values); state answer with units.'],
         {
           exampleCode: `\\text{Maximize area of rectangle with perimeter } 20.
@@ -735,7 +726,7 @@ V(r)=\\pi r^2 h = \\pi r^2\\left(\\frac{12}{r}-r\\right)=12\\pi r - \\pi r^3.\\q
 \\\\
 \\text{Extra: } xy=4 \\Rightarrow y+x\\frac{dy}{dx}=0 \\Rightarrow \\frac{dy}{dx}=-\\frac{y}{x};\\ \\text{at } (2,2),\\ \\text{slope } =-1.`,
           exampleLanguage: 'latex',
-          exampleExplanation: 'For the circle, \\(dy/dx=-x/y\\) is zero when \\(x=0\\) (top and bottom of the circle) and undefined when \\(y=0\\) (left and right)—matching the geometry.',
+          exampleExplanation: 'For the circle, \\(dy/dx=-x/y\\) is zero when \\(x=0\\) (top and bottom of the circle) and undefined when \\(y=0\\) (left and right), matching the geometry.',
         }
       ),
     ],
@@ -747,9 +738,9 @@ V(r)=\\pi r^2 h = \\pi r^2\\left(\\frac{12}{r}-r\\right)=12\\pi r - \\pi r^3.\\q
       subunit(
         '6-0',
         'Unit Overview',
-        'Integration reverses differentiation and measures accumulated change. If derivatives measure instantaneous rates, integrals measure total accumulation over an interval—area under a curve, distance traveled, total growth, or any quantity that builds up from a rate.\n\n' +
+        'Integration reverses differentiation and measures accumulated change. If derivatives measure instantaneous rates, integrals measure total accumulation over an interval, area under a curve, distance traveled, total growth, or any quantity that builds up from a rate.\n\n' +
           'This unit introduces Riemann sums (finite approximations using rectangles or other shapes), the definite integral as the limit of those sums, and the Fundamental Theorem of Calculus, which links integration to antiderivatives. We then develop systematic techniques for finding antiderivatives: basic rules (reversing the power rule), substitution (for composites), integration by parts, partial fractions, and handling improper integrals (infinite limits or unbounded integrands).\n\n' +
-          'Choosing the right technique depends on the structure of the integrand—whether it contains a composition, a product of certain types of functions, a rational function, or an infinite interval. Practice with many forms builds fluency.',
+          'Choosing the right technique depends on the structure of the integrand, whether it contains a composition, a product of certain types of functions, a rational function, or an infinite interval. Practice with many forms builds fluency.',
         ['Definite integral = limit of Riemann sums; represents accumulated change (e.g. area, distance).', 'FTC Part 1: derivative of \\(\\int_a^x f(t)\\,dt\\) is \\(f(x)\\). Part 2: \\(\\int_a^b f(x)\\,dx = F(b)-F(a)\\) for antiderivative \\(F\\).', 'Techniques: basic rules, substitution, by parts, partial fractions; improper integrals use limits.'],
         {
           exampleCode: `\\text{Derivative } \\Rightarrow \\text{ rate. Integral } \\Rightarrow \\text{ total accumulation.}
@@ -914,7 +905,7 @@ F(3)-F(1) = 9-1 = 8
       subunit(
         '7-0',
         'Unit Overview',
-        'A differential equation is an equation that relates a function to its derivative (or derivatives). Instead of being given an explicit formula and then differentiating it, we are given information about how something changes—the rate of change—and we must reconstruct the original function. This “inverse” perspective appears everywhere: population dynamics, cooling and heating, radioactive decay, loan interest, and chemical reactions.\n\n' +
+        'A differential equation is an equation that relates a function to its derivative (or derivatives). Instead of being given an explicit formula and then differentiating it, we are given information about how something changes, the rate of change, and we must reconstruct the original function. This “inverse” perspective appears everywhere: population dynamics, cooling and heating, radioactive decay, loan interest, and chemical reactions.\n\n' +
           'This unit focuses on first-order differential equations: equations that involve only the first derivative \\(\\frac{dy}{dx}\\) (or \\(\\frac{dP}{dt}\\), etc.). We learn how to interpret slope fields (which show the slope of solution curves at each point in the plane), how to approximate solutions numerically using Euler\'s method, and how to solve certain equations analytically using separation of variables. These tools allow us to model exponential and logistic growth, Newton\'s law of cooling, and many other real-world systems.\n\n' +
           'The general form of a first-order differential equation is \\(\\frac{dy}{dx} = f(x,y)\\): the rate of change of \\(y\\) with respect to \\(x\\) is given by some function of \\(x\\) and \\(y\\). A solution is a function \\(y(x)\\) that satisfies this relationship. Initial value problems specify a starting point \\(y(x_0)=y_0\\) so that we obtain a unique solution.',
         ['First-order DE: \\(\\frac{dy}{dx}=f(x,y)\\); solution = function satisfying the equation.', 'Slope fields show slopes at points; Euler\'s method approximates solutions step by step.', 'Separation of variables: rewrite as \\(\\frac{1}{h(y)}\\,dy = g(x)\\,dx\\) and integrate both sides.'],
@@ -930,8 +921,8 @@ F(3)-F(1) = 9-1 = 8
         '7-1',
         'Modeling with Differential Equations',
         'Many real-world problems are stated in terms of rates of change rather than explicit formulas. When a quantity\'s rate of change depends on the quantity itself (or on time, or on other variables), we can write a differential equation to model the situation. The goal is to translate the verbal or physical description into an equation involving a function and its derivative.\n\n' +
-          'For example, if a population grows in proportion to its current size—the more individuals there are, the faster the population grows—we write \\(\\frac{dP}{dt} = kP\\), where \\(P(t)\\) is population at time \\(t\\) and \\(k>0\\) is the growth rate constant. This says that the growth rate \\(dP/dt\\) is proportional to \\(P\\). Similarly, Newton\'s law of cooling states that the rate at which an object\'s temperature changes is proportional to the difference between the object\'s temperature and the ambient (room) temperature: \\(\\frac{dT}{dt} = -k(T - T_{\\text{room}})\\). The negative sign indicates that the object cools when it is hotter than the room.\n\n' +
-          'Recognizing these patterns—rate proportional to quantity, or rate proportional to difference from an equilibrium—is the first step in building and solving differential equation models. Once the equation is written, we can use slope fields, Euler\'s method, or separation of variables (when applicable) to understand and compute solutions.',
+          'For example, if a population grows in proportion to its current size, the more individuals there are, the faster the population grows, we write \\(\\frac{dP}{dt} = kP\\), where \\(P(t)\\) is population at time \\(t\\) and \\(k>0\\) is the growth rate constant. This says that the growth rate \\(dP/dt\\) is proportional to \\(P\\). Similarly, Newton\'s law of cooling states that the rate at which an object\'s temperature changes is proportional to the difference between the object\'s temperature and the ambient (room) temperature: \\(\\frac{dT}{dt} = -k(T - T_{\\text{room}})\\). The negative sign indicates that the object cools when it is hotter than the room.\n\n' +
+          'Recognizing these patterns, rate proportional to quantity, or rate proportional to difference from an equilibrium, is the first step in building and solving differential equation models. Once the equation is written, we can use slope fields, Euler\'s method, or separation of variables (when applicable) to understand and compute solutions.',
         ['Translate “rate of change” into \\(\\frac{dy}{dt}\\) or \\(\\frac{dP}{dt}\\); relate it to \\(y\\), \\(P\\), or \\(t\\).', 'Exponential-type: \\(\\frac{dP}{dt}=kP\\) (rate proportional to amount).', 'Cooling: \\(\\frac{dT}{dt}=-k(T-T_{\\text{room}})\\) (rate proportional to temperature difference).'],
         {
           exampleCode: `\\frac{dP}{dt} = 0.05P \\quad \\text{(growth rate 5\\% of current population)}
@@ -946,8 +937,8 @@ F(3)-F(1) = 9-1 = 8
       subunit(
         '7-2',
         "Slope Fields & Euler's Method",
-        'A slope field (or direction field) is a graphical representation of a differential equation \\(\\frac{dy}{dx}=f(x,y)\\). At each point \\((x,y)\\) in the plane (or in a region), we draw a short line segment whose slope is \\(f(x,y)\\). So at every point we see the slope that a solution curve would have if it passed through that point. Solution curves are curves that are tangent to these segments at every point—they “flow” along the slopes. Sketching a solution that passes through a given point (an initial condition) amounts to following the direction of the segments.\n\n' +
-          "Euler's method is a numerical procedure to approximate the value of a solution at a chosen point. We start at an initial point \\((x_0,y_0)\\), take a small step in \\(x\\) of size \\(\\Delta x\\), and use the slope at \\((x_0,y_0)\\) to estimate the change in \\(y\\): \\(y_1 = y_0 + f(x_0,y_0)\\,\\Delta x\\). Then we repeat: \\(y_{n+1} = y_n + f(x_n,y_n)\\,\\Delta x\\). The smaller \\(\\Delta x\\) is, the more accurate the approximation (but the more steps we need). Euler's method is a simple example of a numerical integrator; it can be extended to get better accuracy (e.g. improved Euler, Runge–Kutta).",
+        'A slope field (or direction field) is a graphical representation of a differential equation \\(\\frac{dy}{dx}=f(x,y)\\). At each point \\((x,y)\\) in the plane (or in a region), we draw a short line segment whose slope is \\(f(x,y)\\). So at every point we see the slope that a solution curve would have if it passed through that point. Solution curves are curves that are tangent to these segments at every point; they “flow” along the slopes. Sketching a solution that passes through a given point (an initial condition) amounts to following the direction of the segments.\n\n' +
+          "Euler's method is a numerical procedure to approximate the value of a solution at a chosen point. We start at an initial point \\((x_0,y_0)\\), take a small step in \\(x\\) of size \\(\\Delta x\\), and use the slope at \\((x_0,y_0)\\) to estimate the change in \\(y\\): \\(y_1 = y_0 + f(x_0,y_0)\\,\\Delta x\\). Then we repeat: \\(y_{n+1} = y_n + f(x_n,y_n)\\,\\Delta x\\). The smaller \\(\\Delta x\\) is, the more accurate the approximation (but the more steps we need). Euler's method is a simple example of a numerical integrator; it can be extended to get better accuracy (e.g. improved Euler, Runge,Kutta).",
         ['Slope field: at each \\((x,y)\\) draw a segment with slope \\(f(x,y)\\); solution curves follow these directions.', "Euler: \\(y_{n+1} = y_n + f(x_n,y_n)\\,\\Delta x\\); start at \\((x_0,y_0)\\), step by \\(\\Delta x\\).", 'Smaller \\(\\Delta x\\) generally gives a better approximation but more steps.'],
         {
           exampleCode: `\\frac{dy}{dx}=x+y,\\quad y(0)=1,\\quad \\Delta x=0.1
@@ -964,7 +955,7 @@ f(0,1)=0+1=1.\\quad y_1 = 1 + 1(0.1) = 1.1
       subunit(
         '7-3',
         'Separation of Variables',
-        'Separation of variables is an algebraic and calculus technique for solving differential equations that can be written in the form \\(\\frac{dy}{dx} = g(x)\\,h(y)\\)—that is, the right-hand side is a product of a function of \\(x\\) only and a function of \\(y\\) only. We “separate” by dividing both sides by \\(h(y)\\) (assuming \\(h(y)\\neq 0\\)) and multiplying by \\(dx\\) to get \\(\\frac{1}{h(y)}\\,dy = g(x)\\,dx\\). Then we integrate both sides: \\(\\int \\frac{1}{h(y)}\\,dy = \\int g(x)\\,dx\\). The left side gives an expression in \\(y\\) (plus a constant), the right side an expression in \\(x\\) (plus a constant); combining the constants we get an implicit equation relating \\(x\\) and \\(y\\). Often we can solve for \\(y\\) explicitly.\n\n' +
+        'Separation of variables is an algebraic and calculus technique for solving differential equations that can be written in the form \\(\\frac{dy}{dx} = g(x)\\,h(y)\\); that is, the right-hand side is a product of a function of \\(x\\) only and a function of \\(y\\) only. We “separate” by dividing both sides by \\(h(y)\\) (assuming \\(h(y)\\neq 0\\)) and multiplying by \\(dx\\) to get \\(\\frac{1}{h(y)}\\,dy = g(x)\\,dx\\). Then we integrate both sides: \\(\\int \\frac{1}{h(y)}\\,dy = \\int g(x)\\,dx\\). The left side gives an expression in \\(y\\) (plus a constant), the right side an expression in \\(x\\) (plus a constant); combining the constants we get an implicit equation relating \\(x\\) and \\(y\\). Often we can solve for \\(y\\) explicitly.\n\n' +
           'The method works because we are effectively reversing the chain rule: we treat \\(y\\) as a function of \\(x\\) and integrate with respect to \\(x\\) on one side and with respect to \\(y\\) on the other. Not every differential equation is separable; for example, \\(\\frac{dy}{dx}=x+y\\) cannot be written as \\(g(x)h(y)\\), so we use other tools (slope fields, Euler\'s method, or more advanced techniques) for those.',
         ['Separable: \\(\\frac{dy}{dx}=g(x)h(y)\\). Rewrite as \\(\\frac{1}{h(y)}\\,dy = g(x)\\,dx\\).', 'Integrate both sides; include \\(+C\\) on one side (or combine constants).', 'Solve for \\(y\\) if possible; use initial condition to find \\(C\\) when given.'],
         {
@@ -982,7 +973,7 @@ f(0,1)=0+1=1.\\quad y_1 = 1 + 1(0.1) = 1.1
       subunit(
         '7-4',
         'Initial Value Problems',
-        'An initial value problem (IVP) consists of a differential equation together with a single point on the solution curve—typically \\(y(x_0)=y_0\\)—which we call the initial condition. The purpose of the initial condition is to select one solution from the family of solutions (which usually include an arbitrary constant \\(C\\)). By substituting the initial condition into the general solution, we solve for \\(C\\) and obtain the unique solution that passes through the given point.\n\n' +
+        'An initial value problem (IVP) consists of a differential equation together with a single point on the solution curve, typically \\(y(x_0)=y_0\\), which we call the initial condition. The purpose of the initial condition is to select one solution from the family of solutions (which usually include an arbitrary constant \\(C\\)). By substituting the initial condition into the general solution, we solve for \\(C\\) and obtain the unique solution that passes through the given point.\n\n' +
           'Procedure: (1) Solve the differential equation (e.g. by separation of variables) to get the general solution, which will contain \\(C\\). (2) Substitute \\(x=x_0\\) and \\(y=y_0\\) into the general solution. (3) Solve for \\(C\\). (4) Write the final answer with \\(C\\) replaced by its value. This ensures that our model not only obeys the rate law but also matches the observed state at one time.',
         ['IVP = differential equation + initial condition \\(y(x_0)=y_0\\).', 'Find general solution (with \\(C\\)), then plug in \\((x_0,y_0)\\) to solve for \\(C\\).', 'Final answer: unique solution that satisfies both the DE and the initial condition.'],
         {
@@ -1002,7 +993,7 @@ y = 3e^{2x}
       subunit(
         '7-5',
         'Exponential Growth & Decay Models',
-        'When the rate of change of a quantity is proportional to the quantity itself—\\(\\frac{dP}{dt}=kP\\)—the model is called exponential growth (if \\(k>0\\)) or exponential decay (if \\(k<0\\)). The solution is \\(P(t)=P_0 e^{kt}\\), where \\(P_0\\) is the value at \\(t=0\\) (the initial value). This formula is derived by separation of variables: \\(\\frac{1}{P}\\,dP = k\\,dt\\), integrate to get \\(\\ln|P|=kt+C\\), then \\(P=e^{kt+C}=P_0 e^{kt}\\) with \\(P_0=e^C\\).\n\n' +
+        'When the rate of change of a quantity is proportional to the quantity itself, \\(\\frac{dP}{dt}=kP\\), the model is called exponential growth (if \\(k>0\\)) or exponential decay (if \\(k<0\\)). The solution is \\(P(t)=P_0 e^{kt}\\), where \\(P_0\\) is the value at \\(t=0\\) (the initial value). This formula is derived by separation of variables: \\(\\frac{1}{P}\\,dP = k\\,dt\\), integrate to get \\(\\ln|P|=kt+C\\), then \\(P=e^{kt+C}=P_0 e^{kt}\\) with \\(P_0=e^C\\).\n\n' +
           'In growth, \\(k>0\\) and \\(P(t)\\) increases without bound as \\(t\\) increases; doubling time is constant. In decay, \\(k<0\\) and \\(P(t)\\) approaches zero; half-life is constant. Applications include population growth (with unlimited resources), radioactive decay, continuously compounded interest, and simple models of drug concentration. When resources are limited, the logistic model (next subunit) is more realistic.',
         ['\\(\\frac{dP}{dt}=kP\\) \\(\\Rightarrow\\) \\(P(t)=P_0 e^{kt}\\). \\(k>0\\) growth, \\(k<0\\) decay.', 'Initial value \\(P_0\\) sets the scale; \\(k\\) sets the rate.', 'Doubling/half-life: \\(e^{kT}=2\\) or \\(1/2\\) \\(\\Rightarrow\\) \\(T=\\frac{\\ln 2}{|k|}\\) or \\(\\frac{\\ln(1/2)}{k}\\).'],
         {
@@ -1020,7 +1011,7 @@ P(10)=100e^{0.4} \\approx 149
       subunit(
         '7-6',
         'Logistic Growth Models',
-        'Logistic growth models situations where growth is limited by resources (food, space, etc.). Instead of \\(\\frac{dP}{dt}=kP\\), we use \\(\\frac{dP}{dt}=kP\\big(1-\\frac{P}{L}\\big)\\), where \\(L\\) is the carrying capacity—the maximum population the environment can sustain. When \\(P\\) is small, \\(1-P/L\\approx 1\\) and growth is approximately exponential; as \\(P\\) approaches \\(L\\), the factor \\(1-P/L\\) approaches zero, so the growth rate slows and \\(P\\) levels off near \\(L\\).\n\n' +
+        'Logistic growth models situations where growth is limited by resources (food, space, etc.). Instead of \\(\\frac{dP}{dt}=kP\\), we use \\(\\frac{dP}{dt}=kP\\big(1-\\frac{P}{L}\\big)\\), where \\(L\\) is the carrying capacity, the maximum population the environment can sustain. When \\(P\\) is small, \\(1-P/L\\approx 1\\) and growth is approximately exponential; as \\(P\\) approaches \\(L\\), the factor \\(1-P/L\\) approaches zero, so the growth rate slows and \\(P\\) levels off near \\(L\\).\n\n' +
           'The solution can be written in the form \\(P(t)=\\frac{L}{1+Ce^{-kt}}\\). The constant \\(C\\) is determined by the initial condition: if \\(P(0)=P_0\\), then \\(P_0=\\frac{L}{1+C}\\), so \\(1+C=\\frac{L}{P_0}\\) and \\(C=\\frac{L}{P_0}-1\\). As \\(t\\to\\infty\\), \\(e^{-kt}\\to 0\\), so \\(P(t)\\to L\\). The logistic model is separable; solving it involves partial fractions or a substitution to integrate \\(\\int \\frac{dP}{P(L-P)}\\).',
         ['Logistic: \\(\\frac{dP}{dt}=kP(1-\\frac{P}{L})\\); \\(L\\) = carrying capacity.', 'Solution: \\(P(t)=\\frac{L}{1+Ce^{-kt}}\\); \\(P\\to L\\) as \\(t\\to\\infty\\).', 'Use \\(P(0)=P_0\\) to find \\(C\\): \\(P_0=\\frac{L}{1+C}\\) \\(\\Rightarrow\\) \\(C=\\frac{L}{P_0}-1\\).'],
         {
@@ -1045,7 +1036,7 @@ P(t)=\\frac{500}{1+9e^{-0.3t}}
         '8-0',
         'Unit Overview',
         'Up to this point, integrals have primarily been tools for reversing derivatives or computing signed area. In this unit, integration becomes geometric and physical. We use integrals to compute average values of functions, total distance traveled by an object moving along a line, area between two curves, volumes of solids (both by cross sections and by rotation), and the length of a curve (arc length).\n\n' +
-          'The unifying idea is accumulation. If we can describe a quantity in very small pieces—thin rectangles, thin disks, thin slices—we can sum infinitely many of those pieces using an integral. Every application in this unit follows the same structure: (1) Identify a small piece. (2) Express that piece mathematically (height × width, area of a slice, etc.). (3) Integrate over the interval. That is the universal blueprint. The “integral of a rate” gives total change; the “integral of an area” gives volume or another accumulated measure.',
+          'The unifying idea is accumulation. If we can describe a quantity in very small pieces, thin rectangles, thin disks, thin slices, we can sum infinitely many of those pieces using an integral. Every application in this unit follows the same structure: (1) Identify a small piece. (2) Express that piece mathematically (height × width, area of a slice, etc.). (3) Integrate over the interval. That is the universal blueprint. The “integral of a rate” gives total change; the “integral of an area” gives volume or another accumulated measure.',
         ['Accumulation: small pieces (rectangles, disks, slices) summed via \\(\\int\\).', 'Blueprint: identify piece → express mathematically → integrate over interval.', 'Applications: average value, displacement/distance, area between curves, volume (cross section or rotation), arc length.'],
         {
           exampleCode: `\\text{1. Identify small piece.}
@@ -1165,7 +1156,7 @@ L = \\int_0^1 \\sqrt{1+4x^2}\\,dx
       subunit(
         '9-0',
         'Unit Overview',
-        'In previous units, curves were written explicitly as \\(y=f(x)\\). But many curves cannot be expressed that way—circles (except half-circles), loops, and motion in the plane require a different approach. In this unit we describe curves using three representations: parametric equations (both \\(x\\) and \\(y\\) depend on a third variable, usually time \\(t\\)), vector-valued functions (position written as a vector \\(\\vec{r}(t)=\\langle x(t),y(t)\\rangle\\)), and polar coordinates (points described by distance \\(r\\) from the origin and angle \\(\\theta\\)).\n\n' +
+        'In previous units, curves were written explicitly as \\(y=f(x)\\). But many curves cannot be expressed that way, circles (except half-circles), loops, and motion in the plane require a different approach. In this unit we describe curves using three representations: parametric equations (both \\(x\\) and \\(y\\) depend on a third variable, usually time \\(t\\)), vector-valued functions (position written as a vector \\(\\vec{r}(t)=\\langle x(t),y(t)\\rangle\\)), and polar coordinates (points described by distance \\(r\\) from the origin and angle \\(\\theta\\)).\n\n' +
           'These representations allow us to analyze motion, slope, curvature, area, and arc length in more flexible ways. Parametric and vector forms are natural for particle motion; polar coordinates simplify many curves (circles, roses, spirals) and lead to compact area and arc length formulas. The BC exam expects fluency in converting between forms, computing derivatives (including \\(dy/dx\\) and \\(d^2y/dx^2\\) for parametric curves), and setting up integrals for arc length and area in polar form.',
         ['Parametric: \\(x=f(t)\\), \\(y=g(t)\\); slope \\(dy/dx = (dy/dt)/(dx/dt)\\).', 'Vector-valued: \\(\\vec{r}(t)=\\langle x(t),y(t)\\rangle\\); derivative component-wise.', 'Polar: \\(x=r\\cos\\theta\\), \\(y=r\\sin\\theta\\); area \\(\\frac{1}{2}\\int r^2\\,d\\theta\\), arc length from \\(\\sqrt{(dx/dt)^2+(dy/dt)^2}\\).'],
         {
@@ -1229,7 +1220,7 @@ L = \\int_0^{\\pi/2} 1\\,dt = \\frac{\\pi}{2} \\quad \\text{(quarter circle)}
 \\\\
 \\text{Extra: } x=t^2,\\ y=t^3 \\Rightarrow L = \\int_0^1 \\sqrt{4t^2+9t^4}\\,dt = \\int_0^1 t\\sqrt{4+9t^2}\\,dt`,
           exampleLanguage: 'latex',
-          exampleExplanation: 'For the circle, the integrand simplifies to 1, so arc length equals the length of the \\(t\\)-interval—a quarter circle has length \\(\\pi/2\\).',
+          exampleExplanation: 'For the circle, the integrand simplifies to 1, so arc length equals the length of the \\(t\\)-interval, a quarter circle has length \\(\\pi/2\\).',
         }
       ),
       subunit(
@@ -1291,7 +1282,7 @@ A = \\frac{1}{2}\\int_0^{2\\pi} 4\\,d\\theta = 2\\int_0^{2\\pi} d\\theta = 4\\pi
       subunit(
         '10-0',
         'Unit Overview',
-        'An infinite series is the sum of infinitely many terms: \\(\\sum_{n=1}^\\infty a_n = a_1+a_2+a_3+\\cdots\\). Unlike finite sums, infinite series require careful analysis—adding infinitely many numbers does not always produce a finite result. A series converges if the sequence of partial sums \\(S_N = \\sum_{n=1}^N a_n\\) approaches a finite limit as \\(N\\to\\infty\\); otherwise the series diverges.\n\n' +
+        'An infinite series is the sum of infinitely many terms: \\(\\sum_{n=1}^\\infty a_n = a_1+a_2+a_3+\\cdots\\). Unlike finite sums, infinite series require careful analysis, adding infinitely many numbers does not always produce a finite result. A series converges if the sequence of partial sums \\(S_N = \\sum_{n=1}^N a_n\\) approaches a finite limit as \\(N\\to\\infty\\); otherwise the series diverges.\n\n' +
           'This unit focuses on determining whether a series converges or diverges. We use several tests: the \\(n\\)th-term test (if \\(a_n\\not\\to 0\\) then the series diverges), geometric series, integral test, comparison tests, alternating series test, ratio test, and others. Later we study power series \\(\\sum a_n(x-c)^n\\) and Taylor/Maclaurin series, which represent functions as infinite polynomials and allow us to approximate functions and compute limits.',
         ['Series \\(\\sum a_n\\) converges if partial sums \\(S_N\\) have a finite limit; otherwise it diverges.', 'If \\(a_n\\not\\to 0\\) then \\(\\sum a_n\\) diverges; \\(a_n\\to 0\\) is necessary but not sufficient.', 'Tests: geometric, \\(p\\)-series, integral, comparison, alternating, ratio; power series and Taylor series.'],
         {
@@ -1368,7 +1359,7 @@ A = \\frac{1}{2}\\int_0^{2\\pi} 4\\,d\\theta = 2\\int_0^{2\\pi} d\\theta = 4\\pi
       subunit(
         '10-5',
         'Alternating Series & Error Bound',
-        'An alternating series has the form \\(\\sum (-1)^n a_n\\) or \\(\\sum (-1)^{n+1} a_n\\) with \\(a_n>0\\). The alternating series test: if \\(a_n\\) is decreasing, \\(a_n\\to 0\\), then the series converges. For such a series, the error after \\(n\\) terms satisfies \\(|R_n| \\le a_{n+1}\\)—the first omitted term bounds the error. So to approximate the sum within a given error, find \\(n\\) so that \\(a_{n+1}\\) is smaller than the desired error.\n\n' +
+        'An alternating series has the form \\(\\sum (-1)^n a_n\\) or \\(\\sum (-1)^{n+1} a_n\\) with \\(a_n>0\\). The alternating series test: if \\(a_n\\) is decreasing, \\(a_n\\to 0\\), then the series converges. For such a series, the error after \\(n\\) terms satisfies \\(|R_n| \\le a_{n+1}\\), the first omitted term bounds the error. So to approximate the sum within a given error, find \\(n\\) so that \\(a_{n+1}\\) is smaller than the desired error.\n\n' +
           'Example: \\(\\sum (-1)^n/n\\) has \\(a_n=1/n\\) decreasing and \\(a_n\\to 0\\), so it converges. \\(|R_5|\\le a_6 = 1/6\\).',
         ['Alternating \\(\\sum (-1)^n a_n\\): if \\(a_n\\) decreases and \\(a_n\\to 0\\) then series converges.', 'Error bound: \\(|R_n|\\le a_{n+1}\\) (first omitted term).', 'Use to approximate sums: choose \\(n\\) so \\(a_{n+1}\\) is within tolerance.'],
         {
@@ -1444,7 +1435,7 @@ L>1 \\Rightarrow \\text{diverges}
 \\\\
 \\text{Extra: } \\sum n! x^n \\Rightarrow \\left|\\frac{a_{n+1}}{a_n}\\right| = (n+1)|x| \\to \\infty \\text{ for } x\\neq 0 \\Rightarrow R=0`,
           exampleLanguage: 'latex',
-          exampleExplanation: 'For \\(\\sum x^n/n!\\), the ratio \\(|x|/(n+1)\\) goes to 0 for every \\(x\\), so the series converges for all real \\(x\\)—this is the power series for \\(e^x\\).',
+          exampleExplanation: 'For \\(\\sum x^n/n!\\), the ratio \\(|x|/(n+1)\\) goes to 0 for every \\(x\\), so the series converges for all real \\(x\\); this is the power series for \\(e^x\\).',
         }
       ),
       subunit(
@@ -1472,9 +1463,11 @@ e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\cdots
 export const CALC_AB_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Calculus AB',
   units: CALC_UNITS.slice(0, 8),
+  features: { latex: true, codeExamples: false, defaultExampleLanguage: 'latex' },
 }
 
 export const CALC_BC_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Calculus BC',
   units: CALC_UNITS,
+  features: { latex: true, codeExamples: false, defaultExampleLanguage: 'latex' },
 }

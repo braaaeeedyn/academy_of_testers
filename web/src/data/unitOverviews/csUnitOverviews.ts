@@ -2,6 +2,7 @@ import type { SubjectUnitOverview } from './types'
 
 export const CSA_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Computer Science A',
+  features: { latex: false, codeExamples: true, defaultExampleLanguage: 'java' },
   units: [
     {
       unitNumber: 1,
@@ -46,7 +47,7 @@ export const CSA_UNIT_OVERVIEWS: SubjectUnitOverview = {
 }`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'This short program declares three variables of different primitive types and then prints them. Notice how the boolean expression average >= 70 is evaluated first, then stored in the passed variable. This pattern—declare, compute, print—is extremely common on the exam.',
+            'This short program declares three variables of different primitive types and then prints them. Notice how the boolean expression average >= 70 is evaluated first, then stored in the passed variable. This pattern, declare, compute, print, is extremely common on the exam.',
         },
         {
           id: '1-3',
@@ -66,7 +67,7 @@ int total = 20;          // initial assignment
 total = total + 5;       // reassignment using an expression`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'In the first line, Java evaluates 10 + 4 to get 14, then stores 14 in result. In the second pair of lines, total starts as 20, then total + 5 is evaluated (25) and stored back into total. This pattern—evaluate on the right, assign on the left—is fundamental to reasoning about state changes in a program.',
+            'In the first line, Java evaluates 10 + 4 to get 14, then stores 14 in result. In the second pair of lines, total starts as 20, then total + 5 is evaluated (25) and stored back into total. This pattern, evaluate on the right, assign on the left, is fundamental to reasoning about state changes in a program.',
         },
         {
           id: '1-4',
@@ -94,7 +95,7 @@ String name = input.nextLine();   // reads an entire line of text`,
           id: '1-5',
           title: 'Casting and Ranges of Variables',
           summary:
-            'Each primitive numeric type has limits on the values it can represent. For example, int can store values roughly from –2 billion to +2 billion. Going outside this range causes overflow, which can lead to surprising results.\n\n' +
+            'Each primitive numeric type has limits on the values it can represent. For example, int can store values roughly from ,2 billion to +2 billion. Going outside this range causes overflow, which can lead to surprising results.\n\n' +
             'Casting is the process of converting a value from one type to another. Some conversions, like assigning an int to a double, happen automatically (widening). Others, like converting a double to an int, require an explicit cast and may lose information (narrowing).\n\n' +
             'Understanding ranges and casting is important for writing correct arithmetic code and for interpreting exam questions that involve type conversion or overflow.',
           keyIdeas: [
@@ -542,7 +543,7 @@ while (count < 5) {
           exampleCode: `for (int i = 0; i < 5; i++) {
     System.out.println(i);
 }
-// i starts at 0, prints 0–4`,
+// i starts at 0, prints 0,4`,
           exampleLanguage: 'java',
           exampleExplanation:
             'The example loop starts i at 0, checks i < 5 before each iteration, runs the body, and then increments i. This pattern is extremely common on the AP exam, especially when working with arrays and ArrayLists.',
@@ -892,7 +893,7 @@ Math.sqrt(9);   // static method call on Math`,
           id: '3-9',
           title: 'This Keyword',
           summary:
-            'The this keyword refers to the current object—the instance on which a method or constructor is running. It is especially useful when parameter names are the same as field names.\n\n' +
+            'The this keyword refers to the current object, the instance on which a method or constructor is running. It is especially useful when parameter names are the same as field names.\n\n' +
             'Inside a constructor or method, writing this.fieldName makes it clear that you are referring to the instance variable, not a local variable or parameter with the same name.\n\n' +
             'On the AP exam, you will often see this used in constructors to assign parameter values to fields.',
           keyIdeas: [
@@ -921,7 +922,7 @@ public Person(int age) {
           summary:
             'Programming affects real people. Every program that uses data can have consequences for privacy, fairness, security, and accessibility.\n\n' +
             'Recommendation systems can create bias, data leaks can expose sensitive information, algorithms can reinforce stereotypes, and poor design can exclude users with disabilities.\n\n' +
-            'As a programmer, you have a responsibility to think beyond whether your code “works” technically and consider who might be harmed, whether data is protected, and whether your algorithm is fair. Code is power—use it responsibly.',
+            'As a programmer, you have a responsibility to think beyond whether your code “works” technically and consider who might be harmed, whether data is protected, and whether your algorithm is fair. Code is power, use it responsibly.',
           keyIdeas: [
             'Algorithms can unintentionally encode bias present in training data.',
             'Data privacy and security are critical considerations in software design.',
@@ -1015,7 +1016,7 @@ for (int i = 0; i < nums.length; i++) {
 // sum now holds the total of all elements in nums`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'This example follows the initialize–loop–update pattern: sum starts at 0, the loop visits each element, and sum accumulates the values. Many other algorithms (counts, max/min, search) use a very similar structure.',
+            'This example follows the initialize,loop,update pattern: sum starts at 0, the loop visits each element, and sum accumulates the values. Many other algorithms (counts, max/min, search) use a very similar structure.',
         },
         {
           id: '4-6',
@@ -1290,6 +1291,7 @@ Collections.sort(list);   // sorts an ArrayList`,
 
 export const CSP_UNIT_OVERVIEWS: SubjectUnitOverview = {
   subjectName: 'AP Computer Science Principles',
+  features: { latex: false, codeExamples: false },
   units: [
     {
       unitNumber: 1,
