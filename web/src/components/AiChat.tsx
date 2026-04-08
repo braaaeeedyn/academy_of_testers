@@ -139,7 +139,7 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
                 fontSize: '1.05rem',
               }}
             >
-              AI Study Helper
+              Testy
             </h2>
           </div>
           <div className="flex items-center gap-3">
@@ -195,11 +195,11 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
                 />
               </svg>
               <p style={{ fontSize: '0.8rem', fontWeight: 500 }}>
-                Ask me anything!
+                Hey, I'm Testy!
               </p>
               <p style={{ fontSize: '0.7rem', marginTop: '4px' }}>
-                I can help with AP &amp; SAT exam topics, concepts, and practice
-                problems.
+                Ask me anything about AP &amp; SAT exam topics, concepts, and
+                practice problems.
               </p>
             </div>
           )}
@@ -248,28 +248,33 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
                   borderWidth: '1px',
                 }}
               >
-                <div className="flex gap-1.5 items-center">
-                  <span
-                    className="w-2 h-2 rounded-full animate-bounce"
+                <div className="flex items-center gap-2">
+                  <svg
+                    className="w-4 h-4 flex-shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.8}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     style={{
-                      backgroundColor: 'var(--color-primary)',
-                      animationDelay: '0ms',
+                      color: 'var(--color-primary)',
+                      animation: 'testy-pulse 1.5s ease-in-out infinite',
                     }}
-                  />
+                  >
+                    <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                  </svg>
                   <span
-                    className="w-2 h-2 rounded-full animate-bounce"
                     style={{
-                      backgroundColor: 'var(--color-primary)',
-                      animationDelay: '150ms',
+                      fontSize: '0.75rem',
+                      fontWeight: 500,
+                      color: 'var(--color-primary)',
+                      opacity: 0.7,
                     }}
-                  />
-                  <span
-                    className="w-2 h-2 rounded-full animate-bounce"
-                    style={{
-                      backgroundColor: 'var(--color-primary)',
-                      animationDelay: '300ms',
-                    }}
-                  />
+                  >
+                    Testy is thinking
+                    <span className="testy-dots" />
+                  </span>
                 </div>
               </div>
             </div>

@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { getExams } from '../services/api'
 import type { Exam } from '../types/api'
+import CircularText from '../components/CircularText'
 
-// Place your logo at: web/public/aotpfp.png
 const LOGO_PATH = '/aotpfp.png'
 
 export default function ExamsPage() {
@@ -32,10 +32,18 @@ export default function ExamsPage() {
     <div>
       {/* Hero */}
       <div className="flex flex-col items-center text-center py-10 mb-6">
-        <div className="mb-4">
+        <div className="mb-4 relative flex items-center justify-center" style={{ width: 180, height: 180 }}>
+          <div className="absolute inset-0">
+            <CircularText
+              text="ACADEMY*OF*TESTERS*"
+              onHover="speedUp"
+              spinDuration={20}
+              className="circular-text-hero"
+            />
+          </div>
           {logoError ? (
             <div
-              className="w-24 h-24 rounded-2xl flex items-center justify-center text-2xl font-bold"
+              className="w-[88px] h-[88px] rounded-full flex items-center justify-center text-2xl font-bold z-10 shadow-md"
               style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
             >
               AoT
@@ -44,7 +52,7 @@ export default function ExamsPage() {
             <img
               src={LOGO_PATH}
               alt="Academy of Testers"
-              className="w-24 h-24 rounded-2xl object-cover shadow-md"
+              className="w-[88px] h-[88px] rounded-full object-cover shadow-md z-10"
               onError={() => setLogoError(true)}
             />
           )}
