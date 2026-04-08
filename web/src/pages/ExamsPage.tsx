@@ -182,7 +182,7 @@ export default function ExamsPage() {
       </div>
 
       {/* Exam cards */}
-      <section id="exam-cards" className="mb-8">
+      <section id="exam-cards" className="mb-8 scroll-mt-20">
         {loading && (
           <div className="text-center py-12">
             <div className="text-xl" style={{ color: 'var(--color-primary)', opacity: 0.6 }}>Loading...</div>
