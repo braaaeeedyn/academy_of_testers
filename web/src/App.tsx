@@ -112,6 +112,20 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
             </svg>
             AI Helper
           </button>
+          <a
+            href="https://buymeacoffee.com/braaaeeedyn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold transition-all hover:brightness-105 cursor-pointer border border-transparent"
+            style={{ backgroundColor: '#FFDD00', color: '#000000' }}
+          >
+            <img
+              src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
+              alt="Buy me a coffee"
+              className="h-5 w-5"
+            />
+            Buy me a coffee
+          </a>
         </div>
       </div>
     </header>
