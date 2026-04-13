@@ -1,5 +1,8 @@
 import { useState, useRef, useEffect, type KeyboardEvent } from 'react'
+import { useNavigate } from 'react-router-dom'
 import ChatMessage from './ChatMessage'
+import { useAuth } from '../context/AuthContext'
+import { sendAiMessage, getAiUsage } from '../services/api'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -22,9 +25,12 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
   const [input, setInput] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [remaining, setRemaining] = useState(INITIAL_REMAINING)
+  const [resetsAt, setResetsAt] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
+  const { isAuthenticated } = useAuth()
+  const navigate = useNavigate()
 
   useEffect(() => {
     if (document.querySelector(`link[href="${LEXEND_URL}"]`)) return
@@ -43,16 +49,22 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
   }, [isOpen])
 
   useEffect(() => {
-    if (!isOpen) return
-    fetch('/api/ai/chat')
-      .then((r) => r.json())
+    if (!isOpen || !isAuthenticated) return
+    getAiUsage()
       .then((d) => {
-        if (typeof d.remaining === 'number') setRemaining(d.remaining)
+        setRemaining(d.remaining)
+        if (d.resetsAt !== 'N/A') setResetsAt(d.resetsAt)
       })
       .catch(() => {})
-  }, [isOpen])
+  }, [isOpen, isAuthenticated])
 
   const sendMessage = async () => {
+    if (!isAuthenticated) {
+      onClose()
+      navigate('/login')
+      return
+    }
+
     const trimmed = input.trim()
     if (!trimmed || isLoading || remaining <= 0) return
     if (trimmed.length > MAX_CHARS) return
@@ -65,23 +77,12 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
     setIsLoading(true)
 
     try {
-      const res = await fetch('/api/ai/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ messages: updated }),
-      })
-      const data = await res.json()
-
-      if (!res.ok || data.error) {
-        setError(data.error || 'Something went wrong')
-        if (typeof data.remaining === 'number') setRemaining(data.remaining)
-        return
-      }
-
+      const data = await sendAiMessage(updated)
       setMessages([...updated, { role: 'assistant', content: data.content }])
       if (typeof data.remaining === 'number') setRemaining(data.remaining)
-    } catch {
-      setError('Failed to connect. Please try again.')
+    } catch (err: any) {
+      const msg = err.message || 'Something went wrong'
+      setError(msg)
     } finally {
       setIsLoading(false)
     }
@@ -150,7 +151,11 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
                 fontSize: '0.7rem',
               }}
             >
-              {remaining}/10 left
+              {isAuthenticated
+                ? remaining <= 0 && resetsAt
+                  ? `Resets ${new Date(resetsAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`
+                  : `${remaining}/10 left`
+                : 'Log in to chat'}
             </span>
             <button
               onClick={onClose}
@@ -201,6 +206,19 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
                 Ask me anything about AP &amp; SAT exam topics, concepts, and
                 practice problems.
               </p>
+              {!isAuthenticated && (
+                <button
+                  onClick={() => { onClose(); navigate('/login') }}
+                  className="mt-4 px-4 py-2 rounded-lg text-sm font-semibold transition-opacity hover:opacity-90 cursor-pointer"
+                  style={{
+                    backgroundColor: 'var(--color-primary)',
+                    color: 'var(--color-secondary)',
+                    opacity: 1,
+                  }}
+                >
+                  Log in to start chatting
+                </button>
+              )}
             </div>
           )}
 
@@ -309,11 +327,13 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
               onChange={(e) => setInput(e.target.value.slice(0, MAX_CHARS))}
               onKeyDown={handleKeyDown}
               placeholder={
-                remaining <= 0
-                  ? 'Hourly limit reached — try again later'
-                  : 'Ask a question…'
+                !isAuthenticated
+                  ? 'Log in to use Testy AI'
+                  : remaining <= 0
+                    ? 'Hourly limit reached — try again later'
+                    : 'Ask a question…'
               }
-              disabled={remaining <= 0 || isLoading}
+              disabled={!isAuthenticated || remaining <= 0 || isLoading}
               rows={2}
               className="flex-1 resize-none rounded-xl px-3 py-2 border outline-none transition-shadow focus:ring-2 disabled:opacity-40"
               style={{
@@ -330,7 +350,7 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
             />
             <button
               onClick={sendMessage}
-              disabled={!input.trim() || isLoading || remaining <= 0}
+              disabled={!isAuthenticated || !input.trim() || isLoading || remaining <= 0}
               className="shrink-0 p-2.5 rounded-xl transition-opacity disabled:opacity-25 cursor-pointer"
               style={{
                 backgroundColor: 'var(--color-primary)',

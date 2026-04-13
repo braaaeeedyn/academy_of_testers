@@ -28,6 +28,17 @@ export default function ResourceDetailPage() {
     loadResource()
   }, [resourceId])
 
+  // Extract just the path from fileUrl so it goes through the Vite proxy (same origin)
+  const fileUrl = (() => {
+    if (!resource?.fileUrl) return ''
+    try {
+      const url = new URL(resource.fileUrl)
+      return url.pathname
+    } catch {
+      return resource.fileUrl
+    }
+  })()
+
   if (loading) {
     return (
       <div className="text-center py-12">
@@ -122,7 +133,7 @@ export default function ResourceDetailPage() {
             }}
           >
             <iframe
-              src={resource.fileUrl}
+              src={fileUrl}
               title={resource.title}
               className="w-full border-0"
               style={{ height: '80vh', minHeight: '600px' }}
@@ -133,7 +144,7 @@ export default function ResourceDetailPage() {
         <div className="border-t pt-6">
           <h2 className="text-xl font-semibold mb-4">Download Resource</h2>
           <a
-            href={resource.fileUrl}
+            href={fileUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg transition-opacity hover:opacity-90 font-medium cursor-pointer"

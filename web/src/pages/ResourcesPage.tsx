@@ -6,9 +6,9 @@ import { getTopicalExamBySubjectName } from '../data/topicalQuestions'
 import PracticeProblemsQuiz from '../components/PracticeProblemsQuiz'
 import { getUnitOverviewBySubjectName } from '../data/unitOverviews'
 import UnitOverviews from '../components/UnitOverviews'
-import { AP_PRACTICE_DATA } from '../data/apPracticeQuestions'
+import { AP_PRACTICE_DATA } from '../data/practiceProblems/apPracticeQuestions'
 
-type ResourceCategory = 'cheat-sheets' | 'practice-problems' | 'topical-review' | 'video-resources' | 'practice-exams'
+type ResourceCategory = 'cheat-sheets' | 'practice-problems' | 'topical-review' | 'video-resources' | 'practice-exams' | 'flash-cards'
 
 interface CategoryInfo {
   id: ResourceCategory
@@ -48,7 +48,28 @@ const BASE_CATEGORIES: CategoryInfo[] = [
     description: 'Full-length and released practice exams from past years.',
     iconPath: 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
   },
+  {
+    id: 'flash-cards',
+    title: 'Flash Cards',
+    description: 'Quick-fire flashcards to reinforce key terms and concepts.',
+    iconPath: 'M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10',
+  },
 ]
+
+/** Maps DB subject names to AP_PRACTICE_DATA slugs where they differ. */
+const SUBJECT_SLUG_OVERRIDES: Record<string, string> = {
+  'AP English Language': 'ap-english-language-and-composition',
+  'AP English Literature': 'ap-english-literature-and-composition',
+  'AP Comparative Government': 'ap-comparative-government-and-politics',
+  'AP Government': 'ap-united-states-government-and-politics',
+  'AP US History': 'ap-united-states-history',
+  'AP World History': 'ap-world-history-modern',
+  'AP Physics C: E&M': 'ap-physics-c-electricity-and-magnetism',
+}
+
+function subjectToSlug(name: string): string {
+  return SUBJECT_SLUG_OVERRIDES[name] ?? name.toLowerCase().replace(/\s+/g, '-').replace(/:/g, '')
+}
 
 function Icon({ path, className }: { path: string; className?: string }) {
   return (
@@ -90,18 +111,21 @@ export default function ResourcesPage() {
   const hasTopicalReview = useMemo(
     () => {
       if (!subject) return false
-      const slug = subject.name.toLowerCase().replace(/\s+/g, '-').replace(/:/g, '')
+      const slug = subjectToSlug(subject.name)
       return AP_PRACTICE_DATA.some((e) => e.slug === slug)
     },
     [subject]
   )
 
+  const isSat = subject ? [30, 31, 32, 33].includes(subject.id) : false
+
   const categories = useMemo(() => {
     return BASE_CATEGORIES.filter((cat) => {
       if (cat.id === 'topical-review') return hasTopicalReview
+      if (cat.id === 'flash-cards') return !isSat
       return true
     })
-  }, [hasTopicalReview])
+  }, [hasTopicalReview, isSat])
 
   useEffect(() => {
     async function loadData() {
@@ -410,7 +434,7 @@ function TopicalReviewInline({
 }: {
   subjectName: string
 }) {
-  const slug = subjectName.toLowerCase().replace(/\s+/g, '-').replace(/:/g, '')
+  const slug = subjectToSlug(subjectName)
   const exam = AP_PRACTICE_DATA.find((e) => e.slug === slug)
 
   const [activeUnit, setActiveUnit] = useState<(typeof exam extends undefined ? never : NonNullable<typeof exam>)['units'][number] | null>(null)

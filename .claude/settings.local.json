@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(npx tsc:*)",
-      "Bash(npx vite:*)"
+      "Bash(npx vite:*)",
+      "Bash(./mvnw compile:*)",
+      "Bash(ls c:/Users/braaa/coding/academy_of_testers/server/mvnw*)",
+      "Bash(cmd.exe /c \"where mvn\")"
     ]
   }
 }

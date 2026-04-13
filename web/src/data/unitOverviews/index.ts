@@ -68,6 +68,7 @@ export function getUnitOverviewBySubjectName(subjectName: string): SubjectUnitOv
   if (direct) return direct
 
   const aliases: Record<string, string> = {
+    'AP Physics 2: Algebra-Based': 'AP Physics 2',
     'AP United States Government and Politics': 'AP US Government and Politics',
     'AP US Government': 'AP US Government and Politics',
     'AP Government': 'AP US Government and Politics',

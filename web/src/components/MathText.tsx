@@ -90,7 +90,10 @@ function renderSegment(seg: MathSegment): string {
     return `<pre style="background:#1e1e2e;color:#cdd6f4;padding:14px 16px;border-radius:8px;font-size:0.85em;line-height:1.6;overflow-x:auto;margin:8px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"><code>${escaped}</code></pre>`
   }
   try {
-    return katex.renderToString(seg.content, {
+    // Unicode middle dot (U+00B7) inside math is mapped to \cdotp by KaTeX and often renders
+    // incorrectly inside \text{...}; use \cdot (math) instead.
+    const mathContent = seg.content.replace(/\u00b7/g, '\\cdot ')
+    return katex.renderToString(mathContent, {
       ...katexOpts,
       displayMode: seg.type === 'display',
     })
@@ -135,7 +138,7 @@ export function renderLatexBlock(latex: string): string {
   const trimmed = latex.trim()
   if (!trimmed) return ''
   try {
-    const withBreaks = trimmed.replace(/\n/g, ' \\\\ ')
+    const withBreaks = trimmed.replace(/\n/g, ' \\\\ ').replace(/\u00b7/g, '\\cdot ')
     return katex.renderToString(withBreaks, {
       ...katexOpts,
       displayMode: true,

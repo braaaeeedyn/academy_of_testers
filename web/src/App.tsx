@@ -1,6 +1,8 @@
-import { useState, type ReactNode } from 'react'
+import { useState, useEffect, type ReactNode } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext'
+import { AuthProvider, useAuth } from './context/AuthContext'
+import { setTokenAccessor } from './services/api'
 import ClickSpark from './components/ClickSpark'
 import LogoLoop from './components/LogoLoop'
 import ExamsPage from './pages/ExamsPage'
@@ -14,6 +16,9 @@ import ThemesPage from './pages/ThemesPage'
 import ExamTipsPage from './pages/ExamTipsPage'
 import AboutPage from './pages/AboutPage'
 import MissionPage from './pages/MissionPage'
+import LoginPage from './pages/LoginPage'
+import RegisterPage from './pages/RegisterPage'
+import VerifyPage from './pages/VerifyPage'
 import AiChat from './components/AiChat'
 
 const SAT_SUBJECT_IDS = new Set(['30', '31', '32', '33'])
@@ -27,6 +32,8 @@ const headerBtnStyle = {
 
 function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
   const location = useLocation()
+  const navigate = useNavigate()
+  const { isAuthenticated, user, logout } = useAuth()
   const pathname = location.pathname
 
   const apHubMatch = pathname.match(/^\/exams\/(\d+)\/hub$/)
@@ -44,6 +51,11 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
       showApLinks = true
       apExamId = '1'
     }
+  }
+
+  const handleLogout = async () => {
+    await logout()
+    navigate('/')
   }
 
   return (
@@ -114,6 +126,29 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
             </svg>
             Testy AI
           </button>
+          {isAuthenticated ? (
+            <button
+              onClick={handleLogout}
+              className={headerBtnClass}
+              style={headerBtnStyle}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+              </svg>
+              {user?.displayName || 'Logout'}
+            </button>
+          ) : (
+            <Link
+              to="/login"
+              className={headerBtnClass}
+              style={headerBtnStyle}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+              </svg>
+              Log In
+            </Link>
+          )}
           <a
             href="https://buymeacoffee.com/braaaeeedyn"
             target="_blank"
@@ -245,38 +280,52 @@ function AppFooter() {
   )
 }
 
+function TokenAccessorBridge() {
+  const { accessToken } = useAuth()
+  useEffect(() => {
+    setTokenAccessor(() => accessToken)
+  }, [accessToken])
+  return null
+}
+
 function App() {
   const [chatOpen, setChatOpen] = useState(false)
 
   return (
     <ThemeProvider>
-      <Router>
-        <ClickSpark sparkColor="var(--color-primary)" sparkSize={10} sparkRadius={15} sparkCount={8} duration={400}>
-          <div className="min-h-screen flex flex-col" style={{ backgroundColor: 'var(--color-secondary)' }}>
-            <AppHeader onChatOpen={() => setChatOpen(true)} />
+      <AuthProvider>
+        <Router>
+          <TokenAccessorBridge />
+          <ClickSpark sparkColor="var(--color-primary)" sparkSize={10} sparkRadius={15} sparkCount={8} duration={400}>
+            <div className="min-h-screen flex flex-col" style={{ backgroundColor: 'var(--color-secondary)' }}>
+              <AppHeader onChatOpen={() => setChatOpen(true)} />
 
-            <main className="container mx-auto px-4 py-8 flex-1">
-              <Routes>
-                <Route path="/" element={<ExamsPage />} />
-                <Route path="/exams/:examId/hub" element={<ExamHubPage />} />
-                <Route path="/exams/:examId/exam-info" element={<ExamInfoPage />} />
-                <Route path="/exams/:examId/practice" element={<PracticePage />} />
-                <Route path="/exams/:examId/tips" element={<ExamTipsPage />} />
-                <Route path="/exams/:examId" element={<SubjectsPage />} />
-                <Route path="/subjects/:subjectId" element={<ResourcesPage />} />
-                <Route path="/resources/:resourceId" element={<ResourceDetailPage />} />
-                <Route path="/themes" element={<ThemesPage />} />
-                <Route path="/about" element={<AboutPage />} />
-                <Route path="/mission" element={<MissionPage />} />
-              </Routes>
-            </main>
+              <main className="container mx-auto px-4 py-8 flex-1">
+                <Routes>
+                  <Route path="/" element={<ExamsPage />} />
+                  <Route path="/login" element={<LoginPage />} />
+                  <Route path="/register" element={<RegisterPage />} />
+                  <Route path="/verify" element={<VerifyPage />} />
+                  <Route path="/exams/:examId/hub" element={<ExamHubPage />} />
+                  <Route path="/exams/:examId/exam-info" element={<ExamInfoPage />} />
+                  <Route path="/exams/:examId/practice" element={<PracticePage />} />
+                  <Route path="/exams/:examId/tips" element={<ExamTipsPage />} />
+                  <Route path="/exams/:examId" element={<SubjectsPage />} />
+                  <Route path="/subjects/:subjectId" element={<ResourcesPage />} />
+                  <Route path="/resources/:resourceId" element={<ResourceDetailPage />} />
+                  <Route path="/themes" element={<ThemesPage />} />
+                  <Route path="/about" element={<AboutPage />} />
+                  <Route path="/mission" element={<MissionPage />} />
+                </Routes>
+              </main>
 
-            <AppFooter />
-          </div>
-        </ClickSpark>
+              <AppFooter />
+            </div>
+          </ClickSpark>
 
-        <AiChat isOpen={chatOpen} onClose={() => setChatOpen(false)} />
-      </Router>
+          <AiChat isOpen={chatOpen} onClose={() => setChatOpen(false)} />
+        </Router>
+      </AuthProvider>
     </ThemeProvider>
   )
 }

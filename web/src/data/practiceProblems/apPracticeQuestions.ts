@@ -26,6 +26,7 @@ import { AP_AFRICAN_AM_STUDIES } from './reviewQuestionsAfricanAmStudies'
 import { AP_ART_HISTORY } from './reviewQuestionsArtHistory'
 import { AP_MUSIC_THEORY } from './reviewQuestionsMusicTheory'
 import { AP_SEMINAR } from './reviewQuestionsSeminar'
+import { AP_RESEARCH } from './reviewQuestionsResearch'
 
 export interface PracticeQuestion {
   id: number
@@ -76,4 +77,5 @@ export const AP_PRACTICE_DATA: APPracticeExam[] = [
   AP_ART_HISTORY,
   AP_MUSIC_THEORY,
   AP_SEMINAR,
+  AP_RESEARCH,
 ]

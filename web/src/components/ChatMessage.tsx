@@ -82,7 +82,8 @@ function renderSegment(seg: MathSegment): string {
   }
 
   try {
-    return katex.renderToString(seg.content, {
+    const mathContent = seg.content.replace(/\u00b7/g, '\\cdot ')
+    return katex.renderToString(mathContent, {
       ...katexOpts,
       displayMode: seg.type === 'display',
     })

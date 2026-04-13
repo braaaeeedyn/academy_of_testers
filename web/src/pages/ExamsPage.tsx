@@ -80,12 +80,28 @@ const CARD_NAV_CATEGORIES = [
   },
 ]
 
+/** Matches Flyway seed V2 (AP id 1, SAT id 2) when the API is down or unreachable. */
+const FALLBACK_EXAMS: Exam[] = [
+  {
+    id: 1,
+    name: 'AP',
+    description: 'Advanced Placement exams for college credit',
+    createdAt: '',
+  },
+  {
+    id: 2,
+    name: 'SAT',
+    description: 'Full-length practice tests and strategies',
+    createdAt: '',
+  },
+]
 
 export default function ExamsPage() {
   const [exams, setExams] = useState<Exam[]>([])
   const [apSubjects, setApSubjects] = useState<Subject[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [usingFallbackExams, setUsingFallbackExams] = useState(false)
   const [logoError, setLogoError] = useState(false)
   const navigate = useNavigate()
 
@@ -93,15 +109,34 @@ export default function ExamsPage() {
     async function loadData() {
       try {
         setLoading(true)
+        setError(null)
+        setUsingFallbackExams(false)
         const examData = await getExams()
-        setExams(examData)
-        const apExam = examData.find((e) => e.name.toUpperCase() === 'AP')
+        const list = Array.isArray(examData) && examData.length > 0 ? examData : FALLBACK_EXAMS
+        if (list === FALLBACK_EXAMS && (!Array.isArray(examData) || examData.length === 0)) {
+          setUsingFallbackExams(true)
+        }
+        setExams(list)
+        const apExam = list.find((e) => e.name.trim().toUpperCase() === 'AP')
         if (apExam) {
-          const subjects = await getSubjectsByExam(apExam.id)
-          setApSubjects(subjects)
+          try {
+            const subjects = await getSubjectsByExam(apExam.id)
+            setApSubjects(subjects)
+          } catch {
+            setApSubjects([])
+          }
         }
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load exams')
+        console.error('getExams failed:', err)
+        setExams(FALLBACK_EXAMS)
+        setUsingFallbackExams(true)
+        setError(null)
+        try {
+          const subjects = await getSubjectsByExam(1)
+          setApSubjects(subjects)
+        } catch {
+          setApSubjects([])
+        }
       } finally {
         setLoading(false)
       }
@@ -109,7 +144,7 @@ export default function ExamsPage() {
     loadData()
   }, [])
 
-  const apExam = exams.find((e) => e.name.toUpperCase() === 'AP')
+  const apExam = exams.find((e) => e.name.trim().toUpperCase() === 'AP')
 
   const cardNavItems = useMemo(() => {
     if (apSubjects.length === 0) return []
@@ -138,10 +173,29 @@ export default function ExamsPage() {
 
   return (
     <div>
-      {/* Hero — compact */}
-      <div className="flex flex-col items-center text-center pt-4 pb-5 mb-2">
-        <div className="mb-3 relative flex items-center justify-center" style={{ width: 180, height: 180 }}>
-          <div className="absolute inset-0">
+      {/* Hero — side-by-side */}
+      <div className="flex flex-col sm:flex-row items-center justify-between pt-1 pb-5 mb-2 gap-6">
+        {/* Left: text + CTA */}
+        <div className="flex flex-col items-start">
+          <h1 className="text-7xl font-bold leading-tight tracking-tight">Academy of Testers</h1>
+          <p className="text-xl mt-2 max-w-md tracking-tight" style={{ color: 'var(--color-primary)', opacity: 0.6 }}>
+            Where every tester has the opportunity to excel.
+          </p>
+          <button
+            onClick={() => {
+              const section = document.getElementById('exam-cards')
+              section?.scrollIntoView({ behavior: 'smooth' })
+            }}
+            className="mt-5 px-16 py-3.5 rounded-xl text-base font-semibold cursor-pointer hover:opacity-90 transition-all shadow-md hover:shadow-lg tracking-tight"
+            style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
+          >
+            Start Practicing
+          </button>
+        </div>
+
+        {/* Right: spinning circle + logo */}
+        <div className="relative flex items-center justify-center flex-shrink-0" style={{ width: 270, height: 270 }}>
+          <div className="absolute inset-0 flex items-center justify-center">
             <CircularText
               text="ACADEMY*OF*TESTERS*"
               onHover="speedUp"
@@ -151,7 +205,7 @@ export default function ExamsPage() {
           </div>
           {logoError ? (
             <div
-              className="w-[88px] h-[88px] rounded-full flex items-center justify-center text-2xl font-bold z-10 shadow-md"
+              className="w-[150px] h-[150px] rounded-full flex items-center justify-center text-2xl font-bold z-10 shadow-md"
               style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
             >
               AoT
@@ -160,25 +214,11 @@ export default function ExamsPage() {
             <img
               src={LOGO_PATH}
               alt="Academy of Testers"
-              className="w-[88px] h-[88px] rounded-full object-cover shadow-md z-10"
+              className="w-[170px] h-[170px] rounded-full object-cover shadow-md z-10"
               onError={() => setLogoError(true)}
             />
           )}
         </div>
-        <h1 className="text-3xl font-bold leading-tight">Academy of Testers</h1>
-        <p className="text-sm mt-1.5 max-w-md" style={{ color: 'var(--color-primary)', opacity: 0.6 }}>
-          Where every tester has the opportunity to excel.
-        </p>
-        <button
-          onClick={() => {
-            const section = document.getElementById('exam-cards')
-            section?.scrollIntoView({ behavior: 'smooth' })
-          }}
-          className="mt-4 px-6 py-2.5 rounded-xl text-sm font-semibold cursor-pointer hover:opacity-90 transition-all shadow-md hover:shadow-lg"
-          style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
-        >
-          Start Practicing
-        </button>
       </div>
 
       {/* Exam cards */}
@@ -195,11 +235,26 @@ export default function ExamsPage() {
           </div>
         )}
 
+        {!loading && !error && usingFallbackExams && (
+          <div
+            className="mb-4 px-4 py-3 rounded-lg text-sm border"
+            style={{
+              backgroundColor: 'color-mix(in srgb, var(--color-primary) 8%, var(--color-secondary))',
+              borderColor: 'color-mix(in srgb, var(--color-primary) 18%, transparent)',
+              color: 'var(--color-primary)',
+            }}
+          >
+            Using built-in exam list (API unreachable or empty). Run the Spring API (e.g. Docker on port 8080) and reload for
+            live subjects and resources.
+          </div>
+        )}
+
         {!loading && !error && (
           <div className="grid sm:grid-cols-2 gap-4">
             {exams.map((exam) => {
-              const isAP = exam.name.toUpperCase() === 'AP'
-              const isSAT = exam.name.toUpperCase() === 'SAT'
+              const key = exam.name.trim().toUpperCase()
+              const isAP = key === 'AP'
+              const isSAT = key === 'SAT'
               const subtitle = isAP
                 ? '25+ subjects with unit reviews & practice'
                 : isSAT

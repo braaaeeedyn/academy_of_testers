@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { AP_PRACTICE_DATA } from '../data/apPracticeQuestions'
-import type { APPracticeExam, ExamUnit, PracticeQuestion } from '../data/apPracticeQuestions'
+import { AP_PRACTICE_DATA } from '../data/practiceProblems/apPracticeQuestions'
+import type { APPracticeExam, ExamUnit, PracticeQuestion } from '../data/practiceProblems/apPracticeQuestions'
 import MathText from '../components/MathText'
 
 export default function PracticePage() {
