@@ -21,13 +21,17 @@ import RegisterPage from './pages/RegisterPage'
 import VerifyPage from './pages/VerifyPage'
 import AiChat from './components/AiChat'
 
-const SAT_SUBJECT_IDS = new Set(['30', '31', '32', '33'])
+const SAT_SUBJECT_IDS = new Set(['30', '31', '32'])
 
-const headerBtnClass = 'flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all hover:opacity-90 border cursor-pointer'
+const headerBtnClass = 'nav-hover-btn flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border cursor-pointer'
 const headerBtnStyle = {
   backgroundColor: 'var(--color-secondary)',
   color: 'var(--color-primary)',
   borderColor: 'var(--color-secondary)',
+}
+
+function NavHoverLayers() {
+  return <span className="nav-hover-streak" />
 }
 
 function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
@@ -79,20 +83,26 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
                 className={headerBtnClass}
                 style={headerBtnStyle}
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-                Scoring
+                <NavHoverLayers />
+                <span className="nav-hover-content">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                  </svg>
+                  Scoring
+                </span>
               </Link>
               <Link
                 to={`/exams/${apExamId}/tips`}
                 className={headerBtnClass}
                 style={headerBtnStyle}
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                </svg>
-                Tips
+                <NavHoverLayers />
+                <span className="nav-hover-content">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                  </svg>
+                  Tips
+                </span>
               </Link>
             </>
           )}
@@ -101,30 +111,36 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
             className={headerBtnClass}
             style={headerBtnStyle}
           >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
-              />
-            </svg>
-            Themes
+            <NavHoverLayers />
+            <span className="nav-hover-content">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+                />
+              </svg>
+              Themes
+            </span>
           </Link>
           <button
             onClick={onChatOpen}
             className={headerBtnClass}
             style={headerBtnStyle}
           >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-              />
-            </svg>
-            Testy AI
+            <NavHoverLayers />
+            <span className="nav-hover-content">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                />
+              </svg>
+              Testy AI
+            </span>
           </button>
           {isAuthenticated ? (
             <button
@@ -132,10 +148,13 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
               className={headerBtnClass}
               style={headerBtnStyle}
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-              </svg>
-              {user?.displayName || 'Logout'}
+              <NavHoverLayers />
+              <span className="nav-hover-content">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                </svg>
+                {user?.displayName || 'Logout'}
+              </span>
             </button>
           ) : (
             <Link
@@ -143,10 +162,13 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
               className={headerBtnClass}
               style={headerBtnStyle}
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
-              </svg>
-              Log In
+              <NavHoverLayers />
+              <span className="nav-hover-content">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+                </svg>
+                Log In
+              </span>
             </Link>
           )}
           <a
@@ -300,7 +322,7 @@ function App() {
             <div className="min-h-screen flex flex-col" style={{ backgroundColor: 'var(--color-secondary)' }}>
               <AppHeader onChatOpen={() => setChatOpen(true)} />
 
-              <main className="container mx-auto px-4 py-8 flex-1">
+              <main className="container mx-auto px-8 sm:px-12 py-8 flex-1">
                 <Routes>
                   <Route path="/" element={<ExamsPage />} />
                   <Route path="/login" element={<LoginPage />} />

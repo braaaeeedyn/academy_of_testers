@@ -117,7 +117,7 @@ export default function ResourcesPage() {
     [subject]
   )
 
-  const isSat = subject ? [30, 31, 32, 33].includes(subject.id) : false
+  const isSat = subject ? [30, 31, 32].includes(subject.id) : false
 
   const categories = useMemo(() => {
     return BASE_CATEGORIES.filter((cat) => {
