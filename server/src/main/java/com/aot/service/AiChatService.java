@@ -65,10 +65,14 @@ public class AiChatService {
 
     Map<String, Object> requestBody =
         Map.of(
-            "model", "gpt-4o-mini",
-            "messages", apiMessages,
-            "max_tokens", 1024,
-            "temperature", 0.7);
+            "model",
+            "gpt-4o-mini",
+            "messages",
+            apiMessages,
+            "max_tokens",
+            1024,
+            "temperature",
+            0.7);
 
     try {
       Map response =

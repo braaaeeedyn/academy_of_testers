@@ -20,8 +20,7 @@ public class GlobalExceptionHandler {
   private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
   @ExceptionHandler(ResourceNotFoundException.class)
-  public ResponseEntity<Map<String, Object>> handleResourceNotFound(
-      ResourceNotFoundException ex) {
+  public ResponseEntity<Map<String, Object>> handleResourceNotFound(ResourceNotFoundException ex) {
     return buildResponse(HttpStatus.NOT_FOUND, "Not Found", ex.getMessage());
   }
 
@@ -41,8 +40,7 @@ public class GlobalExceptionHandler {
   }
 
   @ExceptionHandler(DuplicateAccountException.class)
-  public ResponseEntity<Map<String, Object>> handleDuplicateAccount(
-      DuplicateAccountException ex) {
+  public ResponseEntity<Map<String, Object>> handleDuplicateAccount(DuplicateAccountException ex) {
     return buildResponse(HttpStatus.CONFLICT, "Conflict", ex.getMessage());
   }
 
@@ -65,13 +63,10 @@ public class GlobalExceptionHandler {
   }
 
   @ExceptionHandler(MethodArgumentNotValidException.class)
-  public ResponseEntity<Map<String, Object>> handleValidation(
-      MethodArgumentNotValidException ex) {
+  public ResponseEntity<Map<String, Object>> handleValidation(MethodArgumentNotValidException ex) {
     List<String> errors =
         ex.getBindingResult().getFieldErrors().stream()
-            .map(
-                fieldError ->
-                    fieldError.getField() + ": " + fieldError.getDefaultMessage())
+            .map(fieldError -> fieldError.getField() + ": " + fieldError.getDefaultMessage())
             .collect(Collectors.toList());
 
     Map<String, Object> error = new HashMap<>();
@@ -90,8 +85,7 @@ public class GlobalExceptionHandler {
   @ExceptionHandler(IllegalStateException.class)
   public ResponseEntity<Map<String, Object>> handleIllegalState(IllegalStateException ex) {
     logger.error("Service unavailable", ex);
-    return buildResponse(
-        HttpStatus.SERVICE_UNAVAILABLE, "Service Unavailable", ex.getMessage());
+    return buildResponse(HttpStatus.SERVICE_UNAVAILABLE, "Service Unavailable", ex.getMessage());
   }
 
   @ExceptionHandler(Exception.class)

@@ -1,0 +1,562 @@
+[
+  {
+    "id": "arith-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "On the first day of a semester, a film club has 90 members. Each day after the first day of the semester, 10 new members join the film club. If no members leave the film club, how many total members will the film club have 4 days after the first day of the semester?",
+    "options": [
+      "400",
+      "130",
+      "94",
+      "90"
+    ],
+    "correctIndex": 1,
+    "explanation": "Starting with 90 members and adding 10 per day for 4 days: \\(90 + 10(4) = 90 + 40 = 130\\).",
+    "source": "P5M1 Q2"
+  },
+  {
+    "id": "sys-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(s + 7r = 27\\)\\n\\(r = 3\\)\\n\\nWhat is the solution \\((r, s)\\) to the given system of equations?",
+    "options": [
+      "\\((6, 3)\\)",
+      "\\((3, 6)\\)",
+      "\\((3, 27)\\)",
+      "\\((27, 3)\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitute \\(r = 3\\): \\(s + 7(3) = 27 \\Rightarrow s + 21 = 27 \\Rightarrow s = 6\\). The solution \\((r, s)\\) is \\((3, 6)\\).",
+    "source": "P5M1 Q4"
+  },
+  {
+    "id": "lin-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The table shows selected values from function \\(f\\): \\(f(-1) = 16\\), \\(f(0) = 17\\), \\(f(1) = 18\\), \\(f(2) = 19\\). Which of the following is the best description of function \\(f\\)?",
+    "options": [
+      "Decreasing linear",
+      "Increasing linear",
+      "Decreasing exponential",
+      "Increasing exponential"
+    ],
+    "correctIndex": 1,
+    "explanation": "The values increase by a constant 1 for each unit increase in \\(x\\), which describes an increasing linear function.",
+    "source": "P5M1 Q5"
+  },
+  {
+    "id": "geo-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In the figure, line \\(m\\) is parallel to line \\(n\\), and line \\(k\\) intersects both lines. The angle marked \\(x^\\circ\\) and the angle marked \\(145^\\circ\\) are shown at the intersection with line \\(n\\). Which of the following statements is true?",
+    "options": [
+      "The value of \\(x\\) is less than 145.",
+      "The value of \\(x\\) is greater than 145.",
+      "The value of \\(x\\) is equal to 145.",
+      "The value of \\(x\\) cannot be determined."
+    ],
+    "correctIndex": 2,
+    "explanation": "The angle \\(x^\\circ\\) and the \\(145^\\circ\\) angle are vertical angles at the same intersection, so they are equal: \\(x = 145\\).",
+    "source": "P5M1 Q8"
+  },
+  {
+    "id": "alg-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The equation \\(x + y = 1{,}440\\) represents the number of minutes of daylight (between sunrise and sunset), \\(x\\), and the number of minutes of non-daylight, \\(y\\), on a particular day in Oak Park, Illinois. If this day has 670 minutes of daylight, how many minutes of non-daylight does it have?",
+    "options": [
+      "670",
+      "770",
+      "1,373",
+      "1,440"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitute \\(x = 670\\): \\(670 + y = 1{,}440 \\Rightarrow y = 770\\) minutes of non-daylight.",
+    "source": "P5M1 Q9"
+  },
+  {
+    "id": "stat-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Scott selected 20 employees at random from all 400 employees at a company. He found that 16 of the employees in this sample are enrolled in exactly three professional development courses this year. Based on Scott's findings, which of the following is the best estimate of the number of employees at the company who are enrolled in exactly three professional development courses this year?",
+    "options": [
+      "4",
+      "320",
+      "380",
+      "384"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sample proportion is \\(\\frac{16}{20} = 0.8\\). Applying to 400 employees: \\(0.8 \\times 400 = 320\\).",
+    "source": "P5M1 Q10"
+  },
+  {
+    "id": "alg-0002",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "If \\(4x - 28 = -24\\), what is the value of \\(x - 7\\)?",
+    "options": [
+      "-24",
+      "-22",
+      "-6",
+      "-1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide the equation \\(4x - 28 = -24\\) by 4: \\(x - 7 = -6\\).",
+    "source": "P5M1 Q11"
+  },
+  {
+    "id": "alg-0003",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "For a snowstorm in a certain town, the minimum rate of snowfall recorded was 0.6 inches per hour, and the maximum rate of snowfall recorded was 1.8 inches per hour. Which inequality is true for all values of \\(s\\), where \\(s\\) represents a rate of snowfall, in inches per hour, recorded for this snowstorm?",
+    "options": [
+      "\\(s \\ge 2.4\\)",
+      "\\(s \\ge 1.8\\)",
+      "\\(0 \\le s \\le 0.6\\)",
+      "\\(0.6 \\le s \\le 1.8\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "All recorded rates fall between the minimum 0.6 and maximum 1.8 inches per hour, so \\(0.6 \\le s \\le 1.8\\).",
+    "source": "P5M1 Q12"
+  },
+  {
+    "id": "geo-0002",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A right circular cylinder has a base diameter of 22 centimeters and a height of 6 centimeters. What is the volume, in cubic centimeters, of the cylinder?",
+    "options": [
+      "\\(132\\pi\\)",
+      "\\(264\\pi\\)",
+      "\\(726\\pi\\)",
+      "\\(2{,}904\\pi\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The radius is \\(22 \\div 2 = 11\\). Volume \\(= \\pi r^2 h = \\pi (11)^2 (6) = \\pi (121)(6) = 726\\pi\\).",
+    "source": "P5M1 Q15"
+  },
+  {
+    "id": "alg-0004",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "At a particular track meet, the ratio of coaches to athletes is 1 to 26. If there are \\(x\\) coaches at the track meet, which of the following expressions represents the number of athletes at the track meet?",
+    "options": [
+      "\\(\\frac{x}{26}\\)",
+      "\\(26x\\)",
+      "\\(x + 26\\)",
+      "\\(\\frac{26}{x}\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "There are 26 athletes for each coach, so with \\(x\\) coaches the number of athletes is \\(26x\\).",
+    "source": "P5M1 Q17"
+  },
+  {
+    "id": "alg-0005",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Kaylani used fabric measuring 5 yards in length to make each suit for a men's choir. The relationship between the number of suits that Kaylani made, \\(x\\), and the total length of fabric that she purchased \\(y\\), in yards, is represented by the equation \\(y - 5x = 6\\). What is the best interpretation of 6 in this context?",
+    "options": [
+      "Kaylani made 6 suits.",
+      "Kaylani purchased a total of 6 yards of fabric.",
+      "Kaylani used a total of 6 yards of fabric to make the suits.",
+      "Kaylani purchased 6 yards more fabric than she used to make the suits."
+    ],
+    "correctIndex": 3,
+    "explanation": "Rewriting: \\(y = 5x + 6\\), where \\(5x\\) is the fabric used. The constant 6 is the extra fabric purchased beyond what was used, so Kaylani purchased 6 yards more than she used.",
+    "source": "P5M1 Q18"
+  },
+  {
+    "id": "geo-0003",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "What is the value of \\(\\tan \\frac{92\\pi}{3}\\)?",
+    "options": [
+      "\\(-\\sqrt{3}\\)",
+      "\\(-\\frac{\\sqrt{3}}{3}\\)",
+      "\\(\\frac{\\sqrt{3}}{3}\\)",
+      "\\(\\sqrt{3}\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "\\(\\frac{92\\pi}{3} = 30\\pi + \\frac{2\\pi}{3}\\), which is coterminal with \\(\\frac{2\\pi}{3}\\) (since \\(30\\pi\\) is an integer multiple of \\(\\pi\\), and tangent has period \\(\\pi\\), the angle reduces to \\(\\frac{2\\pi}{3}\\)). \\(\\tan\\frac{2\\pi}{3} = -\\sqrt{3}\\).",
+    "source": "P5M1 Q19"
+  },
+  {
+    "id": "geo-0004",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\((x + 4)^2 + (y - 19)^2 = 121\\)\\n\\nThe graph of the given equation is a circle in the \\(xy\\)-plane. The point \\((a, b)\\) lies on the circle. Which of the following is a possible value for \\(a\\)?",
+    "options": [
+      "-16",
+      "-14",
+      "11",
+      "19"
+    ],
+    "correctIndex": 1,
+    "explanation": "The circle has center \\((-4, 19)\\) and radius \\(\\sqrt{121} = 11\\). The \\(x\\)-values on the circle range from \\(-4 - 11 = -15\\) to \\(-4 + 11 = 7\\). Only \\(-14\\) falls in this range.",
+    "source": "P5M1 Q22"
+  },
+  {
+    "id": "quad-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A right rectangular prism has a height of 9 inches. The length of the prism's base is \\(x\\) inches, which is 7 inches more than the width of the prism's base. Which function \\(V\\) gives the volume of the prism, in cubic inches, in terms of the length of the prism's base?",
+    "options": [
+      "\\(V(x) = x(x + 9)(x + 7)\\)",
+      "\\(V(x) = x(x + 9)(x - 7)\\)",
+      "\\(V(x) = 9x(x + 7)\\)",
+      "\\(V(x) = 9x(x - 7)\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The length is \\(x\\), the width is \\(x - 7\\), and the height is 9. Volume \\(= \\text{length} \\times \\text{width} \\times \\text{height} = 9x(x - 7)\\).",
+    "source": "P5M1 Q23"
+  },
+  {
+    "id": "exp-0001",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which of the following functions has(have) a minimum value at \\(-3\\)?\\n\\nI. \\(f(x) = -6(3)^x - 3\\)\\nII. \\(g(x) = -3(6)^x\\)",
+    "options": [
+      "I only",
+      "II only",
+      "I and II",
+      "Neither I nor II"
+    ],
+    "correctIndex": 3,
+    "explanation": "Both functions have a negative leading coefficient multiplying a growing exponential, so each decreases without bound (no minimum). Function I approaches \\(-3\\) as an asymptote from below but never reaches a minimum; function II approaches 0 from below. Neither attains a minimum value of \\(-3\\).",
+    "source": "P5M1 Q24"
+  },
+  {
+    "id": "arith-0002",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The result of increasing the quantity \\(x\\) by 400% is 60. What is the value of \\(x\\)?",
+    "options": [
+      "12",
+      "15",
+      "240",
+      "340"
+    ],
+    "correctIndex": 0,
+    "explanation": "Increasing \\(x\\) by 400% gives \\(x + 4x = 5x\\). So \\(5x = 60 \\Rightarrow x = 12\\).",
+    "source": "P5M1 Q25"
+  },
+  {
+    "id": "quad-0002",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f\\) is defined by \\(f(x) = ax^2 + bx + c\\), where \\(a\\), \\(b\\), and \\(c\\) are constants. The graph of \\(y = f(x)\\) in the \\(xy\\)-plane passes through the points \\((7, 0)\\) and \\((-3, 0)\\). If \\(a\\) is an integer greater than 1, which of the following could be the value of \\(a + b\\)?",
+    "options": [
+      "-6",
+      "-3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "With roots 7 and \\(-3\\), \\(f(x) = a(x - 7)(x + 3) = a(x^2 - 4x - 21)\\), so \\(b = -4a\\) and \\(a + b = a - 4a = -3a\\). For integer \\(a > 1\\): \\(a = 2\\) gives \\(-6\\). So \\(-6\\) is possible.",
+    "source": "P5M1 Q26"
+  },
+  {
+    "id": "arith-0003",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "What is 20% of 440?",
+    "options": [
+      "44",
+      "88",
+      "880",
+      "1,760"
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(0.20 \\times 440 = 88\\).",
+    "source": "P5M2 Q1"
+  },
+  {
+    "id": "lin-0002",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Argon is placed inside a container with a constant volume. The graph shows the estimated pressure \\(y\\), in pounds per square inch (psi), of the argon when its temperature is \\(x\\) kelvins. What is the estimated pressure of the argon, in psi, when the temperature is 600 kelvins?",
+    "options": [
+      "6",
+      "12",
+      "300",
+      "600"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reading the graph at \\(x = 600\\) kelvins, the line gives an estimated pressure of about 12 psi.",
+    "source": "P5M2 Q2"
+  },
+  {
+    "id": "alg-0006",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f\\) is defined by \\(f(x) = 4x - 3\\). What is the value of \\(f(10)\\)?",
+    "options": [
+      "-30",
+      "37",
+      "40",
+      "43"
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(f(10) = 4(10) - 3 = 40 - 3 = 37\\).",
+    "source": "P5M2 Q3"
+  },
+  {
+    "id": "quad-0003",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\(16x^3 y^2 + 14xy\\)?",
+    "options": [
+      "\\(2xy(8xy + 7)\\)",
+      "\\(2xy(8x^2 y + 7)\\)",
+      "\\(14xy(2x^2 y + 1)\\)",
+      "\\(14xy(8x^2 y + 1)\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The greatest common factor of \\(16x^3 y^2\\) and \\(14xy\\) is \\(2xy\\). Factoring: \\(2xy(8x^2 y + 7)\\), since \\(2xy \\cdot 8x^2 y = 16x^3 y^2\\) and \\(2xy \\cdot 7 = 14xy\\).",
+    "source": "P5M2 Q4"
+  },
+  {
+    "id": "lin-0003",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A veterinarian recommends that each day a certain rabbit should eat 25 calories per pound of the rabbit's weight, plus an additional 11 calories. Which equation represents this situation, where \\(c\\) is the total number of calories the veterinarian recommends the rabbit should eat each day if the rabbit's weight is \\(x\\) pounds?",
+    "options": [
+      "\\(c = 25x\\)",
+      "\\(c = 36x\\)",
+      "\\(c = 11x + 25\\)",
+      "\\(c = 25x + 11\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "25 calories per pound is \\(25x\\), plus an additional 11 calories: \\(c = 25x + 11\\).",
+    "source": "P5M2 Q5"
+  },
+  {
+    "id": "lin-0004",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Line \\(r\\) in the \\(xy\\)-plane has a slope of 4 and passes through the point \\((0, 6)\\). Which equation defines line \\(r\\)?",
+    "options": [
+      "\\(y = -6x + 4\\)",
+      "\\(y = 6x + 4\\)",
+      "\\(y = 4x - 6\\)",
+      "\\(y = 4x + 6\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "A line with slope 4 and \\(y\\)-intercept 6 is \\(y = 4x + 6\\).",
+    "source": "P5M2 Q8"
+  },
+  {
+    "id": "quad-0004",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The kinetic energy, in joules, of an object with mass 9 kilograms traveling at a speed of \\(v\\) meters per second is given by the function \\(K\\), where \\(K(v) = \\frac{9}{2}v^2\\). Which of the following is the best interpretation of \\(K(34) = 5{,}202\\) in this context?",
+    "options": [
+      "The object traveling at 34 meters per second has a kinetic energy of 5,202 joules.",
+      "The object traveling at 340 meters per second has a kinetic energy of 5,202 joules.",
+      "The object traveling at 5,202 meters per second has a kinetic energy of 34 joules.",
+      "The object traveling at 23,409 meters per second has a kinetic energy of 34 joules."
+    ],
+    "correctIndex": 0,
+    "explanation": "In \\(K(v)\\), the input \\(v = 34\\) is the speed and the output 5,202 is the kinetic energy, so an object at 34 meters per second has 5,202 joules of kinetic energy.",
+    "source": "P5M2 Q10"
+  },
+  {
+    "id": "stat-0002",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "At a movie theater, there are a total of 350 customers. Each customer is located in either theater A, theater B, or theater C. If one of these customers is selected at random, the probability of selecting a customer who is located in theater A is 0.48, and the probability of selecting a customer who is located in theater B is 0.24. How many customers are located in theater C?",
+    "options": [
+      "28",
+      "40",
+      "84",
+      "98"
+    ],
+    "correctIndex": 3,
+    "explanation": "The probability for theater C is \\(1 - 0.48 - 0.24 = 0.28\\). Number in C \\(= 0.28 \\times 350 = 98\\).",
+    "source": "P5M2 Q12"
+  },
+  {
+    "id": "stat-0003",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Five Eretmochelys imbricata, a type of sea turtle, each have a nest. The table shows an original data set of the number of eggs each turtle laid in its nest: 149, 144, 148, 136, 139. A sixth nest with 121 eggs is added to create a new data set. Which of the following correctly compares the means of the two data sets?",
+    "options": [
+      "The mean of the original data set is greater than the mean of the new data set.",
+      "The mean of the original data set is less than the mean of the new data set.",
+      "The means of both data sets are equal.",
+      "There is not enough information to compare the means."
+    ],
+    "correctIndex": 0,
+    "explanation": "The added value 121 is below the original mean (about 143.2), so adding it lowers the mean. Thus the original mean is greater than the new mean.",
+    "source": "P5M2 Q15"
+  },
+  {
+    "id": "geo-0005",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In triangle \\(RST\\), the measure of angle \\(R\\) is 63 degrees. Which of the following could be the measure, in degrees, of angle \\(S\\)?",
+    "options": [
+      "116",
+      "118",
+      "126",
+      "180"
+    ],
+    "correctIndex": 0,
+    "explanation": "The angles of a triangle sum to 180 degrees, so angle \\(S\\) must be less than \\(180 - 63 = 117\\) degrees (leaving room for angle \\(T\\)). Only 116 is less than 117.",
+    "source": "P5M2 Q16"
+  },
+  {
+    "id": "quad-0005",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\((8x^3 + 8) - (x^3 - 2)\\)?",
+    "options": [
+      "\\(8x^3 + 6\\)",
+      "\\(7x^3 + 10\\)",
+      "\\(8x^3 + 10\\)",
+      "\\(7x^3 + 6\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Distribute the subtraction: \\(8x^3 + 8 - x^3 + 2 = 7x^3 + 10\\).",
+    "source": "P5M2 Q17"
+  },
+  {
+    "id": "alg-0007",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "If \\(4\\sqrt{2x} = 16\\), what is the value of \\(6x\\)?",
+    "options": [
+      "24",
+      "48",
+      "72",
+      "96"
+    ],
+    "correctIndex": 1,
+    "explanation": "Divide by 4: \\(\\sqrt{2x} = 4\\). Square: \\(2x = 16\\), so \\(x = 8\\) and \\(6x = 48\\).",
+    "source": "P5M2 Q18"
+  },
+  {
+    "id": "alg-0008",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(2x - y > 883\\)\\n\\nFor which of the following tables are all the values of \\(x\\) and their corresponding values of \\(y\\) solutions to the given inequality?",
+    "options": [
+      "Table A: \\((440, 0), (441, -2), (442, -4)\\)",
+      "Table B: \\((440, 0), (442, -2), (441, -4)\\)",
+      "Table C: \\((442, 0), (440, -2), (441, -4)\\)",
+      "Table D: \\((442, 0), (441, -2), (440, -4)\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The inequality requires \\(2x - y > 883\\). Testing table D: \\((442,0): 884 > 883\\) ✓; \\((441,-2): 882 + 2 = 884 > 883\\) ✓; \\((440,-4): 880 + 4 = 884 > 883\\) ✓. All rows satisfy the inequality.",
+    "source": "P5M2 Q19"
+  },
+  {
+    "id": "geo-0006",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Rectangles \\(ABCD\\) and \\(EFGH\\) are similar. The length of each side of \\(EFGH\\) is 6 times the length of the corresponding side of \\(ABCD\\). The area of \\(ABCD\\) is 54 square units. What is the area, in square units, of \\(EFGH\\)?",
+    "options": [
+      "9",
+      "36",
+      "324",
+      "1,944"
+    ],
+    "correctIndex": 3,
+    "explanation": "For similar figures, area scales by the square of the linear ratio: \\(6^2 = 36\\). So area of \\(EFGH = 54 \\times 36 = 1{,}944\\).",
+    "source": "P5M2 Q22"
+  },
+  {
+    "id": "alg-0009",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\(\\frac{42a}{k} + 42ak\\), where \\(k > 0\\)?",
+    "options": [
+      "\\(\\frac{84a}{k}\\)",
+      "\\(\\frac{84ak^2}{k}\\)",
+      "\\(\\frac{42a(k + 1)}{k}\\)",
+      "\\(\\frac{42a(k^2 + 1)}{k}\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Write over a common denominator: \\(\\frac{42a}{k} + 42ak = \\frac{42a + 42ak^2}{k} = \\frac{42a(1 + k^2)}{k} = \\frac{42a(k^2 + 1)}{k}\\).",
+    "source": "P5M2 Q23"
+  },
+  {
+    "id": "quad-0006",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which quadratic equation has no real solutions?",
+    "options": [
+      "\\(x^2 + 14x - 49 = 0\\)",
+      "\\(x^2 - 14x + 49 = 0\\)",
+      "\\(5x^2 - 14x - 49 = 0\\)",
+      "\\(5x^2 - 14x + 49 = 0\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "A quadratic has no real solutions when its discriminant \\(b^2 - 4ac < 0\\). For \\(5x^2 - 14x + 49\\): \\((-14)^2 - 4(5)(49) = 196 - 980 = -784 < 0\\), so it has no real solutions.",
+    "source": "P5M2 Q24"
+  },
+  {
+    "id": "exp-0002",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(P(t) = 260(1.04)^{\\left(\\frac{6}{4}\\right)t}\\)\\n\\nThe function \\(P\\) models the population, in thousands, of a certain city \\(t\\) years after 2003. According to the model, the population is predicted to increase by 4% every \\(n\\) months. What is the value of \\(n\\)?",
+    "options": [
+      "8",
+      "12",
+      "18",
+      "72"
+    ],
+    "correctIndex": 0,
+    "explanation": "The base 1.04 (a 4% increase) applies when the exponent \\(\\frac{6}{4}t = 1\\), i.e. \\(t = \\frac{4}{6} = \\frac{2}{3}\\) years. Converting to months: \\(\\frac{2}{3} \\times 12 = 8\\) months.",
+    "source": "P5M2 Q25"
+  },
+  {
+    "id": "geo-0007",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A circle in the \\(xy\\)-plane has its center at \\((-1, 1)\\). Line \\(t\\) is tangent to this circle at the point \\((5, -4)\\). Which of the following points also lies on line \\(t\\)?",
+    "options": [
+      "\\(\\left(0, \\frac{6}{5}\\right)\\)",
+      "\\((4, 7)\\)",
+      "\\((10, 2)\\)",
+      "\\((11, 1)\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The radius from \\((-1, 1)\\) to \\((5, -4)\\) has slope \\(\\frac{-4 - 1}{5 + 1} = -\\frac{5}{6}\\). The tangent is perpendicular, with slope \\(\\frac{6}{5}\\). Line \\(t\\): \\(y + 4 = \\frac{6}{5}(x - 5)\\). Testing \\((10, 2)\\): \\(2 + 4 = 6\\) and \\(\\frac{6}{5}(10 - 5) = 6\\) ✓.",
+    "source": "P5M2 Q26"
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "id": "arith-0008",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Rectangle P has an area of 72 square inches. If a rectangle with an area of 20 square inches is removed from rectangle P, what is the area, in square inches, of the resulting figure?",
+    "options": [
+      "92",
+      "84",
+      "80",
+      "52"
+    ],
+    "correctIndex": 3,
+    "explanation": "Removing 20 square inches from 72 square inches leaves \\(72 - 20 = 52\\) square inches.",
+    "source": "P7M1 Q2"
+  },
+  {
+    "id": "alg-0025",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(|p| + 61 = 65\\) Which value is a solution to the given equation?",
+    "options": [
+      "\\(\\frac{65}{61}\\)",
+      "4",
+      "126",
+      "130"
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(|p| = 65 - 61 = 4\\), so \\(p = 4\\) (or \\(-4\\)). Among the choices, 4 is a solution.",
+    "source": "P7M1 Q3"
+  },
+  {
+    "id": "alg-0026",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Lorenzo purchased a box of cereal and some strawberries at the grocery store. Lorenzo paid 2 dollars for the box of cereal and 1.90 dollars per pound for the strawberries. If Lorenzo paid a total of 9.60 dollars for the box of cereal and the strawberries, which of the following equations can be used to find \\(p\\), the number of pounds of strawberries Lorenzo purchased? (Assume there is no sales tax.)",
+    "options": [
+      "\\(1.90p + 2 = 9.60\\)",
+      "\\(1.90p - 2 = 9.60\\)",
+      "\\(1.90 + 2p = 9.60\\)",
+      "\\(1.90 - 2p = 9.60\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The strawberries cost \\(1.90p\\) and the cereal costs 2 dollars, totaling 9.60 dollars: \\(1.90p + 2 = 9.60\\).",
+    "source": "P7M1 Q4"
+  },
+  {
+    "id": "stat-0009",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The bar graph summarizes the charge, in kilowatt-hours (kWh), a battery received each day for 15 days. The charges shown are 0 kWh (6 days), 8 kWh (1 day), 9 kWh (2 days), 11 kWh (4 days), 16 kWh (1 day), and 23 kWh (1 day). For how many of these 15 days did the battery receive a charge of 0 kWh?",
+    "options": [
+      "0",
+      "1",
+      "4",
+      "6"
+    ],
+    "correctIndex": 3,
+    "explanation": "The bar above 0 kWh reaches 6, so the battery received a charge of 0 kWh on 6 days.",
+    "source": "P7M1 Q5"
+  },
+  {
+    "id": "geo-0019",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Triangles \\(EFG\\) and \\(JKL\\) are congruent, where \\(E\\), \\(F\\), and \\(G\\) correspond to \\(J\\), \\(K\\), and \\(L\\), respectively. The measure of angle \\(E\\) is 45 degrees and the measure of angle \\(F\\) is 20 degrees. What is the measure of angle \\(J\\)?",
+    "options": [
+      "20 degrees",
+      "45 degrees",
+      "135 degrees",
+      "160 degrees"
+    ],
+    "correctIndex": 1,
+    "explanation": "In congruent triangles, corresponding angles are equal. Angle \\(J\\) corresponds to angle \\(E\\), which is 45 degrees.",
+    "source": "P7M1 Q9"
+  },
+  {
+    "id": "lin-0013",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f\\) is defined by \\(f(x) = \\frac{1}{2}(x + 6)\\). What is the value of \\(f(4)\\)?",
+    "options": [
+      "20",
+      "12",
+      "10",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "\\(f(4) = \\frac{1}{2}(4 + 6) = \\frac{1}{2}(10) = 5\\).",
+    "source": "P7M1 Q10"
+  },
+  {
+    "id": "sys-0005",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(y = 6x + 3\\) One of the two equations in a system of linear equations is given. The system has infinitely many solutions. Which equation could be the second equation in this system?",
+    "options": [
+      "\\(y = 2(6x) + 3\\)",
+      "\\(y = 2(6x + 3)\\)",
+      "\\(2(y) = 2(6x) + 3\\)",
+      "\\(2(y) = 2(6x + 3)\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "For infinitely many solutions, the second equation must be equivalent to the first. \\(2(y) = 2(6x + 3)\\) simplifies to \\(y = 6x + 3\\), the same line.",
+    "source": "P7M1 Q12"
+  },
+  {
+    "id": "geo-0020",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A circle in the \\(xy\\)-plane has the equation \\((x - 13)^2 + (y - k)^2 = 64\\). Which of the following gives the center of the circle and its radius?",
+    "options": [
+      "The center is at \\((13, k)\\) and the radius is 8.",
+      "The center is at \\((k, 13)\\) and the radius is 8.",
+      "The center is at \\((k, 13)\\) and the radius is 64.",
+      "The center is at \\((13, k)\\) and the radius is 64."
+    ],
+    "correctIndex": 0,
+    "explanation": "In standard form \\((x - h)^2 + (y - k)^2 = r^2\\), the center is \\((13, k)\\) and the radius is \\(\\sqrt{64} = 8\\).",
+    "source": "P7M1 Q15"
+  },
+  {
+    "id": "alg-0027",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f\\) is defined by \\(f(x) = |x - 4x|\\). What value of \\(a\\) satisfies \\(f(5) - f(a) = -15\\)?",
+    "options": [
+      "-20",
+      "5",
+      "10",
+      "45"
+    ],
+    "correctIndex": 2,
+    "explanation": "\\(f(x) = |x - 4x| = |-3x| = 3|x|\\). So \\(f(5) = 15\\), and \\(15 - f(a) = -15 \\Rightarrow f(a) = 30 \\Rightarrow 3|a| = 30 \\Rightarrow |a| = 10\\). Among the choices, \\(a = 10\\).",
+    "source": "P7M1 Q16"
+  },
+  {
+    "id": "exp-0009",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "For the exponential function \\(f\\), the value of \\(f(0)\\) is \\(c\\), where \\(c\\) is a constant. Of the following equations that define the function \\(f\\), which equation shows the value of \\(c\\) as the coefficient or the base?",
+    "options": [
+      "\\(f(x) = 22(1.5)^{x+1}\\)",
+      "\\(f(x) = 33(1.5)^x\\)",
+      "\\(f(x) = 49.5(1.5)^{x-1}\\)",
+      "\\(f(x) = 74.25(1.5)^{x-2}\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(f(0) = c\\). For \\(f(x) = 33(1.5)^x\\), \\(f(0) = 33\\), so \\(c = 33\\) appears directly as the coefficient.",
+    "source": "P7M1 Q17"
+  },
+  {
+    "id": "exp-0010",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f(t) = 40{,}000(2)^{\\frac{t}{790}}\\) gives the number of bacteria in a population \\(t\\) minutes after an initial observation. How much time, in minutes, does it take for the number of bacteria in the population to double?",
+    "options": [
+      "2",
+      "790",
+      "1,580",
+      "40,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "The population doubles when the exponent \\(\\frac{t}{790} = 1\\), i.e. \\(t = 790\\) minutes.",
+    "source": "P7M1 Q18"
+  },
+  {
+    "id": "alg-0028",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(\\frac{12}{n} - \\frac{2}{t} = -\\frac{2}{w}\\) The given equation relates the variables \\(n\\), \\(t\\), and \\(w\\), where \\(n > 0\\), \\(t > 0\\), and \\(w > t\\). Which expression is equivalent to \\(n\\)?",
+    "options": [
+      "\\(12tw\\)",
+      "\\(6(t - w)\\)",
+      "\\(\\frac{w - t}{6tw}\\)",
+      "\\(\\frac{6tw}{w - t}\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rewrite: \\(\\frac{12}{n} = \\frac{2}{t} - \\frac{2}{w} = \\frac{2w - 2t}{tw} = \\frac{2(w - t)}{tw}\\). So \\(n = \\frac{12tw}{2(w - t)} = \\frac{6tw}{w - t}\\).",
+    "source": "P7M1 Q19"
+  },
+  {
+    "id": "geo-0021",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Points \\(Q\\) and \\(R\\) lie on a circle with center \\(P\\). The radius of this circle is 9 inches. Triangle \\(PQR\\) has a perimeter of 31 inches. What is the length, in inches, of \\(\\overline{QR}\\)?",
+    "options": [
+      "\\(13\\sqrt{2}\\)",
+      "13",
+      "\\(9\\sqrt{2}\\)",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sides \\(PQ\\) and \\(PR\\) are radii, each 9 inches. The perimeter is \\(9 + 9 + QR = 31\\), so \\(QR = 31 - 18 = 13\\) inches.",
+    "source": "P7M1 Q22"
+  },
+  {
+    "id": "alg-0029",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In a set of four consecutive odd integers, where the integers are ordered from least to greatest, the first integer is represented by \\(x\\). The product of 12 and the fourth odd integer is at most 26 less than the sum of the first and third odd integers. Which inequality represents this situation?",
+    "options": [
+      "\\(12(x + 6) \\le x + (x + 4) - 26\\)",
+      "\\(12(x + 6) \\ge 26 - (x + (x + 4))\\)",
+      "\\(12(x + 4) \\le x + (x + 3) - 26\\)",
+      "\\(12(x + 4) \\ge 26 - (x + (x + 3))\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The four consecutive odd integers are \\(x, x+2, x+4, x+6\\). The fourth is \\(x+6\\), and the first and third are \\(x\\) and \\(x+4\\). \"At most 26 less than the sum\" gives \\(12(x+6) \\le [x + (x+4)] - 26\\).",
+    "source": "P7M1 Q23"
+  },
+  {
+    "id": "lin-0014",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(s\\) is a constant: \\((-2s, 24)\\), \\((-s, 21)\\), \\((s, 15)\\). There is a linear relationship between \\(x\\) and \\(y\\). Which of the following equations represents this relationship?",
+    "options": [
+      "\\(sx + 3y = 18s\\)",
+      "\\(3x + sy = 18s\\)",
+      "\\(3x + sy = 18\\)",
+      "\\(sx + 3y = 18\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The slope is \\(\\frac{15 - 21}{s - (-s)} = \\frac{-6}{2s} = -\\frac{3}{s}\\). Using point \\((-s, 21)\\): \\(y - 21 = -\\frac{3}{s}(x + s)\\), which rearranges to \\(3x + sy = 18s\\).",
+    "source": "P7M1 Q24"
+  },
+  {
+    "id": "geo-0022",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which of the following expressions is equivalent to \\((\\sin 24^\\circ)(\\cos 66^\\circ) + (\\cos 24^\\circ)(\\sin 66^\\circ)\\)?",
+    "options": [
+      "\\(2(\\cos 66^\\circ)(\\sin 24^\\circ)\\)",
+      "\\(2(\\cos 66^\\circ) + 2(\\cos 24^\\circ)\\)",
+      "\\((\\cos 66^\\circ)^2 + (\\cos 24^\\circ)^2\\)",
+      "\\((\\cos 66^\\circ)^2 + (\\sin 24^\\circ)^2\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Since \\(\\sin 24^\\circ = \\cos 66^\\circ\\) and \\(\\sin 66^\\circ = \\cos 24^\\circ\\) (complementary angles), the expression becomes \\((\\cos 66^\\circ)(\\cos 66^\\circ) + (\\cos 24^\\circ)(\\cos 24^\\circ) = (\\cos 66^\\circ)^2 + (\\cos 24^\\circ)^2\\).",
+    "source": "P7M1 Q25"
+  },
+  {
+    "id": "lin-0015",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The cost of renting a carpet cleaner is 52 dollars for the first day and 26 dollars for each additional day. Which of the following functions gives the cost \\(C(d)\\), in dollars, of renting the carpet cleaner for \\(d\\) days, where \\(d\\) is a positive integer?",
+    "options": [
+      "\\(C(d) = 26d + 26\\)",
+      "\\(C(d) = 26d + 52\\)",
+      "\\(C(d) = 52d - 26\\)",
+      "\\(C(d) = 52d + 78\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The first day costs 52 dollars, and each of the remaining \\(d - 1\\) days costs 26 dollars: \\(C(d) = 52 + 26(d - 1) = 26d + 26\\).",
+    "source": "P7M1 Q26"
+  },
+  {
+    "id": "arith-0009",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A total of 165 people contributed to a charity event as either a donor or a volunteer. 130 people contributed as a donor. How many people contributed as a volunteer?",
+    "options": [
+      "35",
+      "130",
+      "165",
+      "330"
+    ],
+    "correctIndex": 0,
+    "explanation": "The number of volunteers is \\(165 - 130 = 35\\).",
+    "source": "P7M2 Q1"
+  },
+  {
+    "id": "arith-0010",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "There are 250 trees in a park. Of these trees, 6% are birch trees. How many birch trees are in the park?",
+    "options": [
+      "6",
+      "15",
+      "75",
+      "244"
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(0.06 \\times 250 = 15\\) birch trees.",
+    "source": "P7M2 Q2"
+  },
+  {
+    "id": "arith-0011",
+    "difficulty": "easy",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "The number of raccoons in a 131-square-mile area is estimated to be 2,358. What is the estimated population density, in raccoons per square mile, of this area?",
+    "options": [
+      "18",
+      "131",
+      "149",
+      "2,376"
+    ],
+    "correctIndex": 0,
+    "explanation": "Population density is \\(\\frac{2{,}358}{131} = 18\\) raccoons per square mile.",
+    "source": "P7M2 Q4"
+  },
+  {
+    "id": "stat-0010",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(-11, -9, 26\\) A data set of three numbers is shown. If a number from this data set is selected at random, what is the probability of selecting a positive number?",
+    "options": [
+      "0",
+      "\\(\\frac{1}{3}\\)",
+      "\\(\\frac{2}{3}\\)",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Only 26 is positive out of the three numbers, so the probability is \\(\\frac{1}{3}\\).",
+    "source": "P7M2 Q5"
+  },
+  {
+    "id": "alg-0030",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "If \\(8x = 6\\), what is the value of \\(72x\\)?",
+    "options": [
+      "3",
+      "15",
+      "54",
+      "57"
+    ],
+    "correctIndex": 2,
+    "explanation": "\\(72x = 9(8x) = 9(6) = 54\\).",
+    "source": "P7M2 Q8"
+  },
+  {
+    "id": "quad-0019",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\(23x^3 + 2x^2 + 9x\\)?",
+    "options": [
+      "\\(23x(x^2 + 2x + 9)\\)",
+      "\\(9x(23x^3 + 2x^2 + 1)\\)",
+      "\\(x(23x^2 + 2x + 9)\\)",
+      "\\(34(x^3 + x^2 + x)\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The greatest common factor is \\(x\\). Factoring: \\(x(23x^2 + 2x + 9)\\).",
+    "source": "P7M2 Q9"
+  },
+  {
+    "id": "quad-0020",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\((9x^3 + 5x + 7) + (6x^3 + 5x^2 - 5)\\)?",
+    "options": [
+      "\\(15x^6 + 5x^2 - 5x - 35\\)",
+      "\\(15x^3 + 10x^2 + 2\\)",
+      "\\(15x^6 + 5x^2 + 5x + 2\\)",
+      "\\(15x^3 + 5x^2 + 5x + 2\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Combine like terms: \\((9x^3 + 6x^3) + 5x^2 + 5x + (7 - 5) = 15x^3 + 5x^2 + 5x + 2\\).",
+    "source": "P7M2 Q10"
+  },
+  {
+    "id": "alg-0031",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "At a state fair, attendees can win tokens that are worth a different number of points depending on the shape. One attendee won \\(S\\) square tokens and \\(C\\) circle tokens worth a total of 1,120 points. The equation \\(80S + 90C = 1{,}120\\) represents this situation. How many more points is a circle token worth than a square token?",
+    "options": [
+      "950",
+      "90",
+      "80",
+      "10"
+    ],
+    "correctIndex": 3,
+    "explanation": "A square token is worth 80 points and a circle token 90 points. The difference is \\(90 - 80 = 10\\) points.",
+    "source": "P7M2 Q11"
+  },
+  {
+    "id": "geo-0023",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "An investment account was opened with an initial value of 890 dollars. The value of the account doubled every 10 years. Which equation represents the value of the account \\(M(t)\\), in dollars, \\(t\\) years after the account was opened?",
+    "options": [
+      "\\(M(t) = 890\\left(\\frac{1}{2}\\right)^{\\frac{t}{10}}\\)",
+      "\\(M(t) = 890\\left(\\frac{1}{10}\\right)^{\\frac{t}{2}}\\)",
+      "\\(M(t) = 890(2)^{\\frac{t}{10}}\\)",
+      "\\(M(t) = 890(10)^{\\frac{t}{2}}\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Doubling every 10 years means a growth factor of 2 with exponent \\(\\frac{t}{10}\\): \\(M(t) = 890(2)^{\\frac{t}{10}}\\).",
+    "source": "P7M2 Q15"
+  },
+  {
+    "id": "alg-0032",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(y < x\\) \\(x < 22\\) For which of the following tables are all the values of \\(x\\) and their corresponding values of \\(y\\) solutions to the given system of inequalities?",
+    "options": [
+      "Table A: \\((19, 18), (20, 19), (21, 20)\\)",
+      "Table B: \\((19, 20), (20, 21), (21, 22)\\)",
+      "Table C: \\((23, 22), (24, 23), (25, 24)\\)",
+      "Table D: \\((23, 24), (24, 25), (25, 26)\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The system needs \\(y < x\\) and \\(x < 22\\). Table A: all \\(x\\) values (19, 20, 21) are less than 22, and each \\(y\\) is less than its \\(x\\). Both conditions hold for all rows.",
+    "source": "P7M2 Q16"
+  },
+  {
+    "id": "exp-0011",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\(\\frac{h^{15}q^7}{h^5 q^{21}}\\), where \\(h > 0\\) and \\(q > 0\\)?",
+    "options": [
+      "\\(\\frac{h^{10}}{q^{14}}\\)",
+      "\\(\\frac{h^3}{q^3}\\)",
+      "\\(h^{10}q^{14}\\)",
+      "\\(h^3 q^3\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract exponents for like bases: \\(h^{15-5} = h^{10}\\) and \\(q^{7-21} = q^{-14}\\). So the expression is \\(\\frac{h^{10}}{q^{14}}\\).",
+    "source": "P7M2 Q17"
+  },
+  {
+    "id": "sys-0006",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(3y = 4x + 17\\) \\(-3y = 9x - 23\\) The solution to the given system of equations is \\((x, y)\\). What is the value of \\(39x\\)?",
+    "options": [
+      "-18",
+      "-6",
+      "6",
+      "18"
+    ],
+    "correctIndex": 3,
+    "explanation": "Adding the equations: \\(0 = 13x - 6\\), so \\(x = \\frac{6}{13}\\). Then \\(39x = 39 \\cdot \\frac{6}{13} = 3 \\cdot 6 = 18\\).",
+    "source": "P7M2 Q18"
+  },
+  {
+    "id": "quad-0021",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(h(t) = -16t^2 + b\\) The function \\(h\\) estimates an object's height, in feet, above the ground \\(t\\) seconds after the object is dropped, where \\(b\\) is a constant. The function estimates that the object is 3,364 feet above the ground when it is dropped at \\(t = 0\\). Approximately how many seconds after being dropped does the function estimate the object will hit the ground?",
+    "options": [
+      "7.25",
+      "14.50",
+      "105.13",
+      "210.25"
+    ],
+    "correctIndex": 1,
+    "explanation": "At \\(t = 0\\), \\(h = b = 3{,}364\\). The object hits the ground when \\(h = 0\\): \\(-16t^2 + 3{,}364 = 0 \\Rightarrow t^2 = 210.25 \\Rightarrow t = 14.5\\) seconds.",
+    "source": "P7M2 Q19"
+  },
+  {
+    "id": "lin-0016",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "For the linear function \\(f\\), the table shows three values of \\(x\\) and their corresponding values of \\(f(x)\\): \\((-4, 0)\\), \\(\\left(-\\frac{19}{5}, 1\\right)\\), \\(\\left(-\\frac{18}{5}, 2\\right)\\). If \\(h(x) = f(x) - 13\\), which equation defines \\(h\\)?",
+    "options": [
+      "\\(h(x) = 5x - 4\\)",
+      "\\(h(x) = 5x + 7\\)",
+      "\\(h(x) = 5x + 9\\)",
+      "\\(h(x) = 5x + 20\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The slope of \\(f\\) is \\(\\frac{1 - 0}{-\\frac{19}{5} - (-4)} = \\frac{1}{\\frac{1}{5}} = 5\\). Using \\((-4, 0)\\): \\(f(x) = 5(x + 4) = 5x + 20\\). Then \\(h(x) = f(x) - 13 = 5x + 20 - 13 = 5x + 7\\).",
+    "source": "P7M2 Q22"
+  },
+  {
+    "id": "lin-0017",
+    "difficulty": "hard",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "The linear function \\(g\\) is defined by \\(g(x) = b - 15x\\), where \\(b\\) is a constant. If \\(g(c + 7) = \\frac{c}{4}\\), where \\(c\\) is a constant, which of the following expressions represents the value of \\(b\\)?",
+    "options": [
+      "\\(\\frac{15c}{4}\\)",
+      "\\(\\frac{19c}{4} + 7\\)",
+      "\\(\\frac{61c}{4} + 105\\)",
+      "\\(15c + 105\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "\\(g(c + 7) = b - 15(c + 7) = b - 15c - 105\\). Setting equal to \\(\\frac{c}{4}\\): \\(b = \\frac{c}{4} + 15c + 105 = \\frac{c + 60c}{4} + 105 = \\frac{61c}{4} + 105\\).",
+    "source": "P7M2 Q23"
+  },
+  {
+    "id": "geo-0024",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In triangle \\(XYZ\\), angle \\(Z\\) is a right angle and the length of \\(\\overline{YZ}\\) is 24 units. If \\(\\tan X = \\frac{12}{35}\\), what is the perimeter, in units, of triangle \\(XYZ\\)?",
+    "options": [
+      "188",
+      "168",
+      "84",
+      "71"
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(\\tan X = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{YZ}{XZ} = \\frac{12}{35}\\). With \\(YZ = 24 = 2 \\times 12\\), scale factor 2 gives \\(XZ = 70\\) and hypotenuse \\(XY = 2 \\times 37 = 74\\). Perimeter \\(= 24 + 70 + 74 = 168\\).",
+    "source": "P7M2 Q24"
+  },
+  {
+    "id": "geo-0025",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(x^2 + 14x + y^2 = 6y + 109\\) In the \\(xy\\)-plane, the graph of the given equation is a circle. What is the length of the circle's radius?",
+    "options": [
+      "\\(\\sqrt{109}\\)",
+      "\\(\\sqrt{149}\\)",
+      "\\(\\sqrt{167}\\)",
+      "\\(\\sqrt{341}\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Complete the square: \\((x^2 + 14x + 49) + (y^2 - 6y + 9) = 109 + 49 + 9 = 167\\), giving \\((x+7)^2 + (y-3)^2 = 167\\). The radius is \\(\\sqrt{167}\\).",
+    "source": "P7M2 Q25"
+  },
+  {
+    "id": "arith-0012",
+    "difficulty": "hard",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "The speed of a vehicle is increasing at a rate of 7.3 meters per second squared. What is this rate, in miles per minute squared, rounded to the nearest tenth? \\((Use 1 mile = 1,609 meters.)\\)",
+    "options": [
+      "0.3",
+      "16.3",
+      "195.8",
+      "220.4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Convert: \\(7.3 \\frac{\\text{m}}{\\text{s}^2} \\times \\frac{1 \\text{ mile}}{1609 \\text{ m}} \\times \\left(\\frac{60 \\text{ s}}{1 \\text{ min}}\\right)^2 = 7.3 \\times \\frac{3600}{1609} \\approx 16.3\\) miles per minute squared.",
+    "source": "P7M2 Q26"
+  }
+]

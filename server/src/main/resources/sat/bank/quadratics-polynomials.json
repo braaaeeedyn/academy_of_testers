@@ -1,0 +1,1237 @@
+{
+  "skillId": "quadratics-polynomials",
+  "questions": [
+    {
+      "id": "quad-0001",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Square P has a side length of \\(x\\) inches. Square Q has a perimeter that is 176 inches greater than the perimeter of square P. The function \\(f\\) gives the area of square Q, in square inches. Which of the following defines \\(f\\)?",
+      "options": [
+        "\\(f(x) = (x + 44)^2\\)",
+        "\\(f(x) = (x + 176)^2\\)",
+        "\\(f(x) = (176x + 44)^2\\)",
+        "\\(f(x) = (176x + 176)^2\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Perimeter of P is \\(4x\\), so perimeter of Q is \\(4x + 176\\), and side of Q is \\(\\frac{4x + 176}{4} = x + 44\\). The area is \\(f(x) = (x + 44)^2\\).",
+      "source": "P4M1 Q18"
+    },
+    {
+      "id": "quad-0002",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The expression \\(4x^2 + bx - 45\\), where \\(b\\) is a constant, can be rewritten as \\((hx + k)(x + j)\\), where \\(h\\), \\(k\\), and \\(j\\) are integer constants. Which of the following must be an integer?",
+      "options": [
+        "\\(\\frac{b}{h}\\)",
+        "\\(\\frac{b}{k}\\)",
+        "\\(\\frac{45}{h}\\)",
+        "\\(\\frac{45}{k}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Expanding \\((hx + k)(x + j) = hx^2 + (hj + k)x + kj\\). Matching constants: \\(kj = -45\\), so \\(\\frac{45}{k} = -j\\), an integer. The other quotients need not be integers.",
+      "source": "P4M1 Q23"
+    },
+    {
+      "id": "quad-0003",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "In the \\(xy\\)-plane, a parabola has vertex \\((9, -14)\\) and intersects the \\(x\\)-axis at two points. If the equation of the parabola is written in the form \\(y = ax^2 + bx + c\\), where \\(a\\), \\(b\\), and \\(c\\) are constants, which of the following could be the value of \\(a + b + c\\)?",
+      "options": [
+        "-23",
+        "-19",
+        "-14",
+        "-12"
+      ],
+      "correctIndex": 3,
+      "explanation": "In vertex form \\(y = a(x - 9)^2 - 14\\). Then \\(a + b + c = y(1) = a(1-9)^2 - 14 = 64a - 14\\). Since the parabola opens upward to cross the x-axis twice from vertex below the axis, \\(a > 0\\), making \\(64a - 14 > -14\\). Only \\(-12\\) exceeds \\(-14\\) and gives \\(a = \\frac{2}{64} > 0\\).",
+      "source": "P4M1 Q26"
+    },
+    {
+      "id": "quad-0004",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(-4x^2 - 7x = -36\\) What is the positive solution to the given equation?",
+      "options": [
+        "\\(\\frac{7}{4}\\)",
+        "\\(\\frac{9}{4}\\)",
+        "4",
+        "7"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rewrite as \\(4x^2 + 7x - 36 = 0\\). Factoring: \\((4x - 9)(x + 4) = 0\\), giving \\(x = \\frac{9}{4}\\) or \\(x = -4\\). The positive solution is \\(\\frac{9}{4}\\).",
+      "source": "P4M2 Q12"
+    },
+    {
+      "id": "quad-0005",
+      "difficulty": "medium",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "\\(f(x) = (x - 10)(x + 13)\\) The function \\(f\\) is defined by the given equation. For what value of \\(x\\) does \\(f(x)\\) reach its minimum?",
+      "options": [
+        "-130",
+        "-13",
+        "\\(-\\frac{23}{2}\\)",
+        "\\(-\\frac{3}{2}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The zeros are \\(x = 10\\) and \\(x = -13\\). The vertex (minimum, since parabola opens up) is at the midpoint: \\(x = \\frac{10 + (-13)}{2} = -\\frac{3}{2}\\).",
+      "source": "P4M2 Q18"
+    },
+    {
+      "id": "quad-0006",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f(x) = \\frac{1}{9}(x - 7)^2 + 3\\) gives a metal ball's height above the ground \\(f(x)\\), in inches, \\(x\\) seconds after it started moving on a track, where \\(0 \\le x \\le 10\\). Which of the following is the best interpretation of the vertex of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?",
+      "options": [
+        "The metal ball's minimum height was 3 inches above the ground.",
+        "The metal ball's minimum height was 7 inches above the ground.",
+        "The metal ball's height was 3 inches above the ground when it started moving.",
+        "The metal ball's height was 7 inches above the ground when it started moving."
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertex is at \\((7, 3)\\). Since the coefficient \\(\\frac{1}{9}\\) is positive, the vertex is a minimum, so the ball's minimum height was 3 inches above the ground.",
+      "source": "P4M2 Q19"
+    },
+    {
+      "id": "quad-0007",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A right rectangular prism has a height of 9 inches. The length of the prism's base is \\(x\\) inches, which is 7 inches more than the width of the prism's base. Which function \\(V\\) gives the volume of the prism, in cubic inches, in terms of the length of the prism's base?",
+      "options": [
+        "\\(V(x) = x(x + 9)(x + 7)\\)",
+        "\\(V(x) = x(x + 9)(x - 7)\\)",
+        "\\(V(x) = 9x(x + 7)\\)",
+        "\\(V(x) = 9x(x - 7)\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The length is \\(x\\), the width is \\(x - 7\\), and the height is 9. Volume \\(= \\text{length} \\times \\text{width} \\times \\text{height} = 9x(x - 7)\\).",
+      "source": "P5M1 Q23"
+    },
+    {
+      "id": "quad-0008",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = ax^2 + bx + c\\), where \\(a\\), \\(b\\), and \\(c\\) are constants. The graph of \\(y = f(x)\\) in the \\(xy\\)-plane passes through the points \\((7, 0)\\) and \\((-3, 0)\\). If \\(a\\) is an integer greater than 1, which of the following could be the value of \\(a + b\\)?",
+      "options": [
+        "-6",
+        "-3",
+        "4",
+        "5"
+      ],
+      "correctIndex": 0,
+      "explanation": "With roots 7 and \\(-3\\), \\(f(x) = a(x - 7)(x + 3) = a(x^2 - 4x - 21)\\), so \\(b = -4a\\) and \\(a + b = a - 4a = -3a\\). For integer \\(a > 1\\): \\(a = 2\\) gives \\(-6\\). So \\(-6\\) is possible.",
+      "source": "P5M1 Q26"
+    },
+    {
+      "id": "quad-0009",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(16x^3 y^2 + 14xy\\)?",
+      "options": [
+        "\\(2xy(8xy + 7)\\)",
+        "\\(2xy(8x^2 y + 7)\\)",
+        "\\(14xy(2x^2 y + 1)\\)",
+        "\\(14xy(8x^2 y + 1)\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The greatest common factor of \\(16x^3 y^2\\) and \\(14xy\\) is \\(2xy\\). Factoring: \\(2xy(8x^2 y + 7)\\), since \\(2xy \\cdot 8x^2 y = 16x^3 y^2\\) and \\(2xy \\cdot 7 = 14xy\\).",
+      "source": "P5M2 Q4"
+    },
+    {
+      "id": "quad-0010",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The kinetic energy, in joules, of an object with mass 9 kilograms traveling at a speed of \\(v\\) meters per second is given by the function \\(K\\), where \\(K(v) = \\frac{9}{2}v^2\\). Which of the following is the best interpretation of \\(K(34) = 5{,}202\\) in this context?",
+      "options": [
+        "The object traveling at 34 meters per second has a kinetic energy of 5,202 joules.",
+        "The object traveling at 340 meters per second has a kinetic energy of 5,202 joules.",
+        "The object traveling at 5,202 meters per second has a kinetic energy of 34 joules.",
+        "The object traveling at 23,409 meters per second has a kinetic energy of 34 joules."
+      ],
+      "correctIndex": 0,
+      "explanation": "In \\(K(v)\\), the input \\(v = 34\\) is the speed and the output 5,202 is the kinetic energy, so an object at 34 meters per second has 5,202 joules of kinetic energy.",
+      "source": "P5M2 Q10"
+    },
+    {
+      "id": "quad-0011",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\((8x^3 + 8) - (x^3 - 2)\\)?",
+      "options": [
+        "\\(8x^3 + 6\\)",
+        "\\(7x^3 + 10\\)",
+        "\\(8x^3 + 10\\)",
+        "\\(7x^3 + 6\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distribute the subtraction: \\(8x^3 + 8 - x^3 + 2 = 7x^3 + 10\\).",
+      "source": "P5M2 Q17"
+    },
+    {
+      "id": "quad-0012",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which quadratic equation has no real solutions?",
+      "options": [
+        "\\(x^2 + 14x - 49 = 0\\)",
+        "\\(x^2 - 14x + 49 = 0\\)",
+        "\\(5x^2 - 14x - 49 = 0\\)",
+        "\\(5x^2 - 14x + 49 = 0\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A quadratic has no real solutions when its discriminant \\(b^2 - 4ac < 0\\). For \\(5x^2 - 14x + 49\\): \\((-14)^2 - 4(5)(49) = 196 - 980 = -784 < 0\\), so it has no real solutions.",
+      "source": "P5M2 Q24"
+    },
+    {
+      "id": "quad-0013",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(k^2 - 53 = 91\\) What is the positive solution to the given equation?",
+      "options": [
+        "144",
+        "72",
+        "38",
+        "12"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(k^2 = 91 + 53 = 144\\), so \\(k = \\sqrt{144} = 12\\) (positive solution).",
+      "source": "P6M1 Q3"
+    },
+    {
+      "id": "quad-0014",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\((x^2 + 11)^2 + (x - 5)(x + 5)\\)?",
+      "options": [
+        "\\(x^4 + 23x^2 - 14\\)",
+        "\\(x^4 + 23x^2 + 96\\)",
+        "\\(x^4 + 12x^2 + 121\\)",
+        "\\(x^4 + x^2 + 146\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\((x^2 + 11)^2 = x^4 + 22x^2 + 121\\) and \\((x-5)(x+5) = x^2 - 25\\). Sum: \\(x^4 + 23x^2 + 96\\).",
+      "source": "P6M1 Q12"
+    },
+    {
+      "id": "quad-0015",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(w^2 + 12w - 40 = 0\\) Which of the following is a solution to the given equation?",
+      "options": [
+        "\\(6 - 2\\sqrt{19}\\)",
+        "\\(2\\sqrt{19}\\)",
+        "\\(\\sqrt{19}\\)",
+        "\\(-6 + 2\\sqrt{19}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Using the quadratic formula: \\(w = \\frac{-12 \\pm \\sqrt{144 + 160}}{2} = \\frac{-12 \\pm \\sqrt{304}}{2} = -6 \\pm 2\\sqrt{19}\\). One solution is \\(-6 + 2\\sqrt{19}\\).",
+      "source": "P6M1 Q18"
+    },
+    {
+      "id": "quad-0016",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(5x^5 - 6x^4 + 8x^3\\)?",
+      "options": [
+        "\\(x^4(5x - 6)\\)",
+        "\\(x^3(5x^2 - 6x + 8)\\)",
+        "\\(8x^3(5x^2 - 6x + 1)\\)",
+        "\\(6x^5(-6x^4 + 8x^3 + 1)\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The greatest common factor of the three terms is \\(x^3\\). Factoring: \\(x^3(5x^2 - 6x + 8)\\).",
+      "source": "P6M2 Q8"
+    },
+    {
+      "id": "quad-0017",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\((x + 2)(x - 5)(x + 9) = 0\\) What is a positive solution to the given equation?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "18"
+      ],
+      "correctIndex": 2,
+      "explanation": "Setting each factor to zero gives \\(x = -2, 5, -9\\). The positive solution is 5.",
+      "source": "P6M2 Q12"
+    },
+    {
+      "id": "quad-0018",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(x^2 = -841\\) How many distinct real solutions does the given equation have?",
+      "options": [
+        "Exactly one",
+        "Exactly two",
+        "Infinitely many",
+        "Zero"
+      ],
+      "correctIndex": 3,
+      "explanation": "A squared real number cannot be negative, so \\(x^2 = -841\\) has no real solutions: zero.",
+      "source": "P6M2 Q17"
+    },
+    {
+      "id": "quad-0019",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(23x^3 + 2x^2 + 9x\\)?",
+      "options": [
+        "\\(23x(x^2 + 2x + 9)\\)",
+        "\\(9x(23x^3 + 2x^2 + 1)\\)",
+        "\\(x(23x^2 + 2x + 9)\\)",
+        "\\(34(x^3 + x^2 + x)\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The greatest common factor is \\(x\\). Factoring: \\(x(23x^2 + 2x + 9)\\).",
+      "source": "P7M2 Q9"
+    },
+    {
+      "id": "quad-0020",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\((9x^3 + 5x + 7) + (6x^3 + 5x^2 - 5)\\)?",
+      "options": [
+        "\\(15x^6 + 5x^2 - 5x - 35\\)",
+        "\\(15x^3 + 10x^2 + 2\\)",
+        "\\(15x^6 + 5x^2 + 5x + 2\\)",
+        "\\(15x^3 + 5x^2 + 5x + 2\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Combine like terms: \\((9x^3 + 6x^3) + 5x^2 + 5x + (7 - 5) = 15x^3 + 5x^2 + 5x + 2\\).",
+      "source": "P7M2 Q10"
+    },
+    {
+      "id": "quad-0021",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(h(t) = -16t^2 + b\\) The function \\(h\\) estimates an object's height, in feet, above the ground \\(t\\) seconds after the object is dropped, where \\(b\\) is a constant. The function estimates that the object is 3,364 feet above the ground when it is dropped at \\(t = 0\\). Approximately how many seconds after being dropped does the function estimate the object will hit the ground?",
+      "options": [
+        "7.25",
+        "14.50",
+        "105.13",
+        "210.25"
+      ],
+      "correctIndex": 1,
+      "explanation": "At \\(t = 0\\), \\(h = b = 3{,}364\\). The object hits the ground when \\(h = 0\\): \\(-16t^2 + 3{,}364 = 0 \\Rightarrow t^2 = 210.25 \\Rightarrow t = 14.5\\) seconds.",
+      "source": "P7M2 Q19"
+    },
+    {
+      "id": "quad-0022",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(x - 29 = (x - a)(x - 29)\\) Which of the following are solutions to the given equation, where \\(a\\) is a constant and \\(a > 30\\)? I. \\(a\\) II. \\(a + 1\\) III. \\(29\\)",
+      "options": [
+        "I and II only",
+        "I and III only",
+        "II and III only",
+        "I, II, and III"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rewrite as \\((x - 29) - (x - a)(x - 29) = 0\\), so \\((x - 29)[1 - (x - a)] = 0\\), giving \\((x - 29)(a + 1 - x) = 0\\). Solutions are \\(x = 29\\) (III) and \\(x = a + 1\\) (II). So II and III only.",
+      "source": "P8M1 Q24"
+    },
+    {
+      "id": "quad-0023",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "In the \\(xy\\)-plane, the graph of the equation \\(y = -x^2 + 9x - 100\\) intersects the line \\(y = c\\) at exactly one point. What is the value of \\(c\\)?",
+      "options": [
+        "\\(-\\frac{481}{4}\\)",
+        "\\(-100\\)",
+        "\\(-\\frac{319}{4}\\)",
+        "\\(-\\frac{9}{2}\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The line \\(y = c\\) touches the parabola at exactly one point when \\(c\\) equals the maximum value at the vertex. The vertex \\(x\\)-value is \\(\\frac{-9}{2(-1)} = \\frac{9}{2}\\), and \\(y = -\\left(\\frac{9}{2}\\right)^2 + 9\\left(\\frac{9}{2}\\right) - 100 = -\\frac{81}{4} + \\frac{81}{2} - 100 = \\frac{81}{4} - 100 = -\\frac{319}{4}\\).",
+      "source": "P8M1 Q25"
+    },
+    {
+      "id": "quad-0024",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = 7x^3\\). In the \\(xy\\)-plane, the graph of \\(y = g(x)\\) is the result of shifting the graph of \\(y = f(x)\\) down 2 units. Which equation defines function \\(g\\)?",
+      "options": [
+        "\\(g(x) = \\frac{7}{2}x^3\\)",
+        "\\(g(x) = 7x^{\\frac{3}{2}}\\)",
+        "\\(g(x) = 7x^3 + 2\\)",
+        "\\(g(x) = 7x^3 - 2\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Shifting down 2 units subtracts 2 from the output: \\(g(x) = 7x^3 - 2\\).",
+      "source": "P8M2 Q10"
+    },
+    {
+      "id": "quad-0025",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(\\frac{x^2}{\\sqrt{x^2 - c^2}} = \\frac{c^2}{\\sqrt{x^2 - c^2}} + 39\\) In the given equation, \\(c\\) is a positive constant. Which of the following is one of the solutions to the given equation?",
+      "options": [
+        "\\(-c\\)",
+        "\\(-c^2 - 39^2\\)",
+        "\\(-\\sqrt{39^2 - c^2}\\)",
+        "\\(-\\sqrt{c^2 + 39^2}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Multiply through: \\(\\frac{x^2 - c^2}{\\sqrt{x^2 - c^2}} = 39\\), so \\(\\sqrt{x^2 - c^2} = 39\\). Squaring gives \\(x^2 - c^2 = 39^2\\), so \\(x^2 = c^2 + 39^2\\) and \\(x = \\pm\\sqrt{c^2 + 39^2}\\). One solution is \\(-\\sqrt{c^2 + 39^2}\\).",
+      "source": "P8M2 Q26"
+    },
+    {
+      "id": "quad-0026",
+      "difficulty": "easy",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "The function \\(g\\) is defined by \\(g(x) = x^2 + 9\\). For which value of \\(x\\) is \\(g(x) = 25\\)?",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "13"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set \\(x^2 + 9 = 25\\), so \\(x^2 = 16\\) and \\(x = 4\\) (a valid choice).",
+      "source": "P9M1 Q4"
+    },
+    {
+      "id": "quad-0027",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Function \\(f\\) is defined by \\(f(x) = (x + 6)(x + 5)(x + 1)\\). Function \\(g\\) is defined by \\(g(x) = f(x - 1)\\). The graph of \\(y = g(x)\\) in the \\(xy\\)-plane has \\(x\\)-intercepts at \\((a, 0)\\), \\((b, 0)\\), and \\((c, 0)\\), where \\(a\\), \\(b\\), and \\(c\\) are distinct constants. What is the value of \\(a + b + c\\)?",
+      "options": [
+        "-15",
+        "-9",
+        "11",
+        "15"
+      ],
+      "correctIndex": 1,
+      "explanation": "The roots of \\(f\\) are \\(-6, -5, -1\\). Since \\(g(x) = f(x - 1)\\), the graph shifts right 1 unit, so the roots become \\(-5, -4, 0\\). Their sum is \\(-5 + (-4) + 0 = -9\\).",
+      "source": "P9M1 Q22"
+    },
+    {
+      "id": "quad-0028",
+      "difficulty": "hard",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "\\(f(x) = 4x^2 + 64x + 262\\) The function \\(g\\) is defined by \\(g(x) = f(x + 5)\\). For what value of \\(x\\) does \\(g(x)\\) reach its minimum?",
+      "options": [
+        "-13",
+        "-8",
+        "-5",
+        "-3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The minimum of \\(f\\) is at \\(x = \\frac{-64}{2(4)} = -8\\). Since \\(g(x) = f(x + 5)\\), the graph shifts left 5 units, so its minimum is at \\(x = -8 - 5 = -13\\).",
+      "source": "P9M1 Q24"
+    },
+    {
+      "id": "quad-0029",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(x + 7 = 10\\), \\((x + 7)^2 = y\\) Which ordered pair \\((x, y)\\) is a solution to the given system of equations?",
+      "options": [
+        "\\((3, 100)\\)",
+        "\\((3, 3)\\)",
+        "\\((3, 10)\\)",
+        "\\((3, 70)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "From \\(x + 7 = 10\\), \\(x = 3\\). Then \\(y = (x + 7)^2 = 10^2 = 100\\), giving \\((3, 100)\\).",
+      "source": "P9M2 Q9"
+    },
+    {
+      "id": "quad-0030",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y = 76\\), \\(y = x^2 - 5\\) The graphs of the given equations in the \\(xy\\)-plane intersect at the point \\((x, y)\\). What is a possible value of \\(x\\)?",
+      "options": [
+        "\\(-\\frac{76}{5}\\)",
+        "-9",
+        "5",
+        "76"
+      ],
+      "correctIndex": 1,
+      "explanation": "Set \\(x^2 - 5 = 76\\), so \\(x^2 = 81\\) and \\(x = \\pm 9\\). A possible value is \\(-9\\).",
+      "source": "P10M2 Q10"
+    },
+    {
+      "id": "quad-0031",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(|-5x + 13| = 73\\) What is the sum of the solutions to the given equation?",
+      "options": [
+        "\\(-\\frac{146}{5}\\)",
+        "-12",
+        "0",
+        "\\(\\frac{26}{5}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The two cases are \\(-5x + 13 = 73\\), giving \\(x = -12\\), and \\(-5x + 13 = -73\\), giving \\(x = \\frac{86}{5}\\). Their sum is \\(-12 + \\frac{86}{5} = \\frac{-60 + 86}{5} = \\frac{26}{5}\\).",
+      "source": "P10M2 Q22"
+    },
+    {
+      "id": "quad-0032",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(-9x^2 + 30x + c = 0\\) In the given equation, \\(c\\) is a constant. The equation has exactly one solution. What is the value of \\(c\\)?",
+      "options": [
+        "3",
+        "0",
+        "-25",
+        "-53"
+      ],
+      "correctIndex": 2,
+      "explanation": "A quadratic has exactly one solution when its discriminant is 0: \\(30^2 - 4(-9)(c) = 900 + 36c = 0\\), so \\(c = -25\\).",
+      "source": "P10M2 Q24"
+    },
+    {
+      "id": "quad-0033",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which of the following expressions has a factor of \\(x + 2b\\), where \\(b\\) is a positive integer constant?",
+      "options": [
+        "\\(3x^2 + 7x + 14b\\)",
+        "\\(3x^2 + 28x + 14b\\)",
+        "\\(3x^2 + 42x + 14b\\)",
+        "\\(3x^2 + 49x + 14b\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "If \\(x + 2b\\) is a factor, then \\(3x^2 + Bx + 14b = (x + 2b)(3x + 7)\\) for the constant term to match (\\(2b \\cdot 7 = 14b\\)). Expanding: \\((x + 2b)(3x + 7) = 3x^2 + (7 + 6b)x + 14b\\). Matching the middle coefficient to \\(49\\): \\(7 + 6b = 49 \\Rightarrow b = 7\\), an integer. So \\(3x^2 + 49x + 14b\\) has the factor.",
+      "source": "P10M2 Q25"
+    },
+    {
+      "id": "quad-0034",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(8x^2 - 40 = 32\\) What is the positive solution to the given equation?",
+      "options": [
+        "3",
+        "4",
+        "9",
+        "72"
+      ],
+      "correctIndex": 0,
+      "explanation": "Add 40 to both sides: \\(8x^2 = 72\\), so \\(x^2 = 9\\) and the positive solution is \\(x = 3\\).",
+      "source": "P11M1 Q4"
+    },
+    {
+      "id": "quad-0035",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which quadratic equation has exactly one distinct real solution?",
+      "options": [
+        "\\((x + 15)^2 = 0\\)",
+        "\\((x + 15)^2 = -45\\)",
+        "\\((x + 15)^2 = 45\\)",
+        "\\((x + 15)^2 = 135\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "\\((x + 15)^2 = 0\\) gives the single repeated solution \\(x = -15\\). A negative right side (option B) has no real solution, and a positive right side (options C and D) yields two distinct solutions.",
+      "source": "P11M1 Q16"
+    },
+    {
+      "id": "quad-0036",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A table shows three values of \\(x\\) and their corresponding values of \\(f(x)\\) for the quadratic function \\(f\\): when \\(x = 24\\), \\(f(x) = -8\\); when \\(x = 30\\), \\(f(x) = -8\\); when \\(x = 32\\), \\(f(x) = 8\\). Which equation defines \\(f\\)?",
+      "options": [
+        "\\(f(x) = (x - 24)(x - 30) + 4\\)",
+        "\\(f(x) = (x - 24)(x - 30) - 8\\)",
+        "\\(f(x) = (x - 8)(x - 32) + 32\\)",
+        "\\(f(x) = (x - 8)(x - 32) - 32\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Since \\(f(24) = f(30) = -8\\), test \\(f(x) = (x - 24)(x - 30) - 8\\): at \\(x = 24\\) and \\(x = 30\\) the product is 0, giving \\(-8\\); at \\(x = 32\\), \\((8)(2) - 8 = 16 - 8 = 8\\). All three values match.",
+      "source": "P11M2 Q18"
+    },
+    {
+      "id": "quad-0037",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(f(x) = -6x^2 + 60x - 126\\) The function \\(f\\) is defined by the given equation. Which of the following equivalent forms of the equation displays the maximum value of the function as a constant or coefficient?",
+      "options": [
+        "\\(f(x) = -6x^2 + 42x + 18x - 126\\)",
+        "\\(f(x) = -6x(x - 7) + 18(x - 7)\\)",
+        "\\(f(x) = -6(x - 5)^2 + 24\\)",
+        "\\(f(x) = -6(x - 7)(x - 3)\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The vertex form \\(f(x) = -6(x - 5)^2 + 24\\) shows the maximum value 24 as a constant (the parabola opens downward, so the vertex is a maximum).",
+      "source": "P11M2 Q22"
+    },
+    {
+      "id": "quad-0038",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(52(x^3 + 64)(x^4 - 81) = 0\\) How many distinct real solutions does the given equation have?",
+      "options": [
+        "Exactly two",
+        "Exactly three",
+        "Exactly five",
+        "Exactly seven"
+      ],
+      "correctIndex": 1,
+      "explanation": "The factor \\(x^3 + 64 = 0\\) gives one real solution, \\(x = -4\\). The factor \\(x^4 - 81 = 0\\) gives \\(x^4 = 81\\), with two real solutions \\(x = 3\\) and \\(x = -3\\) (the other two roots are non-real). In total there are 3 distinct real solutions.",
+      "source": "P11M2 Q24"
+    },
+    {
+      "id": "quad-0039",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 5x + 6 = 0\\)?",
+      "options": [
+        "\\(x = 2\\) and \\(x = 3\\)",
+        "\\(x = -2\\) and \\(x = -3\\)",
+        "\\(x = 2\\) and \\(x = -3\\)",
+        "\\(x = 3\\) and \\(x = 2\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factor: \\(x^2 - 5x + 6 = (x - 2)(x - 3)\\). Setting each factor to zero gives \\(x = 2\\) and \\(x = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0040",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 5x + 4 = 0\\)?",
+      "options": [
+        "\\(x = -1\\) and \\(x = -4\\)",
+        "\\(x = 1\\) and \\(x = 4\\)",
+        "\\(x = 1\\) and \\(x = -4\\)",
+        "\\(x = 2\\) and \\(x = 3\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factor: \\(x^2 - 5x + 4 = (x - 1)(x - 4)\\). Setting each factor to zero gives \\(x = 1\\) and \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0041",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 8x + 15 = 0\\)?",
+      "options": [
+        "\\(x = -3\\) and \\(x = -5\\)",
+        "\\(x = 3\\) and \\(x = -5\\)",
+        "\\(x = 3\\) and \\(x = 5\\)",
+        "\\(x = 4\\) and \\(x = 4\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Factor: \\(x^2 - 8x + 15 = (x - 3)(x - 5)\\). Setting each factor to zero gives \\(x = 3\\) and \\(x = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0042",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 8x + 12 = 0\\)?",
+      "options": [
+        "\\(x = -2\\) and \\(x = -6\\)",
+        "\\(x = 2\\) and \\(x = -6\\)",
+        "\\(x = 3\\) and \\(x = 5\\)",
+        "\\(x = 2\\) and \\(x = 6\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Factor: \\(x^2 - 8x + 12 = (x - 2)(x - 6)\\). Setting each factor to zero gives \\(x = 2\\) and \\(x = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0043",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 8x + 7 = 0\\)?",
+      "options": [
+        "\\(x = 1\\) and \\(x = 7\\)",
+        "\\(x = -1\\) and \\(x = -7\\)",
+        "\\(x = 1\\) and \\(x = -7\\)",
+        "\\(x = 2\\) and \\(x = 6\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factor: \\(x^2 - 8x + 7 = (x - 1)(x - 7)\\). Setting each factor to zero gives \\(x = 1\\) and \\(x = 7\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0044",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 9x + 20 = 0\\)?",
+      "options": [
+        "\\(x = -4\\) and \\(x = -5\\)",
+        "\\(x = 4\\) and \\(x = 5\\)",
+        "\\(x = 4\\) and \\(x = -5\\)",
+        "\\(x = 5\\) and \\(x = 4\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factor: \\(x^2 - 9x + 20 = (x - 4)(x - 5)\\). Setting each factor to zero gives \\(x = 4\\) and \\(x = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0045",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 6x + 8 = 0\\)?",
+      "options": [
+        "\\(x = -2\\) and \\(x = -4\\)",
+        "\\(x = 2\\) and \\(x = -4\\)",
+        "\\(x = 2\\) and \\(x = 4\\)",
+        "\\(x = 3\\) and \\(x = 3\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Factor: \\(x^2 - 6x + 8 = (x - 2)(x - 4)\\). Setting each factor to zero gives \\(x = 2\\) and \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0046",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 + 5x + 6 = 0\\)?",
+      "options": [
+        "\\(x = 2\\) and \\(x = 3\\)",
+        "\\(x = -2\\) and \\(x = 3\\)",
+        "\\(x = -1\\) and \\(x = -4\\)",
+        "\\(x = -2\\) and \\(x = -3\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Factor: \\(x^2 + 5x + 6 = (x - -2)(x - -3)\\). Setting each factor to zero gives \\(x = -2\\) and \\(x = -3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0047",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 + 6x + 5 = 0\\)?",
+      "options": [
+        "\\(x = -1\\) and \\(x = -5\\)",
+        "\\(x = 1\\) and \\(x = 5\\)",
+        "\\(x = -1\\) and \\(x = 5\\)",
+        "\\(x = 0\\) and \\(x = -6\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factor: \\(x^2 + 6x + 5 = (x - -1)(x - -5)\\). Setting each factor to zero gives \\(x = -1\\) and \\(x = -5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0048",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 7x + 12 = 0\\)?",
+      "options": [
+        "\\(x = -3\\) and \\(x = -4\\)",
+        "\\(x = 3\\) and \\(x = 4\\)",
+        "\\(x = 3\\) and \\(x = -4\\)",
+        "\\(x = 4\\) and \\(x = 3\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factor: \\(x^2 - 7x + 12 = (x - 3)(x - 4)\\). Setting each factor to zero gives \\(x = 3\\) and \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0049",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 3x - 10 = 0\\)?",
+      "options": [
+        "\\(x = 2\\) and \\(x = -5\\)",
+        "\\(x = -2\\) and \\(x = -5\\)",
+        "\\(x = -2\\) and \\(x = 5\\)",
+        "\\(x = -1\\) and \\(x = 4\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Factor: \\(x^2 - 3x - 10 = (x - -2)(x - 5)\\). Setting each factor to zero gives \\(x = -2\\) and \\(x = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0050",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 7x + 6 = 0\\)?",
+      "options": [
+        "\\(x = -1\\) and \\(x = -6\\)",
+        "\\(x = 1\\) and \\(x = -6\\)",
+        "\\(x = 2\\) and \\(x = 5\\)",
+        "\\(x = 1\\) and \\(x = 6\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Factor: \\(x^2 - 7x + 6 = (x - 1)(x - 6)\\). Setting each factor to zero gives \\(x = 1\\) and \\(x = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0051",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 + x - 6 = 0\\)?",
+      "options": [
+        "\\(x = -3\\) and \\(x = 2\\)",
+        "\\(x = 3\\) and \\(x = -2\\)",
+        "\\(x = -3\\) and \\(x = -2\\)",
+        "\\(x = -2\\) and \\(x = 1\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factor: \\(x^2 + x - 6 = (x - -3)(x - 2)\\). Setting each factor to zero gives \\(x = -3\\) and \\(x = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0052",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 11x + 30 = 0\\)?",
+      "options": [
+        "\\(x = -5\\) and \\(x = -6\\)",
+        "\\(x = 5\\) and \\(x = 6\\)",
+        "\\(x = 5\\) and \\(x = -6\\)",
+        "\\(x = 6\\) and \\(x = 5\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factor: \\(x^2 - 11x + 30 = (x - 5)(x - 6)\\). Setting each factor to zero gives \\(x = 5\\) and \\(x = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0053",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(f(x) = x^2 - 3x + 2\\), what is \\(f(4)\\)?",
+      "options": [
+        "\\(30\\)",
+        "\\(-6\\)",
+        "\\(6\\)",
+        "\\(14\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "\\(f(4) = 16 - 12 + 2 = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0054",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Factor completely: \\(x^2 - 9\\).",
+      "options": [
+        "\\((x - 3)^2\\)",
+        "\\((x - 9)(x + 1)\\)",
+        "\\((x + 3)^2\\)",
+        "\\((x - 3)(x + 3)\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "This is a difference of squares: \\(x^2 - 9 = (x - 3)(x + 3)\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0055",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Expand \\((x + 5)(x - 2)\\).",
+      "options": [
+        "\\(x^2 + 3x - 10\\)",
+        "\\(x^2 - 3x - 10\\)",
+        "\\(x^2 + 7x - 10\\)",
+        "\\(x^2 + 3x + 10\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use FOIL: \\(x^2 - 2x + 5x - 10 = x^2 + 3x - 10\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0056",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the constant term of \\((x - 4)(x + 6)\\)?",
+      "options": [
+        "\\(24\\)",
+        "\\(-24\\)",
+        "\\(2\\)",
+        "\\(-10\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The constant is the product of the constants: \\((-4)(6) = -24\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0057",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "One solution of \\(x^2 - 7x + 12 = 0\\) is \\(x = 3\\). What is the other solution?",
+      "options": [
+        "\\(-4\\)",
+        "\\(7\\)",
+        "\\(4\\)",
+        "\\(-3\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The roots multiply to \\(12\\): \\(3 \\cdot r = 12\\), so \\(r = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0058",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the \\(y\\)-intercept of \\(y = x^2 - 2x - 8\\)?",
+      "options": [
+        "\\(8\\)",
+        "\\(-2\\)",
+        "\\(2\\)",
+        "\\(-8\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Set \\(x = 0\\): \\(y = -8\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0059",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Factor: \\(x^2 + 6x + 9\\).",
+      "options": [
+        "\\((x + 3)^2\\)",
+        "\\((x - 3)^2\\)",
+        "\\((x + 9)(x + 1)\\)",
+        "\\((x + 3)(x - 3)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a perfect square: \\(x^2 + 6x + 9 = (x + 3)^2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0060",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Expand \\((x - 3)^2\\).",
+      "options": [
+        "\\(x^2 + 9\\)",
+        "\\(x^2 - 6x + 9\\)",
+        "\\(x^2 - 9\\)",
+        "\\(x^2 - 6x - 9\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\((x - 3)^2 = x^2 - 2(3)x + 9 = x^2 - 6x + 9\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0061",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For \\(f(x) = x^2 + x\\), what is \\(f(-3)\\)?",
+      "options": [
+        "\\(-6\\)",
+        "\\(12\\)",
+        "\\(6\\)",
+        "\\(-12\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "\\(f(-3) = 9 + (-3) = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0062",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What value of \\(x\\) makes \\(x^2 = 49\\) with \\(x > 0\\)?",
+      "options": [
+        "\\(24.5\\)",
+        "\\(-7\\)",
+        "\\(2401\\)",
+        "\\(7\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(x^2 = 49\\) gives \\(x = \\pm 7\\); the positive solution is \\(7\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0063",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Factor out the greatest common factor: \\(6x^2 + 9x\\).",
+      "options": [
+        "\\(3x(2x + 3)\\)",
+        "\\(3(2x^2 + 3x)\\)",
+        "\\(3x(2x + 9)\\)",
+        "\\(x(6x + 9)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The GCF of \\(6x^2\\) and \\(9x\\) is \\(3x\\): \\(6x^2 + 9x = 3x(2x + 3)\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0064",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The graph of \\(y = (x - 2)^2 + 5\\) has its vertex at which point?",
+      "options": [
+        "\\((-2, 5)\\)",
+        "\\((2, 5)\\)",
+        "\\((2, -5)\\)",
+        "\\((5, 2)\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "In vertex form \\(y = (x - h)^2 + k\\), the vertex is \\((h, k) = (2, 5)\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0065",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the \\(x\\)-coordinate of the vertex of \\(y = x^2 - 6x + 5\\)?",
+      "options": [
+        "\\(3\\)",
+        "\\(-3\\)",
+        "\\(6\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertex is at \\(x = -\\tfrac{b}{2a} = -\\tfrac{-6}{2} = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0066",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(2x^2 - 8x = 0\\)?",
+      "options": [
+        "\\(x = 0\\) and \\(x = -4\\)",
+        "\\(x = 0\\) and \\(x = 4\\)",
+        "\\(x = 4\\) only",
+        "\\(x = 2\\) and \\(x = 4\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factor: \\(2x(x - 4) = 0\\), so \\(x = 0\\) or \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0067",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For what value of \\(k\\) does \\(x^2 + kx + 9 = 0\\) have exactly one real solution, with \\(k > 0\\)?",
+      "options": [
+        "\\(3\\)",
+        "\\(9\\)",
+        "\\(6\\)",
+        "\\(18\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "One solution means discriminant \\(= 0\\): \\(k^2 - 36 = 0\\), so \\(k = 6\\) (taking \\(k > 0\\)).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0068",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The product of the roots of \\(x^2 - 5x + 6 = 0\\) is what?",
+      "options": [
+        "\\(5\\)",
+        "\\(-6\\)",
+        "\\(-5\\)",
+        "\\(6\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "For \\(x^2 + bx + c\\), the product of the roots is \\(c = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0069",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the minimum value of \\(y = x^2 - 4x + 7\\)?",
+      "options": [
+        "\\(3\\)",
+        "\\(7\\)",
+        "\\(2\\)",
+        "\\(-3\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vertex is at \\(x = 2\\); \\(y = 4 - 8 + 7 = 3\\), the minimum.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0070",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve \\(x^2 - 2x - 15 = 0\\).",
+      "options": [
+        "\\(x = -5\\) and \\(x = 3\\)",
+        "\\(x = 5\\) and \\(x = -3\\)",
+        "\\(x = 5\\) and \\(x = 3\\)",
+        "\\(x = 15\\) and \\(x = -1\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factor: \\((x - 5)(x + 3) = 0\\), so \\(x = 5\\) or \\(x = -3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0071",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Write \\(x^2 + 8x + 10\\) in vertex form.",
+      "options": [
+        "\\((x + 4)^2 + 6\\)",
+        "\\((x + 8)^2 - 6\\)",
+        "\\((x + 4)^2 - 6\\)",
+        "\\((x - 4)^2 - 6\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Complete the square: \\(x^2 + 8x + 16 - 16 + 10 = (x + 4)^2 - 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0072",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "How many real solutions does \\(x^2 + 2x + 5 = 0\\) have?",
+      "options": [
+        "\\(1\\)",
+        "\\(2\\)",
+        "infinitely many",
+        "\\(0\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The discriminant is \\(2^2 - 4(1)(5) = -16 < 0\\), so there are no real solutions.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0073",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\((x - 3)\\) is a factor of \\(x^2 - x - 6\\), what is the other factor?",
+      "options": [
+        "\\(x + 2\\)",
+        "\\(x - 2\\)",
+        "\\(x + 3\\)",
+        "\\(x - 6\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "\\(x^2 - x - 6 = (x - 3)(x + 2)\\), so the other factor is \\(x + 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0074",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A ball's height is \\(h(t) = -16t^2 + 32t\\). At what time \\(t > 0\\) does it return to the ground?",
+      "options": [
+        "\\(1\\)",
+        "\\(2\\)",
+        "\\(32\\)",
+        "\\(16\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Set \\(h = 0\\): \\(-16t(t - 2) = 0\\), so \\(t = 0\\) or \\(t = 2\\); it lands at \\(t = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0075",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The solutions of \\(x^2 + bx + 12 = 0\\) are \\(x = 2\\) and \\(x = 6\\). What is \\(b\\)?",
+      "options": [
+        "\\(8\\)",
+        "\\(12\\)",
+        "\\(-8\\)",
+        "\\(-12\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sum of the roots is \\(-b\\): \\(2 + 6 = 8\\), so \\(-b = 8\\) and \\(b = -8\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0076",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve \\(x^2 = 6x - 9\\).",
+      "options": [
+        "\\(x = 3\\) and \\(x = -3\\)",
+        "\\(x = 9\\)",
+        "\\(x = 6\\) and \\(x = -3\\)",
+        "\\(x = 3\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rearrange: \\(x^2 - 6x + 9 = 0\\), so \\((x - 3)^2 = 0\\) and \\(x = 3\\) (a double root).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "quad-0077",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The parabola \\(y = x^2 - 2x - 3\\) crosses the \\(x\\)-axis at which two points?",
+      "options": [
+        "\\((3, 0)\\) and \\((-1, 0)\\)",
+        "\\((-3, 0)\\) and \\((1, 0)\\)",
+        "\\((3, 0)\\) and \\((1, 0)\\)",
+        "\\((0, -3)\\) and \\((0, 1)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set \\(y = 0\\): \\((x - 3)(x + 1) = 0\\), so \\(x = 3\\) or \\(x = -1\\).",
+      "source": "Adaptive bank expansion"
+    }
+  ]
+}

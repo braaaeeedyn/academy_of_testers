@@ -1,0 +1,610 @@
+[
+  {
+    "id": "lin-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A bus is traveling at a constant speed along a straight portion of road. The equation \\(d = 30t\\) gives the distance \\(d\\), in feet from a road marker, that the bus will be \\(t\\) seconds after passing the marker. How many feet from the marker will the bus be 2 seconds after passing the marker?",
+    "options": [
+      "30",
+      "32",
+      "60",
+      "90"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute \\(t = 2\\): \\(d = 30(2) = 60\\) feet.",
+    "source": "P8M1 Q1"
+  },
+  {
+    "id": "stat-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "For a particular machine that produces beads, 29 out of every 100 beads it produces have a defect. A bead produced by the machine will be selected at random. What is the probability of selecting a bead that has a defect?",
+    "options": [
+      "\\(\\frac{1}{2{,}900}\\)",
+      "\\(\\frac{1}{29}\\)",
+      "\\(\\frac{29}{100}\\)",
+      "\\(\\frac{29}{10}\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The probability is the number of defective beads over the total: \\(\\frac{29}{100}\\).",
+    "source": "P8M1 Q2"
+  },
+  {
+    "id": "exp-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The graph shown is an increasing exponential curve that approaches the \\(x\\)-axis on the left and crosses the \\(y\\)-axis at 8. What is the \\(y\\)-intercept of the graph shown?",
+    "options": [
+      "\\((-8, 0)\\)",
+      "\\((-6, 0)\\)",
+      "\\((0, 6)\\)",
+      "\\((0, 8)\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The \\(y\\)-intercept is where the curve crosses the \\(y\\)-axis, which occurs at \\((0, 8)\\).",
+    "source": "P8M1 Q3"
+  },
+  {
+    "id": "alg-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\((2x^2 + x - 9) + (x^2 + 6x + 1)\\)?",
+    "options": [
+      "\\(2x^2 + 7x + 10\\)",
+      "\\(2x^2 + 6x - 8\\)",
+      "\\(3x^2 + 7x - 10\\)",
+      "\\(3x^2 + 7x - 8\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Combine like terms: \\((2x^2 + x^2) + (x + 6x) + (-9 + 1) = 3x^2 + 7x - 8\\).",
+    "source": "P8M1 Q4"
+  },
+  {
+    "id": "stat-0002",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "An analyst collected data on the price of a carton of grape tomatoes at 30 locations selected at random in Utah. The mean price of a carton of grape tomatoes in Utah was estimated to be 4.23 dollars, with an associated margin of error of 0.08 dollars. Which of the following is a plausible statement about the mean price of a carton of grape tomatoes for all locations that sell this product in Utah?",
+    "options": [
+      "It is between 4.15 dollars and 4.31 dollars.",
+      "It is either less than 4.15 dollars or greater than 4.31 dollars.",
+      "It is less than 4.15 dollars.",
+      "It is greater than 4.31 dollars."
+    ],
+    "correctIndex": 0,
+    "explanation": "The plausible range is the estimate plus or minus the margin of error: \\(4.23 \\pm 0.08\\), which is between 4.15 dollars and 4.31 dollars.",
+    "source": "P8M1 Q5"
+  },
+  {
+    "id": "alg-0002",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(f(x) = 4x + b\\)\\n\\nFor the linear function \\(f\\), \\(b\\) is a constant and \\(f(7) = 28\\). What is the value of \\(b\\)?",
+    "options": [
+      "0",
+      "1",
+      "4",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "\\(f(7) = 4(7) + b = 28 + b = 28\\), so \\(b = 0\\).",
+    "source": "P8M1 Q8"
+  },
+  {
+    "id": "geo-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Right triangles \\(LMN\\) and \\(PQR\\) are similar, where \\(L\\) and \\(M\\) correspond to \\(P\\) and \\(Q\\), respectively. Angle \\(M\\) has a measure of 53 degrees. What is the measure of angle \\(Q\\)?",
+    "options": [
+      "37 degrees",
+      "53 degrees",
+      "127 degrees",
+      "143 degrees"
+    ],
+    "correctIndex": 1,
+    "explanation": "In similar triangles, corresponding angles are equal. Since \\(M\\) corresponds to \\(Q\\), angle \\(Q\\) also measures 53 degrees.",
+    "source": "P8M1 Q9"
+  },
+  {
+    "id": "lin-0002",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "What is the equation of the line that passes through the point \\((0, 5)\\) and is parallel to the graph of \\(y = 7x + 4\\) in the \\(xy\\)-plane?",
+    "options": [
+      "\\(y = 5x\\)",
+      "\\(y = 7x + 5\\)",
+      "\\(y = 7x\\)",
+      "\\(y = 5x + 7\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "A parallel line has the same slope, 7. Passing through \\((0, 5)\\) gives \\(y\\)-intercept 5, so \\(y = 7x + 5\\).",
+    "source": "P8M1 Q10"
+  },
+  {
+    "id": "lin-0003",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A scatterplot shows data that decreases as \\(x\\) increases, with points starting near \\(y = 10\\) at \\(x = 1\\) and dropping to near \\(y = 1\\) at \\(x = 5\\). Which of the following equations is the most appropriate linear model for the data shown in the scatterplot?",
+    "options": [
+      "\\(y = -1.9x - 10.1\\)",
+      "\\(y = -1.9x + 10.1\\)",
+      "\\(y = 1.9x - 10.1\\)",
+      "\\(y = 1.9x + 10.1\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The data decreases, so the slope is negative, and the \\(y\\)-intercept is positive (near 10). This matches \\(y = -1.9x + 10.1\\).",
+    "source": "P8M1 Q11"
+  },
+  {
+    "id": "exp-0002",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A model predicts that the population of Bergen was 15,000 in 2005. The model also predicts that each year for the next 5 years, the population \\(p\\) increased by 4% of the previous year's population. Which equation best represents this model, where \\(x\\) is the number of years after 2005, for \\(x \\le 5\\)?",
+    "options": [
+      "\\(p = 0.96(15{,}000)^x\\)",
+      "\\(p = 1.04(15{,}000)^x\\)",
+      "\\(p = 15{,}000(0.96)^x\\)",
+      "\\(p = 15{,}000(1.04)^x\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "A 4% annual increase gives a growth factor of \\(1.04\\), starting from 15,000: \\(p = 15{,}000(1.04)^x\\).",
+    "source": "P8M1 Q12"
+  },
+  {
+    "id": "alg-0003",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The area \\(A\\), in square centimeters, of a rectangular cutting board can be represented by the expression \\(w(w + 9)\\), where \\(w\\) is the width, in centimeters, of the cutting board. Which expression represents the length, in centimeters, of the cutting board?",
+    "options": [
+      "\\(w(w + 9)\\)",
+      "\\(w\\)",
+      "9",
+      "\\((w + 9)\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Area equals length times width. Since area is \\(w(w + 9)\\) and width is \\(w\\), the length is \\((w + 9)\\).",
+    "source": "P8M1 Q16"
+  },
+  {
+    "id": "alg-0004",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(p = \\frac{k}{4j + 9}\\)\\n\\nThe given equation relates the distinct positive numbers \\(p\\), \\(k\\), and \\(j\\). Which equation correctly expresses \\(4j + 9\\) in terms of \\(p\\) and \\(k\\)?",
+    "options": [
+      "\\(4j + 9 = \\frac{k}{p}\\)",
+      "\\(4j + 9 = kp\\)",
+      "\\(4j + 9 = k - p\\)",
+      "\\(4j + 9 = \\frac{p}{k}\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "From \\(p = \\frac{k}{4j+9}\\), multiply both sides by \\(4j+9\\) and divide by \\(p\\): \\(4j + 9 = \\frac{k}{p}\\).",
+    "source": "P8M1 Q17"
+  },
+  {
+    "id": "geo-0002",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Circle \\(A\\) has a radius of \\(3n\\) and circle \\(B\\) has a radius of \\(129n\\), where \\(n\\) is a positive constant. The area of circle \\(B\\) is how many times the area of circle \\(A\\)?",
+    "options": [
+      "43",
+      "86",
+      "129",
+      "1,849"
+    ],
+    "correctIndex": 3,
+    "explanation": "The ratio of areas equals the square of the ratio of radii: \\(\\left(\\frac{129n}{3n}\\right)^2 = 43^2 = 1{,}849\\).",
+    "source": "P8M1 Q18"
+  },
+  {
+    "id": "geo-0003",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The measure of angle \\(R\\) is \\(\\frac{2\\pi}{3}\\) radians. The measure of angle \\(T\\) is \\(\\frac{5\\pi}{12}\\) radians greater than the measure of angle \\(R\\). What is the measure of angle \\(T\\), in degrees?",
+    "options": [
+      "75",
+      "120",
+      "195",
+      "390"
+    ],
+    "correctIndex": 2,
+    "explanation": "Angle \\(T = \\frac{2\\pi}{3} + \\frac{5\\pi}{12} = \\frac{8\\pi}{12} + \\frac{5\\pi}{12} = \\frac{13\\pi}{12}\\) radians. Converting: \\(\\frac{13\\pi}{12} \\times \\frac{180}{\\pi} = 195\\) degrees.",
+    "source": "P8M1 Q19"
+  },
+  {
+    "id": "alg-0005",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(y \\le x + 7\\)\\n\\(y \\ge -2x - 1\\)\\n\\nWhich point \\((x, y)\\) is a solution to the given system of inequalities in the \\(xy\\)-plane?",
+    "options": [
+      "\\((-14, 0)\\)",
+      "\\((0, -14)\\)",
+      "\\((0, 14)\\)",
+      "\\((14, 0)\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Test \\((14, 0)\\): \\(0 \\le 14 + 7 = 21\\) is true, and \\(0 \\ge -2(14) - 1 = -29\\) is true. Both inequalities hold.",
+    "source": "P8M1 Q22"
+  },
+  {
+    "id": "stat-0003",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The frequency table summarizes a data set of the weights, rounded to the nearest pound, of 71 tortoises. The weights and their frequencies are: 13 pounds (12), 14 pounds (8), 15 pounds (5), 16 pounds (7), 17 pounds (9), 18 pounds (10), 19 pounds (13), and 20 pounds (7). A weight of 39 pounds is added to the original data set, creating a new data set of the weights, rounded to the nearest pound, of 72 tortoises. Which statement best compares the mean and median of the new data set to the mean and median of the original data set?",
+    "options": [
+      "The mean of the new data set is greater than the mean of the original data set, and the median of the new data set is greater than the median of the original data set.",
+      "The mean of the new data set is greater than the mean of the original data set, and the medians of the two data sets are equal.",
+      "The mean of the new data set is less than the mean of the original data set, and the median of the new data set is less than the median of the original data set.",
+      "The mean of the new data set is less than the mean of the original data set, and the medians of the two data sets are equal."
+    ],
+    "correctIndex": 1,
+    "explanation": "The original data has 71 values with mean about 16.55 and median 17. Adding 39, a value well above the original mean, raises the mean to about 16.86. With 72 values, the median is the average of the 36th and 37th ordered values, both of which remain 17, so the median is unchanged. Thus the new mean is greater and the medians are equal.",
+    "source": "P8M1 Q23"
+  },
+  {
+    "id": "quad-0001",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(x - 29 = (x - a)(x - 29)\\)\\n\\nWhich of the following are solutions to the given equation, where \\(a\\) is a constant and \\(a > 30\\)?\\n\\nI. \\(a\\)\\nII. \\(a + 1\\)\\nIII. \\(29\\)",
+    "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II, and III"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rewrite as \\((x - 29) - (x - a)(x - 29) = 0\\), so \\((x - 29)[1 - (x - a)] = 0\\), giving \\((x - 29)(a + 1 - x) = 0\\). Solutions are \\(x = 29\\) (III) and \\(x = a + 1\\) (II). So II and III only.",
+    "source": "P8M1 Q24"
+  },
+  {
+    "id": "quad-0002",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In the \\(xy\\)-plane, the graph of the equation \\(y = -x^2 + 9x - 100\\) intersects the line \\(y = c\\) at exactly one point. What is the value of \\(c\\)?",
+    "options": [
+      "\\(-\\frac{481}{4}\\)",
+      "\\(-100\\)",
+      "\\(-\\frac{319}{4}\\)",
+      "\\(-\\frac{9}{2}\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The line \\(y = c\\) touches the parabola at exactly one point when \\(c\\) equals the maximum value at the vertex. The vertex \\(x\\)-value is \\(\\frac{-9}{2(-1)} = \\frac{9}{2}\\), and \\(y = -\\left(\\frac{9}{2}\\right)^2 + 9\\left(\\frac{9}{2}\\right) - 100 = -\\frac{81}{4} + \\frac{81}{2} - 100 = \\frac{81}{4} - 100 = -\\frac{319}{4}\\).",
+    "source": "P8M1 Q25"
+  },
+  {
+    "id": "exp-0003",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The functions \\(f\\) and \\(g\\) are defined by the given equations, where \\(x \\ge 0\\). Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines, where \\(x \\ge 0\\)?\\n\\nI. \\(f(x) = 18(1.25)^x + 41\\)\\nII. \\(g(x) = 9(0.73)^x\\)",
+    "options": [
+      "I only",
+      "II only",
+      "I and II",
+      "Neither I nor II"
+    ],
+    "correctIndex": 1,
+    "explanation": "For \\(g(x) = 9(0.73)^x\\) with base less than 1, the function decreases, so its maximum at \\(x = 0\\) is \\(9\\), which appears as the coefficient. For \\(f(x) = 18(1.25)^x + 41\\), the base exceeds 1, so the function increases without bound and has no maximum. Only II displays its maximum.",
+    "source": "P8M1 Q26"
+  },
+  {
+    "id": "lin-0004",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A line is graphed in the \\(xy\\)-plane passing through the origin region and crossing the \\(y\\)-axis at 5. What is the \\(y\\)-intercept of the line graphed?",
+    "options": [
+      "\\((-5, 0)\\)",
+      "\\((0, 0)\\)",
+      "\\((0, 5)\\)",
+      "\\((0, 9)\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The line crosses the \\(y\\)-axis at 5, so the \\(y\\)-intercept is \\((0, 5)\\).",
+    "source": "P8M2 Q1"
+  },
+  {
+    "id": "arith-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "For a certain region, a table shows the average number of store employees in 2016 by type of store: warehouse store 365, department store 213, supermarket 130. Based on the table, how much greater was the average number of store employees in warehouse stores than in supermarkets?",
+    "options": [
+      "83",
+      "152",
+      "235",
+      "495"
+    ],
+    "correctIndex": 2,
+    "explanation": "\\(365 - 130 = 235\\).",
+    "source": "P8M2 Q2"
+  },
+  {
+    "id": "geo-0004",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In the figure, line \\(m\\) is parallel to line \\(n\\), and line \\(t\\) intersects both lines. The angle \\(x^\\circ\\) is formed where \\(t\\) crosses \\(m\\), and a \\(33^\\circ\\) angle is formed where \\(t\\) crosses \\(n\\). What is the value of \\(x\\)?",
+    "options": [
+      "33",
+      "57",
+      "123",
+      "147"
+    ],
+    "correctIndex": 3,
+    "explanation": "The \\(33^\\circ\\) angle and \\(x^\\circ\\) are same-side (co-interior) supplementary angles along the transversal, so \\(x = 180 - 33 = 147\\).",
+    "source": "P8M2 Q3"
+  },
+  {
+    "id": "lin-0005",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Sean rents a tent at a cost of 11 dollars per day plus a one-time insurance fee of 10 dollars. Which equation represents the total cost \\(c\\), in dollars, to rent the tent with insurance for \\(d\\) days?",
+    "options": [
+      "\\(c = 11(d + 10)\\)",
+      "\\(c = 10(d + 11)\\)",
+      "\\(c = 11d + 10\\)",
+      "\\(c = 10d + 11\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The daily cost is \\(11d\\) and the one-time fee is 10, so \\(c = 11d + 10\\).",
+    "source": "P8M2 Q4"
+  },
+  {
+    "id": "geo-0005",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "For the right triangle shown, with legs \\(a\\) and \\(b\\) and hypotenuse \\(c\\), \\(a = 4\\) and \\(b = 5\\). Which expression represents the value of \\(c\\)?",
+    "options": [
+      "\\(4 + 5\\)",
+      "\\(\\sqrt{(4)(5)}\\)",
+      "\\(\\sqrt{4 + 5}\\)",
+      "\\(\\sqrt{4^2 + 5^2}\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "By the Pythagorean theorem, \\(c = \\sqrt{a^2 + b^2} = \\sqrt{4^2 + 5^2}\\).",
+    "source": "P8M2 Q5"
+  },
+  {
+    "id": "lin-0006",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f\\) is defined by \\(f(x) = \\frac{1}{10}x - 2\\). What is the \\(y\\)-intercept of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?",
+    "options": [
+      "\\((-2, 0)\\)",
+      "\\((0, -2)\\)",
+      "\\(\\left(0, \\frac{1}{10}\\right)\\)",
+      "\\(\\left(\\frac{1}{10}, 0\\right)\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The \\(y\\)-intercept occurs at \\(x = 0\\): \\(f(0) = \\frac{1}{10}(0) - 2 = -2\\), so the point is \\((0, -2)\\).",
+    "source": "P8M2 Q8"
+  },
+  {
+    "id": "lin-0007",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A producer is creating a video with a length of 70 minutes. The video will consist of segments that are 1 minute long and segments that are 3 minutes long. Which equation represents this situation, where \\(x\\) represents the number of 1-minute segments and \\(y\\) represents the number of 3-minute segments?",
+    "options": [
+      "\\(4xy = 70\\)",
+      "\\(4(x + y) = 70\\)",
+      "\\(3x + y = 70\\)",
+      "\\(x + 3y = 70\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each 1-minute segment contributes \\(x\\) minutes and each 3-minute segment contributes \\(3y\\) minutes, totaling 70: \\(x + 3y = 70\\).",
+    "source": "P8M2 Q9"
+  },
+  {
+    "id": "quad-0003",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f\\) is defined by \\(f(x) = 7x^3\\). In the \\(xy\\)-plane, the graph of \\(y = g(x)\\) is the result of shifting the graph of \\(y = f(x)\\) down 2 units. Which equation defines function \\(g\\)?",
+    "options": [
+      "\\(g(x) = \\frac{7}{2}x^3\\)",
+      "\\(g(x) = 7x^{\\frac{3}{2}}\\)",
+      "\\(g(x) = 7x^3 + 2\\)",
+      "\\(g(x) = 7x^3 - 2\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Shifting down 2 units subtracts 2 from the output: \\(g(x) = 7x^3 - 2\\).",
+    "source": "P8M2 Q10"
+  },
+  {
+    "id": "sys-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(y = -3x\\)\\n\\(4x + y = 15\\)\\n\\nThe solution to the given system of equations is \\((x, y)\\). What is the value of \\(x\\)?",
+    "options": [
+      "1",
+      "5",
+      "15",
+      "45"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute \\(y = -3x\\) into \\(4x + y = 15\\): \\(4x - 3x = 15 \\Rightarrow x = 15\\).",
+    "source": "P8M2 Q11"
+  },
+  {
+    "id": "geo-0006",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In the right triangle shown, with the right angle at \\(C\\), side \\(35\\) is opposite \\(A\\) and hypotenuse \\(171\\) is opposite \\(C\\). What is the value of \\(\\sin A\\)?",
+    "options": [
+      "\\(\\frac{1}{171}\\)",
+      "\\(\\frac{35}{171}\\)",
+      "\\(\\frac{171}{35}\\)",
+      "171"
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(\\sin A\\) equals the side opposite angle \\(A\\) over the hypotenuse: \\(\\frac{35}{171}\\).",
+    "source": "P8M2 Q12"
+  },
+  {
+    "id": "arith-0002",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A bowl contains 20 ounces of water. When the bowl is uncovered, the amount of water in the bowl decreases by 1 ounce every 4 days. If 9 ounces of water remain in this bowl, for how many days has it been uncovered?",
+    "options": [
+      "3",
+      "7",
+      "36",
+      "44"
+    ],
+    "correctIndex": 3,
+    "explanation": "The water decreased by \\(20 - 9 = 11\\) ounces. At 1 ounce per 4 days, that is \\(11 \\times 4 = 44\\) days.",
+    "source": "P8M2 Q15"
+  },
+  {
+    "id": "alg-0006",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "If \\(9(4 - 3x) + 2 = 8(4 - 3x) + 18\\), what is the value of \\(4 - 3x\\)?",
+    "options": [
+      "-16",
+      "-4",
+      "4",
+      "16"
+    ],
+    "correctIndex": 3,
+    "explanation": "Let \\(u = 4 - 3x\\). Then \\(9u + 2 = 8u + 18 \\Rightarrow u = 16\\).",
+    "source": "P8M2 Q16"
+  },
+  {
+    "id": "lin-0008",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A certain township consists of a 5-hectare industrial park and a 24-hectare neighborhood. The total number of trees in the township is 4,529. The equation \\(5x + 24y = 4{,}529\\) represents this situation. Which of the following is the best interpretation of \\(x\\) in this context?",
+    "options": [
+      "The average number of trees per hectare in the industrial park",
+      "The average number of trees per hectare in the neighborhood",
+      "The total number of trees in the industrial park",
+      "The total number of trees in the neighborhood"
+    ],
+    "correctIndex": 0,
+    "explanation": "The term \\(5x\\) multiplies the 5 hectares of industrial park by \\(x\\), so \\(x\\) is the average number of trees per hectare in the industrial park.",
+    "source": "P8M2 Q17"
+  },
+  {
+    "id": "exp-0004",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\(a^{\\frac{11}{12}}\\), where \\(a > 0\\)?",
+    "options": [
+      "\\(\\sqrt[12]{a^{132}}\\)",
+      "\\(\\sqrt[144]{a^{132}}\\)",
+      "\\(\\sqrt[121]{a^{132}}\\)",
+      "\\(\\sqrt[11]{a^{132}}\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(\\sqrt[144]{a^{132}} = a^{\\frac{132}{144}} = a^{\\frac{11}{12}}\\).",
+    "source": "P8M2 Q18"
+  },
+  {
+    "id": "geo-0007",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A cube has an edge length of 68 inches. A solid sphere with a radius of 34 inches is inside the cube, such that the sphere touches the center of each face of the cube. To the nearest cubic inch, what is the volume of the space in the cube not taken up by the sphere?",
+    "options": [
+      "149,796",
+      "164,500",
+      "190,955",
+      "310,800"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cube volume \\(= 68^3 = 314{,}432\\). Sphere volume \\(= \\frac{4}{3}\\pi(34)^3 \\approx 164{,}636\\). The remaining space \\(\\approx 314{,}432 - 164{,}636 = 149{,}796\\).",
+    "source": "P8M2 Q22"
+  },
+  {
+    "id": "sys-0002",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(y = 6x + 18\\)\\n\\nOne of the equations in a system of two linear equations is given. The system has no solution. Which equation could be the second equation in the system?",
+    "options": [
+      "\\(-6x + y = 18\\)",
+      "\\(-6x + y = 22\\)",
+      "\\(-12x + y = 36\\)",
+      "\\(-12x + y = 18\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first equation is \\(y = 6x + 18\\), or \\(-6x + y = 18\\). A system has no solution when the lines are parallel (same slope, different intercept). \\(-6x + y = 22\\) has the same slope but a different constant, so the lines never meet.",
+    "source": "P8M2 Q23"
+  },
+  {
+    "id": "geo-0008",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Triangles \\(PQR\\) and \\(LMN\\) are graphed in the \\(xy\\)-plane. Triangle \\(PQR\\) has vertices \\(P\\), \\(Q\\), and \\(R\\) at \\((4, 5)\\), \\((4, 7)\\), and \\((6, 5)\\), respectively. Triangle \\(LMN\\) has vertices \\(L\\), \\(M\\), and \\(N\\) at \\((4, 5)\\), \\((4, 7 + k)\\), and \\((6 + k, 5)\\), respectively, where \\(k\\) is a positive constant. If the measure of angle \\(Q\\) is \\(t^\\circ\\), what is the measure of angle \\(N\\)?",
+    "options": [
+      "\\((90 - (t - k))^\\circ\\)",
+      "\\((90 - (t + k))^\\circ\\)",
+      "\\((90 - t)^\\circ\\)",
+      "\\((90 + k)^\\circ\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Both triangles are right triangles with the right angle at the vertex \\((4,5)\\) (\\(P\\) and \\(L\\)). The three angles sum to 180, so angle \\(N = 90 - \\text{angle } M\\). Since \\(PQR\\) and \\(LMN\\) share the same right-angle configuration and angle \\(M\\) corresponds to angle \\(Q = t^\\circ\\), angle \\(N = (90 - t)^\\circ\\).",
+    "source": "P8M2 Q24"
+  },
+  {
+    "id": "sys-0003",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(2x + 3y = 7\\)\\n\\(10x + 15y = 35\\)\\n\\nFor each real number \\(r\\), which of the following points lies on the graph of each equation in the \\(xy\\)-plane for the given system?",
+    "options": [
+      "\\(\\left(\\frac{r}{5} + 7, -\\frac{r}{5} + 35\\right)\\)",
+      "\\(\\left(-\\frac{3r}{2} + \\frac{7}{2}, r\\right)\\)",
+      "\\(\\left(r, \\frac{2r}{3} + \\frac{7}{3}\\right)\\)",
+      "\\(\\left(r, -\\frac{3r}{2} + \\frac{7}{2}\\right)\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The two equations are equivalent (the second is 5 times the first), so every point on \\(2x + 3y = 7\\) satisfies both. Solving for \\(x\\): \\(x = \\frac{7 - 3y}{2}\\). Letting \\(y = r\\) gives \\(x = -\\frac{3r}{2} + \\frac{7}{2}\\), i.e., the point \\(\\left(-\\frac{3r}{2} + \\frac{7}{2}, r\\right)\\).",
+    "source": "P8M2 Q25"
+  },
+  {
+    "id": "quad-0004",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(\\frac{x^2}{\\sqrt{x^2 - c^2}} = \\frac{c^2}{\\sqrt{x^2 - c^2}} + 39\\)\\n\\nIn the given equation, \\(c\\) is a positive constant. Which of the following is one of the solutions to the given equation?",
+    "options": [
+      "\\(-c\\)",
+      "\\(-c^2 - 39^2\\)",
+      "\\(-\\sqrt{39^2 - c^2}\\)",
+      "\\(-\\sqrt{c^2 + 39^2}\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Multiply through: \\(\\frac{x^2 - c^2}{\\sqrt{x^2 - c^2}} = 39\\), so \\(\\sqrt{x^2 - c^2} = 39\\). Squaring gives \\(x^2 - c^2 = 39^2\\), so \\(x^2 = c^2 + 39^2\\) and \\(x = \\pm\\sqrt{c^2 + 39^2}\\). One solution is \\(-\\sqrt{c^2 + 39^2}\\).",
+    "source": "P8M2 Q26"
+  }
+]

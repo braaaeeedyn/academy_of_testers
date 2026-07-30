@@ -1,0 +1,482 @@
+[
+  {
+    "id": "arith-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "What percentage of 300 is 75?",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "225%"
+    ],
+    "correctIndex": 0,
+    "explanation": "\\(\\frac{75}{300} = 0.25 = 25\\%\\).",
+    "source": "P4M1 Q2"
+  },
+  {
+    "id": "alg-0001",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(\\frac{x^2}{25} = 36\\) What is a solution to the given equation?",
+    "options": [
+      "6",
+      "30",
+      "450",
+      "900"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply both sides by 25: \\(x^2 = 900\\), so \\(x = 30\\).",
+    "source": "P4M1 Q3"
+  },
+  {
+    "id": "alg-0002",
+    "difficulty": "easy",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "3 more than 8 times a number \\(x\\) is equal to 83. Which equation represents this situation?",
+    "options": [
+      "\\((3)(8)x = 83\\)",
+      "\\(8x = 83 + 3\\)",
+      "\\(3x + 8 = 83\\)",
+      "\\(8x + 3 = 83\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "8 times \\(x\\) is \\(8x\\), and 3 more than that is \\(8x + 3\\), which equals 83: \\(8x + 3 = 83\\).",
+    "source": "P4M1 Q4"
+  },
+  {
+    "id": "lin-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Hana deposited a fixed amount into her bank account each month. The function \\(f(t) = 100 + 25t\\) gives the amount, in dollars, in Hana's bank account after \\(t\\) monthly deposits. What is the best interpretation of 25 in this context?",
+    "options": [
+      "With each monthly deposit, the amount in Hana's bank account increased by 25 dollars.",
+      "Before Hana made any monthly deposits, the amount in her bank account was 25 dollars.",
+      "After 1 monthly deposit, the amount in Hana's bank account was 25 dollars.",
+      "Hana made a total of 25 monthly deposits."
+    ],
+    "correctIndex": 0,
+    "explanation": "In \\(f(t) = 100 + 25t\\), the coefficient 25 is the rate of change per deposit, so the amount increases by 25 dollars with each monthly deposit.",
+    "source": "P4M1 Q5"
+  },
+  {
+    "id": "sys-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(2.5b + 5r = 80\\) The given equation describes the relationship between the number of birds, \\(b\\), and the number of reptiles, \\(r\\), that can be cared for at a pet care business on a given day. If the business cares for 16 reptiles on a given day, how many birds can it care for on this day?",
+    "options": [
+      "0",
+      "5",
+      "40",
+      "80"
+    ],
+    "correctIndex": 0,
+    "explanation": "Substitute \\(r = 16\\): \\(2.5b + 5(16) = 80 \\Rightarrow 2.5b + 80 = 80 \\Rightarrow 2.5b = 0 \\Rightarrow b = 0\\).",
+    "source": "P4M1 Q11"
+  },
+  {
+    "id": "lin-0002",
+    "difficulty": "medium",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "Line \\(t\\) in the \\(xy\\)-plane has a slope of \\(-\\frac{1}{3}\\) and passes through the point \\((9, 10)\\). Which equation defines line \\(t\\)?",
+    "options": [
+      "\\(y = 13x - \\frac{1}{3}\\)",
+      "\\(y = 9x + 10\\)",
+      "\\(y = -\\frac{x}{3} + 10\\)",
+      "\\(y = -\\frac{x}{3} + 13\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Using point-slope with slope \\(-\\frac{1}{3}\\) through \\((9, 10)\\): \\(y = -\\frac{1}{3}(x - 9) + 10 = -\\frac{x}{3} + 3 + 10 = -\\frac{x}{3} + 13\\).",
+    "source": "P4M1 Q15"
+  },
+  {
+    "id": "exp-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f(x) = 206(1.034)^x\\) models the value, in dollars, of a certain bank account by the end of each year from 1957 through 1972, where \\(x\\) is the number of years after 1957. Which of the following is the best interpretation of \"\\(f(5)\\) is approximately equal to 243\" in this context?",
+    "options": [
+      "The value of the bank account is estimated to be approximately 5 dollars greater in 1962 than in 1957.",
+      "The value of the bank account is estimated to be approximately 243 dollars in 1962.",
+      "The value, in dollars, of the bank account is estimated to be approximately 5 times greater in 1962 than in 1957.",
+      "The value of the bank account is estimated to increase by approximately 243 dollars every 5 years between 1957 and 1972."
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(x = 5\\) corresponds to 5 years after 1957, which is 1962, and \\(f(5) \\approx 243\\) means the account value is about 243 dollars in 1962.",
+    "source": "P4M1 Q16"
+  },
+  {
+    "id": "geo-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "For a certain rectangular region, the ratio of its length to its width is 35 to 10. If the width of the rectangular region increases by 7 units, how must the length change to maintain this ratio?",
+    "options": [
+      "It must decrease by 24.5 units.",
+      "It must increase by 24.5 units.",
+      "It must decrease by 7 units.",
+      "It must increase by 7 units."
+    ],
+    "correctIndex": 1,
+    "explanation": "The ratio length:width is \\(35:10 = 3.5\\). If width increases by 7, length must increase by \\(3.5 \\times 7 = 24.5\\) units to keep the ratio.",
+    "source": "P4M1 Q17"
+  },
+  {
+    "id": "quad-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Square P has a side length of \\(x\\) inches. Square Q has a perimeter that is 176 inches greater than the perimeter of square P. The function \\(f\\) gives the area of square Q, in square inches. Which of the following defines \\(f\\)?",
+    "options": [
+      "\\(f(x) = (x + 44)^2\\)",
+      "\\(f(x) = (x + 176)^2\\)",
+      "\\(f(x) = (176x + 44)^2\\)",
+      "\\(f(x) = (176x + 176)^2\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Perimeter of P is \\(4x\\), so perimeter of Q is \\(4x + 176\\), and side of Q is \\(\\frac{4x + 176}{4} = x + 44\\). The area is \\(f(x) = (x + 44)^2\\).",
+    "source": "P4M1 Q18"
+  },
+  {
+    "id": "alg-0003",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(\\frac{14x}{7y} = 2\\sqrt{w + 19}\\) The given equation relates the distinct positive real numbers \\(w\\), \\(x\\), and \\(y\\). Which equation correctly expresses \\(w\\) in terms of \\(x\\) and \\(y\\)?",
+    "options": [
+      "\\(w = \\sqrt{\\frac{x}{y}} - 19\\)",
+      "\\(w = \\sqrt{\\frac{28x}{14y}} - 19\\)",
+      "\\(w = \\left(\\frac{x}{y}\\right)^2 - 19\\)",
+      "\\(w = \\left(\\frac{28x}{14y}\\right)^2 - 19\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Simplify \\(\\frac{14x}{7y} = \\frac{2x}{y}\\), so \\(\\frac{2x}{y} = 2\\sqrt{w+19}\\), giving \\(\\frac{x}{y} = \\sqrt{w+19}\\). Square: \\(\\left(\\frac{x}{y}\\right)^2 = w + 19\\), so \\(w = \\left(\\frac{x}{y}\\right)^2 - 19\\).",
+    "source": "P4M1 Q19"
+  },
+  {
+    "id": "geo-0002",
+    "difficulty": "medium",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "A right triangle has sides of length \\(2\\sqrt{2}\\), \\(6\\sqrt{2}\\), and \\(\\sqrt{80}\\) units. What is the area of the triangle, in square units?",
+    "options": [
+      "\\(8\\sqrt{2} + \\sqrt{80}\\)",
+      "12",
+      "\\(24\\sqrt{80}\\)",
+      "24"
+    ],
+    "correctIndex": 1,
+    "explanation": "The legs are \\(2\\sqrt{2}\\) and \\(6\\sqrt{2}\\) (since \\((2\\sqrt2)^2 + (6\\sqrt2)^2 = 8 + 72 = 80 = (\\sqrt{80})^2\\), so \\(\\sqrt{80}\\) is the hypotenuse). Area \\(= \\frac{1}{2}(2\\sqrt2)(6\\sqrt2) = \\frac{1}{2}(12 \\cdot 2) = 12\\).",
+    "source": "P4M1 Q22"
+  },
+  {
+    "id": "quad-0002",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The expression \\(4x^2 + bx - 45\\), where \\(b\\) is a constant, can be rewritten as \\((hx + k)(x + j)\\), where \\(h\\), \\(k\\), and \\(j\\) are integer constants. Which of the following must be an integer?",
+    "options": [
+      "\\(\\frac{b}{h}\\)",
+      "\\(\\frac{b}{k}\\)",
+      "\\(\\frac{45}{h}\\)",
+      "\\(\\frac{45}{k}\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Expanding \\((hx + k)(x + j) = hx^2 + (hj + k)x + kj\\). Matching constants: \\(kj = -45\\), so \\(\\frac{45}{k} = -j\\), an integer. The other quotients need not be integers.",
+    "source": "P4M1 Q23"
+  },
+  {
+    "id": "sys-0002",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(y = 2x^2 - 21x + 64\\) \\(y = 3x + a\\) In the given system of equations, \\(a\\) is a constant. The graphs of the equations in the given system intersect at exactly one point, \\((x, y)\\), in the \\(xy\\)-plane. What is the value of \\(x\\)?",
+    "options": [
+      "-8",
+      "-6",
+      "6",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Setting equal: \\(2x^2 - 21x + 64 = 3x + a\\), so \\(2x^2 - 24x + (64 - a) = 0\\). For exactly one solution the discriminant is 0, giving \\(x = \\frac{24}{2 \\cdot 2} = 6\\) (the repeated root is \\(-\\frac{-24}{2\\cdot 2} = 6\\)).",
+    "source": "P4M1 Q24"
+  },
+  {
+    "id": "geo-0003",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "An isosceles right triangle has a hypotenuse of length 58 inches. What is the perimeter, in inches, of this triangle?",
+    "options": [
+      "\\(29\\sqrt{2}\\)",
+      "\\(58\\sqrt{2}\\)",
+      "\\(58 + 58\\sqrt{2}\\)",
+      "\\(58 + 116\\sqrt{2}\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "In a 45-45-90 triangle, each leg is \\(\\frac{58}{\\sqrt2} = 29\\sqrt2\\). Perimeter \\(= 58 + 2(29\\sqrt2) = 58 + 58\\sqrt2\\).",
+    "source": "P4M1 Q25"
+  },
+  {
+    "id": "quad-0003",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In the \\(xy\\)-plane, a parabola has vertex \\((9, -14)\\) and intersects the \\(x\\)-axis at two points. If the equation of the parabola is written in the form \\(y = ax^2 + bx + c\\), where \\(a\\), \\(b\\), and \\(c\\) are constants, which of the following could be the value of \\(a + b + c\\)?",
+    "options": [
+      "-23",
+      "-19",
+      "-14",
+      "-12"
+    ],
+    "correctIndex": 3,
+    "explanation": "In vertex form \\(y = a(x - 9)^2 - 14\\). Then \\(a + b + c = y(1) = a(1-9)^2 - 14 = 64a - 14\\). Since the parabola opens upward to cross the x-axis twice from vertex below the axis, \\(a > 0\\), making \\(64a - 14 > -14\\). Only \\(-12\\) exceeds \\(-14\\) and gives \\(a = \\frac{2}{64} > 0\\).",
+    "source": "P4M1 Q26"
+  },
+  {
+    "id": "arith-0002",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A fish swam a distance of 5,104 yards. How far did the fish swim, in miles? \\((1 mile = 1,760 yards)\\)",
+    "options": [
+      "0.3",
+      "2.9",
+      "3,344",
+      "6,864"
+    ],
+    "correctIndex": 1,
+    "explanation": "\\(\\frac{5{,}104}{1{,}760} = 2.9\\) miles.",
+    "source": "P4M2 Q2"
+  },
+  {
+    "id": "alg-0004",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\(12x^3 - 5x^3\\)?",
+    "options": [
+      "\\(7x^6\\)",
+      "\\(17x^3\\)",
+      "\\(7x^3\\)",
+      "\\(17x^6\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Combine like terms with the same power: \\(12x^3 - 5x^3 = 7x^3\\).",
+    "source": "P4M2 Q3"
+  },
+  {
+    "id": "sys-0003",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(x + y = 18\\) \\(5y = x\\) What is the solution \\((x, y)\\) to the given system of equations?",
+    "options": [
+      "\\((15, 3)\\)",
+      "\\((16, 2)\\)",
+      "\\((17, 1)\\)",
+      "\\((18, 0)\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Substitute \\(x = 5y\\) into \\(x + y = 18\\): \\(5y + y = 18 \\Rightarrow 6y = 18 \\Rightarrow y = 3\\), so \\(x = 15\\). Solution: \\((15, 3)\\).",
+    "source": "P4M2 Q4"
+  },
+  {
+    "id": "alg-0005",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The point \\((8, 2)\\) in the \\(xy\\)-plane is a solution to which of the following systems of inequalities?",
+    "options": [
+      "\\(x > 0\\), \\(y > 0\\)",
+      "\\(x > 0\\), \\(y < 0\\)",
+      "\\(x < 0\\), \\(y > 0\\)",
+      "\\(x < 0\\), \\(y < 0\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "At \\((8, 2)\\), both \\(x = 8 > 0\\) and \\(y = 2 > 0\\), so the point satisfies \\(x > 0\\) and \\(y > 0\\).",
+    "source": "P4M2 Q5"
+  },
+  {
+    "id": "exp-0002",
+    "difficulty": "easy",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "The function \\(f\\) is defined by \\(f(x) = 270(0.1)^x\\). What is the value of \\(f(0)\\)?",
+    "options": [
+      "0",
+      "1",
+      "27",
+      "270"
+    ],
+    "correctIndex": 3,
+    "explanation": "\\(f(0) = 270(0.1)^0 = 270(1) = 270\\).",
+    "source": "P4M2 Q9"
+  },
+  {
+    "id": "stat-0001",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "To estimate the proportion of a population that has a certain characteristic, a random sample was selected from the population. Based on the sample, it is estimated that the proportion of the population that has the characteristic is 0.49, with an associated margin of error of 0.04. Based on this estimate and margin of error, which of the following is the most appropriate conclusion about the proportion of the population that has the characteristic?",
+    "options": [
+      "It is plausible that the proportion is between 0.45 and 0.53.",
+      "It is plausible that the proportion is less than 0.45.",
+      "The proportion is exactly 0.49.",
+      "It is plausible that the proportion is greater than 0.53."
+    ],
+    "correctIndex": 0,
+    "explanation": "The plausible range is the estimate plus or minus the margin of error: \\(0.49 \\pm 0.04\\), which is between 0.45 and 0.53.",
+    "source": "P4M2 Q10"
+  },
+  {
+    "id": "alg-0006",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A moving truck can tow a trailer if the combined weight of the trailer and the boxes it contains is no more than 4,600 pounds. What is the maximum number of boxes this truck can tow in a trailer with a weight of 500 pounds if each box weighs 120 pounds?",
+    "options": [
+      "34",
+      "35",
+      "38",
+      "39"
+    ],
+    "correctIndex": 0,
+    "explanation": "The boxes can weigh at most \\(4{,}600 - 500 = 4{,}100\\) pounds. \\(\\frac{4{,}100}{120} \\approx 34.2\\), so the maximum whole number of boxes is 34.",
+    "source": "P4M2 Q11"
+  },
+  {
+    "id": "quad-0004",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(-4x^2 - 7x = -36\\) What is the positive solution to the given equation?",
+    "options": [
+      "\\(\\frac{7}{4}\\)",
+      "\\(\\frac{9}{4}\\)",
+      "4",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rewrite as \\(4x^2 + 7x - 36 = 0\\). Factoring: \\((4x - 9)(x + 4) = 0\\), giving \\(x = \\frac{9}{4}\\) or \\(x = -4\\). The positive solution is \\(\\frac{9}{4}\\).",
+    "source": "P4M2 Q12"
+  },
+  {
+    "id": "stat-0002",
+    "difficulty": "medium",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "A proposal for a new library was included on an election ballot. A radio show stated that 3 times as many people voted in favor of the proposal as people who voted against it. A social media post reported that 15,000 more people voted in favor of the proposal than voted against it. Based on these data, how many people voted against the proposal?",
+    "options": [
+      "7,500",
+      "15,000",
+      "22,500",
+      "45,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let \\(a\\) be against votes. Then favor \\(= 3a\\) and \\(3a - a = 15{,}000\\), so \\(2a = 15{,}000\\) and \\(a = 7{,}500\\).",
+    "source": "P4M2 Q15"
+  },
+  {
+    "id": "alg-0007",
+    "difficulty": "hard",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "\\(-3x + 21px = 84\\) In the given equation, \\(p\\) is a constant. The equation has no solution. What is the value of \\(p\\)?",
+    "options": [
+      "0",
+      "\\(\\frac{1}{7}\\)",
+      "\\(\\frac{4}{3}\\)",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factor: \\((-3 + 21p)x = 84\\). For no solution, the coefficient of \\(x\\) must be 0: \\(-3 + 21p = 0 \\Rightarrow p = \\frac{3}{21} = \\frac{1}{7}\\).",
+    "source": "P4M2 Q17"
+  },
+  {
+    "id": "quad-0005",
+    "difficulty": "medium",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "\\(f(x) = (x - 10)(x + 13)\\) The function \\(f\\) is defined by the given equation. For what value of \\(x\\) does \\(f(x)\\) reach its minimum?",
+    "options": [
+      "-130",
+      "-13",
+      "\\(-\\frac{23}{2}\\)",
+      "\\(-\\frac{3}{2}\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The zeros are \\(x = 10\\) and \\(x = -13\\). The vertex (minimum, since parabola opens up) is at the midpoint: \\(x = \\frac{10 + (-13)}{2} = -\\frac{3}{2}\\).",
+    "source": "P4M2 Q18"
+  },
+  {
+    "id": "quad-0006",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f(x) = \\frac{1}{9}(x - 7)^2 + 3\\) gives a metal ball's height above the ground \\(f(x)\\), in inches, \\(x\\) seconds after it started moving on a track, where \\(0 \\le x \\le 10\\). Which of the following is the best interpretation of the vertex of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?",
+    "options": [
+      "The metal ball's minimum height was 3 inches above the ground.",
+      "The metal ball's minimum height was 7 inches above the ground.",
+      "The metal ball's height was 3 inches above the ground when it started moving.",
+      "The metal ball's height was 7 inches above the ground when it started moving."
+    ],
+    "correctIndex": 0,
+    "explanation": "The vertex is at \\((7, 3)\\). Since the coefficient \\(\\frac{1}{9}\\) is positive, the vertex is a minimum, so the ball's minimum height was 3 inches above the ground.",
+    "source": "P4M2 Q19"
+  },
+  {
+    "id": "exp-0003",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(f(x) = 5{,}470(0.64)^{\\frac{x}{12}}\\) The function \\(f\\) gives the value, in dollars, of a certain piece of equipment after \\(x\\) months of use. If the value of the equipment decreases each year by \\(p\\%\\) of its value the preceding year, what is the value of \\(p\\)?",
+    "options": [
+      "4",
+      "5",
+      "36",
+      "64"
+    ],
+    "correctIndex": 2,
+    "explanation": "Over one year (12 months), the factor is \\((0.64)^{\\frac{12}{12}} = 0.64\\), so the value is 64% of the previous year, a decrease of \\(100 - 64 = 36\\%\\). Thus \\(p = 36\\).",
+    "source": "P4M2 Q23"
+  },
+  {
+    "id": "geo-0004",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The equation \\(x^2 + (y - 1)^2 = 49\\) represents circle A. Circle B is obtained by shifting circle A down 2 units in the \\(xy\\)-plane. Which of the following equations represents circle B?",
+    "options": [
+      "\\((x - 2)^2 + (y - 1)^2 = 49\\)",
+      "\\(x^2 + (y - 3)^2 = 49\\)",
+      "\\((x + 2)^2 + (y - 1)^2 = 49\\)",
+      "\\(x^2 + (y + 1)^2 = 49\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Circle A has center \\((0, 1)\\). Shifting down 2 units gives center \\((0, -1)\\), so the equation becomes \\(x^2 + (y + 1)^2 = 49\\).",
+    "source": "P4M2 Q25"
+  },
+  {
+    "id": "geo-0005",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Two identical rectangular prisms each have a height of 90 centimeters (cm). The base of each prism is a square, and the surface area of each prism is \\(K\\) cm\\(^2\\). If the prisms are glued together along a square base, the resulting prism has a surface area of \\(\\frac{92}{47}K\\) cm\\(^2\\). What is the side length, in cm, of each square base?",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "Let \\(s\\) be the side. Each prism: \\(K = 2s^2 + 4s(90) = 2s^2 + 360s\\). Glued: two squares hidden, surface area \\(= 2K - 2s^2 = 4s^2 + 720s - 2s^2 = 2s^2 + 720s\\). Setting \\(2s^2 + 720s = \\frac{92}{47}(2s^2 + 360s)\\) and solving gives \\(s = 8\\).",
+    "source": "P4M2 Q26"
+  }
+]

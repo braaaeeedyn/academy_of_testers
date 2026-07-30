@@ -1,266 +1,266 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { AP_EXAM_DATA } from '../data/apExamData'
 import type { APExamInfo } from '../data/apExamData'
 
 export default function ExamInfoPage() {
-  const { examId } = useParams<{ examId: string }>()
+  const { examSlug } = useParams<{ examSlug: string }>()
   const navigate = useNavigate()
+  const [menuOpen, setMenuOpen] = useState(false)
   const [selectedSlug, setSelectedSlug] = useState('')
-  const [activeExam, setActiveExam] = useState<APExamInfo | null>(null)
 
-  const handleSearch = () => {
-    if (!selectedSlug) return
-    const found = AP_EXAM_DATA.find((e) => e.slug === selectedSlug)
-    setActiveExam(found || null)
+  const activeExam = useMemo(
+    () => AP_EXAM_DATA.find((e) => e.slug === selectedSlug) ?? null,
+    [selectedSlug]
+  )
+
+  const currentIndex = activeExam
+    ? AP_EXAM_DATA.findIndex((e) => e.slug === activeExam.slug)
+    : -1
+
+  const goToExam = (index: number) => {
+    const exam = AP_EXAM_DATA[index]
+    if (exam) setSelectedSlug(exam.slug)
   }
 
   return (
     <div>
-      <div className="flex items-center justify-end mb-6">
+      {/* Header */}
+      <div className="flex items-start justify-between gap-4 mb-8">
+        <div>
+          <div className="text-xs font-semibold uppercase tracking-[0.18em] mb-2" style={{ color: 'var(--text-muted)' }}>
+            Scoring &amp; Structure
+          </div>
+          <h1 className="font-display text-4xl md:text-5xl font-bold leading-none tracking-tight">
+            AP Exam Info
+          </h1>
+          <p className="mt-3 max-w-xl" style={{ color: 'var(--text-muted)' }}>
+            Scoring guidelines, section breakdowns, and exam structure for every AP exam.
+          </p>
+        </div>
         <button
-          onClick={() => navigate(examId ? `/exams/${examId}/hub` : '/')}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity"
-          style={{ color: 'var(--color-secondary)', backgroundColor: 'var(--color-primary)' }}
+          onClick={() => navigate(examSlug ? `/${examSlug}/hub` : '/')}
+          className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-sm font-medium cursor-pointer border transition-colors flex-shrink-0"
+          style={{ color: 'var(--text)', backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
         >
-          <svg
-            className="w-4 h-4"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
             <path d="M15 19l-7-7 7-7" />
           </svg>
-          Back to Hub
+          Hub
         </button>
       </div>
 
-      {/* Exam Selector */}
-      <div className="rounded-xl shadow-md p-6 mb-8 border border-black/35" style={{ backgroundColor: 'var(--color-secondary)' }}>
-        <h2 className="text-xl font-bold mb-4">Select an AP Exam</h2>
-        <div className="flex flex-col sm:flex-row gap-3">
-          <select
-            value={selectedSlug}
-            onChange={(e) => setSelectedSlug(e.target.value)}
-            className="flex-1 px-4 py-3 border rounded-lg text-sm focus:outline-none focus:ring-2 cursor-pointer"
-            style={{
-              borderColor: 'color-mix(in srgb, var(--color-primary) 20%, transparent)',
-            }}
-          >
-            <option value="">-- Choose an exam --</option>
-            {AP_EXAM_DATA.map((exam) => (
-              <option key={exam.slug} value={exam.slug}>
-                {exam.label}
-              </option>
-            ))}
-          </select>
-          <button
-            onClick={handleSearch}
-            disabled={!selectedSlug}
-            className="px-6 py-3 rounded-lg font-semibold text-sm transition-opacity hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
-            style={{
-              backgroundColor: 'var(--color-primary)',
-              color: 'var(--color-secondary)',
-            }}
-          >
-            Search
-          </button>
+      {/* Exam selector card */}
+      <div className="rounded-2xl shadow-sm border mb-8" style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}>
+        <div className="rounded-t-2xl px-6 py-5 flex items-center justify-between gap-4 flex-wrap" style={{ backgroundColor: 'var(--accent)' }}>
+          <div className="min-w-0">
+            <div className="text-xs font-semibold uppercase tracking-[0.16em] mb-1" style={{ color: 'var(--accent-ink)', opacity: 0.7 }}>
+              Select exam
+            </div>
+            <h2 className="font-display text-xl font-bold leading-tight truncate" style={{ color: 'var(--accent-ink)' }}>
+              {activeExam?.label ?? 'Choose an AP exam'}
+            </h2>
+          </div>
+
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <button
+              onClick={() => goToExam(currentIndex - 1)}
+              disabled={currentIndex <= 0}
+              aria-label="Previous exam"
+              className="w-9 h-9 rounded-lg flex items-center justify-center border disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-opacity hover:opacity-80"
+              style={{ borderColor: 'color-mix(in srgb, var(--accent-ink) 30%, transparent)', color: 'var(--accent-ink)' }}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+
+            <div className="relative">
+              <button
+                onClick={() => setMenuOpen((o) => !o)}
+                className="flex items-center gap-2 px-3 h-9 rounded-lg text-sm font-semibold border cursor-pointer transition-opacity hover:opacity-80 max-w-[200px] sm:max-w-[280px]"
+                style={{ borderColor: 'color-mix(in srgb, var(--accent-ink) 30%, transparent)', color: 'var(--accent-ink)' }}
+              >
+                <span className="truncate">{activeExam?.label ?? 'Browse exams'}</span>
+                <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              {menuOpen && (
+                <>
+                  <button
+                    aria-label="Close menu"
+                    onClick={() => setMenuOpen(false)}
+                    className="fixed inset-0 z-10 cursor-default"
+                  />
+                  <div
+                    className="absolute right-0 mt-2 w-80 max-w-[85vw] max-h-80 overflow-y-auto rounded-xl border shadow-lg z-20 py-1"
+                    style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
+                  >
+                    {AP_EXAM_DATA.map((exam, idx) => {
+                      const isActive = activeExam?.slug === exam.slug
+                      return (
+                        <button
+                          key={exam.slug}
+                          onClick={() => { setSelectedSlug(exam.slug); setMenuOpen(false) }}
+                          className="w-full text-left px-4 py-2.5 text-sm cursor-pointer transition-colors flex items-center gap-2.5"
+                          style={{
+                            color: 'var(--text)',
+                            fontWeight: isActive ? 700 : 400,
+                            borderLeft: isActive ? '3px solid var(--accent)' : '3px solid transparent',
+                          }}
+                        >
+                          <span className="text-xs font-semibold flex-shrink-0 w-5" style={{ color: 'var(--text-muted)' }}>{idx + 1}</span>
+                          <span className="flex-1">{exam.label}</span>
+                        </button>
+                      )
+                    })}
+                  </div>
+                </>
+              )}
+            </div>
+
+            <button
+              onClick={() => goToExam(currentIndex + 1)}
+              disabled={currentIndex >= AP_EXAM_DATA.length - 1 || currentIndex < 0}
+              aria-label="Next exam"
+              className="w-9 h-9 rounded-lg flex items-center justify-center border disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-opacity hover:opacity-80"
+              style={{ borderColor: 'color-mix(in srgb, var(--accent-ink) 30%, transparent)', color: 'var(--accent-ink)' }}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
         </div>
+
+        {!activeExam && (
+          <div className="p-8 text-center">
+            <div
+              className="w-14 h-14 rounded-xl flex items-center justify-center mb-4 mx-auto"
+              style={{ backgroundColor: 'color-mix(in srgb, var(--accent) 16%, transparent)', color: 'var(--accent)' }}
+            >
+              <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </div>
+            <p style={{ color: 'var(--text-muted)' }}>
+              Pick an exam from the menu above to view scoring and structure details.
+            </p>
+          </div>
+        )}
       </div>
 
-      {/* Exam Rubric Display */}
+      {/* Exam rubric */}
       {activeExam && (
-        <div className="space-y-6">
-          {/* Exam Title Bar */}
-          <div
-            className="rounded-xl p-6 shadow-md flex items-center justify-between"
-            style={{ backgroundColor: 'var(--color-primary)' }}
-          >
-            <h2
-              className="text-2xl font-bold"
-              style={{ color: 'var(--color-secondary)' }}
-            >
-              {activeExam.label}
-            </h2>
-            <a
-              href={activeExam.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs underline cursor-pointer opacity-80 hover:opacity-100"
-              style={{ color: 'var(--color-secondary)' }}
-            >
-              View on College Board ↗
-            </a>
-          </div>
-
-          {/* Sections Grid */}
-          <div className="grid md:grid-cols-2 gap-6">
-            {activeExam.sections.map((section, idx) => (
-              <div
-                key={idx}
-                className="rounded-xl shadow-md overflow-hidden border border-black/35"
-                style={{ backgroundColor: 'var(--color-secondary)' }}
-              >
-                {/* Section Header */}
-                <div
-                  className="px-6 py-4"
-                  style={{ backgroundColor: 'var(--color-primary)' }}
-                >
-                  <h3
-                    className="text-lg font-bold"
-                    style={{ color: 'var(--color-secondary)' }}
-                  >
-                    {section.title}
-                  </h3>
-                </div>
-
-                {/* Stats Row */}
-                <div
-                  className="flex border-b"
-                  style={{
-                    borderBottomColor: 'color-mix(in srgb, var(--color-primary) 20%, transparent)',
-                  }}
-                >
-                  <div className="flex-1 px-4 py-3 text-center">
-                    <div
-                      className="text-xs uppercase tracking-wide"
-                      style={{ color: 'var(--color-primary)', opacity: 0.5 }}
-                    >
-                      Questions
-                    </div>
-                    <div className="text-lg font-bold mt-1">{section.questionCount}</div>
-                  </div>
-                  {section.time && (
-                    <div
-                      className="flex-1 px-4 py-3 text-center border-l"
-                      style={{
-                        borderLeftColor: 'color-mix(in srgb, var(--color-primary) 20%, transparent)',
-                      }}
-                    >
-                      <div
-                        className="text-xs uppercase tracking-wide"
-                        style={{ color: 'var(--color-primary)', opacity: 0.5 }}
-                      >
-                        Time
-                      </div>
-                      <div className="text-lg font-bold mt-1">{section.time}</div>
-                    </div>
-                  )}
-                  <div
-                    className="flex-1 px-4 py-3 text-center border-l"
-                    style={{
-                      borderLeftColor: 'color-mix(in srgb, var(--color-primary) 20%, transparent)',
-                    }}
-                  >
-                    <div
-                      className="text-xs uppercase tracking-wide"
-                      style={{ color: 'var(--color-primary)', opacity: 0.5 }}
-                    >
-                      Score Weight
-                    </div>
-                    <div
-                      className="text-lg font-bold mt-1"
-                      style={{ color: 'var(--color-primary)' }}
-                    >
-                      {section.scoreWeight}
-                    </div>
-                  </div>
-                </div>
-
-                {/* Score Weight Bar */}
-                <div className="px-6 pt-4 pb-2">
-                  <div
-                    className="w-full rounded-full h-2"
-                    style={{
-                      backgroundColor:
-                        'color-mix(in srgb, var(--color-primary) 15%, var(--color-secondary))',
-                    }}
-                  >
-                    <div
-                      className="h-2 rounded-full transition-all duration-500"
-                      style={{
-                        width: section.scoreWeight,
-                        backgroundColor: 'var(--color-primary)',
-                      }}
-                    />
-                  </div>
-                </div>
-
-                {/* Details */}
-                <div className="px-6 py-4">
-                  <h4
-                    className="text-xs font-semibold uppercase tracking-wide mb-3"
-                    style={{ color: 'var(--color-primary)', opacity: 0.5 }}
-                  >
-                    Details
-                  </h4>
-                  <ul className="space-y-2">
-                    {section.details.map((detail, dIdx) => (
-                      <li
-                        key={dIdx}
-                        className="flex items-start gap-2 text-sm"
-                        style={{ color: 'var(--color-primary)', opacity: 0.8 }}
-                      >
-                        <span
-                          className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0"
-                          style={{ backgroundColor: 'var(--color-primary)' }}
-                        />
-                        {detail}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Source Attribution */}
-          <div
-            className="text-center text-xs py-4"
-            style={{ color: 'var(--color-primary)', opacity: 0.5 }}
-          >
-            Data sourced from{' '}
-            <a
-              href={activeExam.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline cursor-pointer"
-            >
-              College Board AP Students
-            </a>
-          </div>
-        </div>
+        <ExamRubric exam={activeExam} />
       )}
+    </div>
+  )
+}
 
-      {!activeExam && (
-        <div
-          className="text-center py-16 rounded-xl"
-          style={{
-            backgroundColor:
-              'color-mix(in srgb, var(--color-primary) 8%, var(--color-secondary))',
-          }}
+function ExamRubric({ exam }: { exam: APExamInfo }) {
+  return (
+    <div className="space-y-6">
+      <div className="flex items-center justify-between gap-4 flex-wrap">
+        <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
+          {exam.sections.length} section{exam.sections.length !== 1 ? 's' : ''} · sourced from College Board
+        </p>
+        <a
+          href={exam.sourceUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm font-semibold underline cursor-pointer"
+          style={{ color: 'var(--accent)' }}
         >
+          View on College Board ↗
+        </a>
+      </div>
+
+      <div className="grid md:grid-cols-2 gap-5">
+        {exam.sections.map((section, idx) => (
           <div
-            className="w-14 h-14 rounded-xl flex items-center justify-center mb-4 mx-auto"
-            style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
+            key={idx}
+            className="rounded-2xl shadow-sm overflow-hidden border flex flex-col"
+            style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
           >
-            <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
-              <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-            </svg>
+            <div className="px-6 py-4" style={{ backgroundColor: 'var(--accent)' }}>
+              <h3 className="font-display text-lg font-bold" style={{ color: 'var(--accent-ink)' }}>
+                {section.title}
+              </h3>
+            </div>
+
+            <div className="grid grid-cols-3" style={{ borderBottom: '1px solid var(--hairline)' }}>
+              <StatCell label="Questions" value={section.questionCount} />
+              {section.time ? (
+                <StatCell label="Time" value={section.time} bordered />
+              ) : (
+                <StatCell label="Time" value="—" bordered muted />
+              )}
+              <StatCell label="Weight" value={section.scoreWeight} bordered />
+            </div>
+
+            <div className="px-6 pt-4 pb-2">
+              <div
+                className="w-full rounded-full h-2"
+                style={{ backgroundColor: 'color-mix(in srgb, var(--text) 12%, transparent)' }}
+              >
+                <div
+                  className="h-2 rounded-full transition-all duration-500"
+                  style={{ width: section.scoreWeight, backgroundColor: 'var(--accent)' }}
+                />
+              </div>
+            </div>
+
+            <div className="px-6 py-5 flex-1">
+              <h4 className="text-xs font-semibold uppercase tracking-[0.14em] mb-3" style={{ color: 'var(--text-muted)' }}>
+                Details
+              </h4>
+              <ul className="space-y-2.5">
+                {section.details.map((detail, dIdx) => (
+                  <li key={dIdx} className="flex items-start gap-2.5 text-sm" style={{ color: 'var(--text)' }}>
+                    <span
+                      className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0"
+                      style={{ backgroundColor: 'var(--accent)' }}
+                    />
+                    {detail}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <h3 className="text-xl font-bold mb-2">Select an Exam Above</h3>
-          <p
-            className="max-w-md mx-auto"
-            style={{ color: 'var(--color-primary)', opacity: 0.7 }}
-          >
-            Choose an AP exam from the dropdown and click Search to view
-            scoring guidelines, rubrics, and exam structure details.
-          </p>
-        </div>
-      )}
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function StatCell({
+  label,
+  value,
+  bordered,
+  muted,
+}: {
+  label: string
+  value: string
+  bordered?: boolean
+  muted?: boolean
+}) {
+  return (
+    <div
+      className="px-3 py-3 text-center"
+      style={bordered ? { borderLeft: '1px solid var(--hairline)' } : undefined}
+    >
+      <div className="text-[10px] font-semibold uppercase tracking-wide" style={{ color: 'var(--text-muted)' }}>
+        {label}
+      </div>
+      <div
+        className="text-sm font-bold mt-1 leading-snug"
+        style={{ color: muted ? 'var(--text-muted)' : 'var(--text)' }}
+      >
+        {value}
+      </div>
     </div>
   )
 }

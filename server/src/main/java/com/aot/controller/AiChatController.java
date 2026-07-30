@@ -36,10 +36,7 @@ public class AiChatController {
     String content = aiChatService.chat(request.getMessages());
     Map<String, Object> usageInfo = aiUsageService.getUsageInfo(userId);
 
-    return ResponseEntity.ok(
-        Map.of(
-            "content", content,
-            "remaining", usageInfo.get("remaining")));
+    return ResponseEntity.ok(Map.of("content", content, "remaining", usageInfo.get("remaining")));
   }
 
   @GetMapping("/chat/usage")

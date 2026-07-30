@@ -1,0 +1,1125 @@
+{
+  "skillId": "data-statistics",
+  "questions": [
+    {
+      "id": "stat-0001",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "To estimate the proportion of a population that has a certain characteristic, a random sample was selected from the population. Based on the sample, it is estimated that the proportion of the population that has the characteristic is 0.49, with an associated margin of error of 0.04. Based on this estimate and margin of error, which of the following is the most appropriate conclusion about the proportion of the population that has the characteristic?",
+      "options": [
+        "It is plausible that the proportion is between 0.45 and 0.53.",
+        "It is plausible that the proportion is less than 0.45.",
+        "The proportion is exactly 0.49.",
+        "It is plausible that the proportion is greater than 0.53."
+      ],
+      "correctIndex": 0,
+      "explanation": "The plausible range is the estimate plus or minus the margin of error: \\(0.49 \\pm 0.04\\), which is between 0.45 and 0.53.",
+      "source": "P4M2 Q10"
+    },
+    {
+      "id": "stat-0002",
+      "difficulty": "medium",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "A proposal for a new library was included on an election ballot. A radio show stated that 3 times as many people voted in favor of the proposal as people who voted against it. A social media post reported that 15,000 more people voted in favor of the proposal than voted against it. Based on these data, how many people voted against the proposal?",
+      "options": [
+        "7,500",
+        "15,000",
+        "22,500",
+        "45,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let \\(a\\) be against votes. Then favor \\(= 3a\\) and \\(3a - a = 15{,}000\\), so \\(2a = 15{,}000\\) and \\(a = 7{,}500\\).",
+      "source": "P4M2 Q15"
+    },
+    {
+      "id": "stat-0003",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Scott selected 20 employees at random from all 400 employees at a company. He found that 16 of the employees in this sample are enrolled in exactly three professional development courses this year. Based on Scott's findings, which of the following is the best estimate of the number of employees at the company who are enrolled in exactly three professional development courses this year?",
+      "options": [
+        "4",
+        "320",
+        "380",
+        "384"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sample proportion is \\(\\frac{16}{20} = 0.8\\). Applying to 400 employees: \\(0.8 \\times 400 = 320\\).",
+      "source": "P5M1 Q10"
+    },
+    {
+      "id": "stat-0004",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "At a movie theater, there are a total of 350 customers. Each customer is located in either theater A, theater B, or theater C. If one of these customers is selected at random, the probability of selecting a customer who is located in theater A is 0.48, and the probability of selecting a customer who is located in theater B is 0.24. How many customers are located in theater C?",
+      "options": [
+        "28",
+        "40",
+        "84",
+        "98"
+      ],
+      "correctIndex": 3,
+      "explanation": "The probability for theater C is \\(1 - 0.48 - 0.24 = 0.28\\). Number in C \\(= 0.28 \\times 350 = 98\\).",
+      "source": "P5M2 Q12"
+    },
+    {
+      "id": "stat-0005",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Five Eretmochelys imbricata, a type of sea turtle, each have a nest. The table shows an original data set of the number of eggs each turtle laid in its nest: 149, 144, 148, 136, 139. A sixth nest with 121 eggs is added to create a new data set. Which of the following correctly compares the means of the two data sets?",
+      "options": [
+        "The mean of the original data set is greater than the mean of the new data set.",
+        "The mean of the original data set is less than the mean of the new data set.",
+        "The means of both data sets are equal.",
+        "There is not enough information to compare the means."
+      ],
+      "correctIndex": 0,
+      "explanation": "The added value 121 is below the original mean (about 143.2), so adding it lowers the mean. Thus the original mean is greater than the new mean.",
+      "source": "P5M2 Q15"
+    },
+    {
+      "id": "stat-0006",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The table shown summarizes the number of employees at each of the 17 restaurants in a town: 2 to 7 employees (2 restaurants), 8 to 13 (4 restaurants), 14 to 19 (2 restaurants), 20 to 25 (7 restaurants), 26 to 31 (2 restaurants). Which of the following could be the median number of employees for the restaurants in this town?",
+      "options": [
+        "2",
+        "9",
+        "15",
+        "21"
+      ],
+      "correctIndex": 3,
+      "explanation": "With 17 restaurants, the median is the 9th value. Cumulative counts: 2, then 6, then 8, then 15. The 9th value falls in the 20 to 25 group, so the median could be 21.",
+      "source": "P6M1 Q19"
+    },
+    {
+      "id": "stat-0007",
+      "difficulty": "easy",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "On a street with 7 houses, 2 houses are blue. If a house from this street is selected at random, what is the probability of selecting a house that is blue?",
+      "options": [
+        "\\(\\frac{1}{7}\\)",
+        "\\(\\frac{2}{7}\\)",
+        "\\(\\frac{5}{7}\\)",
+        "\\(\\frac{7}{7}\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The probability is the number of blue houses over the total: \\(\\frac{2}{7}\\).",
+      "source": "P6M2 Q3"
+    },
+    {
+      "id": "stat-0008",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(4, 10, 18, 4, 4, 5, 6, 5\\) What is the median of the data set shown?",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "14"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sorted: 4, 4, 4, 5, 5, 6, 10, 18. With 8 values, the median is the average of the 4th and 5th: \\(\\frac{5 + 5}{2} = 5\\).",
+      "source": "P6M2 Q15"
+    },
+    {
+      "id": "stat-0009",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The bar graph summarizes the charge, in kilowatt-hours (kWh), a battery received each day for 15 days. The charges shown are 0 kWh (6 days), 8 kWh (1 day), 9 kWh (2 days), 11 kWh (4 days), 16 kWh (1 day), and 23 kWh (1 day). For how many of these 15 days did the battery receive a charge of 0 kWh?",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "The bar above 0 kWh reaches 6, so the battery received a charge of 0 kWh on 6 days.",
+      "source": "P7M1 Q5"
+    },
+    {
+      "id": "stat-0010",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(-11, -9, 26\\) A data set of three numbers is shown. If a number from this data set is selected at random, what is the probability of selecting a positive number?",
+      "options": [
+        "0",
+        "\\(\\frac{1}{3}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Only 26 is positive out of the three numbers, so the probability is \\(\\frac{1}{3}\\).",
+      "source": "P7M2 Q5"
+    },
+    {
+      "id": "stat-0011",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For a particular machine that produces beads, 29 out of every 100 beads it produces have a defect. A bead produced by the machine will be selected at random. What is the probability of selecting a bead that has a defect?",
+      "options": [
+        "\\(\\frac{1}{2{,}900}\\)",
+        "\\(\\frac{1}{29}\\)",
+        "\\(\\frac{29}{100}\\)",
+        "\\(\\frac{29}{10}\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The probability is the number of defective beads over the total: \\(\\frac{29}{100}\\).",
+      "source": "P8M1 Q2"
+    },
+    {
+      "id": "stat-0012",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "An analyst collected data on the price of a carton of grape tomatoes at 30 locations selected at random in Utah. The mean price of a carton of grape tomatoes in Utah was estimated to be 4.23 dollars, with an associated margin of error of 0.08 dollars. Which of the following is a plausible statement about the mean price of a carton of grape tomatoes for all locations that sell this product in Utah?",
+      "options": [
+        "It is between 4.15 dollars and 4.31 dollars.",
+        "It is either less than 4.15 dollars or greater than 4.31 dollars.",
+        "It is less than 4.15 dollars.",
+        "It is greater than 4.31 dollars."
+      ],
+      "correctIndex": 0,
+      "explanation": "The plausible range is the estimate plus or minus the margin of error: \\(4.23 \\pm 0.08\\), which is between 4.15 dollars and 4.31 dollars.",
+      "source": "P8M1 Q5"
+    },
+    {
+      "id": "stat-0013",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The frequency table summarizes a data set of the weights, rounded to the nearest pound, of 71 tortoises. The weights and their frequencies are: 13 pounds (12), 14 pounds (8), 15 pounds (5), 16 pounds (7), 17 pounds (9), 18 pounds (10), 19 pounds (13), and 20 pounds (7). A weight of 39 pounds is added to the original data set, creating a new data set of the weights, rounded to the nearest pound, of 72 tortoises. Which statement best compares the mean and median of the new data set to the mean and median of the original data set?",
+      "options": [
+        "The mean of the new data set is greater than the mean of the original data set, and the median of the new data set is greater than the median of the original data set.",
+        "The mean of the new data set is greater than the mean of the original data set, and the medians of the two data sets are equal.",
+        "The mean of the new data set is less than the mean of the original data set, and the median of the new data set is less than the median of the original data set.",
+        "The mean of the new data set is less than the mean of the original data set, and the medians of the two data sets are equal."
+      ],
+      "correctIndex": 1,
+      "explanation": "The original data has 71 values with mean about 16.55 and median 17. Adding 39, a value well above the original mean, raises the mean to about 16.86. With 72 values, the median is the average of the 36th and 37th ordered values, both of which remain 17, so the median is unchanged. Thus the new mean is greater and the medians are equal.",
+      "source": "P8M1 Q23"
+    },
+    {
+      "id": "stat-0014",
+      "difficulty": "hard",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "A poll's results are shown: Angel Cruz received 483 votes and Terry Smith received 320 votes. A total of 803 voters selected at random were asked which candidate they would vote for in the upcoming election. According to the poll, if 6,424 people vote in the election, by how many votes would Angel Cruz be expected to win?",
+      "options": [
+        "163",
+        "1,304",
+        "3,864",
+        "5,621"
+      ],
+      "correctIndex": 1,
+      "explanation": "The scaling factor is \\(\\frac{6{,}424}{803} = 8\\). The poll margin is \\(483 - 320 = 163\\) votes, so the expected margin is \\(163 \\times 8 = 1{,}304\\) votes.",
+      "source": "P9M1 Q26"
+    },
+    {
+      "id": "stat-0015",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A table summarizes members of a local organization by age and whether they live east or west of the river. Members less than 40 years old: 17 live east, 11 live west (28 total). Members at least 40 years old: 18 live east, 89 live west (107 total). The totals are 35 east, 100 west, and 135 overall. If a member of the organization is selected at random, what is the probability that the selected member is at least 40 years old?",
+      "options": [
+        "\\(\\frac{28}{135}\\)",
+        "\\(\\frac{35}{135}\\)",
+        "\\(\\frac{100}{135}\\)",
+        "\\(\\frac{107}{135}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "There are 107 members at least 40 years old out of 135 total, so the probability is \\(\\frac{107}{135}\\).",
+      "source": "P9M2 Q3"
+    },
+    {
+      "id": "stat-0016",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A table gives the distribution of votes for a new school mascot and grade level for 80 students. The counts by mascot (sixth, seventh, eighth, total) are: Badger 4, 9, 9, 22; Lion 9, 2, 9, 20; Longhorn 4, 6, 4, 14; Tiger 6, 9, 9, 24; and the column totals are 23, 26, 31, 80. If one of these students is selected at random, what is the probability of selecting a student whose vote for new mascot was for a lion?",
+      "options": [
+        "\\(\\frac{1}{9}\\)",
+        "\\(\\frac{1}{5}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{2}{3}\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The lion total is 20 out of 80 students, so the probability is \\(\\frac{20}{80} = \\frac{1}{4}\\).",
+      "source": "P10M1 Q8"
+    },
+    {
+      "id": "stat-0017",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A total of 50 children attended a summer camp and were offered 4 types of sandwiches. A table shows the number of children who chose each type of sandwich: Turkey 15, Chicken 23, Ham 3, Vegetarian 9, for a total of 50. If one of these children is selected at random, what is the probability of selecting a child who chose a vegetarian sandwich?",
+      "options": [
+        "\\(\\frac{9}{100}\\)",
+        "\\(\\frac{9}{50}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{9}{10}\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "9 of the 50 children chose vegetarian, so the probability is \\(\\frac{9}{50}\\).",
+      "source": "P11M1 Q5"
+    },
+    {
+      "id": "stat-0018",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A cable provider wanted to know how many of its 30,000 customers would be interested in a new service plan. The provider selected 300 customers at random and asked each customer whether the customer would be interested in the new plan. Of those surveyed, 8 said they would be interested. Which of the following is the best estimate of the total number of customers who would be interested in the new service plan?",
+      "options": [
+        "8",
+        "80",
+        "800",
+        "8,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sample proportion is \\(\\frac{8}{300}\\). Applied to 30,000 customers: \\(\\frac{8}{300} \\times 30{,}000 = 800\\).",
+      "source": "P11M1 Q10"
+    },
+    {
+      "id": "stat-0019",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A scientist measured the lengths of 240 gray seals from Muskeget Island and 120 gray seals from Sable Island. The scientist determined that the mean length of the 240 gray seals from Muskeget Island was 88 inches and the mean length of the 120 gray seals from Sable Island was 94 inches. What was the mean length of all 360 gray seals the scientist measured for this study?",
+      "options": [
+        "89",
+        "90",
+        "91",
+        "92"
+      ],
+      "correctIndex": 1,
+      "explanation": "The combined mean is the weighted average: \\(\\frac{240(88) + 120(94)}{360} = \\frac{21{,}120 + 11{,}280}{360} = \\frac{32{,}400}{360} = 90\\) inches.",
+      "source": "P11M1 Q22"
+    },
+    {
+      "id": "stat-0020",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the mean of \\(4, 8, 6, 2\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(20\\)",
+        "\\(6\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mean \\(= \\dfrac{4 + 8 + 6 + 2}{4} = \\dfrac{20}{4} = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0021",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the median of \\(3, 7, 2, 9, 5\\)?",
+      "options": [
+        "\\(7\\)",
+        "\\(5\\)",
+        "\\(2\\)",
+        "\\(5.2\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sorted: \\(2, 3, 5, 7, 9\\). The middle value is \\(5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0022",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the mode of \\(2, 4, 4, 6, 8\\)?",
+      "options": [
+        "\\(6\\)",
+        "\\(24\\)",
+        "\\(4\\)",
+        "\\(4.8\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The mode is the most frequent value, which is \\(4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0023",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the range of \\(10, 4, 7, 15, 6\\)?",
+      "options": [
+        "\\(15\\)",
+        "\\(9\\)",
+        "\\(42\\)",
+        "\\(11\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Range \\(= \\text{max} - \\text{min} = 15 - 4 = 11\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0024",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A bag has \\(3\\) red and \\(7\\) blue marbles. What is the probability of drawing a red marble?",
+      "options": [
+        "\\(\\tfrac{3}{10}\\)",
+        "\\(\\tfrac{3}{7}\\)",
+        "\\(\\tfrac{7}{10}\\)",
+        "\\(\\tfrac{1}{3}\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "There are \\(10\\) marbles, \\(3\\) red: \\(P = \\tfrac{3}{10}\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0025",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the mean of \\(12, 18, 24, 30\\)?",
+      "options": [
+        "\\(84\\)",
+        "\\(21\\)",
+        "\\(24\\)",
+        "\\(18\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mean \\(= \\dfrac{84}{4} = 21\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0026",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the median of \\(6, 2, 8, 4\\)?",
+      "options": [
+        "\\(4\\)",
+        "\\(6\\)",
+        "\\(5\\)",
+        "\\(20\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sorted: \\(2, 4, 6, 8\\). The median is the average of the two middle values: \\(\\tfrac{4 + 6}{2} = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0027",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A die is rolled once. What is the probability of rolling a number greater than \\(4\\)?",
+      "options": [
+        "\\(\\tfrac16\\)",
+        "\\(\\tfrac12\\)",
+        "\\(\\tfrac23\\)",
+        "\\(\\tfrac13\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Favorable outcomes are \\(5\\) and \\(6\\): \\(P = \\tfrac{2}{6} = \\tfrac13\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0028",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The mean of \\(5\\) numbers is \\(10\\). What is their sum?",
+      "options": [
+        "\\(50\\)",
+        "\\(2\\)",
+        "\\(15\\)",
+        "\\(10\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sum \\(= \\text{mean} \\times \\text{count} = 10 \\times 5 = 50\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0029",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the mode of \\(1, 2, 2, 3, 3, 3, 4\\)?",
+      "options": [
+        "\\(2\\)",
+        "\\(3\\)",
+        "\\(4\\)",
+        "\\(1\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The value \\(3\\) appears most often (three times).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0030",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A spinner has \\(4\\) equal sections numbered \\(1\\) to \\(4\\). What is the probability of landing on \\(2\\)?",
+      "options": [
+        "\\(\\tfrac12\\)",
+        "\\(\\tfrac24\\)",
+        "\\(\\tfrac14\\)",
+        "\\(2\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "One of four equally likely sections: \\(P = \\tfrac14\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0031",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the range of \\(20, 20, 20, 20\\)?",
+      "options": [
+        "\\(20\\)",
+        "\\(80\\)",
+        "\\(4\\)",
+        "\\(0\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "All values are equal, so range \\(= 20 - 20 = 0\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0032",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The median of \\(x, 4, 9\\) (in sorted order) is \\(4\\). Which is a possible value of \\(x\\)?",
+      "options": [
+        "\\(2\\)",
+        "\\(6\\)",
+        "\\(9\\)",
+        "\\(10\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "For \\(4\\) to be the median of three sorted values, \\(x\\) must be at most \\(4\\); \\(2\\) works.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0033",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A survey of \\(50\\) people found \\(20\\) prefer tea. What fraction prefer tea?",
+      "options": [
+        "\\(\\tfrac{1}{2}\\)",
+        "\\(\\tfrac{2}{5}\\)",
+        "\\(\\tfrac{20}{100}\\)",
+        "\\(\\tfrac{5}{2}\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(\\tfrac{20}{50} = \\tfrac{2}{5}\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0034",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the mean of \\(0, 5, 10\\)?",
+      "options": [
+        "\\(15\\)",
+        "\\(7.5\\)",
+        "\\(5\\)",
+        "\\(0\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mean \\(= \\dfrac{0 + 5 + 10}{3} = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0035",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A coin is flipped twice. What is the probability of two heads?",
+      "options": [
+        "\\(\\tfrac12\\)",
+        "\\(\\tfrac13\\)",
+        "\\(1\\)",
+        "\\(\\tfrac14\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Each flip is \\(\\tfrac12\\); together \\(\\tfrac12 \\times \\tfrac12 = \\tfrac14\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0036",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the median of \\(11, 13, 15, 17, 19, 21\\)?",
+      "options": [
+        "\\(16\\)",
+        "\\(15\\)",
+        "\\(17\\)",
+        "\\(16.5\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "With six values, the median is the average of the third and fourth: \\(\\tfrac{15 + 17}{2} = 16\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0037",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A data set is \\(2, 3, 3, 4, 100\\). Which measure is most affected by the \\(100\\)?",
+      "options": [
+        "the median",
+        "the mean",
+        "the mode",
+        "the count"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mean uses every value, so a large outlier pulls it upward; the median and mode barely change.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0038",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "In a class of \\(25\\) students, \\(15\\) are girls. What percent are boys?",
+      "options": [
+        "\\(60\\%\\)",
+        "\\(10\\%\\)",
+        "\\(40\\%\\)",
+        "\\(15\\%\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Boys \\(= 10\\); \\(\\tfrac{10}{25} = 40\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0039",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the sum needed for \\(6\\) numbers to have a mean of \\(7\\)?",
+      "options": [
+        "\\(13\\)",
+        "\\(7\\)",
+        "\\(6\\)",
+        "\\(42\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sum \\(= 7 \\times 6 = 42\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0040",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A jar has \\(5\\) green, \\(3\\) yellow, and \\(2\\) red candies. What is the probability of NOT drawing red?",
+      "options": [
+        "\\(\\tfrac{4}{5}\\)",
+        "\\(\\tfrac{1}{5}\\)",
+        "\\(\\tfrac{2}{10}\\)",
+        "\\(\\tfrac{3}{5}\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Non-red \\(= 8\\) of \\(10\\): \\(P = \\tfrac{8}{10} = \\tfrac45\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0041",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the mode of \\(7, 8, 9, 10\\)?",
+      "options": [
+        "\\(7\\)",
+        "no mode",
+        "\\(8.5\\)",
+        "\\(10\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "No value repeats, so the data set has no mode.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0042",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The mean of \\(3\\) test scores is \\(80\\). Two scores are \\(70\\) and \\(90\\). What is the third?",
+      "options": [
+        "\\(160\\)",
+        "\\(75\\)",
+        "\\(80\\)",
+        "\\(85\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sum is \\(240\\); the third score is \\(240 - 70 - 90 = 80\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0043",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the range of the data \\(-3, 0, 4, 9\\)?",
+      "options": [
+        "\\(9\\)",
+        "\\(6\\)",
+        "\\(3\\)",
+        "\\(12\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Range \\(= 9 - (-3) = 12\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0044",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A bag has tiles numbered \\(1\\) through \\(8\\). What is the probability of drawing an even number?",
+      "options": [
+        "\\(\\tfrac12\\)",
+        "\\(\\tfrac14\\)",
+        "\\(\\tfrac18\\)",
+        "\\(\\tfrac{4}{7}\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Even tiles are \\(2, 4, 6, 8\\): \\(\\tfrac{4}{8} = \\tfrac12\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0045",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the median of \\(100, 1, 2, 3, 4\\)?",
+      "options": [
+        "\\(22\\)",
+        "\\(3\\)",
+        "\\(2\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sorted: \\(1, 2, 3, 4, 100\\). The middle value is \\(3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0046",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The mean of \\(4\\) numbers is \\(12\\). After a fifth number is added, the mean becomes \\(15\\). What is the fifth number?",
+      "options": [
+        "\\(27\\)",
+        "\\(15\\)",
+        "\\(3\\)",
+        "\\(48\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first four sum to \\(48\\). Five numbers averaging \\(15\\) sum to \\(75\\), so the fifth is \\(75 - 48 = 27\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0047",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A student's grade is \\(60\\%\\) homework and \\(40\\%\\) exam. With homework \\(90\\) and exam \\(70\\), what is the grade?",
+      "options": [
+        "\\(80\\)",
+        "\\(82\\)",
+        "\\(78\\)",
+        "\\(160\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Weighted mean \\(= 0.6(90) + 0.4(70) = 54 + 28 = 82\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0048",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What value of \\(x\\) makes the mean of \\(5, 9, x, 11\\) equal to \\(10\\)?",
+      "options": [
+        "\\(10\\)",
+        "\\(25\\)",
+        "\\(15\\)",
+        "\\(8.3\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sum must be \\(40\\): \\(5 + 9 + 11 = 25\\), so \\(x = 15\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0049",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Class A (\\(20\\) students) averaged \\(80\\); class B (\\(30\\) students) averaged \\(90\\). What is the combined mean?",
+      "options": [
+        "\\(85\\)",
+        "\\(170\\)",
+        "\\(84\\)",
+        "\\(86\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Combined \\(= \\dfrac{20(80) + 30(90)}{50} = \\dfrac{1600 + 2700}{50} = \\dfrac{4300}{50} = 86\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0050",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Two dice are rolled. What is the probability the sum is \\(7\\)?",
+      "options": [
+        "\\(\\tfrac16\\)",
+        "\\(\\tfrac{1}{12}\\)",
+        "\\(\\tfrac{7}{36}\\)",
+        "\\(\\tfrac{1}{7}\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "There are \\(6\\) ways to roll a \\(7\\) out of \\(36\\): \\(\\tfrac{6}{36} = \\tfrac16\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0051",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The median of \\(3, 7, x, 12\\) (already sorted) is \\(9\\). What is \\(x\\)?",
+      "options": [
+        "\\(9\\)",
+        "\\(11\\)",
+        "\\(8\\)",
+        "\\(10\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The median of four sorted values is \\(\\tfrac{7 + x}{2} = 9\\), so \\(x = 11\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0052",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A data set has mean \\(50\\). If every value is increased by \\(5\\), what is the new mean?",
+      "options": [
+        "\\(50\\)",
+        "\\(250\\)",
+        "\\(55\\)",
+        "\\(45\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Adding a constant to every value shifts the mean by that constant: \\(50 + 5 = 55\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0053",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The mean of \\(6\\) numbers is \\(20\\). If one number, \\(10\\), is removed, what is the mean of the remaining five?",
+      "options": [
+        "\\(20\\)",
+        "\\(18\\)",
+        "\\(24\\)",
+        "\\(22\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total is \\(120\\); removing \\(10\\) leaves \\(110\\) over \\(5\\) numbers: \\(22\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0054",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A jar has \\(4\\) red and \\(6\\) blue marbles. Two are drawn without replacement. What is the probability both are red?",
+      "options": [
+        "\\(\\tfrac{2}{15}\\)",
+        "\\(\\tfrac{4}{25}\\)",
+        "\\(\\tfrac{1}{6}\\)",
+        "\\(\\tfrac{2}{5}\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "\\(\\tfrac{4}{10} \\times \\tfrac{3}{9} = \\tfrac{12}{90} = \\tfrac{2}{15}\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0055",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which data set has the greater standard deviation: A = \\(\\{10, 10, 10\\}\\) or B = \\(\\{5, 10, 15\\}\\)?",
+      "options": [
+        "A",
+        "B",
+        "they are equal",
+        "cannot be determined"
+      ],
+      "correctIndex": 1,
+      "explanation": "Set A has no spread (standard deviation \\(0\\)); set B is spread out, so B has the greater standard deviation.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0056",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A test has mean \\(75\\) and a student scored \\(75\\). Adding this score to the data, how does the mean change?",
+      "options": [
+        "it increases",
+        "it decreases",
+        "it stays the same",
+        "it doubles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Adding a value equal to the mean does not change the mean.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0057",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "In a two-way table, \\(30\\) of \\(120\\) people are adults who chose tea. What fraction of all people are adult tea-drinkers?",
+      "options": [
+        "\\(\\tfrac13\\)",
+        "\\(\\tfrac{30}{90}\\)",
+        "\\(\\tfrac{1}{30}\\)",
+        "\\(\\tfrac14\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(\\tfrac{30}{120} = \\tfrac14\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0058",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A spinner is split \\(50\\%\\) red, \\(30\\%\\) blue, \\(20\\%\\) green. What is the probability of red or green?",
+      "options": [
+        "\\(70\\%\\)",
+        "\\(30\\%\\)",
+        "\\(10\\%\\)",
+        "\\(50\\%\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Red or green \\(= 50\\% + 20\\% = 70\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0059",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The mean of \\(8\\) numbers is \\(9\\). What is the mean if a \\(9\\)th number equal to \\(9\\) is added?",
+      "options": [
+        "\\(9.5\\)",
+        "\\(9\\)",
+        "\\(8\\)",
+        "\\(18\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The new value equals the current mean, so the mean stays \\(9\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0060",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A data set is \\(2, 4, 6, 8, 10\\). What is the mean absolute deviation from the mean?",
+      "options": [
+        "\\(6\\)",
+        "\\(2\\)",
+        "\\(2.4\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The mean is \\(6\\); deviations are \\(4, 2, 0, 2, 4\\), averaging \\(\\tfrac{12}{5} = 2.4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0061",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Of \\(200\\) surveyed, \\(60\\%\\) own a pet and \\(25\\%\\) of pet owners have a dog. How many surveyed have a dog?",
+      "options": [
+        "\\(50\\)",
+        "\\(120\\)",
+        "\\(85\\)",
+        "\\(30\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pet owners \\(= 0.6 \\times 200 = 120\\); dog owners \\(= 0.25 \\times 120 = 30\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0062",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A number line dot plot shows values \\(1, 1, 2, 3, 3, 3, 5\\). What is the median?",
+      "options": [
+        "\\(3\\)",
+        "\\(2\\)",
+        "\\(2.6\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "With \\(7\\) values, the median is the fourth: sorted they are \\(1, 1, 2, 3, 3, 3, 5\\), so \\(3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0063",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A student has scores \\(82, 88, 91\\) on three tests. What score on a fourth test gives a mean of \\(90\\)?",
+      "options": [
+        "\\(99\\)",
+        "\\(90\\)",
+        "\\(87\\)",
+        "\\(100\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Four tests averaging \\(90\\) sum to \\(360\\). The first three sum to \\(261\\), so the fourth must be \\(99\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0064",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The mean of \\(10\\) numbers is \\(15\\). Removing two numbers whose mean is \\(20\\) gives a new mean of what?",
+      "options": [
+        "\\(15\\)",
+        "\\(13.75\\)",
+        "\\(10\\)",
+        "\\(12.5\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total is \\(150\\); the two removed sum to \\(40\\), leaving \\(110\\) over \\(8\\) numbers: \\(\\tfrac{110}{8} = 13.75\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0065",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A class of \\(20\\) students has a mean score of \\(75\\). A new student scores \\(96\\), raising the class mean. What is the new mean?",
+      "options": [
+        "\\(75\\)",
+        "\\(85.5\\)",
+        "\\(76\\)",
+        "\\(80\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Original total \\(= 20 \\times 75 = 1500\\). With the new score: \\(\\tfrac{1500 + 96}{21} = \\tfrac{1596}{21} = 76\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0066",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Two dice are rolled. What is the probability that the sum is greater than \\(9\\)?",
+      "options": [
+        "\\(\\tfrac{1}{9}\\)",
+        "\\(\\tfrac{5}{36}\\)",
+        "\\(\\tfrac14\\)",
+        "\\(\\tfrac16\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sums greater than \\(9\\) are \\(10\\) (3 ways), \\(11\\) (2 ways), \\(12\\) (1 way) = \\(6\\) of \\(36\\): \\(\\tfrac16\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0067",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A set of \\(5\\) distinct integers has median \\(10\\) and mean \\(12\\). What is the sum of the two largest values if the two smallest are \\(6\\) and \\(8\\)?",
+      "options": [
+        "\\(36\\)",
+        "\\(30\\)",
+        "\\(26\\)",
+        "\\(40\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sum of all five is \\(5 \\times 12 = 60\\). Subtract the median \\(10\\) and the two smallest \\(6 + 8 = 14\\): \\(60 - 10 - 14 = 36\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0068",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "In a group, \\(70\\%\\) passed math and \\(60\\%\\) passed science; \\(50\\%\\) passed both. What percent passed at least one subject?",
+      "options": [
+        "\\(130\\%\\)",
+        "\\(80\\%\\)",
+        "\\(50\\%\\)",
+        "\\(90\\%\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "By inclusion-exclusion: \\(70\\% + 60\\% - 50\\% = 80\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0069",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The mean weight of \\(4\\) boxes is \\(25\\) kg. A fifth box is added and the mean rises to \\(28\\) kg. How heavy is the fifth box, in kg?",
+      "options": [
+        "\\(28\\)",
+        "\\(31\\)",
+        "\\(40\\)",
+        "\\(52\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Four boxes total \\(100\\) kg. Five boxes at \\(28\\) total \\(140\\) kg, so the fifth is \\(40\\) kg.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "stat-0070",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A jar has \\(3\\) red, \\(4\\) green, and \\(5\\) blue marbles. One is drawn and not replaced, then a second is drawn. What is the probability both are blue?",
+      "options": [
+        "\\(\\tfrac{25}{144}\\)",
+        "\\(\\tfrac{5}{12}\\)",
+        "\\(\\tfrac{1}{3}\\)",
+        "\\(\\tfrac{5}{33}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(\\tfrac{5}{12} \\times \\tfrac{4}{11} = \\tfrac{20}{132} = \\tfrac{5}{33}\\).",
+      "source": "Adaptive bank expansion"
+    }
+  ]
+}

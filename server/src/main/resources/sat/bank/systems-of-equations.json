@@ -1,0 +1,1125 @@
+{
+  "skillId": "systems-of-equations",
+  "questions": [
+    {
+      "id": "sys-0001",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(2.5b + 5r = 80\\) The given equation describes the relationship between the number of birds, \\(b\\), and the number of reptiles, \\(r\\), that can be cared for at a pet care business on a given day. If the business cares for 16 reptiles on a given day, how many birds can it care for on this day?",
+      "options": [
+        "0",
+        "5",
+        "40",
+        "80"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute \\(r = 16\\): \\(2.5b + 5(16) = 80 \\Rightarrow 2.5b + 80 = 80 \\Rightarrow 2.5b = 0 \\Rightarrow b = 0\\).",
+      "source": "P4M1 Q11"
+    },
+    {
+      "id": "sys-0002",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y = 2x^2 - 21x + 64\\), \\(y = 3x + a\\) In the given system of equations, \\(a\\) is a constant. The graphs of the equations in the given system intersect at exactly one point, \\((x, y)\\), in the \\(xy\\)-plane. What is the value of \\(x\\)?",
+      "options": [
+        "-8",
+        "-6",
+        "6",
+        "8"
+      ],
+      "correctIndex": 2,
+      "explanation": "Setting equal: \\(2x^2 - 21x + 64 = 3x + a\\), so \\(2x^2 - 24x + (64 - a) = 0\\). For exactly one solution the discriminant is 0, giving \\(x = \\frac{24}{2 \\cdot 2} = 6\\) (the repeated root is \\(-\\frac{-24}{2\\cdot 2} = 6\\)).",
+      "source": "P4M1 Q24"
+    },
+    {
+      "id": "sys-0003",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(x + y = 18\\), \\(5y = x\\) What is the solution \\((x, y)\\) to the given system of equations?",
+      "options": [
+        "\\((15, 3)\\)",
+        "\\((16, 2)\\)",
+        "\\((17, 1)\\)",
+        "\\((18, 0)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute \\(x = 5y\\) into \\(x + y = 18\\): \\(5y + y = 18 \\Rightarrow 6y = 18 \\Rightarrow y = 3\\), so \\(x = 15\\). Solution: \\((15, 3)\\).",
+      "source": "P4M2 Q4"
+    },
+    {
+      "id": "sys-0004",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(s + 7r = 27\\), \\(r = 3\\) What is the solution \\((r, s)\\) to the given system of equations?",
+      "options": [
+        "\\((6, 3)\\)",
+        "\\((3, 6)\\)",
+        "\\((3, 27)\\)",
+        "\\((27, 3)\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Substitute \\(r = 3\\): \\(s + 7(3) = 27 \\Rightarrow s + 21 = 27 \\Rightarrow s = 6\\). The solution \\((r, s)\\) is \\((3, 6)\\).",
+      "source": "P5M1 Q4"
+    },
+    {
+      "id": "sys-0005",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y = 6x + 3\\) One of the two equations in a system of linear equations is given. The system has infinitely many solutions. Which equation could be the second equation in this system?",
+      "options": [
+        "\\(y = 2(6x) + 3\\)",
+        "\\(y = 2(6x + 3)\\)",
+        "\\(2(y) = 2(6x) + 3\\)",
+        "\\(2(y) = 2(6x + 3)\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "For infinitely many solutions, the second equation must be equivalent to the first. \\(2(y) = 2(6x + 3)\\) simplifies to \\(y = 6x + 3\\), the same line.",
+      "source": "P7M1 Q12"
+    },
+    {
+      "id": "sys-0006",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(3y = 4x + 17\\), \\(-3y = 9x - 23\\) The solution to the given system of equations is \\((x, y)\\). What is the value of \\(39x\\)?",
+      "options": [
+        "-18",
+        "-6",
+        "6",
+        "18"
+      ],
+      "correctIndex": 3,
+      "explanation": "Adding the equations: \\(0 = 13x - 6\\), so \\(x = \\frac{6}{13}\\). Then \\(39x = 39 \\cdot \\frac{6}{13} = 3 \\cdot 6 = 18\\).",
+      "source": "P7M2 Q18"
+    },
+    {
+      "id": "sys-0007",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y = -3x\\), \\(4x + y = 15\\) The solution to the given system of equations is \\((x, y)\\). What is the value of \\(x\\)?",
+      "options": [
+        "1",
+        "5",
+        "15",
+        "45"
+      ],
+      "correctIndex": 2,
+      "explanation": "Substitute \\(y = -3x\\) into \\(4x + y = 15\\): \\(4x - 3x = 15 \\Rightarrow x = 15\\).",
+      "source": "P8M2 Q11"
+    },
+    {
+      "id": "sys-0008",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y = 6x + 18\\) One of the equations in a system of two linear equations is given. The system has no solution. Which equation could be the second equation in the system?",
+      "options": [
+        "\\(-6x + y = 18\\)",
+        "\\(-6x + y = 22\\)",
+        "\\(-12x + y = 36\\)",
+        "\\(-12x + y = 18\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The first equation is \\(y = 6x + 18\\), or \\(-6x + y = 18\\). A system has no solution when the lines are parallel (same slope, different intercept). \\(-6x + y = 22\\) has the same slope but a different constant, so the lines never meet.",
+      "source": "P8M2 Q23"
+    },
+    {
+      "id": "sys-0009",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(2x + 3y = 7\\), \\(10x + 15y = 35\\) For each real number \\(r\\), which of the following points lies on the graph of each equation in the \\(xy\\)-plane for the given system?",
+      "options": [
+        "\\(\\left(\\frac{r}{5} + 7, -\\frac{r}{5} + 35\\right)\\)",
+        "\\(\\left(-\\frac{3r}{2} + \\frac{7}{2}, r\\right)\\)",
+        "\\(\\left(r, \\frac{2r}{3} + \\frac{7}{3}\\right)\\)",
+        "\\(\\left(r, -\\frac{3r}{2} + \\frac{7}{2}\\right)\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The two equations are equivalent (the second is 5 times the first), so every point on \\(2x + 3y = 7\\) satisfies both. Solving for \\(x\\): \\(x = \\frac{7 - 3y}{2}\\). Letting \\(y = r\\) gives \\(x = -\\frac{3r}{2} + \\frac{7}{2}\\), i.e., the point \\(\\left(-\\frac{3r}{2} + \\frac{7}{2}, r\\right)\\).",
+      "source": "P8M2 Q25"
+    },
+    {
+      "id": "sys-0010",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Jay walks at a speed of 3 miles per hour and runs at a speed of 5 miles per hour. He walks for \\(w\\) hours and runs for \\(r\\) hours for a combined total of 14 miles. Which equation represents this situation?",
+      "options": [
+        "\\(3w + 5r = 14\\)",
+        "\\(\\frac{1}{3}w + \\frac{1}{5}r = 14\\)",
+        "\\(\\frac{1}{3}w + \\frac{1}{5}r = 112\\)",
+        "\\(3w + 5r = 112\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Distance equals speed times time. Walking distance is \\(3w\\) and running distance is \\(5r\\), totaling 14 miles: \\(3w + 5r = 14\\).",
+      "source": "P9M1 Q8"
+    },
+    {
+      "id": "sys-0011",
+      "difficulty": "hard",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "\\(4x - 9y = 9y + 5\\), \\(hy = 2 + 4x\\) In the given system of equations, \\(h\\) is a constant. If the system has no solution, what is the value of \\(h\\)?",
+      "options": [
+        "-9",
+        "0",
+        "9",
+        "18"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rewrite the first equation: \\(4x - 18y = 5\\), or \\(4x = 18y + 5\\). The second is \\(4x = hy - 2\\). For no solution, the lines must be parallel: the coefficients of \\(y\\) must match while constants differ, so \\(h = 18\\) (and \\(-2 \\ne 5\\), confirming no solution).",
+      "source": "P9M1 Q19"
+    },
+    {
+      "id": "sys-0012",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(3x = 12\\), \\(-3x + y = -6\\) The solution to the given system of equations is \\((x, y)\\). What is the value of \\(y\\)?",
+      "options": [
+        "-3",
+        "6",
+        "18",
+        "30"
+      ],
+      "correctIndex": 1,
+      "explanation": "From \\(3x = 12\\), \\(x = 4\\). Substitute into \\(-3x + y = -6\\): \\(-12 + y = -6\\), so \\(y = 6\\).",
+      "source": "P9M2 Q4"
+    },
+    {
+      "id": "sys-0013",
+      "difficulty": "medium",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "\\(x + 5 = 14\\), \\(y = 4x^2 + 4\\) At what point \\((x, y)\\) do the graphs of the equations in the given system intersect?",
+      "options": [
+        "\\((9, 324)\\)",
+        "\\((9, 328)\\)",
+        "\\((14, 4)\\)",
+        "\\((14, 788)\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "From \\(x + 5 = 14\\), \\(x = 9\\). Then \\(y = 4(9)^2 + 4 = 4(81) + 4 = 324 + 4 = 328\\), giving the point \\((9, 328)\\).",
+      "source": "P11M1 Q12"
+    },
+    {
+      "id": "sys-0014",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(2x + 9y = 7\\) The given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system? I. \\(3x + 13.5y = 10.5\\) II. \\(3x - 13.5y = 10.5\\)",
+      "options": [
+        "I only",
+        "II only",
+        "I and II",
+        "Neither I nor II"
+      ],
+      "correctIndex": 2,
+      "explanation": "Equation I is the first equation multiplied by 1.5, so it represents the same line (infinitely many solutions â€” at least one). Equation II has a different slope, so it intersects the first line at exactly one point (also at least one solution). Both work.",
+      "source": "P11M1 Q25"
+    },
+    {
+      "id": "sys-0015",
+      "difficulty": "easy",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "\\(10x = 110\\), \\(6x - 63 = y\\) The solution to the given system of equations is \\((x, y)\\). What is the value of \\(y\\)?",
+      "options": [
+        "63",
+        "11",
+        "10",
+        "3"
+      ],
+      "correctIndex": 3,
+      "explanation": "From \\(10x = 110\\), \\(x = 11\\). Then \\(y = 6(11) - 63 = 66 - 63 = 3\\).",
+      "source": "P11M2 Q4"
+    },
+    {
+      "id": "sys-0016",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(x + y = 7\\) and \\(x - y = 3\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(2\\)",
+        "\\(-5\\)",
+        "\\(6\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solving the system gives \\(x = 5\\) and \\(y = 2\\). So \\(x = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0017",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(x + y = 7\\) and \\(x - y = 3\\), what is the value of \\(y\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(2\\)",
+        "\\(-2\\)",
+        "\\(3\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solving the system gives \\(x = 5\\) and \\(y = 2\\). So \\(y = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0018",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(2x + y = 7\\) and \\(x - y = 2\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(1\\)",
+        "\\(-3\\)",
+        "\\(3\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solving the system gives \\(x = 3\\) and \\(y = 1\\). So \\(x = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0019",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(x + 2y = 6\\) and \\(x - y = 3\\), what is the value of \\(y\\)?",
+      "options": [
+        "\\(4\\)",
+        "\\(-1\\)",
+        "\\(2\\)",
+        "\\(1\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Solving the system gives \\(x = 4\\) and \\(y = 1\\). So \\(y = 1\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0020",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(x + y = 10\\) and \\(2x + y = 16\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(6\\)",
+        "\\(4\\)",
+        "\\(-6\\)",
+        "\\(7\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solving the system gives \\(x = 6\\) and \\(y = 4\\). So \\(x = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0021",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(x + y = 10\\) and \\(2x + y = 17\\), what is the value of \\(y\\)?",
+      "options": [
+        "\\(7\\)",
+        "\\(3\\)",
+        "\\(-3\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solving the system gives \\(x = 7\\) and \\(y = 3\\). So \\(y = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0022",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(3x + y = 9\\) and \\(x - y = -1\\), what is the value of \\(x + y\\)?",
+      "options": [
+        "\\(-1\\)",
+        "\\(2\\)",
+        "\\(5\\)",
+        "\\(3\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solving the system gives \\(x = 2\\) and \\(y = 3\\). So \\(x + y = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0023",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(x + y = 11\\) and \\(x + 2y = 14\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(3\\)",
+        "\\(-8\\)",
+        "\\(9\\)",
+        "\\(8\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Solving the system gives \\(x = 8\\) and \\(y = 3\\). So \\(x = 8\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0024",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(2x - y = 6\\) and \\(x + y = 6\\), what is the value of \\(y\\)?",
+      "options": [
+        "\\(2\\)",
+        "\\(4\\)",
+        "\\(-2\\)",
+        "\\(3\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solving the system gives \\(x = 4\\) and \\(y = 2\\). So \\(y = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0025",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(x - 2y = 3\\) and \\(2x + y = 11\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(1\\)",
+        "\\(5\\)",
+        "\\(-5\\)",
+        "\\(6\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solving the system gives \\(x = 5\\) and \\(y = 1\\). So \\(x = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0026",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(x + y = 9\\) and \\(3x - y = 7\\), what is the value of \\(x - y\\)?",
+      "options": [
+        "\\(9\\)",
+        "\\(1\\)",
+        "\\(-1\\)",
+        "\\(0\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solving the system gives \\(x = 4\\) and \\(y = 5\\). So \\(x - y = -1\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0027",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(2x + 3y = 16\\) and \\(x - y = -2\\), what is the value of \\(x + y\\)?",
+      "options": [
+        "\\(-2\\)",
+        "\\(2\\)",
+        "\\(4\\)",
+        "\\(6\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Solving the system gives \\(x = 2\\) and \\(y = 4\\). So \\(x + y = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0028",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(x + 4y = 14\\) and \\(x + y = 5\\), what is the value of \\(y\\)?",
+      "options": [
+        "\\(3\\)",
+        "\\(2\\)",
+        "\\(-3\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solving the system gives \\(x = 2\\) and \\(y = 3\\). So \\(y = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0029",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Two pencils and one pen cost \\(5\\) dollars. One pencil and one pen cost \\(4\\) dollars. What is the cost of one pen, in dollars?",
+      "options": [
+        "\\(1\\)",
+        "\\(3\\)",
+        "\\(2\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Subtracting the equations \\((2p + q) - (p + q) = 5 - 4\\) gives \\(p = 1\\) (pencil). Then \\(q = 4 - 1 = 3\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0030",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The sum of two numbers is \\(20\\) and their difference is \\(6\\). What is the larger number?",
+      "options": [
+        "\\(7\\)",
+        "\\(14\\)",
+        "\\(13\\)",
+        "\\(10\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Adding \\(x + y = 20\\) and \\(x - y = 6\\) gives \\(2x = 26\\), so \\(x = 13\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0031",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "An adult ticket costs \\(9\\) dollars and a child ticket \\(5\\) dollars. A family buys \\(2\\) adult and \\(3\\) child tickets. What is the total cost, in dollars?",
+      "options": [
+        "\\(24\\)",
+        "\\(45\\)",
+        "\\(14\\)",
+        "\\(33\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total \\(= 2(9) + 3(5) = 18 + 15 = 33\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0032",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A number \\(x\\) is twice a number \\(y\\), and \\(x + y = 18\\). What is \\(y\\)?",
+      "options": [
+        "\\(6\\)",
+        "\\(12\\)",
+        "\\(9\\)",
+        "\\(3\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Substitute \\(x = 2y\\): \\(2y + y = 18\\), so \\(3y = 18\\) and \\(y = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0033",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Three apples and two bananas cost \\(7\\) dollars. An apple costs \\(1\\) dollar. What does a banana cost, in dollars?",
+      "options": [
+        "\\(3\\)",
+        "\\(2\\)",
+        "\\(4\\)",
+        "\\(1.5\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "With apples at \\(1\\): \\(3(1) + 2b = 7\\), so \\(2b = 4\\) and \\(b = 2\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0034",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The perimeter of a rectangle is \\(30\\), and its length is \\(3\\) more than its width. What is the width?",
+      "options": [
+        "\\(9\\)",
+        "\\(12\\)",
+        "\\(6\\)",
+        "\\(7.5\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "With \\(l = w + 3\\) and \\(2l + 2w = 30\\): \\(2(w + 3) + 2w = 30\\), so \\(4w = 24\\) and \\(w = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0035",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A jar has nickels and dimes totaling \\(8\\) coins worth \\(65\\) cents. How many dimes are there?",
+      "options": [
+        "\\(3\\)",
+        "\\(4\\)",
+        "\\(6\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "With \\(n + d = 8\\) and \\(5n + 10d = 65\\): substitute \\(n = 8 - d\\) to get \\(5(8 - d) + 10d = 65\\), so \\(5d = 25\\) and \\(d = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0036",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Two numbers add to \\(15\\). One is four times the other. What is the smaller number?",
+      "options": [
+        "\\(3\\)",
+        "\\(12\\)",
+        "\\(5\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "With \\(x = 4y\\) and \\(x + y = 15\\): \\(5y = 15\\), so \\(y = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0037",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A store sells notebooks at \\(3\\) dollars and folders at \\(2\\) dollars. Someone buys \\(4\\) notebooks and some folders for \\(20\\) dollars total. How many folders?",
+      "options": [
+        "\\(6\\)",
+        "\\(4\\)",
+        "\\(3\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "With \\(4(3) + 2f = 20\\): \\(2f = 8\\), so \\(f = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0038",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The difference of two numbers is \\(10\\) and their sum is \\(24\\). What is the smaller number?",
+      "options": [
+        "\\(17\\)",
+        "\\(14\\)",
+        "\\(7\\)",
+        "\\(12\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "From \\(x + y = 24\\) and \\(x - y = 10\\), subtracting gives \\(2y = 14\\), so \\(y = 7\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0039",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A bike costs \\(3\\) times as much as a helmet. Together they cost \\(160\\) dollars. What does the helmet cost, in dollars?",
+      "options": [
+        "\\(120\\)",
+        "\\(53.3\\)",
+        "\\(80\\)",
+        "\\(40\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "With \\(b = 3h\\) and \\(b + h = 160\\): \\(4h = 160\\), so \\(h = 40\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0040",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Two coffees and a muffin cost \\(11\\) dollars; one coffee and a muffin cost \\(7\\) dollars. What does one coffee cost, in dollars?",
+      "options": [
+        "\\(4\\)",
+        "\\(3\\)",
+        "\\(7\\)",
+        "\\(5.5\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtracting the equations gives one coffee \\(= 11 - 7 = 4\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0041",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A rectangle's length is twice its width, and its perimeter is \\(36\\). What is the length?",
+      "options": [
+        "\\(6\\)",
+        "\\(12\\)",
+        "\\(9\\)",
+        "\\(18\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "With \\(l = 2w\\): \\(2(2w) + 2w = 36\\), so \\(6w = 36\\), \\(w = 6\\), and \\(l = 12\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0042",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(3x + 2y = 14\\) and \\(2x - y = 7\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(4\\)",
+        "\\(1\\)",
+        "\\(-4\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solving the system gives \\(x = 4\\) and \\(y = 1\\). So \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0043",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(3x + 2y = 14\\) and \\(2x - y = 7\\), what is the value of \\(y\\)?",
+      "options": [
+        "\\(4\\)",
+        "\\(1\\)",
+        "\\(-1\\)",
+        "\\(2\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solving the system gives \\(x = 4\\) and \\(y = 1\\). So \\(y = 1\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0044",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(2x + 3y = 12\\) and \\(4x - y = 10\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(2\\)",
+        "\\(-3\\)",
+        "\\(3\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solving the system gives \\(x = 3\\) and \\(y = 2\\). So \\(x = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0045",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(5x + 2y = 12\\) and \\(3x - 4y = 2\\), what is the value of \\(y\\)?",
+      "options": [
+        "\\(2\\)",
+        "\\(-1\\)",
+        "\\(0\\)",
+        "\\(1\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Solving the system gives \\(x = 2\\) and \\(y = 1\\). So \\(y = 1\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0046",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(4x - 3y = 6\\) and \\(2x + 5y = 16\\), what is the value of \\(x + y\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(1\\)",
+        "\\(3\\)",
+        "\\(2\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solving the system gives \\(x = 3\\) and \\(y = 2\\). So \\(x + y = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0047",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(3x + 4y = 18\\) and \\(5x - 2y = 4\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(3\\)",
+        "\\(2\\)",
+        "\\(-2\\)",
+        "\\(1\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solving the system gives \\(x = 2\\) and \\(y = 3\\). So \\(x = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0048",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(2x + 5y = 5\\) and \\(3x + 2y = 13\\), what is the value of \\(y\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(1\\)",
+        "\\(-1\\)",
+        "\\(0\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solving the system gives \\(x = 5\\) and \\(y = -1\\). So \\(y = -1\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0049",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(6x + y = 10\\) and \\(2x - 3y = -10\\), what is the value of \\(x - y\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(3\\)",
+        "\\(-2\\)",
+        "\\(-3\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Solving the system gives \\(x = 1\\) and \\(y = 4\\). So \\(x - y = -3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0050",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(3x - 2y = 2\\) and \\(4x + 3y = 31\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(4\\)",
+        "\\(5\\)",
+        "\\(-4\\)",
+        "\\(3\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solving the system gives \\(x = 4\\) and \\(y = 5\\). So \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0051",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(5x + 3y = 9\\) and \\(2x + 7y = -8\\), what is the value of \\(x + y\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(1\\)",
+        "\\(3\\)",
+        "\\(-2\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solving the system gives \\(x = 3\\) and \\(y = -2\\). So \\(x + y = 1\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0052",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(7x + 2y = 13\\) and \\(3x - y = 0\\), what is the value of \\(y\\)?",
+      "options": [
+        "\\(1\\)",
+        "\\(-3\\)",
+        "\\(3\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solving the system gives \\(x = 1\\) and \\(y = 3\\). So \\(y = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0053",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(4x + 5y = 28\\) and \\(6x - y = 8\\), what is the value of \\(x\\)?",
+      "options": [
+        "\\(4\\)",
+        "\\(-2\\)",
+        "\\(3\\)",
+        "\\(2\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Solving the system gives \\(x = 2\\) and \\(y = 4\\). So \\(x = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0054",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A theater sold \\(200\\) tickets for \\(1{,}400\\) dollars. Adult tickets are \\(9\\) dollars and student tickets \\(5\\) dollars. How many adult tickets were sold?",
+      "options": [
+        "\\(100\\)",
+        "\\(75\\)",
+        "\\(125\\)",
+        "\\(80\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "With \\(a + s = 200\\) and \\(9a + 5s = 1400\\): substitute \\(s = 200 - a\\) to get \\(9a + 1000 - 5a = 1400\\), so \\(4a = 400\\) and \\(a = 100\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0055",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A chemist mixes a \\(20\\%\\) solution with a \\(50\\%\\) solution to make \\(30\\) liters of \\(30\\%\\) solution. How many liters of the \\(20\\%\\) solution are used?",
+      "options": [
+        "\\(10\\)",
+        "\\(20\\)",
+        "\\(15\\)",
+        "\\(25\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "With \\(x + y = 30\\) and \\(0.2x + 0.5y = 0.3(30) = 9\\): from the first \\(y = 30 - x\\), so \\(0.2x + 0.5(30 - x) = 9\\), giving \\(-0.3x = -6\\), \\(x = 20\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0056",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The sum of two numbers is \\(50\\). Three times the smaller equals twice the larger. What is the larger number?",
+      "options": [
+        "\\(20\\)",
+        "\\(25\\)",
+        "\\(30\\)",
+        "\\(33.3\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "With \\(x + y = 50\\) and \\(3y = 2x\\) (\\(y\\) smaller): \\(y = \\tfrac{2x}{3}\\), so \\(x + \\tfrac{2x}{3} = 50\\), giving \\(\\tfrac{5x}{3} = 50\\), \\(x = 30\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0057",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A boat travels \\(24\\) miles downstream in \\(2\\) hours and the same \\(24\\) miles upstream in \\(3\\) hours. What is the speed of the boat in still water, in miles per hour?",
+      "options": [
+        "\\(2\\)",
+        "\\(12\\)",
+        "\\(8\\)",
+        "\\(10\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Downstream \\(b + c = 12\\), upstream \\(b - c = 8\\). Adding: \\(2b = 20\\), so \\(b = 10\\) miles per hour.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0058",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Two angles are complementary. One is \\(30\\) degrees larger than the other. What is the measure of the smaller angle, in degrees?",
+      "options": [
+        "\\(30\\)",
+        "\\(60\\)",
+        "\\(45\\)",
+        "\\(15\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "With \\(x + y = 90\\) and \\(x - y = 30\\): subtracting gives \\(2y = 60\\), so \\(y = 30\\) degrees.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0059",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A vendor sells hot dogs for \\(3\\) dollars and drinks for \\(2\\) dollars. In one hour he sells \\(20\\) items for \\(52\\) dollars. How many hot dogs did he sell?",
+      "options": [
+        "\\(8\\)",
+        "\\(12\\)",
+        "\\(10\\)",
+        "\\(14\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "With \\(h + d = 20\\) and \\(3h + 2d = 52\\): substitute \\(d = 20 - h\\) to get \\(3h + 40 - 2h = 52\\), so \\(h = 12\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0060",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The tens digit of a two-digit number is \\(2\\) more than the units digit, and the digits sum to \\(12\\). What is the number?",
+      "options": [
+        "\\(57\\)",
+        "\\(48\\)",
+        "\\(75\\)",
+        "\\(84\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "With \\(t = u + 2\\) and \\(t + u = 12\\): \\(2u + 2 = 12\\), so \\(u = 5\\), \\(t = 7\\); the number is \\(75\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0061",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A \\(10\\)-pound mixture of nuts costs \\(6\\) dollars per pound. Peanuts cost \\(4\\) dollars per pound and cashews \\(9\\) dollars per pound. How many pounds of cashews are in the mix?",
+      "options": [
+        "\\(6\\)",
+        "\\(5\\)",
+        "\\(3\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "With \\(p + c = 10\\) and \\(4p + 9c = 60\\): substitute \\(p = 10 - c\\) to get \\(40 - 4c + 9c = 60\\), so \\(5c = 20\\), \\(c = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0062",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Alice is \\(4\\) years older than Ben. In \\(2\\) years, the sum of their ages will be \\(30\\). How old is Ben now?",
+      "options": [
+        "\\(11\\)",
+        "\\(15\\)",
+        "\\(13\\)",
+        "\\(9\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "With \\(a = b + 4\\) and \\((a + 2) + (b + 2) = 30\\): \\(a + b = 26\\), so \\((b + 4) + b = 26\\), giving \\(b = 11\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0063",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A gym offers plan A at \\(30\\) dollars plus \\(2\\) dollars per visit and plan B at \\(10\\) dollars plus \\(4\\) dollars per visit. At how many visits do the plans cost the same?",
+      "options": [
+        "\\(20\\)",
+        "\\(10\\)",
+        "\\(5\\)",
+        "\\(40\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Set \\(30 + 2v = 10 + 4v\\): \\(20 = 2v\\), so \\(v = 10\\) visits.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0064",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A rectangle has perimeter \\(44\\) and its length is \\(4\\) less than \\(3\\) times its width. What is the width?",
+      "options": [
+        "\\(9\\)",
+        "\\(15.5\\)",
+        "\\(6.5\\)",
+        "\\(11\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "With \\(l = 3w - 4\\) and \\(2l + 2w = 44\\) (so \\(l + w = 22\\)): \\(3w - 4 + w = 22\\), giving \\(4w = 26\\), \\(w = 6.5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0065",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The sum of two numbers is \\(3\\) and twice the first minus the second is \\(12\\). What is the first number?",
+      "options": [
+        "\\(-2\\)",
+        "\\(4\\)",
+        "\\(7\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "With \\(x + y = 3\\) and \\(2x - y = 12\\): adding gives \\(3x = 15\\), so \\(x = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0066",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A farmer has chickens and cows totaling \\(30\\) animals with \\(74\\) legs. How many cows are there?",
+      "options": [
+        "\\(7\\)",
+        "\\(23\\)",
+        "\\(15\\)",
+        "\\(8\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "With \\(c + k = 30\\) and \\(2c + 4k = 74\\) (\\(k\\) cows): substitute \\(c = 30 - k\\) to get \\(60 - 2k + 4k = 74\\), so \\(2k = 14\\), \\(k = 7\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0067",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The system \\(\\begin{cases} 3x + ky = 12 \\\\ 6x + 4y = 7 \\end{cases}\\) has no solution. What is \\(k\\)?",
+      "options": [
+        "\\(2\\)",
+        "\\(8\\)",
+        "\\(4\\)",
+        "\\(\\tfrac12\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "No solution means the lines are parallel: equal slopes. From \\(3x + ky = 12\\), slope \\(= -\\tfrac{3}{k}\\); from \\(6x + 4y = 7\\), slope \\(= -\\tfrac{6}{4} = -\\tfrac32\\). Setting \\(\\tfrac{3}{k} = \\tfrac32\\) gives \\(k = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0068",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For what value of \\(c\\) does the system \\(\\begin{cases} 2x - 3y = 5 \\\\ 4x - 6y = c \\end{cases}\\) have infinitely many solutions?",
+      "options": [
+        "\\(5\\)",
+        "\\(10\\)",
+        "\\(20\\)",
+        "\\(2.5\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Infinitely many solutions requires the second equation to be a multiple of the first. Multiplying \\(2x - 3y = 5\\) by \\(2\\) gives \\(4x - 6y = 10\\), so \\(c = 10\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0069",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A two-digit number equals \\(7\\) times the sum of its digits. Reversing its digits gives a number \\(18\\) less than the original. What is the original number?",
+      "options": [
+        "\\(24\\)",
+        "\\(63\\)",
+        "\\(42\\)",
+        "\\(21\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Let the number be \\(10t + u\\). Then \\(10t + u = 7(t + u)\\) gives \\(3t = 6u\\), so \\(t = 2u\\). Also \\((10t + u) - (10u + t) = 18\\) gives \\(9(t - u) = 18\\), so \\(t - u = 2\\). With \\(t = 2u\\): \\(u = 2\\), \\(t = 4\\); the number is \\(42\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "sys-0070",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Three pens and two notebooks cost \\(16\\) dollars, while two pens and five notebooks cost \\(18\\) dollars. What is the total cost of one pen and one notebook, in dollars?",
+      "options": [
+        "\\(34\\)",
+        "\\(5\\)",
+        "\\(7\\)",
+        "\\(6\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "With \\(3p + 2n = 16\\) and \\(2p + 5n = 18\\): solving gives \\(p = 4\\) and \\(n = 2\\), so \\(p + n = 6\\) dollars.",
+      "source": "Adaptive bank expansion"
+    }
+  ]
+}

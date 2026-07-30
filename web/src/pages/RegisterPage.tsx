@@ -128,7 +128,7 @@ export default function RegisterPage() {
         </div>
 
         {error && (
-          <p className="text-red-600 text-sm bg-red-50 rounded-lg px-3 py-2">{error}</p>
+          <p className="text-sm rounded-lg px-3 py-2" style={{ color: 'var(--error)', backgroundColor: 'var(--error-bg)' }}>{error}</p>
         )}
 
         <button

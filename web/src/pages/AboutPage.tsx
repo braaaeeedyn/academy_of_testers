@@ -19,6 +19,16 @@ function Icon({ path, className }: { path: string; className?: string }) {
 
 const EXPERIENCE = [
   {
+    role: 'AI/ML Research Intern',
+    company: 'California Baptist University – Dr. Sanders Research Lab',
+    location: 'Riverside, CA',
+    period: 'May 2026 – Present',
+    bullets: [
+      'Conducting AI/ML research under faculty supervision on applying machine learning techniques to noisy biomedical signal data, with the goal of improving prediction robustness and accuracy for a published IEEE conference paper (ISBI 2027).',
+      'Implementing and evaluating various ML models to enhance predictor performance on high-variance datasets, collaborating with a multidisciplinary research team to identify pipeline weaknesses and drive improvements toward publication-ready results.',
+    ],
+  },
+  {
     role: 'Backend Software Engineering Intern',
     company: 'TradeForge',
     location: 'Salt Lake City, UT',
@@ -63,22 +73,31 @@ const EXPERIENCE = [
 const PROJECTS = [
   {
     name: 'Academy of Testers',
-    description: 'Public exam library with curated AP practice tests, study resources, and 100K+ TikTok views driving student engagement',
+    role: 'Founder & Lead Developer',
+    location: 'Berkeley, CA',
+    period: 'Jan 2023 – Present',
+    bullets: [
+      'Built a full-stack AP and SAT prep platform on a Spring Boot and PostgreSQL backend.',
+      'Engineered a real-time adaptive SAT engine that personalizes every question, fusing Item Response Theory difficulty calibration, Bayesian Knowledge Tracing, and per-skill mastery vectors with exponential time-decay forgetting models and prerequisite-graph propagation to continuously infer each student’s evolving knowledge state.',
+      'Implemented JWT authentication with email verification and bcrypt password hashing.',
+    ],
   },
   {
-    name: 'Panda Explorer',
-    description: '1st place UC Berkeley web dev competition — interactive global panda map with Leaflet API and Discord webhooks',
-  },
-  {
-    name: 'Stock Market Simulator',
-    description: '25 dynamically priced stocks across sectors with real-time trading, economic dashboard, and multi-session saving',
+    name: 'Earthquake Forecasting Research Project',
+    role: 'Machine Learning Engineer & Researcher',
+    location: 'Riverside, CA',
+    period: 'June 2026 – Present',
+    bullets: [
+      'Architected a multi-model deep learning ensemble in PyTorch that fuses a CNN, a graph neural network, and a Transformer through a late-fusion classifier.',
+      'Applied imbalance-aware training and recall-focused evaluation, and built a cross-platform React, Vite, and Capacitor app to surface forecasts to the public.',
+    ],
   },
 ]
 
 const SKILLS = [
-  'Python', 'Java', 'SQL', 'C', 'JavaScript',
-  'Spring Boot', 'FastAPI', 'React', 'Docker',
-  'PostgreSQL', 'MySQL', 'Supabase', 'Git',
+  'Python', 'Java', 'SQL', 'PyTorch', 'Machine Learning',
+  'Deep Learning', 'NumPy', 'Pandas', 'Spring Boot', 'FastAPI',
+  'Docker', 'PostgreSQL', 'MySQL', 'Supabase', 'Vite', 'Capacitor', 'Git',
 ]
 
 export default function AboutPage() {
@@ -120,7 +139,7 @@ export default function AboutPage() {
                 Computer Science & Data Science at UC Berkeley
               </p>
               <p className="text-sm mt-0.5" style={{ color: 'var(--color-primary)', opacity: 0.5 }}>
-                B.A. CS & B.A. Data Science — Applied Mathematics & Modeling
+                B.A. CS & B.A. Data Science, Applied Mathematics & Modeling
               </p>
               <div className="flex items-center gap-3 mt-3 justify-center sm:justify-start">
                 <a
@@ -201,7 +220,7 @@ export default function AboutPage() {
               <h3 className="text-lg font-bold">Relevant Coursework</h3>
             </div>
             <div className="flex flex-wrap gap-2">
-              {['Data Structures', 'Computer Architecture', 'Artificial Intelligence', 'Data Science Principles', 'Linear Programming & Optimization'].map((c) => (
+              {['Data Structures', 'Computer Architecture', 'Artificial Intelligence', 'Data Science Principles', 'Linear Programming & Optimization', 'Data Mining & Analytics', 'Computer Science Theory & Algorithms'].map((c) => (
                 <span
                   key={c}
                   className="px-3 py-1.5 rounded-lg text-xs font-medium"
@@ -281,10 +300,25 @@ export default function AboutPage() {
                   className="rounded-xl border border-black/10 p-4"
                   style={{ backgroundColor: 'var(--color-secondary)' }}
                 >
-                  <h4 className="text-sm font-bold mb-1">{proj.name}</h4>
-                  <p className="text-xs leading-relaxed" style={{ color: 'var(--color-primary)', opacity: 0.6 }}>
-                    {proj.description}
-                  </p>
+                  <div className="flex items-start justify-between gap-2">
+                    <div>
+                      <h4 className="text-sm font-bold">{proj.name}</h4>
+                      <p className="text-xs mt-0.5" style={{ color: 'var(--color-primary)', opacity: 0.6 }}>
+                        {proj.role} · {proj.location}
+                      </p>
+                    </div>
+                    <span className="text-xs flex-shrink-0" style={{ color: 'var(--color-primary)', opacity: 0.45 }}>
+                      {proj.period}
+                    </span>
+                  </div>
+                  <ul className="mt-2 space-y-1">
+                    {proj.bullets.map((b, j) => (
+                      <li key={j} className="flex items-start gap-2 text-xs" style={{ color: 'var(--color-primary)', opacity: 0.7 }}>
+                        <span className="mt-1.5 w-1 h-1 rounded-full flex-shrink-0" style={{ backgroundColor: 'var(--color-primary)', opacity: 0.4 }} />
+                        {b}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               ))}
             </div>
@@ -329,7 +363,7 @@ function ContactForm() {
     idle: 'Send Message',
     sending: 'Sending...',
     sent: 'Message Sent!',
-    error: 'Failed to send — try again',
+    error: 'Failed to send. Try again',
   }[status]
 
   return (
@@ -352,28 +386,30 @@ function ContactForm() {
         <p className="text-xs" style={{ color: 'var(--color-primary)', opacity: 0.55 }}>
           braedynthompson@berkeley.edu
         </p>
-        <input
-          type="text"
-          placeholder="Your name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          className="w-full px-3 py-2 rounded-lg text-xs border border-black/10 focus:outline-none focus:ring-1"
-          style={{
-            backgroundColor: 'color-mix(in srgb, var(--color-primary) 5%, var(--color-secondary))',
-            color: 'var(--color-primary)',
-          }}
-        />
-        <input
-          type="email"
-          placeholder="Your email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="w-full px-3 py-2 rounded-lg text-xs border border-black/10 focus:outline-none focus:ring-1"
-          style={{
-            backgroundColor: 'color-mix(in srgb, var(--color-primary) 5%, var(--color-secondary))',
-            color: 'var(--color-primary)',
-          }}
-        />
+        <div className="flex flex-col sm:flex-row gap-3">
+          <input
+            type="text"
+            placeholder="Your name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="w-full sm:flex-1 px-3 py-2 rounded-lg text-xs border border-black/10 focus:outline-none focus:ring-1"
+            style={{
+              backgroundColor: 'color-mix(in srgb, var(--color-primary) 5%, var(--color-secondary))',
+              color: 'var(--color-primary)',
+            }}
+          />
+          <input
+            type="email"
+            placeholder="Your email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="w-full sm:flex-1 px-3 py-2 rounded-lg text-xs border border-black/10 focus:outline-none focus:ring-1"
+            style={{
+              backgroundColor: 'color-mix(in srgb, var(--color-primary) 5%, var(--color-secondary))',
+              color: 'var(--color-primary)',
+            }}
+          />
+        </div>
         <textarea
           placeholder="Your message..."
           value={message}
@@ -389,7 +425,7 @@ function ContactForm() {
           onClick={handleSend}
           disabled={status === 'sending' || status === 'sent' || !name.trim() || !email.trim() || !message.trim()}
           className="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold cursor-pointer hover:opacity-90 transition-opacity disabled:opacity-40 disabled:cursor-not-allowed"
-          style={{ backgroundColor: status === 'sent' ? '#16a34a' : status === 'error' ? '#dc2626' : 'var(--color-primary)', color: status === 'sent' || status === 'error' ? '#fff' : 'var(--color-secondary)' }}
+          style={{ backgroundColor: status === 'sent' ? 'var(--success)' : status === 'error' ? 'var(--error)' : 'var(--accent)', color: status === 'sent' || status === 'error' ? '#ffffff' : 'var(--accent-ink)' }}
         >
           <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
             <path d={status === 'sent' ? 'M5 13l4 4L19 7' : 'M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z'} />

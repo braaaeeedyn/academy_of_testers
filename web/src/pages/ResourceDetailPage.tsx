@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { getResource } from '../services/api'
-import type { StudyResource } from '../types/api'
+import { getResource, getSubject } from '../services/api'
+import type { StudyResource, Subject } from '../types/api'
+import { examSlug as toExamSlug, subjectSlug as toSubjectSlug } from '../utils/slug'
 
 export default function ResourceDetailPage() {
   const { resourceId } = useParams<{ resourceId: string }>()
   const navigate = useNavigate()
   const [resource, setResource] = useState<StudyResource | null>(null)
+  const [subject, setSubject] = useState<Subject | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -18,6 +20,11 @@ export default function ResourceDetailPage() {
         setLoading(true)
         const data = await getResource(parseInt(resourceId))
         setResource(data)
+        try {
+          setSubject(await getSubject(data.subjectId))
+        } catch {
+          setSubject(null)
+        }
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load resource')
       } finally {
@@ -27,6 +34,10 @@ export default function ResourceDetailPage() {
 
     loadResource()
   }, [resourceId])
+
+  const subjectPath = subject
+    ? `/${toExamSlug(subject.examName)}/${toSubjectSlug(subject.name)}`
+    : '/'
 
   // Extract just the path from fileUrl so it goes through the Vite proxy (same origin)
   const fileUrl = (() => {
@@ -44,7 +55,7 @@ export default function ResourceDetailPage() {
       <div className="text-center py-12">
         <div
           className="text-xl"
-          style={{ color: 'var(--color-primary)', opacity: 0.65 }}
+          style={{ color: 'var(--text-muted)' }}
         >
           Loading resource...
         </div>
@@ -55,13 +66,13 @@ export default function ResourceDetailPage() {
   if (error || !resource) {
     return (
       <div className="text-center py-12">
-        <div className="text-xl text-red-500">
+        <div className="text-xl" style={{ color: 'var(--error)' }}>
           Error: {error || 'Resource not found'}
         </div>
         <button
           onClick={() => navigate('/')}
           className="mt-4 hover:underline cursor-pointer"
-          style={{ color: 'var(--color-primary)' }}
+          style={{ color: 'var(--text)' }}
         >
           Back to Exams
         </button>
@@ -72,12 +83,9 @@ export default function ResourceDetailPage() {
   return (
     <div className="max-w-5xl mx-auto">
       <button
-        onClick={() => navigate(`/subjects/${resource.subjectId}`)}
-        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity flex-shrink-0 mb-6"
-        style={{
-          color: 'var(--color-secondary)',
-          backgroundColor: 'var(--color-primary)',
-        }}
+        onClick={() => navigate(subjectPath)}
+        className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-sm font-medium cursor-pointer border transition-colors flex-shrink-0 mb-6"
+        style={{ color: 'var(--text)', backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
           <path d="M15 19l-7-7 7-7" />
@@ -85,13 +93,13 @@ export default function ResourceDetailPage() {
         Back to {resource.subjectName}
       </button>
 
-      <div className="rounded-lg shadow-lg p-8 border border-black/35" style={{ backgroundColor: 'var(--color-secondary)' }}>
-        <h1 className="text-3xl font-bold mb-4">{resource.title}</h1>
+      <div className="rounded-2xl shadow-sm p-8 border" style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}>
+        <h1 className="font-display text-3xl font-bold mb-4">{resource.title}</h1>
 
-        <div className="flex gap-3 mb-6">
+        <div className="flex flex-wrap gap-3 mb-6">
           <span
             className="px-3 py-1 rounded-full text-sm font-medium"
-            style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
+            style={{ backgroundColor: 'var(--accent)', color: 'var(--accent-ink)' }}
           >
             {resource.subjectName}
           </span>
@@ -99,9 +107,8 @@ export default function ResourceDetailPage() {
             <span
               className="px-3 py-1 rounded-full text-sm font-medium"
               style={{
-                backgroundColor:
-                  'color-mix(in srgb, var(--color-primary) 10%, var(--color-secondary))',
-                color: 'color-mix(in srgb, var(--color-primary) 85%, var(--color-secondary))',
+                backgroundColor: 'color-mix(in srgb, var(--text) 8%, transparent)',
+                color: 'var(--text-muted)',
               }}
             >
               Year: {resource.examYear}
@@ -110,9 +117,8 @@ export default function ResourceDetailPage() {
           <span
             className="px-3 py-1 rounded-full text-sm font-medium"
             style={{
-              backgroundColor:
-                'color-mix(in srgb, var(--color-primary) 10%, var(--color-secondary))',
-              color: 'color-mix(in srgb, var(--color-primary) 85%, var(--color-secondary))',
+              backgroundColor: 'color-mix(in srgb, var(--text) 8%, transparent)',
+              color: 'var(--text-muted)',
             }}
           >
             {resource.fileType}
@@ -121,21 +127,19 @@ export default function ResourceDetailPage() {
 
         <p
           className="mb-8"
-          style={{ color: 'var(--color-primary)', opacity: 0.75 }}
+          style={{ color: 'var(--text-muted)' }}
         >
           {resource.description}
         </p>
 
         {/* Inline PDF Viewer */}
-        <div className="border-t pt-6 mb-8">
-          <h2 className="text-xl font-semibold mb-4">View Resource</h2>
+        <div className="pt-6 mb-8" style={{ borderTop: '1px solid var(--hairline)' }}>
+          <h2 className="font-display text-xl font-semibold mb-4">View Resource</h2>
           <div
             className="w-full rounded-lg overflow-hidden border"
             style={{
-              borderColor:
-                'color-mix(in srgb, var(--color-primary) 20%, transparent)',
-              backgroundColor:
-                'color-mix(in srgb, var(--color-primary) 10%, var(--color-secondary))',
+              borderColor: 'var(--hairline)',
+              backgroundColor: 'color-mix(in srgb, var(--text) 5%, var(--surface))',
             }}
           >
             <iframe
@@ -147,8 +151,8 @@ export default function ResourceDetailPage() {
           </div>
         </div>
 
-        <div className="border-t pt-6">
-          <h2 className="text-xl font-semibold mb-4">Download Resource</h2>
+        <div className="pt-6" style={{ borderTop: '1px solid var(--hairline)' }}>
+          <h2 className="font-display text-xl font-semibold mb-4">Download Resource</h2>
           <a
             href={fileUrl}
             target="_blank"
@@ -194,16 +198,16 @@ export default function ResourceDetailPage() {
         </div>
 
         <div
-          className="mt-6 p-4 rounded-lg"
+          className="mt-6 p-4 rounded-lg border"
           style={{
-            backgroundColor:
-              'color-mix(in srgb, var(--color-primary) 8%, var(--color-secondary))',
+            backgroundColor: 'color-mix(in srgb, var(--text) 5%, var(--surface))',
+            borderColor: 'var(--hairline)',
           }}
         >
           <h3 className="font-semibold mb-2">About This Resource</h3>
           <p
             className="text-sm"
-            style={{ color: 'var(--color-primary)', opacity: 0.65 }}
+            style={{ color: 'var(--text-muted)' }}
           >
             This is a free educational resource. Click the download button above to
             open or save the PDF file.

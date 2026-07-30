@@ -1,0 +1,466 @@
+[
+  {
+    "id": "alg-0055",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(4x + 1 = 33\\) Which equation has the same solution as the given equation?",
+    "options": [
+      "\\(4x = 32\\)",
+      "\\(4x = 5\\)",
+      "\\(4x = 1\\)",
+      "\\(4x = -32\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 1 from both sides of \\(4x + 1 = 33\\) to get \\(4x = 32\\), which has the same solution.",
+    "source": "P11M1 Q2"
+  },
+  {
+    "id": "lin-0036",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "For the linear function \\(f\\), the graph of \\(y = f(x)\\) in the \\(xy\\)-plane has a slope of 7 and passes through the point \\((0, 5)\\). Which equation defines \\(f\\)?",
+    "options": [
+      "\\(f(x) = 5x\\)",
+      "\\(f(x) = 35x\\)",
+      "\\(f(x) = 7x + 5\\)",
+      "\\(f(x) = 12x + 5\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "A line with slope 7 and \\(y\\)-intercept 5 (from the point \\((0, 5)\\)) is \\(f(x) = 7x + 5\\).",
+    "source": "P11M1 Q3"
+  },
+  {
+    "id": "quad-0034",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(8x^2 - 40 = 32\\) What is the positive solution to the given equation?",
+    "options": [
+      "3",
+      "4",
+      "9",
+      "72"
+    ],
+    "correctIndex": 0,
+    "explanation": "Add 40 to both sides: \\(8x^2 = 72\\), so \\(x^2 = 9\\) and the positive solution is \\(x = 3\\).",
+    "source": "P11M1 Q4"
+  },
+  {
+    "id": "stat-0017",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A total of 50 children attended a summer camp and were offered 4 types of sandwiches. A table shows the number of children who chose each type of sandwich: Turkey 15, Chicken 23, Ham 3, Vegetarian 9, for a total of 50. If one of these children is selected at random, what is the probability of selecting a child who chose a vegetarian sandwich?",
+    "options": [
+      "\\(\\frac{9}{100}\\)",
+      "\\(\\frac{9}{50}\\)",
+      "\\(\\frac{1}{4}\\)",
+      "\\(\\frac{9}{10}\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "9 of the 50 children chose vegetarian, so the probability is \\(\\frac{9}{50}\\).",
+    "source": "P11M1 Q5"
+  },
+  {
+    "id": "alg-0056",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In a chess tournament, each participant earns 1 point for each game the participant plays that ends in a draw and 3 points for each game the participant wins. A certain participant in this tournament has earned 41 points. Which equation represents this situation, where \\(d\\) represents the number of games this participant has played that ended in a draw and \\(w\\) represents the number of games this participant has won?",
+    "options": [
+      "\\(d + 3w = 41\\)",
+      "\\(3d + w = 41\\)",
+      "\\(d + \\frac{w}{3} = 41\\)",
+      "\\(\\frac{d}{3} + w = 41\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Draws contribute \\(d\\) points (1 each) and wins contribute \\(3w\\) points (3 each), totaling 41: \\(d + 3w = 41\\).",
+    "source": "P11M1 Q8"
+  },
+  {
+    "id": "alg-0057",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(g\\) is defined by \\(g(x) = \\sqrt{x} + 300\\). What is the value of \\(g(x)\\) when \\(x = 81\\)?",
+    "options": [
+      "9",
+      "300",
+      "309",
+      "381"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute \\(x = 81\\): \\(g(81) = \\sqrt{81} + 300 = 9 + 300 = 309\\).",
+    "source": "P11M1 Q9"
+  },
+  {
+    "id": "stat-0018",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A cable provider wanted to know how many of its 30,000 customers would be interested in a new service plan. The provider selected 300 customers at random and asked each customer whether the customer would be interested in the new plan. Of those surveyed, 8 said they would be interested. Which of the following is the best estimate of the total number of customers who would be interested in the new service plan?",
+    "options": [
+      "8",
+      "80",
+      "800",
+      "8,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "The sample proportion is \\(\\frac{8}{300}\\). Applied to 30,000 customers: \\(\\frac{8}{300} \\times 30{,}000 = 800\\).",
+    "source": "P11M1 Q10"
+  },
+  {
+    "id": "alg-0058",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\(64t^2s^3 - 56t^3s\\)?",
+    "options": [
+      "\\(4ts(16s^2 - 14ts)\\)",
+      "\\(4ts(16t^2s^2 - 14t)\\)",
+      "\\(4t^2s(16ts - 14s)\\)",
+      "\\(4t^2s(16s^2 - 14t)\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The greatest common factor of \\(64t^2s^3\\) and \\(56t^3s\\) is \\(8t^2s\\)... factoring \\(4t^2s\\): \\(64t^2s^3 = 4t^2s \\cdot 16s^2\\) and \\(56t^3s = 4t^2s \\cdot 14t\\), giving \\(4t^2s(16s^2 - 14t)\\).",
+    "source": "P11M1 Q11"
+  },
+  {
+    "id": "sys-0013",
+    "difficulty": "medium",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "\\(x + 5 = 14\\) \\(y = 4x^2 + 4\\) At what point \\((x, y)\\) do the graphs of the equations in the given system intersect?",
+    "options": [
+      "\\((9, 324)\\)",
+      "\\((9, 328)\\)",
+      "\\((14, 4)\\)",
+      "\\((14, 788)\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "From \\(x + 5 = 14\\), \\(x = 9\\). Then \\(y = 4(9)^2 + 4 = 4(81) + 4 = 324 + 4 = 328\\), giving the point \\((9, 328)\\).",
+    "source": "P11M1 Q12"
+  },
+  {
+    "id": "quad-0035",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which quadratic equation has exactly one distinct real solution?",
+    "options": [
+      "\\((x + 15)^2 = 0\\)",
+      "\\((x + 15)^2 = -45\\)",
+      "\\((x + 15)^2 = 45\\)",
+      "\\((x + 15)^2 = 135\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "\\((x + 15)^2 = 0\\) gives the single repeated solution \\(x = -15\\). A negative right side (option B) has no real solution, and a positive right side (options C and D) yields two distinct solutions.",
+    "source": "P11M1 Q16"
+  },
+  {
+    "id": "alg-0059",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The cost to rent a bus from Company X is 950 dollars for the first 3 hours and an additional 50 dollars per hour for each hour after the first 3 hours. If the total cost to rent the bus from Company X for \\(t\\) hours, where \\(t > 3\\), is 1,150 dollars, which equation represents this situation?",
+    "options": [
+      "\\(950(t - 3) + 50t = 1{,}150\\)",
+      "\\(950(3t) + 50t = 1{,}150\\)",
+      "\\(950 + 50(t - 3) = 1{,}150\\)",
+      "\\(950 + 50(3t) = 1{,}150\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The base cost is 950 dollars, plus 50 dollars for each hour beyond the first 3, which is \\(50(t - 3)\\). The total is \\(950 + 50(t - 3) = 1{,}150\\).",
+    "source": "P11M1 Q17"
+  },
+  {
+    "id": "geo-0048",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In right triangle \\(QRS\\), the right angle is at \\(R\\), side \\(SR\\) has length 18, and \\(QR < RS\\). Which expression represents the length of \\(\\overline{QS}\\)?",
+    "options": [
+      "\\(18\\cos Q\\)",
+      "\\(18\\sin Q\\)",
+      "\\(\\frac{18}{\\cos Q}\\)",
+      "\\(\\frac{18}{\\sin Q}\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "In the right triangle, side 18 is opposite angle \\(Q\\), and \\(\\overline{QS}\\) is the hypotenuse. Since \\(\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{18}{QS}\\), solving gives \\(QS = \\frac{18}{\\sin Q}\\).",
+    "source": "P11M1 Q19"
+  },
+  {
+    "id": "stat-0019",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A scientist measured the lengths of 240 gray seals from Muskeget Island and 120 gray seals from Sable Island. The scientist determined that the mean length of the 240 gray seals from Muskeget Island was 88 inches and the mean length of the 120 gray seals from Sable Island was 94 inches. What was the mean length of all 360 gray seals the scientist measured for this study?",
+    "options": [
+      "89",
+      "90",
+      "91",
+      "92"
+    ],
+    "correctIndex": 1,
+    "explanation": "The combined mean is the weighted average: \\(\\frac{240(88) + 120(94)}{360} = \\frac{21{,}120 + 11{,}280}{360} = \\frac{32{,}400}{360} = 90\\) inches.",
+    "source": "P11M1 Q22"
+  },
+  {
+    "id": "geo-0049",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Two lines intersect at exactly one point, forming two acute angles and two obtuse angles. The measure of one of these angles is \\((9x - 140)^\\circ\\). Which of the following could NOT be the sum of the measures of any two of these angles?",
+    "options": [
+      "\\((-18x + 280)^\\circ\\)",
+      "\\((-18x + 640)^\\circ\\)",
+      "\\((18x - 280)^\\circ\\)",
+      "\\(180^\\circ\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let the given angle be \\(9x - 140\\); its supplement is \\(180 - (9x - 140) = 320 - 9x\\). The possible sums of two angles are: two equal acute angles \\(2(9x - 140) = 18x - 280\\) (option C), two equal obtuse angles \\(2(320 - 9x) = -18x + 640\\) (option B), or one of each \\(180\\) (option D). The value \\(-18x + 280\\) cannot arise, so it is the answer.",
+    "source": "P11M1 Q24"
+  },
+  {
+    "id": "sys-0014",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(2x + 9y = 7\\) The given equation is one equation in a system of two linear equations. If the system of equations has at least one solution, which of the following equations could be the other equation in the system? I. \\(3x + 13.5y = 10.5\\) II. \\(3x - 13.5y = 10.5\\)",
+    "options": [
+      "I only",
+      "II only",
+      "I and II",
+      "Neither I nor II"
+    ],
+    "correctIndex": 2,
+    "explanation": "Equation I is the first equation multiplied by 1.5, so it represents the same line (infinitely many solutions — at least one). Equation II has a different slope, so it intersects the first line at exactly one point (also at least one solution). Both work.",
+    "source": "P11M1 Q25"
+  },
+  {
+    "id": "geo-0050",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A right rectangular prism has a base area of \\(24t\\) square centimeters (cm²). The length of the base of the rectangular prism is \\(\\frac{8}{3}\\) cm, and the height of the rectangular prism is 15 cm. Which expression represents the surface area, in cm², of the right rectangular prism?",
+    "options": [
+      "\\(48t + 160\\)",
+      "\\(318t + 80\\)",
+      "\\(1{,}968t + 80\\)",
+      "\\(360t\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The base width is \\(\\frac{24t}{8/3} = 9t\\) cm. Surface area \\(= 2(\\ell w) + 2(\\ell h) + 2(w h) = 2(24t) + 2\\left(\\frac{8}{3}\\cdot 15\\right) + 2(9t \\cdot 15) = 48t + 80 + 270t = 318t + 80\\).",
+    "source": "P11M1 Q26"
+  },
+  {
+    "id": "alg-0060",
+    "difficulty": "easy",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Which expression is equivalent to \\(6x + 5x + 4y\\)?",
+    "options": [
+      "\\(15x\\)",
+      "\\(15y\\)",
+      "\\(11x + 4y\\)",
+      "\\(30x + 4y\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Combine the like \\(x\\)-terms: \\(6x + 5x = 11x\\), giving \\(11x + 4y\\).",
+    "source": "P11M2 Q1"
+  },
+  {
+    "id": "geo-0051",
+    "difficulty": "easy",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "A rectangle has a length of 56 inches and a width of 28 inches. What is the area, in square inches, of the rectangle?",
+    "options": [
+      "28",
+      "84",
+      "168",
+      "1,568"
+    ],
+    "correctIndex": 3,
+    "explanation": "The area of a rectangle is length times width: \\(56 \\times 28 = 1{,}568\\) square inches.",
+    "source": "P11M2 Q3"
+  },
+  {
+    "id": "sys-0015",
+    "difficulty": "easy",
+    "isDiagnostic": true,
+    "answerType": "mc",
+    "stem": "\\(10x = 110\\) \\(6x - 63 = y\\) The solution to the given system of equations is \\((x, y)\\). What is the value of \\(y\\)?",
+    "options": [
+      "63",
+      "11",
+      "10",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "From \\(10x = 110\\), \\(x = 11\\). Then \\(y = 6(11) - 63 = 66 - 63 = 3\\).",
+    "source": "P11M2 Q4"
+  },
+  {
+    "id": "alg-0061",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "The function \\(f\\) is defined by \\(f(x) = 9(2x + 3)\\). For what value of \\(x\\) does \\(f(x) = 63\\)?",
+    "options": [
+      "2",
+      "5",
+      "7",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "Set \\(9(2x + 3) = 63\\). Divide by 9: \\(2x + 3 = 7\\), so \\(2x = 4\\) and \\(x = 2\\).",
+    "source": "P11M2 Q5"
+  },
+  {
+    "id": "alg-0062",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Leo goes to a packing store to buy containers and tape. Leo has 15 dollars. Each container costs 1.87 dollars and each roll of tape costs 2.40 dollars. Which inequality represents the relationship between the number of containers, \\(c\\), and the number of rolls of tape, \\(t\\), Leo can buy?",
+    "options": [
+      "\\(1.87c + 2.40t \\le 15\\)",
+      "\\(1.87c + 2.40t \\ge 15\\)",
+      "\\(2.40c + 1.87t \\le 15\\)",
+      "\\(2.40c + 1.87t \\ge 15\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Containers cost \\(1.87c\\) and tape costs \\(2.40t\\). The total spent cannot exceed 15 dollars: \\(1.87c + 2.40t \\le 15\\).",
+    "source": "P11M2 Q8"
+  },
+  {
+    "id": "exp-0028",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "There are 240 players in a tennis competition that includes 4 rounds of matches. Each player in the competition will play a match against another player in round 1. At the end of each round, the player who loses the match is eliminated and the player who won the match advances to the next round to play a match against another winning player. Which equation gives the number of players, \\(p\\), eliminated at the end of round \\(r\\), where \\(r \\le 4\\)?",
+    "options": [
+      "\\(p = 15\\left(\\frac{1}{2}\\right)^r\\)",
+      "\\(p = 15(2)^r\\)",
+      "\\(p = 240\\left(\\frac{1}{2}\\right)^r\\)",
+      "\\(p = 240(2)^r\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each round eliminates half the players remaining. Starting from 240, the number eliminated at the end of round \\(r\\) is \\(p = 240\\left(\\frac{1}{2}\\right)^r\\).",
+    "source": "P11M2 Q11"
+  },
+  {
+    "id": "lin-0037",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "Line \\(k\\) is defined by \\(y = 6x + 4\\). Line \\(j\\) is parallel to line \\(k\\) in the \\(xy\\)-plane and passes through the point \\((0, 5)\\). Which equation defines line \\(j\\)?",
+    "options": [
+      "\\(y = 6x + 5\\)",
+      "\\(y = -5x + 5\\)",
+      "\\(y = -6x + 5\\)",
+      "\\(y = 5x + 5\\)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Parallel lines share the same slope, 6. Passing through \\((0, 5)\\) gives a \\(y\\)-intercept of 5, so \\(y = 6x + 5\\).",
+    "source": "P11M2 Q12"
+  },
+  {
+    "id": "alg-0063",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "For the polynomial function \\(f\\), the graph of \\(y = f(x)\\) in the \\(xy\\)-plane passes through the points \\((-5, 0)\\), \\((1, 0)\\), and \\((4, 0)\\). Which of the following must be a factor of \\(f(x)\\)?",
+    "options": [
+      "\\(x + 1\\)",
+      "\\(x + 4\\)",
+      "\\(x - 1\\)",
+      "\\(x - 5\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "An \\(x\\)-intercept at \\((1, 0)\\) means \\(f(1) = 0\\), so \\((x - 1)\\) is a factor. The other listed factors correspond to roots (\\(-1, -4, 5\\)) that are not intercepts of the graph.",
+    "source": "P11M2 Q16"
+  },
+  {
+    "id": "lin-0038",
+    "difficulty": "medium",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A table shows four values of \\(x\\) and their corresponding values of \\(g(x)\\) for the linear function \\(g\\): when \\(x = 1\\), \\(g(x) = 32\\); when \\(x = 2\\), \\(g(x) = 28\\); when \\(x = 3\\), \\(g(x) = 24\\); when \\(x = 4\\), \\(g(x) = 20\\). The function can be written as \\(g(x) = mx + b\\), where \\(m\\) and \\(b\\) are constants. What is the value of \\(b\\)?",
+    "options": [
+      "4",
+      "16",
+      "32",
+      "36"
+    ],
+    "correctIndex": 3,
+    "explanation": "The slope is \\(m = \\frac{28 - 32}{2 - 1} = -4\\). Using \\((1, 32)\\): \\(32 = -4(1) + b\\), so \\(b = 36\\).",
+    "source": "P11M2 Q17"
+  },
+  {
+    "id": "quad-0036",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "A table shows three values of \\(x\\) and their corresponding values of \\(f(x)\\) for the quadratic function \\(f\\): when \\(x = 24\\), \\(f(x) = -8\\); when \\(x = 30\\), \\(f(x) = -8\\); when \\(x = 32\\), \\(f(x) = 8\\). Which equation defines \\(f\\)?",
+    "options": [
+      "\\(f(x) = (x - 24)(x - 30) + 4\\)",
+      "\\(f(x) = (x - 24)(x - 30) - 8\\)",
+      "\\(f(x) = (x - 8)(x - 32) + 32\\)",
+      "\\(f(x) = (x - 8)(x - 32) - 32\\)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Since \\(f(24) = f(30) = -8\\), test \\(f(x) = (x - 24)(x - 30) - 8\\): at \\(x = 24\\) and \\(x = 30\\) the product is 0, giving \\(-8\\); at \\(x = 32\\), \\((8)(2) - 8 = 16 - 8 = 8\\). All three values match.",
+    "source": "P11M2 Q18"
+  },
+  {
+    "id": "quad-0037",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(f(x) = -6x^2 + 60x - 126\\) The function \\(f\\) is defined by the given equation. Which of the following equivalent forms of the equation displays the maximum value of the function as a constant or coefficient?",
+    "options": [
+      "\\(f(x) = -6x^2 + 42x + 18x - 126\\)",
+      "\\(f(x) = -6x(x - 7) + 18(x - 7)\\)",
+      "\\(f(x) = -6(x - 5)^2 + 24\\)",
+      "\\(f(x) = -6(x - 7)(x - 3)\\)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The vertex form \\(f(x) = -6(x - 5)^2 + 24\\) shows the maximum value 24 as a constant (the parabola opens downward, so the vertex is a maximum).",
+    "source": "P11M2 Q22"
+  },
+  {
+    "id": "quad-0038",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "\\(52(x^3 + 64)(x^4 - 81) = 0\\) How many distinct real solutions does the given equation have?",
+    "options": [
+      "Exactly two",
+      "Exactly three",
+      "Exactly five",
+      "Exactly seven"
+    ],
+    "correctIndex": 1,
+    "explanation": "The factor \\(x^3 + 64 = 0\\) gives one real solution, \\(x = -4\\). The factor \\(x^4 - 81 = 0\\) gives \\(x^4 = 81\\), with two real solutions \\(x = 3\\) and \\(x = -3\\) (the other two roots are non-real). In total there are 3 distinct real solutions.",
+    "source": "P11M2 Q24"
+  },
+  {
+    "id": "geo-0052",
+    "difficulty": "hard",
+    "isDiagnostic": false,
+    "answerType": "mc",
+    "stem": "In triangle \\(XYZ\\), the measure of angle \\(X\\) is 90 degrees. Point \\(W\\) lies on segment \\(YZ\\), and segment \\(WX\\) is perpendicular to segment \\(YZ\\). The length of segment \\(WY\\) is 572, and the length of segment \\(WX\\) is 429. What is the value of \\(\\tan Z\\)?",
+    "options": [
+      "\\(\\frac{3}{5}\\)",
+      "\\(\\frac{3}{4}\\)",
+      "\\(\\frac{4}{5}\\)",
+      "\\(\\frac{4}{3}\\)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The altitude to the hypotenuse gives \\(WX^2 = WY \\cdot WZ\\), so \\(WZ = \\frac{429^2}{572} = 321.75\\). In right triangle \\(WXZ\\), \\(\\tan Z = \\frac{WX}{WZ} = \\frac{429}{321.75} = \\frac{4}{3}\\).",
+    "source": "P11M2 Q26"
+  }
+]

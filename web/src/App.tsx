@@ -1,33 +1,43 @@
 import { useState, useEffect, type ReactNode } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import { setTokenAccessor } from './services/api'
 import ClickSpark from './components/ClickSpark'
 import LogoLoop from './components/LogoLoop'
 import ExamsPage from './pages/ExamsPage'
-import SubjectsPage from './pages/SubjectsPage'
 import ResourcesPage from './pages/ResourcesPage'
 import ResourceDetailPage from './pages/ResourceDetailPage'
 import ExamHubPage from './pages/ExamHubPage'
 import ExamInfoPage from './pages/ExamInfoPage'
-import PracticePage from './pages/PracticePage'
+import ApPlannerPage from './pages/ApPlannerPage'
 import ThemesPage from './pages/ThemesPage'
-import ExamTipsPage from './pages/ExamTipsPage'
 import AboutPage from './pages/AboutPage'
 import MissionPage from './pages/MissionPage'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import VerifyPage from './pages/VerifyPage'
+import SatAdaptivePage from './pages/SatAdaptivePage'
+import SatHubPage from './pages/SatHubPage'
+import SatPrepPage from './pages/SatPrepPage'
+import SatPrepTopicPage from './pages/SatPrepTopicPage'
 import AiChat from './components/AiChat'
+import { ChatProvider } from './context/ChatContext'
+import {
+  LegacyExamHubRedirect,
+  LegacyExamRedirect,
+  LegacyExamInfoRedirect,
+  LegacyExamPracticeRedirect,
+  LegacySubjectRedirect,
+  PracticeToHubRedirect,
+} from './pages/LegacyRedirects'
 
-const SAT_SUBJECT_IDS = new Set(['30', '31', '32'])
 
 const headerBtnClass = 'nav-hover-btn flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border cursor-pointer'
 const headerBtnStyle = {
-  backgroundColor: 'var(--color-secondary)',
-  color: 'var(--color-primary)',
-  borderColor: 'var(--color-secondary)',
+  backgroundColor: 'var(--header-text)',
+  color: 'var(--header-bg)',
+  borderColor: 'var(--header-text)',
 }
 
 function NavHoverLayers() {
@@ -35,27 +45,8 @@ function NavHoverLayers() {
 }
 
 function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
-  const location = useLocation()
   const navigate = useNavigate()
   const { isAuthenticated, user, logout } = useAuth()
-  const pathname = location.pathname
-
-  const apHubMatch = pathname.match(/^\/exams\/(\d+)\/hub$/)
-  const subjectMatch = pathname.match(/^\/subjects\/(\d+)$/)
-
-  let showApLinks = false
-  let apExamId: string | null = null
-
-  if (apHubMatch) {
-    apExamId = apHubMatch[1]
-    if (apExamId === '1') showApLinks = true
-  } else if (subjectMatch) {
-    const subjectId = subjectMatch[1]
-    if (!SAT_SUBJECT_IDS.has(subjectId)) {
-      showApLinks = true
-      apExamId = '1'
-    }
-  }
 
   const handleLogout = async () => {
     await logout()
@@ -63,49 +54,19 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
   }
 
   return (
-    <header className="py-3 shadow-md" style={{ backgroundColor: 'var(--color-primary)' }}>
+    <header className="py-3 shadow-md" style={{ backgroundColor: 'var(--header-bg)', borderBottom: '1px solid var(--hairline)' }}>
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2.5 hover:opacity-85 transition-opacity cursor-pointer">
-          <svg className="w-7 h-7 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--color-secondary)' }}>
+          <svg className="w-7 h-7 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--header-text)' }}>
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
             <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
             <path d="M12 14l9-5-9-5-9 5 9 5zM12 14v7" />
           </svg>
-          <span className="text-lg font-bold tracking-tight" style={{ color: 'var(--color-secondary)' }}>
+          <span className="font-display text-lg font-bold tracking-tight" style={{ color: 'var(--header-text)' }}>
             Academy of Testers
           </span>
         </Link>
         <div className="flex items-center gap-2">
-          {showApLinks && apExamId && (
-            <>
-              <Link
-                to={`/exams/${apExamId}/exam-info`}
-                className={headerBtnClass}
-                style={headerBtnStyle}
-              >
-                <NavHoverLayers />
-                <span className="nav-hover-content">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                  </svg>
-                  Scoring
-                </span>
-              </Link>
-              <Link
-                to={`/exams/${apExamId}/tips`}
-                className={headerBtnClass}
-                style={headerBtnStyle}
-              >
-                <NavHoverLayers />
-                <span className="nav-hover-content">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                  </svg>
-                  Tips
-                </span>
-              </Link>
-            </>
-          )}
           <Link
             to="/themes"
             className={headerBtnClass}
@@ -175,15 +136,15 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
             href="https://buymeacoffee.com/braaaeeedyn"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold transition-all hover:brightness-105 cursor-pointer border border-transparent"
+            className="bmc-btn flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold cursor-pointer border border-transparent"
             style={{ backgroundColor: '#FFDD00', color: '#000000' }}
           >
             <img
               src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
               alt="Buy me a coffee"
-              className="h-5 w-5"
+              className="bmc-icon h-5 w-5"
             />
-            Buy me a coffee
+            <span className="bmc-label">Buy me a coffee</span>
           </a>
         </div>
       </div>
@@ -249,7 +210,7 @@ function AppFooter() {
   const navigate = useNavigate()
 
   return (
-    <footer className="py-4 mt-auto overflow-hidden" style={{ backgroundColor: 'var(--color-primary)' }}>
+    <footer className="py-4 mt-auto overflow-hidden" style={{ backgroundColor: 'var(--footer-bg)', borderTop: '1px solid var(--footer-border)' }}>
       <div style={{ height: '40px', position: 'relative', overflow: 'hidden' }}>
         <LogoLoop
           logos={footerLogos}
@@ -260,7 +221,7 @@ function AppFooter() {
           hoverSpeed={0}
           scaleOnHover
           fadeOut
-          fadeOutColor="var(--color-primary)"
+          fadeOutColor="var(--footer-bg)"
           ariaLabel="Social links"
           renderItem={(item, key) => {
             const logo = item as (typeof footerLogos)[number]
@@ -270,7 +231,7 @@ function AppFooter() {
                   key={key}
                   onClick={() => navigate(logo.href!)}
                   className="logoloop__link flex items-center gap-2 cursor-pointer bg-transparent border-none p-0"
-                  style={{ color: 'var(--color-secondary)', fontSize: '14px' }}
+                  style={{ color: 'var(--footer-text)', fontSize: '14px' }}
                   aria-label={logo.title}
                 >
                   <span className="logoloop__node">{logo.node}</span>
@@ -285,7 +246,7 @@ function AppFooter() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="logoloop__link flex items-center gap-2"
-                style={{ color: 'var(--color-secondary)', fontSize: '14px' }}
+                style={{ color: 'var(--footer-text)', fontSize: '14px' }}
                 aria-label={logo.title}
               >
                 <span className="logoloop__node">{logo.node}</span>
@@ -295,7 +256,7 @@ function AppFooter() {
           }}
         />
       </div>
-      <p className="text-center text-xs mt-2 opacity-40" style={{ color: 'var(--color-secondary)' }}>
+      <p className="text-center text-xs mt-2 opacity-60" style={{ color: 'var(--footer-text)' }}>
         Academy of Testers © 2025
       </p>
     </footer>
@@ -318,27 +279,39 @@ function App() {
       <AuthProvider>
         <Router>
           <TokenAccessorBridge />
-          <ClickSpark sparkColor="var(--color-primary)" sparkSize={10} sparkRadius={15} sparkCount={8} duration={400}>
-            <div className="min-h-screen flex flex-col" style={{ backgroundColor: 'var(--color-secondary)' }}>
+          <ClickSpark sparkColor="var(--accent)" sparkSize={10} sparkRadius={15} sparkCount={8} duration={400}>
+            <div className="min-h-screen flex flex-col" style={{ backgroundColor: 'var(--bg)' }}>
               <AppHeader onChatOpen={() => setChatOpen(true)} />
 
-              <main className="container mx-auto px-8 sm:px-12 py-8 flex-1">
+              <main className="w-full max-w-screen-2xl mx-auto px-8 sm:px-12 py-8 flex-1">
+                <ChatProvider openChat={() => setChatOpen(true)}>
                 <Routes>
                   <Route path="/" element={<ExamsPage />} />
                   <Route path="/login" element={<LoginPage />} />
                   <Route path="/register" element={<RegisterPage />} />
                   <Route path="/verify" element={<VerifyPage />} />
-                  <Route path="/exams/:examId/hub" element={<ExamHubPage />} />
-                  <Route path="/exams/:examId/exam-info" element={<ExamInfoPage />} />
-                  <Route path="/exams/:examId/practice" element={<PracticePage />} />
-                  <Route path="/exams/:examId/tips" element={<ExamTipsPage />} />
-                  <Route path="/exams/:examId" element={<SubjectsPage />} />
-                  <Route path="/subjects/:subjectId" element={<ResourcesPage />} />
                   <Route path="/resources/:resourceId" element={<ResourceDetailPage />} />
+                  {/* Legacy URL redirects */}
+                  <Route path="/exams/:examId/hub" element={<LegacyExamHubRedirect />} />
+                  <Route path="/exams/:examId/exam-info" element={<LegacyExamInfoRedirect />} />
+                  <Route path="/exams/:examId/practice" element={<LegacyExamPracticeRedirect />} />
+                  <Route path="/exams/:examId" element={<LegacyExamRedirect />} />
+                  <Route path="/subjects/:subjectId" element={<LegacySubjectRedirect />} />
+                  {/* Slug-based exam routes */}
+                  <Route path="/ap/planner" element={<ApPlannerPage />} />
+                  <Route path="/:examSlug/hub" element={<ExamHubPage />} />
+                  <Route path="/:examSlug/exam-info" element={<ExamInfoPage />} />
+                  <Route path="/:examSlug/practice" element={<PracticeToHubRedirect />} />
+                  <Route path="/:examSlug/:subjectSlug" element={<ResourcesPage />} />
+                  <Route path="/sat/hub" element={<SatHubPage />} />
+                  <Route path="/sat/prep" element={<SatPrepPage />} />
+                  <Route path="/sat/prep/:topicId" element={<SatPrepTopicPage />} />
+                  <Route path="/sat/adaptive" element={<SatAdaptivePage />} />
                   <Route path="/themes" element={<ThemesPage />} />
                   <Route path="/about" element={<AboutPage />} />
                   <Route path="/mission" element={<MissionPage />} />
                 </Routes>
+                </ChatProvider>
               </main>
 
               <AppFooter />

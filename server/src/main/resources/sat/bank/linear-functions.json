@@ -1,0 +1,1125 @@
+{
+  "skillId": "linear-functions",
+  "questions": [
+    {
+      "id": "lin-0001",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Hana deposited a fixed amount into her bank account each month. The function \\(f(t) = 100 + 25t\\) gives the amount, in dollars, in Hana's bank account after \\(t\\) monthly deposits. What is the best interpretation of 25 in this context?",
+      "options": [
+        "With each monthly deposit, the amount in Hana's bank account increased by 25 dollars.",
+        "Before Hana made any monthly deposits, the amount in her bank account was 25 dollars.",
+        "After 1 monthly deposit, the amount in Hana's bank account was 25 dollars.",
+        "Hana made a total of 25 monthly deposits."
+      ],
+      "correctIndex": 0,
+      "explanation": "In \\(f(t) = 100 + 25t\\), the coefficient 25 is the rate of change per deposit, so the amount increases by 25 dollars with each monthly deposit.",
+      "source": "P4M1 Q5"
+    },
+    {
+      "id": "lin-0002",
+      "difficulty": "medium",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "Line \\(t\\) in the \\(xy\\)-plane has a slope of \\(-\\frac{1}{3}\\) and passes through the point \\((9, 10)\\). Which equation defines line \\(t\\)?",
+      "options": [
+        "\\(y = 13x - \\frac{1}{3}\\)",
+        "\\(y = 9x + 10\\)",
+        "\\(y = -\\frac{x}{3} + 10\\)",
+        "\\(y = -\\frac{x}{3} + 13\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Using point-slope with slope \\(-\\frac{1}{3}\\) through \\((9, 10)\\): \\(y = -\\frac{1}{3}(x - 9) + 10 = -\\frac{x}{3} + 3 + 10 = -\\frac{x}{3} + 13\\).",
+      "source": "P4M1 Q15"
+    },
+    {
+      "id": "lin-0003",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The table shows selected values from function \\(f\\): \\(f(-1) = 16\\), \\(f(0) = 17\\), \\(f(1) = 18\\), \\(f(2) = 19\\). Which of the following is the best description of function \\(f\\)?",
+      "options": [
+        "Decreasing linear",
+        "Increasing linear",
+        "Decreasing exponential",
+        "Increasing exponential"
+      ],
+      "correctIndex": 1,
+      "explanation": "The values increase by a constant 1 for each unit increase in \\(x\\), which describes an increasing linear function.",
+      "source": "P5M1 Q5"
+    },
+    {
+      "id": "lin-0004",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Argon is placed inside a container with a constant volume. The graph shows the estimated pressure \\(y\\), in pounds per square inch (psi), of the argon when its temperature is \\(x\\) kelvins. What is the estimated pressure of the argon, in psi, when the temperature is 600 kelvins?",
+      "options": [
+        "6",
+        "12",
+        "300",
+        "600"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reading the graph at \\(x = 600\\) kelvins, the line gives an estimated pressure of about 12 psi.",
+      "source": "P5M2 Q2"
+    },
+    {
+      "id": "lin-0005",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A veterinarian recommends that each day a certain rabbit should eat 25 calories per pound of the rabbit's weight, plus an additional 11 calories. Which equation represents this situation, where \\(c\\) is the total number of calories the veterinarian recommends the rabbit should eat each day if the rabbit's weight is \\(x\\) pounds?",
+      "options": [
+        "\\(c = 25x\\)",
+        "\\(c = 36x\\)",
+        "\\(c = 11x + 25\\)",
+        "\\(c = 25x + 11\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "25 calories per pound is \\(25x\\), plus an additional 11 calories: \\(c = 25x + 11\\).",
+      "source": "P5M2 Q5"
+    },
+    {
+      "id": "lin-0006",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Line \\(r\\) in the \\(xy\\)-plane has a slope of 4 and passes through the point \\((0, 6)\\). Which equation defines line \\(r\\)?",
+      "options": [
+        "\\(y = -6x + 4\\)",
+        "\\(y = 6x + 4\\)",
+        "\\(y = 4x - 6\\)",
+        "\\(y = 4x + 6\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "A line with slope 4 and \\(y\\)-intercept 6 is \\(y = 4x + 6\\).",
+      "source": "P5M2 Q8"
+    },
+    {
+      "id": "lin-0007",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(f(x) = x + b\\) For the linear function \\(f\\), \\(b\\) is a constant. When \\(x = 0\\), \\(f(x) = 30\\). What is the value of \\(b\\)?",
+      "options": [
+        "-30",
+        "\\(-\\frac{1}{30}\\)",
+        "\\(\\frac{1}{30}\\)",
+        "30"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(f(0) = 0 + b = b\\), and \\(f(0) = 30\\), so \\(b = 30\\).",
+      "source": "P6M1 Q8"
+    },
+    {
+      "id": "lin-0008",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The relationship between two variables, \\(x\\) and \\(y\\), is linear. For every increase in the value of \\(x\\) by 1, the value of \\(y\\) increases by 8. When the value of \\(x\\) is 2, the value of \\(y\\) is 18. Which equation represents this relationship?",
+      "options": [
+        "\\(y = 2x + 18\\)",
+        "\\(y = 2x + 8\\)",
+        "\\(y = 8x + 2\\)",
+        "\\(y = 3x + 26\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The slope is 8. Using \\((2, 18)\\): \\(18 = 8(2) + b \\Rightarrow b = 2\\). So \\(y = 8x + 2\\).",
+      "source": "P6M1 Q16"
+    },
+    {
+      "id": "lin-0009",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The table shows three values of \\(x\\) and their corresponding values of \\(g(x)\\), where \\(g(x) = \\frac{f(x)}{x + 3}\\) and \\(f\\) is a linear function: \\(g(-27) = 3\\), \\(g(-9) = 0\\), \\(g(21) = 5\\). What is the \\(y\\)-intercept of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?",
+      "options": [
+        "\\((0, 36)\\)",
+        "\\((0, 12)\\)",
+        "\\((0, 4)\\)",
+        "\\((0, -9)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "From \\(g(x) = \\frac{f(x)}{x+3}\\), \\(f(x) = g(x)(x+3)\\). At \\(x = -27\\): \\(f = 3(-24) = -72\\); at \\(x = -9\\): \\(f = 0\\); at \\(x = 21\\): \\(f = 5(24) = 120\\). The line through \\((-9, 0)\\) and \\((21, 120)\\) has slope \\(\\frac{120}{30} = 4\\), so \\(f(x) = 4(x + 9) = 4x + 36\\). The \\(y\\)-intercept is \\((0, 36)\\).",
+      "source": "P6M1 Q26"
+    },
+    {
+      "id": "lin-0010",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) defined by \\(f(t) = 14t + 9\\) gives the estimated length, in inches, of a vine plant \\(t\\) months after Tavon purchased it. Which of the following is the best interpretation of 9 in this context?",
+      "options": [
+        "Tavon will keep the vine plant for 9 months.",
+        "The vine plant is expected to grow 9 inches each month.",
+        "The vine plant is expected to grow to a maximum length of 9 inches.",
+        "The estimated length of the vine plant was 9 inches when Tavon purchased it."
+      ],
+      "correctIndex": 3,
+      "explanation": "The constant 9 is the value of \\(f(0)\\), the length at purchase (when \\(t = 0\\)), so the vine was estimated to be 9 inches when Tavon purchased it.",
+      "source": "P6M2 Q11"
+    },
+    {
+      "id": "lin-0011",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Line \\(k\\) is defined by \\(y = 7x + \\frac{1}{8}\\). Line \\(j\\) is perpendicular to line \\(k\\) in the \\(xy\\)-plane. What is the slope of line \\(j\\)?",
+      "options": [
+        "-8",
+        "\\(-\\frac{1}{7}\\)",
+        "\\(\\frac{1}{8}\\)",
+        "7"
+      ],
+      "correctIndex": 1,
+      "explanation": "The slope of line \\(k\\) is 7. A perpendicular line has the negative reciprocal slope: \\(-\\frac{1}{7}\\).",
+      "source": "P6M2 Q18"
+    },
+    {
+      "id": "lin-0012",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The table shows the linear relationship between the number of cars, \\(c\\), on a commuter train and the maximum number of passengers and crew, \\(p\\), that the train can carry: 3 cars gives 174, 5 cars gives 284, 10 cars gives 559. Which equation represents the linear relationship between \\(c\\) and \\(p\\)?",
+      "options": [
+        "\\(55c - p = -9\\)",
+        "\\(55c - p = 9\\)",
+        "\\(55p - c = -9\\)",
+        "\\(55p - c = 9\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The slope is \\(\\frac{284 - 174}{5 - 3} = 55\\). Using \\((3, 174)\\): \\(p = 55c + b \\Rightarrow 174 = 165 + b \\Rightarrow b = 9\\), so \\(p = 55c + 9\\), i.e. \\(55c - p = -9\\).",
+      "source": "P6M2 Q19"
+    },
+    {
+      "id": "lin-0013",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = \\frac{1}{2}(x + 6)\\). What is the value of \\(f(4)\\)?",
+      "options": [
+        "20",
+        "12",
+        "10",
+        "5"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(f(4) = \\frac{1}{2}(4 + 6) = \\frac{1}{2}(10) = 5\\).",
+      "source": "P7M1 Q10"
+    },
+    {
+      "id": "lin-0014",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The table shows three values of \\(x\\) and their corresponding values of \\(y\\), where \\(s\\) is a constant: \\((-2s, 24)\\), \\((-s, 21)\\), \\((s, 15)\\). There is a linear relationship between \\(x\\) and \\(y\\). Which of the following equations represents this relationship?",
+      "options": [
+        "\\(sx + 3y = 18s\\)",
+        "\\(3x + sy = 18s\\)",
+        "\\(3x + sy = 18\\)",
+        "\\(sx + 3y = 18\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The slope is \\(\\frac{15 - 21}{s - (-s)} = \\frac{-6}{2s} = -\\frac{3}{s}\\). Using point \\((-s, 21)\\): \\(y - 21 = -\\frac{3}{s}(x + s)\\), which rearranges to \\(3x + sy = 18s\\).",
+      "source": "P7M1 Q24"
+    },
+    {
+      "id": "lin-0015",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The cost of renting a carpet cleaner is 52 dollars for the first day and 26 dollars for each additional day. Which of the following functions gives the cost \\(C(d)\\), in dollars, of renting the carpet cleaner for \\(d\\) days, where \\(d\\) is a positive integer?",
+      "options": [
+        "\\(C(d) = 26d + 26\\)",
+        "\\(C(d) = 26d + 52\\)",
+        "\\(C(d) = 52d - 26\\)",
+        "\\(C(d) = 52d + 78\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first day costs 52 dollars, and each of the remaining \\(d - 1\\) days costs 26 dollars: \\(C(d) = 52 + 26(d - 1) = 26d + 26\\).",
+      "source": "P7M1 Q26"
+    },
+    {
+      "id": "lin-0016",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For the linear function \\(f\\), the table shows three values of \\(x\\) and their corresponding values of \\(f(x)\\): \\((-4, 0)\\), \\(\\left(-\\frac{19}{5}, 1\\right)\\), \\(\\left(-\\frac{18}{5}, 2\\right)\\). If \\(h(x) = f(x) - 13\\), which equation defines \\(h\\)?",
+      "options": [
+        "\\(h(x) = 5x - 4\\)",
+        "\\(h(x) = 5x + 7\\)",
+        "\\(h(x) = 5x + 9\\)",
+        "\\(h(x) = 5x + 20\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The slope of \\(f\\) is \\(\\frac{1 - 0}{-\\frac{19}{5} - (-4)} = \\frac{1}{\\frac{1}{5}} = 5\\). Using \\((-4, 0)\\): \\(f(x) = 5(x + 4) = 5x + 20\\). Then \\(h(x) = f(x) - 13 = 5x + 20 - 13 = 5x + 7\\).",
+      "source": "P7M2 Q22"
+    },
+    {
+      "id": "lin-0017",
+      "difficulty": "hard",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "The linear function \\(g\\) is defined by \\(g(x) = b - 15x\\), where \\(b\\) is a constant. If \\(g(c + 7) = \\frac{c}{4}\\), where \\(c\\) is a constant, which of the following expressions represents the value of \\(b\\)?",
+      "options": [
+        "\\(\\frac{15c}{4}\\)",
+        "\\(\\frac{19c}{4} + 7\\)",
+        "\\(\\frac{61c}{4} + 105\\)",
+        "\\(15c + 105\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "\\(g(c + 7) = b - 15(c + 7) = b - 15c - 105\\). Setting equal to \\(\\frac{c}{4}\\): \\(b = \\frac{c}{4} + 15c + 105 = \\frac{c + 60c}{4} + 105 = \\frac{61c}{4} + 105\\).",
+      "source": "P7M2 Q23"
+    },
+    {
+      "id": "lin-0018",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A bus is traveling at a constant speed along a straight portion of road. The equation \\(d = 30t\\) gives the distance \\(d\\), in feet from a road marker, that the bus will be \\(t\\) seconds after passing the marker. How many feet from the marker will the bus be 2 seconds after passing the marker?",
+      "options": [
+        "30",
+        "32",
+        "60",
+        "90"
+      ],
+      "correctIndex": 2,
+      "explanation": "Substitute \\(t = 2\\): \\(d = 30(2) = 60\\) feet.",
+      "source": "P8M1 Q1"
+    },
+    {
+      "id": "lin-0019",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the equation of the line that passes through the point \\((0, 5)\\) and is parallel to the graph of \\(y = 7x + 4\\) in the \\(xy\\)-plane?",
+      "options": [
+        "\\(y = 5x\\)",
+        "\\(y = 7x + 5\\)",
+        "\\(y = 7x\\)",
+        "\\(y = 5x + 7\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A parallel line has the same slope, 7. Passing through \\((0, 5)\\) gives \\(y\\)-intercept 5, so \\(y = 7x + 5\\).",
+      "source": "P8M1 Q10"
+    },
+    {
+      "id": "lin-0020",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A scatterplot shows data that decreases as \\(x\\) increases, with points starting near \\(y = 10\\) at \\(x = 1\\) and dropping to near \\(y = 1\\) at \\(x = 5\\). Which of the following equations is the most appropriate linear model for the data shown in the scatterplot?",
+      "options": [
+        "\\(y = -1.9x - 10.1\\)",
+        "\\(y = -1.9x + 10.1\\)",
+        "\\(y = 1.9x - 10.1\\)",
+        "\\(y = 1.9x + 10.1\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The data decreases, so the slope is negative, and the \\(y\\)-intercept is positive (near 10). This matches \\(y = -1.9x + 10.1\\).",
+      "source": "P8M1 Q11"
+    },
+    {
+      "id": "lin-0021",
+      "difficulty": "easy",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "A line is graphed in the \\(xy\\)-plane passing through the origin region and crossing the \\(y\\)-axis at 5. What is the \\(y\\)-intercept of the line graphed?",
+      "options": [
+        "\\((-5, 0)\\)",
+        "\\((0, 0)\\)",
+        "\\((0, 5)\\)",
+        "\\((0, 9)\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The line crosses the \\(y\\)-axis at 5, so the \\(y\\)-intercept is \\((0, 5)\\).",
+      "source": "P8M2 Q1"
+    },
+    {
+      "id": "lin-0022",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Sean rents a tent at a cost of 11 dollars per day plus a one-time insurance fee of 10 dollars. Which equation represents the total cost \\(c\\), in dollars, to rent the tent with insurance for \\(d\\) days?",
+      "options": [
+        "\\(c = 11(d + 10)\\)",
+        "\\(c = 10(d + 11)\\)",
+        "\\(c = 11d + 10\\)",
+        "\\(c = 10d + 11\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The daily cost is \\(11d\\) and the one-time fee is 10, so \\(c = 11d + 10\\).",
+      "source": "P8M2 Q4"
+    },
+    {
+      "id": "lin-0023",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = \\frac{1}{10}x - 2\\). What is the \\(y\\)-intercept of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?",
+      "options": [
+        "\\((-2, 0)\\)",
+        "\\((0, -2)\\)",
+        "\\(\\left(0, \\frac{1}{10}\\right)\\)",
+        "\\(\\left(\\frac{1}{10}, 0\\right)\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The \\(y\\)-intercept occurs at \\(x = 0\\): \\(f(0) = \\frac{1}{10}(0) - 2 = -2\\), so the point is \\((0, -2)\\).",
+      "source": "P8M2 Q8"
+    },
+    {
+      "id": "lin-0024",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A producer is creating a video with a length of 70 minutes. The video will consist of segments that are 1 minute long and segments that are 3 minutes long. Which equation represents this situation, where \\(x\\) represents the number of 1-minute segments and \\(y\\) represents the number of 3-minute segments?",
+      "options": [
+        "\\(4xy = 70\\)",
+        "\\(4(x + y) = 70\\)",
+        "\\(3x + y = 70\\)",
+        "\\(x + 3y = 70\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Each 1-minute segment contributes \\(x\\) minutes and each 3-minute segment contributes \\(3y\\) minutes, totaling 70: \\(x + 3y = 70\\).",
+      "source": "P8M2 Q9"
+    },
+    {
+      "id": "lin-0025",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A certain township consists of a 5-hectare industrial park and a 24-hectare neighborhood. The total number of trees in the township is 4,529. The equation \\(5x + 24y = 4{,}529\\) represents this situation. Which of the following is the best interpretation of \\(x\\) in this context?",
+      "options": [
+        "The average number of trees per hectare in the industrial park",
+        "The average number of trees per hectare in the neighborhood",
+        "The total number of trees in the industrial park",
+        "The total number of trees in the neighborhood"
+      ],
+      "correctIndex": 0,
+      "explanation": "The term \\(5x\\) multiplies the 5 hectares of industrial park by \\(x\\), so \\(x\\) is the average number of trees per hectare in the industrial park.",
+      "source": "P8M2 Q17"
+    },
+    {
+      "id": "lin-0026",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A line in the \\(xy\\)-plane has a slope of \\(\\frac{1}{9}\\) and passes through the point \\((0, 14)\\). Which equation represents this line?",
+      "options": [
+        "\\(y = -\\frac{1}{9}x - 14\\)",
+        "\\(y = -\\frac{1}{9}x + 14\\)",
+        "\\(y = \\frac{1}{9}x - 14\\)",
+        "\\(y = \\frac{1}{9}x + 14\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "With slope \\(\\frac{1}{9}\\) and \\(y\\)-intercept 14 (from the point \\((0, 14)\\)): \\(y = \\frac{1}{9}x + 14\\).",
+      "source": "P9M2 Q5"
+    },
+    {
+      "id": "lin-0027",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A table shows three values of \\(x\\) and their corresponding values of \\(y\\): when \\(x = 0\\), \\(y = 18\\); when \\(x = 1\\), \\(y = 13\\); when \\(x = 2\\), \\(y = 8\\). There is a linear relationship between \\(x\\) and \\(y\\). Which of the following equations represents this relationship?",
+      "options": [
+        "\\(y = 18x + 13\\)",
+        "\\(y = 18x + 18\\)",
+        "\\(y = -5x + 13\\)",
+        "\\(y = -5x + 18\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The \\(y\\)-intercept is 18 (at \\(x = 0\\)). The slope is \\(\\frac{13 - 18}{1 - 0} = -5\\). So \\(y = -5x + 18\\).",
+      "source": "P9M2 Q8"
+    },
+    {
+      "id": "lin-0028",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = 7x - 84\\). What is the \\(x\\)-intercept of the graph of \\(y = f(x)\\) in the \\(xy\\)-plane?",
+      "options": [
+        "\\((-12, 0)\\)",
+        "\\((-7, 0)\\)",
+        "\\((7, 0)\\)",
+        "\\((12, 0)\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Set \\(f(x) = 0\\): \\(7x - 84 = 0 \\Rightarrow x = 12\\), so the \\(x\\)-intercept is \\((12, 0)\\).",
+      "source": "P9M2 Q10"
+    },
+    {
+      "id": "lin-0029",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(w(t) = 300 - 4t\\) The function \\(w\\) models the volume of liquid, in milliliters, in a container \\(t\\) seconds after it begins draining from a hole at the bottom. According to the model, what is the predicted volume, in milliliters, draining from the container each second?",
+      "options": [
+        "300",
+        "296",
+        "75",
+        "4"
+      ],
+      "correctIndex": 3,
+      "explanation": "The coefficient of \\(t\\) is \\(-4\\), meaning the volume decreases by 4 milliliters each second, so 4 milliliters drains per second.",
+      "source": "P9M2 Q12"
+    },
+    {
+      "id": "lin-0030",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y > 13x - 18\\) For which of the following tables are all the values of \\(x\\) and their corresponding values of \\(y\\) solutions to the given inequality?",
+      "options": [
+        "\\((3, 21), (5, 47), (8, 86)\\)",
+        "\\((3, 26), (5, 42), (8, 86)\\)",
+        "\\((3, 16), (5, 42), (8, 81)\\)",
+        "\\((3, 26), (5, 52), (8, 91)\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "For each pair, check \\(y > 13x - 18\\). At \\(x = 3\\), need \\(y > 21\\); at \\(x = 5\\), need \\(y > 47\\); at \\(x = 8\\), need \\(y > 86\\). Only the table \\((3, 26), (5, 52), (8, 91)\\) satisfies all three: \\(26 > 21\\), \\(52 > 47\\), \\(91 > 86\\).",
+      "source": "P9M2 Q22"
+    },
+    {
+      "id": "lin-0031",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(s = 40 + 3t\\) The equation gives the speed \\(s\\), in miles per hour, of a certain car \\(t\\) seconds after it began to accelerate. What is the speed, in miles per hour, of the car 5 seconds after it began to accelerate?",
+      "options": [
+        "40",
+        "43",
+        "45",
+        "55"
+      ],
+      "correctIndex": 3,
+      "explanation": "Substitute \\(t = 5\\): \\(s = 40 + 3(5) = 40 + 15 = 55\\) miles per hour.",
+      "source": "P10M1 Q5"
+    },
+    {
+      "id": "lin-0032",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(h\\) is defined by \\(h(x) = 4x + 28\\). The graph of \\(y = h(x)\\) in the \\(xy\\)-plane has an \\(x\\)-intercept at \\((a, 0)\\) and a \\(y\\)-intercept at \\((0, b)\\), where \\(a\\) and \\(b\\) are constants. What is the value of \\(a + b\\)?",
+      "options": [
+        "21",
+        "28",
+        "32",
+        "35"
+      ],
+      "correctIndex": 0,
+      "explanation": "The \\(x\\)-intercept: \\(0 = 4x + 28 \\Rightarrow x = -7\\), so \\(a = -7\\). The \\(y\\)-intercept: \\(h(0) = 28\\), so \\(b = 28\\). Then \\(a + b = -7 + 28 = 21\\).",
+      "source": "P10M1 Q18"
+    },
+    {
+      "id": "lin-0033",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y < 5x + 6\\) For which of the following tables are all the values of \\(x\\) and their corresponding values of \\(y\\) solutions to the given inequality?",
+      "options": [
+        "\\((3, 17), (5, 27), (7, 37)\\)",
+        "\\((3, 17), (5, 35), (7, 37)\\)",
+        "\\((3, 25), (5, 35), (7, 45)\\)",
+        "\\((3, 21), (5, 31), (7, 41)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Check \\(y < 5x + 6\\). At \\(x = 3\\), need \\(y < 21\\); at \\(x = 5\\), need \\(y < 31\\); at \\(x = 7\\), need \\(y < 41\\). Only the table \\((3, 17), (5, 27), (7, 37)\\) satisfies all: \\(17 < 21\\), \\(27 < 31\\), \\(37 < 41\\).",
+      "source": "P10M1 Q19"
+    },
+    {
+      "id": "lin-0034",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(f(x) = 8x + 4\\) The function \\(f\\) gives the estimated height, in feet, of a willow tree \\(x\\) years after its height was first measured. Which statement is the best interpretation of 4 in this context?",
+      "options": [
+        "The tree will be measured each year for 4 years.",
+        "The tree is estimated to grow to a maximum height of 4 feet.",
+        "The estimated height of the tree increased by 4 feet each year.",
+        "The estimated height of the tree was 4 feet when it was first measured."
+      ],
+      "correctIndex": 3,
+      "explanation": "The constant term 4 is the value of \\(f(0)\\), the height at \\(x = 0\\), which is when the tree was first measured. So the tree was 4 feet tall when first measured.",
+      "source": "P10M2 Q9"
+    },
+    {
+      "id": "lin-0035",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Keenan made 32 cups of vegetable broth. Keenan then filled \\(x\\) small jars and \\(y\\) large jars with all the vegetable broth he made. The equation \\(3x + 5y = 32\\) represents this situation. Which is the best interpretation of \\(5y\\) in this context?",
+      "options": [
+        "The number of large jars Keenan filled",
+        "The number of small jars Keenan filled",
+        "The total number of cups of vegetable broth in the large jars",
+        "The total number of cups of vegetable broth in the small jars"
+      ],
+      "correctIndex": 2,
+      "explanation": "Each large jar holds 5 cups, and \\(y\\) is the number of large jars, so \\(5y\\) is the total number of cups of vegetable broth in the large jars.",
+      "source": "P10M2 Q19"
+    },
+    {
+      "id": "lin-0036",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For the linear function \\(f\\), the graph of \\(y = f(x)\\) in the \\(xy\\)-plane has a slope of 7 and passes through the point \\((0, 5)\\). Which equation defines \\(f\\)?",
+      "options": [
+        "\\(f(x) = 5x\\)",
+        "\\(f(x) = 35x\\)",
+        "\\(f(x) = 7x + 5\\)",
+        "\\(f(x) = 12x + 5\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "A line with slope 7 and \\(y\\)-intercept 5 (from the point \\((0, 5)\\)) is \\(f(x) = 7x + 5\\).",
+      "source": "P11M1 Q3"
+    },
+    {
+      "id": "lin-0037",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Line \\(k\\) is defined by \\(y = 6x + 4\\). Line \\(j\\) is parallel to line \\(k\\) in the \\(xy\\)-plane and passes through the point \\((0, 5)\\). Which equation defines line \\(j\\)?",
+      "options": [
+        "\\(y = 6x + 5\\)",
+        "\\(y = -5x + 5\\)",
+        "\\(y = -6x + 5\\)",
+        "\\(y = 5x + 5\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parallel lines share the same slope, 6. Passing through \\((0, 5)\\) gives a \\(y\\)-intercept of 5, so \\(y = 6x + 5\\).",
+      "source": "P11M2 Q12"
+    },
+    {
+      "id": "lin-0038",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A table shows four values of \\(x\\) and their corresponding values of \\(g(x)\\) for the linear function \\(g\\): when \\(x = 1\\), \\(g(x) = 32\\); when \\(x = 2\\), \\(g(x) = 28\\); when \\(x = 3\\), \\(g(x) = 24\\); when \\(x = 4\\), \\(g(x) = 20\\). The function can be written as \\(g(x) = mx + b\\), where \\(m\\) and \\(b\\) are constants. What is the value of \\(b\\)?",
+      "options": [
+        "4",
+        "16",
+        "32",
+        "36"
+      ],
+      "correctIndex": 3,
+      "explanation": "The slope is \\(m = \\frac{28 - 32}{2 - 1} = -4\\). Using \\((1, 32)\\): \\(32 = -4(1) + b\\), so \\(b = 36\\).",
+      "source": "P11M2 Q17"
+    },
+    {
+      "id": "lin-0039",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A line has slope \\(2\\) and passes through \\((0, 3)\\). What is its equation?",
+      "options": [
+        "\\(y = 2x + 3\\)",
+        "\\(y = 3x + 2\\)",
+        "\\(y = 2x - 3\\)",
+        "\\(y = 3x - 2\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slope-intercept form \\(y = mx + b\\) with \\(m = 2\\), \\(b = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0040",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the slope of the line \\(y = -4x + 1\\)?",
+      "options": [
+        "\\(1\\)",
+        "\\(-4\\)",
+        "\\(4\\)",
+        "\\(-\\tfrac14\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "In \\(y = mx + b\\), the slope is the coefficient of \\(x\\), which is \\(-4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0041",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the \\(y\\)-intercept of \\(y = 5x - 8\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(8\\)",
+        "\\(-8\\)",
+        "\\(1.6\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The \\(y\\)-intercept is \\(b = -8\\), the value of \\(y\\) when \\(x = 0\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0042",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Find the slope of the line through \\((1, 2)\\) and \\((4, 11)\\).",
+      "options": [
+        "\\(\\tfrac13\\)",
+        "\\(9\\)",
+        "\\(13\\)",
+        "\\(3\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Slope \\(= \\dfrac{11 - 2}{4 - 1} = \\dfrac{9}{3} = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0043",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A line passes through \\((2, 5)\\) and \\((6, 5)\\). What is its slope?",
+      "options": [
+        "\\(0\\)",
+        "undefined",
+        "\\(1\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The \\(y\\)-values are equal, so the line is horizontal and its slope is \\(0\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0044",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(f(x) = 3x - 4\\), what is \\(f(2)\\)?",
+      "options": [
+        "\\(10\\)",
+        "\\(2\\)",
+        "\\(-4\\)",
+        "\\(6\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Substitute: \\(f(2) = 3(2) - 4 = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0045",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(f(x) = -2x + 7\\), what is \\(f(0)\\)?",
+      "options": [
+        "\\(0\\)",
+        "\\(5\\)",
+        "\\(7\\)",
+        "\\(-2\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "\\(f(0) = -2(0) + 7 = 7\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0046",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the \\(x\\)-intercept of \\(y = 2x - 6\\)?",
+      "options": [
+        "\\(-6\\)",
+        "\\(6\\)",
+        "\\(-3\\)",
+        "\\(3\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Set \\(y = 0\\): \\(0 = 2x - 6\\), so \\(x = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0047",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A line has slope \\(-3\\) and \\(y\\)-intercept \\(4\\). What is its equation?",
+      "options": [
+        "\\(y = -3x + 4\\)",
+        "\\(y = 4x - 3\\)",
+        "\\(y = -3x - 4\\)",
+        "\\(y = 3x + 4\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use \\(y = mx + b\\) with \\(m = -3\\) and \\(b = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0048",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For \\(f(x) = \\tfrac12 x + 1\\), what is \\(f(6)\\)?",
+      "options": [
+        "\\(3\\)",
+        "\\(4\\)",
+        "\\(7\\)",
+        "\\(13\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(f(6) = \\tfrac12(6) + 1 = 3 + 1 = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0049",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the slope of the line \\(2y = 6x + 10\\)?",
+      "options": [
+        "\\(6\\)",
+        "\\(5\\)",
+        "\\(3\\)",
+        "\\(2\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Divide by \\(2\\): \\(y = 3x + 5\\). The slope is \\(3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0050",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Find the slope of the line through \\((-2, 1)\\) and \\((2, 9)\\).",
+      "options": [
+        "\\(\\tfrac12\\)",
+        "\\(4\\)",
+        "\\(8\\)",
+        "\\(2\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Slope \\(= \\dfrac{9 - 1}{2 - (-2)} = \\dfrac{8}{4} = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0051",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A vertical line passes through \\((3, 7)\\). What is its equation?",
+      "options": [
+        "\\(x = 3\\)",
+        "\\(y = 7\\)",
+        "\\(y = 3\\)",
+        "\\(x = 7\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "A vertical line has the form \\(x = a\\); here it passes through \\(x = 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0052",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(y = 4x\\), what is \\(y\\) when \\(x = 2.5\\)?",
+      "options": [
+        "\\(6.5\\)",
+        "\\(10\\)",
+        "\\(1.6\\)",
+        "\\(8\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(y = 4 \\times 2.5 = 10\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0053",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The line \\(y = -x + 5\\) has what slope?",
+      "options": [
+        "\\(1\\)",
+        "\\(5\\)",
+        "\\(-1\\)",
+        "\\(-5\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The coefficient of \\(x\\) is \\(-1\\), so the slope is \\(-1\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0054",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the value of \\(x\\) when \\(y = 0\\) for \\(y = -3x + 12\\)?",
+      "options": [
+        "\\(12\\)",
+        "\\(-4\\)",
+        "\\(-12\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Set \\(0 = -3x + 12\\), so \\(3x = 12\\) and \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0055",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A line passes through \\((0, -2)\\) with slope \\(3\\). What is \\(y\\) when \\(x = 4\\)?",
+      "options": [
+        "\\(10\\)",
+        "\\(12\\)",
+        "\\(6\\)",
+        "\\(1\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The line is \\(y = 3x - 2\\), so \\(y = 3(4) - 2 = 10\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0056",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(f(x) = 2x + 5\\), for what \\(x\\) is \\(f(x) = 17\\)?",
+      "options": [
+        "\\(11\\)",
+        "\\(6\\)",
+        "\\(39\\)",
+        "\\(12\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solve \\(2x + 5 = 17\\): \\(2x = 12\\), so \\(x = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0057",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which point lies on the line \\(y = 2x - 1\\)?",
+      "options": [
+        "\\((3, 7)\\)",
+        "\\((1, 3)\\)",
+        "\\((3, 5)\\)",
+        "\\((0, 1)\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Check \\((3, 5)\\): \\(2(3) - 1 = 5\\). It satisfies the equation.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0058",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A line has slope \\(\\tfrac25\\). If \\(x\\) increases by \\(10\\), how much does \\(y\\) increase?",
+      "options": [
+        "\\(25\\)",
+        "\\(2\\)",
+        "\\(20\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Change in \\(y\\) is slope times change in \\(x\\): \\(\\tfrac25 \\times 10 = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0059",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the slope of a line parallel to \\(y = 7x - 2\\)?",
+      "options": [
+        "\\(7\\)",
+        "\\(-2\\)",
+        "\\(-\\tfrac17\\)",
+        "\\(2\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parallel lines have equal slopes, so the slope is \\(7\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0060",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Rewrite \\(4x + 2y = 8\\) in slope-intercept form.",
+      "options": [
+        "\\(y = 2x + 4\\)",
+        "\\(y = -2x + 4\\)",
+        "\\(y = -2x + 8\\)",
+        "\\(y = 4x + 2\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solve for \\(y\\): \\(2y = -4x + 8\\), so \\(y = -2x + 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0061",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A line passes through \\((1, 4)\\) and \\((3, 10)\\). What is its equation in slope-intercept form?",
+      "options": [
+        "\\(y = 3x + 1\\)",
+        "\\(y = 3x - 1\\)",
+        "\\(y = 2x + 2\\)",
+        "\\(y = 3x + 4\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slope \\(= \\dfrac{10 - 4}{3 - 1} = 3\\). Using \\((1, 4)\\): \\(4 = 3(1) + b\\), so \\(b = 1\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0062",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A taxi charges a \\(3\\) dollar base fee plus \\(2\\) dollars per mile. Which function gives the cost \\(C\\) for \\(m\\) miles?",
+      "options": [
+        "\\(C = 3m + 2\\)",
+        "\\(C = 2m + 3\\)",
+        "\\(C = 2m - 3\\)",
+        "\\(C = 5m\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The base fee is the constant and the per-mile rate is the slope: \\(C = 2m + 3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0063",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The line through \\((2, 7)\\) is perpendicular to \\(y = 2x + 1\\). What is its slope?",
+      "options": [
+        "\\(2\\)",
+        "\\(-2\\)",
+        "\\(-\\tfrac12\\)",
+        "\\(\\tfrac12\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Perpendicular slopes are negative reciprocals: the negative reciprocal of \\(2\\) is \\(-\\tfrac12\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0064",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A candle burns at a constant rate. It is \\(12\\) cm tall after \\(2\\) hours and \\(6\\) cm tall after \\(5\\) hours. What was its original height, in cm?",
+      "options": [
+        "\\(18\\)",
+        "\\(14\\)",
+        "\\(12\\)",
+        "\\(16\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rate \\(= \\dfrac{6 - 12}{5 - 2} = -2\\) cm/hr. At \\(t = 0\\): height \\(= 12 - (-2)(2) = 16\\) cm.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0065",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For the line \\(3x - 4y = 12\\), what is the \\(y\\)-intercept?",
+      "options": [
+        "\\(-3\\)",
+        "\\(4\\)",
+        "\\(-4\\)",
+        "\\(3\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set \\(x = 0\\): \\(-4y = 12\\), so \\(y = -3\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0066",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A line has \\(x\\)-intercept \\(4\\) and \\(y\\)-intercept \\(-8\\). What is its slope?",
+      "options": [
+        "\\(-2\\)",
+        "\\(2\\)",
+        "\\(\\tfrac12\\)",
+        "\\(-32\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Slope \\(= \\dfrac{-8 - 0}{0 - 4} = \\dfrac{-8}{-4} = 2\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0067",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(f(x) = mx + b\\), \\(f(2) = 9\\), and \\(f(5) = 21\\), what is \\(m\\)?",
+      "options": [
+        "\\(3\\)",
+        "\\(12\\)",
+        "\\(4\\)",
+        "\\(6\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Slope \\(m = \\dfrac{21 - 9}{5 - 2} = \\dfrac{12}{3} = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0068",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A gym membership costs \\(20\\) dollars to join plus \\(15\\) dollars per month. After how many months does the total reach \\(155\\) dollars?",
+      "options": [
+        "\\(10.3\\)",
+        "\\(11\\)",
+        "\\(7\\)",
+        "\\(9\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Solve \\(15x + 20 = 155\\): \\(15x = 135\\), so \\(x = 9\\) months.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0069",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Line \\(k\\) passes through \\((-3, 2)\\) and is perpendicular to the line \\(2x + 5y = 10\\). What is the equation of line \\(k\\)?",
+      "options": [
+        "\\(y = \\tfrac52 x + \\tfrac{19}{2}\\)",
+        "\\(y = -\\tfrac25 x + \\tfrac{4}{5}\\)",
+        "\\(y = \\tfrac52 x - \\tfrac{19}{2}\\)",
+        "\\(y = -\\tfrac52 x + 2\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The given line has slope \\(-\\tfrac25\\), so line \\(k\\) has slope \\(\\tfrac52\\). Through \\((-3, 2)\\): \\(2 = \\tfrac52(-3) + b\\), so \\(b = 2 + \\tfrac{15}{2} = \\tfrac{19}{2}\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "lin-0070",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A line passes through \\((1, a)\\) and \\((a, 7)\\) and has slope \\(2\\). What is the value of \\(a\\)?",
+      "options": [
+        "\\(9\\)",
+        "\\(3\\)",
+        "\\(5\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Slope \\(= \\dfrac{7 - a}{a - 1} = 2\\). Then \\(7 - a = 2(a - 1) = 2a - 2\\), so \\(9 = 3a\\) and \\(a = 3\\). Check: \\((1, 3)\\) and \\((3, 7)\\) give slope \\(\\tfrac{4}{2} = 2\\).",
+      "source": "Adaptive bank expansion"
+    }
+  ]
+}

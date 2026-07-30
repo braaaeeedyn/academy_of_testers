@@ -62,10 +62,10 @@ public class AiUsageService {
 
     // Window still active
     if (usage.getUsageCount() >= maxPerHour) {
-      long secondsUntilReset =
-          Duration.between(LocalDateTime.now(), windowEnd).getSeconds();
+      long secondsUntilReset = Duration.between(LocalDateTime.now(), windowEnd).getSeconds();
       throw new RateLimitExceededException(
-          "Rate limit reached — you can send up to " + maxPerHour
+          "Rate limit reached — you can send up to "
+              + maxPerHour
               + " messages per hour. Please try again later.",
           Math.max(secondsUntilReset, 0));
     }
@@ -79,10 +79,7 @@ public class AiUsageService {
 
     if (existing.isEmpty()) {
       return Map.of(
-          "used", 0,
-          "limit", maxPerHour,
-          "remaining", maxPerHour,
-          "resetsAt", (Object) "N/A");
+          "used", 0, "limit", maxPerHour, "remaining", maxPerHour, "resetsAt", (Object) "N/A");
     }
 
     AiUsage usage = existing.get();
@@ -91,10 +88,7 @@ public class AiUsageService {
     // If window expired, report fresh state
     if (LocalDateTime.now().isAfter(windowEnd)) {
       return Map.of(
-          "used", 0,
-          "limit", maxPerHour,
-          "remaining", maxPerHour,
-          "resetsAt", (Object) "N/A");
+          "used", 0, "limit", maxPerHour, "remaining", maxPerHour, "resetsAt", (Object) "N/A");
     }
 
     int used = usage.getUsageCount();

@@ -1,0 +1,54 @@
+{
+  "skillId": "quadratics-polynomials",
+  "questions": [
+    {
+      "id": "quad-0001",
+      "difficulty": "easy",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "What are the solutions to \\(x^2 - 5x + 6 = 0\\)?",
+      "options": [
+        "\\(x = 1\\) and \\(x = 6\\)",
+        "\\(x = 2\\) and \\(x = 3\\)",
+        "\\(x = -2\\) and \\(x = -3\\)",
+        "\\(x = -1\\) and \\(x = -6\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factor the left side: \\(x^2 - 5x + 6 = (x - 2)(x - 3)\\). Setting each factor to zero gives \\(x = 2\\) and \\(x = 3\\). Check: \\(2 + 3 = 5\\) matches the middle coefficient and \\(2 \\cdot 3 = 6\\) matches the constant.",
+      "source": "CB Practice Test 1 #4"
+    },
+    {
+      "id": "quad-0002",
+      "difficulty": "medium",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\[ f(x) = 2x^2 - 12x + 23. \\] What is the \\(x\\)-coordinate of the vertex of the graph of \\(f\\) in the \\(xy\\)-plane?",
+      "options": ["\\(x = -3\\)", "\\(x = 3\\)", "\\(x = 5\\)", "\\(x = 6\\)"],
+      "correctIndex": 1,
+      "explanation": "The vertex of \\(ax^2 + bx + c\\) sits at \\(x = -\\frac{b}{2a}\\). Here \\(a = 2\\) and \\(b = -12\\), so \\(x = \\frac{12}{4} = 3\\). Completing the square confirms it: \\(f(x) = 2(x - 3)^2 + 5\\), whose vertex is \\((3, 5)\\).",
+      "source": "CB Practice Test 2 #14"
+    },
+    {
+      "id": "quad-0003",
+      "difficulty": "hard",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "For which value of \\(k\\) does \\[ 2x^2 + kx + 8 = 0 \\] have exactly one real solution?",
+      "options": ["\\(k = 4\\)", "\\(k = 8\\)", "\\(k = \\pm 8\\)", "\\(k = \\pm 4\\sqrt{2}\\)"],
+      "correctIndex": 2,
+      "explanation": "Exactly one real solution means the discriminant is zero: \\(b^2 - 4ac = 0\\). Substituting \\(a = 2\\), \\(b = k\\), \\(c = 8\\) gives \\(k^2 - 64 = 0\\), so \\(k = \\pm 8\\). Both signs are valid, which rules out the single-value options.",
+      "source": "CB Practice Test 3 #19"
+    },
+    {
+      "id": "quad-0004",
+      "difficulty": "",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "",
+      "options": ["", "", "", ""],
+      "correctIndex": 0,
+      "explanation": "",
+      "source": ""
+    }
+  ]
+}

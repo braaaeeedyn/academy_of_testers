@@ -21,6 +21,10 @@ A full-stack AP/SAT study platform that provides curated practice exams, subject
 
 ## Quick Start
 
+> **Local dev launch:** see **[RUNNING.md](RUNNING.md)** for the one-command
+> launcher (`.\scripts\start-dev.ps1`) and an explanation of the Postgres
+> **port 5433** workaround (a WSL2 native Postgres squats on `localhost:5432`).
+
 ### Prerequisites
 - Docker & Docker Compose
 - Java 17+ (for local development)

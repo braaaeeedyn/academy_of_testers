@@ -26,14 +26,10 @@ public class AuthController {
   }
 
   @PostMapping("/register")
-  public ResponseEntity<Map<String, Object>> register(
-      @Valid @RequestBody RegisterRequest request) {
+  public ResponseEntity<Map<String, Object>> register(@Valid @RequestBody RegisterRequest request) {
     User user = authService.register(request);
     return ResponseEntity.status(HttpStatus.CREATED)
-        .body(
-            Map.of(
-                "message", "Verification code sent to your email",
-                "userId", user.getId()));
+        .body(Map.of("message", "Verification code sent to your email", "userId", user.getId()));
   }
 
   @PostMapping("/login")

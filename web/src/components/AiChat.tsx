@@ -11,7 +11,7 @@ interface Message {
 
 const MAX_CHARS = 1000
 const INITIAL_REMAINING = 10
-const CHAT_FONT = "'Helvetica Neue', 'Lexend', Arial, sans-serif"
+const CHAT_FONT = 'var(--font-body)'
 const LEXEND_URL =
   'https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap'
 
@@ -301,8 +301,8 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
           {error && (
             <div className="text-center">
               <p
-                className="text-red-700 bg-red-50 rounded-lg px-3 py-2 inline-block"
-                style={{ fontSize: '0.7rem' }}
+                className="rounded-lg px-3 py-2 inline-block"
+                style={{ fontSize: '0.7rem', color: 'var(--error)', backgroundColor: 'var(--error-bg)' }}
               >
                 {error}
               </p>
@@ -384,8 +384,8 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
               style={{
                 color:
                   input.length > MAX_CHARS * 0.9
-                    ? '#dc2626'
-                    : 'var(--color-primary)',
+                    ? 'var(--error)'
+                    : 'var(--text)',
                 opacity: input.length > MAX_CHARS * 0.9 ? 1 : undefined,
               }}
             >

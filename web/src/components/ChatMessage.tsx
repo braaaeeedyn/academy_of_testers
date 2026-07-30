@@ -17,7 +17,7 @@ function applyInlineFormatting(text: string): string {
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     .replace(
       /`(.+?)`/g,
-      '<code style="background:rgba(0,0,0,0.08);padding:1px 5px;border-radius:3px;font-size:0.9em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">$1</code>',
+      '<code style="background:var(--code-inline-bg);padding:1px 5px;border-radius:3px;font-size:0.9em;font-family:var(--font-mono)">$1</code>',
     )
 }
 
@@ -59,7 +59,7 @@ function renderMarkdownText(raw: string): string {
       html += `<li style="margin:2px 0;">${applyInlineFormatting(trimmed.replace(/^\d+\.\s/, ''))}</li>`
     } else if (trimmed === '---' || trimmed === '***') {
       html +=
-        '<hr style="border:none;border-top:1px solid rgba(0,0,0,0.15);margin:8px 0;"/>'
+        '<hr style="border:none;border-top:1px solid var(--hairline);margin:8px 0;"/>'
     } else if (trimmed === '') {
       html += '<div style="height:5px;"></div>'
     } else {
@@ -78,7 +78,7 @@ function renderSegment(seg: MathSegment): string {
 
   if (seg.type === 'code') {
     const escaped = escapeHtml(seg.content)
-    return `<pre style="background:#1e1e2e;color:#cdd6f4;padding:12px 14px;border-radius:8px;font-size:0.8em;line-height:1.5;overflow-x:auto;margin:6px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"><code>${escaped}</code></pre>`
+    return `<pre style="background:var(--code-bg);color:var(--code-text);padding:12px 14px;border-radius:8px;font-size:0.8em;line-height:1.5;overflow-x:auto;margin:6px 0;font-family:var(--font-mono)"><code>${escaped}</code></pre>`
   }
 
   try {

@@ -1,6 +1,5 @@
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
-import { contactPlugin } from './plugins/contactPlugin'
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
@@ -31,14 +30,14 @@ export default defineConfig(({ mode }) => {
   }
 
   return {
-    plugins: [
-      react(),
-      contactPlugin(env.SMTP_USER, env.SMTP_PASS),
-    ],
+    plugins: [react()],
     server: {
       port: 5173,
       host: true,
       proxy: apiProxy,
+      // Docker on Windows/macOS doesn't forward filesystem events across the
+      // bind mount, so poll for changes to keep HMR working in the container.
+      watch: { usePolling: true, interval: 200 },
     },
     preview: {
       host: true,

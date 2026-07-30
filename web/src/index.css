@@ -2,9 +2,263 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --color-primary: #02343F;
-  --color-secondary: #F0EDCC;
+/* ============================================================
+   THEME SYSTEM
+   Six brand design systems, applied via [data-theme] on <html>.
+   Each theme sets a full token set:
+     - semantic:  --bg --surface --surface-elevated --text --text-muted
+                  --hairline --accent --accent-ink --link
+     - chrome:    --header-bg --header-text --footer-bg --footer-text
+     - type:      --font-display --font-body --font-mono
+     - shape:     --radius-btn --radius-card --radius-input --radius-pill
+     - legacy:    --color-primary (=ink)  --color-secondary (=canvas)
+                  kept so existing inline styles stay on-brand.
+   ============================================================ */
+
+:root,
+[data-theme='mintlify'] {
+  --bg: #ffffff;
+  --surface: #f7f7f7;
+  --surface-elevated: #ffffff;
+  --text: #0a0a0a;
+  --text-muted: #5a5a5c;
+  --hairline: #e5e5e5;
+  --accent: #00d4a4;
+  --accent-ink: #06231d;
+  --link: #3772cf;
+
+  /* Status + code tokens (light defaults; overridden by dark themes below).
+     Shared across all light themes via :root, so mastercard/miro/wired
+     inherit these unless they override. */
+  --success: #16a34a;
+  --success-bg: #d1fae5;
+  --success-ink: #065f46;
+  --error: #dc2626;
+  --error-bg: #fee2e2;
+  --error-ink: #991b1b;
+  --warning: #d97706;
+  --warning-bg: #fef3c7;
+  --code-bg: #1e1e2e;
+  --code-text: #cdd6f4;
+  --code-inline-bg: rgba(0, 0, 0, 0.08);
+
+  --header-bg: #0a0a0a;
+  --header-text: #ffffff;
+  --footer-bg: #eef2f0;
+  --footer-text: #45524d;
+  --footer-border: #dbe4e0;
+
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --radius-btn: 9999px;
+  --radius-card: 12px;
+  --radius-input: 8px;
+  --radius-pill: 9999px;
+
+  --color-primary: #0a0a0a;
+  --color-secondary: #ffffff;
+}
+
+[data-theme='mastercard'] {
+  --bg: #f3f0ee;
+  --surface: #fcfbfa;
+  --surface-elevated: #ffffff;
+  --text: #141413;
+  --text-muted: #696969;
+  --hairline: #e0dcd6;
+  --accent: #cf4500;
+  --accent-ink: #ffffff;
+  --link: #3860be;
+
+  --header-bg: #ffffff;
+  --header-text: #141413;
+  --footer-bg: #ebe3dc;
+  --footer-text: #5b504a;
+  --footer-border: #ddd2c9;
+
+  --font-display: 'Sofia Sans', Arial, sans-serif;
+  --font-body: 'Sofia Sans', Arial, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --radius-btn: 24px;
+  --radius-card: 40px;
+  --radius-input: 20px;
+  --radius-pill: 9999px;
+
+  --color-primary: #141413;
+  --color-secondary: #f3f0ee;
+}
+
+[data-theme='miro'] {
+  --bg: #ffffff;
+  --surface: #f7f8fa;
+  --surface-elevated: #ffffff;
+  --text: #1c1c1e;
+  --text-muted: #6b6f7e;
+  --hairline: #e0e2e8;
+  --accent: #ffd02f;
+  --accent-ink: #1c1c1e;
+  --link: #4262ff;
+
+  --header-bg: #ffffff;
+  --header-text: #1c1c1e;
+  --footer-bg: #f2f3f7;
+  --footer-text: #565b6a;
+  --footer-border: #e0e2e8;
+
+  --font-display: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --radius-btn: 9999px;
+  --radius-card: 16px;
+  --radius-input: 12px;
+  --radius-pill: 9999px;
+
+  --color-primary: #1c1c1e;
+  --color-secondary: #ffffff;
+}
+
+[data-theme='resend'] {
+  --bg: #000000;
+  --surface: #0a0a0c;
+  --surface-elevated: #101012;
+  --text: #fcfdff;
+  --text-muted: #a1a4a5;
+  --hairline: rgba(255, 255, 255, 0.12);
+  --accent: #9370ff;
+  --accent-ink: #140a26;
+  --link: #3b9eff;
+
+  --success: #11ff99;
+  --success-bg: rgba(34, 255, 153, 0.16);
+  --success-ink: #7dffcb;
+  --error: #ff5c73;
+  --error-bg: rgba(255, 32, 71, 0.18);
+  --error-ink: #ffb3bf;
+  --warning: #ffc53d;
+  --warning-bg: rgba(255, 197, 61, 0.16);
+  --code-bg: #101012;
+  --code-text: #e6e6e6;
+  --code-inline-bg: rgba(255, 255, 255, 0.10);
+
+  --header-bg: #000000;
+  --header-text: #fcfdff;
+  --footer-bg: #050308;
+  --footer-text: #b9a8ff;
+  --footer-border: rgba(147, 112, 255, 0.30);
+
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --radius-btn: 8px;
+  --radius-card: 12px;
+  --radius-input: 8px;
+  --radius-pill: 9999px;
+
+  --color-primary: #fcfdff;
+  --color-secondary: #000000;
+}
+
+[data-theme='wired'] {
+  --bg: #ffffff;
+  --surface: #f5f5f5;
+  --surface-elevated: #ffffff;
+  --text: #000000;
+  --text-muted: #757575;
+  --hairline: #e0e0e0;
+  --accent: #057dbc;
+  --accent-ink: #ffffff;
+  --link: #057dbc;
+
+  --header-bg: #ffffff;
+  --header-text: #000000;
+  --footer-bg: #000000;
+  --footer-text: #ffffff;
+  --footer-border: #000000;
+
+  --font-display: 'Playfair Display', 'Times New Roman', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --radius-btn: 0px;
+  --radius-card: 0px;
+  --radius-input: 0px;
+  --radius-pill: 0px;
+
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+}
+
+[data-theme='clickhouse'] {
+  --bg: #0a0a0a;
+  --surface: #1a1a1a;
+  --surface-elevated: #242424;
+  --text: #ffffff;
+  --text-muted: #888888;
+  --hairline: #2a2a2a;
+  --accent: #faff69;
+  --accent-ink: #0a0a0a;
+  --link: #3b82f6;
+
+  --success: #22c55e;
+  --success-bg: rgba(34, 197, 94, 0.16);
+  --success-ink: #86efac;
+  --error: #ef4444;
+  --error-bg: rgba(239, 68, 68, 0.16);
+  --error-ink: #fca5a5;
+  --warning: #f59e0b;
+  --warning-bg: rgba(245, 158, 11, 0.16);
+  --code-bg: #1a1a1a;
+  --code-text: #e6e6e6;
+  --code-inline-bg: rgba(255, 255, 255, 0.10);
+
+  --header-bg: #0a0a0a;
+  --header-text: #ffffff;
+  --footer-bg: #0a0a0a;
+  --footer-text: #c7c98a;
+  --footer-border: rgba(250, 255, 105, 0.26);
+
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --radius-btn: 8px;
+  --radius-card: 12px;
+  --radius-input: 8px;
+  --radius-pill: 9999px;
+
+  --color-primary: #ffffff;
+  --color-secondary: #0a0a0a;
+}
+
+/* Dark themes: many pages use `border-black/N` hairlines that vanish on a
+   dark canvas. Remap those utilities to translucent-white hairlines so cards
+   and inputs keep their definition on Resend and ClickHouse. */
+[data-theme='resend'] .border-black\/10,
+[data-theme='clickhouse'] .border-black\/10 { border-color: rgba(255, 255, 255, 0.10) !important; }
+[data-theme='resend'] .border-black\/15,
+[data-theme='clickhouse'] .border-black\/15 { border-color: rgba(255, 255, 255, 0.13) !important; }
+[data-theme='resend'] .border-black\/20,
+[data-theme='clickhouse'] .border-black\/20 { border-color: rgba(255, 255, 255, 0.16) !important; }
+[data-theme='resend'] .border-black\/25,
+[data-theme='clickhouse'] .border-black\/25 { border-color: rgba(255, 255, 255, 0.18) !important; }
+[data-theme='resend'] .border-black\/35,
+[data-theme='clickhouse'] .border-black\/35 { border-color: rgba(255, 255, 255, 0.22) !important; }
+
+/* Wired is a print-magazine aesthetic: flatten rounded utilities so the
+   editorial, squared-off character comes through across existing pages. */
+[data-theme='wired'] .rounded,
+[data-theme='wired'] .rounded-sm,
+[data-theme='wired'] .rounded-md,
+[data-theme='wired'] .rounded-lg,
+[data-theme='wired'] .rounded-xl,
+[data-theme='wired'] .rounded-2xl,
+[data-theme='wired'] .rounded-3xl {
+  border-radius: 0 !important;
 }
 
 @keyframes testy-pulse {
@@ -73,9 +327,9 @@
   z-index: -1;
   border-radius: 4px;
   transform: translateY(0%);
-  background-color: #01e056;
-  border: solid 1px #01e0572d;
-  color: white;
+  background-color: var(--accent);
+  border: solid 1px color-mix(in srgb, var(--accent-ink) 18%, transparent);
+  color: var(--accent-ink);
   transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
@@ -101,16 +355,16 @@
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   padding-block: 0.875rem;
   padding-inline: 4rem;
-  background-color: var(--color-primary);
-  border-radius: 9999px;
+  background-color: var(--accent);
+  border-radius: var(--radius-pill);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: var(--color-secondary);
+  color: var(--accent-ink);
   gap: 10px;
   font-weight: 600;
-  border: 3px solid color-mix(in srgb, var(--color-secondary) 30%, transparent);
+  border: 3px solid color-mix(in srgb, var(--accent-ink) 20%, transparent);
   outline: none;
   overflow: hidden;
   font-size: 16px;
@@ -157,6 +411,73 @@
   to { left: 100%; }
 }
 
+/* Exam card guide — animated gradient ring after Start Practicing scroll */
+.exam-card-guide-wrap {
+  position: relative;
+  padding: 3px;
+  border-radius: 1.125rem;
+  background: linear-gradient(
+    120deg,
+    var(--accent),
+    color-mix(in srgb, var(--accent) 35%, var(--surface)),
+    color-mix(in srgb, var(--accent) 70%, var(--bg)),
+    var(--accent)
+  );
+  background-size: 250% 250%;
+  animation: exam-card-gradient-flow 2.8s ease-in-out infinite;
+  box-shadow:
+    0 0 0 0 color-mix(in srgb, var(--accent) 0%, transparent),
+    0 0 28px color-mix(in srgb, var(--accent) 40%, transparent);
+}
+
+.exam-card-guide-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: calc(1.125rem - 3px);
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, var(--accent) 18%, transparent),
+    transparent 55%
+  );
+  opacity: 0.55;
+  animation: exam-card-shimmer 2.8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.exam-card-guide-wrap > a {
+  position: relative;
+  z-index: 1;
+  border-color: transparent !important;
+}
+
+@keyframes exam-card-gradient-flow {
+  0%,
+  100% {
+    background-position: 0% 50%;
+    box-shadow:
+      0 0 0 0 color-mix(in srgb, var(--accent) 0%, transparent),
+      0 0 24px color-mix(in srgb, var(--accent) 35%, transparent);
+  }
+  50% {
+    background-position: 100% 50%;
+    box-shadow:
+      0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent),
+      0 0 36px color-mix(in srgb, var(--accent) 55%, transparent);
+  }
+}
+
+@keyframes exam-card-shimmer {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.75;
+  }
+}
+
 /* Nav button hover effect */
 .nav-hover-btn {
   position: relative;
@@ -193,14 +514,149 @@
   gap: 0.5rem;
 }
 
+/* Buy me a coffee button hover effect */
+.bmc-btn {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s ease-out, box-shadow 0.25s ease-out, filter 0.25s ease-out;
+}
+
+.bmc-btn::after {
+  content: '';
+  position: absolute;
+  top: -3rem;
+  right: 0;
+  height: 8rem;
+  width: 2.5rem;
+  transform: translateX(3rem) rotate(12deg);
+  background: white;
+  opacity: 0.35;
+  transition: transform 0.8s ease-out;
+}
+
+.bmc-btn:hover::after {
+  transform: translateX(-12rem) rotate(12deg);
+}
+
+.bmc-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+  box-shadow: 0 6px 18px -4px rgba(255, 221, 0, 0.6);
+}
+
+.bmc-btn:active {
+  transform: translateY(0);
+}
+
+.bmc-btn .bmc-icon {
+  position: relative;
+  z-index: 1;
+  transform-origin: 50% 90%;
+}
+
+.bmc-btn:hover .bmc-icon {
+  animation: bmc-cup-tilt 0.7s ease-in-out;
+}
+
+.bmc-btn .bmc-label {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes bmc-cup-tilt {
+  0%, 100% {
+    transform: rotate(0deg) translateY(0);
+  }
+  25% {
+    transform: rotate(-12deg) translateY(-2px);
+  }
+  60% {
+    transform: rotate(9deg) translateY(-1px);
+  }
+  80% {
+    transform: rotate(-4deg) translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bmc-btn,
+  .bmc-btn:hover {
+    transform: none;
+  }
+
+  .bmc-btn::after {
+    display: none;
+  }
+
+  .bmc-btn:hover .bmc-icon {
+    animation: none;
+  }
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  color: var(--text);
+  background-color: var(--bg);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Exam hub: staggered tile entrance (enhances an always-mounted default) */
+@keyframes hub-tile-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.hub-tile-in {
+  animation: hub-tile-in 0.42s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hub-tile-in {
+    animation: none;
+  }
+}
+
+/* Exam hub: crossfade for rotating study-tip text */
+@keyframes hub-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hub-fade {
+  animation: hub-fade 0.4s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hub-fade {
+    animation: none;
+  }
+}
+
+code, pre, kbd, samp, .font-mono {
+  font-family: var(--font-mono);
+}
+
+/* SAT Academy dashboard: stack the board and calendar on narrow screens. */
+@media (max-width: 820px) {
+  .sat-dash-grid {
+    grid-template-columns: 1fr !important;
+  }
 }

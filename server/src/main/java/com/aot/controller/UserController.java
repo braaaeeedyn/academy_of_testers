@@ -39,8 +39,7 @@ public class UserController {
             .orElseThrow(() -> new ResourceNotFoundException("User not found"));
 
     AuthResponse.UserInfo userInfo =
-        new AuthResponse.UserInfo(
-            user.getId(), user.getDisplayName(), user.getEmail());
+        new AuthResponse.UserInfo(user.getId(), user.getDisplayName(), user.getEmail());
     return ResponseEntity.ok(userInfo);
   }
 
@@ -57,8 +56,7 @@ public class UserController {
     userRepository.save(user);
 
     AuthResponse.UserInfo userInfo =
-        new AuthResponse.UserInfo(
-            user.getId(), user.getDisplayName(), user.getEmail());
+        new AuthResponse.UserInfo(user.getId(), user.getDisplayName(), user.getEmail());
     return ResponseEntity.ok(userInfo);
   }
 

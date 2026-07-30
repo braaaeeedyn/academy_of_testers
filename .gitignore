@@ -13,3 +13,6 @@ Thumbs.db
 # Environment
 .env
 .env.local
+
+# Machine-local Docker overrides (see RUNNING.md)
+docker-compose.override.yml

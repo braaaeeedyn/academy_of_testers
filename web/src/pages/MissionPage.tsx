@@ -35,7 +35,7 @@ export default function MissionPage() {
         </button>
       </div>
 
-      {/* Top row — Why + Inequality side by side */}
+      {/* Top row: Why + Inequality side by side */}
       <div className="flex flex-col lg:flex-row gap-6 mb-6">
         {/* Why This Exists */}
         <div
@@ -62,7 +62,7 @@ export default function MissionPage() {
               I remember sitting in a classroom where students were being told they weren't "the type" to take AP exams, while across town, students were being enrolled in AP courses by default. That contrast stuck with me. It wasn't a difference in potential; it was a difference in expectation and opportunity. Academy of Testers exists because I believe every student deserves someone, or something, in their corner telling them they can do this, and then giving them the tools to prove it.
             </p>
             <p>
-              This project started small, just a handful of practice questions I compiled for friends. But as I saw how much of a difference even a few good practice problems could make, I realized this could help far more people. What started as a personal project has grown into something much bigger, and it continues to grow because the need is real.
+              What began as a handful of practice questions I compiled for a few friends quickly revealed how much even a little high-quality preparation can change an outcome. That small start has since grown into a comprehensive, genuinely helpful platform used by students well beyond my own circle, and it keeps growing because the need is real and the results speak for themselves.
             </p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function MissionPage() {
         </div>
       </div>
 
-      {/* What we do about it — full width */}
+      {/* What we do about it: full width */}
       <div
         className="rounded-xl border border-black/10 p-6 mb-6"
         style={{ backgroundColor: 'var(--color-secondary)' }}
@@ -114,16 +114,16 @@ export default function MissionPage() {
         </div>
         <div className="space-y-3 text-sm leading-relaxed" style={{ color: 'var(--color-primary)', opacity: 0.8 }}>
           <p>
-            Academy of Testers provides completely free, open-access study materials for AP and SAT exams. No accounts, no paywalls, no catches. Every student who has an internet connection can access the same unit reviews, practice problems, scoring rubrics, and AI-powered help that used to be reserved for those who could afford it. The platform is designed to be as simple and direct as possible: find your subject, pick a resource type, and start studying.
+            Academy of Testers delivers genuinely premium, completely free, open-access study materials for AP and SAT exams. No accounts, no paywalls, no catches. Every student with an internet connection gets the same polished unit reviews, richly explained practice problems, official scoring rubrics, and AI-powered help that used to be reserved for those who could afford it. The whole experience is engineered to be effortless: find your subject, pick a resource type, and start studying in seconds.
           </p>
           <p>
-            We cover over 25 AP subjects with detailed unit overviews that break down every topic students need to know, practice problems with full explanations so students understand not just the "what" but the "why," and topical unit reviews that let students quiz themselves unit by unit with instant feedback. For exam strategy, we provide official scoring rubrics and exam tips drawn from College Board guidelines, so students know exactly how their work will be evaluated and how to maximize their scores.
+            The platform spans over 25 AP subjects with meticulously written unit overviews that break down every topic students need to master, practice problems with complete, step-by-step explanations so students understand not just the "what" but the "why," and topical reviews that let students quiz themselves unit by unit with instant, encouraging feedback. For exam strategy, we provide official scoring rubrics and carefully curated tips drawn from College Board guidelines, so students walk in knowing exactly how their work will be evaluated and how to earn every point they can.
           </p>
           <p>
-            The platform also includes an AI-powered study assistant that students can use to ask questions, work through problems, and get explanations on demand. This is the kind of personalized help that used to require a private tutor. Now it's available to anyone, for free, at any time of day. Whether a student is studying at midnight before an exam or reviewing concepts over the summer, the help is there.
+            An intelligent, AI-powered study assistant sits at the heart of the platform, ready to answer questions, work through problems, and explain tricky concepts on demand. This is the kind of patient, personalized tutoring that once required an expensive private tutor, now available to anyone, for free, at any hour of the day. Whether a student is studying at midnight before an exam or reviewing over the summer, thoughtful help is always a click away.
           </p>
           <p>
-            This project is built and maintained by students who believe that a quality education should be a right, not a privilege. Every feature, every practice question, and every unit overview is created with one goal in mind: giving students the resources they need to succeed regardless of their background. If even one person scores higher on their exam, earns a scholarship they wouldn't have otherwise, or simply feels more confident walking into a testing room because of what they found here, it's worth every hour spent building this platform.
+            Every part of this platform is built and maintained with obsessive care by students who believe a great education should be a right, not a privilege. Each feature, practice question, and unit overview is crafted with one goal in mind: giving students everything they need to succeed, no matter their background. If even one person scores higher, earns a scholarship they never thought possible, or simply feels calm and confident walking into a testing room because of what they found here, then every hour poured into this work is more than worth it.
           </p>
         </div>
       </div>
@@ -136,7 +136,7 @@ export default function MissionPage() {
         }}
       >
         <p className="text-sm font-medium" style={{ color: 'var(--color-primary)', opacity: 0.7 }}>
-          "Everyone deserves the chance to prove what they're capable of, regardless of circumstance."
+          "Every student deserves the chance to prove exactly what they are capable of, and Academy of Testers exists to make sure circumstance never stands in the way."
         </p>
       </div>
     </div>

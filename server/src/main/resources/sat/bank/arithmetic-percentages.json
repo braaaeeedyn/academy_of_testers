@@ -1,0 +1,1125 @@
+{
+  "skillId": "arithmetic-percentages",
+  "questions": [
+    {
+      "id": "arith-0001",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What percentage of 300 is 75?",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "225%"
+      ],
+      "correctIndex": 0,
+      "explanation": "\\(\\frac{75}{300} = 0.25 = 25\\%\\).",
+      "source": "P4M1 Q2"
+    },
+    {
+      "id": "arith-0002",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A fish swam a distance of 5,104 yards. How far did the fish swim, in miles? \\((1 mile = 1,760 yards)\\)",
+      "options": [
+        "0.3",
+        "2.9",
+        "3,344",
+        "6,864"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(\\frac{5{,}104}{1{,}760} = 2.9\\) miles.",
+      "source": "P4M2 Q2"
+    },
+    {
+      "id": "arith-0003",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "On the first day of a semester, a film club has 90 members. Each day after the first day of the semester, 10 new members join the film club. If no members leave the film club, how many total members will the film club have 4 days after the first day of the semester?",
+      "options": [
+        "400",
+        "130",
+        "94",
+        "90"
+      ],
+      "correctIndex": 1,
+      "explanation": "Starting with 90 members and adding 10 per day for 4 days: \\(90 + 10(4) = 90 + 40 = 130\\).",
+      "source": "P5M1 Q2"
+    },
+    {
+      "id": "arith-0004",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The result of increasing the quantity \\(x\\) by 400% is 60. What is the value of \\(x\\)?",
+      "options": [
+        "12",
+        "15",
+        "240",
+        "340"
+      ],
+      "correctIndex": 0,
+      "explanation": "Increasing \\(x\\) by 400% gives \\(x + 4x = 5x\\). So \\(5x = 60 \\Rightarrow x = 12\\).",
+      "source": "P5M1 Q25"
+    },
+    {
+      "id": "arith-0005",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is 20% of 440?",
+      "options": [
+        "44",
+        "88",
+        "880",
+        "1,760"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(0.20 \\times 440 = 88\\).",
+      "source": "P5M2 Q1"
+    },
+    {
+      "id": "arith-0006",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "In 2008, Zinah earned 14% more than in 2007, and in 2009 Zinah earned 4% more than in 2008. If Zinah earned \\(y\\) times as much in 2009 as in 2007, what is the value of \\(y\\)?",
+      "options": [
+        "0.5600",
+        "1.0056",
+        "1.1800",
+        "1.1856"
+      ],
+      "correctIndex": 3,
+      "explanation": "Earnings multiply by 1.14 then by 1.04: \\(1.14 \\times 1.04 = 1.1856\\). So \\(y = 1.1856\\).",
+      "source": "P6M1 Q22"
+    },
+    {
+      "id": "arith-0007",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The ratio of the length of line segment \\(XY\\) to the length of line segment \\(ZV\\) is 6 to 1. If the length of line segment \\(XY\\) is 102 inches, what is the length, in inches, of line segment \\(ZV\\)?",
+      "options": [
+        "17",
+        "96",
+        "102",
+        "612"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ratio \\(XY:ZV = 6:1\\), so \\(ZV = \\frac{102}{6} = 17\\) inches.",
+      "source": "P6M2 Q9"
+    },
+    {
+      "id": "arith-0008",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Rectangle P has an area of 72 square inches. If a rectangle with an area of 20 square inches is removed from rectangle P, what is the area, in square inches, of the resulting figure?",
+      "options": [
+        "92",
+        "84",
+        "80",
+        "52"
+      ],
+      "correctIndex": 3,
+      "explanation": "Removing 20 square inches from 72 square inches leaves \\(72 - 20 = 52\\) square inches.",
+      "source": "P7M1 Q2"
+    },
+    {
+      "id": "arith-0009",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A total of 165 people contributed to a charity event as either a donor or a volunteer. 130 people contributed as a donor. How many people contributed as a volunteer?",
+      "options": [
+        "35",
+        "130",
+        "165",
+        "330"
+      ],
+      "correctIndex": 0,
+      "explanation": "The number of volunteers is \\(165 - 130 = 35\\).",
+      "source": "P7M2 Q1"
+    },
+    {
+      "id": "arith-0010",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "There are 250 trees in a park. Of these trees, 6% are birch trees. How many birch trees are in the park?",
+      "options": [
+        "6",
+        "15",
+        "75",
+        "244"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(0.06 \\times 250 = 15\\) birch trees.",
+      "source": "P7M2 Q2"
+    },
+    {
+      "id": "arith-0011",
+      "difficulty": "easy",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "The number of raccoons in a 131-square-mile area is estimated to be 2,358. What is the estimated population density, in raccoons per square mile, of this area?",
+      "options": [
+        "18",
+        "131",
+        "149",
+        "2,376"
+      ],
+      "correctIndex": 0,
+      "explanation": "Population density is \\(\\frac{2{,}358}{131} = 18\\) raccoons per square mile.",
+      "source": "P7M2 Q4"
+    },
+    {
+      "id": "arith-0012",
+      "difficulty": "hard",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "The speed of a vehicle is increasing at a rate of 7.3 meters per second squared. What is this rate, in miles per minute squared, rounded to the nearest tenth? \\((Use 1 mile = 1,609 meters.)\\)",
+      "options": [
+        "0.3",
+        "16.3",
+        "195.8",
+        "220.4"
+      ],
+      "correctIndex": 1,
+      "explanation": "Convert: \\(7.3 \\frac{\\text{m}}{\\text{s}^2} \\times \\frac{1 \\text{ mile}}{1609 \\text{ m}} \\times \\left(\\frac{60 \\text{ s}}{1 \\text{ min}}\\right)^2 = 7.3 \\times \\frac{3600}{1609} \\approx 16.3\\) miles per minute squared.",
+      "source": "P7M2 Q26"
+    },
+    {
+      "id": "arith-0013",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For a certain region, a table shows the average number of store employees in 2016 by type of store: warehouse store 365, department store 213, supermarket 130. Based on the table, how much greater was the average number of store employees in warehouse stores than in supermarkets?",
+      "options": [
+        "83",
+        "152",
+        "235",
+        "495"
+      ],
+      "correctIndex": 2,
+      "explanation": "\\(365 - 130 = 235\\).",
+      "source": "P8M2 Q2"
+    },
+    {
+      "id": "arith-0014",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A bowl contains 20 ounces of water. When the bowl is uncovered, the amount of water in the bowl decreases by 1 ounce every 4 days. If 9 ounces of water remain in this bowl, for how many days has it been uncovered?",
+      "options": [
+        "3",
+        "7",
+        "36",
+        "44"
+      ],
+      "correctIndex": 3,
+      "explanation": "The water decreased by \\(20 - 9 = 11\\) ounces. At 1 ounce per 4 days, that is \\(11 \\times 4 = 44\\) days.",
+      "source": "P8M2 Q15"
+    },
+    {
+      "id": "arith-0015",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Ty set a goal to walk at least 24 kilometers every day to prepare for a multiday hike. On a certain day, Ty plans to walk at an average speed of 4 kilometers per hour. What is the minimum number of hours Ty must walk on that day to fulfill the daily goal?",
+      "options": [
+        "4",
+        "6",
+        "20",
+        "24"
+      ],
+      "correctIndex": 1,
+      "explanation": "Time equals distance divided by speed: \\(\\frac{24}{4} = 6\\) hours.",
+      "source": "P9M1 Q3"
+    },
+    {
+      "id": "arith-0016",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "One gallon of stain will cover 170 square feet of a surface. A yard has a total fence area of \\(w\\) square feet. Which equation represents the total amount of stain \\(S\\), in gallons, needed to stain the fence in this yard twice?",
+      "options": [
+        "\\(S = \\frac{w}{170}\\)",
+        "\\(S = 170w\\)",
+        "\\(S = 340w\\)",
+        "\\(S = \\frac{w}{85}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Staining twice covers \\(2w\\) square feet. At 170 square feet per gallon, \\(S = \\frac{2w}{170} = \\frac{w}{85}\\).",
+      "source": "P9M1 Q25"
+    },
+    {
+      "id": "arith-0017",
+      "difficulty": "medium",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "A certain town has an area of 4.36 square miles. What is the area, in square yards, of this town? \\((1 mile = 1,760 yards)\\)",
+      "options": [
+        "404",
+        "7,674",
+        "710,459",
+        "13,505,536"
+      ],
+      "correctIndex": 3,
+      "explanation": "1 square mile = \\(1{,}760^2 = 3{,}097{,}600\\) square yards. So \\(4.36 \\times 3{,}097{,}600 = 13{,}505{,}536\\) square yards.",
+      "source": "P9M2 Q23"
+    },
+    {
+      "id": "arith-0018",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The result of increasing the quantity \\(x\\) by 1,800% is 684. What is the value of \\(x\\)?",
+      "options": [
+        "12,996",
+        "12,312",
+        "38",
+        "36"
+      ],
+      "correctIndex": 3,
+      "explanation": "Increasing \\(x\\) by 1,800% multiplies it by \\(1 + 18 = 19\\), so \\(19x = 684\\), giving \\(x = 36\\).",
+      "source": "P10M1 Q25"
+    },
+    {
+      "id": "arith-0019",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "An object's speed is 64 yards per second. What is the object's speed, in feet per second? \\((1 yard = 3 feet)\\)",
+      "options": [
+        "61",
+        "67",
+        "94",
+        "192"
+      ],
+      "correctIndex": 3,
+      "explanation": "Multiply by 3 feet per yard: \\(64 \\times 3 = 192\\) feet per second.",
+      "source": "P10M2 Q1"
+    },
+    {
+      "id": "arith-0020",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Of 300,000 paper clips, 234,000 are size large. What percentage of the paper clips are size large?",
+      "options": [
+        "22%",
+        "33%",
+        "66%",
+        "78%"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(\\frac{234{,}000}{300{,}000} = 0.78 = 78\\%\\).",
+      "source": "P10M2 Q8"
+    },
+    {
+      "id": "arith-0021",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is \\(25\\%\\) of \\(80\\)?",
+      "options": [
+        "\\(20\\)",
+        "\\(40\\)",
+        "\\(16\\)",
+        "\\(55\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "\\(25\\% = \\tfrac14\\), and \\(\\tfrac14 \\times 80 = 20\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0022",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is \\(15\\%\\) of \\(60\\)?",
+      "options": [
+        "\\(15\\)",
+        "\\(9\\)",
+        "\\(45\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(15\\% = 0.15\\), and \\(0.15 \\times 60 = 9\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0023",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A shirt that costs \\(40\\) dollars is marked down by \\(20\\%\\). What is the discount, in dollars?",
+      "options": [
+        "\\(20\\)",
+        "\\(32\\)",
+        "\\(8\\)",
+        "\\(4\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The discount is \\(20\\%\\) of \\(40\\): \\(0.20 \\times 40 = 8\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0024",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(12\\) is what percent of \\(48\\)?",
+      "options": [
+        "\\(4\\%\\)",
+        "\\(36\\%\\)",
+        "\\(40\\%\\)",
+        "\\(25\\%\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(\\tfrac{12}{48} = 0.25 = 25\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0025",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Write \\(\\tfrac{3}{5}\\) as a percent.",
+      "options": [
+        "\\(60\\%\\)",
+        "\\(35\\%\\)",
+        "\\(53\\%\\)",
+        "\\(30\\%\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "\\(\\tfrac{3}{5} = 0.6 = 60\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0026",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A car travels \\(150\\) miles in \\(3\\) hours. What is its average speed, in miles per hour?",
+      "options": [
+        "\\(450\\)",
+        "\\(50\\)",
+        "\\(147\\)",
+        "\\(75\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Average speed is distance divided by time: \\(150 \\div 3 = 50\\) miles per hour.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0027",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A recipe uses flour and sugar in the ratio \\(3:1\\). If \\(6\\) cups of flour are used, how many cups of sugar are needed?",
+      "options": [
+        "\\(18\\)",
+        "\\(3\\)",
+        "\\(2\\)",
+        "\\(6\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ratio \\(3:1\\) means sugar is one third of the flour: \\(6 \\div 3 = 2\\) cups.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0028",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What number is \\(30\\%\\) of \\(200\\)?",
+      "options": [
+        "\\(6\\)",
+        "\\(600\\)",
+        "\\(170\\)",
+        "\\(60\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(0.30 \\times 200 = 60\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0029",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A price of \\(50\\) dollars increases by \\(10\\%\\). What is the new price, in dollars?",
+      "options": [
+        "\\(55\\)",
+        "\\(60\\)",
+        "\\(45\\)",
+        "\\(51\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The increase is \\(0.10 \\times 50 = 5\\) dollars, so the new price is \\(50 + 5 = 55\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0030",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(40\\%\\) of a number is \\(20\\). What is the number?",
+      "options": [
+        "\\(8\\)",
+        "\\(50\\)",
+        "\\(60\\)",
+        "\\(80\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "If \\(0.40 x = 20\\), then \\(x = 20 \\div 0.40 = 50\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0031",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Convert \\(0.045\\) to a percent.",
+      "options": [
+        "\\(45\\%\\)",
+        "\\(0.45\\%\\)",
+        "\\(4.5\\%\\)",
+        "\\(450\\%\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Multiply by \\(100\\): \\(0.045 \\times 100 = 4.5\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0032",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A store adds \\(8\\%\\) sales tax to a \\(25\\) dollar purchase. What is the tax, in dollars?",
+      "options": [
+        "\\(8\\)",
+        "\\(20\\)",
+        "\\(2.5\\)",
+        "\\(2\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The tax is \\(8\\%\\) of \\(25\\): \\(0.08 \\times 25 = 2\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0033",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The ratio of boys to girls in a class is \\(2:3\\). If there are \\(10\\) boys, how many girls are there?",
+      "options": [
+        "\\(15\\)",
+        "\\(6\\)",
+        "\\(20\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each ratio unit is \\(10 \\div 2 = 5\\) students, so girls \\(= 3 \\times 5 = 15\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0034",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "What is the average of \\(12\\), \\(18\\), and \\(24\\)?",
+      "options": [
+        "\\(54\\)",
+        "\\(18\\)",
+        "\\(15\\)",
+        "\\(20\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mean is \\(\\tfrac{12 + 18 + 24}{3} = \\tfrac{54}{3} = 18\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0035",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A \\(20\\) dollar tip is what percent of a \\(80\\) dollar bill?",
+      "options": [
+        "\\(20\\%\\)",
+        "\\(40\\%\\)",
+        "\\(25\\%\\)",
+        "\\(16\\%\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "\\(\\tfrac{20}{80} = 0.25 = 25\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0036",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(3\\) notebooks cost \\(6\\) dollars, what is the cost of \\(5\\) notebooks, in dollars?",
+      "options": [
+        "\\(11\\)",
+        "\\(30\\)",
+        "\\(2\\)",
+        "\\(10\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Each notebook costs \\(6 \\div 3 = 2\\) dollars, so \\(5\\) cost \\(5 \\times 2 = 10\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0037",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A number increased from \\(20\\) to \\(25\\). What is the percent increase?",
+      "options": [
+        "\\(25\\%\\)",
+        "\\(5\\%\\)",
+        "\\(20\\%\\)",
+        "\\(80\\%\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The increase is \\(5\\); as a percent of the original \\(20\\), \\(\\tfrac{5}{20} = 25\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0038",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve the proportion \\(\\dfrac{x}{12} = \\dfrac{3}{4}\\).",
+      "options": [
+        "\\(16\\)",
+        "\\(9\\)",
+        "\\(4\\)",
+        "\\(36\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cross-multiply: \\(4x = 36\\), so \\(x = 9\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0039",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "After a \\(20\\%\\) discount, a jacket costs \\(48\\) dollars. What was the original price, in dollars?",
+      "options": [
+        "\\(60\\)",
+        "\\(57.6\\)",
+        "\\(68\\)",
+        "\\(40\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sale price is \\(80\\%\\) of the original: \\(0.80 x = 48\\), so \\(x = 48 \\div 0.80 = 60\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0040",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A price is increased by \\(25\\%\\) and then decreased by \\(20\\%\\). The final price is what percent of the original?",
+      "options": [
+        "\\(105\\%\\)",
+        "\\(100\\%\\)",
+        "\\(95\\%\\)",
+        "\\(45\\%\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multiply the factors: \\(1.25 \\times 0.80 = 1.00\\), so the price returns to \\(100\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0041",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "On a test, a student answered \\(42\\) of \\(50\\) questions correctly. What percent were incorrect?",
+      "options": [
+        "\\(84\\%\\)",
+        "\\(8\\%\\)",
+        "\\(16\\%\\)",
+        "\\(42\\%\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Incorrect \\(= 50 - 42 = 8\\); \\(\\tfrac{8}{50} = 0.16 = 16\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0042",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A solution is \\(30\\%\\) acid. How many liters of acid are in \\(40\\) liters of solution?",
+      "options": [
+        "\\(30\\)",
+        "\\(1.2\\)",
+        "\\(28\\)",
+        "\\(12\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(30\\%\\) of \\(40\\) is \\(0.30 \\times 40 = 12\\) liters.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0043",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The population of a town grew from \\(2{,}500\\) to \\(2{,}900\\). What is the percent increase?",
+      "options": [
+        "\\(16\\%\\)",
+        "\\(14\\%\\)",
+        "\\(40\\%\\)",
+        "\\(13.8\\%\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The increase is \\(400\\); \\(\\tfrac{400}{2500} = 0.16 = 16\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0044",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A car uses \\(4\\) gallons of gas to travel \\(96\\) miles. At this rate, how many gallons are needed for \\(240\\) miles?",
+      "options": [
+        "\\(60\\)",
+        "\\(10\\)",
+        "\\(9.6\\)",
+        "\\(8\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The rate is \\(96 \\div 4 = 24\\) miles per gallon, so \\(240 \\div 24 = 10\\) gallons.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0045",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A class has \\(12\\) boys and \\(18\\) girls. What percent of the class is boys?",
+      "options": [
+        "\\(60\\%\\)",
+        "\\(12\\%\\)",
+        "\\(40\\%\\)",
+        "\\(66.7\\%\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total is \\(30\\); \\(\\tfrac{12}{30} = 0.40 = 40\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0046",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "An item costing \\(200\\) dollars is marked up \\(15\\%\\), then a \\(10\\) dollar coupon is applied. What is the final price, in dollars?",
+      "options": [
+        "\\(230\\)",
+        "\\(205\\)",
+        "\\(219\\)",
+        "\\(220\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "After markup: \\(200 \\times 1.15 = 230\\); minus the coupon: \\(230 - 10 = 220\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0047",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The ratio of red to blue marbles is \\(5:3\\). If there are \\(64\\) marbles in all, how many are blue?",
+      "options": [
+        "\\(24\\)",
+        "\\(40\\)",
+        "\\(8\\)",
+        "\\(21\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "There are \\(5 + 3 = 8\\) parts, so each part is \\(64 \\div 8 = 8\\) marbles; blue \\(= 3 \\times 8 = 24\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0048",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A worker's hourly wage rises from \\(16\\) to \\(20\\) dollars. What is the percent increase?",
+      "options": [
+        "\\(20\\%\\)",
+        "\\(25\\%\\)",
+        "\\(4\\%\\)",
+        "\\(80\\%\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The increase is \\(4\\); \\(\\tfrac{4}{16} = 0.25 = 25\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0049",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A \\(300\\) dollar deposit earns \\(6\\%\\) simple interest per year. How much interest is earned after \\(2\\) years, in dollars?",
+      "options": [
+        "\\(18\\)",
+        "\\(72\\)",
+        "\\(36\\)",
+        "\\(318\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Simple interest is \\(P r t = 300 \\times 0.06 \\times 2 = 36\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0050",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Two numbers are in the ratio \\(4:7\\), and the larger is \\(63\\). What is the smaller number?",
+      "options": [
+        "\\(9\\)",
+        "\\(28\\)",
+        "\\(45\\)",
+        "\\(36\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Each unit is \\(63 \\div 7 = 9\\), so the smaller is \\(4 \\times 9 = 36\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0051",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A shirt normally \\(50\\) dollars is on sale for \\(35\\) dollars. What is the percent discount?",
+      "options": [
+        "\\(30\\%\\)",
+        "\\(15\\%\\)",
+        "\\(70\\%\\)",
+        "\\(43\\%\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The discount is \\(15\\); \\(\\tfrac{15}{50} = 0.30 = 30\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0052",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A recipe for \\(4\\) servings needs \\(3\\) cups of rice. How many cups are needed for \\(10\\) servings?",
+      "options": [
+        "\\(30\\)",
+        "\\(7.5\\)",
+        "\\(1.2\\)",
+        "\\(12\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The rate is \\(\\tfrac34\\) cup per serving, so \\(10 \\times \\tfrac34 = 7.5\\) cups.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0053",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A bag holds \\(60\\) candies: \\(45\\%\\) are red. How many are not red?",
+      "options": [
+        "\\(27\\)",
+        "\\(15\\)",
+        "\\(33\\)",
+        "\\(45\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Red \\(= 0.45 \\times 60 = 27\\), so not red \\(= 60 - 27 = 33\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0054",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A number is \\(150\\%\\) of \\(48\\). What is the number?",
+      "options": [
+        "\\(24\\)",
+        "\\(96\\)",
+        "\\(63\\)",
+        "\\(72\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(150\\% = 1.5\\), and \\(1.5 \\times 48 = 72\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0055",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A store buys an item for \\(80\\) dollars and sells it for \\(100\\) dollars. What is the percent profit based on cost?",
+      "options": [
+        "\\(25\\%\\)",
+        "\\(20\\%\\)",
+        "\\(80\\%\\)",
+        "\\(125\\%\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Profit is \\(20\\); as a percent of the \\(80\\) cost, \\(\\tfrac{20}{80} = 25\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0056",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A measurement was recorded as \\(52\\) but the true value is \\(50\\). What is the percent error?",
+      "options": [
+        "\\(2\\%\\)",
+        "\\(4\\%\\)",
+        "\\(3.8\\%\\)",
+        "\\(52\\%\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Percent error is \\(\\tfrac{|52 - 50|}{50} = \\tfrac{2}{50} = 4\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0057",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A cyclist rides \\(30\\) miles at \\(15\\) miles per hour, then \\(30\\) miles at \\(10\\) miles per hour. What is the average speed for the whole trip, in miles per hour?",
+      "options": [
+        "\\(12.5\\)",
+        "\\(25\\)",
+        "\\(12\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total time is \\(\\tfrac{30}{15} + \\tfrac{30}{10} = 2 + 3 = 5\\) hours for \\(60\\) miles: \\(60 \\div 5 = 12\\) miles per hour.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0058",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "In a survey, \\(35\\%\\) of \\(240\\) people chose option A. How many people chose option A?",
+      "options": [
+        "\\(68.6\\)",
+        "\\(156\\)",
+        "\\(35\\)",
+        "\\(84\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "\\(0.35 \\times 240 = 84\\) people.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0059",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A quantity increases by \\(40\\%\\) to become \\(70\\). What was the original quantity?",
+      "options": [
+        "\\(50\\)",
+        "\\(42\\)",
+        "\\(30\\)",
+        "\\(98\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "If \\(1.40 x = 70\\), then \\(x = 70 \\div 1.40 = 50\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0060",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A map uses a scale of \\(1\\) inch to \\(25\\) miles. Two cities are \\(3.5\\) inches apart on the map. How many miles apart are they?",
+      "options": [
+        "\\(7.14\\)",
+        "\\(87.5\\)",
+        "\\(28.5\\)",
+        "\\(75\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distance is \\(3.5 \\times 25 = 87.5\\) miles.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0061",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A phone's price dropped \\(10\\%\\) in March and another \\(10\\%\\) in April. What is the total percent decrease from the original?",
+      "options": [
+        "\\(20\\%\\)",
+        "\\(21\\%\\)",
+        "\\(19\\%\\)",
+        "\\(1\\%\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The remaining fraction is \\(0.90 \\times 0.90 = 0.81\\), a \\(19\\%\\) total decrease.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0062",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A team won \\(60\\%\\) of its first \\(20\\) games and \\(75\\%\\) of its next \\(20\\) games. Over all \\(40\\) games, what percent did it win?",
+      "options": [
+        "\\(67\\%\\)",
+        "\\(135\\%\\)",
+        "\\(70\\%\\)",
+        "\\(67.5\\%\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Wins: \\(0.60 \\times 20 + 0.75 \\times 20 = 12 + 15 = 27\\); \\(\\tfrac{27}{40} = 67.5\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0063",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A price is increased by \\(20\\%\\), then the new price is decreased by \\(15\\%\\). What is the net percent change from the original?",
+      "options": [
+        "an increase of \\(2\\%\\)",
+        "an increase of \\(5\\%\\)",
+        "a decrease of \\(2\\%\\)",
+        "no change"
+      ],
+      "correctIndex": 0,
+      "explanation": "The combined factor is \\(1.20 \\times 0.85 = 1.02\\), a net increase of \\(2\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0064",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A \\(50\\)-liter mixture is \\(40\\%\\) acid. How many liters of pure acid must be added to make the mixture \\(50\\%\\) acid?",
+      "options": [
+        "\\(5\\)",
+        "\\(10\\)",
+        "\\(25\\)",
+        "\\(12.5\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Start with \\(20\\) L acid in \\(50\\) L. Adding \\(x\\) L acid: \\(\\tfrac{20 + x}{50 + x} = 0.5\\). Then \\(20 + x = 25 + 0.5x\\), so \\(0.5x = 5\\), \\(x = 10\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0065",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A store's revenue rose \\(25\\%\\) while the number of items sold fell \\(20\\%\\). By what percent did the average price per item change?",
+      "options": [
+        "increased by \\(5\\%\\)",
+        "increased by \\(25\\%\\)",
+        "increased by \\(56.25\\%\\)",
+        "decreased by \\(20\\%\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Price factor is \\(\\tfrac{1.25}{0.80} = 1.5625\\), an increase of \\(56.25\\%\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0066",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A blend mixes coffee A (costing \\(8\\) dollars per pound) and coffee B (\\(12\\) dollars per pound) to sell at \\(9\\) dollars per pound. What is the ratio of A to B, by weight?",
+      "options": [
+        "\\(1:3\\)",
+        "\\(1:1\\)",
+        "\\(2:3\\)",
+        "\\(3:1\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Using alligation, the distances from \\(9\\) are \\(12 - 9 = 3\\) (for A) and \\(9 - 8 = 1\\) (for B), so A:B \\(= 3:1\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0067",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The ratio of men to women at an event was \\(3:2\\). After \\(20\\) more women arrived, the ratio became \\(3:4\\). How many men were present?",
+      "options": [
+        "\\(30\\)",
+        "\\(20\\)",
+        "\\(45\\)",
+        "\\(15\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Let men \\(= 3k\\), women \\(= 2k\\). Then \\(\\tfrac{3k}{2k + 20} = \\tfrac34\\), so \\(12k = 6k + 60\\), \\(k = 10\\); men \\(= 30\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0068",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "An alloy is \\(60\\%\\) copper. How many kilograms of pure copper must be added to \\(40\\) kg of the alloy to raise the copper content to \\(75\\%\\)?",
+      "options": [
+        "\\(15\\)",
+        "\\(24\\)",
+        "\\(10\\)",
+        "\\(30\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Copper starts at \\(24\\) kg. Adding \\(x\\): \\(\\tfrac{24 + x}{40 + x} = 0.75\\). Then \\(24 + x = 30 + 0.75x\\), so \\(0.25x = 6\\), \\(x = 24\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0069",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "After a \\(30\\%\\) discount and an additional \\(10\\%\\) off the discounted price, a coat costs \\(63\\) dollars. What was the original price, in dollars?",
+      "options": [
+        "\\(90\\)",
+        "\\(105\\)",
+        "\\(100\\)",
+        "\\(78.75\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The price factor is \\(0.70 \\times 0.90 = 0.63\\), so \\(0.63 x = 63\\) gives \\(x = 100\\) dollars.",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "arith-0070",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Two investments total \\(10{,}000\\) dollars. One earns \\(5\\%\\) and the other \\(8\\%\\) simple annual interest; together they earn \\(680\\) dollars in one year. How much was invested at \\(8\\%\\), in dollars?",
+      "options": [
+        "\\(4000\\)",
+        "\\(6800\\)",
+        "\\(5000\\)",
+        "\\(6000\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Let \\(x\\) be at \\(8\\%\\): \\(0.08x + 0.05(10000 - x) = 680\\). Then \\(0.03x = 180\\), so \\(x = 6000\\) dollars.",
+      "source": "Adaptive bank expansion"
+    }
+  ]
+}

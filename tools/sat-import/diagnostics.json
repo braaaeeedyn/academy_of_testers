@@ -1,0 +1,146 @@
+[
+  {
+    "skill": "arithmetic-percentages",
+    "difficulty": "easy",
+    "source": "P7M2 Q4",
+    "id": "arith-0011"
+  },
+  {
+    "skill": "arithmetic-percentages",
+    "difficulty": "medium",
+    "source": "P9M2 Q23",
+    "id": "arith-0017"
+  },
+  {
+    "skill": "arithmetic-percentages",
+    "difficulty": "hard",
+    "source": "P7M2 Q26",
+    "id": "arith-0012"
+  },
+  {
+    "skill": "algebra-equations",
+    "difficulty": "easy",
+    "source": "P4M1 Q4",
+    "id": "alg-0002"
+  },
+  {
+    "skill": "algebra-equations",
+    "difficulty": "medium",
+    "source": "P8M1 Q22",
+    "id": "alg-0037"
+  },
+  {
+    "skill": "algebra-equations",
+    "difficulty": "hard",
+    "source": "P4M2 Q17",
+    "id": "alg-0007"
+  },
+  {
+    "skill": "linear-functions",
+    "difficulty": "easy",
+    "source": "P8M2 Q1",
+    "id": "lin-0021"
+  },
+  {
+    "skill": "linear-functions",
+    "difficulty": "medium",
+    "source": "P4M1 Q15",
+    "id": "lin-0002"
+  },
+  {
+    "skill": "linear-functions",
+    "difficulty": "hard",
+    "source": "P7M2 Q23",
+    "id": "lin-0017"
+  },
+  {
+    "skill": "systems-of-equations",
+    "difficulty": "easy",
+    "source": "P11M2 Q4",
+    "id": "sys-0015"
+  },
+  {
+    "skill": "systems-of-equations",
+    "difficulty": "medium",
+    "source": "P11M1 Q12",
+    "id": "sys-0013"
+  },
+  {
+    "skill": "systems-of-equations",
+    "difficulty": "hard",
+    "source": "P9M1 Q19",
+    "id": "sys-0011"
+  },
+  {
+    "skill": "quadratics-polynomials",
+    "difficulty": "easy",
+    "source": "P9M1 Q4",
+    "id": "quad-0026"
+  },
+  {
+    "skill": "quadratics-polynomials",
+    "difficulty": "medium",
+    "source": "P4M2 Q18",
+    "id": "quad-0005"
+  },
+  {
+    "skill": "quadratics-polynomials",
+    "difficulty": "hard",
+    "source": "P9M1 Q24",
+    "id": "quad-0028"
+  },
+  {
+    "skill": "exponential-functions",
+    "difficulty": "easy",
+    "source": "P4M2 Q9",
+    "id": "exp-0002"
+  },
+  {
+    "skill": "exponential-functions",
+    "difficulty": "medium",
+    "source": "P9M1 Q23",
+    "id": "exp-0017"
+  },
+  {
+    "skill": "exponential-functions",
+    "difficulty": "hard",
+    "source": "P8M2 Q18",
+    "id": "exp-0015"
+  },
+  {
+    "skill": "data-statistics",
+    "difficulty": "easy",
+    "source": "P6M2 Q3",
+    "id": "stat-0007"
+  },
+  {
+    "skill": "data-statistics",
+    "difficulty": "medium",
+    "source": "P4M2 Q15",
+    "id": "stat-0002"
+  },
+  {
+    "skill": "data-statistics",
+    "difficulty": "hard",
+    "source": "P9M1 Q26",
+    "id": "stat-0014"
+  },
+  {
+    "skill": "geometry-trigonometry",
+    "difficulty": "easy",
+    "source": "P11M2 Q3",
+    "id": "geo-0051"
+  },
+  {
+    "skill": "geometry-trigonometry",
+    "difficulty": "medium",
+    "source": "P4M1 Q22",
+    "id": "geo-0002"
+  },
+  {
+    "skill": "geometry-trigonometry",
+    "difficulty": "hard",
+    "source": "P9M2 Q24",
+    "id": "geo-0039"
+  }
+]

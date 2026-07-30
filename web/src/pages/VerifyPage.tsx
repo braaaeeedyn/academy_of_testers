@@ -117,11 +117,11 @@ export default function VerifyPage() {
         />
 
         {error && (
-          <p className="text-red-600 text-sm bg-red-50 rounded-lg px-3 py-2">{error}</p>
+          <p className="text-sm rounded-lg px-3 py-2" style={{ color: 'var(--error)', backgroundColor: 'var(--error-bg)' }}>{error}</p>
         )}
 
         {success && (
-          <p className="text-green-700 text-sm bg-green-50 rounded-lg px-3 py-2">
+          <p className="text-sm rounded-lg px-3 py-2" style={{ color: 'var(--success)', backgroundColor: 'var(--success-bg)' }}>
             {success}
           </p>
         )}

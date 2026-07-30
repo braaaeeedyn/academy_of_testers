@@ -87,7 +87,7 @@ function renderSegment(seg: MathSegment): string {
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
-    return `<pre style="background:#1e1e2e;color:#cdd6f4;padding:14px 16px;border-radius:8px;font-size:0.85em;line-height:1.6;overflow-x:auto;margin:8px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"><code>${escaped}</code></pre>`
+    return `<pre style="background:var(--code-bg);color:var(--code-text);padding:14px 16px;border-radius:8px;font-size:0.85em;line-height:1.6;overflow-x:auto;margin:8px 0;font-family:var(--font-mono)"><code>${escaped}</code></pre>`
   }
   try {
     // Unicode middle dot (U+00B7) inside math is mapped to \cdotp by KaTeX and often renders

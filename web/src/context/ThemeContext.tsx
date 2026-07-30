@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
-import { themes, type Theme } from '../types/theme'
+import { themes, getThemeById, DEFAULT_THEME_ID, type Theme } from '../types/theme'
 
 interface ThemeContextType {
   theme: Theme
@@ -9,29 +9,17 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 const STORAGE_KEY = 'aot-theme-id'
-const CUSTOM_THEME_KEY = 'aot-custom-theme'
 
 function getDefaultTheme(): Theme {
-  const savedId = localStorage.getItem(STORAGE_KEY)
-  if (savedId === 'custom') {
-    const raw = localStorage.getItem(CUSTOM_THEME_KEY)
-    if (raw) {
-      try {
-        return JSON.parse(raw) as Theme
-      } catch { /* fall through */ }
-    }
-  }
-  if (savedId) {
-    const found = themes.find((t) => t.id === savedId)
-    if (found) return found
-  }
-  return themes[0]
+  const saved = getThemeById(localStorage.getItem(STORAGE_KEY))
+  if (saved) return saved
+  return getThemeById(DEFAULT_THEME_ID) ?? themes[0]
 }
 
 function applyThemeToDOM(theme: Theme) {
   const root = document.documentElement
-  root.style.setProperty('--color-primary', theme.primary)
-  root.style.setProperty('--color-secondary', theme.secondary)
+  root.setAttribute('data-theme', theme.id)
+  root.style.colorScheme = theme.mode
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
@@ -42,9 +30,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   }, [theme])
 
   const setTheme = (newTheme: Theme) => {
-    if (newTheme.id === 'custom') {
-      localStorage.setItem(CUSTOM_THEME_KEY, JSON.stringify(newTheme))
-    }
     localStorage.setItem(STORAGE_KEY, newTheme.id)
     setThemeState(newTheme)
   }

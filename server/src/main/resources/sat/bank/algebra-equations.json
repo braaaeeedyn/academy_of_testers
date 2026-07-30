@@ -1,0 +1,1221 @@
+{
+  "skillId": "algebra-equations",
+  "questions": [
+    {
+      "id": "alg-0001",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(\\frac{x^2}{25} = 36\\) What is a solution to the given equation?",
+      "options": [
+        "6",
+        "30",
+        "450",
+        "900"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multiply both sides by 25: \\(x^2 = 900\\), so \\(x = 30\\).",
+      "source": "P4M1 Q3"
+    },
+    {
+      "id": "alg-0002",
+      "difficulty": "easy",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "3 more than 8 times a number \\(x\\) is equal to 83. Which equation represents this situation?",
+      "options": [
+        "\\((3)(8)x = 83\\)",
+        "\\(8x = 83 + 3\\)",
+        "\\(3x + 8 = 83\\)",
+        "\\(8x + 3 = 83\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "8 times \\(x\\) is \\(8x\\), and 3 more than that is \\(8x + 3\\), which equals 83: \\(8x + 3 = 83\\).",
+      "source": "P4M1 Q4"
+    },
+    {
+      "id": "alg-0003",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(\\frac{14x}{7y} = 2\\sqrt{w + 19}\\) The given equation relates the distinct positive real numbers \\(w\\), \\(x\\), and \\(y\\). Which equation correctly expresses \\(w\\) in terms of \\(x\\) and \\(y\\)?",
+      "options": [
+        "\\(w = \\sqrt{\\frac{x}{y}} - 19\\)",
+        "\\(w = \\sqrt{\\frac{28x}{14y}} - 19\\)",
+        "\\(w = \\left(\\frac{x}{y}\\right)^2 - 19\\)",
+        "\\(w = \\left(\\frac{28x}{14y}\\right)^2 - 19\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Simplify \\(\\frac{14x}{7y} = \\frac{2x}{y}\\), so \\(\\frac{2x}{y} = 2\\sqrt{w+19}\\), giving \\(\\frac{x}{y} = \\sqrt{w+19}\\). Square: \\(\\left(\\frac{x}{y}\\right)^2 = w + 19\\), so \\(w = \\left(\\frac{x}{y}\\right)^2 - 19\\).",
+      "source": "P4M1 Q19"
+    },
+    {
+      "id": "alg-0004",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(12x^3 - 5x^3\\)?",
+      "options": [
+        "\\(7x^6\\)",
+        "\\(17x^3\\)",
+        "\\(7x^3\\)",
+        "\\(17x^6\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Combine like terms with the same power: \\(12x^3 - 5x^3 = 7x^3\\).",
+      "source": "P4M2 Q3"
+    },
+    {
+      "id": "alg-0005",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The point \\((8, 2)\\) in the \\(xy\\)-plane is a solution to which of the following systems of inequalities?",
+      "options": [
+        "\\(x > 0\\), \\(y > 0\\)",
+        "\\(x > 0\\), \\(y < 0\\)",
+        "\\(x < 0\\), \\(y > 0\\)",
+        "\\(x < 0\\), \\(y < 0\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "At \\((8, 2)\\), both \\(x = 8 > 0\\) and \\(y = 2 > 0\\), so the point satisfies \\(x > 0\\) and \\(y > 0\\).",
+      "source": "P4M2 Q5"
+    },
+    {
+      "id": "alg-0006",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A moving truck can tow a trailer if the combined weight of the trailer and the boxes it contains is no more than 4,600 pounds. What is the maximum number of boxes this truck can tow in a trailer with a weight of 500 pounds if each box weighs 120 pounds?",
+      "options": [
+        "34",
+        "35",
+        "38",
+        "39"
+      ],
+      "correctIndex": 0,
+      "explanation": "The boxes can weigh at most \\(4{,}600 - 500 = 4{,}100\\) pounds. \\(\\frac{4{,}100}{120} \\approx 34.2\\), so the maximum whole number of boxes is 34.",
+      "source": "P4M2 Q11"
+    },
+    {
+      "id": "alg-0007",
+      "difficulty": "hard",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "\\(-3x + 21px = 84\\) In the given equation, \\(p\\) is a constant. The equation has no solution. What is the value of \\(p\\)?",
+      "options": [
+        "0",
+        "\\(\\frac{1}{7}\\)",
+        "\\(\\frac{4}{3}\\)",
+        "4"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factor: \\((-3 + 21p)x = 84\\). For no solution, the coefficient of \\(x\\) must be 0: \\(-3 + 21p = 0 \\Rightarrow p = \\frac{3}{21} = \\frac{1}{7}\\).",
+      "source": "P4M2 Q17"
+    },
+    {
+      "id": "alg-0008",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The equation \\(x + y = 1{,}440\\) represents the number of minutes of daylight (between sunrise and sunset), \\(x\\), and the number of minutes of non-daylight, \\(y\\), on a particular day in Oak Park, Illinois. If this day has 670 minutes of daylight, how many minutes of non-daylight does it have?",
+      "options": [
+        "670",
+        "770",
+        "1,373",
+        "1,440"
+      ],
+      "correctIndex": 1,
+      "explanation": "Substitute \\(x = 670\\): \\(670 + y = 1{,}440 \\Rightarrow y = 770\\) minutes of non-daylight.",
+      "source": "P5M1 Q9"
+    },
+    {
+      "id": "alg-0009",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(4x - 28 = -24\\), what is the value of \\(x - 7\\)?",
+      "options": [
+        "-24",
+        "-22",
+        "-6",
+        "-1"
+      ],
+      "correctIndex": 2,
+      "explanation": "Divide the equation \\(4x - 28 = -24\\) by 4: \\(x - 7 = -6\\).",
+      "source": "P5M1 Q11"
+    },
+    {
+      "id": "alg-0010",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For a snowstorm in a certain town, the minimum rate of snowfall recorded was 0.6 inches per hour, and the maximum rate of snowfall recorded was 1.8 inches per hour. Which inequality is true for all values of \\(s\\), where \\(s\\) represents a rate of snowfall, in inches per hour, recorded for this snowstorm?",
+      "options": [
+        "\\(s \\ge 2.4\\)",
+        "\\(s \\ge 1.8\\)",
+        "\\(0 \\le s \\le 0.6\\)",
+        "\\(0.6 \\le s \\le 1.8\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "All recorded rates fall between the minimum 0.6 and maximum 1.8 inches per hour, so \\(0.6 \\le s \\le 1.8\\).",
+      "source": "P5M1 Q12"
+    },
+    {
+      "id": "alg-0011",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "At a particular track meet, the ratio of coaches to athletes is 1 to 26. If there are \\(x\\) coaches at the track meet, which of the following expressions represents the number of athletes at the track meet?",
+      "options": [
+        "\\(\\frac{x}{26}\\)",
+        "\\(26x\\)",
+        "\\(x + 26\\)",
+        "\\(\\frac{26}{x}\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "There are 26 athletes for each coach, so with \\(x\\) coaches the number of athletes is \\(26x\\).",
+      "source": "P5M1 Q17"
+    },
+    {
+      "id": "alg-0012",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Kaylani used fabric measuring 5 yards in length to make each suit for a men's choir. The relationship between the number of suits that Kaylani made, \\(x\\), and the total length of fabric that she purchased \\(y\\), in yards, is represented by the equation \\(y - 5x = 6\\). What is the best interpretation of 6 in this context?",
+      "options": [
+        "Kaylani made 6 suits.",
+        "Kaylani purchased a total of 6 yards of fabric.",
+        "Kaylani used a total of 6 yards of fabric to make the suits.",
+        "Kaylani purchased 6 yards more fabric than she used to make the suits."
+      ],
+      "correctIndex": 3,
+      "explanation": "Rewriting: \\(y = 5x + 6\\), where \\(5x\\) is the fabric used. The constant 6 is the extra fabric purchased beyond what was used, so Kaylani purchased 6 yards more than she used.",
+      "source": "P5M1 Q18"
+    },
+    {
+      "id": "alg-0013",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = 4x - 3\\). What is the value of \\(f(10)\\)?",
+      "options": [
+        "-30",
+        "37",
+        "40",
+        "43"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(f(10) = 4(10) - 3 = 40 - 3 = 37\\).",
+      "source": "P5M2 Q3"
+    },
+    {
+      "id": "alg-0014",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(4\\sqrt{2x} = 16\\), what is the value of \\(6x\\)?",
+      "options": [
+        "24",
+        "48",
+        "72",
+        "96"
+      ],
+      "correctIndex": 1,
+      "explanation": "Divide by 4: \\(\\sqrt{2x} = 4\\). Square: \\(2x = 16\\), so \\(x = 8\\) and \\(6x = 48\\).",
+      "source": "P5M2 Q18"
+    },
+    {
+      "id": "alg-0015",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(2x - y > 883\\) For which of the following tables are all the values of \\(x\\) and their corresponding values of \\(y\\) solutions to the given inequality?",
+      "options": [
+        "Table A: \\((440, 0), (441, -2), (442, -4)\\)",
+        "Table B: \\((440, 0), (442, -2), (441, -4)\\)",
+        "Table C: \\((442, 0), (440, -2), (441, -4)\\)",
+        "Table D: \\((442, 0), (441, -2), (440, -4)\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The inequality requires \\(2x - y > 883\\). Testing table D: \\((442,0): 884 > 883\\) âœ“; \\((441,-2): 882 + 2 = 884 > 883\\) âœ“; \\((440,-4): 880 + 4 = 884 > 883\\) âœ“. All rows satisfy the inequality.",
+      "source": "P5M2 Q19"
+    },
+    {
+      "id": "alg-0016",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(\\frac{42a}{k} + 42ak\\), where \\(k > 0\\)?",
+      "options": [
+        "\\(\\frac{84a}{k}\\)",
+        "\\(\\frac{84ak^2}{k}\\)",
+        "\\(\\frac{42a(k + 1)}{k}\\)",
+        "\\(\\frac{42a(k^2 + 1)}{k}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Write over a common denominator: \\(\\frac{42a}{k} + 42ak = \\frac{42a + 42ak^2}{k} = \\frac{42a(1 + k^2)}{k} = \\frac{42a(k^2 + 1)}{k}\\).",
+      "source": "P5M2 Q23"
+    },
+    {
+      "id": "alg-0017",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\((p + 3) + 8 = 10\\) What value of \\(p\\) is the solution to the given equation?",
+      "options": [
+        "-1",
+        "5",
+        "15",
+        "21"
+      ],
+      "correctIndex": 0,
+      "explanation": "\\((p + 3) + 8 = 10 \\Rightarrow p + 11 = 10 \\Rightarrow p = -1\\).",
+      "source": "P6M1 Q1"
+    },
+    {
+      "id": "alg-0018",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "During a portion of a flight, a small airplane's cruising speed varied between 150 miles per hour and 170 miles per hour. Which inequality best represents this situation, where \\(s\\) is the cruising speed, in miles per hour, during this portion of the flight?",
+      "options": [
+        "\\(s \\le 20\\)",
+        "\\(s \\le 150\\)",
+        "\\(s \\le 170\\)",
+        "\\(150 \\le s \\le 170\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The speed stays between 150 and 170 miles per hour inclusive, so \\(150 \\le s \\le 170\\).",
+      "source": "P6M1 Q4"
+    },
+    {
+      "id": "alg-0019",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A manager is responsible for ordering supplies for a shaved ice shop. The shop's inventory starts with 4,500 paper cups, and the manager estimates that 70 of these paper cups are used each day. Based on this estimate, in how many days will the supply of paper cups reach 1,700?",
+      "options": [
+        "20",
+        "40",
+        "60",
+        "80"
+      ],
+      "correctIndex": 1,
+      "explanation": "The number used to reach 1,700 is \\(4{,}500 - 1{,}700 = 2{,}800\\). At 70 per day: \\(2{,}800 \\div 70 = 40\\) days.",
+      "source": "P6M1 Q10"
+    },
+    {
+      "id": "alg-0020",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y > 4x + 8\\) For which of the following tables are all the values of \\(x\\) and their corresponding values of \\(y\\) solutions to the given inequality?",
+      "options": [
+        "Table A: \\((2, 19), (4, 30), (6, 41)\\)",
+        "Table B: \\((2, 8), (4, 16), (6, 24)\\)",
+        "Table C: \\((2, 13), (4, 18), (6, 23)\\)",
+        "Table D: \\((2, 13), (4, 21), (6, 29)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The inequality requires \\(y > 4x + 8\\). Table A: at \\(x=2\\), \\(4(2)+8=16\\) and \\(19>16\\) âœ“; at \\(x=4\\), \\(24\\) and \\(30>24\\) âœ“; at \\(x=6\\), \\(32\\) and \\(41>32\\) âœ“. All rows satisfy it.",
+      "source": "P6M1 Q11"
+    },
+    {
+      "id": "alg-0021",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(P = N(19 - C)\\) The given equation relates the positive numbers \\(P\\), \\(N\\), and \\(C\\). Which equation correctly expresses \\(C\\) in terms of \\(P\\) and \\(N\\)?",
+      "options": [
+        "\\(C = \\frac{19 + P}{N}\\)",
+        "\\(C = \\frac{19 - P}{N}\\)",
+        "\\(C = 19 + \\frac{P}{N}\\)",
+        "\\(C = 19 - \\frac{P}{N}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Divide by \\(N\\): \\(\\frac{P}{N} = 19 - C\\). Solve for \\(C\\): \\(C = 19 - \\frac{P}{N}\\).",
+      "source": "P6M1 Q17"
+    },
+    {
+      "id": "alg-0022",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = 8x\\). For what value of \\(x\\) does \\(f(x) = 72\\)?",
+      "options": [
+        "8",
+        "9",
+        "64",
+        "80"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(8x = 72 \\Rightarrow x = 9\\).",
+      "source": "P6M2 Q1"
+    },
+    {
+      "id": "alg-0023",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(7(2x - 3) = 63\\) Which equation has the same solution as the given equation?",
+      "options": [
+        "\\(2x - 3 = 9\\)",
+        "\\(2x - 3 = 56\\)",
+        "\\(2x - 21 = 63\\)",
+        "\\(2x - 21 = 70\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dividing both sides of \\(7(2x - 3) = 63\\) by 7 gives \\(2x - 3 = 9\\), which has the same solution.",
+      "source": "P6M2 Q10"
+    },
+    {
+      "id": "alg-0024",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = a\\sqrt{x + b}\\), where \\(a\\) and \\(b\\) are constants. In the \\(xy\\)-plane, the graph of \\(y = f(x)\\) passes through the point \\((-24, 0)\\), and \\(f(24) < 0\\). Which of the following must be true?",
+      "options": [
+        "\\(f(0) = 24\\)",
+        "\\(f(0) = -24\\)",
+        "\\(a > b\\)",
+        "\\(a < b\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Passing through \\((-24, 0)\\) gives \\(\\sqrt{-24 + b} = 0\\), so \\(b = 24\\). Since \\(f(24) = a\\sqrt{48} < 0\\), \\(a < 0\\). Thus \\(a < 0 < 24 = b\\), so \\(a < b\\).",
+      "source": "P6M2 Q24"
+    },
+    {
+      "id": "alg-0025",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(|p| + 61 = 65\\) Which value is a solution to the given equation?",
+      "options": [
+        "\\(\\frac{65}{61}\\)",
+        "4",
+        "126",
+        "130"
+      ],
+      "correctIndex": 1,
+      "explanation": "\\(|p| = 65 - 61 = 4\\), so \\(p = 4\\) (or \\(-4\\)). Among the choices, 4 is a solution.",
+      "source": "P7M1 Q3"
+    },
+    {
+      "id": "alg-0026",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Lorenzo purchased a box of cereal and some strawberries at the grocery store. Lorenzo paid 2 dollars for the box of cereal and 1.90 dollars per pound for the strawberries. If Lorenzo paid a total of 9.60 dollars for the box of cereal and the strawberries, which of the following equations can be used to find \\(p\\), the number of pounds of strawberries Lorenzo purchased? (Assume there is no sales tax.)",
+      "options": [
+        "\\(1.90p + 2 = 9.60\\)",
+        "\\(1.90p - 2 = 9.60\\)",
+        "\\(1.90 + 2p = 9.60\\)",
+        "\\(1.90 - 2p = 9.60\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The strawberries cost \\(1.90p\\) and the cereal costs 2 dollars, totaling 9.60 dollars: \\(1.90p + 2 = 9.60\\).",
+      "source": "P7M1 Q4"
+    },
+    {
+      "id": "alg-0027",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = |x - 4x|\\). What value of \\(a\\) satisfies \\(f(5) - f(a) = -15\\)?",
+      "options": [
+        "-20",
+        "5",
+        "10",
+        "45"
+      ],
+      "correctIndex": 2,
+      "explanation": "\\(f(x) = |x - 4x| = |-3x| = 3|x|\\). So \\(f(5) = 15\\), and \\(15 - f(a) = -15 \\Rightarrow f(a) = 30 \\Rightarrow 3|a| = 30 \\Rightarrow |a| = 10\\). Among the choices, \\(a = 10\\).",
+      "source": "P7M1 Q16"
+    },
+    {
+      "id": "alg-0028",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(\\frac{12}{n} - \\frac{2}{t} = -\\frac{2}{w}\\) The given equation relates the variables \\(n\\), \\(t\\), and \\(w\\), where \\(n > 0\\), \\(t > 0\\), and \\(w > t\\). Which expression is equivalent to \\(n\\)?",
+      "options": [
+        "\\(12tw\\)",
+        "\\(6(t - w)\\)",
+        "\\(\\frac{w - t}{6tw}\\)",
+        "\\(\\frac{6tw}{w - t}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rewrite: \\(\\frac{12}{n} = \\frac{2}{t} - \\frac{2}{w} = \\frac{2w - 2t}{tw} = \\frac{2(w - t)}{tw}\\). So \\(n = \\frac{12tw}{2(w - t)} = \\frac{6tw}{w - t}\\).",
+      "source": "P7M1 Q19"
+    },
+    {
+      "id": "alg-0029",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "In a set of four consecutive odd integers, where the integers are ordered from least to greatest, the first integer is represented by \\(x\\). The product of 12 and the fourth odd integer is at most 26 less than the sum of the first and third odd integers. Which inequality represents this situation?",
+      "options": [
+        "\\(12(x + 6) \\le x + (x + 4) - 26\\)",
+        "\\(12(x + 6) \\ge 26 - (x + (x + 4))\\)",
+        "\\(12(x + 4) \\le x + (x + 3) - 26\\)",
+        "\\(12(x + 4) \\ge 26 - (x + (x + 3))\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The four consecutive odd integers are \\(x, x+2, x+4, x+6\\). The fourth is \\(x+6\\), and the first and third are \\(x\\) and \\(x+4\\). \"At most 26 less than the sum\" gives \\(12(x+6) \\le [x + (x+4)] - 26\\).",
+      "source": "P7M1 Q23"
+    },
+    {
+      "id": "alg-0030",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(8x = 6\\), what is the value of \\(72x\\)?",
+      "options": [
+        "3",
+        "15",
+        "54",
+        "57"
+      ],
+      "correctIndex": 2,
+      "explanation": "\\(72x = 9(8x) = 9(6) = 54\\).",
+      "source": "P7M2 Q8"
+    },
+    {
+      "id": "alg-0031",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "At a state fair, attendees can win tokens that are worth a different number of points depending on the shape. One attendee won \\(S\\) square tokens and \\(C\\) circle tokens worth a total of 1,120 points. The equation \\(80S + 90C = 1{,}120\\) represents this situation. How many more points is a circle token worth than a square token?",
+      "options": [
+        "950",
+        "90",
+        "80",
+        "10"
+      ],
+      "correctIndex": 3,
+      "explanation": "A square token is worth 80 points and a circle token 90 points. The difference is \\(90 - 80 = 10\\) points.",
+      "source": "P7M2 Q11"
+    },
+    {
+      "id": "alg-0032",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y < x\\), \\(x < 22\\) For which of the following tables are all the values of \\(x\\) and their corresponding values of \\(y\\) solutions to the given system of inequalities?",
+      "options": [
+        "Table A: \\((19, 18), (20, 19), (21, 20)\\)",
+        "Table B: \\((19, 20), (20, 21), (21, 22)\\)",
+        "Table C: \\((23, 22), (24, 23), (25, 24)\\)",
+        "Table D: \\((23, 24), (24, 25), (25, 26)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The system needs \\(y < x\\) and \\(x < 22\\). Table A: all \\(x\\) values (19, 20, 21) are less than 22, and each \\(y\\) is less than its \\(x\\). Both conditions hold for all rows.",
+      "source": "P7M2 Q16"
+    },
+    {
+      "id": "alg-0033",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\((2x^2 + x - 9) + (x^2 + 6x + 1)\\)?",
+      "options": [
+        "\\(2x^2 + 7x + 10\\)",
+        "\\(2x^2 + 6x - 8\\)",
+        "\\(3x^2 + 7x - 10\\)",
+        "\\(3x^2 + 7x - 8\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Combine like terms: \\((2x^2 + x^2) + (x + 6x) + (-9 + 1) = 3x^2 + 7x - 8\\).",
+      "source": "P8M1 Q4"
+    },
+    {
+      "id": "alg-0034",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(f(x) = 4x + b\\) For the linear function \\(f\\), \\(b\\) is a constant and \\(f(7) = 28\\). What is the value of \\(b\\)?",
+      "options": [
+        "0",
+        "1",
+        "4",
+        "7"
+      ],
+      "correctIndex": 0,
+      "explanation": "\\(f(7) = 4(7) + b = 28 + b = 28\\), so \\(b = 0\\).",
+      "source": "P8M1 Q8"
+    },
+    {
+      "id": "alg-0035",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The area \\(A\\), in square centimeters, of a rectangular cutting board can be represented by the expression \\(w(w + 9)\\), where \\(w\\) is the width, in centimeters, of the cutting board. Which expression represents the length, in centimeters, of the cutting board?",
+      "options": [
+        "\\(w(w + 9)\\)",
+        "\\(w\\)",
+        "9",
+        "\\((w + 9)\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Area equals length times width. Since area is \\(w(w + 9)\\) and width is \\(w\\), the length is \\((w + 9)\\).",
+      "source": "P8M1 Q16"
+    },
+    {
+      "id": "alg-0036",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(p = \\frac{k}{4j + 9}\\) The given equation relates the distinct positive numbers \\(p\\), \\(k\\), and \\(j\\). Which equation correctly expresses \\(4j + 9\\) in terms of \\(p\\) and \\(k\\)?",
+      "options": [
+        "\\(4j + 9 = \\frac{k}{p}\\)",
+        "\\(4j + 9 = kp\\)",
+        "\\(4j + 9 = k - p\\)",
+        "\\(4j + 9 = \\frac{p}{k}\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "From \\(p = \\frac{k}{4j+9}\\), multiply both sides by \\(4j+9\\) and divide by \\(p\\): \\(4j + 9 = \\frac{k}{p}\\).",
+      "source": "P8M1 Q17"
+    },
+    {
+      "id": "alg-0037",
+      "difficulty": "medium",
+      "isDiagnostic": true,
+      "answerType": "mc",
+      "stem": "\\(y \\le x + 7\\), \\(y \\ge -2x - 1\\) Which point \\((x, y)\\) is a solution to the given system of inequalities in the \\(xy\\)-plane?",
+      "options": [
+        "\\((-14, 0)\\)",
+        "\\((0, -14)\\)",
+        "\\((0, 14)\\)",
+        "\\((14, 0)\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Test \\((14, 0)\\): \\(0 \\le 14 + 7 = 21\\) is true, and \\(0 \\ge -2(14) - 1 = -29\\) is true. Both inequalities hold.",
+      "source": "P8M1 Q22"
+    },
+    {
+      "id": "alg-0038",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(9(4 - 3x) + 2 = 8(4 - 3x) + 18\\), what is the value of \\(4 - 3x\\)?",
+      "options": [
+        "-16",
+        "-4",
+        "4",
+        "16"
+      ],
+      "correctIndex": 3,
+      "explanation": "Let \\(u = 4 - 3x\\). Then \\(9u + 2 = 8u + 18 \\Rightarrow u = 16\\).",
+      "source": "P8M2 Q16"
+    },
+    {
+      "id": "alg-0039",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(16x + 30 = 190\\) Which equation has the same solution as the given equation?",
+      "options": [
+        "\\(16x = 30\\)",
+        "\\(16x = 130\\)",
+        "\\(16x = 160\\)",
+        "\\(16x = 190\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Subtract 30 from both sides: \\(16x = 190 - 30 = 160\\).",
+      "source": "P9M1 Q2"
+    },
+    {
+      "id": "alg-0040",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(9x^2 + 5x\\)?",
+      "options": [
+        "\\(x(9x + 5)\\)",
+        "\\(5x(9x + 1)\\)",
+        "\\(9x(x + 5)\\)",
+        "\\(x^2(9x + 5)\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factor out the common factor \\(x\\): \\(9x^2 + 5x = x(9x + 5)\\).",
+      "source": "P9M1 Q5"
+    },
+    {
+      "id": "alg-0041",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "John paid a total of 165 dollars for a microscope by making a down payment of 37 dollars plus \\(p\\) monthly payments of 16 dollars each. Which of the following equations represents this situation?",
+      "options": [
+        "\\(16p - 37 = 165\\)",
+        "\\(37p - 16 = 165\\)",
+        "\\(16p + 37 = 165\\)",
+        "\\(37p + 16 = 165\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The monthly payments total \\(16p\\) and the down payment is 37, summing to 165: \\(16p + 37 = 165\\).",
+      "source": "P9M1 Q9"
+    },
+    {
+      "id": "alg-0042",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(y - 57 = px\\) The given equation relates the positive numbers \\(p\\), \\(x\\), and \\(y\\). Which equation correctly expresses \\(y\\) in terms of \\(p\\) and \\(x\\)?",
+      "options": [
+        "\\(y = 57x + p\\)",
+        "\\(y = px + 57\\)",
+        "\\(y = 57px\\)",
+        "\\(y = \\frac{px}{57}\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Add 57 to both sides: \\(y = px + 57\\).",
+      "source": "P9M1 Q10"
+    },
+    {
+      "id": "alg-0043",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A wire with a length of 106 inches is cut into two parts. One part has a length of \\(x\\) inches, and the other part has a length of \\(y\\) inches. The value of \\(x\\) is 6 more than 4 times the value of \\(y\\). What is the value of \\(x\\)?",
+      "options": [
+        "25",
+        "28",
+        "56",
+        "86"
+      ],
+      "correctIndex": 3,
+      "explanation": "We have \\(x + y = 106\\) and \\(x = 4y + 6\\). Substitute: \\(4y + 6 + y = 106 \\Rightarrow 5y = 100 \\Rightarrow y = 20\\), so \\(x = 4(20) + 6 = 86\\).",
+      "source": "P9M1 Q16"
+    },
+    {
+      "id": "alg-0044",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(f(x) = (x + 6)(x + 5)(x - 4)\\) The function \\(f\\) is given. Which table of values represents \\(y = f(x) - 3\\)?",
+      "options": [
+        "At \\(x = -6, -5, 4\\): \\(y = -9, -8, 1\\)",
+        "At \\(x = -6, -5, 4\\): \\(y = -3, -3, -3\\)",
+        "At \\(x = -6, -5, 4\\): \\(y = -3, -2, 7\\)",
+        "At \\(x = -6, -5, 4\\): \\(y = 3, 3, 3\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "At \\(x = -6, -5, 4\\), each is a root of \\(f\\), so \\(f(x) = 0\\). Then \\(y = f(x) - 3 = 0 - 3 = -3\\) for all three, matching the table with \\(y = -3, -3, -3\\).",
+      "source": "P9M1 Q17"
+    },
+    {
+      "id": "alg-0045",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A landscaper uses a hose that puts \\(88x\\) ounces of water in a bucket in \\(5y\\) minutes. Which expression represents the number of ounces of water the hose puts in the bucket in \\(9y\\) minutes at this rate?",
+      "options": [
+        "\\(\\frac{9x}{440}\\)",
+        "\\(\\frac{440x}{9}\\)",
+        "\\(\\frac{5x}{792}\\)",
+        "\\(\\frac{792x}{5}\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The rate is \\(\\frac{88x}{5y}\\) ounces per minute. In \\(9y\\) minutes: \\(\\frac{88x}{5y} \\times 9y = \\frac{792x}{5}\\).",
+      "source": "P9M1 Q18"
+    },
+    {
+      "id": "alg-0046",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(w + 7 = 357\\) What value of \\(w\\) is the solution to the given equation?",
+      "options": [
+        "51",
+        "350",
+        "364",
+        "3,577"
+      ],
+      "correctIndex": 1,
+      "explanation": "Subtract 7 from both sides: \\(w = 357 - 7 = 350\\).",
+      "source": "P9M2 Q1"
+    },
+    {
+      "id": "alg-0047",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(16(x + 15)\\)?",
+      "options": [
+        "\\(16x + 31\\)",
+        "\\(16x + 240\\)",
+        "\\(16x + 1\\)",
+        "\\(16x + 15\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distribute: \\(16(x + 15) = 16x + 240\\).",
+      "source": "P9M2 Q2"
+    },
+    {
+      "id": "alg-0048",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(\\frac{y + 12}{x - 8} + \\frac{y(x - 8)}{x^2y - 8xy}\\)?",
+      "options": [
+        "\\(\\frac{xy + y + 4}{x^3y - 16x^2y + 64xy}\\)",
+        "\\(\\frac{xy + 9y + 12}{x^2y - 8xy + x - 8}\\)",
+        "\\(\\frac{xy^2 + 13xy - 8y}{x^2y - 8xy}\\)",
+        "\\(\\frac{xy^2 + 13xy - 8y}{x^3y - 16x^2y + 64xy}\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Note \\(x^2y - 8xy = xy(x - 8)\\), so the second fraction is \\(\\frac{y(x-8)}{xy(x-8)} = \\frac{1}{x}\\). Adding: \\(\\frac{y+12}{x-8} + \\frac{1}{x} = \\frac{x(y+12) + (x-8)}{x(x-8)} = \\frac{xy + 12x + x - 8}{x^2 - 8x}\\). Multiplying numerator and denominator by \\(y\\) to match form gives \\(\\frac{xy^2 + 13xy - 8y}{x^2y - 8xy}\\).",
+      "source": "P9M2 Q25"
+    },
+    {
+      "id": "alg-0049",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The total cost, in dollars, to rent a surfboard consists of a 25 dollar service fee and a 10 dollar per hour rental fee. A person rents a surfboard for \\(t\\) hours and intends to spend a maximum of 75 dollars to rent the surfboard. Which inequality represents this situation?",
+      "options": [
+        "\\(10t \\le 75\\)",
+        "\\(10 + 25t \\le 75\\)",
+        "\\(25t \\le 75\\)",
+        "\\(25 + 10t \\le 75\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The cost is a fixed 25 dollar fee plus 10 dollars per hour, giving \\(25 + 10t\\), which must be at most 75: \\(25 + 10t \\le 75\\).",
+      "source": "P10M1 Q3"
+    },
+    {
+      "id": "alg-0050",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(4x + 2 = 12\\), what is the value of \\(16x + 8\\)?",
+      "options": [
+        "40",
+        "48",
+        "56",
+        "60"
+      ],
+      "correctIndex": 1,
+      "explanation": "Notice \\(16x + 8 = 4(4x + 2) = 4(12) = 48\\).",
+      "source": "P10M1 Q10"
+    },
+    {
+      "id": "alg-0051",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "A window repair specialist charges 220 dollars for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 5 hours of repair is 400 dollars. Which function \\(f\\) gives the total cost, in dollars, for \\(x\\) hours of repair, where \\(x \\ge 2\\)?",
+      "options": [
+        "\\(f(x) = 60x + 100\\)",
+        "\\(f(x) = 60x + 220\\)",
+        "\\(f(x) = 80x\\)",
+        "\\(f(x) = 80x + 220\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "For 5 hours, the 3 additional hours cost \\(400 - 220 = 180\\) dollars, so the hourly fee is \\(\\frac{180}{3} = 60\\) dollars. The cost is \\(220 + 60(x - 2) = 60x + 100\\).",
+      "source": "P10M1 Q26"
+    },
+    {
+      "id": "alg-0052",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(7m = 2(n + p)\\) The given equation relates the positive numbers \\(m\\), \\(n\\), and \\(p\\). Which equation correctly gives \\(m\\) in terms of \\(n\\) and \\(p\\)?",
+      "options": [
+        "\\(m = \\frac{2(n + p)}{7}\\)",
+        "\\(m = 2(n + p)\\)",
+        "\\(m = 2(n + p) - 7\\)",
+        "\\(m = 2 - n - p - 7\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Divide both sides by 7: \\(m = \\frac{2(n + p)}{7}\\).",
+      "source": "P10M2 Q5"
+    },
+    {
+      "id": "alg-0053",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(66x = 66x\\) How many solutions does the given equation have?",
+      "options": [
+        "Exactly one",
+        "Exactly two",
+        "Infinitely many",
+        "Zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "The equation is true for every value of \\(x\\), so it has infinitely many solutions.",
+      "source": "P10M2 Q12"
+    },
+    {
+      "id": "alg-0054",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(\\frac{8x(x - 7) - 3(x - 7)}{2x - 14}\\), where \\(x > 7\\)?",
+      "options": [
+        "\\(\\frac{x - 7}{5}\\)",
+        "\\(\\frac{8x - 3}{2}\\)",
+        "\\(\\frac{8x^2 - 3x - 14}{2x - 14}\\)",
+        "\\(\\frac{8x^2 - 3x - 77}{2x - 14}\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Factor the numerator: \\(8x(x-7) - 3(x-7) = (x-7)(8x-3)\\). The denominator is \\(2x - 14 = 2(x-7)\\). Cancel \\((x-7)\\): \\(\\frac{(x-7)(8x-3)}{2(x-7)} = \\frac{8x-3}{2}\\).",
+      "source": "P10M2 Q17"
+    },
+    {
+      "id": "alg-0055",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "\\(4x + 1 = 33\\) Which equation has the same solution as the given equation?",
+      "options": [
+        "\\(4x = 32\\)",
+        "\\(4x = 5\\)",
+        "\\(4x = 1\\)",
+        "\\(4x = -32\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract 1 from both sides of \\(4x + 1 = 33\\) to get \\(4x = 32\\), which has the same solution.",
+      "source": "P11M1 Q2"
+    },
+    {
+      "id": "alg-0056",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "In a chess tournament, each participant earns 1 point for each game the participant plays that ends in a draw and 3 points for each game the participant wins. A certain participant in this tournament has earned 41 points. Which equation represents this situation, where \\(d\\) represents the number of games this participant has played that ended in a draw and \\(w\\) represents the number of games this participant has won?",
+      "options": [
+        "\\(d + 3w = 41\\)",
+        "\\(3d + w = 41\\)",
+        "\\(d + \\frac{w}{3} = 41\\)",
+        "\\(\\frac{d}{3} + w = 41\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Draws contribute \\(d\\) points (1 each) and wins contribute \\(3w\\) points (3 each), totaling 41: \\(d + 3w = 41\\).",
+      "source": "P11M1 Q8"
+    },
+    {
+      "id": "alg-0057",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(g\\) is defined by \\(g(x) = \\sqrt{x} + 300\\). What is the value of \\(g(x)\\) when \\(x = 81\\)?",
+      "options": [
+        "9",
+        "300",
+        "309",
+        "381"
+      ],
+      "correctIndex": 2,
+      "explanation": "Substitute \\(x = 81\\): \\(g(81) = \\sqrt{81} + 300 = 9 + 300 = 309\\).",
+      "source": "P11M1 Q9"
+    },
+    {
+      "id": "alg-0058",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(64t^2s^3 - 56t^3s\\)?",
+      "options": [
+        "\\(4ts(16s^2 - 14ts)\\)",
+        "\\(4ts(16t^2s^2 - 14t)\\)",
+        "\\(4t^2s(16ts - 14s)\\)",
+        "\\(4t^2s(16s^2 - 14t)\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "The greatest common factor of \\(64t^2s^3\\) and \\(56t^3s\\) is \\(8t^2s\\)... factoring \\(4t^2s\\): \\(64t^2s^3 = 4t^2s \\cdot 16s^2\\) and \\(56t^3s = 4t^2s \\cdot 14t\\), giving \\(4t^2s(16s^2 - 14t)\\).",
+      "source": "P11M1 Q11"
+    },
+    {
+      "id": "alg-0059",
+      "difficulty": "hard",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The cost to rent a bus from Company X is 950 dollars for the first 3 hours and an additional 50 dollars per hour for each hour after the first 3 hours. If the total cost to rent the bus from Company X for \\(t\\) hours, where \\(t > 3\\), is 1,150 dollars, which equation represents this situation?",
+      "options": [
+        "\\(950(t - 3) + 50t = 1{,}150\\)",
+        "\\(950(3t) + 50t = 1{,}150\\)",
+        "\\(950 + 50(t - 3) = 1{,}150\\)",
+        "\\(950 + 50(3t) = 1{,}150\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The base cost is 950 dollars, plus 50 dollars for each hour beyond the first 3, which is \\(50(t - 3)\\). The total is \\(950 + 50(t - 3) = 1{,}150\\).",
+      "source": "P11M1 Q17"
+    },
+    {
+      "id": "alg-0060",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Which expression is equivalent to \\(6x + 5x + 4y\\)?",
+      "options": [
+        "\\(15x\\)",
+        "\\(15y\\)",
+        "\\(11x + 4y\\)",
+        "\\(30x + 4y\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Combine the like \\(x\\)-terms: \\(6x + 5x = 11x\\), giving \\(11x + 4y\\).",
+      "source": "P11M2 Q1"
+    },
+    {
+      "id": "alg-0061",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The function \\(f\\) is defined by \\(f(x) = 9(2x + 3)\\). For what value of \\(x\\) does \\(f(x) = 63\\)?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "30"
+      ],
+      "correctIndex": 0,
+      "explanation": "Set \\(9(2x + 3) = 63\\). Divide by 9: \\(2x + 3 = 7\\), so \\(2x = 4\\) and \\(x = 2\\).",
+      "source": "P11M2 Q5"
+    },
+    {
+      "id": "alg-0062",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Leo goes to a packing store to buy containers and tape. Leo has 15 dollars. Each container costs 1.87 dollars and each roll of tape costs 2.40 dollars. Which inequality represents the relationship between the number of containers, \\(c\\), and the number of rolls of tape, \\(t\\), Leo can buy?",
+      "options": [
+        "\\(1.87c + 2.40t \\le 15\\)",
+        "\\(1.87c + 2.40t \\ge 15\\)",
+        "\\(2.40c + 1.87t \\le 15\\)",
+        "\\(2.40c + 1.87t \\ge 15\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Containers cost \\(1.87c\\) and tape costs \\(2.40t\\). The total spent cannot exceed 15 dollars: \\(1.87c + 2.40t \\le 15\\).",
+      "source": "P11M2 Q8"
+    },
+    {
+      "id": "alg-0063",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "For the polynomial function \\(f\\), the graph of \\(y = f(x)\\) in the \\(xy\\)-plane passes through the points \\((-5, 0)\\), \\((1, 0)\\), and \\((4, 0)\\). Which of the following must be a factor of \\(f(x)\\)?",
+      "options": [
+        "\\(x + 1\\)",
+        "\\(x + 4\\)",
+        "\\(x - 1\\)",
+        "\\(x - 5\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "An \\(x\\)-intercept at \\((1, 0)\\) means \\(f(1) = 0\\), so \\((x - 1)\\) is a factor. The other listed factors correspond to roots (\\(-1, -4, 5\\)) that are not intercepts of the graph.",
+      "source": "P11M2 Q16"
+    },
+    {
+      "id": "alg-0064",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve for \\(x\\): \\(3x + 7 = 22\\).",
+      "options": [
+        "\\(5\\)",
+        "\\(7\\)",
+        "\\(9\\)",
+        "\\(3\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract \\(7\\): \\(3x = 15\\). Divide by \\(3\\): \\(x = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0065",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve for \\(x\\): \\(5x - 4 = 26\\).",
+      "options": [
+        "\\(5\\)",
+        "\\(6\\)",
+        "\\(4.4\\)",
+        "\\(30\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Add \\(4\\): \\(5x = 30\\). Divide by \\(5\\): \\(x = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0066",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve for \\(x\\): \\(\\dfrac{x}{4} = 9\\).",
+      "options": [
+        "\\(2.25\\)",
+        "\\(13\\)",
+        "\\(36\\)",
+        "\\(5\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Multiply both sides by \\(4\\): \\(x = 36\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0067",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(2(x - 3) = 10\\), what is \\(x\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(2\\)",
+        "\\(6.5\\)",
+        "\\(8\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Divide by \\(2\\): \\(x - 3 = 5\\), so \\(x = 8\\). (Or distribute: \\(2x - 6 = 10\\).)",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0068",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve for \\(x\\): \\(7x = 4x + 15\\).",
+      "options": [
+        "\\(5\\)",
+        "\\(15\\)",
+        "\\(3\\)",
+        "\\(1.36\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract \\(4x\\): \\(3x = 15\\), so \\(x = 5\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0069",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve for \\(x\\): \\(x + 12 = 3x\\).",
+      "options": [
+        "\\(3\\)",
+        "\\(6\\)",
+        "\\(4\\)",
+        "\\(12\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Subtract \\(x\\): \\(12 = 2x\\), so \\(x = 6\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0070",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(4x + 1 = 2x + 9\\), what is \\(x\\)?",
+      "options": [
+        "\\(5\\)",
+        "\\(2\\)",
+        "\\(4\\)",
+        "\\(1.67\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Subtract \\(2x\\): \\(2x + 1 = 9\\); subtract \\(1\\): \\(2x = 8\\), so \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0071",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve for \\(x\\): \\(\\dfrac{2x + 1}{3} = 5\\).",
+      "options": [
+        "\\(8\\)",
+        "\\(2\\)",
+        "\\(2.33\\)",
+        "\\(7\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Multiply by \\(3\\): \\(2x + 1 = 15\\). Then \\(2x = 14\\), so \\(x = 7\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0072",
+      "difficulty": "easy",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(9 - 2x = 1\\), what is \\(x\\)?",
+      "options": [
+        "\\(4\\)",
+        "\\(-4\\)",
+        "\\(5\\)",
+        "\\(2.5\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtract \\(9\\): \\(-2x = -8\\); divide by \\(-2\\): \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0073",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve for \\(x\\): \\(3(2x - 1) = 2(x + 5) + 3\\).",
+      "options": [
+        "\\(4\\)",
+        "\\(2\\)",
+        "\\(5\\)",
+        "\\(2.75\\)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Expand: \\(6x - 3 = 2x + 13\\). Then \\(4x = 16\\), so \\(x = 4\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0074",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "If \\(\\dfrac{x + 1}{3} = \\dfrac{x - 5}{2}\\), what is \\(x\\)?",
+      "options": [
+        "\\(6\\)",
+        "\\(17\\)",
+        "\\(-13\\)",
+        "\\(11\\)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cross-multiply: \\(2(x + 1) = 3(x - 5)\\), so \\(2x + 2 = 3x - 15\\). Then \\(x = 17\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0075",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "The formula \\(P = 2l + 2w\\) gives the perimeter of a rectangle. If \\(P = 40\\) and \\(w = 7\\), what is \\(l\\)?",
+      "options": [
+        "\\(26\\)",
+        "\\(16.5\\)",
+        "\\(13\\)",
+        "\\(33\\)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Substitute: \\(40 = 2l + 14\\), so \\(2l = 26\\) and \\(l = 13\\).",
+      "source": "Adaptive bank expansion"
+    },
+    {
+      "id": "alg-0076",
+      "difficulty": "medium",
+      "isDiagnostic": false,
+      "answerType": "mc",
+      "stem": "Solve for \\(x\\): \\(0.2x + 1.5 = 0.5x - 0.6\\).",
+      "options": [
+        "\\(3\\)",
+        "\\(-7\\)",
+        "\\(0.3\\)",
+        "\\(7\\)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Subtract \\(0.2x\\): \\(1.5 = 0.3x - 0.6\\); add \\(0.6\\): \\(2.1 = 0.3x\\), so \\(x = 7\\).",
+      "source": "Adaptive bank expansion"
+    }
+  ]
+}

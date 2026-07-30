@@ -1,5 +1,6 @@
 import type { Exam, Subject, StudyResource, ResourcesResponse } from '../types/api'
 import type { AiUsageInfo } from '../types/auth'
+import type { Flashcard, Stack, StackCardRef, CardMastery } from '../types/flashcards'
 
 /**
  * Same-origin `/api` uses the Vite dev/preview proxy (see vite.config.ts).
@@ -35,7 +36,7 @@ export function setTokenAccessor(fn: () => string | null) {
   getAccessToken = fn
 }
 
-async function fetchAPI<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
+async function request(endpoint: string, options: RequestInit = {}): Promise<Response> {
   const headers: Record<string, string> = {
     ...options.headers as Record<string, string>,
   }
@@ -55,8 +56,20 @@ async function fetchAPI<T>(endpoint: string, options: RequestInit = {}): Promise
     throw new Error(data.message || `API Error: ${response.status} ${response.statusText}`)
   }
 
+  return response
+}
+
+async function fetchAPI<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
+  const response = await request(endpoint, options)
   return response.json()
 }
+
+/** For endpoints that answer 204 No Content, where parsing a body would throw. */
+async function fetchNoContent(endpoint: string, options: RequestInit = {}): Promise<void> {
+  await request(endpoint, options)
+}
+
+const JSON_HEADERS = { 'Content-Type': 'application/json' }
 
 export async function getExams(): Promise<Exam[]> {
   return fetchAPI<Exam[]>('/exams')
@@ -120,4 +133,271 @@ export async function sendAiMessage(
 
 export async function getAiUsage(): Promise<AiUsageInfo> {
   return fetchAPI<AiUsageInfo>('/ai/chat/usage')
+}
+
+// FRQ / essay grading (authenticated; shares the AI usage budget with chat)
+import type { FrqRubricRow } from '../data/frq/types'
+
+export interface FrqRowScore {
+  name: string
+  earned: number
+  max: number
+  justification: string
+}
+
+export interface FrqGrade {
+  earned: number
+  possible: number
+  rows: FrqRowScore[]
+  overallFeedback: string
+  strengths: string[]
+  improvements: string[]
+  strictnessNote: string
+}
+
+export interface FrqGradeInput {
+  subjectName: string
+  essayType: string
+  promptText: string
+  sourceText?: string
+  rubric: FrqRubricRow[]
+  studentResponse: string
+}
+
+export async function gradeFrq(
+  input: FrqGradeInput
+): Promise<{ grade: FrqGrade; remaining: number }> {
+  return fetchAPI('/ai/frq/grade', {
+    method: 'POST',
+    headers: JSON_HEADERS,
+    body: JSON.stringify(input),
+  })
+}
+
+// Flashcards (authenticated) — premade cards are client-side and never hit these.
+export async function getFlashcards(subjectId: number): Promise<Flashcard[]> {
+  return fetchAPI<Flashcard[]>(`/flashcards?subjectId=${subjectId}`)
+}
+
+export async function createFlashcard(
+  subjectId: number,
+  question: string,
+  answer: string
+): Promise<Flashcard> {
+  return fetchAPI<Flashcard>('/flashcards', {
+    method: 'POST',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ subjectId, question, answer }),
+  })
+}
+
+export async function updateFlashcard(
+  id: number,
+  question: string,
+  answer: string
+): Promise<Flashcard> {
+  return fetchAPI<Flashcard>(`/flashcards/${id}`, {
+    method: 'PUT',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ question, answer }),
+  })
+}
+
+export async function deleteFlashcard(id: number): Promise<void> {
+  return fetchNoContent(`/flashcards/${id}`, { method: 'DELETE' })
+}
+
+// Stacks (authenticated)
+export async function getStacks(subjectId: number): Promise<Stack[]> {
+  return fetchAPI<Stack[]>(`/stacks?subjectId=${subjectId}`)
+}
+
+export async function createStack(
+  subjectId: number,
+  name: string,
+  cards: StackCardRef[]
+): Promise<Stack> {
+  return fetchAPI<Stack>('/stacks', {
+    method: 'POST',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ subjectId, name, cards }),
+  })
+}
+
+export async function updateStack(
+  id: number,
+  subjectId: number,
+  name: string,
+  cards: StackCardRef[]
+): Promise<Stack> {
+  return fetchAPI<Stack>(`/stacks/${id}`, {
+    method: 'PUT',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ subjectId, name, cards }),
+  })
+}
+
+export async function deleteStack(id: number): Promise<void> {
+  return fetchNoContent(`/stacks/${id}`, { method: 'DELETE' })
+}
+
+// Training mastery (authenticated)
+export async function getProgress(subjectId: number): Promise<CardMastery[]> {
+  return fetchAPI<CardMastery[]>(`/progress?subjectId=${subjectId}`)
+}
+
+export async function recordAttempt(
+  subjectId: number,
+  cardKey: string,
+  correct: boolean
+): Promise<CardMastery> {
+  return fetchAPI<CardMastery>('/progress', {
+    method: 'POST',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ subjectId, cardKey, correct }),
+  })
+}
+
+export async function resetProgress(subjectId: number): Promise<void> {
+  return fetchNoContent(`/progress?subjectId=${subjectId}`, { method: 'DELETE' })
+}
+
+// AP planner (authenticated). Stores which AP classes the user has added.
+export async function getApCourses(): Promise<number[]> {
+  return fetchAPI<number[]>('/ap/courses')
+}
+
+export async function saveApCourses(subjectIds: number[]): Promise<number[]> {
+  return fetchAPI<number[]>('/ap/courses', {
+    method: 'PUT',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ subjectIds }),
+  })
+}
+
+// SAT adaptive engine (authenticated). See server com.aot.sat.
+import type {
+  AdaptiveStatus,
+  DiagnosticStep,
+  DiagnosticAnswerResult,
+  SessionStep,
+  AnswerResult,
+  SessionSummary,
+  SkillWeight,
+  DashboardData,
+  SkillCatalog,
+  UserPrefs,
+} from '../types/adaptive'
+
+export async function getAdaptiveStatus(): Promise<AdaptiveStatus> {
+  return fetchAPI<AdaptiveStatus>('/sat/adaptive/status')
+}
+
+export async function getMastery(): Promise<SkillWeight[]> {
+  return fetchAPI<SkillWeight[]>('/sat/adaptive/mastery')
+}
+
+export async function startDiagnostic(): Promise<DiagnosticStep> {
+  return fetchAPI<DiagnosticStep>('/sat/adaptive/diagnostic', { method: 'POST' })
+}
+
+export async function answerDiagnostic(
+  questionId: string,
+  selectedIndex: number
+): Promise<DiagnosticAnswerResult> {
+  return fetchAPI<DiagnosticAnswerResult>('/sat/adaptive/diagnostic/answer', {
+    method: 'POST',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ questionId, selectedIndex }),
+  })
+}
+
+export interface PracticeConfig {
+  length?: number
+  focusSkillId?: string
+  topics?: string[]
+  difficulty?: string
+}
+
+/** Returns the session step, or the string 'DIAGNOSTIC_REQUIRED' on a 409. */
+export async function startSession(
+  config: PracticeConfig = {}
+): Promise<SessionStep | 'DIAGNOSTIC_REQUIRED'> {
+  const params = new URLSearchParams()
+  if (config.length) params.set('length', String(config.length))
+  if (config.focusSkillId) params.set('focusSkillId', config.focusSkillId)
+  if (config.topics) config.topics.forEach((t) => params.append('topics', t))
+  if (config.difficulty && config.difficulty !== 'any') params.set('difficulty', config.difficulty)
+  const qs = params.toString() ? `?${params.toString()}` : ''
+  const headers: Record<string, string> = {}
+  const token = getAccessToken?.()
+  if (token) headers['Authorization'] = `Bearer ${token}`
+  const res = await fetch(`${API_BASE_URL}/sat/adaptive/session${qs}`, { method: 'POST', headers })
+  if (res.status === 409) return 'DIAGNOSTIC_REQUIRED'
+  if (!res.ok) {
+    const data = await res.json().catch(() => ({}))
+    throw new Error(data.message || `API Error: ${res.status} ${res.statusText}`)
+  }
+  return res.json()
+}
+
+/** The results board for a given month (`month` is yyyy-MM). The current day is resolved
+ * server-side in UTC, so no device date is sent. */
+export async function getDashboard(month: string): Promise<DashboardData> {
+  return fetchAPI<DashboardData>(`/sat/adaptive/dashboard?month=${month}`)
+}
+
+/** Per-skill active-question counts by difficulty, for the custom practice builder. */
+export async function getCatalog(): Promise<SkillCatalog[]> {
+  return fetchAPI<SkillCatalog[]>('/sat/adaptive/catalog')
+}
+
+/** The signed-in user's saved test date and weekly goal. */
+export async function getUserPrefs(): Promise<UserPrefs> {
+  return fetchAPI<UserPrefs>('/sat/adaptive/prefs')
+}
+
+/** Persists the user's test date and weekly goal; returns the saved (normalized) values. */
+export async function saveUserPrefs(prefs: UserPrefs): Promise<UserPrefs> {
+  return fetchAPI<UserPrefs>('/sat/adaptive/prefs', {
+    method: 'PUT',
+    headers: JSON_HEADERS,
+    body: JSON.stringify(prefs),
+  })
+}
+
+/** Spends a repair to restore one past missed day; requires today already practiced.
+ * "Today" is resolved server-side in UTC. */
+export async function repairStreak(date: string): Promise<void> {
+  await fetchAPI<void>('/sat/adaptive/streak/repair', {
+    method: 'POST',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ date }),
+  })
+}
+
+export async function getCurrentSession(): Promise<SessionStep> {
+  return fetchAPI<SessionStep>('/sat/adaptive/session/current')
+}
+
+export async function answerSession(
+  sessionId: number,
+  questionId: string,
+  selectedIndex: number,
+  msElapsed?: number
+): Promise<AnswerResult> {
+  return fetchAPI<AnswerResult>(`/sat/adaptive/session/${sessionId}/answer`, {
+    method: 'POST',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ questionId, selectedIndex, msElapsed }),
+  })
+}
+
+export async function getSessionSummary(sessionId: number): Promise<SessionSummary> {
+  return fetchAPI<SessionSummary>(`/sat/adaptive/session/${sessionId}/summary`)
+}
+
+/** Ends the session early; grades on completed questions and returns updated mastery weights. */
+export async function endSession(sessionId: number): Promise<SkillWeight[]> {
+  return fetchAPI<SkillWeight[]>(`/sat/adaptive/session/${sessionId}/end`, { method: 'POST' })
 }

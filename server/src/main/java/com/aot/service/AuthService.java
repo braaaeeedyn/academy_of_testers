@@ -108,8 +108,7 @@ public class AuthService {
 
     // Check email verification status
     if (!user.isEmailVerified()) {
-      throw new AuthenticationException(
-          "Account not verified. Please verify your email address.");
+      throw new AuthenticationException("Account not verified. Please verify your email address.");
     }
 
     // Reset failed attempts on successful login
@@ -188,13 +187,11 @@ public class AuthService {
     RefreshToken refreshToken = new RefreshToken();
     refreshToken.setUser(user);
     refreshToken.setTokenHash(tokenHash);
-    refreshToken.setExpiresAt(
-        LocalDateTime.now().plusSeconds(refreshTokenExpirationMs / 1000));
+    refreshToken.setExpiresAt(LocalDateTime.now().plusSeconds(refreshTokenExpirationMs / 1000));
     refreshTokenRepository.save(refreshToken);
 
     AuthResponse.UserInfo userInfo =
-        new AuthResponse.UserInfo(
-            user.getId(), user.getDisplayName(), user.getEmail());
+        new AuthResponse.UserInfo(user.getId(), user.getDisplayName(), user.getEmail());
 
     return new AuthResponse(accessToken, rawRefreshToken, userInfo);
   }
