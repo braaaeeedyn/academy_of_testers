@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://academy-of-testers.onrender.com/api/:path*" },
+    { "source": "/resources/:path*", "destination": "https://academy-of-testers.onrender.com/resources/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
