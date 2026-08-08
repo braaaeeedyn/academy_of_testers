@@ -427,6 +427,20 @@ export default function ApPlannerPage() {
                 </>
               )}
             </div>
+
+            {/* Decay note: mastery is not permanent — it slips a tier every 2 weeks without practice. */}
+            <div
+              className="mt-5 pt-4 flex items-start gap-2 text-xs"
+              style={{ borderTop: '1px solid var(--hairline)', color: 'var(--text-muted)' }}
+            >
+              <Icon path="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" className="w-4 h-4 flex-shrink-0 mt-px" />
+              <span>
+                <span className="font-semibold" style={{ color: 'var(--text)' }}>Mastery fades over time.</span>{' '}
+                Every 2 weeks a question goes without a correct answer, it slips one tier —
+                Mastered&nbsp;→&nbsp;Proficient&nbsp;→&nbsp;Approaching&nbsp;→&nbsp;not started. Keep
+                practicing in Unit Practice to hold your level.
+              </span>
+            </div>
           </div>
 
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-8">

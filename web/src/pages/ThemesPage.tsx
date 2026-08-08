@@ -175,7 +175,7 @@ export default function ThemesPage() {
         Themes
       </h1>
       <p className="mb-8 max-w-2xl" style={{ color: 'var(--text-muted)' }}>
-        Six complete design systems, each inspired by a distinctive brand. Pick one to instantly
+        Six complete design systems, each with its own distinctive look. Pick one to instantly
         restyle the entire site &mdash; colors, typography, and shape all change together.
       </p>
 

@@ -48,19 +48,13 @@ export const AP_SUBJECT_CATEGORIES: ApSubjectCategory[] = [
     ],
   },
   {
-    category: 'Math',
+    category: 'Math & Computer Science',
     iconPath: 'M4 7h3m10 0h3M4 12h16M7 17h3m4 0h3M8 3h8a1 1 0 011 1v16a1 1 0 01-1 1H8a1 1 0 01-1-1V4a1 1 0 011-1z',
     subjectNames: [
       'AP Calculus AB',
       'AP Calculus BC',
       'AP Precalculus',
       'AP Statistics',
-    ],
-  },
-  {
-    category: 'Computer Science',
-    iconPath: 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4',
-    subjectNames: [
       'AP Computer Science A',
       'AP Computer Science Principles',
     ],

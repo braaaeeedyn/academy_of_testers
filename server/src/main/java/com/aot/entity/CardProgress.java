@@ -1,6 +1,7 @@
 package com.aot.entity;
 
 import jakarta.persistence.*;
+import java.time.Duration;
 import java.time.LocalDateTime;
 
 @Entity
@@ -12,6 +13,13 @@ public class CardProgress {
 
   /** Consecutive correct answers needed before a card can be retired. */
   public static final int REQUIRED_STREAK = 2;
+
+  /**
+   * How long a question can go untouched before its mastery slips one tier. Every full period of
+   * inactivity drops the card by one level (mastered → proficient → approaching → none), so students
+   * have to keep practicing to hold a level. See {@link #applyDecay(LocalDateTime)}.
+   */
+  public static final int DECAY_PERIOD_DAYS = 14;
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -65,6 +73,68 @@ public class CardProgress {
     if (correctTotal >= REQUIRED_TOTAL && correctStreak >= REQUIRED_STREAK) {
       mastered = true;
     }
+  }
+
+  /**
+   * Lazily ages this card's mastery: for every full {@link #DECAY_PERIOD_DAYS}-day stretch since the
+   * last activity, drop one tier — mastered → proficient (2 correct) → approaching (1 correct) →
+   * none (0). This is applied on read and before folding a new attempt, so the stored state stays
+   * honest and a single correct answer can't instantly restore a level that has decayed. Returns
+   * {@code true} if anything changed (so the caller knows to persist and reset the clock).
+   */
+  public boolean applyDecay(LocalDateTime now) {
+    if (updatedAt == null) {
+      return false;
+    }
+    long days = Duration.between(updatedAt, now).toDays();
+    int periods = (int) (days / DECAY_PERIOD_DAYS);
+    if (periods <= 0) {
+      return false;
+    }
+    int level = currentLevel();
+    int newLevel = Math.max(0, level - periods);
+    if (newLevel == level) {
+      return false;
+    }
+    setLevel(newLevel);
+    return true;
+  }
+
+  /** Current mastery tier as a 0–3 level: 3 mastered, 2 proficient, 1 approaching, 0 none. */
+  private int currentLevel() {
+    if (mastered) {
+      return 3;
+    }
+    if (correctTotal >= 2) {
+      return 2;
+    }
+    if (correctTotal >= 1) {
+      return 1;
+    }
+    return 0;
+  }
+
+  /** Rewrites the counters so the card reads as the given tier, clearing any in-progress streak. */
+  private void setLevel(int level) {
+    switch (level) {
+      case 3 -> {
+        mastered = true;
+        correctTotal = Math.max(correctTotal, REQUIRED_TOTAL);
+      }
+      case 2 -> {
+        mastered = false;
+        correctTotal = 2;
+      }
+      case 1 -> {
+        mastered = false;
+        correctTotal = 1;
+      }
+      default -> {
+        mastered = false;
+        correctTotal = 0;
+      }
+    }
+    correctStreak = 0;
   }
 
   public Long getId() {

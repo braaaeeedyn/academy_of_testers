@@ -5,7 +5,7 @@
  * used by the adaptive engine, so the dashboard's "Study" button can deep-link
  * straight to the matching section via `/sat/prep#<id>`.
  *
- * Videos are intentionally placeholders — set `youtubeId` (the 11-char ID from a
+ * Videos are intentionally placeholders; set `youtubeId` (the 11-char ID from a
  * youtube.com/watch?v=<id> URL) on a video to make it play. Until then it renders
  * as a labelled "coming soon" slot.
  */
@@ -24,7 +24,7 @@ export interface PrepTopic {
   name: string
   /** One-line summary of what the topic covers. */
   summary: string
-  /** What shows up on the test — concrete sub-skills. */
+  /** What shows up on the test: concrete sub-skills. */
   covers: string[]
   /** How-to-study advice: short, actionable tips. */
   advice: string[]
@@ -36,17 +36,17 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
   {
     id: 'arithmetic-percentages',
     name: 'Arithmetic & Percentages',
-    summary: 'Ratios, proportions, percent change, and unit conversions — the backbone of the easier Math questions.',
+    summary: 'Ratios, proportions, percent change, and unit conversions: the backbone of the easier Math questions.',
     covers: ['Ratios & proportions', 'Percent of / percent change', 'Unit rates & conversions', 'Fractions and decimals'],
     advice: [
       'Memorize the percent-change formula: (new − old) ÷ old × 100. Most percent questions are just this in disguise.',
-      'Translate words into an equation before touching numbers — "of" means multiply, "is" means equals.',
+      'Translate words into an equation before touching numbers: "of" means multiply, "is" means equals.',
       'For "percent greater/less than," decide the base (what you are comparing to) first; it is the number after "than".',
       'When the answer choices are numbers, plugging them back into the question is often faster than solving forward.',
     ],
     videos: [
-      { title: 'Percentages & percent change — core concepts' },
-      { title: 'Ratios, proportions & unit conversions — worked examples' },
+      { title: 'Ultimate Percent Change Formula [TOP 10 SAT Formulas]', youtubeId: 'hdvqs1a2G2c' },
+      { title: 'SAT Math Medium: Ratios, Rates, and Proportions', youtubeId: 'MY98DmxOxXM' },
     ],
   },
   {
@@ -55,14 +55,14 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
     summary: 'Solving linear equations and inequalities, and rearranging formulas for a target variable.',
     covers: ['Linear equations in one variable', 'Inequalities', 'Absolute value', 'Solving for a variable in a formula'],
     advice: [
-      'Isolate the variable one operation at a time, and do the same thing to both sides — write every step, do not skip.',
+      'Isolate the variable one operation at a time, and do the same thing to both sides; write every step, do not skip.',
       'Flip the inequality sign whenever you multiply or divide by a negative number. This is the #1 trap here.',
       'Absolute-value equations split into two cases: the inside equals the positive and the negative of the value.',
-      'Check your answer by substituting it back in — it costs 10 seconds and catches most arithmetic slips.',
+      'Check your answer by substituting it back in; it costs 10 seconds and catches most arithmetic slips.',
     ],
     videos: [
-      { title: 'Solving linear equations & inequalities' },
-      { title: 'Rearranging formulas and absolute value' },
+      { title: 'SAT Solving Linear Equations and Linear Inequalities (2021) - Heart of Algebra', youtubeId: 'wBA0TpNy0Wo' },
+      { title: 'Solving Absolute Value Equations - SAT Math Part 10', youtubeId: 'D2NXnM8RCu0' },
     ],
   },
   {
@@ -72,13 +72,13 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
     covers: ['Slope & y-intercept', 'Interpreting slope/intercept in context', 'Parallel & perpendicular lines', 'Graphs and tables of lines'],
     advice: [
       'Know y = mx + b cold: m is the rate of change (slope), b is the value when x = 0 (the start).',
-      'In context questions, put units on m and b — "$3 per hour" is the slope, "$5 flat fee" is the intercept.',
+      'In context questions, put units on m and b: "$3 per hour" is the slope, "$5 flat fee" is the intercept.',
       'Slope = rise ÷ run = (y₂ − y₁) ÷ (x₂ − x₁). Pick any two clean points from a graph or table.',
       'Parallel lines share a slope; perpendicular slopes are negative reciprocals (m and −1/m).',
     ],
     videos: [
-      { title: 'Slope-intercept form & interpreting lines' },
-      { title: 'Linear functions in word problems' },
+      { title: 'SAT Math Full Review: Lines, Linear Functions, Linear Systems', youtubeId: 'MV2_-MBCbq0' },
+      { title: 'Interpreting linear functions - Basic example (Khan Academy)', youtubeId: 'hOsBsHA6okM' },
     ],
   },
   {
@@ -93,8 +93,8 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
       'Label what each variable represents in word problems before you build the two equations.',
     ],
     videos: [
-      { title: 'Substitution vs. elimination' },
-      { title: 'Number-of-solutions questions' },
+      { title: 'SAT Math: Systems of Equations - Part 1 - Elimination & Substitution', youtubeId: 'UXKUkJeTD0U' },
+      { title: 'SAT Math Part 06 - Systems of Equations, Elimination, and...', youtubeId: '8L8h-Wsbzk8' },
     ],
   },
   {
@@ -103,14 +103,14 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
     summary: 'Factoring, the quadratic formula, vertex/standard forms, and what the discriminant tells you.',
     covers: ['Factoring', 'Quadratic formula', 'Vertex & standard form', 'Discriminant & number of roots'],
     advice: [
-      'Try factoring first — most SAT quadratics factor cleanly. Fall back to the quadratic formula only when they do not.',
+      'Try factoring first: most SAT quadratics factor cleanly. Fall back to the quadratic formula only when they do not.',
       'Vertex form y = a(x − h)² + k hands you the vertex (h, k) directly; great for max/min and axis-of-symmetry questions.',
       'The discriminant b² − 4ac tells the number of real solutions: positive = 2, zero = 1, negative = 0.',
       'The roots are the x-intercepts. If a question gives you the zeros, write the factors: zeros 3 and −2 → (x − 3)(x + 2).',
     ],
     videos: [
-      { title: 'Factoring & solving quadratics' },
-      { title: 'Vertex form, parabolas & the discriminant' },
+      { title: 'Factoring Quadratics Made Easy - SAT Math: Every Method Explained', youtubeId: 'o2f4vmvEDS8' },
+      { title: 'Parabolas: Vertex, Intercept, and General Form (SAT Math Review Course 25 of 39)', youtubeId: '50AlKNn8d1k' },
     ],
   },
   {
@@ -122,11 +122,11 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
       'In y = a·bˣ, a is the starting amount and b is the multiplier per step. b > 1 is growth, 0 < b < 1 is decay.',
       'Convert percents to a base: +5% per year → b = 1.05; −8% per year → b = 0.92.',
       'Contrast with linear: linear adds the same amount each step, exponential multiplies by the same factor each step.',
-      'Watch the units on x — if the rate is "per year" then x must be measured in years.',
+      'Watch the units on x: if the rate is "per year" then x must be measured in years.',
     ],
     videos: [
-      { title: 'Exponential growth & decay basics' },
-      { title: 'Turning percent rates into equations' },
+      { title: 'SAT Math - Exponential Growth and Decay', youtubeId: '1ZE5EihrtZc' },
+      { title: 'Exponential Functions (SAT Math Review Course 29 of 39)', youtubeId: 'qNgZxjJBey4' },
     ],
   },
   {
@@ -137,12 +137,12 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
     advice: [
       'Mean is pulled toward outliers; median is not. If a question mentions skew or an extreme value, think median.',
       'For two-way tables, underline exactly which row/column the probability is restricted to before you divide.',
-      'A line of best fit is used to predict and to read slope as a rate — you rarely need its exact equation.',
+      'A line of best fit is used to predict and to read slope as a rate; you rarely need its exact equation.',
       'Never confuse correlation with causation, and check whether a sample is random before generalizing to a population.',
     ],
     videos: [
-      { title: 'Center, spread & interpreting data' },
-      { title: 'Scatterplots, tables & probability' },
+      { title: 'SAT Math: Mean Median Mode', youtubeId: '6soyH2iLdQg' },
+      { title: 'Digital SAT Math - Ottocento #20: Probability + Two-Way Tables', youtubeId: '63q0bcwB1l4' },
     ],
   },
   {
@@ -154,11 +154,11 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
       'Memorize the special right triangles (30-60-90 and 45-45-90) and the Pythagorean triples (3-4-5, 5-12-13).',
       'SOH-CAH-TOA: sine = opp/hyp, cosine = adj/hyp, tangent = opp/adj. Sin(θ) = cos(90° − θ).',
       'Circle equation: (x − h)² + (y − k)² = r², center (h, k), radius r. Complete the square to get there.',
-      'The reference sheet gives area/volume formulas — know which to reach for; radians: 180° = π.',
+      'The reference sheet gives area/volume formulas, so know which to reach for; radians: 180° = π.',
     ],
     videos: [
-      { title: 'Triangles, circles & the reference sheet' },
-      { title: 'Right-triangle trig & radians' },
+      { title: 'SAT Math Full Unit Review: Geometry and Trigonometry', youtubeId: 'Vwtux_sW9Zs' },
+      { title: 'Right Triangle Trig SOH CAH TOA (SAT Math Review Course 16 of 39)', youtubeId: 'wca4k-kzc4w' },
     ],
   },
 ]

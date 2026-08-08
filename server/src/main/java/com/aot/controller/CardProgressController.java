@@ -11,6 +11,8 @@ import com.aot.repository.FlashcardRepository;
 import com.aot.repository.SubjectRepository;
 import com.aot.repository.UserRepository;
 import jakarta.validation.Valid;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 import org.springframework.http.ResponseEntity;
@@ -56,13 +58,24 @@ public class CardProgressController {
   }
 
   @GetMapping
+  @Transactional
   public ResponseEntity<List<CardProgressDTO>> listBySubject(
       Authentication authentication, @RequestParam Long subjectId) {
     Long userId = (Long) authentication.getPrincipal();
-    List<CardProgressDTO> progress =
-        progressRepository.findByUserIdAndSubjectId(userId, subjectId).stream()
-            .map(CardProgressDTO::from)
-            .toList();
+    LocalDateTime now = LocalDateTime.now();
+    List<CardProgress> rows = progressRepository.findByUserIdAndSubjectId(userId, subjectId);
+    // Age mastery for questions left untouched, then persist just the rows that actually changed so
+    // the tier the student sees (and any later attempt builds on) reflects the forgetting curve.
+    List<CardProgress> decayed = new ArrayList<>();
+    for (CardProgress row : rows) {
+      if (row.applyDecay(now)) {
+        decayed.add(row);
+      }
+    }
+    if (!decayed.isEmpty()) {
+      progressRepository.saveAll(decayed);
+    }
+    List<CardProgressDTO> progress = rows.stream().map(CardProgressDTO::from).toList();
     return ResponseEntity.ok(progress);
   }
 
@@ -94,6 +107,9 @@ public class CardProgressController {
                   return created;
                 });
 
+    // Settle any pending decay before folding in this attempt, so a card that has slipped can't be
+    // snapped back to its old tier by a single correct answer.
+    progress.applyDecay(LocalDateTime.now());
     progress.record(request.getCorrect());
     return ResponseEntity.ok(CardProgressDTO.from(progressRepository.save(progress)));
   }

@@ -394,7 +394,7 @@ function CategoryTile({
   return (
     <button
       onClick={onClick}
-      className="hub-tile-in group flex flex-col gap-3 p-4 rounded-2xl border text-left cursor-pointer transition-all hover:shadow-md hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2"
+      className="hub-tile-in group flex flex-col gap-3 px-4 py-8 rounded-2xl border text-left cursor-pointer transition-all hover:shadow-md hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2"
       style={{
         backgroundColor: 'var(--surface-elevated)',
         borderColor: 'var(--hairline)',
