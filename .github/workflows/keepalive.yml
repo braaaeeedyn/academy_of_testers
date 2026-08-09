@@ -16,5 +16,11 @@ jobs:
     steps:
       - name: Ping /api/health
         run: |
-          curl -sS --max-time 120 -o /dev/null -w "health -> HTTP %{http_code} in %{time_total}s\n" \
+          # Wait out a full cold start (up to ~4 min per attempt) and retry on any error, so a
+          # slow spin-up doesn't fail the job. A timed-out request still reaches Render and wakes
+          # the service, but retrying lets us confirm it actually came back up with a 200.
+          curl -fsS \
+            --retry 3 --retry-delay 20 --retry-all-errors --retry-connrefused \
+            --max-time 240 \
+            -o /dev/null -w "health -> HTTP %{http_code} in %{time_total}s\n" \
             https://academy-of-testers.onrender.com/api/health
