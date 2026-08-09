@@ -6,6 +6,7 @@ import { examSlug as toExamSlug, subjectSlug } from '../utils/slug'
 import { getSubjectIcon } from '../data/subjectIcons'
 import { AP_SUBJECT_CATEGORIES } from '../data/apCategories'
 import ApExamCountdown from '../components/ApExamCountdown'
+import LoadingScreen from '../components/LoadingScreen'
 
 // The College Board 5-point AP score scale and what each score means.
 const AP_SCORE_SCALE: { score: number; label: string; qualifying: boolean }[] = [
@@ -117,13 +118,7 @@ export default function ExamHubPage() {
         : 'flat'
 
   if (loading) {
-    return (
-      <div className="text-center py-12">
-        <div className="text-xl" style={{ color: 'var(--text-muted)' }}>
-          Loading...
-        </div>
-      </div>
-    )
+    return <LoadingScreen message="Loading hub" />
   }
 
   if (error || !exam) {

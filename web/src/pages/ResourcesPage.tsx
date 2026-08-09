@@ -5,6 +5,7 @@ import type { Subject, StudyResource } from '../types/api'
 import { examSlug as toExamSlug, subjectSlug as toSubjectSlug } from '../utils/slug'
 import { getSubjectIcon } from '../data/subjectIcons'
 import { getUnitOverviewBySubjectName } from '../data/unitOverviews'
+import LoadingScreen from '../components/LoadingScreen'
 import UnitOverviews from '../components/UnitOverviews'
 import UnitPractice from '../components/UnitPractice'
 import { getUnitBank } from '../data/unitBank/lookup'
@@ -318,13 +319,7 @@ export default function ResourcesPage() {
   }, [subject, page])
 
   if (loading) {
-    return (
-      <div className="text-center py-12">
-        <div className="text-xl" style={{ color: 'var(--text-muted)' }}>
-          Loading resources...
-        </div>
-      </div>
-    )
+    return <LoadingScreen message="Loading resources" />
   }
 
   if (error || !subject) {

@@ -71,12 +71,34 @@ async function fetchNoContent(endpoint: string, options: RequestInit = {}): Prom
 
 const JSON_HEADERS = { 'Content-Type': 'application/json' }
 
+/**
+ * In-memory cache for the catalog endpoints (exams / subjects / a subject's resources). These are
+ * static reference data that don't change within a session, yet every subject-page navigation
+ * re-fetched them against a slow backend. We cache the *promise* (not just the resolved value) so
+ * concurrent callers dedupe onto one in-flight request; on failure the entry is evicted so the next
+ * attempt retries. The cache lives for the tab's lifetime — a full page reload gets fresh data.
+ */
+const catalogCache = new Map<string, Promise<unknown>>()
+
+function cached<T>(key: string, fetcher: () => Promise<T>): Promise<T> {
+  const existing = catalogCache.get(key) as Promise<T> | undefined
+  if (existing) return existing
+  const promise = fetcher().catch((err) => {
+    catalogCache.delete(key)
+    throw err
+  })
+  catalogCache.set(key, promise)
+  return promise
+}
+
 export async function getExams(): Promise<Exam[]> {
-  return fetchAPI<Exam[]>('/exams')
+  return cached('exams', () => fetchAPI<Exam[]>('/exams'))
 }
 
 export async function getSubjectsByExam(examId: number): Promise<Subject[]> {
-  return fetchAPI<Subject[]>(`/exams/${examId}/subjects`)
+  return cached(`subjects:${examId}`, () =>
+    fetchAPI<Subject[]>(`/exams/${examId}/subjects`)
+  )
 }
 
 export async function getSubject(id: number): Promise<Subject> {
@@ -94,12 +116,18 @@ export async function getResourcesBySubject(
     page: page.toString(),
     size: size.toString(),
   })
-  
+
   if (query) {
     params.append('q', query)
   }
-  
-  return fetchAPI<ResourcesResponse>(`/resources?${params.toString()}`)
+
+  // A search query is user-driven and shouldn't be cached; the plain subject listing is.
+  if (query) {
+    return fetchAPI<ResourcesResponse>(`/resources?${params.toString()}`)
+  }
+  return cached(`resources:${subjectId}:${page}:${size}`, () =>
+    fetchAPI<ResourcesResponse>(`/resources?${params.toString()}`)
+  )
 }
 
 export async function getResource(id: number): Promise<StudyResource> {
