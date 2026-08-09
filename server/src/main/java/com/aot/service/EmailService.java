@@ -1,56 +1,75 @@
 package com.aot.service;
 
-import jakarta.mail.MessagingException;
-import jakarta.mail.internet.MimeMessage;
-import java.io.UnsupportedEncodingException;
+import java.util.List;
+import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.mail.MailException;
-import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.http.MediaType;
+import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestClient;
+import org.springframework.web.client.RestClientException;
 
+/**
+ * Sends transactional email through Brevo's HTTP API (https://api.brevo.com/v3/smtp/email) rather
+ * than SMTP. Render blocks outbound SMTP ports (25/465/587/2525), so SMTP connects simply time out;
+ * the HTTP API travels over port 443, which is never blocked.
+ */
 @Service
 public class EmailService {
 
   private static final Logger logger = LoggerFactory.getLogger(EmailService.class);
+  private static final String SEND_ENDPOINT = "/smtp/email";
 
-  private final JavaMailSender mailSender;
+  private final RestClient restClient;
   private final String fromEmail;
   private final String fromName;
   private final String contactRecipient;
   private final boolean enabled;
 
   public EmailService(
-      JavaMailSender mailSender,
+      @Value("${brevo.api-key:}") String apiKey,
+      @Value("${brevo.api-base-url:https://api.brevo.com/v3}") String apiBaseUrl,
       @Value("${app.mail.from}") String fromEmail,
       @Value("${app.mail.from-name:Academy of Testers}") String fromName,
-      @Value("${app.mail.contact-to:braedynthompson@berkeley.edu}") String contactRecipient,
-      @Value("${spring.mail.username:}") String mailUsername) {
-    this.mailSender = mailSender;
+      @Value("${app.mail.contact-to:braedynthompson@berkeley.edu}") String contactRecipient) {
     this.fromEmail = fromEmail;
     this.fromName = fromName;
     this.contactRecipient = contactRecipient;
-    this.enabled = mailUsername != null && !mailUsername.isBlank();
+    this.enabled = apiKey != null && !apiKey.isBlank();
+
+    SimpleClientHttpRequestFactory requestFactory = new SimpleClientHttpRequestFactory();
+    requestFactory.setConnectTimeout(10_000);
+    requestFactory.setReadTimeout(15_000);
+
+    this.restClient =
+        RestClient.builder()
+            .baseUrl(apiBaseUrl)
+            .requestFactory(requestFactory)
+            .defaultHeader("api-key", apiKey == null ? "" : apiKey)
+            .defaultHeader("accept", MediaType.APPLICATION_JSON_VALUE)
+            .build();
   }
 
   public void sendVerificationEmail(String toEmail, String code) {
     if (!enabled) {
-      logger.warn("SMTP not configured. Verification code for {}: {}", toEmail, code);
+      logger.warn("Brevo API key not configured. Verification code for {}: {}", toEmail, code);
       return;
     }
 
-    try {
-      MimeMessage message = mailSender.createMimeMessage();
-      MimeMessageHelper helper = new MimeMessageHelper(message, false, "UTF-8");
-      helper.setFrom(fromEmail, fromName);
-      helper.setTo(toEmail);
-      helper.setSubject("Your Academy of Testers Verification Code");
-      helper.setText(buildVerificationEmailHtml(code), true);
+    Map<String, Object> body =
+        Map.of(
+            "sender", Map.of("name", fromName, "email", fromEmail),
+            "to", List.of(Map.of("email", toEmail)),
+            "subject", "Your Academy of Testers Verification Code",
+            "htmlContent", buildVerificationEmailHtml(code));
 
-      mailSender.send(message);
-    } catch (MessagingException | UnsupportedEncodingException | MailException e) {
+    try {
+      send(body);
+    } catch (RestClientException e) {
+      // Swallow: registration should not fail just because the code email didn't send. The user
+      // can request a resend from the verification screen.
       logger.error("Failed to send verification email to {}", toEmail, e);
     }
   }
@@ -62,24 +81,35 @@ public class EmailService {
    */
   public void sendContactEmail(String name, String email, String message) {
     if (!enabled) {
-      logger.warn("SMTP not configured. Contact message from {} ({}) dropped.", name, email);
+      logger.warn(
+          "Brevo API key not configured. Contact message from {} ({}) dropped.", name, email);
       throw new IllegalStateException("Email is not configured on the server.");
     }
 
-    try {
-      MimeMessage mimeMessage = mailSender.createMimeMessage();
-      MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, false, "UTF-8");
-      helper.setFrom(fromEmail, fromName);
-      helper.setTo(contactRecipient);
-      helper.setReplyTo(email, name);
-      helper.setSubject("Academy of Testers Contact: " + name);
-      helper.setText(buildContactEmailHtml(name, email, message), true);
+    Map<String, Object> body =
+        Map.of(
+            "sender", Map.of("name", fromName, "email", fromEmail),
+            "to", List.of(Map.of("email", contactRecipient)),
+            "replyTo", Map.of("email", email, "name", name),
+            "subject", "Academy of Testers Contact: " + name,
+            "htmlContent", buildContactEmailHtml(name, email, message));
 
-      mailSender.send(mimeMessage);
-    } catch (MessagingException | UnsupportedEncodingException | MailException e) {
+    try {
+      send(body);
+    } catch (RestClientException e) {
       logger.error("Failed to send contact email from {} ({})", name, email, e);
       throw new IllegalStateException("Failed to send your message. Please try again later.", e);
     }
+  }
+
+  private void send(Map<String, Object> body) {
+    restClient
+        .post()
+        .uri(SEND_ENDPOINT)
+        .contentType(MediaType.APPLICATION_JSON)
+        .body(body)
+        .retrieve()
+        .toBodilessEntity();
   }
 
   private String buildContactEmailHtml(String name, String email, String message) {
