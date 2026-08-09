@@ -36,6 +36,21 @@ export function setTokenAccessor(fn: () => string | null) {
   getAccessToken = fn
 }
 
+// The backend runs on Render's free tier, which sleeps after ~15 min idle and cold-starts in
+// 60–90s. During that window the Vercel proxy returns 502/503/504 (gateway couldn't reach the
+// app). We transparently retry idempotent (GET/HEAD) requests through the cold start so the app
+// waits and succeeds instead of failing. Non-idempotent requests are never retried, to avoid
+// double-submitting (e.g. registering twice) when a response is merely delayed.
+const RETRYABLE_STATUSES = new Set([502, 503, 504])
+const MAX_RETRIES = 12
+
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
+
+function isIdempotent(options: RequestInit): boolean {
+  const method = (options.method ?? 'GET').toUpperCase()
+  return method === 'GET' || method === 'HEAD'
+}
+
 async function request(endpoint: string, options: RequestInit = {}): Promise<Response> {
   const headers: Record<string, string> = {
     ...options.headers as Record<string, string>,
@@ -46,17 +61,32 @@ async function request(endpoint: string, options: RequestInit = {}): Promise<Res
     headers['Authorization'] = `Bearer ${token}`
   }
 
-  const response = await fetch(`${API_BASE_URL}${endpoint}`, {
-    ...options,
-    headers,
-  })
+  const retryable = isIdempotent(options)
+  const maxAttempts = retryable ? MAX_RETRIES : 0
 
-  if (!response.ok) {
+  for (let attempt = 0; ; attempt++) {
+    let response: Response
+    try {
+      response = await fetch(`${API_BASE_URL}${endpoint}`, { ...options, headers })
+    } catch (err) {
+      // Network-level failure (proxy dropped the connection mid cold-start, etc.).
+      if (retryable && attempt < maxAttempts) {
+        await sleep(Math.min(1500 * (attempt + 1), 8000))
+        continue
+      }
+      throw err
+    }
+
+    if (response.ok) return response
+
+    if (retryable && RETRYABLE_STATUSES.has(response.status) && attempt < maxAttempts) {
+      await sleep(Math.min(1500 * (attempt + 1), 8000))
+      continue
+    }
+
     const data = await response.json().catch(() => ({}))
     throw new Error(data.message || `API Error: ${response.status} ${response.statusText}`)
   }
-
-  return response
 }
 
 async function fetchAPI<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
