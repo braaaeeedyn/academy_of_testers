@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { PracticeConfig } from '../../services/api'
 import type { Difficulty, SkillCatalog } from '../../types/adaptive'
+import { useIsMobile } from '../../hooks/useIsMobile'
 
 interface Props {
   catalog: SkillCatalog[]
@@ -20,6 +21,7 @@ function countFor(skill: SkillCatalog, diff: Difficulty): number {
 }
 
 export default function PracticeBuilder({ catalog, onStartPractice }: Props) {
+  const isMobile = useIsMobile()
   const [difficulty, setDifficulty] = useState<Difficulty>('any')
   const [selected, setSelected] = useState<Set<string>>(
     () => new Set(catalog.map((s) => s.skillId))
@@ -68,10 +70,11 @@ export default function PracticeBuilder({ catalog, onStartPractice }: Props) {
         Pick topics, choose a difficulty and length, then start a custom set.
       </p>
 
-      {/* Wide two-pane layout: controls on the left, the full topic grid on the right. */}
-      <div style={{ display: 'flex', gap: 32, alignItems: 'flex-start' }}>
+      {/* Wide two-pane layout: controls on the left, the full topic grid on the right.
+          Stacks into one column on phones. */}
+      <div style={{ display: 'flex', gap: isMobile ? 20 : 32, alignItems: 'flex-start', flexDirection: isMobile ? 'column' : 'row' }}>
         {/* Controls */}
-        <div style={{ width: 280, flexShrink: 0, display: 'flex', flexDirection: 'column', gap: 20 }}>
+        <div style={{ width: isMobile ? '100%' : 280, flexShrink: 0, display: 'flex', flexDirection: 'column', gap: 20 }}>
           <div>
             <Label>Difficulty</Label>
             <div style={{ display: 'flex', gap: 6 }}>

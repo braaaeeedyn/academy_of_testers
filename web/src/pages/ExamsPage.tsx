@@ -110,7 +110,7 @@ export default function ExamsPage() {
           )}
         </div>
 
-        <h1 className="font-display text-6xl md:text-7xl font-bold leading-none tracking-tight mt-8">
+        <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold leading-none tracking-tight mt-8">
           Academy of Testers
         </h1>
         <p className="text-lg md:text-xl mt-4 max-w-lg tracking-tight" style={{ color: 'var(--text-muted)' }}>

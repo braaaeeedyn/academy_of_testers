@@ -34,6 +34,7 @@ import {
 
 
 const headerBtnClass = 'nav-hover-btn flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border cursor-pointer'
+const mobileMenuBtnClass = 'flex items-center gap-2 w-full px-4 py-2.5 rounded-lg text-sm font-medium border cursor-pointer'
 const headerBtnStyle = {
   backgroundColor: 'var(--header-text)',
   color: 'var(--header-bg)',
@@ -44,92 +45,71 @@ function NavHoverLayers() {
   return <span className="nav-hover-streak" />
 }
 
+const ThemesIcon = () => (
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+  </svg>
+)
+const TestyIcon = () => (
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+  </svg>
+)
+const LogoutIcon = () => (
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+    <path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+  </svg>
+)
+const LoginIcon = () => (
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+    <path d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+  </svg>
+)
+
 function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
   const navigate = useNavigate()
   const { isAuthenticated, user, logout } = useAuth()
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const handleLogout = async () => {
+    setMenuOpen(false)
     await logout()
     navigate('/')
   }
 
   return (
-    <header className="py-3 shadow-md" style={{ backgroundColor: 'var(--header-bg)', borderBottom: '1px solid var(--hairline)' }}>
-      <div className="container mx-auto px-4 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2.5 hover:opacity-85 transition-opacity cursor-pointer">
+    <header className="py-3 shadow-md relative" style={{ backgroundColor: 'var(--header-bg)', borderBottom: '1px solid var(--hairline)' }}>
+      <div className="container mx-auto px-4 flex items-center justify-between gap-2">
+        <Link to="/" className="flex items-center gap-2.5 hover:opacity-85 transition-opacity cursor-pointer min-w-0">
           <svg className="w-7 h-7 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" style={{ color: 'var(--header-text)' }}>
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
             <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
             <path d="M12 14l9-5-9-5-9 5 9 5zM12 14v7" />
           </svg>
-          <span className="font-display text-lg font-bold tracking-tight" style={{ color: 'var(--header-text)' }}>
+          <span className="font-display text-base sm:text-lg font-bold tracking-tight truncate" style={{ color: 'var(--header-text)' }}>
             Academy of Testers
           </span>
         </Link>
-        <div className="flex items-center gap-2">
-          <Link
-            to="/themes"
-            className={headerBtnClass}
-            style={headerBtnStyle}
-          >
+
+        {/* Desktop / tablet nav */}
+        <div className="hidden md:flex items-center gap-2">
+          <Link to="/themes" className={headerBtnClass} style={headerBtnStyle}>
             <NavHoverLayers />
-            <span className="nav-hover-content">
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
-                />
-              </svg>
-              Themes
-            </span>
+            <span className="nav-hover-content"><ThemesIcon />Themes</span>
           </Link>
-          <button
-            onClick={onChatOpen}
-            className={headerBtnClass}
-            style={headerBtnStyle}
-          >
+          <button onClick={onChatOpen} className={headerBtnClass} style={headerBtnStyle}>
             <NavHoverLayers />
-            <span className="nav-hover-content">
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                />
-              </svg>
-              Testy AI
-            </span>
+            <span className="nav-hover-content"><TestyIcon />Testy AI</span>
           </button>
           {isAuthenticated ? (
-            <button
-              onClick={handleLogout}
-              className={headerBtnClass}
-              style={headerBtnStyle}
-            >
+            <button onClick={handleLogout} className={headerBtnClass} style={headerBtnStyle}>
               <NavHoverLayers />
-              <span className="nav-hover-content">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-                </svg>
-                {user?.displayName || 'Logout'}
-              </span>
+              <span className="nav-hover-content"><LogoutIcon />{user?.displayName || 'Logout'}</span>
             </button>
           ) : (
-            <Link
-              to="/login"
-              className={headerBtnClass}
-              style={headerBtnStyle}
-            >
+            <Link to="/login" className={headerBtnClass} style={headerBtnStyle}>
               <NavHoverLayers />
-              <span className="nav-hover-content">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
-                </svg>
-                Log In
-              </span>
+              <span className="nav-hover-content"><LoginIcon />Log In</span>
             </Link>
           )}
           <a
@@ -139,15 +119,59 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
             className="bmc-btn flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold cursor-pointer border border-transparent"
             style={{ backgroundColor: '#FFDD00', color: '#000000' }}
           >
-            <img
-              src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
-              alt="Buy me a coffee"
-              className="bmc-icon h-5 w-5"
-            />
+            <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee" className="bmc-icon h-5 w-5" />
             <span className="bmc-label">Buy me a coffee</span>
           </a>
         </div>
+
+        {/* Mobile hamburger */}
+        <button
+          onClick={() => setMenuOpen((o) => !o)}
+          className="md:hidden flex items-center justify-center w-10 h-10 rounded-lg border cursor-pointer flex-shrink-0"
+          style={headerBtnStyle}
+          aria-label="Menu"
+          aria-expanded={menuOpen}
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+            {menuOpen ? <path d="M6 18L18 6M6 6l12 12" /> : <path d="M4 6h16M4 12h16M4 18h16" />}
+          </svg>
+        </button>
       </div>
+
+      {/* Mobile dropdown menu */}
+      {menuOpen && (
+        <div
+          className="md:hidden absolute left-0 right-0 top-full z-40 flex flex-col gap-2 p-4 shadow-lg"
+          style={{ backgroundColor: 'var(--header-bg)', borderBottom: '1px solid var(--hairline)' }}
+        >
+          <Link to="/themes" onClick={() => setMenuOpen(false)} className={mobileMenuBtnClass} style={headerBtnStyle}>
+            <ThemesIcon />Themes
+          </Link>
+          <button onClick={() => { setMenuOpen(false); onChatOpen() }} className={mobileMenuBtnClass} style={headerBtnStyle}>
+            <TestyIcon />Testy AI
+          </button>
+          {isAuthenticated ? (
+            <button onClick={handleLogout} className={mobileMenuBtnClass} style={headerBtnStyle}>
+              <LogoutIcon />{user?.displayName || 'Logout'}
+            </button>
+          ) : (
+            <Link to="/login" onClick={() => setMenuOpen(false)} className={mobileMenuBtnClass} style={headerBtnStyle}>
+              <LoginIcon />Log In
+            </Link>
+          )}
+          <a
+            href="https://buymeacoffee.com/braaaeeedyn"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMenuOpen(false)}
+            className="flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-lg text-sm font-semibold cursor-pointer border border-transparent"
+            style={{ backgroundColor: '#FFDD00', color: '#000000' }}
+          >
+            <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee" className="h-5 w-5" />
+            Buy me a coffee
+          </a>
+        </div>
+      )}
     </header>
   )
 }
@@ -283,7 +307,7 @@ function App() {
             <div className="min-h-screen flex flex-col" style={{ backgroundColor: 'var(--bg)' }}>
               <AppHeader onChatOpen={() => setChatOpen(true)} />
 
-              <main className="w-full max-w-screen-2xl mx-auto px-8 sm:px-12 py-8 flex-1">
+              <main className="w-full max-w-screen-2xl mx-auto px-4 sm:px-8 lg:px-12 py-6 sm:py-8 flex-1">
                 <ChatProvider openChat={() => setChatOpen(true)}>
                 <Routes>
                   <Route path="/" element={<ExamsPage />} />

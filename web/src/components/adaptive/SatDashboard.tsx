@@ -11,6 +11,7 @@ import {
 } from '../../services/api'
 import type { DashboardData, SkillCatalog, SkillWeight, UserPrefs } from '../../types/adaptive'
 import LoadingScreen from '../LoadingScreen'
+import { useIsMobile } from '../../hooks/useIsMobile'
 import { quoteForDay } from '../../data/motivationalQuotes'
 import MasteryRadar from './MasteryRadar'
 import StreakCalendar from './StreakCalendar'
@@ -76,6 +77,7 @@ const fullBleed: React.CSSProperties = {
 export default function SatDashboard({ onStartDiagnostic, onStartPractice }: Props) {
   const { user } = useAuth()
   const navigate = useNavigate()
+  const isMobile = useIsMobile()
   const [monthDate, setMonthDate] = useState(() => {
     const now = new Date()
     return new Date(now.getFullYear(), now.getMonth(), 1)
@@ -267,7 +269,7 @@ export default function SatDashboard({ onStartDiagnostic, onStartPractice }: Pro
   )
 
   return (
-    <div style={fullBleed}>
+    <div style={{ ...fullBleed, padding: isMobile ? '0 16px' : '0 40px' }}>
       {/* Back to SAT Hub */}
       <button onClick={() => navigate('/sat/hub')} style={backToHubBtn}>
         <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round">
@@ -306,7 +308,7 @@ export default function SatDashboard({ onStartDiagnostic, onStartPractice }: Pro
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'minmax(0, 1fr) minmax(320px, 420px)',
+          gridTemplateColumns: isMobile ? '1fr' : 'minmax(0, 1fr) minmax(320px, 420px)',
           gap: 24,
           alignItems: 'start',
         }}
@@ -317,7 +319,7 @@ export default function SatDashboard({ onStartDiagnostic, onStartPractice }: Pro
               <div
                 style={{
                   display: 'grid',
-                  gridTemplateColumns: 'minmax(400px, 1.15fr) minmax(300px, 0.85fr)',
+                  gridTemplateColumns: isMobile ? '1fr' : 'minmax(400px, 1.15fr) minmax(300px, 0.85fr)',
                   gap: 20,
                   alignItems: 'start',
                 }}
