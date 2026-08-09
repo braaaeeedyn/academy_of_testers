@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import QuestionCard, { type Feedback } from './QuestionCard'
 import TestToolbar from './TestToolbar'
 import ReferenceSheet from './ReferenceSheet'
@@ -14,6 +15,7 @@ interface Props {
 
 /** The one-time 24-question diagnostic. */
 export default function DiagnosticFlow({ onComplete }: Props) {
+  const navigate = useNavigate()
   const [question, setQuestion] = useState<AdaptiveQuestion | null>(null)
   const [number, setNumber] = useState(1)
   const [total, setTotal] = useState(24)
@@ -93,6 +95,7 @@ export default function DiagnosticFlow({ onComplete }: Props) {
         calculatorOpen={calculatorOpen}
         onToggleCalculator={() => setCalculatorOpen((o) => !o)}
         onPause={() => setPaused(true)}
+        onBackToHub={() => navigate('/sat/hub')}
       />
 
       <div style={{ maxWidth: 720, margin: '0 auto 16px' }}>

@@ -11,6 +11,8 @@ interface Props {
   paused?: boolean
   /** When provided, shows an "End" button to finish the run early (practice only). */
   onEnd?: () => void
+  /** When provided, shows a back button (next to Pause) that leaves for the SAT Hub. */
+  onBackToHub?: () => void
 }
 
 function formatTime(totalSeconds: number): string {
@@ -29,6 +31,7 @@ export default function TestToolbar({
   calculatorOpen,
   paused = false,
   onEnd,
+  onBackToHub,
 }: Props) {
   const [seconds, setSeconds] = useState(0)
   const pausedRef = useRef(paused)
@@ -156,6 +159,31 @@ export default function TestToolbar({
           </svg>
           Reference
         </button>
+
+        {onBackToHub && (
+          <button
+            onClick={onBackToHub}
+            title="Leave the test and return to the SAT Hub"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 7,
+              fontSize: 13,
+              fontWeight: 700,
+              padding: '7px 13px',
+              borderRadius: 'var(--radius-pill)',
+              border: '1px solid var(--hairline)',
+              backgroundColor: 'var(--surface)',
+              color: 'var(--text)',
+              cursor: 'pointer',
+            }}
+          >
+            <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round">
+              <path d="M15 19l-7-7 7-7" />
+            </svg>
+            Hub
+          </button>
+        )}
 
         <button
           onClick={onPause}

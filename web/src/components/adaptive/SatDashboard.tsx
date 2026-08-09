@@ -48,6 +48,21 @@ const primaryBtn: React.CSSProperties = {
   cursor: 'pointer',
 }
 
+const backToHubBtn: React.CSSProperties = {
+  display: 'inline-flex',
+  alignItems: 'center',
+  gap: 7,
+  marginBottom: 16,
+  padding: '8px 14px',
+  borderRadius: 'var(--radius-pill)',
+  border: '1px solid var(--hairline)',
+  backgroundColor: 'var(--surface)',
+  color: 'var(--text)',
+  fontWeight: 600,
+  fontSize: 13,
+  cursor: 'pointer',
+}
+
 // Break the dashboard out of the centered page container so it uses the full
 // desktop width — left cards hug the left edge, the calendar the right.
 const fullBleed: React.CSSProperties = {
@@ -253,6 +268,14 @@ export default function SatDashboard({ onStartDiagnostic, onStartPractice }: Pro
 
   return (
     <div style={fullBleed}>
+      {/* Back to SAT Hub */}
+      <button onClick={() => navigate('/sat/hub')} style={backToHubBtn}>
+        <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M15 19l-7-7 7-7" />
+        </svg>
+        SAT Hub
+      </button>
+
       {/* Greeting */}
       <div style={{ marginBottom: 22 }}>
         <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>
