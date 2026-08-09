@@ -7,6 +7,7 @@ import DiagnosticFlow from '../components/adaptive/DiagnosticFlow'
 import AdaptiveSession from '../components/adaptive/AdaptiveSession'
 import SessionSummary from '../components/adaptive/SessionSummary'
 import SatDashboard from '../components/adaptive/SatDashboard'
+import LoadingScreen from '../components/LoadingScreen'
 
 type Phase = 'dashboard' | 'diagnostic' | 'session' | 'summary'
 
@@ -30,7 +31,7 @@ export default function SatAdaptivePage() {
   }
 
   if (authLoading) {
-    return <Shell><Centered>Loading…</Centered></Shell>
+    return <Shell><LoadingScreen message="Loading" /></Shell>
   }
 
   if (!isAuthenticated) {
@@ -113,10 +114,6 @@ function Hero() {
       </p>
     </div>
   )
-}
-
-function Centered({ children }: { children: React.ReactNode }) {
-  return <p style={{ textAlign: 'center', color: 'var(--text-muted)', padding: '40px 0' }}>{children}</p>
 }
 
 function Shell({ children, wide }: { children: React.ReactNode; wide?: boolean }) {

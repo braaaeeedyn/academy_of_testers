@@ -3,6 +3,7 @@ import QuestionCard, { type Feedback } from './QuestionCard'
 import TestToolbar from './TestToolbar'
 import ReferenceSheet from './ReferenceSheet'
 import DesmosCalculator from './DesmosCalculator'
+import LoadingScreen from '../LoadingScreen'
 import { startSession, answerSession, endSession, type PracticeConfig } from '../../services/api'
 import type { AdaptiveQuestion, SkillWeight } from '../../types/adaptive'
 
@@ -102,7 +103,7 @@ export default function AdaptiveSession({ onComplete, onNeedsDiagnostic, config 
     }
   }
 
-  if (loading) return <Centered>Starting session…</Centered>
+  if (loading) return <LoadingScreen message="Starting session" />
   if (error) return <Centered>Something went wrong: {error}</Centered>
   if (!question) return <Centered>Session ready.</Centered>
 

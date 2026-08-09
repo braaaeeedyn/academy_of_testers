@@ -4,6 +4,7 @@ import TestToolbar from './TestToolbar'
 import ReferenceSheet from './ReferenceSheet'
 import DesmosCalculator from './DesmosCalculator'
 import { usePrefersReducedMotion } from './usePrefersReducedMotion'
+import LoadingScreen from '../LoadingScreen'
 import { startDiagnostic, answerDiagnostic } from '../../services/api'
 import type { AdaptiveQuestion } from '../../types/adaptive'
 
@@ -72,7 +73,7 @@ export default function DiagnosticFlow({ onComplete }: Props) {
     setFeedback(null)
   }
 
-  if (loading) return <Centered>Loading diagnostic…</Centered>
+  if (loading) return <LoadingScreen message="Loading diagnostic" />
   if (error) return <Centered>Something went wrong: {error}</Centered>
   if (!question) return <Centered>Diagnostic complete.</Centered>
 

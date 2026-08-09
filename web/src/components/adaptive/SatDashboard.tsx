@@ -10,6 +10,7 @@ import {
   type PracticeConfig,
 } from '../../services/api'
 import type { DashboardData, SkillCatalog, SkillWeight, UserPrefs } from '../../types/adaptive'
+import LoadingScreen from '../LoadingScreen'
 import { quoteForDay } from '../../data/motivationalQuotes'
 import MasteryRadar from './MasteryRadar'
 import StreakCalendar from './StreakCalendar'
@@ -117,7 +118,7 @@ export default function SatDashboard({ onStartDiagnostic, onStartPractice }: Pro
   }
 
   if (loading) {
-    return <div style={{ textAlign: 'center', padding: '60px 0', color: 'var(--text-muted)' }}>Loading your board…</div>
+    return <LoadingScreen message="Loading your board" />
   }
   if (error || !data) {
     return (
