@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "thesis",
+      "refId": "APLANG-RA:thesis",
+      "title": "Row A — Thesis (0–1 pt)",
+      "content": "PLACEHOLDER — replace with the official College Board wording. Award 1 point only for a defensible thesis that analyzes the writer's rhetorical choices (not merely restating the prompt, summarizing the passage, or describing rhetorical choices without a line of reasoning). Award 0 for a thesis that only restates the prompt, is off-topic, or makes no defensible claim about the writer's choices."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "evidence-commentary",
+      "refId": "APLANG-RA:evidence-commentary",
+      "title": "Row B — Evidence & Commentary (0–4 pts)",
+      "content": "PLACEHOLDER — replace with the official wording for the 0–4 scale. 4: specific evidence supports all claims in a line of reasoning AND commentary explains how the writer's rhetorical choices contribute to the argument, purpose, or message. 3: adequate evidence and explains how some choices contribute. 2: some evidence, mostly general, commentary mostly restates evidence. 1: minimal or irrelevant evidence, summary rather than analysis. 0: no defensible support."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "sophistication",
+      "refId": "APLANG-RA:sophistication",
+      "title": "Row C — Sophistication (0–1 pt)",
+      "content": "PLACEHOLDER — replace with official wording. Award 1 point for demonstrating sophistication of thought and/or a complex understanding of the rhetorical situation — e.g. explaining the significance or relevance of the writer's choices, situating the argument in a broader context, or using a vivid and persuasive style. Award 0 for oversimplified claims, style that does not enhance the argument, or unsupported grand generalizations."
+    }
+  ]
+}

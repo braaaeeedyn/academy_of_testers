@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "6",
+      "refId": "APUSH:leq:2025-leq3-set2-3A",
+      "title": "LEQ exemplar — LEQ3/Set2 Sample 3A, score 6/6",
+      "content": "LEQ (how sectional tensions shaped US society, 1800–1848) scored 6/6. Thesis (1): sectional tensions led to political debates over slavery's expansion into western territories. Contextualization (1): Middle Passage, southern slavery, the North's gradual abandonment. Evidence (2): annexation of Texas, Free Soil Party, Missouri Compromise — used to support the argument. Analysis & Reasoning (2): comparison (Free Soil vs. popular sovereignty) and causation (Missouri Compromise → tension) AND complex understanding via four pieces of evidence (King Cotton, Texas, Missouri Compromise, Free Soil) supporting a nuanced argument."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "4",
+      "refId": "APUSH:leq:2025-leq3-set2-3B",
+      "title": "LEQ exemplar — LEQ3/Set2 Sample 3B, score 4/6",
+      "content": "LEQ scored 4/6 (Thesis 1, Contextualization 1, Evidence 1, Analysis & Reasoning 1). Thesis (1): regional differences in slavery and economics created society-changing tensions. Contextualization (1): post-period examples (Bleeding Kansas, Lincoln's election, Reconstruction Amendments). Evidence (1): southern slavery vs. northern manufacturing/railroads described but not used to support an argument, so caps at 1. Analysis & Reasoning (1): comparison of North/South economies, but the multiple-perspectives attempt lacks nuance so no complex understanding."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "1",
+      "refId": "APUSH:leq:2025-leq3-set2-3C",
+      "title": "LEQ exemplar — LEQ3/Set2 Sample 3C, score 1/6",
+      "content": "LEQ scored 1/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis & Reasoning 0). Thesis (1): minimally acceptable claim (tensions shaped society via opinions on slavery and new land). Contextualization (0): the Civil War reference just rephrases the thesis. Evidence (0): the '40 6 40 line' and 'slave rebellions' are inaccurate or too vague. Analysis & Reasoning (0): the North/South economic comparison is only a vague reference."
+    }
+  ]
+}

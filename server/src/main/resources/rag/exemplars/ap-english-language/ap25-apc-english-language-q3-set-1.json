@@ -1,0 +1,52 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "argument-thesis",
+      "refId": "APLANG:argument:rowA-thesis",
+      "title": "Argument — Row A: Thesis (0–1)",
+      "content": "AP English Language Argument Essay, Row A Thesis (0–1 points). 1 point: responds to the prompt with a thesis that presents a defensible position. 0 points: no defensible thesis; only restates the prompt; summarizes with no coherent claim; or does not respond. Does NOT earn the point when it takes no position (or the position is vague/must be inferred) or states an obvious fact as a claim. Earns it by taking a clear, defensible position on the prompt rather than restating it or merely noting pros/cons. The thesis may be multiple sentences in close proximity and appear anywhere in the response."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "argument-evidence-commentary",
+      "refId": "APLANG:argument:rowB-evidence-commentary",
+      "title": "Argument — Row B: Evidence & Commentary (0–4)",
+      "content": "AP English Language Argument Essay, Row B Evidence AND Commentary (0–4 points). 0: restates thesis, repeats info, or irrelevant. 1: mostly general evidence; commentary only summarizes. 2: some specific relevant evidence; commentary explains how some evidence relates to the argument, but no line of reasoning or it is faulty. 3: specific evidence supporting all claims in a line of reasoning; commentary explains how some evidence supports it. 4: specific evidence for all claims; commentary consistently explains how the evidence supports a line of reasoning composed of multiple supporting claims, each clearly explained. Grammatical errors that interfere with communication cannot earn the 4th point."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "argument-sophistication",
+      "refId": "APLANG:argument:rowC-sophistication",
+      "title": "Argument — Row C: Sophistication (0–1)",
+      "content": "AP English Language Argument Essay, Row C Sophistication (0–1 points). 1 point: demonstrates sophistication of thought and/or a complex understanding of the rhetorical situation by any of: crafting a nuanced argument that consistently identifies and explores complexities or tensions; articulating implications or limitations of an argument by situating it within a broader context; making effective rhetorical choices that consistently strengthen the argument; or employing a consistently vivid and persuasive style. Does NOT earn the point for sweeping generalizations, only hinting at other arguments, or ineffective complex language. Must be part of the argument, not merely a phrase."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "6",
+      "refId": "APLANG:argument:2025-set1-3A",
+      "title": "Argument exemplar — Sample 3A, score 1-4-1 (6/6)",
+      "content": "Argument essay (Osaka, embracing the present moment) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible position that Osaka's claim is 'somewhat valid,' balancing academic success against artificial concerns. Evidence & Commentary (4): specific evidence for all claims (personal 13-hour screen time; Ferris Bueller's Day Off details); commentary consistently explains how the evidence supports the line of reasoning about misplaced importance. Sophistication (1): articulates implications/limitations by situating the argument in a broader context — 'the challenges of prioritizing academic success while also trying to experience life.'"
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "4",
+      "refId": "APLANG:argument:2025-set1-3B",
+      "title": "Argument exemplar — Sample 3B, score 1-3-0 (4/6)",
+      "content": "Argument essay scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible position agreeing with Osaka (we rely too heavily on social media and could miss important moments). Evidence & Commentary (3): specific evidence for all claims (YouTube Shorts, TikTok, Instagram Reels; dopamine); commentary explains how some evidence supports the reasoning — but some commentary (paragraph 3, 'getting physically fit…') does not clearly connect to the argument, so short of 4. Sophistication (0): not demonstrated."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "2",
+      "refId": "APLANG:argument:2025-set1-3C",
+      "title": "Argument exemplar — Sample 3C, score 1-1-0 (2/6)",
+      "content": "Argument essay scored 2/6 (Thesis 1, Evidence & Commentary 1, Sophistication 0). Thesis (1): defensible position agreeing with Osaka's claim. Evidence & Commentary (1): general evidence that focuses on summary rather than specific details ('stuck on remembering bad moments in the past'); commentary only summarizes the evidence and does not explain how it supports the argument. Sophistication (0): not demonstrated. Illustrates the difference between a defensible thesis and the developed, specific support needed to move beyond 1 point in Row B."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Art History",
+      "dimension": "q3-visual-analysis",
+      "refId": "ARTH:q3:visual-analysis",
+      "title": "Q3 — Visual Analysis (5 points)",
+      "content": "AP Art History Q3, Visual Analysis, 5 points (Tasks A–E, 1 point each, independent). A: accurately describe ONE visual characteristic of the shown work. B: accurately describe ANOTHER visual characteristic. C: use specific visual evidence to explain how the artist creates a particular effect (e.g. a sense of space/depth). D: use specific visual evidence to explain how the artist guides the viewer. E: use specific visual or contextual evidence to explain a further point about the work. Describe = characteristics beyond naming; the explain tasks require specific visual evidence tied to the effect."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "5",
+      "refId": "ARTH:q3:2025-3A",
+      "title": "Q3 exemplar — Sample 3A, 5/5",
+      "content": "Q3 Visual Analysis scored 5/5 — earns both description points and all three explanation points, using specific visual evidence to tie each explanation to how the artist creates the effect and guides the viewer. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "3",
+      "refId": "ARTH:q3:2025-3B",
+      "title": "Q3 exemplar — Sample 3B, 3/5",
+      "content": "Q3 scored 3/5 — earns the description points and one explanation, but two explanation tasks fall short (visual evidence not specific enough or not tied to the required effect). Typical mid-range profile."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "2",
+      "refId": "ARTH:q3:2025-3C",
+      "title": "Q3 exemplar — Sample 3C, 2/5",
+      "content": "Q3 scored 2/5 — earns roughly the two description points but not the explanation tasks, which require specific visual evidence linked to how the artist achieves an effect. Shows description is the accessible floor; explanation requires evidence-linked reasoning."
+    }
+  ]
+}

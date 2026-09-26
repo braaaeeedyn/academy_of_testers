@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "6",
+      "refId": "APLANG:argument:2025-set2-3A",
+      "title": "Argument exemplar — Sample 3A, score 1-4-1 (6/6)",
+      "content": "Argument essay (Gorman, optimism vs. pessimism) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible, nuanced position framing pessimism as a catalyst for optimism rather than its opposite. Evidence & Commentary (4): specific evidence for all claims (Cormac McCarthy's The Road; 'the coast' motif); commentary consistently explains how the evidence supports the reasoning about duality of thought. Sophistication (1): employs a consistently vivid and persuasive style from the opening ('two sides of the same coin') through the glass metaphor in the final paragraph."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "4",
+      "refId": "APLANG:argument:2025-set2-3B",
+      "title": "Argument exemplar — Sample 3B, score 1-3-0 (4/6)",
+      "content": "Argument essay scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible position that optimism and pessimism are not opposites and balance is essential. Evidence & Commentary (3): specific evidence for all three claims (The Lost Hero, Leo's invention); commentary explains how some evidence supports a claim — but some commentary (paragraph 3) does not clearly connect to the claim that optimism and pessimism are not opposites, so short of 4. Sophistication (0): not demonstrated."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "3",
+      "refId": "APLANG:argument:2025-set2-3C",
+      "title": "Argument exemplar — Sample 3C, score 1-2-0 (3/6)",
+      "content": "Argument essay scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible position that Gorman's claim is invalid. Evidence & Commentary (2): relevant evidence, some specific (a pessimist friend) mixed with broad generalities; commentary explains how some evidence relates to the argument but does not connect it to a claim, so no clear line of reasoning; makes one point well but not multiple supporting claims. Sophistication (0): not demonstrated."
+    }
+  ]
+}

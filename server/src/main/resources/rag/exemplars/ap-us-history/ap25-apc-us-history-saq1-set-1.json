@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "saq-scoring",
+      "refId": "APUSH:saq:scoring",
+      "title": "SAQ — Scoring Approach (3 points, parts A/B/C)",
+      "content": "AP US History Short-Answer Question scoring (3 points total; parts A, B, C each worth 1 point, earned INDEPENDENTLY). No thesis is required. Two task verbs: DESCRIBE = provide the relevant characteristics of a specified topic (more than merely naming a term); EXPLAIN = provide information about how or why a development/process occurs or a relationship exists. A part earns its point only when the response is historically defensible AND within the prompt's specified time period/region — evidence outside the timeframe, factual inaccuracies, or merely identifying a term without describing/explaining it do not earn the point. Grammatical errors don't count against a response unless they obscure the content."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "3",
+      "refId": "APUSH:saq:2025-q1-set1-1A",
+      "title": "SAQ exemplar — Q1 (Secondary Source) Sample 1A, 3/3",
+      "content": "SAQ Q1 (secondary source: Wilentz vs. Bouton on early US politics, 1789–1820) scored 3/3 (A 1, B 1, C 1). A: correctly describes the difference (Wilentz — politics benefited everyone/more egalitarian; Bouton — benefited the elite). B: explains the Bill of Rights supporting Wilentz's egalitarian argument. C: explains the Whiskey Rebellion supporting Bouton (poor farmers unable to mobilize against elites). Model of a full-credit SAQ: each part directly does its task verb with in-period, accurate evidence."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "2",
+      "refId": "APUSH:saq:2025-q1-set1-1B",
+      "title": "SAQ exemplar — Q1 Sample 1B, 2/3",
+      "content": "SAQ Q1 scored 2/3 (A 1, B 1, C 0). A: describes the Wilentz/Bouton difference (expanded opportunity vs. victory for the elite). B: explains expanded male suffrage after the War of 1812 supporting Wilentz. C: 0 — uses Andrew Jackson's presidency, which is OUTSIDE the 1789–1820 timeframe. Illustrates the common SAQ error of otherwise-valid evidence that falls outside the prompt's time period."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "1",
+      "refId": "APUSH:saq:2025-q1-set1-1C",
+      "title": "SAQ exemplar — Q1 Sample 1C, 1/3",
+      "content": "SAQ Q1 scored 1/3 (A 1, B 0, C 0). A: correctly describes Bouton's elite-benefit argument vs. Wilentz's egalitarian one. B: 0 — cites Federalist/Jeffersonian foreign-policy divide but does not explain how it supports Wilentz's egalitarian argument. C: 0 — Bacon's Rebellion (and its claimed link to replacing the Articles of Confederation) is historically inaccurate. Shows that a part fails when it names an event without explaining the required relationship, or uses inaccurate history."
+    }
+  ]
+}

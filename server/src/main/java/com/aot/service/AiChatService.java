@@ -1,6 +1,7 @@
 package com.aot.service;
 
 import com.aot.dto.AiChatRequest;
+import com.aot.service.RagRetrievalService.RetrievedChunk;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -27,11 +28,17 @@ public class AiChatService {
   private static final int MAX_MESSAGE_LENGTH = 1000;
   private static final int MAX_CONTEXT_MESSAGES = 20;
 
+  // How many curriculum chunks to retrieve as grounding for a single answer.
+  private static final int RETRIEVAL_TOP_K = 4;
+
   private final WebClient webClient;
+  private final RagRetrievalService ragRetrievalService;
   private final String apiKey;
 
-  public AiChatService(@Value("${openai.api-key}") String apiKey) {
+  public AiChatService(
+      @Value("${openai.api-key}") String apiKey, RagRetrievalService ragRetrievalService) {
     this.apiKey = apiKey;
+    this.ragRetrievalService = ragRetrievalService;
     this.webClient =
         WebClient.builder()
             .baseUrl("https://api.openai.com")
@@ -39,23 +46,36 @@ public class AiChatService {
             .build();
   }
 
-  public String chat(List<AiChatRequest.ChatMessage> messages) {
+  public String chat(AiChatRequest req, Long userId) {
     if (apiKey == null || apiKey.isBlank()) {
       throw new IllegalStateException("OpenAI API key not configured");
     }
 
+    List<AiChatRequest.ChatMessage> messages = req.getMessages();
+
     // Validate last message length
+    String latestUserMessage = "";
     if (!messages.isEmpty()) {
       AiChatRequest.ChatMessage lastMsg = messages.get(messages.size() - 1);
-      if ("user".equals(lastMsg.getRole()) && lastMsg.getContent().length() > MAX_MESSAGE_LENGTH) {
-        throw new IllegalArgumentException(
-            "Message exceeds the " + MAX_MESSAGE_LENGTH + " character limit");
+      if ("user".equals(lastMsg.getRole())) {
+        if (lastMsg.getContent().length() > MAX_MESSAGE_LENGTH) {
+          throw new IllegalArgumentException(
+              "Message exceeds the " + MAX_MESSAGE_LENGTH + " character limit");
+        }
+        latestUserMessage = lastMsg.getContent();
       }
     }
 
+    // Retrieve curriculum grounding for the student's latest question, scoped to their skill focus
+    // (or subject). Empty when nothing is ingested, in which case chat behaves as it always did.
+    List<RetrievedChunk> grounding =
+        ragRetrievalService.retrieveForChat(
+            userId, req.getSubject(), req.getSkillIds(), latestUserMessage, RETRIEVAL_TOP_K);
+
     // Build messages array with system prompt + last N context messages
     List<Map<String, String>> apiMessages = new ArrayList<>();
-    apiMessages.add(Map.of("role", "system", "content", SYSTEM_PROMPT));
+    apiMessages.add(
+        Map.of("role", "system", "content", buildSystemPrompt(grounding, req.getMasteryLevel())));
 
     int start = Math.max(0, messages.size() - MAX_CONTEXT_MESSAGES);
     for (int i = start; i < messages.size(); i++) {
@@ -102,5 +122,40 @@ public class AiChatService {
       logger.error("OpenAI API error", e);
       throw new RuntimeException("Failed to get a response from AI");
     }
+  }
+
+  /**
+   * Builds the system prompt. With no retrieved grounding it is the original open-ended helper
+   * (backward compatible). With grounding it becomes a RAG prompt: answer only from the retrieved
+   * course content, say plainly when something isn't covered rather than filling the gap from
+   * general knowledge, and adjust depth to the student's mastery level.
+   */
+  private String buildSystemPrompt(List<RetrievedChunk> grounding, String masteryLevel) {
+    if (grounding.isEmpty()) {
+      return SYSTEM_PROMPT;
+    }
+
+    StringBuilder sb = new StringBuilder(SYSTEM_PROMPT);
+    sb.append("\n\nAnswer the student's question using ONLY the COURSE CONTENT below. If the"
+        + " content does not cover what they asked, say so plainly — e.g. \"That isn't covered in"
+        + " your course material yet\" — and do not fill the gap from general knowledge. Prefer the"
+        + " wording and methods in the course content over your own.");
+
+    if (masteryLevel != null && !masteryLevel.isBlank()) {
+      sb.append("\n\nThe student's current mastery of this skill is \"")
+          .append(masteryLevel)
+          .append("\". Adjust the depth and pace of your explanation to match: more foundational and"
+              + " step-by-step for lower mastery, more concise and advanced for higher mastery.");
+    }
+
+    sb.append("\n\nCOURSE CONTENT:\n");
+    for (RetrievedChunk chunk : grounding) {
+      sb.append("- ");
+      if (chunk.title() != null && !chunk.title().isBlank()) {
+        sb.append(chunk.title()).append(": ");
+      }
+      sb.append(chunk.content()).append('\n');
+    }
+    return sb.toString();
   }
 }

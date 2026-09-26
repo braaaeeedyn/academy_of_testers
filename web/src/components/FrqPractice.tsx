@@ -411,10 +411,25 @@ function GradeResult({ grade }: { grade: FrqGrade }) {
               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
                 {row.justification}
               </p>
+              {row.citation && (
+                <p className="mt-1.5 text-xs font-mono" style={{ color: 'var(--text-muted)' }}>
+                  Rubric basis: {row.citation}
+                </p>
+              )}
+              {grade.groundingApplied && row.grounded === false && (
+                <p className="mt-1.5 text-xs font-semibold" style={{ color: 'var(--error)' }}>
+                  ⚠ Not tied to a rubric clause — read with caution.
+                </p>
+              )}
             </div>
           )
         })}
       </div>
+      {grade.groundingNote && (
+        <p className="mb-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+          {grade.groundingNote}
+        </p>
+      )}
 
       {/* Strengths + improvements */}
       <div className="grid sm:grid-cols-2 gap-3 mb-3">

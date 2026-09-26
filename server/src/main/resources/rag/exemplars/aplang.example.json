@@ -1,0 +1,31 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "promptId": "aplang-2021-q1",
+      "scoreBand": "5-6",
+      "refId": "exemplar:aplang-2021-q1:band-5-6",
+      "title": "High-band sample (5–6)",
+      "content": "PLACEHOLDER — paste a real high-scoring sample response (or a faithful excerpt) for this prompt, or a tight summary of what earns 5–6: defensible thesis analyzing rhetorical choices, well-chosen specific evidence woven into a clear line of reasoning, commentary that consistently explains how choices advance the writer's purpose, and a moment of sophistication."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "promptId": "aplang-2021-q1",
+      "scoreBand": "3-4",
+      "refId": "exemplar:aplang-2021-q1:band-3-4",
+      "title": "Mid-band sample (3–4)",
+      "content": "PLACEHOLDER — paste a mid-scoring sample for this prompt, or a summary of what earns 3–4: a defensible thesis, adequate but sometimes general evidence, commentary that explains some choices but leaves gaps, and little or no sophistication."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "promptId": "aplang-2021-q1",
+      "scoreBand": "1-2",
+      "refId": "exemplar:aplang-2021-q1:band-1-2",
+      "title": "Low-band sample (1–2)",
+      "content": "PLACEHOLDER — paste a low-scoring sample for this prompt, or a summary of what earns 1–2: thesis missing or only restates the prompt, evidence sparse or summarized rather than analyzed, and commentary that does not connect choices to purpose."
+    }
+  ]
+}

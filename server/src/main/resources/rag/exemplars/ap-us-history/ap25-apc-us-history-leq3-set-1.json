@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "6",
+      "refId": "APUSH:leq:2025-leq3-set1-3A",
+      "title": "LEQ exemplar — LEQ3 Sample 3A, score 6/6",
+      "content": "LEQ (how reform movements responded to industrialization, 1820–1900) scored 6/6. Thesis (1): women's rights, labor unions, and immigrant advocacy as responses to industrialization. Contextualization (1): late-1700s/early-1800s economic debates, factories, urban growth. Evidence (2): Lowell mills, Seneca Falls, Knights of Labor, Jane Addams, Hull House — used to support the argument. Analysis & Reasoning (2): causation (poor conditions → Knights of Labor) AND complex understanding via multiple themes (suffrage, morality, prison reform, immigration) and geographic/cause-effect connections (Irish famine migration)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "4",
+      "refId": "APUSH:leq:2025-leq3-set1-3B",
+      "title": "LEQ exemplar — LEQ3 Sample 3B, score 4/6",
+      "content": "LEQ scored 4/6 (Thesis 1, Contextualization 0, Evidence 2, Analysis & Reasoning 1). Thesis (1): minimally acceptable claim (radical responses to industrialization due to unjust labor and big business). Contextualization (0): none. Evidence (2): Lowell mill girls, unionization, horizontal integration, Rockefeller, Carnegie — used to support the strikes-for-better-conditions argument. Analysis & Reasoning (1): causation (big business → industrial labor conditions) but no complex understanding."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "1",
+      "refId": "APUSH:leq:2025-leq3-set1-3C",
+      "title": "LEQ exemplar — LEQ3 Sample 3C, score 1/6",
+      "content": "LEQ scored 1/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis & Reasoning 0). Thesis (1): defensible claim (reform movements responded via protests by labor unions and Congress). Contextualization (0): rural-to-urban migration reference is a passing/vague phrase. Evidence (0): references to labor unions and congressional testimony are too vague to earn the point. Analysis & Reasoning (0): describes conditions but does not use reasoning to frame a prompt-focused argument."
+    }
+  ]
+}

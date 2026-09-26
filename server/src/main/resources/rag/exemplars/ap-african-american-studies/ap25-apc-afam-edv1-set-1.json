@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP African American Studies",
+      "dimension": "edv-validation",
+      "refId": "AFAM:edv:validation",
+      "title": "Exam Day Validation (Q1) — Scoring (0–2)",
+      "content": "AP African American Studies Exam Day Validation (Q1, 2 points) — a written response about the student's own Individual Student Project sources (prompt: 'Explain how two of your sources provide different perspectives on one aspect of your topic'). Must be in complete sentences and reference the specific source(s) by author or title. 1 point: DESCRIBES the differing perspectives of two sources as they relate to the project topic. 2 points: EXPLAINS how the two sources' perspectives differ (e.g. how the authors' backgrounds, timing, or information shape their views) and their impact on understanding the topic. Does NOT earn points if too vague, if it discusses only one source, or if it fails to name specific sources."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "2",
+      "refId": "AFAM:edv:2025-set1-1A",
+      "title": "EDV exemplar — Sample A, score 2/2",
+      "content": "Exam Day Validation scored 2/2. Names both sources (two Ida B. Wells articles) and explains how their perspectives differ — Source 1 on the hardships Wells faced, Source 2 on her accomplishments — and how that difference shapes understanding of her impact. Full credit: names specific sources AND explains (not just describes) the differing perspectives' effect on the topic."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "1",
+      "refId": "AFAM:edv:2025-set1-1B",
+      "title": "EDV exemplar — Sample B, score 1/2",
+      "content": "Exam Day Validation scored 1/2. Describes two sources on redlining/housing discrimination and their different angles, earning the description point — but does not earn the second point because only one source (a Chicago map) is specified while the other is left vague, and it does not explain how the perspectives differ. Shows the describe→explain gap and the requirement to name BOTH sources."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "0",
+      "refId": "AFAM:edv:2025-set1-1C",
+      "title": "EDV exemplar — Sample C, score 0/2",
+      "content": "Exam Day Validation scored 0/2. References that two sources give different perspectives but names neither source specifically, does not indicate the topic, and does not describe or explain how the perspectives differ. Illustrates that vague, unattributed reflection earns nothing on this question."
+    }
+  ]
+}

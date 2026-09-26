@@ -37,7 +37,7 @@ public class FrqController {
     // Shares the AI budget with chat; throws RateLimitExceededException when over the limit.
     aiUsageService.checkAndIncrement(userId);
 
-    FrqGradeResponse grade = frqGradingService.grade(request);
+    FrqGradeResponse grade = frqGradingService.grade(request, userId);
     Map<String, Object> usageInfo = aiUsageService.getUsageInfo(userId);
 
     return ResponseEntity.ok(Map.of("grade", grade, "remaining", usageInfo.get("remaining")));

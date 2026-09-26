@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Literature",
+      "scoreBand": "6",
+      "refId": "APLIT:poetry:2025-set2-1A",
+      "title": "Poetry exemplar — Sample 1A, score 1-4-1 (6/6)",
+      "content": "Poetry Analysis (Hernandez Cruz, 'Two Guitars') scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that juxtaposition and personification portray two guitars' contrasting worlds to show passion as the true spirit of music. Evidence & Commentary (4): specific evidence for all claims (angels vs. casual baptism; 'mountains/pores/danger'; 'melt out of his eyes') with commentary consistently explaining how multiple techniques build meaning. Sophistication (1): explores complexities (pain→passion→beauty) and employs a consistently vivid, persuasive style."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Literature",
+      "scoreBand": "4",
+      "refId": "APLIT:poetry:2025-set2-1B",
+      "title": "Poetry exemplar — Sample 1B, score 1-3-0 (4/6)",
+      "content": "Poetry Analysis scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation that first-person narration, personification, and imagery turn the guitar into a vessel of identity and memory. Evidence & Commentary (3): specific evidence with commentary for narration and personification supports the reasoning — but paragraph 4's imagery commentary is vague and shifts to the reader's emotions rather than the main claim, so short of 4. Sophistication (0): a vivid moment exists but the style is not sustained."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Literature",
+      "scoreBand": "3",
+      "refId": "APLIT:poetry:2025-set2-1C",
+      "title": "Poetry exemplar — Sample 1C, score 1-2-0 (3/6)",
+      "content": "Poetry Analysis scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible interpretation (contrast and symbolism show music has universal meaning). Evidence & Commentary (2): some specific evidence ('the man who plays me has no heart') mixed with broad generalities; commentary is vague and does not relate the evidence to the interpretation, so no line of reasoning. Sophistication (0): not demonstrated."
+    }
+  ]
+}

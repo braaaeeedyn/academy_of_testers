@@ -1,0 +1,52 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Literature",
+      "dimension": "prose-fiction-thesis",
+      "refId": "APLIT:prose-fiction:rowA-thesis",
+      "title": "Prose Fiction Analysis — Row A: Thesis (0–1)",
+      "content": "AP English Literature Prose Fiction Analysis, Row A Thesis (0–1 points). 1 point: responds to the prompt with a thesis that presents a defensible interpretation of the passage. 0 points: no defensible thesis; only restates the prompt; a generalized comment that doesn't respond to the prompt; or describes features of the passage rather than making a claim requiring defense. Earns the point by offering a defensible interpretation of the complex portrayal of the character. The thesis may be multiple sentences in close proximity and appear anywhere."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Literature",
+      "dimension": "prose-fiction-evidence-commentary",
+      "refId": "APLIT:prose-fiction:rowB-evidence-commentary",
+      "title": "Prose Fiction Analysis — Row B: Evidence & Commentary (0–4)",
+      "content": "AP English Literature Prose Fiction Analysis, Row B Evidence AND Commentary (0–4 points). 0: restates thesis, repeats info, or irrelevant. 1: mostly general evidence; commentary only summarizes; mentions techniques with little explanation. 2: some specific relevant evidence; commentary explains how some evidence relates to the argument, but no line of reasoning or it is faulty. 3: specific evidence supporting all claims in a line of reasoning; commentary explains how some evidence supports it AND explains how at least one literary element/technique contributes to the passage's meaning. 4: specific evidence for all claims; commentary consistently explains how evidence supports the reasoning AND explains how MULTIPLE literary elements/techniques contribute to meaning. Grammatical errors that interfere with communication cannot earn the 4th point."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Literature",
+      "dimension": "prose-fiction-sophistication",
+      "refId": "APLIT:prose-fiction:rowC-sophistication",
+      "title": "Prose Fiction Analysis — Row C: Sophistication (0–1)",
+      "content": "AP English Literature Prose Fiction Analysis, Row C Sophistication (0–1 points). 1 point: demonstrates sophistication of thought and/or develops a complex literary argument by any of: identifying and exploring complexities or tensions within the passage; situating the interpretation in a broader context; accounting for alternative interpretations; or employing a consistently vivid and persuasive style. Does NOT earn the point for sweeping generalizations, only hinting at other readings, a single unsustained thematic statement, oversimplifying, or ineffective complex language. Must be part of the argument, not merely a phrase."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Literature",
+      "scoreBand": "6",
+      "refId": "APLIT:prose-fiction:2025-set1-2A",
+      "title": "Prose Fiction exemplar — Sample 2A, score 1-4-1 (6/6)",
+      "content": "Prose Fiction Analysis (Cusk, The Bradshaw Variations) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that contrast, similes, and lack of dialogue develop Thomas as a man struggling to understand his place as he ages. Evidence & Commentary (4): specific evidence for all claims ('it is easy to tell when something is artificial'; 'limitless copies'; 'platform guard'; no dialogue) with commentary consistently explaining how multiple techniques build meaning. Sophistication (1): explores the tension of Thomas's authenticity — his inner life as 'a constant cycle of mundanity' he can't escape."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Literature",
+      "scoreBand": "4",
+      "refId": "APLIT:prose-fiction:2025-set1-2B",
+      "title": "Prose Fiction exemplar — Sample 2B, score 1-3-0 (4/6)",
+      "content": "Prose Fiction Analysis scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation that juxtaposition and imagery portray Thomas as valuing authenticity. Evidence & Commentary (3): specific evidence for all claims (Olga's teeth vs. Thomas 'both there and not there'; 'sealed behind glass') with commentary explaining how it supports the reasoning — but some claims ('isn't great at listening'; 'having difficulty reciprocating') are underdeveloped, so short of 4. Sophistication (0): acknowledges a complexity (music as penance) but does not develop it."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Literature",
+      "scoreBand": "3",
+      "refId": "APLIT:prose-fiction:2025-set1-2C",
+      "title": "Prose Fiction exemplar — Sample 2C, score 1-2-0 (3/6)",
+      "content": "Prose Fiction Analysis scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible interpretation (Thomas as an open free thinker held up on his own concerns). Evidence & Commentary (2): some specific evidence ('hears her tread and doesn't recognize it'; 'limitless copies of this conversation') but commentary is vague, the 'open free thinker' claim is unsupported, and no line of reasoning develops. Sophistication (0): not demonstrated."
+    }
+  ]
+}

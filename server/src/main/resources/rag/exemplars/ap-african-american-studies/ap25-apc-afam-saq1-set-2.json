@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "4",
+      "refId": "AFAM:saq1:2025-set2-1A",
+      "title": "SAQ Q1 exemplar — Set2 Sample A, 4/4",
+      "content": "SAQ Q1 (text-based/short answer) scored 4/4 (A 1, B 1, C 1, D 1). All four parts complete their describe/explain tasks with defensible content."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "3",
+      "refId": "AFAM:saq1:2025-set2-1B",
+      "title": "SAQ Q1 exemplar — Set2 Sample B, 3/4",
+      "content": "SAQ Q1 scored 3/4 (A 1, B 1, C 0, D 1). Parts A, B, and D earn credit; Part C fails (does not complete its task with defensible, responsive content)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "1",
+      "refId": "AFAM:saq1:2025-set2-1C",
+      "title": "SAQ Q1 exemplar — Set2 Sample C, 1/4",
+      "content": "SAQ Q1 scored 1/4 (A 0, B 0, C 0, D 1). Only Part D earns credit; the earlier parts do not complete their tasks. Confirms parts are scored independently, so any single part can be the one earned."
+    }
+  ]
+}

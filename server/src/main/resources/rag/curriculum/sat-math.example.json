@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "curriculum",
+      "subject": "SAT Math",
+      "skillId": "linear-functions",
+      "refId": "curriculum:linear-functions:slope-intercept",
+      "title": "Slope-intercept form",
+      "content": "PLACEHOLDER — replace with your real lesson text. A linear function can be written y = mx + b, where m is the slope (rate of change) and b is the y-intercept (the value of y when x = 0). Slope between two points (x1, y1) and (x2, y2) is m = (y2 - y1) / (x2 - x1). Parallel lines share the same slope; perpendicular lines have slopes that are negative reciprocals."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "SAT Math",
+      "skillId": "linear-functions",
+      "refId": "curriculum:linear-functions:worked-example-1",
+      "title": "Worked example — finding a line from two points",
+      "content": "PLACEHOLDER — replace with your real worked solution. Given points (2, 3) and (6, 11): slope m = (11 - 3) / (6 - 2) = 8 / 4 = 2. Substitute one point into y = 2x + b: 3 = 2(2) + b, so b = -1. The line is y = 2x - 1. Check with the other point: 2(6) - 1 = 11. ✓"
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "SAT Math",
+      "skillId": "systems-of-equations",
+      "refId": "curriculum:systems-of-equations:substitution",
+      "title": "Solving systems by substitution",
+      "content": "PLACEHOLDER — replace with your real lesson text. To solve a system by substitution, isolate one variable in one equation and substitute that expression into the other. Example: y = 2x + 1 and 3x + y = 11. Substitute: 3x + (2x + 1) = 11 → 5x + 1 = 11 → x = 2, then y = 2(2) + 1 = 5. Solution (2, 5). A system can have one solution, none (parallel lines), or infinitely many (same line)."
+    }
+  ]
+}

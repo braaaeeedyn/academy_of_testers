@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Art History",
+      "dimension": "q5-attribution",
+      "refId": "ARTH:q5:attribution",
+      "title": "Q5 — Attribution (5 points)",
+      "content": "AP Art History Q5, Attribution, 5 points (Tasks A–E, 1 point each, independent). A: correctly attribute the shown work to its specific culture/tradition. B: justify the attribution by describing ONE relevant visual similarity to known works of that culture. C: justify with ANOTHER relevant visual similarity. D: explain ONE way the work may have reinforced the values or beliefs of its culture. E: explain ANOTHER such way. The justification tasks require visual similarities to the attributed culture; the value tasks require explained cultural significance."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "5",
+      "refId": "ARTH:q5:2025-5A",
+      "title": "Q5 exemplar — Sample 5A, 5/5",
+      "content": "Q5 Attribution scored 5/5 — correctly attributes the work, justifies with two relevant visual similarities to the culture, and explains two ways the work reinforced the culture's values/beliefs. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "3",
+      "refId": "ARTH:q5:2025-5B",
+      "title": "Q5 exemplar — Sample 5B, 3/5",
+      "content": "Q5 scored 3/5 — earns the attribution and justification points but falls short on explaining the ways the work reinforced cultural values/beliefs. Mid-range: correct attribution and visual justification, weaker cultural-significance explanation."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "1",
+      "refId": "ARTH:q5:2025-5C",
+      "title": "Q5 exemplar — Sample 5C, 1/5",
+      "content": "Q5 scored 1/5 (A 0, B 1, C 0, D 0, E 0). Does not correctly attribute the work, and earns only one point — a single relevant visual similarity (Task B). Shows the attribution point and the value-explanation points are independent of one another; a visual similarity can be credited even when the attribution itself is wrong."
+    }
+  ]
+}

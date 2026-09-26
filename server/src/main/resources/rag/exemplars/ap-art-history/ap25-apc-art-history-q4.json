@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Art History",
+      "dimension": "q4-contextual-analysis",
+      "refId": "ARTH:q4:contextual-analysis",
+      "title": "Q4 — Contextual Analysis (5 points)",
+      "content": "AP Art History Q4, Contextual Analysis, 5 points (Tasks A–E, 1 point each, independent). A: accurately describe ONE visual characteristic of the shown work (this administration: the Forbidden City). B: accurately describe its historical function. C–E: accurately use visual and/or contextual evidence to explain how the work reflects its historical/cultural context, its purpose, and related connections. Describe = characteristics beyond naming; the explain tasks require specific evidence tied to context."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "5",
+      "refId": "ARTH:q4:2025-4A",
+      "title": "Q4 exemplar — Sample 4A, 5/5",
+      "content": "Q4 Contextual Analysis scored 5/5 — describes a visual characteristic and the historical function of the work, then uses specific contextual evidence to explain how it reflects its cultural/historical context. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "3",
+      "refId": "ARTH:q4:2025-4B",
+      "title": "Q4 exemplar — Sample 4B, 3/5",
+      "content": "Q4 scored 3/5 — earns the description/function points and one contextual explanation, but two explanation tasks fall short (context not specific or not clearly tied to the work). Mid-range profile."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "1",
+      "refId": "ARTH:q4:2025-4C",
+      "title": "Q4 exemplar — Sample 4C, 1/5",
+      "content": "Q4 scored 1/5 — earns only a single point (e.g. one accurate description) and does not complete the historical-function or contextual-explanation tasks with accurate, specific evidence."
+    }
+  ]
+}

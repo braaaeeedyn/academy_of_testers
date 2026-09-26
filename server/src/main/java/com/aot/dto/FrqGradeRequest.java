@@ -2,7 +2,6 @@ package com.aot.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import java.util.List;
 
@@ -28,13 +27,29 @@ public class FrqGradeRequest {
   @Size(max = 20000, message = "Source text is too long")
   private String sourceText;
 
-  @NotNull(message = "Rubric is required")
+  /**
+   * Optional stable identifier for the specific prompt being graded (e.g. "aplang-2021-q1"). When
+   * present, RAG retrieval filters rubric/exemplar chunks to this prompt; when absent, retrieval
+   * widens to all chunks for the subject. Never trusted for scoring — only for retrieval filtering.
+   */
+  @Size(max = 120, message = "Prompt id is too long")
+  private String promptId;
+
+  // Required for a normal (RAG) grade and enforced in FrqGradingService; omitted by the eval's
+  // naive baseline arm (bypassGrounding=true), which grades with no rubric, so it is not @NotNull.
   @Size(min = 1, message = "Rubric must have at least one row")
   private List<RubricRow> rubric;
 
   @NotBlank(message = "Your response is required")
   @Size(max = 14000, message = "Response exceeds the character limit")
   private String studentResponse;
+
+  /**
+   * When true, the grader skips RAG retrieval entirely and grades with no rubric/exemplar grounding.
+   * This exists for the offline A/B evaluation harness (baseline arm) — the normal UI never sets it,
+   * so it defaults to false. It only removes grounding; it never changes what is scored.
+   */
+  private boolean bypassGrounding = false;
 
   public String getSubjectName() {
     return subjectName;
@@ -68,6 +83,14 @@ public class FrqGradeRequest {
     this.sourceText = sourceText;
   }
 
+  public String getPromptId() {
+    return promptId;
+  }
+
+  public void setPromptId(String promptId) {
+    this.promptId = promptId;
+  }
+
   public List<RubricRow> getRubric() {
     return rubric;
   }
@@ -82,6 +105,14 @@ public class FrqGradeRequest {
 
   public void setStudentResponse(String studentResponse) {
     this.studentResponse = studentResponse;
+  }
+
+  public boolean isBypassGrounding() {
+    return bypassGrounding;
+  }
+
+  public void setBypassGrounding(boolean bypassGrounding) {
+    this.bypassGrounding = bypassGrounding;
   }
 
   /** One scoring row from the official rubric (e.g. "Thesis", worth 1 point). */

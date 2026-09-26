@@ -1,0 +1,52 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "rhetorical-analysis-thesis",
+      "refId": "APLANG:rhetorical-analysis:rowA-thesis",
+      "title": "Rhetorical Analysis — Row A: Thesis (0–1)",
+      "content": "AP English Language Rhetorical Analysis, Row A Thesis (0–1 points). 1 point: responds to the prompt with a defensible thesis that analyzes the writer's rhetorical choices. 0 points: no defensible thesis; only restates the prompt; summarizes with no coherent claim; or does not respond to the prompt. Does NOT earn the point when it only restates the prompt, fails to address the writer's rhetorical choices, or describes/repeats the passage rather than making a claim requiring defense. A bare claim about the writer's message without addressing rhetorical choices does not earn it; a thesis naming the rhetorical strategies used to develop the argument does. The thesis may be multiple sentences in close proximity and appear anywhere."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "rhetorical-analysis-evidence-commentary",
+      "refId": "APLANG:rhetorical-analysis:rowB-evidence-commentary",
+      "title": "Rhetorical Analysis — Row B: Evidence & Commentary (0–4)",
+      "content": "AP English Language Rhetorical Analysis, Row B Evidence AND Commentary (0–4 points). 0: restates thesis, repeats info, or irrelevant. 1: mostly general evidence; commentary only summarizes. 2: some specific relevant evidence; commentary explains how some evidence relates to the argument, but no line of reasoning or it is faulty. 3: specific evidence supporting all claims in a line of reasoning; commentary explains how some evidence supports it AND explains how at least one rhetorical choice contributes to the writer's argument/purpose/message. 4: specific evidence for all claims; commentary consistently explains how evidence supports the reasoning AND explains how MULTIPLE rhetorical choices contribute. Grammatical errors that interfere with communication cannot earn the 4th point."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "rhetorical-analysis-sophistication",
+      "refId": "APLANG:rhetorical-analysis:rowC-sophistication",
+      "title": "Rhetorical Analysis — Row C: Sophistication (0–1)",
+      "content": "AP English Language Rhetorical Analysis, Row C Sophistication (0–1 points). 1 point: demonstrates sophistication of thought and/or a complex understanding of the rhetorical situation by any of: explaining the significance or relevance of the writer's rhetorical choices given the rhetorical situation; explaining a purpose or function of the passage's complexities or tensions; or employing a consistently vivid and persuasive style. Does NOT earn the point for sweeping generalizations, only hinting at other arguments, examining individual choices without their relationships, oversimplifying, or ineffective complex language. Must be part of the argument, not merely a phrase."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "6",
+      "refId": "APLANG:rhetorical-analysis:2025-set1-2A",
+      "title": "Rhetorical Analysis exemplar — Sample 2A, score 1-4-1 (6/6)",
+      "content": "Rhetorical Analysis (Treuer, Rez Life) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible thesis naming the structure of rhetorical techniques Treuer uses (comparing/contrasting, describing reservations, describing Indians' historical importance). Evidence & Commentary (4): specific evidence for all claims; commentary consistently explains how it supports the reasoning AND explains how multiple rhetorical choices (anaphora on 'soon', historical allusion) contribute to the argument that Americans should pay more attention to Native life. Sophistication (1): explains a purpose/function of the passage's tensions ('Americans do acknowledge Indians but often have a false narrative')."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "4",
+      "refId": "APLANG:rhetorical-analysis:2025-set1-2B",
+      "title": "Rhetorical Analysis exemplar — Sample 2B, score 1-3-0 (4/6)",
+      "content": "Rhetorical Analysis scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible thesis naming direct historical examples, second-person point of view, and simile. Evidence & Commentary (3): specific evidence for all claims (Revolutionary Army allies; 'as American as apple pie'); commentary explains how some evidence supports the reasoning and how at least one rhetorical choice contributes — but some commentary (the second-person paragraph) does not clearly show how the choice advances Treuer's purpose, so short of 4. Sophistication (0): not demonstrated."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "3",
+      "refId": "APLANG:rhetorical-analysis:2025-set1-2C",
+      "title": "Rhetorical Analysis exemplar — Sample 2C, score 1-2-0 (3/6)",
+      "content": "Rhetorical Analysis scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible thesis (describing landscape to open the passage and giving credibility to Indians). Evidence & Commentary (2): relevant evidence, some specific (the 'landscape is unchanged' quote) but many broad generalities; commentary explains how some evidence relates to the argument but does not explain how it supports the claim, so no clear line of reasoning. Sophistication (0): not demonstrated."
+    }
+  ]
+}

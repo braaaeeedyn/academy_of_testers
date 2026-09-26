@@ -1,0 +1,52 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Literature",
+      "dimension": "poetry-thesis",
+      "refId": "APLIT:poetry:rowA-thesis",
+      "title": "Poetry Analysis — Row A: Thesis (0–1)",
+      "content": "AP English Literature Poetry Analysis, Row A Thesis (0–1 points). 1 point: responds to the prompt with a thesis that presents a defensible interpretation of the poem. 0 points: no defensible thesis; only restates the prompt; a generalized comment that doesn't respond to the prompt; or describes features of the poem rather than making a claim requiring defense. Does NOT earn the point for restating the prompt or merely noting a device is 'significant.' Earns it by offering a defensible interpretation of the speaker's/poem's complex experience. The thesis may be multiple sentences in close proximity and appear anywhere."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Literature",
+      "dimension": "poetry-evidence-commentary",
+      "refId": "APLIT:poetry:rowB-evidence-commentary",
+      "title": "Poetry Analysis — Row B: Evidence & Commentary (0–4)",
+      "content": "AP English Literature Poetry Analysis, Row B Evidence AND Commentary (0–4 points). 0: restates thesis, repeats info, or irrelevant. 1: mostly general evidence; commentary only summarizes; mentions techniques with little explanation. 2: some specific relevant evidence; commentary explains how some evidence relates to the argument, but no line of reasoning or it is faulty. 3: specific evidence supporting all claims in a line of reasoning; commentary explains how some evidence supports it AND explains how at least one literary element/technique contributes to the poem's meaning. 4: specific evidence for all claims; commentary consistently explains how evidence supports the reasoning AND explains how MULTIPLE literary elements/techniques contribute to meaning. Grammatical errors that interfere with communication cannot earn the 4th point."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Literature",
+      "dimension": "poetry-sophistication",
+      "refId": "APLIT:poetry:rowC-sophistication",
+      "title": "Poetry Analysis — Row C: Sophistication (0–1)",
+      "content": "AP English Literature Poetry Analysis, Row C Sophistication (0–1 points). 1 point: demonstrates sophistication of thought and/or develops a complex literary argument by any of: identifying and exploring complexities or tensions within the poem; situating the interpretation in a broader context; accounting for alternative interpretations; or employing a consistently vivid and persuasive style. Does NOT earn the point for sweeping generalizations, only hinting at other readings, a single unsustained thematic statement, oversimplifying, or ineffective complex language. Must be part of the argument, not merely a phrase."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Literature",
+      "scoreBand": "6",
+      "refId": "APLIT:poetry:2025-set1-1A",
+      "title": "Poetry exemplar — Sample 1A, score 1-4-1 (6/6)",
+      "content": "Poetry Analysis (McElroy, 'Monologue for Saint Louis') scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that grape/grapevine symbols juxtapose the warmth of childhood with the sterility of adulthood. Evidence & Commentary (4): specific evidence for all claims ('succulent pockets of flesh'; 'rotting black sticks'; 'vacant/flat/infect'); commentary consistently explains how imagery, juxtaposition, and metaphor build the interpretation. Sophistication (1): identifies and explores complexities (blue-black grapes vs. green staining as archetypal life/nourishment). A misused term ('anachronism') did not detract."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Literature",
+      "scoreBand": "4",
+      "refId": "APLIT:poetry:2025-set1-1B",
+      "title": "Poetry exemplar — Sample 1B, score 1-3-0 (4/6)",
+      "content": "Poetry Analysis scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation of bittersweet emotions about the hometown. Evidence & Commentary (3): specific evidence for all claims (no uppercase except 'I'; no punctuation; 'latticed'/'interlocking'/'twisted vines of genetic maps') with commentary explaining how it supports the reasoning — but only some evidence supports the line of reasoning, so short of 4. Sophistication (0): the 'map to navigate memories' idea appears only at the end and is not sustained."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Literature",
+      "scoreBand": "2",
+      "refId": "APLIT:poetry:2025-set1-1C",
+      "title": "Poetry exemplar — Sample 1C, score 1-1-0 (2/6)",
+      "content": "Poetry Analysis scored 2/6 (Thesis 1, Evidence & Commentary 1, Sophistication 0). Thesis (1): defensible interpretation (incorrect syntax and imagery show estrangement despite being home). Evidence & Commentary (1): mostly general evidence focused on summary ('the poem lacks periods'); notes techniques without explaining how they create the effect, and summarizes rather than analyzing. Sophistication (0): not demonstrated. Shows the gap between a defensible thesis and the specific, explained support needed to rise above 1 point in Row B."
+    }
+  ]
+}

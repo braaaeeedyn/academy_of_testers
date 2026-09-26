@@ -1,0 +1,52 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "synthesis-thesis",
+      "refId": "APLANG:synthesis:rowA-thesis",
+      "title": "Synthesis — Row A: Thesis (0–1)",
+      "content": "AP English Language Synthesis Essay, Row A Thesis (0–1 points). 1 point: responds to the prompt with a thesis that presents a defensible position. 0 points: no defensible thesis; only restates the prompt; summarizes the issue with no coherent claim; or does not respond to the prompt. Does NOT earn the point when the response only restates the prompt, does not take a position (or it must be inferred), equivocates/summarizes others' arguments but not the student's, or states an obvious fact rather than a claim requiring defense. Notes: the thesis may be more than one sentence in close proximity, may appear anywhere in the response, and can be awarded whether or not the rest of the essay supports it."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "synthesis-evidence-commentary",
+      "refId": "APLANG:synthesis:rowB-evidence-commentary",
+      "title": "Synthesis — Row B: Evidence & Commentary (0–4)",
+      "content": "AP English Language Synthesis Essay, Row B Evidence AND Commentary (0–4 points). 0: restates thesis, repeats info, or references fewer than two sources. 1: evidence from/references at least two sources, but commentary only summarizes evidence. 2: evidence from at least three sources; commentary explains how some evidence relates to the argument, but no line of reasoning is established or it is faulty. 3: specific evidence from at least three sources supporting all claims in a line of reasoning; commentary explains how some evidence supports the line of reasoning. 4: specific evidence from at least three sources supporting all claims; commentary consistently explains how the evidence supports a line of reasoning. Grammar/mechanical errors that interfere with communication cannot earn the 4th point."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP English Language",
+      "dimension": "synthesis-sophistication",
+      "refId": "APLANG:synthesis:rowC-sophistication",
+      "title": "Synthesis — Row C: Sophistication (0–1)",
+      "content": "AP English Language Synthesis Essay, Row C Sophistication (0–1 points). 1 point: demonstrates sophistication of thought and/or a complex understanding of the rhetorical situation by any of: crafting a nuanced argument that consistently identifies and explores complexities or tensions across sources; articulating implications or limitations of an argument by situating it in a broader context; making effective rhetorical choices that consistently strengthen the argument; or employing a consistently vivid and persuasive style. Does NOT earn the point for sweeping generalizations ('In a world where…'), merely hinting at other arguments, or ineffective complex language. Award only if the sophistication is part of the student's argument, not merely a phrase."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "6",
+      "refId": "APLANG:synthesis:2025-set1-1A",
+      "title": "Synthesis exemplar — Sample 1A, score 1-4-1 (6/6)",
+      "content": "Synthesis essay scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible position at end of paragraph 1 — that agencies/nations should solve space junk by regulating the private space corporations most responsible for it. Evidence & Commentary (4): specific evidence supports all claims in a line of reasoning that prevention is achievable, e.g. Source E (Suomi NPP satellite nearly hit at 17,000 mph) and Source C (1977 Soviet satellite radioactive fallout over Canada); commentary consistently explains how evidence supports the reasoning. Sophistication (1): consistently identifies tensions across sources (conceding NOAA's 'rarely a concern' point while arguing even one incident is too much) and articulates limitations/implications (private companies may be more approachable than governments for junk removal)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "5",
+      "refId": "APLANG:synthesis:2025-set1-1B",
+      "title": "Synthesis exemplar — Sample 1B, score 1-4-0 (5/6)",
+      "content": "Synthesis essay scored 5/6 (Thesis 1, Evidence & Commentary 4, Sophistication 0). Thesis (1): defensible position in paragraph 1 naming three factors — reducing satellites launched, mitigation via new science, and inter-nation communication. Evidence & Commentary (4): specific evidence supports all claims (ESA graph on 2020 satellite counts; Mosher & Kiersz graph, 16,000+ items from US/Russia/China); commentary consistently explains how the evidence supports the line of reasoning. Sophistication (0): not demonstrated — paragraph 2 has some complexity, but later paragraphs rely on more simplistic statements."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP English Language",
+      "scoreBand": "3",
+      "refId": "APLANG:synthesis:2025-set1-1C",
+      "title": "Synthesis exemplar — Sample 1C, score 1-2-0 (3/6)",
+      "content": "Synthesis essay scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible position in paragraph 1 (factors to consider are how to remove debris safely and the sheer amount up there). Evidence & Commentary (2): relevant evidence from three sources (F, E, C); some specific (17,000 mph toward Suomi NPP) but mixed with broad generalities; commentary explains how some evidence relates to the argument but does not connect it to the claims, so no clear line of reasoning; includes simplistic explanations that don't strengthen the argument. Sophistication (0): not demonstrated."
+    }
+  ]
+}

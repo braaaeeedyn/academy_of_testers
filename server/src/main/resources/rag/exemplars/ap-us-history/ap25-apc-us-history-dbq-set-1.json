@@ -1,0 +1,76 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "dbq-thesis",
+      "refId": "APUSH:dbq:thesis",
+      "title": "DBQ — Thesis/Claim (0–1)",
+      "content": "AP US History Document-Based Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if it is not historically defensible, only restates/rephrases the prompt, does not respond to the prompt, is overgeneralized, or does not establish a line of reasoning. The thesis must either give some reason for the claim OR establish categories of the argument, and must be one or more sentences in one place (intro or conclusion)."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "dbq-contextualization",
+      "refId": "APUSH:dbq:contextualization",
+      "title": "DBQ — Contextualization (0–1)",
+      "content": "AP US History DBQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. The context must be more than a phrase — it requires elaboration connecting it to the prompt's topic."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "dbq-evidence-documents",
+      "refId": "APUSH:dbq:evidence-documents",
+      "title": "DBQ — Evidence from the Documents (0–2)",
+      "content": "AP US History DBQ, Evidence from the Documents (0–2 points). 1 point: accurately describes (not merely quotes) the content of at least THREE documents to address the topic of the prompt. 2 points: uses at least FOUR documents to support an argument in response to the prompt. Does NOT earn points for using fewer than three documents, misinterpreting content, quoting without description, or addressing documents collectively rather than each separately. The four documents need not support a single argument — they may span sub-arguments or counterarguments."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "dbq-evidence-beyond",
+      "refId": "APUSH:dbq:evidence-beyond",
+      "title": "DBQ — Evidence Beyond the Documents (0–1)",
+      "content": "AP US History DBQ, Evidence Beyond the Documents (0–1 points). 1 point: uses at least one additional piece of specific historical evidence (beyond the documents) relevant to an argument about the prompt. Does NOT earn it for evidence that is irrelevant, outside the prompt's time period/region, repeats the prompt or a document, or is only a passing phrase. Must be different from the evidence used for contextualization and more than a phrase; may appear anywhere in the response."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "dbq-sourcing",
+      "refId": "APUSH:dbq:sourcing",
+      "title": "DBQ — Analysis & Reasoning: Sourcing (0–1)",
+      "content": "AP US History DBQ, Analysis and Reasoning — Sourcing (0–1 points). 1 point: for at least TWO documents, explains how or why the document's point of view, purpose, historical situation, and/or audience is relevant to an argument. Does NOT earn it for sourcing fewer than two documents, merely identifying POV/purpose/situation/audience without explaining its relevance, or summarizing content without connecting it to sourcing."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "dbq-complexity",
+      "refId": "APUSH:dbq:complexity",
+      "title": "DBQ — Analysis & Reasoning: Complex Understanding (0–1)",
+      "content": "AP US History DBQ, Analysis and Reasoning — Complex Understanding (0–1 points). 1 point: demonstrates a complex understanding of the historical development via sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; explaining multiple causes/effects, similarities/differences, or continuities/changes; explaining both sides of such pairs; making insightful connections across periods/regions; effectively using all seven documents; or explaining the sourcing of at least four documents. Must be part of the argument and more than a phrase or reference."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "7",
+      "refId": "APUSH:dbq:2025-set1-1A",
+      "title": "DBQ exemplar — Sample 1A, score 7/7",
+      "content": "DBQ (extent the federal government's role in the US economy changed 1932–1980) scored 7/7. Thesis (1): defensible claim with a line of reasoning — heavy Keynesian intervention early/mid-period, then a more laissez-faire New Right turn later. Contextualization (1): situates in the late-19th-century laissez-faire era through Progressive/WWI growth. Evidence from Documents (2): uses Docs 3, 4, 5, 7 to support the argument. Evidence Beyond (1): LBJ's Great Society/War on Poverty/Medicare. Sourcing (1): explains audience/situation of Docs 3, 4, 5, 7. Complexity (1): sources four documents effectively AND draws an insightful cross-period comparison to the Federalist vs. Democratic-Republican debate."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "5",
+      "refId": "APUSH:dbq:2025-set1-1B",
+      "title": "DBQ exemplar — Sample 1B, score 5/7",
+      "content": "DBQ scored 5/7 (Thesis 1, Contextualization 1, Evidence from Docs 2, Evidence Beyond 0, Sourcing 1, Complexity 0). Thesis (1): defensible claim about extended federal overreach via trade/travel, equal opportunity, healthcare, and wartime immigration. Contextualization (1): pre-1932 risky banking and consumer culture leading to the Great Depression. Evidence from Docs (2): uses Docs 2, 3, 4, 6 to support arguments (misinterprets Doc 5's Goldwater). Evidence Beyond (0): none. Sourcing (1): explains situation/purpose of Docs 3, 4, 2. Complexity (0): no sophisticated argumentation."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "2",
+      "refId": "APUSH:dbq:2025-set1-1C",
+      "title": "DBQ exemplar — Sample 1C, score 2/7",
+      "content": "DBQ scored 2/7 (Thesis 1, Contextualization 0, Evidence from Docs 1, Evidence Beyond 0, Sourcing 0, Complexity 0). Thesis (1): minimally defensible, generalized line of reasoning (federal government funded projects that benefited everyone). Contextualization (0): no broader context. Evidence from Docs (1): describes Docs 3, 4, 6 to address the topic but does not use documents to support an argument. Evidence Beyond (0), Sourcing (0), Complexity (0): none. Shows how describing documents without argumentation caps Evidence at 1 and forfeits the reasoning points."
+    }
+  ]
+}

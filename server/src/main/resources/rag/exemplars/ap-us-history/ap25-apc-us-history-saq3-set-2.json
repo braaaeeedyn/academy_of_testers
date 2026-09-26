@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "3",
+      "refId": "APUSH:saq:2025-q3-set2-3A",
+      "title": "SAQ exemplar — Q3 (No Stimulus) Sample 3A, 3/3",
+      "content": "SAQ Q3 (no stimulus: political debate in British North America, 1763–1783) scored 3/3 (A 1, B 1, C 1). A describes one political debate in the period; B and C explain further developments as directed. Full credit — each part completes its describe/explain task with accurate, in-period evidence."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "2",
+      "refId": "APUSH:saq:2025-q3-set2-3B",
+      "title": "SAQ exemplar — Q3 Sample 3B, 2/3",
+      "content": "SAQ Q3 scored 2/3 (A 1, B 1, C 0). Parts A and B earn credit; Part C does not (its explanation is not tied to the prompt, is inaccurate, or falls outside 1763–1783)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "1",
+      "refId": "APUSH:saq:2025-q3-set2-3C",
+      "title": "SAQ exemplar — Q3 Sample 3C, 1/3",
+      "content": "SAQ Q3 scored 1/3 (A 1, B 0, C 0). Only the describe part earns credit; both explain parts fail to establish an accurate, in-period how/why link to the prompt."
+    }
+  ]
+}

@@ -16,3 +16,21 @@ Thumbs.db
 
 # Machine-local Docker overrides (see RUNNING.md)
 docker-compose.override.yml
+
+# RAG source material: large binary PDFs and the scratch drop zone. The chunk
+# JSON under server/src/main/resources/rag/exemplars is the committed source of
+# truth (see server/src/main/resources/rag/README.md); the PDFs are not.
+server/src/main/resources/rag/exemplars/**/*.pdf
+server/src/main/resources/rag/rubrics/**/*.pdf
+server/src/main/resources/rag/_pdfs/
+
+# FRQ grader eval set: held-out test PDFs (copyrighted CB material, large) and
+# harness output. The folder structure + README are committed; contents are not.
+# These are deliberately kept OUT of the RAG corpus to avoid grading leakage.
+eval/frq-grader/pdfs/**/*.pdf
+eval/frq-grader/results/*
+!eval/frq-grader/results/.gitkeep
+
+# Python bytecode (eval harness)
+__pycache__/
+*.pyc

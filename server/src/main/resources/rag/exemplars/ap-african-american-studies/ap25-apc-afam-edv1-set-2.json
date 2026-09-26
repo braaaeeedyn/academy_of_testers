@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "2",
+      "refId": "AFAM:edv:2025-set2-1A",
+      "title": "EDV exemplar — Set2 Sample A, score 2/2",
+      "content": "Exam Day Validation scored 2/2. Names both project sources and explains how their perspectives differ on one aspect of the topic, connecting the difference to a fuller understanding of the topic. Full credit — specific sources plus an explanation (not just a description) of the differing perspectives."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "1",
+      "refId": "AFAM:edv:2025-set2-1B",
+      "title": "EDV exemplar — Set2 Sample B, score 1/2",
+      "content": "Exam Day Validation scored 1/2. Describes two sources and their differing perspectives (earning the description point) but does not fully explain how the difference shapes the topic, or does not sufficiently specify both sources. Mid-level response short of the explanation point."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "0",
+      "refId": "AFAM:edv:2025-set2-1C",
+      "title": "EDV exemplar — Set2 Sample C, score 0/2",
+      "content": "Exam Day Validation scored 0/2. Too vague — does not name specific sources, indicate the topic, or describe/explain how the perspectives differ."
+    }
+  ]
+}

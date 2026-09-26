@@ -179,13 +179,23 @@ export async function searchResources(
 }
 
 // AI Chat (authenticated)
+export interface AiChatContext {
+  /** Subject the student is studying, to scope curriculum retrieval. */
+  subject?: string
+  /** Skill focus ids (from the 8-skill model) to filter retrieval to. */
+  skillIds?: string[]
+  /** Mastery label for the focus skill, derived client-side from /mastery weights. */
+  masteryLevel?: string
+}
+
 export async function sendAiMessage(
-  messages: { role: string; content: string }[]
+  messages: { role: string; content: string }[],
+  context?: AiChatContext
 ): Promise<{ content: string; remaining: number }> {
   return fetchAPI('/ai/chat', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ messages }),
+    body: JSON.stringify({ messages, ...context }),
   })
 }
 
@@ -201,6 +211,10 @@ export interface FrqRowScore {
   earned: number
   max: number
   justification: string
+  /** Retrieved rubric clause / exemplar id this row was grounded against (RAG). */
+  citation?: string
+  /** False when grounding was available but this row cited no retrieved clause. */
+  grounded?: boolean
 }
 
 export interface FrqGrade {
@@ -211,6 +225,10 @@ export interface FrqGrade {
   strengths: string[]
   improvements: string[]
   strictnessNote: string
+  /** True when RAG retrieval supplied rubric/exemplar grounding for this grade. */
+  groundingApplied?: boolean
+  /** Present when one or more rows were scored without citing a retrieved clause. */
+  groundingNote?: string
 }
 
 export interface FrqGradeInput {
@@ -218,6 +236,8 @@ export interface FrqGradeInput {
   essayType: string
   promptText: string
   sourceText?: string
+  /** Optional stable prompt id so retrieval can filter to this prompt's rubric/exemplars. */
+  promptId?: string
   rubric: FrqRubricRow[]
   studentResponse: string
 }

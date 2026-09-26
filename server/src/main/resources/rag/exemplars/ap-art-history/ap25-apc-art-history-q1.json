@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Art History",
+      "dimension": "q1-long-essay-comparison",
+      "refId": "ARTH:q1:comparison",
+      "title": "Q1 — Long Essay Comparison (8 points)",
+      "content": "AP Art History Q1, Long Essay Comparison, 8 points, each point earned independently. Task A (1): select and completely identify another work fitting the prompt (≥2 accurate identifiers beyond the given title — artist, date, materials, culture, or style). Task B (2): accurately describe ONE visual characteristic of the given work (Point 2) AND ONE of the selected work (Point 3). Task C (2): use visual evidence from BOTH works to explain ONE difference (Point 4) and ANOTHER difference (Point 5) in how the artists depicted the prompt's subject. Task D (3): articulate a claim about one similarity/difference in WHY the artists depicted it (Point 6), then support it with specific CONTEXTUAL evidence from the given work (Point 7) and from the selected work (Point 8). Describe = characteristics beyond naming; contextual evidence = about the work's culture/purpose/patronage, distinct from visual description."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "8",
+      "refId": "ARTH:q1:2025-1A",
+      "title": "Q1 exemplar — Sample 1A, 8/8",
+      "content": "Q1 Comparison scored 8/8 (all tasks A,B1,B2,C1,C2,D1,D2,D3). Selected Travelers among Mountains and Streams (identified culture 'Chinese' + material 'ink'). Described a visual characteristic of each work; explained two differences (relative size/importance of figures vs. landscape; degree of human impact on the environment); made a claim tied to differing cultural understandings and supported it with contextual evidence from both (European 16th-c. use of nature's resources; Daoist view of humans as a small part of the world). Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "6",
+      "refId": "ARTH:q1:2025-1B",
+      "title": "Q1 exemplar — Sample 1B, 6/8",
+      "content": "Q1 scored 6/8 (A,B1,B2,C1,C2,D1 earned; D2,D3 = 0). Selected The Swing (identified 'France', 'oil paint on canvas'). Described a visual characteristic of each; explained two+ differences (winter activity vs. clandestine play; work vs. leisure/affluence). Made a claim (setting impacts lifestyle) but did NOT support it with specific CONTEXTUAL evidence from either work, forfeiting the two contextual points. Shows the common gap: strong visual analysis but missing the contextual support in Task D."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Art History",
+      "scoreBand": "4",
+      "refId": "ARTH:q1:2025-1C",
+      "title": "Q1 exemplar — Sample 1C, 4/8",
+      "content": "Q1 scored 4/8 (B1,B2,C1,C2 earned; A,D1,D2,D3 = 0). Did not attempt Task A (no identification of a comparison work) or Task D (no claim + contextual evidence). Still earned both description points and both difference-explanation points (mood of loss vs. illicit secrecy; reactions to cold vs. warm weather — a minor inaccuracy did not negate an otherwise accurate explanation). Illustrates that the visual tasks (B, C) are independently earnable even when A and D are skipped."
+    }
+  ]
+}

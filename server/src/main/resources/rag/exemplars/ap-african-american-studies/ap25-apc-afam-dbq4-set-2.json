@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "7",
+      "refId": "AFAM:dbq:2025-set2-4A",
+      "title": "DBQ exemplar — Set2 Sample 4A, score 7/7",
+      "content": "DBQ (how 20th-century migrations shaped Black communities in the US) scored 7/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 1, Source Use 1, Reasoning 1). Full credit across every row: a defensible thesis with a line of reasoning, relevant broader context, three sources used to support the argument, an additional outside piece of evidence, explained sourcing for two sources, and a reasoning process (causation/comparison/change) framing the argument."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "4",
+      "refId": "AFAM:dbq:2025-set2-4B",
+      "title": "DBQ exemplar — Set2 Sample 4B, score 4/7",
+      "content": "DBQ scored 4/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 0, Source Use 0, Reasoning 0). Earns the thesis, context, and both source-evidence points (three sources used to support the argument) but misses Evidence Beyond, Source Use, and Reasoning — a common mid-range profile where the response marshals the sources well but neither sources them (explains POV/purpose/audience) nor frames the argument with a reasoning process."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "1",
+      "refId": "AFAM:dbq:2025-set2-4C",
+      "title": "DBQ exemplar — Set2 Sample 4C, score 1/7",
+      "content": "DBQ scored 1/7 (Thesis 1, all other rows 0). Only a defensible thesis is present; the response lacks relevant context, does not use at least two sources to address the topic, offers no outside evidence, does not source, and frames no reasoning. Illustrates the floor: the thesis point is the most accessible, but every other row requires specific, developed work."
+    }
+  ]
+}

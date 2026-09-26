@@ -33,7 +33,7 @@ public class AiChatController {
     // Check and increment usage (throws RateLimitExceededException if over limit)
     aiUsageService.checkAndIncrement(userId);
 
-    String content = aiChatService.chat(request.getMessages());
+    String content = aiChatService.chat(request, userId);
     Map<String, Object> usageInfo = aiUsageService.getUsageInfo(userId);
 
     return ResponseEntity.ok(Map.of("content", content, "remaining", usageInfo.get("remaining")));

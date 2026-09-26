@@ -1,0 +1,76 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP African American Studies",
+      "dimension": "dbq-thesis",
+      "refId": "AFAM:dbq:thesis",
+      "title": "DBQ (Q4) — Thesis/Claim (0–1)",
+      "content": "AP African American Studies Document-Based Question (Q4, 7 points), Thesis/Claim (0–1). 1 point: responds to the prompt with a defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The claim must give a reason OR establish categories, in one place (intro or conclusion)."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP African American Studies",
+      "dimension": "dbq-context",
+      "refId": "AFAM:dbq:context",
+      "title": "DBQ (Q4) — Context (0–1)",
+      "content": "AP African American Studies DBQ, Context (0–1). 1 point: accurately describes a broader historical context (events/developments/processes/disciplinary connections) relevant to the prompt's topic. Does NOT earn it for an overgeneralized statement, irrelevant/inaccurate context, or a passing phrase. Must be more than a phrase, with elaboration tying it to the topic."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP African American Studies",
+      "dimension": "dbq-evidence-sources",
+      "refId": "AFAM:dbq:evidence-sources",
+      "title": "DBQ (Q4) — Evidence from Sources (0–2)",
+      "content": "AP African American Studies DBQ, Evidence from Sources (0–2). 1 point: accurately describes (not merely quotes) the content of at least TWO sources to address the topic. 2 points: uses at least THREE sources to support an argument in response to the prompt. Does NOT earn points for using fewer than two sources, misinterpreting content, quoting without description, or treating sources collectively rather than each separately."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP African American Studies",
+      "dimension": "dbq-evidence-beyond",
+      "refId": "AFAM:dbq:evidence-beyond",
+      "title": "DBQ (Q4) — Evidence Beyond Sources (0–1)",
+      "content": "AP African American Studies DBQ, Evidence Beyond Sources (0–1). 1 point: uses at least one additional specific piece of evidence (beyond the sources) relevant to an argument about the prompt. Does NOT earn it for irrelevant/off-topic evidence, repeating the prompt or a source, or a passing phrase. Must differ from the contextualization evidence and be more than a phrase; may appear anywhere."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP African American Studies",
+      "dimension": "dbq-source-use",
+      "refId": "AFAM:dbq:source-use",
+      "title": "DBQ (Q4) — Source Use (0–1)",
+      "content": "AP African American Studies DBQ, Source Use (0–1). 1 point: for at least TWO sources, explains how or why the source's point of view, purpose, context, and/or audience is relevant to an argument. Does NOT earn it for sourcing fewer than two, merely identifying POV/purpose/context/audience without explaining relevance, or summarizing content without connecting it to sourcing."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP African American Studies",
+      "dimension": "dbq-reasoning",
+      "refId": "AFAM:dbq:reasoning",
+      "title": "DBQ (Q4) — Reasoning (0–1)",
+      "content": "AP African American Studies DBQ, Reasoning (0–1). 1 point: uses a reasoning process (causation, comparison, continuity/change across time or geography) to set up or structure an argument that addresses the prompt. The reasoning may be uneven or the evidence may lack specificity, but it must frame a prompt-relevant argument rather than merely assert a skill."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "7",
+      "refId": "AFAM:dbq:2025-set1-4A",
+      "title": "DBQ exemplar — Sample 4A, score 7/7",
+      "content": "DBQ (how African American cultural contributions promoted resilience during Jim Crow) scored 7/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 1, Source Use 1, Reasoning 1). Thesis: culture promoted resilience by advocating pride and organizing movements. Context: end of Reconstruction, Compromise of 1877, Plessy v. Ferguson. Evidence-Sources: Sources 1, 4, 5 support the argument. Evidence-Beyond: Marcus Garvey's 'Black is Beautiful.' Source Use: explains purpose of Source 4 and POV of Source 1. Reasoning: causation — shared culture created unity that promoted resilience."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "5",
+      "refId": "AFAM:dbq:2025-set1-4B",
+      "title": "DBQ exemplar — Sample 4B, score 5/7",
+      "content": "DBQ scored 5/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 0, Source Use 0, Reasoning 1). Thesis (minimally acceptable): culture promoted resilience by bringing communities together and providing hope. Context: Civil War, Emancipation Proclamation, Jim Crow laws. Evidence-Sources: Sources 1, 2, 5 address the topic. Evidence-Beyond 0: the Black Arts movement is outside the prompt's period. Source Use 0: does not explain POV/purpose/context/audience. Reasoning 1: causation linking cultural development to resilience."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "2",
+      "refId": "AFAM:dbq:2025-set1-4C",
+      "title": "DBQ exemplar — Sample 4C, score 2/7",
+      "content": "DBQ scored 2/7 (Thesis 1, Context 0, Evidence-Sources 0, Evidence-Beyond 1, Source Use 0, Reasoning 0). Thesis: minimal (culture served as powerful tools via music/church). Context 0: 'the Jim Crow era' reference is too general. Evidence-Sources 0: does not use at least two sources. Evidence-Beyond 1: the Black Church. Source Use / Reasoning 0. Shows a thesis + one outside-evidence point can still score, but neglecting the provided sources forfeits the largest row."
+    }
+  ]
+}

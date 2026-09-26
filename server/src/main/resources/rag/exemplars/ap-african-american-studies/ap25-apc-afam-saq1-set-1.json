@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP African American Studies",
+      "dimension": "saq1-scoring",
+      "refId": "AFAM:saq1:scoring",
+      "title": "SAQ Q1 (Text-Based Source) — Scoring (4 points, parts A–D)",
+      "content": "AP African American Studies Short-Answer Q1 (Text-Based Source), 4 points — parts A, B, C, D each worth 1 point, earned INDEPENDENTLY. Typical tasks: DESCRIBE a claim the author makes; DESCRIBE evidence not in the source that supports a claim; EXPLAIN how/why a development or relationship connects to the source. DESCRIBE = give the relevant characteristics of a topic (more than naming a term); EXPLAIN = give how/why a development occurs or a relationship exists. A part earns its point only when historically/disciplinarily defensible and responsive to the specific sub-prompt; naming a term without describing it, or off-topic/inaccurate content, does not earn the point."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "4",
+      "refId": "AFAM:saq1:2025-set1-1A",
+      "title": "SAQ Q1 exemplar — Sample 1A, 4/4",
+      "content": "SAQ Q1 (text-based source) scored 4/4 (A 1, B 1, C 1, D 1). Every part completes its describe/explain task with defensible, on-source content. Model of full credit on a 4-part text-based SAQ."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "2",
+      "refId": "AFAM:saq1:2025-set1-1B",
+      "title": "SAQ Q1 exemplar — Sample 1B, 2/4",
+      "content": "SAQ Q1 scored 2/4 (A 1, B 0, C 1, D 0). Parts A and C earn credit; B and D fail (evidence/explanation is off-topic, inaccurate, or does not complete the task). Because parts are independent, the earned points can be non-contiguous."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP African American Studies",
+      "scoreBand": "1",
+      "refId": "AFAM:saq1:2025-set1-1C",
+      "title": "SAQ Q1 exemplar — Sample 1C, 1/4",
+      "content": "SAQ Q1 scored 1/4 (A 1, B 0, C 0, D 0). Only Part A (describe a claim) earns credit; the remaining parts do not complete their describe/explain tasks with defensible content."
+    }
+  ]
+}

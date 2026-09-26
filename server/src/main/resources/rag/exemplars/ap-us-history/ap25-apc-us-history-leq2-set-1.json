@@ -1,0 +1,60 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "leq-thesis",
+      "refId": "APUSH:leq:thesis",
+      "title": "LEQ — Thesis/Claim (0–1)",
+      "content": "AP US History Long Essay Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not historically defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The thesis must give some reason for the claim OR establish categories of the argument, and be one or more sentences in one place (intro or conclusion)."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "leq-contextualization",
+      "refId": "APUSH:leq:contextualization",
+      "title": "LEQ — Contextualization (0–1)",
+      "content": "AP US History LEQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. Must be more than a phrase and require elaboration tying it to the prompt's topic."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "leq-evidence",
+      "refId": "APUSH:leq:evidence",
+      "title": "LEQ — Evidence (0–2)",
+      "content": "AP US History LEQ, Evidence (0–2 points). 1 point: provides specific examples of at least TWO pieces of evidence relevant to the topic of the prompt. 2 points: uses at least two pieces of specific and relevant evidence to SUPPORT AN ARGUMENT in response to the prompt. Does NOT earn points for a single piece of evidence, irrelevant evidence, evidence outside the prompt's time period/region, or merely repeating the prompt. Typically evidence is more specific than contextualization."
+    },
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP US History",
+      "dimension": "leq-analysis-reasoning",
+      "refId": "APUSH:leq:analysis-reasoning",
+      "title": "LEQ — Analysis & Reasoning (0–2)",
+      "content": "AP US History LEQ, Analysis and Reasoning (0–2 points). 1 point: uses a historical reasoning process (comparison, causation, or continuity and change) to frame or structure an argument that addresses the prompt (reasoning may be uneven/imbalanced). 2 points: demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; multiple causes/effects, similarities/differences, or continuities/changes; both sides of such a pair; insightful connections across periods/regions; or explaining how at least four pieces of specific evidence support a nuanced argument. Must be part of the argument and more than a phrase."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "6",
+      "refId": "APUSH:leq:2025-leq2-set1-2A",
+      "title": "LEQ exemplar — LEQ2 Sample 2A, score 6/6",
+      "content": "LEQ (how Native American societies adapted to European colonists, 1500–1754) scored 6/6. Thesis (1): defensible claim with categories — forced conversion/abandonment of land, military uprising, and trade/cultural exchange while pushed westward. Contextualization (1): extensive pre-contact Native life and European reasons for expansion. Evidence (2): Spanish caste system, encomienda, Columbian Exchange, smallpox, Metacom's War, William Penn's agreements — used to support the argument (some off-period evidence like Cahokia does not detract). Analysis & Reasoning (2): uses causation to frame Spanish policy effects AND demonstrates complex understanding via multiple regional responses (Spanish, British, French/Dutch)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "4",
+      "refId": "APUSH:leq:2025-leq2-set1-2B",
+      "title": "LEQ exemplar — LEQ2 Sample 2B, score 4/6",
+      "content": "LEQ scored 4/6 (Thesis 1, Contextualization 1, Evidence 1, Analysis & Reasoning 1). Thesis (1): defensible claim (adapted by fighting over territory and assimilating). Contextualization (1): reasons for European exploration/contact. Evidence (1): names Columbian Exchange, King Philip's War, French and Indian War but does not use them to support an argument (and the Cherokee example is outside the period), so caps at 1. Analysis & Reasoning (1): structured by the conflict/assimilation argument, but no complex understanding (claims not backed by accurate evidence)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "2",
+      "refId": "APUSH:leq:2025-leq2-set1-2C",
+      "title": "LEQ exemplar — LEQ2 Sample 2C, score 2/6",
+      "content": "LEQ scored 2/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis & Reasoning 1). Thesis (1): defensible claim (adapted by trading and conquering land westward). Contextualization (0): too vague/overgeneralized. Evidence (0): attempts are inaccurate, off-period, or insufficiently described. Analysis & Reasoning (1): earns the causation point (smallpox causing westward movement; British contact pushing Natives from the coast) but no complex understanding."
+    }
+  ]
+}

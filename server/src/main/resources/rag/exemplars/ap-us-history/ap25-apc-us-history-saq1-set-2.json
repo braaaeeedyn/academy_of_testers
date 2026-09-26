@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "3",
+      "refId": "APUSH:saq:2025-q1-set2-1A",
+      "title": "SAQ exemplar — Q1 (Secondary Source) Sample 1A, 3/3",
+      "content": "SAQ Q1 (secondary source: Pollard vs. Patterson, historical interpretations) scored 3/3 (A 1, B 1, C 1). A describes a major difference between the two historians' interpretations; B explains one in-period event/development supporting the first interpretation; C explains one supporting the second. Full credit: each part completes its task verb (describe / explain) with accurate, in-period evidence."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "2",
+      "refId": "APUSH:saq:2025-q1-set2-1B",
+      "title": "SAQ exemplar — Q1 Sample 1B, 2/3",
+      "content": "SAQ Q1 scored 2/3 (A 1, B 0, C 1). Parts A and C complete their tasks with accurate evidence; Part B does not earn the point (the response fails to explain how its evidence supports the relevant historian's argument). Common pattern: naming an event without explaining the required how/why relationship forfeits an EXPLAIN part."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "1",
+      "refId": "APUSH:saq:2025-q1-set2-1C",
+      "title": "SAQ exemplar — Q1 Sample 1C, 1/3",
+      "content": "SAQ Q1 scored 1/3 (A 1, B 0, C 0). Only Part A (describe the difference) earns credit; both EXPLAIN parts fail — evidence is not tied to the historian's argument, is inaccurate, or falls outside the prompt's timeframe. Shows that the describe part is often the most accessible point while the explain parts require a clear, accurate how/why link."
+    }
+  ]
+}

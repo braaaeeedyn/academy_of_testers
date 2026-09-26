@@ -1,0 +1,28 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "6",
+      "refId": "APUSH:leq:2025-leq4-set1-4A",
+      "title": "LEQ exemplar — LEQ4 Sample 4A, score 6/6",
+      "content": "LEQ (how US foreign policy responded to world changes, 1890–1930) scored 6/6. Thesis (1): foreign policy moved from interventionism to isolationism. Contextualization (1): end of slavery and growth of trade connecting the country to the world. Evidence (2): Spanish-American War, Roosevelt Corollary, Panama Canal, WWI, Treaty of Versailles — used to support the argument. Analysis & Reasoning (2): causation (disillusionment with WWI → isolationism) AND complex understanding via multiple perspectives (both interventionism and isolationism across the period)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "4",
+      "refId": "APUSH:leq:2025-leq4-set1-4B",
+      "title": "LEQ exemplar — LEQ4 Sample 4B, score 4/6",
+      "content": "LEQ scored 4/6 (Thesis 1, Contextualization 1, Evidence 1, Analysis & Reasoning 1). Thesis (1): US responded via imperialism and the Big Stick policy despite isolationist/anti-imperialist arguments. Contextualization (1): earlier isolationism and the Mexican-American War (an overly broad 'no foreign policy' claim doesn't detract). Evidence (1): WWI, League of Nations, Big Stick named but the League-rejection argument is historically inaccurate (anti-imperialists as leaders) and Big Stick misconnected, so caps at 1. Analysis & Reasoning (1): frames the isolationism→world-power change; the inaccuracy doesn't negate the reasoning point, but no complex understanding."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP US History",
+      "scoreBand": "2",
+      "refId": "APUSH:leq:2025-leq4-set1-4C",
+      "title": "LEQ exemplar — LEQ4 Sample 4C, score 2/6",
+      "content": "LEQ scored 2/6 (Thesis 0, Contextualization 1, Evidence 1, Analysis & Reasoning 0). Thesis (0): 'responded by getting involved in WWI' is defensible but establishes no line of reasoning. Contextualization (1): Washington's Farewell Address. Evidence (1): WWI involvement and Treaty of Versailles named but not used to support an argument. Analysis & Reasoning (0): the causal attempt is historically inaccurate ('did not join the League of Nations and instead joined NATO')."
+    }
+  ]
+}
