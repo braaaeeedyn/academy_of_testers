@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP European History",
+      "dimension": "dbq-document-based-question",
+      "refId": "EUROH:dbq:set2-rubric",
+      "title": "DBQ — Document-Based Question (7 points) — Set 2: Causes of the First World War",
+      "content": "AP European History DBQ, 7 points, standardized rubric. A Thesis/Claim [1]: defensible thesis with a line of reasoning. B Contextualization [1]: broader relevant historical context. C Evidence [0–3]: (1) uses content of at least THREE documents; (1) supports an argument using at least FOUR documents; (1) at least one piece of specific evidence BEYOND the documents. D Analysis and Reasoning [0–2]: (1) Sourcing for at least TWO documents (POV/purpose/situation/audience relevance); (1) Complex Understanding (sophisticated argumentation / effective use of evidence). Set 2 prompt: evaluate the causes of the First World War (7 documents). Same scoring model as Set 1. Common failure: three-document ceiling, missing sourcing, and vague outside evidence."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "7",
+      "refId": "EUROH:dbq:set2-2025-1A",
+      "title": "DBQ Set 2 exemplar — Sample 1A, 7/7",
+      "content": "DBQ (Set 2) scored 7/7 (Thesis 1, Context 1, Evidence 3, Analysis 2). Earned a defensible thesis and contextualization, all three evidence points (3-doc content, 4-doc argument, and specific outside evidence), and both analysis points (sourcing at least two documents and demonstrating a complex understanding). Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "5",
+      "refId": "EUROH:dbq:set2-2025-1B",
+      "title": "DBQ Set 2 exemplar — Sample 1B, 5/7",
+      "content": "DBQ (Set 2) scored 5/7 — earned Thesis, Contextualization, both document-evidence points and evidence beyond (Evidence 3), plus one Analysis point (typically sourcing OR complexity), losing the other Analysis point. Illustrates a strong response that falls one short of full analysis credit — the single most common way DBQs land at 5."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "3",
+      "refId": "EUROH:dbq:set2-2025-1C",
+      "title": "DBQ Set 2 exemplar — Sample 1C, 3/7",
+      "content": "DBQ (Set 2) scored 3/7 — earned Thesis and Contextualization plus one Evidence point (typically the 3-document content point), losing the 4-document argument point, evidence beyond, and both Analysis points. Illustrates a mid-low response that frames an argument and cites some documents but lacks broad document use, outside evidence, sourcing, and complexity."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Research",
+      "dimension": "academic-paper-holistic",
+      "refId": "RESEARCH:academic-paper:rubric",
+      "title": "AP Research Academic Paper — Holistic Rubric (1–5)",
+      "content": "The AP Research Academic Paper is scored HOLISTICALLY on a single 1–5 scale (not a traditional FRQ with rows), by best fit across the whole paper. Performance levels: Score 1 — Report on Existing Knowledge: an overly broad topic; the paper reports information without a method or new understanding. Score 2 — Report on Existing Knowledge with Simplistic Use of a Research Method: a topic with narrowing scope not carried through; a method is named but used simplistically; still largely a report. Score 3 — Ineffectual Argument for a New Understanding: a focused inquiry and method, but the argument for a new understanding is unclear, unsupported, or aligned to only a narrow slice of the evidence. Score 4 — Well-Supported, Articulate Argument Conveying a New Understanding: a focused inquiry, appropriate method, and a well-supported, clearly conveyed new understanding, though conclusions may be narrow or the limitations under-examined. Score 5 — Rich Analysis of a New Understanding Addressing a Gap in the Research Base: a focused inquiry that addresses a gap; a well-aligned method; rich analysis; and a compelling, well-supported new understanding with attention to implications and limitations. Grading a submitted paper means matching it to the single best-fit level; the paper should be pasted and scored against these descriptors (the frontend AP Research prompt is intended to be 'paste your paper, grade on the rubric')."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Research",
+      "scoreBand": "5",
+      "refId": "RESEARCH:2025-sample-a",
+      "title": "Academic Paper exemplar — Sample A, 5/5",
+      "content": "Sample A scored 5/5 (Rich Analysis of a New Understanding Addressing a Gap in the Research Base). The introduction establishes the real-world significance of the study and situates it in the research base; the method is well aligned to the inquiry; and the analysis supports a compelling new understanding. It stays at 5 rather than dropping to 4 because the conclusions engage the broader significance and limitations rather than being confined to a narrow slice of the data. Full-credit model paper."
+    }
+  ]
+}

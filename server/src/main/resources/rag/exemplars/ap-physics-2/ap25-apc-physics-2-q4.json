@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics 2",
+      "dimension": "q4-qualitative-quantitative-translation",
+      "refId": "PHYS2:q4:rubric",
+      "title": "Q4 Qualitative Quantitative Translation (QQT) — 8 points",
+      "content": "AP Physics 2 FRQ 4 is Qualitative Quantitative Translation (QQT), 8 points, scored by lettered sub-points. The QQT task requires connecting qualitative reasoning with quantitative analysis around a claim. Q4 topic: waves (e.g., wave behavior, interference, or optics). Points reward: a correct claim/prediction, qualitative reasoning citing the relevant wave principle, a consistent quantitative expression/derivation, and agreement between the qualitative and quantitative arguments. Common failure: a claim without a supporting principle; quantitative work inconsistent with the qualitative reasoning; misapplying the wave relationship."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 2",
+      "scoreBand": "7",
+      "refId": "PHYS2:q4:2025-4A",
+      "title": "Q4 exemplar — Sample 4A, 7/8",
+      "content": "Q4 (QQT) scored 7/8 — a correct claim, sound qualitative wave reasoning, and a mostly consistent quantitative argument, losing one sub-point on a minor inconsistency or incomplete step. Illustrates a near-complete qualitative–quantitative link."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 2",
+      "scoreBand": "6",
+      "refId": "PHYS2:q4:2025-4B",
+      "title": "Q4 exemplar — Sample 4B, 6/8",
+      "content": "Q4 (QQT) scored 6/8 — earned the claim and qualitative reasoning plus most of the quantitative argument, losing a couple of sub-points where the quantitative support was incomplete. Illustrates a solid response short of full consistency."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 2",
+      "scoreBand": "2",
+      "refId": "PHYS2:q4:2025-4C",
+      "title": "Q4 exemplar — Sample 4C, 2/8",
+      "content": "Q4 (QQT) scored 2/8 — earned only a couple of sub-points (e.g., a claim or one reasoning step), losing the principle-based reasoning and the quantitative support. Illustrates a response that cannot connect qualitative and quantitative wave reasoning."
+    }
+  ]
+}

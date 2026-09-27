@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP World History",
+      "dimension": "leq-long-essay-question",
+      "refId": "WORLDH:leq3:set2-rubric",
+      "title": "LEQ — Long Essay Question (6 points) — Q3 Set 2: Enlightenment and Reform Movements",
+      "content": "AP World History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (causation/CCOT) (1), complex understanding (1). Q3 Set 2 prompt: the Enlightenment and reform movements. Common failure: reasoning process present without complexity; evidence not tied to the argument."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "6",
+      "refId": "WORLDH:leq3:set2-2025-3A",
+      "title": "LEQ Q3 Set 2 exemplar — Sample 3A, 6/6",
+      "content": "Q3 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "4",
+      "refId": "WORLDH:leq3:set2-2025-3B",
+      "title": "LEQ Q3 Set 2 exemplar — Sample 3B, 4/6",
+      "content": "Q3 (Set 2) scored 4/6 (Thesis 1, Context 1, Evidence 2, Analysis 0). Earned the thesis, contextualization, and both Evidence points but lost BOTH Analysis points (no reasoning process framing and no complexity). Illustrates a well-built essay that never earns the analysis row."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "2",
+      "refId": "WORLDH:leq3:set2-2025-3C",
+      "title": "LEQ Q3 Set 2 exemplar — Sample 3C, 2/6",
+      "content": "Q3 (Set 2) scored 2/6 (Thesis 1, Context 0, Evidence 1, Analysis 0). Earned the thesis and one Evidence point. Lost contextualization, the second Evidence point, and both Analysis points. Illustrates a low essay with a claim and a little evidence."
+    }
+  ]
+}

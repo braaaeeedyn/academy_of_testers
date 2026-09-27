@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Macroeconomics",
+      "dimension": "q1-long-frq",
+      "refId": "MACRO:q1-set1:rubric",
+      "title": "Q1 Long FRQ (10 points) — Set 1: Phillips curve, AD, foreign exchange & balance of payments",
+      "content": "AP Macroeconomics FRQ 1 (Long), 10 points, one point per element (Points 1–10) mixing correctly labeled graphs with state/explain answers. Set 1 (Vortania): Pt1 draw a correctly labeled short-run Phillips curve (SRPC); Pt2 include a correctly labeled LRPC with point P at the SRPC/LRPC intersection; Pt3 state real output increases and explain new residential construction raises investment spending → aggregate demand; Pt4 show point S on the SRPC to the left of P; Pt5 draw a correctly labeled foreign-exchange market for the crown; Pt6 show a leftward shift in the supply of crowns → appreciation; Pt7 state Vortania's net exports decrease; Pt8 state the capital and financial account moves to surplus and explain CA moved to deficit and CA+CFA=0; Pt9 state employment decreases; Pt10 state the central bank would sell crowns and explain the increased supply causes depreciation. Common failure: unlabeled or mislabeled axes/curves; giving a 'state' answer without the required 'explain'; wrong direction of curve shifts."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "10",
+      "refId": "MACRO:q1-set1:2025-1A",
+      "title": "Q1 Set 1 exemplar — Sample 1A, 10/10",
+      "content": "Q1 (Set 1) scored 10/10 — correctly labeled SRPC/LRPC with point P and point S, the foreign-exchange graph with a leftward supply shift and appreciation, and all state/explain answers (real output, net exports, CFA surplus with CA+CFA=0, employment, and central-bank crown sale causing depreciation). Full-credit model for the macro long FRQ."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "5",
+      "refId": "MACRO:q1-set1:2025-1B",
+      "title": "Q1 Set 1 exemplar — Sample 1B, 5/5",
+      "content": "Q1 (Set 1) scored 5/10 — earned roughly the graph-labeling and simpler state points but lost the explain-dependent points (e.g., the AD/investment linkage, the CA+CFA=0 balance-of-payments explanation, and the central-bank depreciation mechanism). Illustrates the common macro pattern: graph and 'state' points earned, 'state AND explain' points missed."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "1",
+      "refId": "MACRO:q1-set1:2025-1C",
+      "title": "Q1 Set 1 exemplar — Sample 1C, 1/10",
+      "content": "Q1 (Set 1) scored 1/10 — earned only a single element (typically one correctly labeled graph point), losing the shift/appreciation, all state/explain answers, and the balance-of-payments reasoning. Illustrates a response that cannot execute the labeled graphs or the multi-step macro reasoning."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Statistics",
+      "dimension": "q2-sampling-and-experimental-design",
+      "refId": "STATS:q2:rubric",
+      "title": "Q2 — Sampling and Experimental Design (4 points)",
+      "content": "AP Statistics FRQ 2 focuses on Sampling and Experimental Design, 4 points. Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks: identify a sampling method or bias, describe how to implement random assignment/selection, explain the purpose of a control or of random assignment (to allow cause-and-effect / reduce confounding), and identify the scope of inference. Common failure: describing randomization vaguely (not replicable); confusing random sampling (generalizability) with random assignment (causation); stating the purpose of a design feature without the statistical reason."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "4",
+      "refId": "STATS:q2:2025-2A",
+      "title": "Q2 exemplar — Sample 2A, 4/4",
+      "content": "Q2 scored 4/4 — all parts essentially correct: a replicable randomization description, the correct statistical purpose of the design feature, and the correct scope of inference. Full-credit model for the design question."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "3",
+      "refId": "STATS:q2:2025-2B",
+      "title": "Q2 exemplar — Sample 2B, 3/4",
+      "content": "Q2 scored 3/4 — most parts correct with one partial, commonly a randomization description missing a replicable detail or a purpose stated without the full statistical reasoning. Illustrates a strong response one part short."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "1",
+      "refId": "STATS:q2:2025-2C",
+      "title": "Q2 exemplar — Sample 2C, 1/4",
+      "content": "Q2 scored 1/4 — mostly incorrect/partial: vague randomization, or confusing random sampling with random assignment, and missing the design feature's purpose. Illustrates weak command of sampling/experimental-design principles."
+    }
+  ]
+}

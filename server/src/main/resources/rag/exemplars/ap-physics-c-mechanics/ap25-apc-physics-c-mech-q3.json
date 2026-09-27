@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics C: Mechanics",
+      "dimension": "q3-experimental-design-and-analysis",
+      "refId": "PHYSCMECH:q3:rubric",
+      "title": "Q3 Experimental Design and Analysis (LAB) — 10 points",
+      "content": "AP Physics C: Mechanics FRQ 3 is Experimental Design and Analysis (LAB), 10 points, scored by lettered sub-points. The LAB task requires designing a procedure, planning a linearizing analysis, and reasoning from data/graphs. Q3 topic: a block-with-friction experiment (measuring friction coefficient, force, or acceleration). Points reward: a valid, replicable procedure with correct measurements and controls; a correct graphing/linearization plan; correct slope/intercept interpretation (tying it to friction/force); and data-supported conclusions. Common failure: a procedure missing a measurement/control; plotting quantities that do not linearize the relationship; not connecting slope/intercept to the physical quantity."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: Mechanics",
+      "scoreBand": "10",
+      "refId": "PHYSCMECH:q3:2025-3A",
+      "title": "Q3 exemplar — Sample 3A, 10/10",
+      "content": "Q3 (LAB) scored 10/10 — complete procedure, correct linearizing plan, correct slope/intercept interpretation (e.g., slope → coefficient of friction), and data-supported conclusions. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: Mechanics",
+      "scoreBand": "7",
+      "refId": "PHYSCMECH:q3:2025-3B",
+      "title": "Q3 exemplar — Sample 3B, 7/10",
+      "content": "Q3 (LAB) scored 7/10 — earned most sub-points, losing a few on the linearization or the slope-to-quantity connection. Illustrates a strong lab design with a minor analysis gap."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: Mechanics",
+      "scoreBand": "4",
+      "refId": "PHYSCMECH:q3:2025-3C",
+      "title": "Q3 exemplar — Sample 3C, 4/10",
+      "content": "Q3 (LAB) scored 4/10 — earned a few sub-points (part of the procedure and one analysis element), losing the linearization plan and most data-based reasoning. Illustrates a rough experiment without rigorous analysis."
+    }
+  ]
+}

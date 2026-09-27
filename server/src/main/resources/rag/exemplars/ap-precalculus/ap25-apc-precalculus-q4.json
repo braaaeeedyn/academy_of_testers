@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Precalculus",
+      "dimension": "q4-functions-no-calculator",
+      "refId": "PRECALC:q4:rubric",
+      "title": "Q4 — Logarithmic / Trigonometric / Rational Functions (6 points, no calculator)",
+      "content": "AP Precalculus FRQ 4 (Part B, graphing calculator not allowed), 6 points, scored by lettered subparts. Q4 topic: analyzing logarithmic, trigonometric, and/or rational functions (domain/asymptotes, exact solutions of equations, transformations, and interpretation). Points reward: correct exact algebraic manipulation and solutions with work, correct identification of features (asymptotes, domain, zeros), and correct interpretation. Common failure: log/exponent rule errors; missing restrictions/asymptotes for rational functions; approximations where exact values are required; incomplete work."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Precalculus",
+      "scoreBand": "6",
+      "refId": "PRECALC:q4:2025-4A",
+      "title": "Q4 exemplar — Sample 4A, 6/6",
+      "content": "Q4 scored 6/6 — correct exact manipulations and solutions with work, correct feature identification, and correct interpretation across the log/trig/rational subparts. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Precalculus",
+      "scoreBand": "5",
+      "refId": "PRECALC:q4:2025-4B",
+      "title": "Q4 exemplar — Sample 4B, 5/6",
+      "content": "Q4 scored 5/6 — earned nearly all subparts, losing one on a log/exponent rule slip or a missing restriction/asymptote. Illustrates a strong response one point short."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Precalculus",
+      "scoreBand": "3",
+      "refId": "PRECALC:q4:2025-4C",
+      "title": "Q4 exemplar — Sample 4C, 3/6",
+      "content": "Q4 scored 3/6 — earned about half the subparts, losing exact-solution work and/or feature identification (asymptotes/domain). Illustrates a response that handles part of the algebra but not the full analysis."
+    }
+  ]
+}

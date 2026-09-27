@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP World History",
+      "dimension": "leq-long-essay-question",
+      "refId": "WORLDH:leq3:set1-rubric",
+      "title": "LEQ — Long Essay Question (6 points) — Q3 Set 1: Economic Rivalries and Imperialism",
+      "content": "AP World History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (causation) (1), complex understanding (1). Q3 Set 1 prompt: economic rivalries and imperialism. Common failure: brief context; evidence not tied to the argument; reasoning without complexity."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "6",
+      "refId": "WORLDH:leq3:set1-2025-3A",
+      "title": "LEQ Q3 Set 1 exemplar — Sample 3A, 6/6",
+      "content": "Q3 (Set 1) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "3",
+      "refId": "WORLDH:leq3:set1-2025-3B",
+      "title": "LEQ Q3 Set 1 exemplar — Sample 3B, 3/6",
+      "content": "Q3 (Set 1) scored 3/6 (Thesis 1, Context 0, Evidence 1, Analysis 1). Earned the thesis, one Evidence point (specific evidence not fully used to support the argument), and one Analysis point (reasoning process). Lost contextualization, the second Evidence point, and the Complexity point. Illustrates a mid-low essay with a thesis and partial evidence/reasoning."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "1",
+      "refId": "WORLDH:leq3:set1-2025-3C",
+      "title": "LEQ Q3 Set 1 exemplar — Sample 3C, 1/6",
+      "content": "Q3 (Set 1) scored 1/6 (Thesis 1, Context 0, Evidence 0, Analysis 0). Earned only the thesis. Lost contextualization, both Evidence points, and both Analysis points. Illustrates a claim with no substantiation."
+    }
+  ]
+}

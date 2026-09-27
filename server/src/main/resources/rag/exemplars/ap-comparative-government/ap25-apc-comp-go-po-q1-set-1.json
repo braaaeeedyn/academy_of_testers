@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Comparative Government",
+      "dimension": "q1-conceptual-analysis",
+      "refId": "COMPGOV:q1-set1:rubric",
+      "title": "Q1 Conceptual Analysis (4 points) — Set 1: sovereignty & economic liberalization",
+      "content": "AP Comparative Government FRQ 1 is Conceptual Analysis, 4 points, one per part (A–D), no stimulus. The task pattern: A describe a concept, B describe a way/example, C explain a relationship or challenge, D explain a why/motivation. Set 1 answer key: A [1] describe sovereignty (independent legal authority over a population/territory without outside interference). B [1] a way governments promote economic liberalization (privatize resources/state enterprises, reduce tariffs, join a free-trade agreement/IMF/WTO, create special economic zones, cut regulations). C [1] explain how economic liberalization can challenge sovereignty (foreign govts/MNCs exert pressure; complying with supranational trade rules; FDI cultural influence; environmental/inequality backlash). D [1] explain why a government adopts it despite the challenge (improves the economy → legitimacy; popular support; prestige/power; reduces poverty). Common failure: describing the opposite concept (e.g., nationalizing for economic liberalization), or a D-answer that states a benefit without linking it to why it is worth the sovereignty tradeoff."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "4",
+      "refId": "COMPGOV:q1-set1:2025-1A",
+      "title": "Q1 Set 1 exemplar — Sample 1A, 4/4",
+      "content": "Q1 (Set 1) scored 4/4. A: sovereignty as the state's capability to create/enforce/regulate without outside interference. B: privatization of resources. C: economic liberalization gives outside forces (MNCs) control, reducing the state's influence over its economy. D: a government adopts it to join supranational organizations (World Bank/IMF) that provide aid and drive economic growth. Full-credit model across all four parts."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "3",
+      "refId": "COMPGOV:q1-set1:2025-1B",
+      "title": "Q1 Set 1 exemplar — Sample 1B, 3/4",
+      "content": "Q1 (Set 1) scored 3/4. Earned A (independence without outside interference), B (reduce tariffs), and C (accepting a larger state's help creates dependence/indebtedness). Lost D: said liberalization lets the government participate in free-market trade but never explained the benefit of that participation or why it is worth sacrificing sovereignty. Illustrates the common D-part gap — naming an action without its payoff/motivation."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "1",
+      "refId": "COMPGOV:q1-set1:2025-1C",
+      "title": "Q1 Set 1 exemplar — Sample 1C, 1/4",
+      "content": "Q1 (Set 1) scored 1/4. Earned only A (full power over the state with no external control). Lost B (described nationalizing industries, the opposite of economic liberalization), C (described allies sharing resources, not a challenge to sovereignty), and D (discussed industry revenue, not relevant to sovereignty). Illustrates that misdefining the core concept (liberalization vs. nationalization) cascades through the later parts."
+    }
+  ]
+}

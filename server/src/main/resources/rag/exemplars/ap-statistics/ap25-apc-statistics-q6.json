@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Statistics",
+      "dimension": "q6-investigative-task",
+      "refId": "STATS:q6:rubric",
+      "title": "Q6 — Investigative Task (4 points)",
+      "content": "AP Statistics FRQ 6 is the Investigative Task, 4 points, extending familiar statistics into a novel situation that requires reasoning beyond the standard procedures. Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks: analyze given data with standard tools, then apply or derive a new method/quantity the course did not directly teach, and justify the reasoning. Common failure: stopping at the routine parts and not attempting the novel extension; a new-method attempt without justification; interpretations without context. This question is the most discriminating and often the lowest-scoring."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "4",
+      "refId": "STATS:q6:2025-6A",
+      "title": "Q6 exemplar — Sample 6A, 4/4",
+      "content": "Q6 scored 4/4 — all parts essentially correct, including the novel extension with sound justification and contextual interpretation. Full-credit model for the Investigative Task."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "2",
+      "refId": "STATS:q6:2025-6B",
+      "title": "Q6 exemplar — Sample 6B, 2/4",
+      "content": "Q6 scored 2/4 — earned the routine analysis parts but only partially handled the novel extension (attempted without full justification, or with a reasoning gap). Illustrates the common Investigative-Task ceiling — solid on the familiar, incomplete on the new method."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "1",
+      "refId": "STATS:q6:2025-6C",
+      "title": "Q6 exemplar — Sample 6C, 1/4",
+      "content": "Q6 scored 1/4 — completed only part of the routine analysis and did not attempt (or badly mishandled) the novel extension. Illustrates a response that cannot reason beyond standard procedures."
+    }
+  ]
+}

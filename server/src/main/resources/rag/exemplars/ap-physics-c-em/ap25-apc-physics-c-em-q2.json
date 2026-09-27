@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics C: E&M",
+      "dimension": "q2-translation-between-representations",
+      "refId": "PHYSCEM:q2:rubric",
+      "title": "Q2 Translation Between Representations (TBR) — 12 points",
+      "content": "AP Physics C: E&M FRQ 2 is Translation Between Representations (TBR), 12 points, scored by lettered sub-points. The TBR task requires moving among words, equations, graphs, diagrams, and data consistently. Q2 topic: current (circuit behavior, current vs. time, or field/potential representations). Points reward: correct diagrams, correct (often calculus-based) equations, correctly labeled graphs (shape/features), and quantitative results consistent across representations. Common failure: graph with wrong shape (e.g., exponential vs. linear) or unlabeled axes; equation inconsistent with the diagram; inconsistent quantitative results."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: E&M",
+      "scoreBand": "11",
+      "refId": "PHYSCEM:q2:2025-2A",
+      "title": "Q2 exemplar — Sample 2A, 11/12",
+      "content": "Q2 (TBR) scored 11/12 — nearly all representations correct and consistent (diagrams, equations, labeled graphs, quantitative results), losing one point on a minor graph or consistency detail. Near-full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: E&M",
+      "scoreBand": "7",
+      "refId": "PHYSCEM:q2:2025-2B",
+      "title": "Q2 exemplar — Sample 2B, 7/12",
+      "content": "Q2 (TBR) scored 7/12 — earned over half the representation points but lost several, commonly graph features or an equation inconsistent with the diagram. Illustrates a mixed translation across representations."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: E&M",
+      "scoreBand": "4",
+      "refId": "PHYSCEM:q2:2025-2C",
+      "title": "Q2 exemplar — Sample 2C, 4/12",
+      "content": "Q2 (TBR) scored 4/12 — earned under half the points, losing much of the graph/equation translation and the consistent quantitative results. Illustrates a response that cannot keep representations consistent."
+    }
+  ]
+}

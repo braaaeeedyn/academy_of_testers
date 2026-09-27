@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP European History",
+      "dimension": "leq-long-essay-question",
+      "refId": "EUROH:leq4:set1-rubric",
+      "title": "LEQ — Long Essay Question (6 points) — Q4 Set 1: Nazism vs. Communism",
+      "content": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (comparison) (1), complex understanding (1). Q4 Set 1 prompt: compare Nazism and Communism as ideologies/regimes. Common failure: no defensible thesis; contextualization too brief; reasoning without complexity."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "6",
+      "refId": "EUROH:leq4:set1-2025-4A",
+      "title": "LEQ Q4 Set 1 exemplar — Sample 4A, 6/6",
+      "content": "Q4 (Set 1) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "4",
+      "refId": "EUROH:leq4:set1-2025-4B",
+      "title": "LEQ Q4 Set 1 exemplar — Sample 4B, 4/6",
+      "content": "Q4 (Set 1) scored 4/6 (Thesis 1, Context 0, Evidence 2, Analysis 1). Earned the thesis, both Evidence points, and one Analysis point (comparison). Lost Contextualization and the Complexity point. A common 4-point profile: strong thesis and evidence, weak context, no complexity."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "2",
+      "refId": "EUROH:leq4:set1-2025-4C",
+      "title": "LEQ Q4 Set 1 exemplar — Sample 4C, 2/6",
+      "content": "Q4 (Set 1) scored 2/6 (Thesis 0, Context 0, Evidence 1, Analysis 1). Earned one Evidence point and one Analysis point (reasoning process). Lost the Thesis, Contextualization, and the second Evidence and Complexity points. Illustrates a low LEQ that gestures at comparison and cites some evidence but lacks a thesis and context."
+    }
+  ]
+}

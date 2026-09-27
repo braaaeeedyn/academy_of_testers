@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Human Geography",
+      "dimension": "q1-no-stimulus",
+      "refId": "HUGEO:q1-set1:rubric",
+      "title": "Q1 No Stimulus (7 points) — Set 1: political geography",
+      "content": "AP Human Geography FRQ 1 (No Stimulus), 7 points, parts A–G, one point each, escalating in cognitive skill (define → describe → explain → explain a degree/relationship). Set 1 answer key by part: A [1] define an independent state (a sovereign, self-governing country recognized by others / the basic building block of the political map); B [1] describe a purpose of supranational organizations (address transnational challenges, economies of scale, trade/military alliances); C [1] describe a global outcome of increased international trade (specialization/comparative advantage, outsourcing, deindustrialization, infrastructure, environmental impacts); D [1] explain why land/sea boundaries may lead to disputes; E [1] explain how communication technologies affect state sovereignty; F/G [1 each] further explain-level tasks. Common failure: 'describe' answers that only name a term without characteristics; 'explain' answers that describe rather than give a how/why mechanism."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Human Geography",
+      "scoreBand": "7",
+      "refId": "HUGEO:q1-set1:2025-1A",
+      "title": "Q1 Set 1 exemplar — Sample 1A, 7/7",
+      "content": "Q1 (Set 1) scored 7/7 — earned all parts A–G: defined an independent state, described a supranational-organization purpose and a global trade outcome, and gave valid how/why explanations for boundary disputes, communication technology and sovereignty, and the remaining explain-level parts. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Human Geography",
+      "scoreBand": "4",
+      "refId": "HUGEO:q1-set1:2025-1B",
+      "title": "Q1 Set 1 exemplar — Sample 1B, 4/7",
+      "content": "Q1 (Set 1) scored 4/7 — typically earned the define and describe parts (A–C) and one explain part, losing the higher explain-level parts (D–G) where a how/why mechanism is required. Illustrates the common Human Geography pattern: define/describe points secured, explain points missed."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Human Geography",
+      "scoreBand": "2",
+      "refId": "HUGEO:q1-set1:2025-1C",
+      "title": "Q1 Set 1 exemplar — Sample 1C, 2/7",
+      "content": "Q1 (Set 1) scored 2/7 — earned only about two of the lower-skill parts (define/describe), losing all explain-level parts. Illustrates a low response that can define terms but cannot describe outcomes or explain mechanisms."
+    }
+  ]
+}

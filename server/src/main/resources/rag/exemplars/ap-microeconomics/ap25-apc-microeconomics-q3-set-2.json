@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Microeconomics",
+      "dimension": "q3-short-frq",
+      "refId": "MICRO:q3-set2:rubric",
+      "title": "Q3 Short FRQ (5 points) — Set 2: utility maximization (Lucy, Goods X & Y)",
+      "content": "AP Microeconomics FRQ 3 (Short), 5 points, one per element, including calculations. Set 2 answer key highlights: state that Lucy maximizes total utility by consuming a given bundle (e.g., 5 units of Good X and some Good Y) where the marginal-utility-per-dollar is equalized within the budget; calculate Lucy's total utility of consuming 2 units of X and 2 units of Y (show work); state the maximum units of Good Y she can purchase given the budget/price. Common failure: applying the utility-maximizing rule (MUx/Px = MUy/Py) incorrectly or ignoring the budget constraint; summing marginal utilities incorrectly; calculation without shown work."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Microeconomics",
+      "scoreBand": "5",
+      "refId": "MICRO:q3-set2:2025-3A",
+      "title": "Q3 Set 2 exemplar — Sample 3A, 5/5",
+      "content": "Q3 (Set 2) scored 5/5 — identified the utility-maximizing bundle, calculated the total utility of the 2X/2Y bundle with shown work, and stated the maximum units of Good Y affordable. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Microeconomics",
+      "scoreBand": "4",
+      "refId": "MICRO:q3-set2:2025-3B",
+      "title": "Q3 Set 2 exemplar — Sample 3B, 4/5",
+      "content": "Q3 (Set 2) scored 4/5 — earned most elements but lost one, commonly a calculation answer/shown work or the budget-constrained maximum. Illustrates a strong response one point short."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Microeconomics",
+      "scoreBand": "2",
+      "refId": "MICRO:q3-set2:2025-3C",
+      "title": "Q3 Set 2 exemplar — Sample 3C, 2/5",
+      "content": "Q3 (Set 2) scored 2/5 — earned about two elements (e.g., one calculation or state point), losing the utility-maximizing-bundle identification and the remaining calculations. Illustrates a low response that misapplies the utility-maximization rule or the budget constraint."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Environmental Science",
+      "dimension": "q2-analyze-problem-propose-solution",
+      "refId": "APES:q2-set1:rubric",
+      "title": "Q2 Analyze a Problem & Propose a Solution (10 points) — Set 1: La Niña & urban flooding",
+      "content": "AP Environmental Science FRQ 2 is 'Analyze an Environmental Problem and Propose a Solution,' 10 points, one per lettered part (A–J). It threads through a data figure, a proposed solution with justification, and additional content items. Set 1 answer key: A [P1] sea surface condition in the eastern equatorial Pacific = cooler than average. B [P2] associated phenomenon = La Niña. C [P3] difference between regions A and B (one wetter, one drier). D [P4] why urban areas flood during extended precipitation (impervious surfaces increase runoff / reduce infiltration). E [P5] a realistic city solution to reduce flooding (permeable pavement, rain gardens/green roofs, retention ponds). F [P6] justify E with an additional advantage beyond flood reduction (aquifer recharge, pollutant removal, habitat, heat-island reduction) — must match the E solution. G [P7] a climate difference between a temperate seasonal forest and a savanna. H [P8] the process after a fire that leaves soil intact = secondary succession. I [P9] how burning forests add atmospheric pollution. J [P10] final content item. Common failure: a part-F justification that just restates flood reduction; proposing a solution in E that does not fit an urban flooding context."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Environmental Science",
+      "scoreBand": "10",
+      "refId": "APES:q2-set1:2025-2A",
+      "title": "Q2 Set 1 exemplar — Sample 2A, 10/10",
+      "content": "Q2 (Set 1) scored 10/10 — earned all ten parts: cooler-than-average water and La Niña identifications, the A-vs-B climate difference, the impervious-surface flooding reason, a realistic flood solution with a matching additional-advantage justification, the forest-vs-savanna climate difference, secondary succession, and the burning-forest pollution item. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Environmental Science",
+      "scoreBand": "6",
+      "refId": "APES:q2-set1:2025-2B",
+      "title": "Q2 Set 1 exemplar — Sample 2B, 6/10",
+      "content": "Q2 (Set 1) scored 6/10 — typically earned the identifications (cooler water, La Niña), the flooding reason and a solution, and one or two content items (e.g., secondary succession), while losing the justification (F, restated flood reduction) and the more demanding describe/explain points. Illustrates identify-and-propose points secured while the justification and explanation points are missed."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Environmental Science",
+      "scoreBand": "3",
+      "refId": "APES:q2-set1:2025-2C",
+      "title": "Q2 Set 1 exemplar — Sample 2C, 3/10",
+      "content": "Q2 (Set 1) scored 3/10 — earned only about three points, generally the direct identifications and one solution/content item, while losing the difference-description, justification, and explanation points. Illustrates a low response that identifies phenomena but cannot analyze or justify."
+    }
+  ]
+}

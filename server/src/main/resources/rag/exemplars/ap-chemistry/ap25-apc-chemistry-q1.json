@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Chemistry",
+      "dimension": "q1-long-answer",
+      "refId": "CHEM:q1:rubric",
+      "title": "Q1 — Long Answer (10 points)",
+      "content": "AP Chemistry Q1 (Long Answer), 10 points, one point per part. Topic: magnesium isotopes, Coulombic attraction, and Mg(OH)2 solubility. A(i) [Pt1]: plot two mass-spectrum lines for Mg-25 and Mg-26 with relative abundance between 10 and 11. A(ii) [Pt2]: Mg-26 has one more neutron than Mg-25. B(i) [Pt3]: Na+ has a smaller charge than Mg2+, so weaker Coulombic attraction to water. B(ii) [Pt4]: Na+ is larger than Mg2+, so greater ion–water distance and weaker attraction (must reference interparticle distance, not nuclear pull). C [Pt5]: pOH = −log(2.80×10^−4)=3.553, pH=10.447. D [Pt6]: dilution M1V1=M2V2 to get [Mg2+]=7.62×10^−4 M after mixing (uses final combined volume). E(i) [Pt7]: Ksp=[Mg2+][OH−]^2 (OH− squared, correct charges). E(ii) [Pt8]: Q=[Mg2+][OH−]^2=2.07×10^−11, consistent with D. E(iii) [Pt9]: Q>Ksp so a precipitate forms. F [Pt10]: adding HNO3 decreases [OH−] making Q<Ksp, so more Mg(OH)2 dissolves (less solid). Common failure: forgetting to square [OH−], using initial volume in dilution, and attributing F to a common-ion or direct acid–solid reaction."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "10",
+      "refId": "CHEM:q1:2025-1A",
+      "title": "Q1 exemplar — Sample 1A, 10/10",
+      "content": "Q1 scored 10/10 (all points). Correctly plotted both isotope lines and related the mass difference to neutrons (A); explained the weaker Na+–water attraction by both smaller charge and larger radius/greater distance (B); pH=10.45 from pOH (C); dilution to 7.62×10^−4 M using the final volume (D); correct Ksp expression with [OH−]^2, Q=2.07×10^−11, and Q>Ksp precipitate prediction (E); and the shift explanation for adding HNO3 (F). Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "5",
+      "refId": "CHEM:q1:2025-1B",
+      "title": "Q1 exemplar — Sample 1B, 5/10",
+      "content": "Q1 scored 5/10. Earned A(i), A(ii), B(i), C, and E(iii). Lost B(ii) (referred to nuclear pull rather than ion–water interparticle attraction), D (found moles of Mg2+ but not the molarity after mixing), E(i) (wrote [2OH−]^2 instead of [OH−]^2), E(ii) (computed a quotient of ion concentrations rather than the product, and did not square [OH−]), and F (claimed undissolved Mg(OH)2 increases, with a flawed common-ion argument). Illustrates the recurring squaring/expression errors in Ksp problems."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "2",
+      "refId": "CHEM:q1:2025-1C",
+      "title": "Q1 exemplar — Sample 1C, 2/10",
+      "content": "Q1 scored 2/10. Earned only A(i) (both lines at abundance 10) and E(iii) (Q>Ksp precipitate). Lost A(ii) (attributed mass difference to charge), B(i)/B(ii) (electronegativity/size errors), C (treated [OH−] as [H3O+], reporting pOH as pH), D (assumed 1 mol Mg2+ and divided by initial volume), E(i) (included the solid, omitted charges, misplaced the square), and E(ii)/F (product/quotient and mechanism errors). Illustrates a low response that still banks the qualitative precipitate prediction."
+    }
+  ]
+}

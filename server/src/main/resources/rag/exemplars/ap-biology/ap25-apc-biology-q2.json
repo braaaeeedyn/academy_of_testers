@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Biology",
+      "dimension": "q2-interpreting-evaluating-experimental-results-with-graphing",
+      "refId": "BIO:q2:rubric",
+      "title": "Q2 — Interpreting and Evaluating Experimental Results with Graphing (9 points)",
+      "content": "AP Biology Q2 (long FRQ with graphing), 9 points, each point earned independently. A1: describe the polarity of the receptor portion inside the membrane (nonpolar/hydrophobic). B (graphing, 3 points): B1 data represented in a bar/modified bar graph; B2 data and error bars accurately plotted; B3 graph appropriately labeled (axis titles, units, key). B4: from Table 1, determine which activity was affected by inhibiting DopEcR expression (oriented activity). C1: identify the treatment group with oriented activity greater than 50% of general activity (the saline/control group). C2: predict the effect of a G-protein mutation that blocks GTP-for-GDP exchange (decreased oriented activity). D1: support that increased DopEcR expression increases mating success (increases oriented activity / binds more 20E / more sensitive to pheromones). D2: explain how a pathway inhibitor could protect crops (reduces oriented activity/gene expression, therefore decreases mating/population growth). Common failure: losing graphing points B2/B3 for inaccurate plotting or missing labels/key, and losing D2 by not connecting reduced oriented behavior to reduced reproduction."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Biology",
+      "scoreBand": "9",
+      "refId": "BIO:q2:2025-2A",
+      "title": "Q2 exemplar — Sample 2A, 9/9",
+      "content": "Q2 scored 9/9 (full credit). Earned A1 (nonpolar), all three graphing points B1–B3 (bar graph, accurate data + error bars, proper labels), B4 (oriented activity affected), C1 (saline group >50%), C2 (mutation decreases oriented activity), D1 ('more DopEcR increases oriented activity'), and D2 (inhibitor prevents expression of oriented-activity genes, so 'less oriented activity means less mating'). Full-credit model, including a complete, correctly labeled bar graph."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Biology",
+      "scoreBand": "7",
+      "refId": "BIO:q2:2025-2B",
+      "title": "Q2 exemplar — Sample 2B, 7/9",
+      "content": "Q2 scored 7/9. Earned A1, B1 (bar graph) and B3 (labeled) but NOT B2 (data and error bars not accurately plotted), B4 (oriented activity), C1, C2 ('oriented activity will decrease'), and D1 (males more likely to find females due to increased oriented activity). Lost D2 by not explaining that reduced oriented behavior leads to decreased reproduction. Shows the typical graphing slip — correct chart type and labels but inaccurate plotting costs one point."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Biology",
+      "scoreBand": "3",
+      "refId": "BIO:q2:2025-2C",
+      "title": "Q2 exemplar — Sample 2C, 3/9",
+      "content": "Q2 scored 3/9. Earned only B1 (bar graph), C1 (control group >50%), and C2 (activity will decrease). Lost A1 (called polarity 'very high'), B2 and B3 (inaccurate plotting; no y-axis label, no key), B4 (did not identify oriented activity), D1 (did not tie DopEcR increase to increased oriented activity), and D2 (no link between decreased oriented activity and decreased mating). Illustrates that an unlabeled, inaccurately plotted graph earns only the bar-graph-type point."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Macroeconomics",
+      "dimension": "q1-long-frq",
+      "refId": "MACRO:q1-set2:rubric",
+      "title": "Q1 Long FRQ (10 points) — Set 2: unemployment, Phillips curve & government budget",
+      "content": "AP Macroeconomics FRQ 1 (Long), 10 points, one per element (Points 1–10), graphs plus state/explain answers. Set 2 answer key highlights: state the actual unemployment rate (e.g., 10%); draw a correctly labeled SRPC (and LRPC with the relevant point); state that the government budget moves into deficit and explain that government spending exceeds revenue; plus additional graph and state/explain elements on aggregate demand/supply and fiscal effects. Same 10-point structure as Set 1. Common failure: unlabeled graphs; 'state' answers without the required 'explain'; miscomputing or misreading the unemployment rate."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "10",
+      "refId": "MACRO:q1-set2:2025-1A",
+      "title": "Q1 Set 2 exemplar — Sample 1A, 10/10",
+      "content": "Q1 (Set 2) scored 10/10 — correct unemployment-rate statement, correctly labeled Phillips-curve graph, the budget-deficit state-and-explain, and all remaining graph and reasoning elements. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "5",
+      "refId": "MACRO:q1-set2:2025-1B",
+      "title": "Q1 Set 2 exemplar — Sample 1B, 5/10",
+      "content": "Q1 (Set 2) scored 5/10 — earned the graph-labeling and simpler state points but lost the explain-dependent points (the fiscal/budget mechanism and other state-and-explain items). Illustrates graph/state points earned, explain points missed."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "3",
+      "refId": "MACRO:q1-set2:2025-1C",
+      "title": "Q1 Set 2 exemplar — Sample 1C, 3/10",
+      "content": "Q1 (Set 2) scored 3/10 — earned about three elements (a labeled graph and one or two simple state answers), losing the shifts and the state-and-explain reasoning points. Illustrates a low response with fragments of the graph and statements but no multi-step reasoning."
+    }
+  ]
+}

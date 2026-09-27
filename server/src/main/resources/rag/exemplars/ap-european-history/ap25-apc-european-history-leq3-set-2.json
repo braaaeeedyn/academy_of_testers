@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP European History",
+      "dimension": "leq-long-essay-question",
+      "refId": "EUROH:leq3:set2-rubric",
+      "title": "LEQ — Long Essay Question (6 points) — Q3 Set 2: Scientific Revolution vs. the Enlightenment",
+      "content": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (comparison) (1), complex understanding (1). Q3 Set 2 prompt: compare the Scientific Revolution and the Enlightenment. Common failure: missing contextualization; reasoning without complexity."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "6",
+      "refId": "EUROH:leq3:set2-2025-3A",
+      "title": "LEQ Q3 Set 2 exemplar — Sample 3A, 6/6",
+      "content": "Q3 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "4",
+      "refId": "EUROH:leq3:set2-2025-3B",
+      "title": "LEQ Q3 Set 2 exemplar — Sample 3B, 4/6",
+      "content": "Q3 (Set 2) scored 4/6 (Thesis 1, Context 0, Evidence 2, Analysis 1). Earned the thesis, both Evidence points, and one Analysis point (comparison reasoning). Lost Contextualization (too brief/absent) and the Complexity point. Illustrates a common 4-point profile: good thesis and evidence but weak context and no complexity."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "2",
+      "refId": "EUROH:leq3:set2-2025-3C",
+      "title": "LEQ Q3 Set 2 exemplar — Sample 3C, 2/6",
+      "content": "Q3 (Set 2) scored 2/6 (Thesis 1, Context 0, Evidence 1, Analysis 0). Earned the thesis and one Evidence point (specific evidence not fully used to support the argument). Lost Contextualization and both Analysis points. Illustrates a low LEQ with a claim and a little evidence but no context or analytical reasoning."
+    }
+  ]
+}

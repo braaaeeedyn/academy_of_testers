@@ -1,0 +1,12 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Research",
+      "scoreBand": "1",
+      "refId": "RESEARCH:2025-sample-j",
+      "title": "Academic Paper exemplar — Sample J, 1/5",
+      "content": "Sample J scored 1/5 (Report on Existing Knowledge). Topic: the impact of eczema ('the purpose of the research is to find a...'). The paper has a researchable topic but reports existing knowledge; it does not earn a 2 because there is no evidence the named 'qualitative' method was actually used, and it does not build a new understanding. Illustrates the 1 band and the 1-vs-2 boundary — a method named but not demonstrably applied stays at 1."
+    }
+  ]
+}

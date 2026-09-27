@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Microeconomics",
+      "dimension": "q1-long-frq",
+      "refId": "MICRO:q1-set1:rubric",
+      "title": "Q1 Long FRQ (10 points) — Set 1: monopoly (Voda Reservoir) & elasticity",
+      "content": "AP Microeconomics FRQ 1 (Long), 10 points, one point per element, mixing correctly labeled graphs with state/explain and calculation answers. Set 1 (Voda Reservoir, a single seller of bottled water): draw a correctly labeled monopoly graph with a downward-sloping demand and MR, showing the profit-maximizing quantity/price (MR=MC) and the relevant area; state how the profit-maximizing quantity changes under a given scenario; state that demand for Voda's water becomes more elastic (with a substitute) and explain why; plus related state/explain elements. Common failure: unlabeled or incorrectly positioned MR/MC/ATC curves; profit-max where MR≠MC; stating an elasticity change without explaining the substitute mechanism."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Microeconomics",
+      "scoreBand": "10",
+      "refId": "MICRO:q1-set1:2025-1A",
+      "title": "Q1 Set 1 exemplar — Sample 1A, 10/10",
+      "content": "Q1 (Set 1) scored 10/10 — correctly labeled monopoly graph (demand, MR, MC, profit-max quantity/price), correct quantity-change statement, the more-elastic-demand statement with explanation, and all remaining elements. Full-credit model for the micro long FRQ."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Microeconomics",
+      "scoreBand": "6",
+      "refId": "MICRO:q1-set1:2025-1B",
+      "title": "Q1 Set 1 exemplar — Sample 1B, 6/10",
+      "content": "Q1 (Set 1) scored 6/10 — earned the graph-labeling and simpler state points but lost several explain-dependent points (e.g., the elasticity mechanism and other state-and-explain items). Illustrates the common micro pattern: graph/state points earned, explain points missed."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Microeconomics",
+      "scoreBand": "1",
+      "refId": "MICRO:q1-set1:2025-1C",
+      "title": "Q1 Set 1 exemplar — Sample 1C, 1/10",
+      "content": "Q1 (Set 1) scored 1/10 — earned only a single element (typically one labeled graph point), losing the profit-max positioning, the elasticity reasoning, and all state/explain answers. Illustrates a response that cannot execute the monopoly graph or the multi-step reasoning."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics 1",
+      "dimension": "q4-qualitative-quantitative-translation",
+      "refId": "PHYS1:q4:rubric",
+      "title": "Q4 Qualitative Quantitative Translation (QQT) — 8 points",
+      "content": "AP Physics 1 FRQ 4 is Qualitative Quantitative Translation (QQT), 8 points, scored by lettered sub-points. The QQT task requires connecting qualitative reasoning with quantitative analysis: make a claim, support it with physics principles in words, and back it with a consistent quantitative argument (or vice versa). Q4 topic: buoyancy and density of a block in fluid. Points reward: a correct claim/prediction, qualitative reasoning citing the relevant principle (buoyant force, density comparison), a quantitative expression/derivation, and consistency between the qualitative and quantitative answers. Common failure: a claim without supporting principle; quantitative work that contradicts the qualitative reasoning; missing the density/buoyancy relationship."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 1",
+      "scoreBand": "8",
+      "refId": "PHYS1:q4:2025-4A",
+      "title": "Q4 exemplar — Sample 4A, 8/8",
+      "content": "Q4 (QQT) scored 8/8 — a correct claim, sound qualitative reasoning (buoyancy/density), a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments. Full-credit model for the QQT task."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 1",
+      "scoreBand": "5",
+      "refId": "PHYS1:q4:2025-4B",
+      "title": "Q4 exemplar — Sample 4B, 5/8",
+      "content": "Q4 (QQT) scored 5/8 — earned the claim and most qualitative reasoning plus part of the quantitative argument, losing points where the quantitative work was incomplete or inconsistent with the qualitative claim. Illustrates a partially connected qualitative–quantitative response."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 1",
+      "scoreBand": "2",
+      "refId": "PHYS1:q4:2025-4C",
+      "title": "Q4 exemplar — Sample 4C, 2/8",
+      "content": "Q4 (QQT) scored 2/8 — earned only a couple of sub-points (e.g., a claim or one reasoning step), losing the principle-based reasoning and the quantitative support. Illustrates a response that cannot link qualitative reasoning to quantitative analysis."
+    }
+  ]
+}

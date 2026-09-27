@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Statistics",
+      "dimension": "q1-exploring-data",
+      "refId": "STATS:q1:rubric",
+      "title": "Q1 — Exploring Data (4 points)",
+      "content": "AP Statistics FRQ 1 focuses on Exploring Data, 4 points. Scoring model: each lettered part is judged essentially correct (E), partially correct (P), or incorrect (I); the combination of part scores maps to an integer 0–4 via the question's conversion table. Q1 topic: comparing two distributions (gas mileage for cars from Country A vs. Country B) — compare center (medians), spread (range/IQR), and identify outliers, with values and context. Common failure: comparing only one feature (e.g., center but not spread); stating statistics without comparative language ('less than'/'greater than'); omitting context/units; misidentifying outliers."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "4",
+      "refId": "STATS:q1:2025-1A",
+      "title": "Q1 exemplar — Sample 1A, 4/4",
+      "content": "Q1 scored 4/4 — all parts essentially correct: compared centers (medians 18 vs 32 mpg), spread (range and IQR), and identified the outlier in Country A, all with comparative language and context. Full-credit model for the Exploring Data question."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "2",
+      "refId": "STATS:q1:2025-1B",
+      "title": "Q1 exemplar — Sample 1B, 2/4",
+      "content": "Q1 scored 2/4 — some parts partially correct: typically compared center and one measure of spread but missed a required comparison (e.g., outliers) or omitted comparative language/context on part of the response. Illustrates a partial comparison of distributions."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "1",
+      "refId": "STATS:q1:2025-1C",
+      "title": "Q1 exemplar — Sample 1C, 1/4",
+      "content": "Q1 scored 1/4 — mostly incorrect/partial: compared only one feature or stated statistics without comparison/context. Illustrates a response that reads values but does not properly compare the distributions."
+    }
+  ]
+}

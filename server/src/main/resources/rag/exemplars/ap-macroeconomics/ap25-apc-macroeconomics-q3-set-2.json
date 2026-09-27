@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Macroeconomics",
+      "dimension": "q3-short-frq",
+      "refId": "MACRO:q3-set2:rubric",
+      "title": "Q3 Short FRQ (5 points) — Set 2: AD-AS & automatic stabilizers",
+      "content": "AP Macroeconomics FRQ 3 (Short), 5 points, one per element. Set 2 answer key highlights: draw a correctly labeled AD-AS graph showing PL1 and the relevant equilibrium/shift; explain that as real income rises, tax revenues increase automatically (automatic stabilizers); plus related state/explain elements on the resulting effects. Same 5-point structure as Set 1. Common failure: unlabeled AD-AS graph; describing automatic stabilizers without the income→tax-revenue mechanism."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "5",
+      "refId": "MACRO:q3-set2:2025-3A",
+      "title": "Q3 Set 2 exemplar — Sample 3A, 5/5",
+      "content": "Q3 (Set 2) scored 5/5 — correctly labeled AD-AS graph, the automatic-stabilizer explanation (rising income → higher tax revenue), and all related elements. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "3",
+      "refId": "MACRO:q3-set2:2025-3B",
+      "title": "Q3 Set 2 exemplar — Sample 3B, 3/5",
+      "content": "Q3 (Set 2) scored 3/5 — earned the graph and some state points but lost explain-dependent points (e.g., the automatic-stabilizer mechanism). Illustrates a mid response with the graph but incomplete explanation."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "2",
+      "refId": "MACRO:q3-set2:2025-3C",
+      "title": "Q3 Set 2 exemplar — Sample 3C, 2/5",
+      "content": "Q3 (Set 2) scored 2/5 — earned about two elements, losing the labeled-graph features and the automatic-stabilizer explanation. Illustrates a low response that cannot complete the AD-AS reasoning."
+    }
+  ]
+}

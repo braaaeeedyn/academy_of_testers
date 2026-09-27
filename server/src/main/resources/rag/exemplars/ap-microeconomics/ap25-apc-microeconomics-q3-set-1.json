@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Microeconomics",
+      "dimension": "q3-short-frq",
+      "refId": "MICRO:q3-set1:rubric",
+      "title": "Q3 Short FRQ (5 points) — Set 1: game theory (Bitaly's Bracelets)",
+      "content": "AP Microeconomics FRQ 3 (Short), 5 points, one per element, based on a payoff matrix. Set 1 answer key highlights: state that Bitaly's Bracelets does not have a dominant strategy and explain that its best response depends on the rival's choice; identify the TWO Nash equilibria for the game; state the minimum amount (e.g., $6) required for a given outcome; plus related state/explain elements. Common failure: asserting a dominant strategy where none exists; identifying only one Nash equilibrium; reading the payoff matrix from the wrong player's perspective."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Microeconomics",
+      "scoreBand": "5",
+      "refId": "MICRO:q3-set1:2025-3A",
+      "title": "Q3 Set 1 exemplar — Sample 3A, 5/5",
+      "content": "Q3 (Set 1) scored 5/5 — stated no dominant strategy with a best-response explanation, identified both Nash equilibria, and gave the correct minimum amount. Full-credit model for the game-theory FRQ."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Microeconomics",
+      "scoreBand": "4",
+      "refId": "MICRO:q3-set1:2025-3B",
+      "title": "Q3 Set 1 exemplar — Sample 3B, 4/5",
+      "content": "Q3 (Set 1) scored 4/5 — earned most elements but lost one, commonly the explanation of why there is no dominant strategy or one of the two Nash equilibria. Illustrates a strong response one point short."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Microeconomics",
+      "scoreBand": "1",
+      "refId": "MICRO:q3-set1:2025-3C",
+      "title": "Q3 Set 1 exemplar — Sample 3C, 1/5",
+      "content": "Q3 (Set 1) scored 1/5 — earned only one element, losing the dominant-strategy explanation, the two Nash equilibria, and the minimum-amount answer. Illustrates a response that misreads the payoff matrix or the game concepts."
+    }
+  ]
+}

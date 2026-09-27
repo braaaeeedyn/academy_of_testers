@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Calculus AB",
+      "dimension": "q6-implicit-differentiation-related-rates-no-calculator",
+      "refId": "CALCAB:q6:rubric",
+      "title": "Q6 — Implicit Differentiation and Related Rates (9 points, no calculator)",
+      "content": "AP Calculus AB Q6 (Part B, no calculator), 9 points. Curve G: y^3−y^2−y+(1/4)x^2=0. A (2 pts): show dy/dx = −x/(2(3y^2−2y−1)) — P1 for correct implicit differentiation, P2 (needs P1) for the verification. B (2 pts): use the tangent line at (2,−1) to approximate y at x=1.6 — P3 for the slope dy/dx=−1/4 at (2,−1), P4 for the tangent-line value −1−(1/4)(1.6−2)=−0.9 (a nonzero wrong slope k≠−1/4 loses P3 but P4 can be earned for −1+k(−0.4)). C (2 pts): with x>0, y>0, find the y-coordinate where the tangent is vertical — P5 for setting the denominator 2(3y^2−2y−1)=0, P6 (needs P5) for y=1 (must identify y=1 as the only valid solution, rejecting y=−1/3). D (3 pts): particle on curve H: 2xy+ln y=8, at (4,1) with dx/dt=3, find dy/dt — P7 for implicit differentiation w.r.t. t with at most one error, P8 for the equation 2y(dx/dt)+2x(dy/dt)+(1/y)(dy/dt)=0, P9 (needs P7 and P8, no errors) for dy/dt=−2/3. Common failure: part D differentiation errors (multiplying instead of adding terms) that void P8 and P9."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus AB",
+      "scoreBand": "9",
+      "refId": "CALCAB:q6:2025-6A",
+      "title": "Q6 exemplar — Sample 6A, 9/9",
+      "content": "Q6 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: correct implicit differentiation and verification of dy/dx (A); slope −1/4 and tangent approximation −0.9 (B); denominator set to 0 with y=1 identified (C); implicit differentiation w.r.t. t with no errors and dy/dt=−2/3 (D). Model for implicit differentiation, linear approximation, vertical tangent, and related rates."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus AB",
+      "scoreBand": "6",
+      "refId": "CALCAB:q6:2025-6B",
+      "title": "Q6 exemplar — Sample 6B, 6/9",
+      "content": "Q6 scored 6/9 (1-1-1-0-1-1-1-0-0). Earned both A points, P3 (slope −1/4 in a linear approximation), and both C points (denominator=0, y=1). Lost P4 (correct final approximation not given) and both remaining D points — the related-rates differentiation had one error (a multiplication where addition was needed), voiding P8 and therefore P9. Shows a single related-rates differentiation slip cascading to lose P8 and P9."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus AB",
+      "scoreBand": "3",
+      "refId": "CALCAB:q6:2025-6C",
+      "title": "Q6 exemplar — Sample 6C, 3/9",
+      "content": "Q6 scored 3/9 (1-1-0-0-1-0-0-0-0). Earned both A points and P5 (denominator set to 0). Lost both B points (slope used in the linear approximation was not −1/4 and not declared as dy/dx), P6 (correct y not given), and all of part D (implicit differentiation had more than one error, so P7, P8, P9 all failed). Illustrates that multiple differentiation errors in related rates forfeit the entire part."
+    }
+  ]
+}

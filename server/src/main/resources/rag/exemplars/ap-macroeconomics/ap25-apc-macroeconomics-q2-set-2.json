@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Macroeconomics",
+      "dimension": "q2-short-frq",
+      "refId": "MACRO:q2-set2:rubric",
+      "title": "Q2 Short FRQ (5 points) — Set 2: contractionary monetary policy & bond prices",
+      "content": "AP Macroeconomics FRQ 2 (Short), 5 points, one per element. Set 2 answer key highlights: state the central bank would increase its administered interest rates (or sell bonds); draw a correctly labeled reserve market with the appropriate supply-curve shift; state that the price of previously issued bonds will decrease; plus related state/explain elements linking the policy to interest rates and the economy. Same 5-point structure as Set 1. Common failure: unlabeled graph; stating the bond-price direction without the interest-rate relationship; wrong policy direction."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "5",
+      "refId": "MACRO:q2-set2:2025-2A",
+      "title": "Q2 Set 2 exemplar — Sample 2A, 5/5",
+      "content": "Q2 (Set 2) scored 5/5 — correct interest-rate policy statement, correctly labeled reserve-market graph, the bond-price decrease, and all related explanations. Full-credit model for the short FRQ."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "4",
+      "refId": "MACRO:q2-set2:2025-2B",
+      "title": "Q2 Set 2 exemplar — Sample 2B, 4/5",
+      "content": "Q2 (Set 2) scored 4/5 — earned most elements but lost one, typically an explain element or a graph feature. Illustrates a strong response one point short."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Macroeconomics",
+      "scoreBand": "1",
+      "refId": "MACRO:q2-set2:2025-2C",
+      "title": "Q2 Set 2 exemplar — Sample 2C, 1/5",
+      "content": "Q2 (Set 2) scored 1/5 — earned only one element (a single state or graph point), losing the graph shift, the bond-price relationship, and the explanations. Illustrates a low short-FRQ response that cannot connect the monetary tool to its effects."
+    }
+  ]
+}

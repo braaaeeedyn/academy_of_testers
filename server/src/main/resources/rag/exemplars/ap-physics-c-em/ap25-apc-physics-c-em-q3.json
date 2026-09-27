@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics C: E&M",
+      "dimension": "q3-experimental-design-and-analysis",
+      "refId": "PHYSCEM:q3:rubric",
+      "title": "Q3 Experimental Design and Analysis (LAB) — 10 points",
+      "content": "AP Physics C: E&M FRQ 3 is Experimental Design and Analysis (LAB), 10 points, scored by lettered sub-points. The LAB task requires designing a procedure, planning a linearizing analysis, and reasoning from data/graphs. Q3 topic: an electric-circuit experiment (current measurements, resistance/capacitance determination). Points reward: a valid, replicable procedure with correct electrical measurements; a correct graphing/linearization plan; correct slope/intercept interpretation (tying it to a physical quantity); and data-supported conclusions. Common failure: a procedure missing a measurement/control; plotting quantities that do not linearize the relationship; not connecting slope/intercept to the target physical quantity."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: E&M",
+      "scoreBand": "9",
+      "refId": "PHYSCEM:q3:2025-3A",
+      "title": "Q3 exemplar — Sample 3A, 9/10",
+      "content": "Q3 (LAB) scored 9/10 — a complete procedure, correct linearizing plan, correct slope/intercept interpretation, and data-supported conclusions, losing one minor point. Near-full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: E&M",
+      "scoreBand": "6",
+      "refId": "PHYSCEM:q3:2025-3B",
+      "title": "Q3 exemplar — Sample 3B, 6/10",
+      "content": "Q3 (LAB) scored 6/10 — earned the procedure and some analysis but lost points on the linearization or the slope-to-quantity connection. Illustrates a partially complete lab design."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: E&M",
+      "scoreBand": "3",
+      "refId": "PHYSCEM:q3:2025-3C",
+      "title": "Q3 exemplar — Sample 3C, 3/10",
+      "content": "Q3 (LAB) scored 3/10 — earned a few sub-points (part of the procedure and one analysis element), losing the linearization plan and most data-based reasoning. Illustrates a rough experiment without rigorous analysis."
+    }
+  ]
+}

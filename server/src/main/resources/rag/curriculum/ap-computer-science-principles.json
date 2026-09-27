@@ -1,0 +1,109 @@
+{
+  "chunks": [
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u1-1-1",
+      "title": "Creative Development — Algorithms and Creativity",
+      "content": "An algorithm is a step-by-step process used to solve a problem or accomplish a task. In programming, algorithms tell the computer exactly what to do and in what order.\n\nAlgorithms show up everywhere: finding the highest test score, sorting names alphabetically, searching for a word in a file, or calculating an average. Even everyday activities follow algorithms (making coffee, tying shoes).\n\nCreativity comes in when you choose how to solve a problem. Multiple algorithms can work for the same task, but they can differ in speed, simplicity, or clarity. A creative programmer tries approaches, recognizes patterns, and iteratively improves solutions: make it work, make it cleaner, make it faster.\n\nBig idea: algorithms provide the structure; creativity provides the strategy. Great programmers use both.\n\nKey ideas: Algorithms are step-by-step processes that can be expressed in many ways.; Multiple algorithms can solve the same problem with different trade-offs.; Iterative development helps refine solutions over time.; Combining patterns (loop + if, loop + counter) unlocks larger solutions..\n\nThis pseudocode shows a simple, efficient algorithm: scan the list once and track the largest value. It highlights a key CSP theme: different algorithms can solve the same problem, but some are more efficient than others."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u1-1-2",
+      "title": "Creative Development — Collaborative Development",
+      "content": "Most real software is built by teams, not individuals. Projects are often too large for one person, so programmers divide tasks, share code, review each other’s work, and communicate clearly.\n\nGood collaboration involves clear roles (UI, data handling, testing, documentation, core logic) and strong communication habits: explaining ideas, reading other people’s code, asking questions, and giving constructive feedback.\n\nCode is read more often than it is written. That means readable naming, short focused functions, and clear structure matter. Even without formal tools, teams need a “version control mindset”: avoid overwriting each other, keep track of changes, and merge work carefully.\n\nBig idea: software succeeds because of people working together. Technical skill matters, but teamwork matters just as much.\n\nKey ideas: Teams divide work into roles and responsibilities.; Communication reduces bugs and confusion.; Readable code helps teammates (and future you).; Tracking and merging changes prevents lost work..\n\nWhen multiple people work on the same codebase, meaningful names reduce misunderstandings and make code reviews faster and more accurate."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u1-1-3",
+      "title": "Creative Development — Program Design and Documentation",
+      "content": "Program design is planning before coding. Instead of jumping straight into implementation, you decide what the program should do, what components are needed, how responsibilities are divided, and how data flows.\n\nEffective design typically includes understanding the problem, listing requirements, breaking the program into parts, assigning responsibilities, and writing pseudocode or outlines. This saves time and prevents chaos later.\n\nGood design leads to organized components, clear logic, reusable code, and easier debugging. Bad design leads to giant methods, duplicated logic, and hard-to-fix bugs.\n\nDocumentation explains what your program does and how it works (comments, method headers, class descriptions). Strong design and good documentation together turn messy code into professional software.\n\nKey ideas: Plan responsibilities before coding to avoid “giant method” spaghetti.; Modularity means each component does one job and is easy to test.; Documentation helps teams maintain software long-term.; Self-documenting code uses clear names so fewer comments are needed..\n\nThis illustrates how documentation communicates intent. Even simple comments can help future readers understand what a piece of code is supposed to do."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u2-2-1",
+      "title": "Data — Data Representation",
+      "content": "Data is information stored by a computer. Everything, text, images, music, videos, numbers, eventually becomes numbers.\n\nComputers only understand binary: 0 and 1. These are bits. Groups of bits form larger units like bytes (8 bits = 1 byte). Files are just many bytes grouped together.\n\nDifferent types of data are represented differently depending on context. Numbers are stored in binary. Text uses encodings like ASCII or Unicode (for example, 'A' maps to 65). Images are grids of pixels with numeric color values (often red/green/blue). Sound is stored as samples taken many times per second.\n\nBig idea: computers don’t store “meaning.” They store numbers, and humans decide what those numbers mean. Every representation is a trade-off between accuracy, file size, speed, and quality.\n\nKey ideas: Computers store everything as bits (0s and 1s).; Bytes group bits; files group bytes.; Encodings define how bits are interpreted (text, images, audio).; Representations are trade-offs (quality vs size)..\n\nCSP emphasizes that data must be encoded to be stored and transmitted. Converting between representations is how computers handle text and numbers under the hood."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u2-2-2",
+      "title": "Data — Big Data and Privacy",
+      "content": "Big Data refers to extremely large collections of information gathered from phones, apps, websites, sensors, social media, and purchases. This data is analyzed to find patterns and make predictions.\n\nBig Data can recommend products, predict traffic, detect fraud, improve healthcare, and target advertisements. It is powerful because patterns can emerge only when you have enough data.\n\nBut Big Data also creates privacy risks: tracking without consent, leaks of personal information, misuse or sale of data, and “anonymous” data that can sometimes be re-identified. Location history, health data, and browsing history can reveal extremely personal details.\n\nEthical responsibility means asking: Did users consent? Is data stored securely? Who has access? Could this harm someone? Big idea: Big Data creates opportunity, but also responsibility.\n\nKey ideas: Big Data enables powerful prediction and personalization.; Privacy risks include tracking, leaks, misuse, and re-identification.; Ethical use requires consent, security, and harm analysis.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u2-2-3",
+      "title": "Data — Data Abstraction and Visualization",
+      "content": "Data abstraction means hiding unnecessary details and focusing on what matters. With data, that often means summarizing large data sets using statistics like mean, max, and min, or grouping values into categories.\n\nVisualization turns data into images, graphs, charts, and maps, so humans can see patterns quickly. Good visuals reveal trends, outliers, and relationships.\n\nVisualization choices matter: misleading scales, missing labels, or poor chart types can create false impressions. A good visualization clarifies; a bad one confuses.\n\nBig idea: abstraction simplifies data, and visualization communicates it. Together, they turn numbers into insight.\n\nKey ideas: Abstraction summarizes and simplifies large data sets.; Visualization helps people see patterns quickly.; Bad visualization can mislead; design choices matter.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u3-3-1",
+      "title": "Programming Foundations — Variables, Expressions, and Logic",
+      "content": "This topic covers how programs store values, compute results, and make decisions. A variable stores information; you can think of it as a labeled box whose contents can change over time.\n\nExpressions combine values and operators to produce new values, such as 5 + 3 or score + bonus. Logic uses Boolean values (true and false) and comparisons like <, ==, and != to create conditions.\n\nLogical operators such as AND, OR, and NOT let you combine conditions into more complex decisions. Big idea: variables store data, expressions compute values, and logic controls decisions.\n\nKey ideas: Variables are named storage locations whose values can change.; Expressions use operators to compute new values from existing ones.; Boolean logic (comparisons + AND/OR/NOT) drives decision-making in programs.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u3-3-2",
+      "title": "Programming Foundations — Conditionals and Iteration",
+      "content": "Conditionals allow programs to choose between different paths. For example, if score ≥ 60, a program might mark a student as passing; otherwise, it might mark them as failing. Only one path runs.\n\nIteration (loops) repeats code. While loops are used when you do not know ahead of time how many repetitions you need (e.g., while a game is not over), and for loops are used when you do know how many times to repeat (e.g., repeat 10 times).\n\nLoops are essential for processing large data sets, repeating calculations, traversing lists, and automating tasks. Big idea: conditionals let programs decide; loops let programs repeat. Together, they make programs powerful.\n\nKey ideas: Conditionals choose one of multiple possible paths based on conditions.; While loops repeat while a condition remains true; for loops repeat a fixed number of times.; Loops enable programs to handle large data sets and repeated tasks efficiently.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u3-3-3",
+      "title": "Programming Foundations — Procedures and Abstraction",
+      "content": "A procedure (also called a method or function) is a named block of code that performs a task. Instead of rewriting the same logic multiple times, you call the procedure.\n\nProcedures reduce repetition, improve readability, make programs modular, and hide complexity; this is abstraction in action. Parameters allow procedures to receive input, and some procedures return values that can be used elsewhere.\n\nYou do not need to know how a procedure works internally to use it, just as you do not need to understand how a car engine works to drive. Big idea: procedures organize logic, and abstraction hides details so programmers can build large systems.\n\nKey ideas: Procedures encapsulate logic behind a descriptive name.; Parameters and return values allow flexible, reusable code.; Abstraction lets you focus on what a procedure does, not how it does it.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u4-4-1",
+      "title": "The Internet, Reliability, and Security — The Internet and Protocols",
+      "content": "The Internet is a global network of computers connected so they can share information. Your phone, laptop, and servers around the world communicate by sending data packets across this network.\n\nNo single company owns the Internet; it is made of millions of independent networks working together. When you load a website, your device breaks data into small packets, each packet travels independently through routers, and the destination reassembles them. Packets may take different routes but still arrive at the same place, making the Internet flexible and resilient.\n\nProtocols are sets of rules that computers follow to communicate, like grammar for computers. Common Internet protocols include IP (addresses and routes packets), TCP (ensures reliable delivery, resending lost packets and reordering them), HTTP/HTTPS (web traffic, with HTTPS encrypting data), and DNS (translates human-readable names to IP addresses). Big idea: shared protocols allow billions of devices to communicate reliably.\n\nKey ideas: The Internet is a network of networks with redundant paths.; IP, TCP, HTTP/HTTPS, and DNS are key Internet protocols.; Protocols define shared rules so devices can understand each other.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u4-4-2",
+      "title": "The Internet, Reliability, and Security — Reliability and Fault Tolerance",
+      "content": "Reliability means a system keeps working even when parts fail. Hardware breaks, networks drop, and power goes out, yet many websites and apps remain online.\n\nFault tolerance is designing systems so failures do not cause total collapse. Instead of relying on a single component, systems use redundancy (duplicates), backups, and multiple paths. Data replication stores information in multiple locations so that if one copy is lost, others still exist.\n\nRouting around failures lets network traffic find alternate paths when links break. Systems may also degrade gracefully, slowing down or lowering quality instead of fully crashing (for example, video quality drops when a connection is weak). Big idea: modern systems expect failure; good design doesn’t prevent failures; it survives them.\n\nKey ideas: Redundancy and replication keep systems running when parts fail.; Networks reroute packets around broken paths.; Graceful degradation favors reduced performance over total failure.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u4-4-3",
+      "title": "The Internet, Reliability, and Security — Cybersecurity Basics",
+      "content": "Cybersecurity protects devices, networks, data, and users from attacks or misuse. It is about more than just technology; people and behavior play a huge role.\n\nCommon threats include malware (viruses, ransomware, spyware), phishing (fake messages that trick users into revealing information), data breaches (unauthorized access to private data), and denial-of-service attacks (overwhelming servers so legitimate users cannot connect).\n\nCore security principles are often summarized as the CIA triad: confidentiality (only authorized people can see data), integrity (data is not altered without permission), and availability (systems remain usable). Basic protections include strong passwords, two-factor authentication, encryption, firewalls, and software updates.\n\nBig idea: security is not just technical. People, habits, and awareness are critical parts of cybersecurity, and many attacks succeed because someone clicks the wrong link.\n\nKey ideas: Cybersecurity protects devices, networks, data, and users.; The CIA triad: confidentiality, integrity, and availability.; Human behavior is often the weakest link in security.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u5-5-1",
+      "title": "Innovation, Ethics, and Global Impact — Computing Innovations",
+      "content": "A computing innovation is a new or improved technology that uses computing to solve problems or create new possibilities. Examples include smartphones, artificial intelligence, GPS navigation, streaming platforms, medical imaging, and cloud computing.\n\nInnovations often automate tasks, improve efficiency, create new industries, and change how people live and work. Many build on previous technologies, progress is cumulative.\n\nBenefits include improved healthcare, increased access to information, global connectivity, and boosted productivity. Risks include job replacement, increased surveillance, spread of misinformation, and deepened inequality. Every innovation has tradeoffs.\n\nBig idea: technology is not neutral. Its impact depends on how humans design and use it.\n\nKey ideas: Computing innovations can transform daily life and entire industries.; Innovations have both benefits and risks.; Human choices determine how technology is used and who it helps or harms.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u5-5-2",
+      "title": "Innovation, Ethics, and Global Impact — Legal and Ethical Issues",
+      "content": "Legal issues involve laws around data privacy, copyright, cybercrime, and online harassment. These laws vary by country and set minimum standards for acceptable behavior.\n\nEthics goes beyond the law and asks, “Just because we can do something, should we?” Questions include: Should companies collect user data? Is facial recognition acceptable? Who is responsible for AI decisions? Should algorithms be transparent?\n\nIntellectual property means creators own their work (software, music, videos, writing). Piracy violates these rights. Algorithmic bias can appear when models are trained on biased data, affecting hiring, lending, policing, and education.\n\nBig idea: law sets minimum standards; ethics guides responsible behavior beyond the law. Developers must actively work to reduce unfairness and harm.\n\nKey ideas: Laws cover privacy, copyright, and cybercrime but vary by region.; Ethical questions often extend beyond what is strictly legal.; Algorithmic bias can reinforce real-world inequalities.."
+    },
+    {
+      "corpus": "curriculum",
+      "subject": "AP Computer Science Principles",
+      "refId": "curriculum:ap-computer-science-principles:u5-5-3",
+      "title": "Innovation, Ethics, and Global Impact — Global and Economic Impacts",
+      "content": "Computing connects the world through international communication, global markets, remote work, and online education. Geography matters less than ever for many types of work and learning.\n\nEconomically, computing creates new industries and high-paying tech jobs and enables automation. At the same time, it can displace workers, create skill gaps, and widen unequal access; this is part of the digital divide.\n\nThe digital divide means some people lack internet access, devices, or technical education, limiting their opportunities. Bridging this gap is a major global challenge.\n\nBig idea: computing reshapes economies and societies worldwide. Its benefits are huge, but unevenly distributed.\n\nKey ideas: Global connectivity enables new forms of collaboration and work.; Automation changes the job market, sometimes displacing workers.; The digital divide limits opportunities for those without access or skills.."
+    }
+  ]
+}

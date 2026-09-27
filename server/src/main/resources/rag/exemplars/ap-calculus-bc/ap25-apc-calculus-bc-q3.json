@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Calculus BC",
+      "dimension": "q3-table-analysis-no-calculator",
+      "refId": "CALCBC:q3:rubric",
+      "title": "Q3 — Table Analysis (9 points, no calculator)",
+      "content": "AP Calculus BC Q3 (Part B, no calculator; a question shared with AB), 9 points. R(t) words/minute given in a table at t=0,2,8,10 (R=90,100,150,162). A (2 pts): approximate R'(1) by the average rate of change on [0,2] — P1 for [R(2)−R(0)]/2=5 with setup, P2 for correct units (words per minute per minute). B (2 pts): must there be c in (0,10) with R(c)=155? — P3 for stating R is continuous BECAUSE differentiable (bare 'R is continuous' fails P3), P4 for invoking the IVT with R(0)<155<R(10) and answering yes. C (2 pts): trapezoidal sum over the three subintervals for ∫R dt — P5 for the correct trapezoidal form, P6 for the value 1252 (a plain left/right Riemann sum earns P5 but not P6). D (3 pts): teacher's rate W(t)=−(3/10)t^2+8t+100; total words in 10 min — P7 for the integral of W, P8 for the correct antiderivative, P9 (needs P8) for the value 1300. Common failure: incorrect units (P2), stating continuity without the 'because differentiable' link (P3), Riemann sum where a trapezoidal sum is required (P6)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus BC",
+      "scoreBand": "9",
+      "refId": "CALCBC:q3:2025-3A",
+      "title": "Q3 exemplar — Sample 3A, 9/9",
+      "content": "Q3 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: (100−90)/2 with units words/min^2 (A); 'R differentiable and therefore continuous' plus a full IVT statement with 90<155<162 (B); correct trapezoidal expression (C); ∫W dt, antiderivative −(1/10)t^3+4t^2+100t, and answer 1300 (D). Model, including the continuity-from-differentiability link."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus BC",
+      "scoreBand": "6",
+      "refId": "CALCBC:q3:2025-3B",
+      "title": "Q3 exemplar — Sample 3B, 6/9",
+      "content": "Q3 scored 6/9 (1-0-0-0-1-1-1-1-1). Earned P1 (answer 5 with work), both C points (correct trapezoidal sum), and all three D points. Lost P2 (units incorrect) and both B points — never stated R is continuous, so P3 failed and P4 became ineligible. Shows that omitting the continuity justification forfeits the entire IVT part."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus BC",
+      "scoreBand": "2",
+      "refId": "CALCBC:q3:2025-3C",
+      "title": "Q3 exemplar — Sample 3C, 2/9",
+      "content": "Q3 scored 2/9 (1-0-0-0-0-0-1-0-0). Earned only P1 (answer 5 with supporting work) and P7 (integral of W). Lost P2 (units), both B points (no continuity statement, no bracketing of 155), both C points (not in trapezoidal form), and P8/P9 (no antiderivative). Illustrates a low no-calculator response banking only the difference quotient and integral setup."
+    }
+  ]
+}

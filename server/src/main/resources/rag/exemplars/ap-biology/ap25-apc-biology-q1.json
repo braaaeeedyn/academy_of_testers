@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Biology",
+      "dimension": "q1-interpreting-evaluating-experimental-results",
+      "refId": "BIO:q1:rubric",
+      "title": "Q1 — Interpreting and Evaluating Experimental Results (9 points)",
+      "content": "AP Biology Q1 (long FRQ), 9 points, each point earned independently. A1: describe the function of ribosomes (synthesize polypeptides/proteins; perform translation). B1: identify the dependent variable in Figure 1 (the relative amount of protein). B2: justify why measuring both Sec62 and SR proteins in Sec62-siRNA cells is a needed control (to determine whether the siRNA reduced only Sec62 vs. both proteins). B3: describe the effect on SR protein production under Sec62 siRNA (increased). C1: identify the independent variable in the second experiment (the type of siRNA, or the type of protein measured). C2: identify which protein(s) showed increased transport under Sec62 siRNA (protein 2 and/or 3). C3: calculate the difference in amino acids between a 234-nt and a 495-nt protein = 87 [(495/3)−(234/3)]. D1: use Figure 2 data to support that only protein 1 is transported after complete cytosolic translation (only protein 1 showed reduced transport with Sec62 siRNA). D2: justify that amino-terminus amino acids with similar polarity/opposite charge to the channel are more likely to pass through the ER protein channel. Common failure: vague control justifications (B2) and connecting D2 to the phospholipid bilayer rather than the channel interior."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Biology",
+      "scoreBand": "7",
+      "refId": "BIO:q1:2025-1A",
+      "title": "Q1 exemplar — Sample 1A, 7/9",
+      "content": "Q1 scored 7/9. Earned A1 (ribosomes aid in protein synthesis), B1 (relative protein content), B3 (SR production increased), C1 (kind of siRNA), C2 (proteins 2 and 3), C3 (87 amino acids), D1 (protein 1 is the only one reduced by Sec62 siRNA, with accurate supporting explanation). Lost B2 (only vague 'have results to compare' / 'normal conditions' — did not specify the control distinguishes whether Sec62 siRNA affects Sec62 alone) and D2 (incorrectly tied 'non-polar amino acids' to the phospholipid bilayer rather than the interior of the membrane channel). Model for how strong responses still miss the two most conceptually demanding points."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Biology",
+      "scoreBand": "6",
+      "refId": "BIO:q1:2025-1B",
+      "title": "Q1 exemplar — Sample 1B, 6/9",
+      "content": "Q1 scored 6/9. Earned A1, B1, B3, C1, C2, C3. Lost B2 (justified only as comparing to 'normal conditions,' not that the control shows whether Sec62 siRNA reduces Sec62 alone), D1 (did not state that only protein 1 had reduced transport under Sec62 siRNA), and D2 (described charge/attraction to water of the amino terminus but never stated the channel must have similar polarity/opposite charge). Illustrates that both control-justification and mechanism points are the hardest to secure."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Biology",
+      "scoreBand": "3",
+      "refId": "BIO:q1:2025-1C",
+      "title": "Q1 exemplar — Sample 1C, 3/9",
+      "content": "Q1 scored 3/9. Earned only B3 (SR production increasing), C2 (proteins 2 and 3), C3 (87 amino acids). Lost A1 ('transport proteins' is not the synthesis function of ribosomes), B1 (misidentified 'type of siRNA' as dependent variable), B2 (vague), C1 (identified 'proteins' as independent variable without specifying which set), D1 (misread Sec62/SR as dependent variables changed by protein 1), and D2 (no polarity/charge description). Shows a low response that still banks the calculation and data-reading points."
+    }
+  ]
+}

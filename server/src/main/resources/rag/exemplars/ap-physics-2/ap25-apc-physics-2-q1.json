@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics 2",
+      "dimension": "q1-mathematical-routines",
+      "refId": "PHYS2:q1:rubric",
+      "title": "Q1 Mathematical Routines (MR) — 10 points",
+      "content": "AP Physics 2 FRQ 1 is Mathematical Routines (MR), 10 points, scored by lettered sub-points (A1, A2, …). The MR task requires multi-step derivations/calculations with correct physics relationships, substitutions, and expressions consistent across parts. Q1 topic: magnetism and current (magnetic force/field on a current-carrying element). Points reward writing the correct governing relationship, correct substitutions, and final expressions consistent with earlier parts. Common failure: omitting the intermediate relationship; sign/direction errors in the magnetic force; expressions inconsistent with prior parts."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 2",
+      "scoreBand": "10",
+      "refId": "PHYS2:q1:2025-1A",
+      "title": "Q1 exemplar — Sample 1A, 10/10",
+      "content": "Q1 (MR) scored 10/10 — all sub-points, with correct magnetism relationships, substitutions, and consistent final expressions. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 2",
+      "scoreBand": "7",
+      "refId": "PHYS2:q1:2025-1B",
+      "title": "Q1 exemplar — Sample 1B, 7/10",
+      "content": "Q1 (MR) scored 7/10 — earned most sub-points but lost a few, typically a later derivation step or a consistency-dependent final expression. Illustrates a strong routine with a break late in the chain."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 2",
+      "scoreBand": "4",
+      "refId": "PHYS2:q1:2025-1C",
+      "title": "Q1 exemplar — Sample 1C, 4/10",
+      "content": "Q1 (MR) scored 4/10 — earned the setup and one or two relationships but not the full multistep derivation or the consistent final expressions. Illustrates a partially completed mathematical routine."
+    }
+  ]
+}

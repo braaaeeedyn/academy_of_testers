@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics C: Mechanics",
+      "dimension": "q1-mathematical-routines",
+      "refId": "PHYSCMECH:q1:rubric",
+      "title": "Q1 Mathematical Routines (MR) — 10 points",
+      "content": "AP Physics C: Mechanics FRQ 1 is Mathematical Routines (MR), 10 points, scored by lettered sub-points. The MR task requires multi-step (often calculus-based) derivations/calculations with correct physics relationships, substitutions, and consistent expressions. Q1 topic: momentum and a collision between blocks/objects (conservation of momentum, impulse, energy). Points reward the governing relationship (conservation of momentum, impulse–momentum, energy), correct substitutions, and final expressions consistent with earlier parts. Common failure: omitting the conservation equation; energy/momentum confusion; expressions inconsistent with prior parts."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: Mechanics",
+      "scoreBand": "10",
+      "refId": "PHYSCMECH:q1:2025-1A",
+      "title": "Q1 exemplar — Sample 1A, 10/10",
+      "content": "Q1 (MR) scored 10/10 — all sub-points, with correct momentum/energy relationships, substitutions, and consistent final expressions. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: Mechanics",
+      "scoreBand": "6",
+      "refId": "PHYSCMECH:q1:2025-1B",
+      "title": "Q1 exemplar — Sample 1B, 6/10",
+      "content": "Q1 (MR) scored 6/10 — earned the setup and several relationships but lost points on later derivation steps or consistency-dependent final expressions. Illustrates a partially completed routine."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: Mechanics",
+      "scoreBand": "4",
+      "refId": "PHYSCMECH:q1:2025-1C",
+      "title": "Q1 exemplar — Sample 1C, 4/10",
+      "content": "Q1 (MR) scored 4/10 — earned a few sub-points (e.g., a conservation statement and one substitution), losing the full derivation and consistent final expressions. Illustrates a response that cannot carry the multistep routine to completion."
+    }
+  ]
+}

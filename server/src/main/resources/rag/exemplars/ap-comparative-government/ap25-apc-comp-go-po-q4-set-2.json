@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Comparative Government",
+      "dimension": "q4-argument-essay",
+      "refId": "COMPGOV:q4-set2:rubric",
+      "title": "Q4 Argument Essay (5 points) — Set 2: judicial independence & political legitimacy",
+      "content": "AP Comparative Government FRQ 4, Argument Essay, 5 points across four rows. Row A Claim/Thesis [1]: defensible thesis with a line of reasoning using a required course concept. Row B Evidence [2]: two specific, relevant pieces of evidence from required course countries tied to a course concept. Row C Reasoning [1]: explain how/why the evidence supports the thesis (requires Row A). Row D Alternate Perspectives [1]: describe an opposing view AND refute/concede/rebut it (requires Row A). Set 2 prompt: whether judicial independence increases or decreases a government's political legitimacy, using one or more of checks and balances, stability, and rule of law. Same four-row scoring model as Set 1. Common failure: thesis that only restates the prompt; alternate perspective described but not answered; evidence unconnected to a course concept."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "5",
+      "refId": "COMPGOV:q4-set2:2025-4A",
+      "title": "Q4 Set 2 exemplar — Sample 4A, 5/5",
+      "content": "Q4 (Set 2) scored 5/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 1). Defensible thesis on judicial independence and legitimacy using a course concept, two pieces of course-country evidence, reasoning tying evidence to the thesis, and an alternate perspective that is refuted/conceded/rebutted. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "4",
+      "refId": "COMPGOV:q4-set2:2025-4B",
+      "title": "Q4 Set 2 exemplar — Sample 4B, 4/5",
+      "content": "Q4 (Set 2) scored 4/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 0). Earned thesis, both evidence points, and reasoning, but lost Row D by not responding to an alternate perspective with refutation, concession, or rebuttal. Same common miss as Set 1's 4B."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "3",
+      "refId": "COMPGOV:q4-set2:2025-4C",
+      "title": "Q4 Set 2 exemplar — Sample 4C, 3/5",
+      "content": "Q4 (Set 2) scored 3/5 (Thesis 1, Evidence 1, Reasoning 1, Alternate 0). Earned the thesis, one piece of evidence, and reasoning connecting it, but earned only one evidence point (a second specific, course-concept-linked piece was missing) and did not respond to an alternate perspective. Illustrates a mid-range essay short one evidence point and the alternate-perspective response."
+    }
+  ]
+}

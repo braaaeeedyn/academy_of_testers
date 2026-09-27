@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Precalculus",
+      "dimension": "q2-periodic-modeling-calculator",
+      "refId": "PRECALC:q2:rubric",
+      "title": "Q2 — Periodic/Sinusoidal Modeling (6 points, calculator)",
+      "content": "AP Precalculus FRQ 2 (Part A, graphing calculator required), 6 points, scored by lettered subparts. Q2 topic: periodic/sinusoidal function modeling (e.g., building a sinusoidal model f(x)=a·sin(b(x−c))+d from context, identifying amplitude/period/midline, evaluating, and interpreting). Points reward: correct sinusoidal parameters, correct evaluations/solutions with setup, and correct contextual interpretation. Common failure: wrong amplitude/period/midline; answer without setup; interpretation without context/units."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Precalculus",
+      "scoreBand": "6",
+      "refId": "PRECALC:q2:2025-2A",
+      "title": "Q2 exemplar — Sample 2A, 6/6",
+      "content": "Q2 scored 6/6 — correct sinusoidal model parameters, correct evaluations/solutions with setup, and correct contextual interpretation. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Precalculus",
+      "scoreBand": "5",
+      "refId": "PRECALC:q2:2025-2B",
+      "title": "Q2 exemplar — Sample 2B, 5/6",
+      "content": "Q2 scored 5/6 — earned nearly all subparts, losing one on an interpretation or a minor parameter/calculation slip. Illustrates a strong response one point short."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Precalculus",
+      "scoreBand": "4",
+      "refId": "PRECALC:q2:2025-2C",
+      "title": "Q2 exemplar — Sample 2C, 4/6",
+      "content": "Q2 scored 4/6 — earned the model and some evaluations but lost points on solution setup or contextual interpretation. Illustrates a partially complete sinusoidal-modeling response."
+    }
+  ]
+}

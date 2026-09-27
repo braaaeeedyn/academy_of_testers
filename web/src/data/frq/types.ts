@@ -25,6 +25,12 @@ export interface FrqPrompt {
   sourceText?: string
   /** College Board's suggested writing time, in minutes (drives the timer default). */
   suggestedMinutes: number
+  /**
+   * A "paste your finished work" task rather than a timed write — e.g. the AP Research academic
+   * paper, graded holistically. When true the workspace hides the exam timer, accepts a much longer
+   * response, and relabels the editor/CTA around pasting a completed paper.
+   */
+  longForm?: boolean
   rubric: FrqRubricRow[]
 }
 

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Chemistry",
+      "dimension": "q3-long-answer",
+      "refId": "CHEM:q3:rubric",
+      "title": "Q3 — Long Answer (10 points)",
+      "content": "AP Chemistry Q3 (Long Answer), 10 points, one point per part. Topic: phosphorus oxides — Lewis structure, thermodynamics, calorimetry, Hess's law, and equilibrium. A [Pt1]: correct Lewis diagram (two lone-pair electrons on each P atom). B(i) [Pt2]: entropy decreases because gaseous reactants have more microstates/dispersal than the solid product (particle-level reasoning required). B(ii) [Pt3]: using ΔG°=ΔH°−TΔS°, the reaction is favorable because it is exothermic (ΔH°<0 drives favorability; ΔS°<0 does not). C(i) [Pt4]: q=mcΔT (≈0.16 kJ) reported to correct sig figs (two). C(ii) [Pt5]: ΔH°rxn magnitude per mole (≈450 kJ/mol) consistent with C(i); [Pt6]: correct negative sign (exothermic). D [Pt7]: with less P4O10, ΔT is 'less than' because less thermal energy is transferred. E [Pt8]: ΔHf via Hess's law (−375 kJ/mol). F(i) [Pt9]: Kp from partial pressures read off the particle diagram (=0.333); F(ii) [Pt10]: Kp decreases with higher T because the exothermic reaction favors reactants. Common failure: significant-figure errors (C(i)), dividing q by coefficients instead of moles of P4O10 (C(ii)), and temperature/equilibrium reasoning errors in D and F(ii)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "10",
+      "refId": "CHEM:q3:2025-3A",
+      "title": "Q3 exemplar — Sample 3A, 10/10",
+      "content": "Q3 scored 10/10 (all points). Correct Lewis lone pairs (A); microstate-based entropy explanation and enthalpy-driven favorability (B); q to two sig figs, ΔH°rxn magnitude, and negative sign (C); ΔT 'less than' with less P4O10 (D); Hess's-law ΔHf (E); Kp from the particle diagram and Kp decreasing with higher T (F). Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "5",
+      "refId": "CHEM:q3:2025-3B",
+      "title": "Q3 exemplar — Sample 3B, 5/10",
+      "content": "Q3 scored 5/10. Earned A, B(i), B(ii), C(ii) sign point, and E (Hess's law). Lost C(i) (correct q but reported to three sig figs instead of two), C(ii) magnitude (divided q by stoichiometric coefficients rather than moles of P4O10), D (said ΔT increases), F(i) (partial pressures not consistent with the diagram), and F(ii) (correct 'decrease' but no statement that exothermic reactions favor reactants at higher T). Shows how a sig-fig slip and a mole/coefficient error cost multiple points."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "3",
+      "refId": "CHEM:q3:2025-3C",
+      "title": "Q3 exemplar — Sample 3C, 3/10",
+      "content": "Q3 scored 3/10. Earned A (Lewis lone pairs), E (Hess's law), and F(i) (Kp from the diagram). Lost B(i) (no particle-level reasoning), B(ii) (answered the wrong prompt about the driving force), C(i) (sig figs), C(ii) (wrong moles of P4O10 and missing negative sign), D (said 'equal to'), and F(ii) (said Kp increases with an invalid pressure–temperature justification). Illustrates a low response holding only the structure, Hess's-law, and Kp-calculation points."
+    }
+  ]
+}

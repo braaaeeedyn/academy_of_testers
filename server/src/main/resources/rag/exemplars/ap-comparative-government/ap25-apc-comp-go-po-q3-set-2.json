@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Comparative Government",
+      "dimension": "q3-comparative-analysis",
+      "refId": "COMPGOV:q3-set2:rubric",
+      "title": "Q3 Comparative Analysis (5 points) — Set 2: civil society",
+      "content": "AP Comparative Government FRQ 3, Comparative Analysis, 5 points: A describe a concept (1), B describe a role in TWO different course countries (2), C explain WHY for each (2). Course countries: China, Iran, Mexico, Nigeria, Russia, UK. Set 2 answer key: A [1] describe civil society (voluntary associations autonomous from the state; NGOs citizens join voluntarily — naming a single example organization alone is NOT enough). B [2] describe a role of civil society organizations in two course countries (e.g., monitor/lobby the government and expose corruption; represent members' interests; provide organizational experience). C [2] explain why for each country. Same A/B/C task template as Set 1, with B and C country-specific. Common failure for A: naming one CSO example instead of defining the category."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "5",
+      "refId": "COMPGOV:q3-set2:2025-3A",
+      "title": "Q3 Set 2 exemplar — Sample 3A, 5/5",
+      "content": "Q3 (Set 2) scored 5/5 (A=1, B=2, C=2). Defined civil society, described its role in two course countries, and explained why for each. Full-credit model for the Comparative Analysis task."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "4",
+      "refId": "COMPGOV:q3-set2:2025-3B",
+      "title": "Q3 Set 2 exemplar — Sample 3B, 4/5",
+      "content": "Q3 (Set 2) scored 4/5 (A=0, B=2, C=2). Earned both country descriptions and both explanations but lost part A — did not correctly define civil society (e.g., named an example rather than describing voluntary associations autonomous from the state). Illustrates that the concept-definition point can be missed even when the two-country application is strong."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "2",
+      "refId": "COMPGOV:q3-set2:2025-3C",
+      "title": "Q3 Set 2 exemplar — Sample 3C, 2/5",
+      "content": "Q3 (Set 2) scored 2/5 (A=0, B=2, C=0). Earned only the two country-role descriptions. Lost A (no valid definition of civil society) and both C explanations (did not explain why civil society plays that role in each country). Illustrates a response that can describe roles but not define the concept or explain causation."
+    }
+  ]
+}

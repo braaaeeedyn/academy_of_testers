@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Biology",
+      "dimension": "q3-scientific-investigation",
+      "refId": "BIO:q3:rubric",
+      "title": "Q3 — Scientific Investigation (4 points)",
+      "content": "AP Biology Q3 (short FRQ, Scientific Investigation), 4 points, one per part. Context: buffelgrass (invasive) vs. saguaro cactus (keystone), grown with native grasses under drought/nondrought. A: describe the effect of removing a keystone species (reduces biodiversity/diversity/resilience, or causes ecosystem collapse). B: identify an appropriate control group (buffelgrass grown alone / with no native grass species). C: state the null hypothesis (no difference/effect on buffelgrass abundance/dry weight/height when grown with native plants vs. alone, or across drought conditions). D: justify the claim that wildfires increase buffelgrass abundance (after a fire, buffelgrass has less/no competition and more resources because native grasses regrow slower). Common failure: null hypotheses stated as a directional effect rather than 'no difference'; part-D answers that omit reduced competition or increased resources."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Biology",
+      "scoreBand": "4",
+      "refId": "BIO:q3:2025-3A",
+      "title": "Q3 exemplar — Sample 3A, 4/4",
+      "content": "Q3 scored 4/4. A: 'severe decrease in biodiversity and resilience' that 'could cause it to collapse.' B: control = growing only buffelgrass. C: null = 'presence of native grass species will have no effect on the height and dry weight of the buffelgrass.' D: 'buffelgrass will have no competition.' Full-credit model with a correctly framed no-effect null hypothesis."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Biology",
+      "scoreBand": "3",
+      "refId": "BIO:q3:2025-3B",
+      "title": "Q3 exemplar — Sample 3B, 3/4",
+      "content": "Q3 scored 3/4. Earned A ('will reduce biodiversity'), B (grow only buffelgrass), C (native grass 'will not affect buffelgrass abundance'). Lost D: no mention of reduced competition or increased resources for buffelgrass after a wildfire. Shows a common D-part gap — restating the claim without the causal justification."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Biology",
+      "scoreBand": "2",
+      "refId": "BIO:q3:2025-3C",
+      "title": "Q3 exemplar — Sample 3C, 2/4",
+      "content": "Q3 scored 2/4. Earned B (buffelgrass grown without native species in both conditions) and D (grass keeps growing since native competitors are absent). Lost A ('imbalance of trophic levels' does not sufficiently describe the ecosystem effect — no biodiversity loss or collapse) and C (stated a directional effect, 'abundance is reduced when grown with native grasses,' instead of a no-effect null hypothesis). Illustrates the frequent null-hypothesis error of asserting an effect."
+    }
+  ]
+}

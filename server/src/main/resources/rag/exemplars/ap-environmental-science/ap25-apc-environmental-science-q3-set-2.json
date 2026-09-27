@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Environmental Science",
+      "dimension": "q3-analyze-problem-propose-solution-calculations",
+      "refId": "APES:q3-set2:rubric",
+      "title": "Q3 Analyze a Problem & Propose a Solution w/ Calculations (10 points) — Set 2: coal surface mining",
+      "content": "AP Environmental Science FRQ 3, 'Analyze an Environmental Problem and Propose a Solution' with a calculation component, 10 points across parts A–G (calculation parts award a setup point AND an answer point), same task template as Set 1. Set 2 topic: coal surface mining near a town. Answer key highlights: A [P1] identify a type of surface mining to access coal (e.g., strip mining, mountaintop removal, open-pit). B [P2] describe an environmental problem associated with surface mining (habitat destruction, erosion/sedimentation, acid mine drainage). C [P3] describe an environmental problem the town could experience. D [P4+] propose a realistic local-government solution and later calculation parts follow (setup + answer each). Common failure: identifying underground rather than surface mining in A; calculation parts missing the shown setup or using wrong units. Show-your-work is required for the setup points."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Environmental Science",
+      "scoreBand": "10",
+      "refId": "APES:q3-set2:2025-3A",
+      "title": "Q3 Set 2 exemplar — Sample 3A, 10/10",
+      "content": "Q3 (Set 2) scored 10/10 — earned every part: surface-mining identification, mining and town environmental problems, the proposed local solution, and all calculation setup-and-answer points with correct work and units. Full-credit model for the calculation FRQ."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Environmental Science",
+      "scoreBand": "5",
+      "refId": "APES:q3-set2:2025-3B",
+      "title": "Q3 Set 2 exemplar — Sample 3B, 5/10",
+      "content": "Q3 (Set 2) scored 5/10 — typically earned the identification and description points and part of the calculations (a setup or an answer), while losing calculation points to missing setups or unit errors and some explanation/solution points. Illustrates partial credit on the calculation-heavy question."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Environmental Science",
+      "scoreBand": "2",
+      "refId": "APES:q3-set2:2025-3C",
+      "title": "Q3 Set 2 exemplar — Sample 3C, 2/10",
+      "content": "Q3 (Set 2) scored 2/10 — earned only about two points, generally the surface-mining identification and one environmental-problem description, while losing the proposed-solution and calculation points (no valid setup/answer). Illustrates a low response that cannot complete the calculations or the solution reasoning."
+    }
+  ]
+}

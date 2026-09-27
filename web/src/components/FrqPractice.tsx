@@ -32,6 +32,7 @@ const ESSAY_TYPE_ICON: Record<string, string> = {
   Argument: 'M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z',
   Synthesis: 'M4 5a1 1 0 011-1h5l2 2h7a1 1 0 011 1v3M3 8h18M3 8v10a1 1 0 001 1h16a1 1 0 001-1V8',
   'Long Essay (LEQ)': 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
+  'Academic Paper': 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
 }
 
 export default function FrqPractice({ subjectName }: { subjectName: string }) {
@@ -107,7 +108,7 @@ export default function FrqPractice({ subjectName }: { subjectName: string }) {
                   className="text-[11px] font-semibold px-2 py-1 rounded-full whitespace-nowrap"
                   style={{ backgroundColor: 'color-mix(in srgb, var(--text) 8%, transparent)', color: 'var(--text-muted)' }}
                 >
-                  {total} pts · {p.suggestedMinutes} min
+                  {total} pts · {p.longForm ? 'holistic' : `${p.suggestedMinutes} min`}
                 </span>
               </div>
               <div className="flex items-center gap-1.5">
@@ -144,21 +145,24 @@ function FrqWorkspace({
   const [grade, setGrade] = useState<FrqGrade | null>(null)
   const [error, setError] = useState<string | null>(null)
 
+  const longForm = !!prompt.longForm
+  const maxChars = longForm ? 60000 : 14000
   const wordCount = response.trim() ? response.trim().split(/\s+/).length : 0
 
   // Countdown timer — auto-starts, pausable, keeps counting past 0 (never blocks submit).
+  // A paste-your-paper task (longForm) isn't timed, so the timer is disabled there.
   const [secondsLeft, setSecondsLeft] = useState(prompt.suggestedMinutes * 60)
-  const [running, setRunning] = useState(true)
+  const [running, setRunning] = useState(!longForm)
   const tick = useRef<ReturnType<typeof setInterval> | null>(null)
 
   useEffect(() => {
-    if (running) {
+    if (running && !longForm) {
       tick.current = setInterval(() => setSecondsLeft((s) => s - 1), 1000)
       return () => {
         if (tick.current) clearInterval(tick.current)
       }
     }
-  }, [running])
+  }, [running, longForm])
 
   const submit = async () => {
     if (!response.trim()) return
@@ -265,15 +269,22 @@ function FrqWorkspace({
       >
         <div className="flex items-center justify-between gap-3 px-4 py-2.5" style={{ borderBottom: '1px solid var(--hairline)' }}>
           <div className="flex items-center gap-3">
-            <button
-              onClick={() => setRunning((r) => !r)}
-              className="flex items-center gap-1.5 text-sm font-semibold tabular-nums cursor-pointer rounded-md px-2 py-1 transition-colors"
-              style={{ color: timerOver ? 'var(--error)' : timerLow ? 'var(--warning)' : 'var(--text)' }}
-              title={running ? 'Pause timer' : 'Resume timer'}
-            >
-              <Icon path={running ? 'M10 9v6m4-6v6' : 'M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z'} className="w-4 h-4" />
-              {timerOver ? `Time’s up (+${fmtTime(-secondsLeft)})` : fmtTime(secondsLeft)}
-            </button>
+            {longForm ? (
+              <span className="flex items-center gap-1.5 text-sm font-semibold px-2 py-1" style={{ color: 'var(--text-muted)' }}>
+                <Icon path="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" className="w-4 h-4" />
+                Paste your finished paper
+              </span>
+            ) : (
+              <button
+                onClick={() => setRunning((r) => !r)}
+                className="flex items-center gap-1.5 text-sm font-semibold tabular-nums cursor-pointer rounded-md px-2 py-1 transition-colors"
+                style={{ color: timerOver ? 'var(--error)' : timerLow ? 'var(--warning)' : 'var(--text)' }}
+                title={running ? 'Pause timer' : 'Resume timer'}
+              >
+                <Icon path={running ? 'M10 9v6m4-6v6' : 'M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z'} className="w-4 h-4" />
+                {timerOver ? `Time’s up (+${fmtTime(-secondsLeft)})` : fmtTime(secondsLeft)}
+              </button>
+            )}
           </div>
           <span className="text-xs tabular-nums" style={{ color: 'var(--text-muted)' }}>
             {wordCount} words
@@ -282,8 +293,12 @@ function FrqWorkspace({
         <textarea
           value={response}
           onChange={(e) => setResponse(e.target.value)}
-          maxLength={14000}
-          placeholder="Write your full response here. Address every part of the prompt with specific evidence and reasoning."
+          maxLength={maxChars}
+          placeholder={
+            longForm
+              ? 'Paste your full academic paper here — introduction, method, results/analysis, and conclusion.'
+              : 'Write your full response here. Address every part of the prompt with specific evidence and reasoning.'
+          }
           className="w-full px-4 py-3.5 text-sm leading-relaxed resize-y focus:outline-none"
           style={{ minHeight: '20rem', backgroundColor: 'transparent', color: 'var(--text)' }}
         />
@@ -326,14 +341,18 @@ function FrqWorkspace({
               <span className="testy-dots">Grading strictly</span>
             </>
           ) : grade ? (
-            'Re-grade my revision'
+            longForm ? 'Re-grade my paper' : 'Re-grade my revision'
+          ) : longForm ? (
+            'Grade my paper'
           ) : (
             'Grade my essay'
           )}
         </button>
         {grade && (
           <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-            Revise above and re-grade to see your score improve.
+            {longForm
+              ? 'Revise your paper above and re-grade to see your score improve.'
+              : 'Revise above and re-grade to see your score improve.'}
           </span>
         )}
       </div>

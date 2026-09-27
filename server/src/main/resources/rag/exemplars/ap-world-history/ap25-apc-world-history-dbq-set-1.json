@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP World History",
+      "dimension": "dbq-document-based-question",
+      "refId": "WORLDH:dbq:set1-rubric",
+      "title": "DBQ — Document-Based Question (7 points) — Set 1: Transportation/Communication Technologies in Africa",
+      "content": "AP World History DBQ, 7 points, standardized rubric. A Thesis/Claim [1]: a historically defensible thesis that responds to the prompt with a line of reasoning (intro or conclusion; not a restatement). B Contextualization [1]: describes a broader relevant historical context. C Evidence [0–3]: (1) uses the content of at least THREE documents to address the topic; (1) supports an argument using at least FOUR documents; (1) uses at least one piece of specific evidence BEYOND the documents. D Analysis and Reasoning [0–2]: (1) Sourcing — for at least TWO documents, explains how POV/purpose/situation/audience is relevant; (1) Complex Understanding — sophisticated argumentation and/or effective use of evidence (e.g., argument + counterargument across the documents). Set 1 prompt: evaluate transportation/communication technologies in Africa (7 documents). Common failure: three-document ceiling (loses the 4-doc point), no sourcing attempt, vague outside evidence."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "7",
+      "refId": "WORLDH:dbq:set1-2025-1A",
+      "title": "DBQ Set 1 exemplar — Sample 1A, 7/7",
+      "content": "DBQ (Set 1) scored 7/7 (Thesis 1, Context 1, Evidence 3, Analysis 2). Defensible thesis; contextualization; used at least six documents (3-doc and 4-doc points) plus specific outside evidence; sourced at least two documents; and demonstrated a complex understanding via argument and counterargument. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "4",
+      "refId": "WORLDH:dbq:set1-2025-1B",
+      "title": "DBQ Set 1 exemplar — Sample 1B, 4/7",
+      "content": "DBQ (Set 1) scored 4/7 (Thesis 1, Context 1, Evidence 2, Analysis 0). Earned the thesis, contextualization, the 3-document content point, and evidence beyond the documents, but lost the 4-document argument point and both Analysis points (no sourcing, no complexity). Illustrates the common ceiling — solid thesis/context/evidence with no document sourcing or complexity."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "2",
+      "refId": "WORLDH:dbq:set1-2025-1C",
+      "title": "DBQ Set 1 exemplar — Sample 1C, 2/7",
+      "content": "DBQ (Set 1) scored 2/7 (Thesis 1, Context 1, Evidence 0, Analysis 0). Earned only the thesis and contextualization; used too few documents for either evidence point, gave no valid outside evidence, and attempted no sourcing or complexity. Illustrates a response that frames an argument but does not deploy enough document evidence."
+    }
+  ]
+}

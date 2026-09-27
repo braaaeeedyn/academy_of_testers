@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Computer Science A",
+      "dimension": "q1-methods-and-control-structures",
+      "refId": "CSA:q1:rubric",
+      "title": "Q1 — Methods and Control Structures (9 points)",
+      "content": "AP CS A FRQ 1 (Methods and Control Structures), 9 points, applied via per-point criteria then penalties (max 3 penalty points/question, deducted only where rubric credit was earned). Context: a dog-walking company. Part (a) walkDogs (4 pts): Pt1 calls DogWalkCompany method(s) on company (numAvailableDogs/updateDogs on the company instance variable, correct param types); Pt2 compares available dogs to maxDogs to cap the number walked; Pt3 calls numAvailableDogs(hour) and updateDogs(hour, correct#) — the algorithm point; Pt4 returns the calculated int (not print, must return in all cases). Part (b) dogWalkShift (5 pts): Pt5 loops startHour..endHour inclusive; Pt6 calls walkDogs with an int param inside the loop; Pt7 calculates base pay for an hour (5*dogs); Pt8 calculates the possible bonus (BOTH conditions must be tested: dogs==maxDogs OR hour in 9..17 inclusive — no double count, no bonus when unearned); Pt9 accumulates total pay in the loop (must initialize accumulator; must not call walkDogs multiple times per hour). Common failure: Pt8 testing only one bonus condition or using startHour/endHour instead of the current hour i; calling walkDogs twice per iteration (breaks Pt9 because it over-consumes the dog pool)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Computer Science A",
+      "scoreBand": "8",
+      "refId": "CSA:q1:2025-1A",
+      "title": "Q1 exemplar — Sample 1A, 8/9",
+      "content": "Q1 scored 8/9. Earned Pt1–Pt7 and Pt9. Lost only Pt8: the bonus check tested whether the max number of dogs was walked but never checked the peak-hour condition (hour 9–17), and the rubric requires BOTH conditions to be tested. Model of a strong response missing the single most error-prone criterion — the compound bonus condition."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Computer Science A",
+      "scoreBand": "5",
+      "refId": "CSA:q1:2025-1B",
+      "title": "Q1 exemplar — Sample 1B, 5/9",
+      "content": "Q1 scored 5/9. Earned Pt2, Pt3, Pt4 (part a) and Pt5, Pt7 (part b). Lost Pt1 (did not call the methods on the company instance variable), Pt6 (called walkDogs() with no int argument), Pt8 (compared startHour/endHour, not the current hour i, and excluded the endpoints), and Pt9 (called this.walkDogs() multiple times per loop, over-consuming the dog pool). The misspelling numAvialableDogs was not penalized (unambiguous). Illustrates how calling walkDogs repeatedly in a loop breaks the accumulation point."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Computer Science A",
+      "scoreBand": "4",
+      "refId": "CSA:q1:2025-1C",
+      "title": "Q1 exemplar — Sample 1C, 4/9",
+      "content": "Q1 scored 4/9. Earned Pt4 (returns an int), Pt5 (loop bounds; comma-for-semicolon in the for-header not penalized), Pt6 (walkDogs(i)), and Pt9 (initializes and accumulates). Lost Pt1 (methods not on company), Pt2 (compared available dogs to 0, not maxDogs), Pt3 (a numAvailableDogs() call missing its parameter), Pt7 (added a constant 5 rather than 5*dogsWalked), and Pt8 (compared the int maxDogs with no operand and used startHour/endHour rather than i). Illustrates several independent criterion misses despite a runnable structure."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP World History",
+      "dimension": "saq-secondary-source",
+      "refId": "WORLDH:saq1:set2-rubric",
+      "title": "SAQ 1 — Secondary Source (3 points) — Set 2: tea production",
+      "content": "AP World History SAQ 1 (Secondary Source), 3 points, one per part. Set 2 prompts: A [1] identify one argument the author makes regarding tea production in the late nineteenth century; B [1] describe one likely reason for the change in tea imports to Britain, as outlined by the author; C [1] explain how one additional piece of evidence NOT in the passage would support/modify the argument. 'Identify' = correct answer; 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: C naming a piece of evidence without explaining how it bears on the argument."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "3",
+      "refId": "WORLDH:saq1:set2-2025-1A",
+      "title": "SAQ 1 Set 2 exemplar — Sample 1A, 3/3",
+      "content": "SAQ 1 (Set 2) scored 3/3 (A 1, B 1, C 1). Identified the author's argument, described a reason for the change in tea imports, and explained how an additional piece of evidence would support/modify the argument. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "2",
+      "refId": "WORLDH:saq1:set2-2025-1B",
+      "title": "SAQ 1 Set 2 exemplar — Sample 1B, 2/3",
+      "content": "SAQ 1 (Set 2) scored 2/3 (A 1, B 1, C 0). Identified the argument (A) and described a reason (B) but did not explain how additional evidence would bear on the argument (C). Illustrates losing the Explain part."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "1",
+      "refId": "WORLDH:saq1:set2-2025-1C",
+      "title": "SAQ 1 Set 2 exemplar — Sample 1C, 1/3",
+      "content": "SAQ 1 (Set 2) scored 1/3 (A 1, B 0, C 0). Identified the argument only. Lost B (no valid reason for the change) and C (no explanation of additional evidence). Illustrates a response confined to reading the source's argument."
+    }
+  ]
+}

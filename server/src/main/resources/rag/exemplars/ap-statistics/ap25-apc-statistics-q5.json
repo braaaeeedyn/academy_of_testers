@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Statistics",
+      "dimension": "q5-multi-focus",
+      "refId": "STATS:q5:rubric",
+      "title": "Q5 — Multi-Focus (4 points)",
+      "content": "AP Statistics FRQ 5 is Multi-Focus, 4 points, combining skills from multiple content areas (e.g., data analysis, probability, and inference in one scenario). Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks span reading/interpreting data or a model, a probability or expected-value computation, and a short inference or interpretation. Common failure: mishandling one of the linked skills (e.g., correct data reading but a flawed probability or inference step); interpretations without context; computations without setup."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "4",
+      "refId": "STATS:q5:2025-5A",
+      "title": "Q5 exemplar — Sample 5A, 4/4",
+      "content": "Q5 scored 4/4 — all parts essentially correct across the multiple content areas, with correct computations (setup shown) and contextual interpretations. Full-credit model for the multi-focus question."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "3",
+      "refId": "STATS:q5:2025-5B",
+      "title": "Q5 exemplar — Sample 5B, 3/4",
+      "content": "Q5 scored 3/4 — most parts correct with one partial, commonly one of the linked skills (a probability or inference step) incomplete or lacking context. Illustrates a strong multi-focus response one part short."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Statistics",
+      "scoreBand": "2",
+      "refId": "STATS:q5:2025-5C",
+      "title": "Q5 exemplar — Sample 5C, 2/4",
+      "content": "Q5 scored 2/4 — some parts partial: handled one content area but mishandled another (e.g., correct data reading but flawed probability/inference), or omitted context/setup. Illustrates uneven command across the linked skills."
+    }
+  ]
+}

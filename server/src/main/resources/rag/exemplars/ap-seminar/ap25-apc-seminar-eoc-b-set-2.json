@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Seminar",
+      "dimension": "eoc-part-b",
+      "refId": "SEMINAR:eocB-set2:rubric",
+      "title": "End-of-Course Exam Part B (24 points) — Set 2",
+      "content": "AP Seminar End-of-Course Exam Part B, individual written argument from provided sources, 24 points across four rows, each 0–6 (best-fit). Row 1 — Establish Argument (defensible thesis). Row 2 — Establish Argument (developed line of reasoning with commentary). Row 3 — Select and Use Evidence (relevant, integrated, attributed source evidence). Row 4 — Apply Conventions (attribution/citation and writing conventions). Set 2 uses different source materials than Set 1; same rows and scoring. Common failure: thesis restating the prompt; evidence without linking commentary; missing/inconsistent attribution."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Seminar",
+      "scoreBand": "24",
+      "refId": "SEMINAR:eocB-set2:2025-A",
+      "title": "Part B exemplar — Sample A, 24/24",
+      "content": "Part B (Set 2) scored 24/24 (Rows 1–4 all 6). Defensible thesis, fully developed reasoning with commentary, well-integrated and attributed evidence, and strong conventions. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Seminar",
+      "scoreBand": "16",
+      "refId": "SEMINAR:eocB-set2:2025-B",
+      "title": "Part B exemplar — Sample B, 16/24",
+      "content": "Part B (Set 2) scored 16/24 (Rows 1–4 all 4). Workable thesis and reasoning with some commentary, evidence not always tightly linked, and adequate attribution/conventions. Illustrates a mid-range argument."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Seminar",
+      "scoreBand": "8",
+      "refId": "SEMINAR:eocB-set2:2025-C",
+      "title": "Part B exemplar — Sample C, 8/24",
+      "content": "Part B (Set 2) scored 8/24 (Rows 1–4 all 2). Weak/restated thesis, limited reasoning, poorly integrated evidence, and inconsistent attribution/conventions. Illustrates a low, undeveloped written argument."
+    }
+  ]
+}

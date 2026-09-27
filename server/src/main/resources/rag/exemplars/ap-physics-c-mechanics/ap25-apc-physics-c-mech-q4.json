@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics C: Mechanics",
+      "dimension": "q4-qualitative-quantitative-translation",
+      "refId": "PHYSCMECH:q4:rubric",
+      "title": "Q4 Qualitative Quantitative Translation (QQT) — 8 points",
+      "content": "AP Physics C: Mechanics FRQ 4 is Qualitative Quantitative Translation (QQT), 8 points, scored by lettered sub-points. The QQT task connects qualitative reasoning with quantitative analysis around a claim. Q4 topic: rotation with friction (a disk/rotational dynamics — torque, moment of inertia, angular momentum). Points reward: a correct claim/prediction, qualitative reasoning citing the relevant rotational principle (torque, conservation of angular momentum), a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments. Common failure: a claim without a supporting principle; quantitative work inconsistent with the qualitative reasoning; confusing linear and rotational quantities."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: Mechanics",
+      "scoreBand": "8",
+      "refId": "PHYSCMECH:q4:2025-4A",
+      "title": "Q4 exemplar — Sample 4A, 8/8",
+      "content": "Q4 (QQT) scored 8/8 — a correct claim, sound qualitative rotational reasoning, a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: Mechanics",
+      "scoreBand": "4",
+      "refId": "PHYSCMECH:q4:2025-4B",
+      "title": "Q4 exemplar — Sample 4B, 4/8",
+      "content": "Q4 (QQT) scored 4/8 — earned the claim and some qualitative reasoning but lost points where the quantitative argument was incomplete or inconsistent with the claim (e.g., mixing linear and rotational quantities). Illustrates a half-connected response."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics C: Mechanics",
+      "scoreBand": "3",
+      "refId": "PHYSCMECH:q4:2025-4C",
+      "title": "Q4 exemplar — Sample 4C, 3/8",
+      "content": "Q4 (QQT) scored 3/8 — earned a few sub-points (a claim and one or two reasoning/quantitative steps), losing most of the principle-based reasoning and quantitative support. Illustrates a response that only partially links qualitative and quantitative rotational reasoning."
+    }
+  ]
+}

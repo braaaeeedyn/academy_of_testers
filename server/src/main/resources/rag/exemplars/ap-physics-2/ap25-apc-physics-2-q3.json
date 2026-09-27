@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics 2",
+      "dimension": "q3-experimental-design-and-analysis",
+      "refId": "PHYS2:q3:rubric",
+      "title": "Q3 Experimental Design and Analysis (LAB) — 10 points",
+      "content": "AP Physics 2 FRQ 3 is Experimental Design and Analysis (LAB), 10 points, scored by lettered sub-points. The LAB task requires designing a procedure (measurements, equipment, controls), planning a linearizing analysis, and reasoning from data/graphs to a conclusion. Q3 topic: an electric-circuit experiment with a capacitor and resistors (e.g., RC charging/discharging or resistance measurement). Points reward: a valid, replicable procedure with correct electrical measurements; a correct graphing/linearization plan; correct slope/intercept interpretation; and data-supported conclusions. Common failure: a procedure missing a needed measurement (e.g., time or voltage); plotting quantities that do not linearize the relationship; conclusions unsupported by the data."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 2",
+      "scoreBand": "10",
+      "refId": "PHYS2:q3:2025-3A",
+      "title": "Q3 exemplar — Sample 3A, 10/10",
+      "content": "Q3 (LAB) scored 10/10 — complete procedure, correct linearizing graph plan, correct slope/intercept interpretation, and data-supported conclusions. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 2",
+      "scoreBand": "8",
+      "refId": "PHYS2:q3:2025-3B",
+      "title": "Q3 exemplar — Sample 3B, 8/10",
+      "content": "Q3 (LAB) scored 8/10 — earned most sub-points, losing a couple where the linearization or the data-based reasoning was incomplete. Illustrates a strong experimental design with a minor analysis gap."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 2",
+      "scoreBand": "5",
+      "refId": "PHYS2:q3:2025-3C",
+      "title": "Q3 exemplar — Sample 3C, 5/10",
+      "content": "Q3 (LAB) scored 5/10 — earned about half, typically the procedure and some data handling but not the correct linearization or fully data-supported reasoning. Illustrates a partially complete lab design."
+    }
+  ]
+}

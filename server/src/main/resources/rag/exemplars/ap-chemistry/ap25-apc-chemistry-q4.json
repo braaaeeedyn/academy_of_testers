@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Chemistry",
+      "dimension": "q4-short-answer",
+      "refId": "CHEM:q4:rubric",
+      "title": "Q4 — Short Answer (4 points)",
+      "content": "AP Chemistry Q4 (Short Answer), 4 points, one per part. Topic: formaldehyde (H2CO) and methanol (CH3OH). A [Pt1]: hybridization of the C in H2CO is sp2 (three electron domains). B [Pt2]: draw a hydrogen bond — a dashed line between the O of H2CO and the H of the O–H group of CH3OH. C(i) [Pt3]: propose a temperature (181 K–254 K) at which both substances are liquids (between each one's melting and boiling points). C(ii) [Pt4]: energy released on condensation = moles CH3OH × ΔHvap (8.59 g → ≈10.1 kJ removed). Common failure: assigning sp3 to the trigonal-planar carbon; drawing an H bond from a C–H (too small a dipole); misusing q=mcΔT at a phase change instead of moles×ΔHvap."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "4",
+      "refId": "CHEM:q4:2025-4A",
+      "title": "Q4 exemplar — Sample 4A, 4/4",
+      "content": "Q4 scored 4/4. sp2 hybridization for the carbon (A); a valid hydrogen bond from the O–H hydrogen of CH3OH to the O of H2CO (B); 215 K correctly recognized as between the melting and boiling points of both, so both liquid (C i); moles of CH3OH × ΔHvap giving the energy removed on condensation (C ii). Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "2",
+      "refId": "CHEM:q4:2025-4B",
+      "title": "Q4 exemplar — Sample 4B, 2/4",
+      "content": "Q4 scored 2/4. Earned B (valid hydrogen bond) and C(i) (185 K, both liquid). Lost A (called the carbon sp3, which would need four domains rather than three) and C(ii) (used q=mcΔT with the boiling point as ΔT and water's specific heat, but no temperature change occurs at a phase change). Shows the common phase-change energy error."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "1",
+      "refId": "CHEM:q4:2025-4C",
+      "title": "Q4 exemplar — Sample 4C, 1/4",
+      "content": "Q4 scored 1/4. Earned only A (sp2 for the H2CO carbon). Lost B (drew the H bond from a C–H, whose dipole is too small), C(i) (chose 120 K, below both melting points, so both are solids; also misused a degree symbol for kelvin), and C(ii) (divided rather than multiplied by ΔHvap). Illustrates a response that secures only the hybridization point."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP World History",
+      "dimension": "saq-no-stimulus",
+      "refId": "WORLDH:saq4:set2-rubric",
+      "title": "SAQ 4 — No Stimulus (3 points) — Set 2: 20th-century technologies",
+      "content": "AP World History SAQ 4 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] identify one technological development in communication or transportation in the period; B [1] explain one way nuclear technologies affected international relations in the second half of the twentieth century; C [1] explain one way the spread of new technologies contributed to increased economic (interconnection/globalization). 'Identify' = correct answer; 'Explain' = how/why. Common failure: vague identification; explain parts that describe rather than give a causal mechanism."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "3",
+      "refId": "WORLDH:saq4:set2-2025-4A",
+      "title": "SAQ 4 Set 2 exemplar — Sample 4A, 3/3",
+      "content": "SAQ 4 (Set 2) scored 3/3 (A 1, B 1, C 1). Identified a communication/transportation development and explained both a nuclear-technology effect on international relations and a technology-driven economic change. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "2",
+      "refId": "WORLDH:saq4:set2-2025-4B",
+      "title": "SAQ 4 Set 2 exemplar — Sample 4B, 2/3",
+      "content": "SAQ 4 (Set 2) scored 2/3 (A 0, B 1, C 1). Explained the nuclear-technology effect (B) and the economic change (C) but did not identify a valid communication/transportation development (A). Illustrates missing the first Identify part."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "1",
+      "refId": "WORLDH:saq4:set2-2025-4C",
+      "title": "SAQ 4 Set 2 exemplar — Sample 4C, 1/3",
+      "content": "SAQ 4 (Set 2) scored 1/3 (A 0, B 1, C 0). Earned only B (nuclear-technology effect). Lost A (no valid development) and C (no technology-driven economic-change explanation). Illustrates a response holding only one Explain part."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Comparative Government",
+      "dimension": "q2-quantitative-analysis",
+      "refId": "COMPGOV:q2-set2:rubric",
+      "title": "Q2 Quantitative Analysis (5 points) — Set 2: legislative seat share & dominant party systems",
+      "content": "AP Comparative Government FRQ 2, Quantitative Analysis, 5 points, one per part (A–E), from a data graph. Set 2 answer key (percentage of seats held by the largest party): A [1] country where the largest party held the lowest seat share in 2016 = Mexico. B [1] describe the trend in Russia's largest-party seat share 2011–2020 (increased from ~55% to ~75%). C [1] describe dominant party systems (allow multiple parties to compete but one party controls government; hard for new parties to challenge; may restrict opposition media access). D [1] draw a conclusion explaining the change in Mexico's largest-party seat share 2011–2020. E [1] explain what the data imply about a relationship. Same A–E task template as Set 1. Common failure: describing a dominant party system as a one-party state (no competition allowed) rather than one that permits competition but ensures one-party control."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "5",
+      "refId": "COMPGOV:q2-set2:2025-2A",
+      "title": "Q2 Set 2 exemplar — Sample 2A, 5/5",
+      "content": "Q2 (Set 2) scored 5/5 (A–E all earned). Correctly identified Mexico, described Russia's rising seat share, described dominant party systems, drew a data-based conclusion about Mexico, and explained the implied relationship. Full-credit model for the Quantitative Analysis task."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "3",
+      "refId": "COMPGOV:q2-set2:2025-2B",
+      "title": "Q2 Set 2 exemplar — Sample 2B, 3/5",
+      "content": "Q2 (Set 2) scored 3/5 (A=1, B=1, C=0, D=1, E=0). Earned the two data-reading parts and the conclusion, but lost the concept description (dominant party systems) and the final relationship explanation. Illustrates that the concept and implication parts are the harder points."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Comparative Government",
+      "scoreBand": "1",
+      "refId": "COMPGOV:q2-set2:2025-2C",
+      "title": "Q2 Set 2 exemplar — Sample 2C, 1/5",
+      "content": "Q2 (Set 2) scored 1/5 (only A earned). Identified Mexico from the graph but missed the trend description, the dominant-party-system concept, the conclusion, and the implication. Illustrates a low response securing only the direct data-identification point."
+    }
+  ]
+}

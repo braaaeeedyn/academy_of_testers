@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Government",
+      "dimension": "q1-concept-application",
+      "refId": "USGOV:q1-set1:rubric",
+      "title": "Q1 Concept Application (3 points) — Set 1: filibuster & partisanship",
+      "content": "AP Government FRQ 1 is Concept Application, 3 points, one per part A/B/C, based on a scenario. Task pattern: A describe a concept/institution/process in the scenario, B explain how it operates/affects an outcome, C explain how the scenario illustrates a broader course concept. Set 1 answer key: A [1] describe the Senate procedure at issue (filibuster / cloture requiring a 60-vote supermajority to end debate). B [1] explain how it makes passing legislation harder in the Senate than the House (unlimited debate / supermajority for cloture vs. the House's limited debate and simple majority). C [1] explain how the senators' actions illustrate partisanship (voting along party lines — the minority blocking cloture, or the majority failing to reach 60). Common failure: describing rather than explaining in B/C; for C, defining partisanship generally without tying it to the senators' party-line voting in the scenario."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Government",
+      "scoreBand": "3",
+      "refId": "USGOV:q1-set1:2025-1A",
+      "title": "Q1 Set 1 exemplar — Sample 1A, 3/3",
+      "content": "Q1 (Set 1) scored 3/3. A: identified the filibuster and unlimited Senate debate, with cloture requiring a supermajority. B: explained the House's time-limited debate and simple majority make passage easier than the Senate's, where debate can run out the clock. C: explained partisanship as party-line voting — Republicans filibustering together to block the Democrats' bill. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Government",
+      "scoreBand": "2",
+      "refId": "USGOV:q1-set1:2025-1B",
+      "title": "Q1 Set 1 exemplar — Sample 1B, 2/3",
+      "content": "Q1 (Set 1) scored 2/3 — typically earned A (filibuster/cloture) and B (the Senate-vs-House difficulty) but lost C, defining partisanship generally without connecting it to the senators' party-line voting in the scenario. Illustrates the common miss on the 'illustrates the concept' part, which requires applying the concept to the scenario."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Government",
+      "scoreBand": "1",
+      "refId": "USGOV:q1-set1:2025-1C",
+      "title": "Q1 Set 1 exemplar — Sample 1C, 1/3",
+      "content": "Q1 (Set 1) scored 1/3 — earned only the describe point A (the filibuster/cloture procedure), losing B (no clear Senate-vs-House explanation) and C (no scenario-grounded partisanship explanation). Illustrates a response that names the procedure but cannot explain its effect or the broader concept."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP World History",
+      "dimension": "saq-no-stimulus",
+      "refId": "WORLDH:saq3:set2-rubric",
+      "title": "SAQ 3 — No Stimulus (3 points) — Set 2: gunpowder & military/navigational technologies",
+      "content": "AP World History SAQ 3 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] identify one development that contributed to the spread of gunpowder technologies; B [1] explain one way the use of military technologies affected the development of land-based empires; C [1] explain one way navigational technologies contributed to economic change. 'Identify' = correct answer; 'Explain' = how/why. Common failure: vague identification; explain parts that describe rather than give a mechanism."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "3",
+      "refId": "WORLDH:saq3:set2-2025-3A",
+      "title": "SAQ 3 Set 2 exemplar — Sample 3A, 3/3",
+      "content": "SAQ 3 (Set 2) scored 3/3 (A 1, B 1, C 1). Identified a development in gunpowder spread and explained both a military-technology effect on land-based empires and a navigational-technology economic change. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "2",
+      "refId": "WORLDH:saq3:set2-2025-3B",
+      "title": "SAQ 3 Set 2 exemplar — Sample 3B, 2/3",
+      "content": "SAQ 3 (Set 2) scored 2/3 (A 0, B 1, C 1). Explained both military-technology (B) and navigational-technology (C) effects but did not identify a valid development in the spread of gunpowder (A). Illustrates missing the first Identify part."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP World History",
+      "scoreBand": "1",
+      "refId": "WORLDH:saq3:set2-2025-3C",
+      "title": "SAQ 3 Set 2 exemplar — Sample 3C, 1/3",
+      "content": "SAQ 3 (Set 2) scored 1/3 (A 0, B 0, C 1). Earned only C (navigational-technology economic change). Lost A (no valid gunpowder-spread development) and B (no military-technology explanation). Illustrates a response holding only one Explain part."
+    }
+  ]
+}

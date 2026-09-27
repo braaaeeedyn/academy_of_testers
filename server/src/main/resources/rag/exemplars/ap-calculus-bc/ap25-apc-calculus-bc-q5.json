@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Calculus BC",
+      "dimension": "q5-differential-equation-taylor-euler-no-calculator",
+      "refId": "CALCBC:q5:rubric",
+      "title": "Q5 — Differential Equation, Taylor Polynomial, Euler's Method (9 points, no calculator)",
+      "content": "AP Calculus BC Q5 (Part B, no calculator, BC-only), 9 points. y=f(x) solves dy/dx=(3−x)y^2 with f(1)=−1. A (3 pts): find f''(1)=d^2y/dx^2 at (1,−1) — P1 for the product rule, P2 for the chain rule (the dy/dx factor on the first term), P3 for the answer −9 (P3 requires both P1 and P2, or a consistent value). B (2 pts): second-degree Taylor polynomial for f about x=1 — P4 for the two terms −1+2(x−1), P5 for the third term −(9/2)(x−1)^2 (terms of degree >2 or '+…' lose P5; a correct powers-of-(x−1) form is required for P5). C (2 pts): use the Lagrange error bound with |f'''(x)|≤60 on [1,1.1] to show the P_2(1.1) approximation is within 0.01 — P6 for the error-bound form (60/3!)(0.1)^3, P7 for explicitly connecting the bound to ≤0.01 (declaring error EQUALS 0.01 fails P7). D (2 pts): Euler's method from x=1 with two equal steps to approximate f(1.4) — P8 for a correct first step, P9 for the answer −0.47. Common failure: missing the chain-rule factor (loses P2, hence P3); not connecting the error bound to 0.01 (loses P7)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus BC",
+      "scoreBand": "9",
+      "refId": "CALCBC:q5:2025-5A",
+      "title": "Q5 exemplar — Sample 5A, 9/9",
+      "content": "Q5 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: product and chain rule with f''(1)=−9 (A); Taylor polynomial −1+2(x−1)−(9/2)(x−1)^2 (B); error-bound form (60/3!)(0.1)^3 explicitly connected to 0.01 (C); correct first Euler step and answer −0.47 (D). Model for differential equation, Taylor polynomial, Lagrange error, and Euler's method."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus BC",
+      "scoreBand": "6",
+      "refId": "CALCBC:q5:2025-5B",
+      "title": "Q5 exemplar — Sample 5B, 6/9",
+      "content": "Q5 scored 6/9 (1-0-0-1-1-1-0-1-1). Earned P1 (product rule), both B points (Taylor polynomial consistent with imported f''), P6 (error-bound form), and both D points (Euler's method). Lost P2 (no chain-rule dy/dx factor on the first term) and therefore P3, and P7 (no explicit connection to 0.01). Shows the two most-missed BC points here: the chain-rule factor and the explicit error-bound comparison."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus BC",
+      "scoreBand": "3",
+      "refId": "CALCBC:q5:2025-5C",
+      "title": "Q5 exemplar — Sample 5C, 3/9",
+      "content": "Q5 scored 3/9 (0-0-0-0-0-1-0-1-1). Earned only P6 (error-bound form (60/3!)(0.1)^3) and both D points (Euler's method to f(1.4)≈−0.470). Lost all of part A (attempted separation of variables but produced an incorrect solution), both B points (no Taylor terms presented), and P7 (no connection to error/error bound). Illustrates that Euler's method and the error-bound form can be earned even when the derivative and Taylor work fail."
+    }
+  ]
+}

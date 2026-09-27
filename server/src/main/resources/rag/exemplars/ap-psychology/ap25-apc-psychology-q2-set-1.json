@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Psychology",
+      "dimension": "q2-evidence-based-question",
+      "refId": "PSYCH:q2-set1:rubric",
+      "title": "FRQ 2 Evidence-Based Question (EBQ) — 7 points — Set 1: factors influencing performance",
+      "content": "AP Psychology FRQ 2 is the Evidence-Based Question (EBQ), 7 points, based on three sources. Scored by parts A–C. Part A [1]: propose a specific, defensible claim that responds to the prompt. Part B [up to 3]: support the claim with evidence from EACH of the sources, applying psychological concepts (one point per source used accurately and applied). Part C [up to 3]: explain how the evidence supports the claim using psychological reasoning and address the argument's scope/limitations. Set 1 topic: factors that influence performance. The concept must be applied to the sources/claim — a definition alone does not earn the point. Common failure: a claim that only restates the prompt; citing a source without applying a psychological concept; reasoning that restates evidence rather than linking it to the claim."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Psychology",
+      "scoreBand": "7",
+      "refId": "PSYCH:q2-set1:2025-2A",
+      "title": "EBQ Set 1 exemplar — Sample 2A, 7/7",
+      "content": "EBQ (Set 1) scored 7/7 — a defensible claim (A), evidence applied from all three sources (B, 3 points), and reasoning that links the evidence to the claim and addresses scope (C, 3 points). Full-credit model for the Evidence-Based Question."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Psychology",
+      "scoreBand": "5",
+      "refId": "PSYCH:q2-set1:2025-2B",
+      "title": "EBQ Set 1 exemplar — Sample 2B, 5/7",
+      "content": "EBQ (Set 1) scored 5/7 — earned the claim and most evidence/reasoning points but lost about two, commonly one source not applied with a concept or a reasoning point that restated evidence. Illustrates a strong EBQ short of full evidence/reasoning credit."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Psychology",
+      "scoreBand": "1",
+      "refId": "PSYCH:q2-set1:2025-2C",
+      "title": "EBQ Set 1 exemplar — Sample 2C, 1/7",
+      "content": "EBQ (Set 1) scored 1/7 — earned only about one point (typically the claim), with sources not applied via psychological concepts and reasoning that did not connect evidence to the claim. Illustrates a claim without developed, source-grounded support."
+    }
+  ]
+}

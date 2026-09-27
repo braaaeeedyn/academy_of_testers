@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP European History",
+      "dimension": "leq-long-essay-question",
+      "refId": "EUROH:leq2:set2-rubric",
+      "title": "LEQ — Long Essay Question (6 points) — Q2 Set 2: Comparison of Colonization by the Atlantic Powers",
+      "content": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]: defensible thesis with a line of reasoning. B Contextualization [1]: broader relevant historical context. C Evidence [0–2]: (1) at least two specific relevant pieces of evidence; (2) evidence used to support an argument. D Analysis and Reasoning [0–2]: (1) a reasoning process (here COMPARISON) frames the argument; (1) demonstrates a complex understanding. Q2 Set 2 prompt: compare the colonization efforts of the Atlantic powers. Common failure: no defensible thesis (a comparison stated without a line of reasoning); reasoning process present but complexity not demonstrated."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "6",
+      "refId": "EUROH:leq2:set2-2025-2A",
+      "title": "LEQ Q2 Set 2 exemplar — Sample 2A, 6/6",
+      "content": "Q2 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit: comparative thesis, contextualization, two used pieces of evidence, and both reasoning points (comparison plus complex understanding). Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "4",
+      "refId": "EUROH:leq2:set2-2025-2B",
+      "title": "LEQ Q2 Set 2 exemplar — Sample 2B, 4/6",
+      "content": "Q2 (Set 2) scored 4/6 (Thesis 0, Context 1, Evidence 2, Analysis 1). Earned contextualization, both Evidence points (specific evidence used to support an argument), and one Analysis point (comparison reasoning). Lost the Thesis (no defensible claim establishing a line of reasoning) and the Complexity point. Illustrates a well-evidenced essay that never states a scorable thesis — and note that without a thesis the essay can still earn evidence and one reasoning point."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP European History",
+      "scoreBand": "3",
+      "refId": "EUROH:leq2:set2-2025-2C",
+      "title": "LEQ Q2 Set 2 exemplar — Sample 2C, 3/6",
+      "content": "Q2 (Set 2) scored 3/6 (Thesis 0, Context 1, Evidence 2, Analysis 0). Earned contextualization and both Evidence points but lost the Thesis and both Analysis points (no reasoning process framing and no complexity). Illustrates evidence-rich writing that lacks an argument thesis and analytical framing."
+    }
+  ]
+}

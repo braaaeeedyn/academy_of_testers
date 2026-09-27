@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Chemistry",
+      "dimension": "q6-short-answer",
+      "refId": "CHEM:q6:rubric",
+      "title": "Q6 — Short Answer (4 points)",
+      "content": "AP Chemistry Q6 (Short Answer), 4 points, one per part. Topic: electrochemistry (Al/Zn galvanic cell). A [Pt1]: oxidation half-reaction Al → Al3+ + 3e−. B [Pt2]: balanced net ionic equation 2 Al + 3 Zn2+ → 2 Al3+ + 3 Zn. C [Pt3]: Zn experiences the greater mass change — must justify with molar masses AND stoichiometry (for every ~54 g Al consumed, ~196 g Zn is produced; a mole ratio alone is insufficient). D [Pt4]: calculate the maximum cell potential from the table (Zn oxidized, Au3+ reduced): E°cell = 1.50 + 0.76 = 2.26 V. Common failure: in C, comparing moles without molar masses; in D, picking a cell pairing that does not maximize E°cell."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "4",
+      "refId": "CHEM:q6:2025-6A",
+      "title": "Q6 exemplar — Sample 6A, 4/4",
+      "content": "Q6 scored 4/4. Correct Al oxidation half-reaction (A); balanced net ionic equation (B); Zn's greater mass change justified with mass-to-mass stoichiometry over 6 moles of electrons (C); correct maximum E°cell for the Zn/Au cell (D). Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "3",
+      "refId": "CHEM:q6:2025-6B",
+      "title": "Q6 exemplar — Sample 6B, 3/4",
+      "content": "Q6 scored 3/4. Earned A, B, and C (mass comparison via molar masses and stoichiometry: for every 53.96 g Al dissolved, 196.14 g Zn appears). Lost D: computed E°cell correctly for a Zn/Be cell, but that pairing does not give the greatest voltage among the table's options. Shows a right-method-wrong-cell error in the potential calculation."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Chemistry",
+      "scoreBand": "2",
+      "refId": "CHEM:q6:2025-6C",
+      "title": "Q6 exemplar — Sample 6C, 2/4",
+      "content": "Q6 scored 2/4. Earned A (Al oxidation half-reaction) and B (balanced net ionic equation). Lost C (stated 3 mol Zn per 2 mol Al but did not convert to mass — a greater mole change does not guarantee a greater mass change) and D (used a Be/Zn cell, not the maximum-voltage pairing). Illustrates the mole-vs-mass justification gap in part C."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Seminar",
+      "dimension": "eoc-part-a",
+      "refId": "SEMINAR:eocA-set1:rubric",
+      "title": "End-of-Course Exam Part A (15 points) — Set 1",
+      "content": "AP Seminar End-of-Course Exam Part A, 15 points, scored on a source passage across three questions (each row scored independently by best-fit / preponderance of evidence; 0 for off-topic/prompt-repetition, NR for blank). Question 1 — Argument, main idea, or thesis [0–3]: identify the author's argument/main idea/thesis (0 misses, 1 misstates, 2 partial and somewhat accurate, 3 accurate and complete). Question 2 — Explain line of reasoning [0–6]: explain how the author develops the line of reasoning (identify and explain the reasons/claims and how they connect). Question 3 — Evaluate effectiveness of the evidence [0–6]: evaluate how effectively the author's evidence supports the argument, with justification. Common failure: summarizing the passage instead of stating the argument (Q1); listing reasons without explaining how they connect (Q2); describing the evidence instead of evaluating its effectiveness with reasons (Q3)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Seminar",
+      "scoreBand": "15",
+      "refId": "SEMINAR:eocA-set1:2025-A",
+      "title": "Part A exemplar — Sample A, 15/15",
+      "content": "Part A (Set 1) scored 15/15 (Q1 3, Q2 6, Q3 6). Accurately stated the author's argument, fully explained the line of reasoning and how the claims connect, and evaluated the effectiveness of the evidence with clear justification. Full-credit model for Part A."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Seminar",
+      "scoreBand": "10",
+      "refId": "SEMINAR:eocA-set1:2025-B",
+      "title": "Part A exemplar — Sample B, 10/15",
+      "content": "Part A (Set 1) scored 10/15 (Q1 2, Q2 4, Q3 4). Partly accurate argument identification, a partial explanation of the line of reasoning, and a partial evaluation of evidence effectiveness. Illustrates a mid-range response that identifies elements but does not fully explain the reasoning or evaluate the evidence."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Seminar",
+      "scoreBand": "5",
+      "refId": "SEMINAR:eocA-set1:2025-C",
+      "title": "Part A exemplar — Sample C, 5/15",
+      "content": "Part A (Set 1) scored 5/15 (Q1 1, Q2 2, Q3 2). Misstated the argument, gave a minimal/limited explanation of the reasoning, and only minimally addressed the evidence's effectiveness. Illustrates a low response that engages the passage superficially."
+    }
+  ]
+}

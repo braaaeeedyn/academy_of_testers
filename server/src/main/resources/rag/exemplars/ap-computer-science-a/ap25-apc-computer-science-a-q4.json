@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Computer Science A",
+      "dimension": "q4-2d-arrays",
+      "refId": "CSA:q4:rubric",
+      "title": "Q4 — 2D Arrays (9 points)",
+      "content": "AP CS A FRQ 4 (2D Arrays), 9 points, per-point criteria then penalties (max 3/question). Context: SumOrSameGame on a 2D int puzzle grid. Part (a) SumOrSameGame(int numRows, int numCols) constructor (4 pts): Pt1 constructs a correctly sized 2D int array; Pt2 traverses the 2D array with no bounds errors (nested loops); Pt3 generates a uniform random integer for each cell; Pt4 assigns values to the 2D array elements. Part (b) clearPair(int row, int col) (5 pts): Pt5 accesses all and only the necessary elements (may return early if bounds/indices stay correct); Pt6 guards against pairing an element with itself (currRow!=row || currCol!=col); Pt7 determines whether two elements are equal OR sum to 10; Pt8 sets a 2D array element to 0; Pt9 sets both identified elements to 0 when a match is found and returns the appropriate boolean — the algorithm point. Common failure: non-uniform or incorrectly ranged random generation (Pt3); failing to guard the self-pair (Pt6); returning true/false in the wrong cases (Pt9)."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Computer Science A",
+      "scoreBand": "8",
+      "refId": "CSA:q4:2025-4A",
+      "title": "Q4 exemplar — Sample 4A, 8/9",
+      "content": "Q4 scored 8/9. Earned Pt1, Pt2, Pt4 (constructor: correctly sized 2D array, nested traversal, value assignment) and Pt5–Pt9 (clearPair: necessary elements, self-pair guard, equal-or-sum-to-10 test, sets an element to 0, and the full match/return algorithm). Lost only Pt3 — did not generate a uniform random integer in the correct range. Model of a nearly complete response missing just the random-generation criterion."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Computer Science A",
+      "scoreBand": "5",
+      "refId": "CSA:q4:2025-4B",
+      "title": "Q4 exemplar — Sample 4B, 5/9",
+      "content": "Q4 scored 5/9. Earned Pt4 (assigns values to the 2D array), Pt7 (equal-or-sum-to-10 test), Pt8 (sets an element to 0), and Pt9 (match/return algorithm), plus one constructor traversal/setup criterion. Lost Pt1 (2D array not correctly constructed/sized) and Pt5 (did not access all and only the necessary elements in clearPair). Illustrates a response whose clearPair logic largely works but whose grid construction and element-access scope are flawed."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Computer Science A",
+      "scoreBand": "2",
+      "refId": "CSA:q4:2025-4C",
+      "title": "Q4 exemplar — Sample 4C, 2/9",
+      "content": "Q4 scored 2/9. Earned only Pt4 (assigns values to 2D array elements) and Pt8 (sets a 2D array element to 0). Lost Pt1, Pt2, Pt3 (construction, traversal, random generation), Pt5 (element access scope), Pt6 (self-pair guard), Pt7 (equal-or-sum-to-10 test), and Pt9 (match/return algorithm). Illustrates a low response with only isolated assignment and zeroing operations correct."
+    }
+  ]
+}

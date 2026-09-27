@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Physics 1",
+      "dimension": "q1-mathematical-routines",
+      "refId": "PHYS1:q1:rubric",
+      "title": "Q1 Mathematical Routines (MR) — 10 points",
+      "content": "AP Physics 1 FRQ 1 is Mathematical Routines (MR), 10 points, scored by lettered sub-points (A1, A2, …). The MR task requires deriving/calculating quantities through multi-step mathematical routines with correct physics relationships, substitutions, and final expressions consistent with earlier parts. Q1 topic: momentum and a cart–block collision (conservation of momentum; kinetic energy change). Points reward: sketching/labeling correct quantities vs. time, writing a conservation-of-momentum equation, setting initial equal to final momentum, and a multistep energy derivation (K = ½mv²) with expressions consistent with earlier parts. Common failure: skipping the required intermediate relationship (e.g., writing a final answer without showing the momentum or energy equation); expressions inconsistent with prior parts; algebra errors that break the multistep chain."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 1",
+      "scoreBand": "10",
+      "refId": "PHYS1:q1:2025-1A",
+      "title": "Q1 exemplar — Sample 1A, 10/10",
+      "content": "Q1 (MR) scored 10/10 — all sub-points: correct momentum-vs-time reasoning, a conservation-of-momentum equation set initial=final, and a complete multistep kinetic-energy derivation with expressions consistent throughout. Full-credit model for the Mathematical Routines task."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 1",
+      "scoreBand": "5",
+      "refId": "PHYS1:q1:2025-1B",
+      "title": "Q1 exemplar — Sample 1B, 5/10",
+      "content": "Q1 (MR) scored 5/10 — earned about half the sub-points, typically the setup and momentum equation but not the full multistep energy derivation or the consistency-dependent final expressions. Illustrates a response that starts the routine correctly but does not complete the derivation chain."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Physics 1",
+      "scoreBand": "2",
+      "refId": "PHYS1:q1:2025-1C",
+      "title": "Q1 exemplar — Sample 1C, 2/10",
+      "content": "Q1 (MR) scored 2/10 — earned only a couple of sub-points (e.g., an initial sketch or a single equation), losing the conservation equation, the energy derivation, and the consistent final expressions. Illustrates a response that cannot carry out the multistep mathematical routine."
+    }
+  ]
+}

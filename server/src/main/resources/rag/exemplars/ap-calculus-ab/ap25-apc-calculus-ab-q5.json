@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Calculus AB",
+      "dimension": "q5-particle-motion-no-calculator",
+      "refId": "CALCAB:q5:rubric",
+      "title": "Q5 — Particle Motion (9 points, no calculator)",
+      "content": "AP Calculus AB Q5 (Part B, no calculator), 9 points. On 0≤t≤5: particle H has position x_H(t)=e^(t^2−4t); particle J has velocity v_J(t)=(21/2)t(t^2−1). A (2 pts): velocity of H at t=1 — P1 for considering x_H'(t) (product/chain rule form (2t−4)e^(t^2−4t)), P2 for the value −2e^(−3). B (3 pts): open intervals where H and J move in opposite directions with reason — P3 for considering the sign of x_H' or v_J (or identifying t=2 for H / t=1 for J), P4 for a correct sign/direction analysis for ONE particle on (0,5), P5 (needs both analyses correct) for the answer 1<t<2. C (1 pt): is J's speed increasing at t=2, given v_J'(2)>0 — P6 for concluding increasing because v_J(2) and v_J'(2) have the same sign (considering acceleration alone fails). D (3 pts): J is at x=7 at t=0; find position at t=2 — P7 for an integral with integrand v_J, P8 for a correct antiderivative form, P9 (needs P8) for the value 27. Common failure: part C answered from acceleration only; part B losing P4/P5 for no sign analysis."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus AB",
+      "scoreBand": "9",
+      "refId": "CALCAB:q5:2025-5A",
+      "title": "Q5 exemplar — Sample 5A, 9/9",
+      "content": "Q5 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: x_H' form and value −2e^(−3) (A); v_H=0, correct sign analyses of both H and J on (0,5), and answer 1<t<2 (B); v_J(2) and v_J'(2) both positive so speed increasing (C); integral of v_J, antiderivative, and position 27 (D). Model, including the same-sign reasoning for speed in part C."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus AB",
+      "scoreBand": "4",
+      "refId": "CALCAB:q5:2025-5B",
+      "title": "Q5 exemplar — Sample 5B, 4/9",
+      "content": "Q5 scored 4/9 (1-1-0-0-0-0-1-1-0). Earned both A points and P7/P8 in part D (integral and antiderivative). Lost all of part B (never considered the sign of x_H' or v_J, no direction analysis, so P4/P5 ineligible), P6 (considered only acceleration), and P9 (final answer incorrect). Shows the frequent speed error — judging increasing/decreasing from acceleration rather than comparing signs of velocity and acceleration."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Calculus AB",
+      "scoreBand": "3",
+      "refId": "CALCAB:q5:2025-5C",
+      "title": "Q5 exemplar — Sample 5C, 3/9",
+      "content": "Q5 scored 3/9 (1-0-1-0-0-0-1-0-0). Earned P1 (x_H' presented), P3 (set (21/2)t(t^2−1)=0), and P7 (integral of v_J). Lost P2 (numerical expression missing parentheses, unresolved), P4/P5 (no sign or direction analysis for either particle), P6 (acceleration only), and P8/P9 (antiderivative exponent wrong). Illustrates that setup points bank even when execution and the required sign analyses are missing."
+    }
+  ]
+}

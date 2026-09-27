@@ -1,0 +1,36 @@
+{
+  "chunks": [
+    {
+      "corpus": "ap_rubric",
+      "subject": "AP Government",
+      "dimension": "q4-argument-essay",
+      "refId": "USGOV:q4-set2:rubric",
+      "title": "Q4 Argument Essay (6 points) — Set 2: Federalist No. 51 / No. 78 (checks & balances)",
+      "content": "AP Government FRQ 4, Argument Essay, 6 points across four rows. Row A Claim/Thesis [1]. Row B Evidence [0–3]: relevant evidence (1–2), with the 3rd point requiring use of at least ONE required foundational document. Row C Reasoning [1]: explains how the evidence supports the claim. Row D Alternate Perspectives [1]: describes AND rebuts/refutes/concedes an opposing view. Set 2 prompt cites Federalist No. 51 (checks and balances among branches) and Federalist No. 78 (unelected judiciary, lifetime appointments) as required foundational documents. Same four-row model as Set 1. Common failure: not using a listed foundational document (caps Evidence at 2); describing but not answering the alternate perspective; thesis merely restating the prompt."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Government",
+      "scoreBand": "6",
+      "refId": "USGOV:q4-set2:2025-4A",
+      "title": "Q4 Set 2 exemplar — Sample 4A, 6/6",
+      "content": "Q4 (Set 2) scored 6/6 (Thesis 1, Evidence 3, Reasoning 1, Alternate 1). Defensible thesis; evidence including Federalist No. 51 (and/or No. 78) used to support the claim (3rd evidence point); reasoning tying evidence to the thesis; and a rebutted alternate perspective. Full-credit model."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Government",
+      "scoreBand": "4",
+      "refId": "USGOV:q4-set2:2025-4B",
+      "title": "Q4 Set 2 exemplar — Sample 4B, 4/6",
+      "content": "Q4 (Set 2) scored 4/6 — typically Thesis 1, Evidence 2, Reasoning 1, Alternate 0: a supported argument that loses the alternate-perspective point (opposing view not rebutted) and/or the 3rd evidence point for not using a foundational document. Illustrates the common 4-point argument essay."
+    },
+    {
+      "corpus": "ap_exemplar",
+      "subject": "AP Government",
+      "scoreBand": "1",
+      "refId": "USGOV:q4-set2:2025-4C",
+      "title": "Q4 Set 2 exemplar — Sample 4C, 1/6",
+      "content": "Q4 (Set 2) scored 1/6 — earned only about one point (typically the thesis), with insufficient evidence, no reasoning tied to the claim, and no answered alternate perspective. Illustrates a claim without development, which caps the reasoning and alternate-perspective rows that depend on the thesis."
+    }
+  ]
+}
