@@ -22,6 +22,7 @@ import SatHubPage from './pages/SatHubPage'
 import SatPrepPage from './pages/SatPrepPage'
 import SatPrepTopicPage from './pages/SatPrepTopicPage'
 import AiChat from './components/AiChat'
+import TestyPage from './pages/TestyPage'
 import { ChatProvider } from './context/ChatContext'
 import {
   LegacyExamHubRedirect,
@@ -331,6 +332,7 @@ function App() {
                   <Route path="/sat/prep" element={<SatPrepPage />} />
                   <Route path="/sat/prep/:topicId" element={<SatPrepTopicPage />} />
                   <Route path="/sat/adaptive" element={<SatAdaptivePage />} />
+                  <Route path="/testy" element={<TestyPage />} />
                   <Route path="/themes" element={<ThemesPage />} />
                   <Route path="/about" element={<AboutPage />} />
                   <Route path="/mission" element={<MissionPage />} />
