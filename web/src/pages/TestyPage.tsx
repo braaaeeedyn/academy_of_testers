@@ -13,24 +13,45 @@ const MAX_CHARS = 1000
 const INITIAL_REMAINING = 10
 
 /** Subjects Testy can ground answers in via the RAG curriculum corpus.
- *  '' == no scoping (general tutor). Names mirror the corpus subject naming;
- *  unknown/empty subjects degrade gracefully server-side (no retrieval). */
+ *  '' == no scoping (general tutor). Names must match the corpus subject naming
+ *  EXACTLY — retrieval keys off this string (RagRetrievalService.findCurriculumCandidates),
+ *  so a typo silently yields no grounding. The 29 "AP …" entries mirror the ingested
+ *  curriculum corpus (verified against server/src/main/resources/rag). The two SAT
+ *  entries have no ingested corpus by design — SAT content is general enough that the
+ *  base model tutors it fine ungrounded, so they degrade gracefully (no retrieval). */
 const SUBJECTS = [
   '',
-  'AP Biology',
-  'AP Chemistry',
-  'AP Physics 1',
-  'AP Calculus AB',
-  'AP Calculus BC',
-  'AP Computer Science A',
-  'AP English Language',
-  'AP English Literature',
-  'AP US History',
-  'AP World History',
-  'AP Psychology',
-  'AP Environmental Science',
   'SAT Math',
   'SAT Reading & Writing',
+  'AP African American Studies',
+  'AP Art History',
+  'AP Biology',
+  'AP Calculus AB',
+  'AP Calculus BC',
+  'AP Chemistry',
+  'AP Comparative Government',
+  'AP Computer Science A',
+  'AP Computer Science Principles',
+  'AP English Language',
+  'AP English Literature',
+  'AP Environmental Science',
+  'AP European History',
+  'AP Government',
+  'AP Human Geography',
+  'AP Macroeconomics',
+  'AP Microeconomics',
+  'AP Music Theory',
+  'AP Physics 1',
+  'AP Physics 2',
+  'AP Physics C: E&M',
+  'AP Physics C: Mechanics',
+  'AP Precalculus',
+  'AP Psychology',
+  'AP Research',
+  'AP Seminar',
+  'AP Statistics',
+  'AP US History',
+  'AP World History',
 ] as const
 
 /** Quick-start prompts tuned to test prep — clicking one sends it. */
