@@ -19,77 +19,77 @@ function Icon({ path, className }: { path: string; className?: string }) {
 
 const EXPERIENCE = [
   {
-    role: 'AI/ML Research Intern',
-    company: 'California Baptist University – Dr. Sanders Research Lab',
-    location: 'Riverside, CA',
-    period: 'May 2026 – Present',
+    role: 'Data Science & Machine Learning Research Intern',
+    company: 'Lawrence Berkeley National Laboratory',
+    location: 'Berkeley, CA',
+    period: 'Sep 2026 – Present',
     bullets: [
-      'Conducting AI/ML research under faculty supervision on applying machine learning techniques to noisy biomedical signal data, with the goal of improving prediction robustness and accuracy for a published IEEE conference paper (ISBI 2027).',
-      'Implementing and evaluating various ML models to enhance predictor performance on high-variance datasets, collaborating with a multidisciplinary research team to identify pipeline weaknesses and drive improvements toward publication-ready results.',
+      'Implemented PatchTST (PyTorch/neuralforecast) for multivariate time-series forecasting of cache-traffic signals across multiple horizons, tuning lookback windows and beating a persistence baseline on all targets by up to 24% RMSE.',
+      'Exposed the ceiling on peak-load predictability and guided feature/model design by building reproducible Pandas EDA pipelines over 3 years of XCache traffic logs, visualizing seasonality, change-points, and right-skewed peaks with Matplotlib, Seaborn, and Plotly, and using rolling cross-validation to show models under-predict rare peaks.',
     ],
   },
   {
-    role: 'Backend Software Engineering Intern',
-    company: 'TradeForge',
-    location: 'Salt Lake City, UT',
-    period: 'Sep 2025 – Present',
+    role: 'Machine Learning Research Intern',
+    company: 'California Baptist University',
+    location: 'Riverside, CA',
+    period: 'May 2026 – Present',
     bullets: [
-      'Built automated data pipelines with NumPy and Pandas for statistical analysis and algorithmic computation',
-      'Designed and optimized RESTful API endpoints to increase throughput and reduce response latency',
+      'Diagnosed the root cause of a stalled inverse-FEA predictor by benchmarking 7 ML models (Random Forest, XGBoost, HGB/ExtraTrees ensembles, PCA pipelines) and running paired clean-vs-noisy signal analysis, proving the R²≈0.10 ceiling was a data limitation rather than a model limitation and redirecting the team from futile model tuning.',
+      'Raised earthquake-detection accuracy to 0.992 ROC-AUC (vs. 0.550 baseline) and magnitude-estimation R² to 0.840 by training PyTorch CNN→Transformer and GNN ensembles on 5,800+ multi-station SCEDC waveform windows.',
+      'Built a real-time daemon streaming 10 SeedLink stations that runs continuous PyTorch CNN→Transformer detection plus GNN-fused multi-station magnitude estimation, confirming events via graded multi-station coincidence and geographic move-out checks before dispatching FCM push alerts, deployed on an Oracle Cloud VM under systemd.',
     ],
   },
   {
     role: 'Full-Stack Software Engineering Intern',
     company: 'NumIsToken',
     location: 'Berkeley, CA',
-    period: 'Sep 2025 – Present',
+    period: 'Sep 2025 – Jun 2026',
     bullets: [
-      'Led backend development for key redemption workflows with reliable state management',
-      'Designed SQL schemas and optimized APIs for high-throughput payment state transitions',
+      'Enabled resumable redemptions for previously unrecoverable transactions by building Redemption History and Detail services with robust state management and payment resumption logic, eliminating a class of stuck-transaction failures.',
+      'Reduced redemption action load times by ~85% (~2–3s to ~300ms) by removing redundant function calls to streamline backend lifecycle APIs, then containerizing and deploying backend services with Docker for production readiness.',
     ],
   },
   {
-    role: 'Backend Software Development Intern',
+    role: 'Backend Software Engineer Intern',
     company: 'The Kigumi Group',
-    location: 'Hong Kong',
+    location: 'Hong Kong, HKG',
     period: 'Jun 2025 – Sep 2025',
     bullets: [
-      'Contributed to an AI-powered educational platform, debugging backend services and REST APIs',
-      'Developed unit and integration tests while diagnosing AI pipeline failures',
-    ],
-  },
-  {
-    role: 'Full-Stack Software Development Intern',
-    company: 'Fayble Inc.',
-    location: 'Berkeley, CA',
-    period: 'May 2025 – Sep 2025',
-    bullets: [
-      'Built a video streaming service using HLS with adaptive playback across varying network conditions',
-      'Implemented Supabase auth with Row Level Security and JWT-based session management',
+      'Increased code coverage from 90% to 98% and resolved recurring AI assistant pipeline failures caused by unstable backend connections and malformed query formulation to the image-generation and GPT models, by writing unit and integration tests and diagnosing issues through targeted debugging, improving reliability and response consistency.',
     ],
   },
 ]
 
 const PROJECTS = [
   {
-    name: 'Academy of Testers',
-    role: 'Founder & Lead Developer',
+    name: 'Academy of Testers – academyoftesters.com',
+    role: 'Machine Learning & Artificial Intelligence Software Developer',
     location: 'Berkeley, CA',
-    period: 'Jan 2023 – Present',
+    period: 'Jan 2023 – Jun 2026',
     bullets: [
-      'Built a full-stack AP and SAT prep platform on a Spring Boot and PostgreSQL backend.',
-      'Engineered a real-time adaptive SAT engine that personalizes every question, fusing Item Response Theory difficulty calibration, Bayesian Knowledge Tracing, and per-skill mastery vectors with exponential time-decay forgetting models and prerequisite-graph propagation to continuously infer each student’s evolving knowledge state.',
-      'Implemented JWT authentication with email verification and bcrypt password hashing.',
+      'Architected an adaptive learning engine that models per-student skill mastery by combining Bayesian Knowledge Tracing with Item Response Theory, selecting questions to maximize information gain at learner’s estimated ability, and extended the 8-skill model with forgetting-curve decay and prerequisite-graph penalty propagation, powering a mastery radar.',
+      'Reduced essay-grading inconsistency by ~23% by building a RAG pipeline that embeds each AP free response, retrieves matching rubric clauses and score-banded exemplars from a vector store, and returns scored results as constrained JSON.',
     ],
   },
   {
-    name: 'Earthquake Forecasting Research Project',
+    name: 'BearLM',
+    role: 'Data & Artificial Intelligence Engineer',
+    location: 'Berkeley, CA',
+    period: 'Aug 2026 – Present',
+    bullets: [
+      'Built a fully local, zero-cost RAG Q&A assistant (LangChain, Ollama, Llama 3.1 8B, nomic-embed-text, Chroma) over ~10K chunks spanning UC Berkeley CS/DS courses; blended keyword and meaning-based search (BM25 + vector embeddings) with reranking to pull the most relevant sources, lifting recall@1 from 56% to 82% and recall@5 to 86%.',
+      'Reduced hallucinated answers by grounding every response strictly in its retrieved sources, combining a relevance filter that scores and drops weak matches, query rewriting for sharper retrieval, strict prompting that answers only from context, and page-level clickable citations; raising RAGAS faithfulness from 0.55 to 0.83 (0.97 relevance).',
+      'Engineered an ETL pipeline ingesting heterogeneous files (PDF, md, ipynb), token-chunking them with metadata, and batch-embedding ~10K records with retry/backoff into Chroma, BM25, and SQLite for hybrid search and analytics.',
+    ],
+  },
+  {
+    name: 'SeismicSoCal – SeismicSoCal.duckdns.org',
     role: 'Machine Learning Engineer & Researcher',
     location: 'Riverside, CA',
     period: 'June 2026 – Present',
     bullets: [
-      'Architected a multi-model deep learning ensemble in PyTorch that fuses a CNN, a graph neural network, and a Transformer through a late-fusion classifier.',
-      'Applied imbalance-aware training and recall-focused evaluation, and built a cross-platform React, Vite, and Capacitor app to surface forecasts to the public.',
+      'Architected an end-to-end PyTorch pipeline on SoCal waveform data (ObsPy), with three models running Detect → Size → Warn: a CNN+Transformer detector (ROC-AUC 0.98 vs. 0.62 baseline), a multi-station GNN magnitude estimator (R² 0.85), and an early-warning model using the first 8 seconds of signal (MCC 0.76 vs. 0.66 baseline).',
+      'Built a live daemon streaming 10 stations over SeedLink on sliding 30-second windows, using multi-station coincidence triggering to suppress false alarms before pushing distance-scaled MMI shaking alerts to subscribers.',
     ],
   },
 ]
