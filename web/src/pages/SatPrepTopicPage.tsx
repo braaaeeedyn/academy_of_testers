@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { SAT_PREP_TOPICS, type PrepVideo } from '../data/satPrepContent'
+import PageBand from '../components/PageBand'
 
 /** Renders a YouTube embed, or a labelled placeholder while `youtubeId` is unset. */
 function VideoSlot({ video }: { video: PrepVideo }) {
@@ -68,49 +69,39 @@ export default function SatPrepTopicPage() {
 
   return (
     <div>
-      {/* Header */}
-      <section className="mb-8">
-        <div className="flex items-start justify-between gap-4 mb-5">
-          <div>
-            <div className="text-xs font-semibold uppercase tracking-[0.18em] mb-2" style={{ color: 'var(--text-muted)' }}>
-              SAT Math Prep · Topic {index + 1} of {SAT_PREP_TOPICS.length}
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold leading-none tracking-tight">
-              {topic.name}
-            </h1>
-          </div>
-          <button
-            onClick={() => navigate('/sat/prep')}
-            className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-sm font-medium cursor-pointer border transition-colors flex-shrink-0"
-            style={{ color: 'var(--text)', backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-              <path d="M15 19l-7-7 7-7" />
-            </svg>
-            All topics
-          </button>
-        </div>
-        <p style={{ color: 'var(--text-muted)' }}>{topic.summary}</p>
-
+      <PageBand
+        crumbs={[
+          { label: 'SAT hub', onClick: () => navigate('/sat/hub') },
+          { label: 'Prep resources', onClick: () => navigate('/sat/prep') },
+          { label: `Topic ${index + 1} of ${SAT_PREP_TOPICS.length}` },
+        ]}
+        back={{ label: 'All topics', onClick: () => navigate('/sat/prep') }}
+        title={topic.name}
+        subtitle={topic.summary}
+      >
         {/* What it covers */}
         <div className="flex flex-wrap gap-2 mt-5">
           {topic.covers.map((c) => (
             <span
               key={c}
-              className="text-xs font-medium px-2.5 py-1 rounded-full border"
-              style={{ color: 'var(--text)', backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
+              className="text-xs font-medium px-2.5 py-1"
+              style={{
+                border: '1px solid color-mix(in srgb, var(--accent-ink) 30%, transparent)',
+                borderRadius: 'var(--radius-pill)',
+              }}
             >
               {c}
             </span>
           ))}
         </div>
-      </section>
+      </PageBand>
+      <div className="mb-8" />
 
       {/* Content */}
       <div className="grid lg:grid-cols-2 gap-8">
         {/* Videos */}
         <div>
-          <h2 className="text-xs font-semibold uppercase tracking-[0.14em] mb-3" style={{ color: 'var(--text-muted)' }}>
+          <h2 className="font-display text-xl font-bold mb-3">
             Video lessons
           </h2>
           <div className="grid gap-4">
@@ -122,7 +113,7 @@ export default function SatPrepTopicPage() {
 
         {/* Advice */}
         <div>
-          <h2 className="text-xs font-semibold uppercase tracking-[0.14em] mb-3" style={{ color: 'var(--text-muted)' }}>
+          <h2 className="font-display text-xl font-bold mb-3">
             How to study this
           </h2>
           <ul className="flex flex-col gap-3">

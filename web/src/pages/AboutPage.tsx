@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import PageBand from '../components/PageBand'
 
 function Icon({ path, className }: { path: string; className?: string }) {
   return (
@@ -105,20 +106,14 @@ export default function AboutPage() {
 
   return (
     <div>
-      {/* Header row */}
-      <div className="flex items-center justify-between mb-8">
-        <h2 className="text-2xl font-bold">Behind the Project</h2>
-        <button
-          onClick={() => navigate('/')}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity"
-          style={{ color: 'var(--color-secondary)', backgroundColor: 'var(--color-primary)' }}
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-            <path d="M15 19l-7-7 7-7" />
-          </svg>
-          Home
-        </button>
-      </div>
+      <PageBand
+        crumbs={[{ label: 'Home', onClick: () => navigate('/') }, { label: 'Meet the developer' }]}
+        back={{ label: 'Home', onClick: () => navigate('/') }}
+        width="max-w-screen-2xl"
+        title="Behind the Project"
+        subtitle="Who builds Academy of Testers, and what he’s worked on."
+      />
+      <div className="mb-8" />
 
       {/* Profile + Skills/Coursework side by side */}
       <div className="flex flex-col lg:flex-row gap-6 mb-8">

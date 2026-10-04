@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import PageBand from '../components/PageBand'
 import { themes, type Theme } from '../types/theme'
 import { useTheme } from '../context/ThemeContext'
 
@@ -158,26 +159,14 @@ export default function ThemesPage() {
 
   return (
     <div>
-      <div className="flex items-center justify-end mb-4">
-        <button
-          onClick={() => navigate(-1)}
-          className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity"
-          style={{ color: 'var(--accent-ink)', backgroundColor: 'var(--accent)', borderRadius: 'var(--radius-btn)' }}
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-            <path d="M15 19l-7-7 7-7" />
-          </svg>
-          Back
-        </button>
-      </div>
-
-      <h1 className="font-display text-4xl font-bold mb-2" style={{ color: 'var(--text)' }}>
-        Themes
-      </h1>
-      <p className="mb-8 max-w-2xl" style={{ color: 'var(--text-muted)' }}>
-        Six complete design systems, each with its own distinctive look. Pick one to instantly
-        restyle the entire site &mdash; colors, typography, and shape all change together.
-      </p>
+      <PageBand
+        crumbs={[{ label: 'Home', onClick: () => navigate('/') }, { label: 'Themes' }]}
+        back={{ label: 'Back', onClick: () => navigate(-1) }}
+        width="max-w-screen-2xl"
+        title="Themes"
+        subtitle="Six complete design systems, each with its own look. Pick one to restyle the entire site: colors, typography, and shape all change together."
+      />
+      <div className="mb-8" />
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {themes.map((t) => (

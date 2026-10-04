@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { AP_EXAM_DATA } from '../data/apExamData'
 import type { APExamInfo } from '../data/apExamData'
+import PageBand from '../components/PageBand'
 
 export default function ExamInfoPage() {
   const { examSlug } = useParams<{ examSlug: string }>()
@@ -25,30 +26,17 @@ export default function ExamInfoPage() {
 
   return (
     <div>
-      {/* Header */}
-      <div className="flex items-start justify-between gap-4 mb-8">
-        <div>
-          <div className="text-xs font-semibold uppercase tracking-[0.18em] mb-2" style={{ color: 'var(--text-muted)' }}>
-            Scoring &amp; Structure
-          </div>
-          <h1 className="font-display text-4xl md:text-5xl font-bold leading-none tracking-tight">
-            AP Exam Info
-          </h1>
-          <p className="mt-3 max-w-xl" style={{ color: 'var(--text-muted)' }}>
-            Scoring guidelines, section breakdowns, and exam structure for every AP exam.
-          </p>
-        </div>
-        <button
-          onClick={() => navigate(examSlug ? `/${examSlug}/hub` : '/')}
-          className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-sm font-medium cursor-pointer border transition-colors flex-shrink-0"
-          style={{ color: 'var(--text)', backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-            <path d="M15 19l-7-7 7-7" />
-          </svg>
-          Hub
-        </button>
-      </div>
+      <PageBand
+        crumbs={[
+          { label: 'AP hub', onClick: () => navigate(examSlug ? `/${examSlug}/hub` : '/') },
+          { label: 'Exam info' },
+        ]}
+        back={{ label: 'Hub', onClick: () => navigate(examSlug ? `/${examSlug}/hub` : '/') }}
+        watermark="INFO"
+        title="AP Exam Info"
+        subtitle="Scoring guidelines, section breakdowns, and exam structure for every AP exam."
+      />
+      <div className="mb-8" />
 
       {/* Exam selector card */}
       <div className="rounded-2xl shadow-sm border mb-8" style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}>

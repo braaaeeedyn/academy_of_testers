@@ -8,6 +8,7 @@ import AdaptiveSession from '../components/adaptive/AdaptiveSession'
 import SessionSummary from '../components/adaptive/SessionSummary'
 import SatDashboard from '../components/adaptive/SatDashboard'
 import LoadingScreen from '../components/LoadingScreen'
+import PageBand from '../components/PageBand'
 
 type Phase = 'dashboard' | 'diagnostic' | 'session' | 'summary'
 
@@ -105,13 +106,14 @@ export default function SatAdaptivePage() {
 
 function Hero() {
   return (
-    <div style={{ textAlign: 'center', marginBottom: 8 }}>
-      <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 34, color: 'var(--text)', marginBottom: 8 }}>
-        SAT Academy · Adaptive Practice
-      </h1>
-      <p style={{ color: 'var(--text-muted)' }}>
-        Personalized to your mastery, one question at a time.
-      </p>
+    <div style={{ marginTop: -12, marginBottom: 24 }}>
+      <PageBand
+        align="center"
+        watermark="SAT"
+        width="max-w-4xl"
+        title="SAT Academy"
+        subtitle="Adaptive practice, personalized to your mastery one question at a time."
+      />
     </div>
   )
 }

@@ -7,6 +7,7 @@ import { getSubjectIcon } from '../data/subjectIcons'
 import { AP_SUBJECT_CATEGORIES } from '../data/apCategories'
 import ApExamCountdown from '../components/ApExamCountdown'
 import LoadingScreen from '../components/LoadingScreen'
+import PageBand from '../components/PageBand'
 
 // The College Board 5-point AP score scale and what each score means.
 const AP_SCORE_SCALE: { score: number; label: string; qualifying: boolean }[] = [
@@ -140,27 +141,17 @@ export default function ExamHubPage() {
 
   return (
     <div className="max-w-5xl mx-auto">
-      {/* Header */}
-      <div className="flex items-start justify-between gap-4">
-        <div>
-          <div className="text-xs font-semibold uppercase tracking-[0.18em] mb-2" style={{ color: 'var(--text-muted)' }}>
-            Exam Hub
-          </div>
-          <h1 className="font-display text-4xl md:text-5xl font-bold leading-none tracking-tight">
-            {exam.name} Exams
-          </h1>
-        </div>
-        <button
-          onClick={() => navigate('/')}
-          className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-sm font-medium cursor-pointer border transition-colors flex-shrink-0"
-          style={{ color: 'var(--text)', backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-            <path d="M15 19l-7-7 7-7" />
-          </svg>
-          Home
-        </button>
-      </div>
+      <PageBand
+        crumbs={[{ label: 'Home', onClick: () => navigate('/') }, { label: `${exam.name} hub` }]}
+        back={{ label: 'Home', onClick: () => navigate('/') }}
+        watermark={exam.name.toUpperCase()}
+        title={`${exam.name} Exams`}
+        subtitle={
+          isAP
+            ? 'Pick a subject to study, or let the planner build a hub around the classes you’re taking.'
+            : exam.description
+        }
+      />
 
       {/* Ways to study — planner first, then exam facts (AP only) */}
       {isAP && (
@@ -256,7 +247,7 @@ export default function ExamHubPage() {
       {/* HUB LANDING — compact category grid, no long scroll */}
       {mode === 'grid' && (
         <div className="mt-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] mb-4" style={{ color: 'var(--text-muted)' }}>
+          <p className="font-display text-xl font-bold mb-4">
             Browse by category
           </p>
           <div className="grid gap-3 [grid-template-columns:repeat(auto-fill,minmax(232px,1fr))]">
@@ -526,8 +517,7 @@ function ScoreScale() {
       style={{ backgroundColor: 'var(--surface-elevated)', borderColor: 'var(--hairline)' }}
     >
       <div
-        className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] mb-3"
-        style={{ color: 'var(--text-muted)' }}
+        className="flex items-center gap-2 font-display text-xl font-bold mb-3"
       >
         <Icon
           path="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
@@ -580,8 +570,7 @@ function StudyTipCarousel() {
     >
       <div className="flex items-center justify-between mb-3">
         <div
-          className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em]"
-          style={{ color: 'var(--text-muted)' }}
+          className="flex items-center gap-2 font-display text-xl font-bold"
         >
           <Icon
             path="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"

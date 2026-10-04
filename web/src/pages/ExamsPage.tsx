@@ -1,27 +1,33 @@
-import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getExams } from '../services/api'
-import type { Exam } from '../types/api'
-import { examSlug } from '../utils/slug'
-import CircularText from '../components/CircularText'
+import AotLogo from '../components/AotLogo'
+import PageBand from '../components/PageBand'
+import WatermarkCard from '../components/WatermarkCard'
+import { AP_SUBJECT_CATEGORIES } from '../data/apCategories'
 
-const LOGO_PATH = '/aotpfp.png'
+const AP_SUBJECT_COUNT = AP_SUBJECT_CATEGORIES.reduce((n, c) => n + c.subjectNames.length, 0)
 
-/** Matches Flyway seed V2 (AP id 1, SAT id 2) when the API is down or unreachable. */
-const FALLBACK_EXAMS: Exam[] = [
+const EXAMS = [
   {
-    id: 1,
-    name: 'AP',
-    description: 'Advanced Placement exams for college credit',
-    createdAt: '',
+    key: 'AP',
+    title: 'AP Exams',
+    to: '/ap/hub',
+    blurb: 'Unit reviews, real 2025 free-response questions, and timed mock exams.',
+    meta: `${AP_SUBJECT_COUNT} subjects`,
   },
   {
-    id: 2,
-    name: 'SAT',
-    description: 'Full-length practice tests and strategies',
-    createdAt: '',
+    key: 'SAT',
+    title: 'SAT',
+    to: '/sat/hub',
+    blurb: 'Adaptive practice, topic lessons, and full-length practice tests.',
+    meta: '5 sections',
   },
 ]
+
+const DEVELOPER = {
+  name: 'Braedyn Thompson',
+  photo: '/developer.png',
+  line: 'UC Berkeley CS & Data Science student, building free tools for students.',
+}
 
 const SOCIALS = [
   {
@@ -42,262 +48,76 @@ const SOCIALS = [
 ]
 
 export default function ExamsPage() {
-  const [exams, setExams] = useState<Exam[]>([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
-  const [usingFallbackExams, setUsingFallbackExams] = useState(false)
-  const [logoError, setLogoError] = useState(false)
-  const [highlightCards, setHighlightCards] = useState(false)
-
-  const handleStartPracticing = () => {
-    // Replay the card light-up animation in place, without scrolling the page.
-    // Toggling off then back on across frames restarts the CSS animation.
-    setHighlightCards(false)
-    requestAnimationFrame(() => requestAnimationFrame(() => setHighlightCards(true)))
-  }
-
-  useEffect(() => {
-    async function loadData() {
-      try {
-        setLoading(true)
-        setError(null)
-        setUsingFallbackExams(false)
-        const examData = await getExams()
-        const list = Array.isArray(examData) && examData.length > 0 ? examData : FALLBACK_EXAMS
-        if (list === FALLBACK_EXAMS && (!Array.isArray(examData) || examData.length === 0)) {
-          setUsingFallbackExams(true)
-        }
-        setExams(list)
-      } catch (err) {
-        console.error('getExams failed:', err)
-        setExams(FALLBACK_EXAMS)
-        setUsingFallbackExams(true)
-        setError(null)
-      } finally {
-        setLoading(false)
-      }
-    }
-    loadData()
-  }, [])
-
   return (
-    <div>
-      {/* Hero — centered, minimal */}
-      <section className="flex flex-col items-center text-center pt-12 pb-10">
-        <div className="relative flex items-center justify-center" style={{ width: 220, height: 220 }}>
-          <div className="absolute inset-0 flex items-center justify-center">
-            <CircularText
-              text="ACADEMY*OF*TESTERS*"
-              onHover="speedUp"
-              spinDuration={20}
-              className="circular-text-hero"
-            />
-          </div>
-          {logoError ? (
-            <div
-              className="w-[130px] h-[130px] rounded-full flex items-center justify-center text-2xl font-bold z-10 shadow-md"
-              style={{ backgroundColor: 'var(--accent)', color: 'var(--accent-ink)' }}
-            >
-              AoT
-            </div>
-          ) : (
-            <img
-              src={LOGO_PATH}
-              alt="Academy of Testers"
-              className="w-[140px] h-[140px] rounded-full object-cover shadow-md z-10"
-              onError={() => setLogoError(true)}
-            />
-          )}
-        </div>
+    <div className="pb-12">
+      <PageBand
+        size="hero"
+        align="center"
+        title="Academy of Testers"
+        subtitle="Where every tester has the opportunity to excel."
+        badge={<AotLogo size={240} />}
+      />
 
-        <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold leading-none tracking-tight mt-8">
-          Academy of Testers
-        </h1>
-        <p className="text-lg md:text-xl mt-4 max-w-lg tracking-tight" style={{ color: 'var(--text-muted)' }}>
-          Where every tester has the opportunity to excel.
-        </p>
-        <button
-          onClick={handleStartPracticing}
-          className="start-practicing-btn mt-7 tracking-tight"
-        >
-          Start Practicing
-          <svg fill="currentColor" viewBox="0 0 24 24" className="sp-icon">
-            <path
-              clipRule="evenodd"
-              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
-              fillRule="evenodd"
-            />
-          </svg>
-        </button>
-      </section>
-
-      {/* Exams */}
-      <section id="exam-cards" className="mb-6 scroll-mt-20">
-        <div className="text-xs font-semibold uppercase tracking-[0.18em] mb-4" style={{ color: 'var(--text-muted)' }}>
-          Choose your exam
-        </div>
-
-        {loading && (
-          <div className="text-center py-12">
-            <div className="text-xl" style={{ color: 'var(--text-muted)' }}>Loading...</div>
-          </div>
-        )}
-
-        {error && (
-          <div className="text-center py-12">
-            <div className="text-xl" style={{ color: 'var(--error)' }}>Error: {error}</div>
-          </div>
-        )}
-
-        {!loading && !error && usingFallbackExams && (
-          <div
-            className="mb-5 px-4 py-3 rounded-lg text-sm border"
-            style={{
-              backgroundColor: 'var(--surface)',
-              borderColor: 'var(--hairline)',
-              color: 'var(--text-muted)',
-            }}
-          >
-            Using built-in exam list (API unreachable or empty). Run the Spring API (e.g. Docker on port 8080) and reload for
-            live subjects and resources.
-          </div>
-        )}
-
-        {!loading && !error && (
-          <div className="grid sm:grid-cols-2 gap-5 items-stretch">
-            {exams.map((exam) => {
-              const key = exam.name.trim().toUpperCase()
-              const isAP = key === 'AP'
-              const isSAT = key === 'SAT'
-              const subtitle = isAP
-                ? 'Unit reviews & practice across 25+ subjects'
-                : isSAT
-                  ? 'Full-length practice tests & strategies'
-                  : exam.description
-              const iconPath = isAP
-                ? 'M12 14l9-5-9-5-9 5 9 5zM12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zM12 14v7'
-                : 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'
-              const meta = isAP ? '25+ subjects' : isSAT ? '5 sections' : ''
-              return (
-                <div
-                  key={exam.id}
-                  className={`h-full rounded-2xl ${highlightCards ? 'exam-card-guide-wrap' : ''}`}
-                >
-                  <Link
-                    to={`/${examSlug(exam.name)}/hub`}
-                    onClick={() => setHighlightCards(false)}
-                    className="group flex flex-col p-7 rounded-2xl border transition-all hover:shadow-lg hover:-translate-y-0.5 h-full"
-                    style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
-                  >
-                  <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-5"
-                    style={{ backgroundColor: 'var(--accent)', color: 'var(--accent-ink)' }}
-                  >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round">
-                      <path d={iconPath} />
-                    </svg>
-                  </div>
-                  <h3 className="font-display text-2xl font-bold tracking-tight">{exam.name} Exams</h3>
-                  <p className="text-sm mt-1.5" style={{ color: 'var(--text-muted)' }}>
-                    {subtitle}
-                  </p>
-                  <div className="mt-6 pt-4 flex items-center justify-between" style={{ borderTop: '1px solid var(--hairline)' }}>
-                    {meta && (
-                      <span className="text-xs font-semibold" style={{ color: 'var(--text-muted)' }}>
-                        {meta}
-                      </span>
-                    )}
-                    <span className="flex items-center gap-1 text-sm font-semibold group-hover:gap-2 transition-all" style={{ color: 'var(--text)' }}>
-                      Explore
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </span>
-                  </div>
-                </Link>
-                </div>
-              )
-            })}
-          </div>
-        )}
-      </section>
-
-      {/* Meet the developer & mission */}
-      <section className="mb-5">
+      <section className="max-w-5xl mx-auto mt-10">
+        <h2 className="text-center font-display text-2xl font-bold mb-6">Choose your exam</h2>
         <div className="grid sm:grid-cols-2 gap-5">
-          <Link
-            to="/about"
-            className="group flex items-center gap-4 p-5 rounded-2xl border transition-all hover:shadow-lg hover:-translate-y-0.5"
-            style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
-          >
-            <div
-              className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
-              style={{ backgroundColor: 'var(--accent)', color: 'var(--accent-ink)' }}
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
-            </div>
-            <div className="flex-1 min-w-0">
-              <h3 className="text-sm font-bold group-hover:underline">Meet the Developer</h3>
-              <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-                UC Berkeley CS student building tools for students
-              </p>
-            </div>
-            <svg className="w-4 h-4 flex-shrink-0 opacity-30 group-hover:opacity-70 group-hover:translate-x-0.5 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
-
-          <Link
-            to="/mission"
-            className="group flex items-center gap-4 p-5 rounded-2xl border transition-all hover:shadow-lg hover:-translate-y-0.5"
-            style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
-          >
-            <div
-              className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
-              style={{ backgroundColor: 'var(--accent)', color: 'var(--accent-ink)' }}
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-              </svg>
-            </div>
-            <div className="flex-1 min-w-0">
-              <h3 className="text-sm font-bold group-hover:underline">Our Mission</h3>
-              <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-                Why free education resources matter
-              </p>
-            </div>
-            <svg className="w-4 h-4 flex-shrink-0 opacity-30 group-hover:opacity-70 group-hover:translate-x-0.5 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
+          {EXAMS.map((e) => (
+            <WatermarkCard
+              key={e.key}
+              to={e.to}
+              watermark={e.key}
+              meta={e.meta}
+              title={e.title}
+              blurb={e.blurb}
+            />
+          ))}
         </div>
       </section>
 
-      {/* Social / follow */}
-      <section className="mb-8">
-        <div
-          className="flex flex-col sm:flex-row items-center justify-between gap-4 p-5 rounded-2xl border"
-          style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
-        >
-          <div className="text-center sm:text-left">
-            <h3 className="text-sm font-bold">Follow Academy of Testers</h3>
-            <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-              Stay updated with new resources and study tips
+      <section
+        className="max-w-5xl mx-auto mt-16 grid sm:grid-cols-2 gap-10 pt-10"
+        style={{ borderTop: '1px solid var(--hairline)' }}
+      >
+        <div className="flex items-start gap-5">
+          <img
+            src={DEVELOPER.photo}
+            alt=""
+            className="w-20 h-20 object-cover flex-shrink-0"
+            style={{ borderRadius: 'var(--radius-card)' }}
+          />
+          <div>
+            <h2 className="font-display text-xl font-bold">Meet the developer</h2>
+            <p className="text-sm mt-1.5 leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+              <span className="font-semibold" style={{ color: 'var(--text)' }}>
+                {DEVELOPER.name}
+              </span>
+              . {DEVELOPER.line}
             </p>
+            <Link
+              to="/about"
+              className="inline-block text-sm font-semibold mt-2 underline underline-offset-4"
+            >
+              Read about Braedyn
+            </Link>
           </div>
-          <div className="flex items-center gap-2">
+        </div>
+
+        <div>
+          <h2 className="font-display text-xl font-bold">Follow Academy of Testers</h2>
+          <p className="text-sm mt-1.5" style={{ color: 'var(--text-muted)' }}>
+            New resources and study tips, as they’re made.
+          </p>
+          <div className="flex flex-wrap gap-2 mt-3">
             {SOCIALS.map((s) => (
               <a
                 key={s.label}
                 href={s.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-opacity hover:opacity-80"
-                style={{ backgroundColor: 'var(--accent)', color: 'var(--accent-ink)' }}
+                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium hover:opacity-80"
+                style={{ border: '1px solid var(--hairline)', borderRadius: 'var(--radius-btn)' }}
               >
-                <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor">
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                   <path d={s.path} />
                 </svg>
                 {s.label}

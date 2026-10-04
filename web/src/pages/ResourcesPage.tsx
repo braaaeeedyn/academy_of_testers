@@ -13,10 +13,11 @@ import { getVideosBySubjectName, getVideoNoteBySubjectName } from '../data/video
 import VideoResources from '../components/VideoResources'
 import FlashCards from '../components/FlashCards'
 import FrqPractice from '../components/FrqPractice'
+import PageBand, { IconBadge } from '../components/PageBand'
 import InterleavedReview from '../components/InterleavedReview'
 import MockExam from '../components/MockExam'
 import SubjectReference from '../components/SubjectReference'
-import { getFrqSetBySubjectName } from '../data/frq'
+import { getFrqSetBySubjectName, getReleasedFrqCount } from '../data/frq'
 import { getReferenceBySubjectName } from '../data/reference'
 import { getMixedQuestions } from '../data/questionBank'
 
@@ -154,8 +155,11 @@ export default function ResourcesPage() {
     const next = new URLSearchParams(searchParams)
     if (activeCategory) next.set('r', activeCategory)
     else next.delete('r')
-    // The FRQ prompt param only applies inside FRQ practice.
-    if (activeCategory !== 'frq-practice') next.delete('p')
+    // The FRQ prompt/set params only apply inside FRQ practice.
+    if (activeCategory !== 'frq-practice') {
+      next.delete('p')
+      next.delete('set')
+    }
     setSearchParams(next, { replace: true })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeCategory])
@@ -184,6 +188,7 @@ export default function ResourcesPage() {
     () => (subject ? getFrqSetBySubjectName(subject.name) : undefined),
     [subject]
   )
+  const releasedFrqCount = subject ? getReleasedFrqCount(subject.name) : 0
 
   const reference = useMemo(
     () => (subject ? getReferenceBySubjectName(subject.name) : undefined),
@@ -205,12 +210,12 @@ export default function ResourcesPage() {
       if (cat.id === 'unit-practice') return !!unitBank
       if (cat.id === 'flash-cards') return !isSat
       // New surfaces show only where their content/bank exists, to keep the grid relevant.
-      if (cat.id === 'frq-practice') return !!frqSet
+      if (cat.id === 'frq-practice') return !!frqSet || releasedFrqCount > 0
       if (cat.id === 'reference') return !!reference
       if (cat.id === 'interleaved-review' || cat.id === 'mock-exam') return hasBank
       return true
     })
-  }, [unitBank, isSat, frqSet, reference, hasBank])
+  }, [unitBank, isSat, frqSet, releasedFrqCount, reference, hasBank])
 
   // Per-card metadata surfaced on the landing so each tile shows real scope
   // (unit / question / video counts) and whether its content exists yet.
@@ -245,10 +250,13 @@ export default function ResourcesPage() {
         meta: unitBank ? `${unitBank.units.length} units · ${bankQ} questions` : undefined,
       },
       'frq-practice': {
-        available: !!frqSet,
-        meta: frqSet
-          ? `${frqSet.prompts.length} prompt${frqSet.prompts.length === 1 ? '' : 's'} · AI graded`
-          : undefined,
+        available: !!frqSet || releasedFrqCount > 0,
+        meta:
+          releasedFrqCount > 0
+            ? `${releasedFrqCount} real 2025 exam questions · AI graded`
+            : frqSet
+              ? `${frqSet.prompts.length} prompt${frqSet.prompts.length === 1 ? '' : 's'} · AI graded`
+              : undefined,
       },
       'interleaved-review': {
         available: bankCount > 0,
@@ -266,7 +274,7 @@ export default function ResourcesPage() {
       'practice-exams': { available: true },
       'flash-cards': { available: true },
     }
-  }, [unitOverview, unitBank, subjectVideos, frqSet, reference, questionBank])
+  }, [unitOverview, unitBank, subjectVideos, frqSet, releasedFrqCount, reference, questionBank])
 
   // Resolve the subject from the exam + subject slugs in the URL.
   useEffect(() => {
@@ -341,59 +349,29 @@ export default function ResourcesPage() {
 
   return (
     <div className="max-w-5xl mx-auto">
-      {/* Subject header */}
-      <div className="flex items-start justify-between gap-4 mb-8">
-        <div className="flex items-start gap-4 min-w-0">
-          <div
-            className="w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0"
-            style={{ backgroundColor: 'var(--accent)', color: 'var(--accent-ink)' }}
-          >
-            <Icon path={getSubjectIcon(subject.name)} className="w-7 h-7" />
-          </div>
-          <div className="min-w-0">
-            {/* Breadcrumb — turns the old static eyebrow into live navigation */}
-            <nav
-              className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.14em] mb-1.5"
-              style={{ color: 'var(--text-muted)' }}
-            >
-              <button
-                onClick={() => navigate(`/${toExamSlug(subject.examName)}/hub`)}
-                className="hover:underline cursor-pointer transition-colors"
-              >
-                {subject.examName} Exam Hub
-              </button>
-              <svg className="w-3 h-3 opacity-60 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round">
-                <path d="M9 5l7 7-7 7" />
-              </svg>
-              <span className="truncate" style={{ color: 'var(--text)' }}>
-                {subject.name.replace(/^AP /, '')}
-              </span>
-            </nav>
-            <h1 className="font-display text-3xl md:text-4xl font-bold leading-none tracking-tight" style={{ textWrap: 'balance' } as React.CSSProperties}>{subject.name}</h1>
-            {subject.description && (
-              <p className="text-sm mt-2 max-w-prose" style={{ color: 'var(--text-muted)' }}>
-                {subject.description}
-              </p>
-            )}
-          </div>
-        </div>
-        <button
-          onClick={() =>
+      {/* Subject header — slim while a study tool is open, full with the subject badge otherwise */}
+      <PageBand
+        size={activeCategory !== null ? 'compact' : 'page'}
+        crumbs={[
+          { label: `${subject.examName} hub`, onClick: () => navigate(`/${toExamSlug(subject.examName)}/hub`) },
+          activeCategory !== null
+            ? { label: subject.name.replace(/^AP /, ''), onClick: () => setActiveCategory(null) }
+            : { label: subject.name.replace(/^AP /, '') },
+        ]}
+        back={{
+          label: fromPlanner ? 'My planner' : activeCategory !== null ? 'Back' : `${subject.examName} hub`,
+          onClick: () =>
             fromPlanner
               ? navigate('/ap/planner')
               : activeCategory !== null
                 ? setActiveCategory(null)
-                : navigate(`/${toExamSlug(subject.examName)}/hub`)
-          }
-          className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-sm font-medium cursor-pointer border transition-colors flex-shrink-0 hover:opacity-80"
-          style={{ color: 'var(--text)', backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
-        >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-            <path d="M15 19l-7-7 7-7" />
-          </svg>
-          {fromPlanner ? 'My Planner' : activeCategory !== null ? 'Back' : `${subject.examName} Hub`}
-        </button>
-      </div>
+                : navigate(`/${toExamSlug(subject.examName)}/hub`),
+        }}
+        title={subject.name}
+        subtitle={activeCategory === null ? subject.description || undefined : undefined}
+        badge={activeCategory === null ? <IconBadge path={getSubjectIcon(subject.name)} /> : undefined}
+      />
+      <div className={activeCategory === null ? 'mb-8' : 'mb-6 mt-6'} />
 
       {/* Resource Category Cards — grouped into Learn / Practice with real scope */}
       {activeCategory === null && (
@@ -403,7 +381,7 @@ export default function ResourcesPage() {
             if (items.length === 0) return null
             return (
               <section key={group}>
-                <div className="text-xs font-semibold uppercase tracking-[0.18em] mb-4" style={{ color: 'var(--text-muted)' }}>
+                <div className="font-display text-xl font-bold mb-4">
                   {group === 'learn' ? 'Learn the material' : 'Practice & test yourself'}
                 </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

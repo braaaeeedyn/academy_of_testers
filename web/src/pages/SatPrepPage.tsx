@@ -1,38 +1,20 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { SAT_PREP_TOPICS } from '../data/satPrepContent'
+import PageBand from '../components/PageBand'
 
 export default function SatPrepPage() {
   const navigate = useNavigate()
 
   return (
     <div>
-      {/* Header */}
-      <section className="mb-8">
-        <div className="flex items-start justify-between gap-4 mb-5">
-          <div>
-            <div className="text-xs font-semibold uppercase tracking-[0.18em] mb-2" style={{ color: 'var(--text-muted)' }}>
-              SAT Prep Resources
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold leading-none tracking-tight">
-              SAT Math, topic by topic
-            </h1>
-          </div>
-          <button
-            onClick={() => navigate('/sat/hub')}
-            className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-sm font-medium cursor-pointer border transition-colors flex-shrink-0"
-            style={{ color: 'var(--text)', backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
-              <path d="M15 19l-7-7 7-7" />
-            </svg>
-            SAT Hub
-          </button>
-        </div>
-        <p style={{ color: 'var(--text-muted)' }}>
-          The eight Math domains the SAT tests. Open a topic for its video lessons and study strategies, then head to
-          the Academy for adaptive practice.
-        </p>
-      </section>
+      <PageBand
+        crumbs={[{ label: 'SAT hub', onClick: () => navigate('/sat/hub') }, { label: 'Prep resources' }]}
+        back={{ label: 'SAT hub', onClick: () => navigate('/sat/hub') }}
+        watermark="MATH"
+        title="SAT Math, topic by topic"
+        subtitle="The eight Math domains the SAT tests. Open a topic for its video lessons and study strategies, then head to the Academy for adaptive practice."
+      />
+      <div className="mb-8" />
 
       {/* Topic cards — each links to its own page */}
       <div className="grid sm:grid-cols-2 gap-5">
