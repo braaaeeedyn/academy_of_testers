@@ -6,7 +6,8 @@
       "dimension": "q3-two-stimuli",
       "refId": "HUGEO:q3-set1:rubric",
       "title": "Q3 Two Stimuli (7 points) — Set 1: culture & agriculture (maps)",
-      "content": "AP Human Geography FRQ 3 (Two Stimuli, here maps of agricultural production), 7 points, parts A–G, one each, escalating skill. Set 1 answer key by part: A [1] identify an example of a culture trait; B [1] describe the spatial pattern of cow's milk production in Africa shown in Map 1; C [1] explain how the globalization of agriculture may affect local culture traits; D [1] explain why regions of agricultural production may become interdependent; later parts continue with explain-level tasks. Common failure: describing a spatial pattern as a single location rather than a distribution (B); explain answers that lack a how/why mechanism."
+      "content": "AP Human Geography FRQ 3 (Two Stimuli, here maps of agricultural production), 7 points, parts A–G, one each, escalating skill. Set 1 answer key by part: A [1] identify an example of a culture trait; B [1] describe the spatial pattern of cow's milk production in Africa shown in Map 1; C [1] explain how the globalization of agriculture may affect local culture traits; D [1] explain why regions of agricultural production may become interdependent; later parts continue with explain-level tasks. Common failure: describing a spatial pattern as a single location rather than a distribution (B); explain answers that lack a how/why mechanism.",
+      "promptId": "ap25-human-geography-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "7",
       "refId": "HUGEO:q3-set1:2025-3A",
       "title": "Q3 Set 1 exemplar — Sample 3A, 7/7",
-      "content": "Q3 (Set 1) scored 7/7 — identified a culture trait, described the map's spatial pattern of milk production, and explained agricultural globalization's cultural effects and regional interdependence. Full-credit model for the two-stimulus FRQ."
+      "content": "Q3 (Set 1) scored 7/7 — identified a culture trait, described the map's spatial pattern of milk production, and explained agricultural globalization's cultural effects and regional interdependence. Full-credit model for the two-stimulus FRQ.",
+      "promptId": "ap25-human-geography-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "5",
       "refId": "HUGEO:q3-set1:2025-3B",
       "title": "Q3 Set 1 exemplar — Sample 3B, 5/7",
-      "content": "Q3 (Set 1) scored 5/7 — earned the identify/describe parts and some explain parts, losing about two explain-level points (mechanism-level cultural or interdependence explanations). Illustrates a solid response short on higher-order explanation."
+      "content": "Q3 (Set 1) scored 5/7 — earned the identify/describe parts and some explain parts, losing about two explain-level points (mechanism-level cultural or interdependence explanations). Illustrates a solid response short on higher-order explanation.",
+      "promptId": "ap25-human-geography-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "2",
       "refId": "HUGEO:q3-set1:2025-3C",
       "title": "Q3 Set 1 exemplar — Sample 3C, 2/7",
-      "content": "Q3 (Set 1) scored 2/7 — earned only about two lower-skill parts (identify/describe), losing the explain-level parts. Illustrates a low response that reads the maps but cannot explain cultural or economic mechanisms."
+      "content": "Q3 (Set 1) scored 2/7 — earned only about two lower-skill parts (identify/describe), losing the explain-level parts. Illustrates a low response that reads the maps but cannot explain cultural or economic mechanisms.",
+      "promptId": "ap25-human-geography-q3-set-1"
     }
   ]
 }

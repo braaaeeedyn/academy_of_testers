@@ -6,7 +6,8 @@
       "dimension": "q4-graph-analysis-accumulation-no-calculator",
       "refId": "CALCAB:q4:rubric",
       "title": "Q4 — Graph Analysis / Accumulation Function (9 points, no calculator)",
-      "content": "AP Calculus AB Q4 (Part A, no calculator), 9 points. f is continuous on [−6,12], its graph is two semicircles and a line segment; g(x)=∫_6^x f(t)dt. A (2 pts): find g'(8) with a reason — P1 for g'(x)=f(x) (FTC), P2 for the value g'(8)=f(8)=1. B (2 pts): x-values in (−6,12) where g has points of inflection with reason — P3 only for x=−3, 3, 6 (any extra declared value loses both P3 and P4), P4 for tying the reason to f (f/g' changes from increasing to decreasing or vice versa; citing g's concavity or g''=f' changing sign earns P3 but NOT P4). C (2 pts): find g(12) and g(0), labeled — P5 for g(12)=9, P6 for g(0)=−9π/2 (unlabeled values earn nothing). D (3 pts): x where g attains its absolute minimum on [−6,12] — P7 for considering g'(x)=f(x)=0, P8 for a global candidates-test evaluating g at −6, 0, 6, 12 (or a sign-of-f argument), P9 for the answer x=0. Common failure: reasons for inflection that reference g rather than f (loses P4); local arguments in D (lose P8 but stay eligible for P9)."
+      "content": "AP Calculus AB Q4 (Part A, no calculator), 9 points. f is continuous on [−6,12], its graph is two semicircles and a line segment; g(x)=∫_6^x f(t)dt. A (2 pts): find g'(8) with a reason — P1 for g'(x)=f(x) (FTC), P2 for the value g'(8)=f(8)=1. B (2 pts): x-values in (−6,12) where g has points of inflection with reason — P3 only for x=−3, 3, 6 (any extra declared value loses both P3 and P4), P4 for tying the reason to f (f/g' changes from increasing to decreasing or vice versa; citing g's concavity or g''=f' changing sign earns P3 but NOT P4). C (2 pts): find g(12) and g(0), labeled — P5 for g(12)=9, P6 for g(0)=−9π/2 (unlabeled values earn nothing). D (3 pts): x where g attains its absolute minimum on [−6,12] — P7 for considering g'(x)=f(x)=0, P8 for a global candidates-test evaluating g at −6, 0, 6, 12 (or a sign-of-f argument), P9 for the answer x=0. Common failure: reasons for inflection that reference g rather than f (loses P4); local arguments in D (lose P8 but stay eligible for P9).",
+      "promptId": "ap25-calculus-ab-q4"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "9",
       "refId": "CALCAB:q4:2025-4A",
       "title": "Q4 exemplar — Sample 4A, 9/9",
-      "content": "Q4 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: g'(x)=f(x) and g'(8)=1 (A); inflection points x=−3, 3, 6 with reasoning tied to f increasing/decreasing (B); labeled g(12)=9 and g(0)=−9π/2 (C); g'=f=0, a correct candidates-test table, and absolute minimum at x=0 (D). Model, with inflection reasons correctly referencing f rather than g."
+      "content": "Q4 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: g'(x)=f(x) and g'(8)=1 (A); inflection points x=−3, 3, 6 with reasoning tied to f increasing/decreasing (B); labeled g(12)=9 and g(0)=−9π/2 (C); g'=f=0, a correct candidates-test table, and absolute minimum at x=0 (D). Model, with inflection reasons correctly referencing f rather than g.",
+      "promptId": "ap25-calculus-ab-q4"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "6",
       "refId": "CALCAB:q4:2025-4B",
       "title": "Q4 exemplar — Sample 4B, 6/9",
-      "content": "Q4 scored 6/9 (1-1-0-0-1-1-1-0-1). Earned both A points, both C points (labeled 9 and −9π/2), P7 (g'=f=0), and P9 (answer x=0 with a local argument). Lost both B points (answer x=0 for inflection is incorrect and reasoning wrong) and P8 (justification insufficient to establish a global absolute minimum). Shows that a local minimum argument still earns the answer point P9 while forfeiting P8."
+      "content": "Q4 scored 6/9 (1-1-0-0-1-1-1-0-1). Earned both A points, both C points (labeled 9 and −9π/2), P7 (g'=f=0), and P9 (answer x=0 with a local argument). Lost both B points (answer x=0 for inflection is incorrect and reasoning wrong) and P8 (justification insufficient to establish a global absolute minimum). Shows that a local minimum argument still earns the answer point P9 while forfeiting P8.",
+      "promptId": "ap25-calculus-ab-q4"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "3",
       "refId": "CALCAB:q4:2025-4C",
       "title": "Q4 exemplar — Sample 4C, 3/9",
-      "content": "Q4 scored 3/9 (1-1-0-0-0-1-0-0-0). Earned both A points and P6 (labeled g(0)=−9π/2). Lost both B points (declared x=0 as an inflection point — an incorrect value), P5 (wrong g(12)), P7 (no consideration of g'=0 or f=0), P8 (candidates test omits g(0)), and P9 (wrong minimum location). Illustrates how one wrong extra value voids the inflection part and how skipping the critical-point step collapses part D."
+      "content": "Q4 scored 3/9 (1-1-0-0-0-1-0-0-0). Earned both A points and P6 (labeled g(0)=−9π/2). Lost both B points (declared x=0 as an inflection point — an incorrect value), P5 (wrong g(12)), P7 (no consideration of g'=0 or f=0), P8 (candidates test omits g(0)), and P9 (wrong minimum location). Illustrates how one wrong extra value voids the inflection part and how skipping the critical-point step collapses part D.",
+      "promptId": "ap25-calculus-ab-q4"
     }
   ]
 }

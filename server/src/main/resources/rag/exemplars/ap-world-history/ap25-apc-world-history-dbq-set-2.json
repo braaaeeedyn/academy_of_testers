@@ -6,7 +6,8 @@
       "dimension": "dbq-document-based-question",
       "refId": "WORLDH:dbq:set2-rubric",
       "title": "DBQ — Document-Based Question (7 points) — Set 2: Spread of Industrialization & Impact on Women",
-      "content": "AP World History DBQ, 7 points, standardized rubric. A Thesis/Claim [1]: defensible thesis with a line of reasoning. B Contextualization [1]: broader relevant context. C Evidence [0–3]: (1) content of at least THREE documents; (1) argument using at least FOUR documents; (1) specific evidence BEYOND the documents. D Analysis and Reasoning [0–2]: (1) Sourcing for at least TWO documents; (1) Complex Understanding. Set 2 prompt: evaluate the spread of industrialization and its impact on women (7 documents). Same scoring model as Set 1. Common failure: three-document ceiling, missing sourcing, vague outside evidence."
+      "content": "AP World History DBQ, 7 points, standardized rubric. A Thesis/Claim [1]: defensible thesis with a line of reasoning. B Contextualization [1]: broader relevant context. C Evidence [0–3]: (1) content of at least THREE documents; (1) argument using at least FOUR documents; (1) specific evidence BEYOND the documents. D Analysis and Reasoning [0–2]: (1) Sourcing for at least TWO documents; (1) Complex Understanding. Set 2 prompt: evaluate the spread of industrialization and its impact on women (7 documents). Same scoring model as Set 1. Common failure: three-document ceiling, missing sourcing, vague outside evidence.",
+      "promptId": "ap25-world-history-dbq-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "7",
       "refId": "WORLDH:dbq:set2-2025-1A",
       "title": "DBQ Set 2 exemplar — Sample 1A, 7/7",
-      "content": "DBQ (Set 2) scored 7/7 (Thesis 1, Context 1, Evidence 3, Analysis 2). Defensible thesis and contextualization, all three evidence points (3-doc, 4-doc, outside), and both analysis points (sourcing and complex understanding). Full-credit model."
+      "content": "DBQ (Set 2) scored 7/7 (Thesis 1, Context 1, Evidence 3, Analysis 2). Defensible thesis and contextualization, all three evidence points (3-doc, 4-doc, outside), and both analysis points (sourcing and complex understanding). Full-credit model.",
+      "promptId": "ap25-world-history-dbq-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "4",
       "refId": "WORLDH:dbq:set2-2025-1B",
       "title": "DBQ Set 2 exemplar — Sample 1B, 4/7",
-      "content": "DBQ (Set 2) scored 4/7 (Thesis 1, Context 1, Evidence 2, Analysis 0). Earned thesis, contextualization, and two evidence points but lost the remaining evidence point and both analysis points (no sourcing, no complexity). Illustrates the common no-analysis ceiling."
+      "content": "DBQ (Set 2) scored 4/7 (Thesis 1, Context 1, Evidence 2, Analysis 0). Earned thesis, contextualization, and two evidence points but lost the remaining evidence point and both analysis points (no sourcing, no complexity). Illustrates the common no-analysis ceiling.",
+      "promptId": "ap25-world-history-dbq-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "2",
       "refId": "WORLDH:dbq:set2-2025-1C",
       "title": "DBQ Set 2 exemplar — Sample 1C, 2/7",
-      "content": "DBQ (Set 2) scored 2/7 (Thesis 1, Context 1, Evidence 0, Analysis 0). Earned only thesis and contextualization; insufficient document use and outside evidence, and no sourcing/complexity. Illustrates an argument framed without enough document evidence."
+      "content": "DBQ (Set 2) scored 2/7 (Thesis 1, Context 1, Evidence 0, Analysis 0). Earned only thesis and contextualization; insufficient document use and outside evidence, and no sourcing/complexity. Illustrates an argument framed without enough document evidence.",
+      "promptId": "ap25-world-history-dbq-set-2"
     }
   ]
 }

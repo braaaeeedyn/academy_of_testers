@@ -1,0 +1,379 @@
+{
+ "subjectName": "AP Art History",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-art-history-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Long Essay — Comparison",
+   "topic": "",
+   "teaser": "The painting shown is Hunters in the Snow by Pieter Bruegel the Elder , created in 1565 CE. The painting depicts human activity within a natural landscape. Select and completely identify another…",
+   "suggestedMinutes": 35,
+   "totalPoints": 8,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-art-history/ap25-art-history-q1.pdf",
+   "pageCount": 2,
+   "promptText": "Art Resource, NY\n1. The painting shown is Hunters in the Snow by Pieter Bruegel the Elder , created in 1565 CE. The\npainting depicts human activity within a natural landscape.\nSelect and completely identify another painting that depicts human activity within a natural\nlandscape. You may select a painting from the list below or any other relevant painting.\nDescribe one visual characteristic of Hunters in the Snow and one visual characteristic of your\nselected painting.\nUsing specific visual evidence from Hunters in the Snow and specific visual evidence from your\nselected painting, explain ONE difference in how the artists depicted human activity in the\nnatural landscape.\nUsing specific visual evidence from Hunters in the Snow and specific visual evidence from your\nselected painting, explain ANOTHER difference in how the artists depicted human activity in the\nnatural landscape.\nMake a claim that explains one similarity or difference in why the artists depicted human\nactivity in the natural landscape.\nSupport your claim using specific contextual evidence from Hunters in the Snow and specific\ncontextual evidence from your selected painting.\nWhen identifying the work you select, you should try to include all of the following identifiers:\ntitle or designation, name of the artist and/or culture of origin, date of creation, and materials.\nYou will earn credit for the identification if you provide at least two accurate identifiers, but\nyou will not be penalized if any additional identifiers you provide are inaccurate. If you select\na work from the list below, you must include at least two accurate identifiers beyond those that\nare given.\nThe Swing\nTravelers among Mountains and Streams\nThe Court of Gayumars",
+   "sourceText": null,
+   "scoringGuide": "AP Art History Q1, Long Essay Comparison, 8 points, each point earned independently. Task A (1): select and completely identify another work fitting the prompt (≥2 accurate identifiers beyond the given title — artist, date, materials, culture, or style). Task B (2): accurately describe ONE visual characteristic of the given work (Point 2) AND ONE of the selected work (Point 3). Task C (2): use visual evidence from BOTH works to explain ONE difference (Point 4) and ANOTHER difference (Point 5) in how the artists depicted the prompt's subject. Task D (3): articulate a claim about one similarity/difference in WHY the artists depicted it (Point 6), then support it with specific CONTEXTUAL evidence from the given work (Point 7) and from the selected work (Point 8). Describe = characteristics beyond naming; contextual evidence = about the work's culture/purpose/patronage, distinct from visual description.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "8",
+     "summary": "Q1 Comparison scored 8/8 (all tasks A,B1,B2,C1,C2,D1,D2,D3). Selected Travelers among Mountains and Streams (identified culture 'Chinese' + material 'ink'). Described a visual characteristic of each work; explained two differences (relative size/importance of figures vs. landscape; degree of human impact on the environment); made a claim tied to differing cultural understandings and supported it with contextual evidence from both (European 16th-c. use of nature's resources; Daoist view of humans as a small part of the world). Full-credit model.",
+     "refId": "ARTH:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "6",
+     "summary": "Q1 scored 6/8 (A,B1,B2,C1,C2,D1 earned; D2,D3 = 0). Selected The Swing (identified 'France', 'oil paint on canvas'). Described a visual characteristic of each; explained two+ differences (winter activity vs. clandestine play; work vs. leisure/affluence). Made a claim (setting impacts lifestyle) but did NOT support it with specific CONTEXTUAL evidence from either work, forfeiting the two contextual points. Shows the common gap: strong visual analysis but missing the contextual support in Task D.",
+     "refId": "ARTH:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "4",
+     "summary": "Q1 scored 4/8 (B1,B2,C1,C2 earned; A,D1,D2,D3 = 0). Did not attempt Task A (no identification of a comparison work) or Task D (no claim + contextual evidence). Still earned both description points and both difference-explanation points (mood of loss vs. illicit secrecy; reactions to cold vs. warm weather — a minor inaccuracy did not negate an otherwise accurate explanation). Illustrates that the visual tasks (B, C) are independently earnable even when A and D are skipped.",
+     "refId": "ARTH:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-art-history-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Long Essay — Visual/Contextual Analysis",
+   "topic": "",
+   "teaser": "Contemporary artists often use installations to communicate political, cultural, or personal meaning. Select and completely identify one work of art from the list below or any other relevant work…",
+   "suggestedMinutes": 25,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-art-history/ap25-art-history-q2.pdf",
+   "pageCount": 1,
+   "promptText": "Note: There are no images provided for Question 2.\n2. Contemporary artists often use installations to communicate political, cultural, or personal\nmeaning.\nSelect and completely identify one work of art from the list below or any other relevant work\nfrom the Global Contemporary (1980 CE to Present) in which the artist uses an installation to\ncommunicate political, cultural, or personal meaning.\nExplain how the installation communicates political, cultural, or personal meaning.\nIn your response, you should do the following:\n• Provide two accurate identifiers for the work of art you have selected.\n• Respond to the prompt with an art historically defensible claim or thesis that establishes\na line of reasoning.\n• Support your claim with at least two examples of relevant visual and/or contextual\nevidence.\n• Explain how the evidence supports the claim.\n• Corroborate or qualify your claim by explaining relevant connections, providing nuance,\nor considering diverse views.\nWhen identifying the work you select, you should try to include all of the following identifiers:\ntitle or designation, artist, culture of origin, date of creation, and materials. You will earn\ncredit for the identification if you provide at least two accurate identifiers, but you will not be\npenalized if any additional identifiers you provide are inaccurate. If you select a work from the\nlist below, you must include at least two accurate identifiers beyond those that are given.\nShibboleth\nEn la Barberia no se Llora (No Crying Allowed in the Barbershop)\nKui Hua Zi (Sunflower Seeds)",
+   "sourceText": null,
+   "scoringGuide": "AP Art History Q2, Long Essay Visual/Contextual Analysis, 6 points, each earned independently. Task A (1): provide two accurate identifiers for the selected work. Task B (1): respond with an art-historically defensible claim/thesis. Task C (2): support the claim with at least two examples of relevant visual and/or contextual evidence. Task D (1): explain how the evidence supports the claim. Task E (1): corroborate or qualify the claim by explaining relevant connections. Points are independent — a response can earn evidence points without the claim point, etc.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "6",
+     "summary": "Q2 Visual/Contextual Analysis scored 6/6 — earns all tasks: two accurate identifiers, a defensible claim, at least two examples of relevant visual/contextual evidence, an explanation of how the evidence supports the claim, and a corroborating/qualifying connection. Full-credit model.",
+     "refId": "ARTH:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "4",
+     "summary": "Q2 scored 4/6 — earns identifiers, a defensible claim, and the evidence points, but falls short on explaining how the evidence supports the claim and/or corroborating/qualifying it (the higher-order Tasks D/E). Typical mid-range: solid identification and evidence, weaker explanatory linkage.",
+     "refId": "ARTH:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 scored 2/6 — earns only about two of the lower tasks (e.g. identifiers and/or a claim) without adequately supporting or explaining the evidence. Shows that identification and a bare claim alone cap the score low without developed visual/contextual support.",
+     "refId": "ARTH:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-art-history-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Visual Analysis",
+   "topic": "",
+   "teaser": "In your response you should do the following: Describe two visual characteristics of The Valley of Mexico (El Valle de México). Using specific visual evidence, explain how the artist creates a…",
+   "suggestedMinutes": 15,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-art-history/ap25-art-history-q3.pdf",
+   "pageCount": 2,
+   "promptText": "Courtesy of Wikimedia Commons\nThe work shown is The Valley of Mexico (El Valle de México) by Jose María Velasco, created in\n1888 CE. This work is not from the required image set.\n3. In your response you should do the following:\nDescribe two visual characteristics of The Valley of Mexico (El Valle de México).\nUsing specific visual evidence, explain how the artist creates a sense of depth.\nUsing specific visual evidence, explain how the artist helps the viewer identify the landscape as\na specific place in Mexico.\nUsing specific visual or contextual evidence, explain how The Valley of Mexico (El Valle de\nMéxico) demonstrates continuity with nineteenth century Romantic landscape paintings.\nSource 1",
+   "sourceText": null,
+   "scoringGuide": "AP Art History Q3, Visual Analysis, 5 points (Tasks A–E, 1 point each, independent). A: accurately describe ONE visual characteristic of the shown work. B: accurately describe ANOTHER visual characteristic. C: use specific visual evidence to explain how the artist creates a particular effect (e.g. a sense of space/depth). D: use specific visual evidence to explain how the artist guides the viewer. E: use specific visual or contextual evidence to explain a further point about the work. Describe = characteristics beyond naming; the explain tasks require specific visual evidence tied to the effect.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A: accurately describe ONE visual characteristic of the shown work"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B: accurately describe ANOTHER visual characteristic"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C: use specific visual evidence to explain how the artist creates a particular effect (e.g. a sense of space/depth)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D: use specific visual evidence to explain how the artist guides the viewer"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E: use specific visual or contextual evidence to explain a further point about the work. Describe = characteristics beyond naming; the explain tasks require specific visual evidence tied to the effect"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "5",
+     "summary": "Q3 Visual Analysis scored 5/5 — earns both description points and all three explanation points, using specific visual evidence to tie each explanation to how the artist creates the effect and guides the viewer. Full-credit model.",
+     "refId": "ARTH:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "3",
+     "summary": "Q3 scored 3/5 — earns the description points and one explanation, but two explanation tasks fall short (visual evidence not specific enough or not tied to the required effect). Typical mid-range profile.",
+     "refId": "ARTH:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 scored 2/5 — earns roughly the two description points but not the explanation tasks, which require specific visual evidence linked to how the artist achieves an effect. Shows description is the accessible floor; explanation requires evidence-linked reasoning.",
+     "refId": "ARTH:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-art-history-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Contextual Analysis",
+   "topic": "",
+   "teaser": "In your response you should do the following: Describe one visual characteristic of the Forbidden City. Describe the historical function of the Forbidden City. Using two examples of specific…",
+   "suggestedMinutes": 15,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-art-history/ap25-art-history-q4.pdf",
+   "pageCount": 1,
+   "promptText": "Source 2\nGetty Images\nThe images show a plan and a view of the Forbidden City, originally constructed in the fifteenth\ncentury CE and located in Beijing, China.\n4. In your response you should do the following:\nDescribe one visual characteristic of the Forbidden City.\nDescribe the historical function of the Forbidden City.\nUsing two examples of specific contextual evidence, explain how the historical function of the\nsite influenced the design of the Forbidden City.\nUsing specific visual evidence, explain why scholars have interpreted the Forbidden City as an\nexpression of social and/or political hierarchy in Chinese society.",
+   "sourceText": null,
+   "scoringGuide": "AP Art History Q4, Contextual Analysis, 5 points (Tasks A–E, 1 point each, independent). A: accurately describe ONE visual characteristic of the shown work (this administration: the Forbidden City). B: accurately describe its historical function. C–E: accurately use visual and/or contextual evidence to explain how the work reflects its historical/cultural context, its purpose, and related connections. Describe = characteristics beyond naming; the explain tasks require specific evidence tied to context.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A: accurately describe ONE visual characteristic of the shown work (this administration: the Forbidden City)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B: accurately describe its historical function. C–E: accurately use visual and/or contextual evidence to explain how the work reflects its historical/cultural context, its purpose, and related connections. Describe = characteristics beyond naming; the explain tasks require specific evidence tied to context"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "5",
+     "summary": "Q4 Contextual Analysis scored 5/5 — describes a visual characteristic and the historical function of the work, then uses specific contextual evidence to explain how it reflects its cultural/historical context. Full-credit model.",
+     "refId": "ARTH:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "3",
+     "summary": "Q4 scored 3/5 — earns the description/function points and one contextual explanation, but two explanation tasks fall short (context not specific or not clearly tied to the work). Mid-range profile.",
+     "refId": "ARTH:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "Q4 scored 1/5 — earns only a single point (e.g. one accurate description) and does not complete the historical-function or contextual-explanation tasks with accurate, specific evidence.",
+     "refId": "ARTH:q4:2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-art-history-q5",
+   "set": null,
+   "label": "Q5",
+   "section": null,
+   "essayType": "Attribution",
+   "topic": "",
+   "teaser": "In your response you should do the following: Correctly attribute the work shown to the specific culture from the Indigenous Americas (1000 BCE–1980 CE) in which it was created. Using two examples…",
+   "suggestedMinutes": 15,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-art-history/ap25-art-history-q5.pdf",
+   "pageCount": 1,
+   "promptText": "© The Trustees of the British Museum\nThis work is not part of the required image set.\n5. In your response you should do the following:\nCorrectly attribute the work shown to the specific culture from the Indigenous Americas (1000\nBCE–1980 CE) in which it was created.\nUsing two examples of specific visual evidence, justify the attribution by describing relevant\nsimilarities between the work shown and another work of the same type created by the same\nculture.\nUsing two examples of specific visual and/or contextual evidence, explain how the work shown\nmay have reinforced the values or beliefs of the culture in which it was created.",
+   "sourceText": null,
+   "scoringGuide": "AP Art History Q5, Attribution, 5 points (Tasks A–E, 1 point each, independent). A: correctly attribute the shown work to its specific culture/tradition. B: justify the attribution by describing ONE relevant visual similarity to known works of that culture. C: justify with ANOTHER relevant visual similarity. D: explain ONE way the work may have reinforced the values or beliefs of its culture. E: explain ANOTHER such way. The justification tasks require visual similarities to the attributed culture; the value tasks require explained cultural significance.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A: correctly attribute the shown work to its specific culture/tradition"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B: justify the attribution by describing ONE relevant visual similarity to known works of that culture"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C: justify with ANOTHER relevant visual similarity"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D: explain ONE way the work may have reinforced the values or beliefs of its culture"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E: explain ANOTHER such way. The justification tasks require visual similarities to the attributed culture; the value tasks require explained cultural significance"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 5A",
+     "score": "5",
+     "summary": "Q5 Attribution scored 5/5 — correctly attributes the work, justifies with two relevant visual similarities to the culture, and explains two ways the work reinforced the culture's values/beliefs. Full-credit model.",
+     "refId": "ARTH:q5:2025-5A"
+    },
+    {
+     "label": "Sample 5B",
+     "score": "3",
+     "summary": "Q5 scored 3/5 — earns the attribution and justification points but falls short on explaining the ways the work reinforced cultural values/beliefs. Mid-range: correct attribution and visual justification, weaker cultural-significance explanation.",
+     "refId": "ARTH:q5:2025-5B"
+    },
+    {
+     "label": "Sample 5C",
+     "score": "1",
+     "summary": "Q5 scored 1/5 (A 0, B 1, C 0, D 0, E 0). Does not correctly attribute the work, and earns only one point — a single relevant visual similarity (Task B). Shows the attribution point and the value-explanation points are independent of one another; a visual similarity can be credited even when the attribution itself is wrong.",
+     "refId": "ARTH:q5:2025-5C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-art-history-q6",
+   "set": null,
+   "label": "Q6",
+   "section": null,
+   "essayType": "Continuity and Change",
+   "topic": "",
+   "teaser": "In your response you should do the following: Describe two visual characteristics of the Ludovisi Battle Sarcophagus. Using specific visual evidence, explain how the work shown demonstrates…",
+   "suggestedMinutes": 15,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-art-history/ap25-art-history-q6.pdf",
+   "pageCount": 1,
+   "promptText": "Art Resource, NY\nThe work shown is the Ludovisi Battle Sarcophagus, created in Late Imperial Rome c. 250 CE.\n6. In your response you should do the following:\nDescribe two visual characteristics of the Ludovisi Battle Sarcophagus.\nUsing specific visual evidence, explain how the work shown demonstrates continuity with\nClassical Greek sculpture.\nUsing specific visual evidence, explain how the work shown demonstrates change from\nClassical Greek sculpture.\nUsing specific visual or contextual evidence, explain why this work might be interpreted as a\ndemonstration of social or political change.",
+   "sourceText": null,
+   "scoringGuide": "AP Art History Q6, Continuity and Change, 5 points (Tasks A–E, 1 point each, independent). A: accurately describe ONE visual characteristic of the shown work (this administration: the Ludovisi Battle Sarcophagus). B–E: use specific visual and/or contextual evidence to explain continuities and/or changes the work demonstrates relative to earlier or later traditions (e.g. how it continues or departs from prior conventions, and the significance of those continuities/changes). Describe = characteristics beyond naming; the explain tasks require evidence tied to continuity or change.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A: accurately describe ONE visual characteristic of the shown work (this administration: the Ludovisi Battle Sarcophagus). B–E: use specific visual and/or contextual evidence to explain continuities and/or changes the work demonstrates relative to earlier or later traditions (e.g. how it continues or departs from prior conventions, and the significance of those continuities/changes). Describe = characteristics beyond naming; the explain tasks require evidence tied to continuity or change"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 6A",
+     "score": "5",
+     "summary": "Q6 Continuity and Change scored 5/5 — describes a visual characteristic and uses specific evidence to explain the continuities and changes the work demonstrates, with clear significance. Full-credit model.",
+     "refId": "ARTH:q6:2025-6A"
+    },
+    {
+     "label": "Sample 6B",
+     "score": "3",
+     "summary": "Q6 scored 3/5 (A 1, B 1, C 1, D 0, E 0). Describes a visual characteristic and earns two explanation points, but the final two tasks fall short (evidence not specific or not tied to a continuity/change). Mid-range profile.",
+     "refId": "ARTH:q6:2025-6B"
+    },
+    {
+     "label": "Sample 6C",
+     "score": "1",
+     "summary": "Q6 scored 1/5 (A 1, B–E 0). Earns only the visual-characteristic description; the explanation tasks are not completed with specific evidence tied to continuity or change. Description is the accessible floor; the explain tasks carry the rest of the points.",
+     "refId": "ARTH:q6:2025-6C"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,470 @@
+{
+ "subjectName": "AP Comparative Government",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-comp-go-po-q1-set-1",
+   "set": 1,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Conceptual Analysis",
+   "topic": "sovereignty & economic liberalization",
+   "teaser": "A. Describe sovereignty. B. Describe a way governments promote economic liberalization. C. Explain how economic liberalization policies can present challenges to sovereignty. D. Explain why a…",
+   "suggestedMinutes": 10,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-comparative-government/ap25-comp-go-po-q1-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "1. Respond to parts A, B, C, and D.\nA. Describe sovereignty.\nB. Describe a way governments promote economic liberalization.\nC. Explain how economic liberalization policies can present challenges to sovereignty.\nD. Explain why a government might adopt economic liberalization policies despite challenges to\nits sovereignty.",
+   "sourceText": null,
+   "scoringGuide": "AP Comparative Government FRQ 1 is Conceptual Analysis, 4 points, one per part (A–D), no stimulus. The task pattern: A describe a concept, B describe a way/example, C explain a relationship or challenge, D explain a why/motivation. Set 1 answer key: A [1] describe sovereignty (independent legal authority over a population/territory without outside interference). B [1] a way governments promote economic liberalization (privatize resources/state enterprises, reduce tariffs, join a free-trade agreement/IMF/WTO, create special economic zones, cut regulations). C [1] explain how economic liberalization can challenge sovereignty (foreign govts/MNCs exert pressure; complying with supranational trade rules; FDI cultural influence; environmental/inequality backlash). D [1] explain why a government adopts it despite the challenge (improves the economy → legitimacy; popular support; prestige/power; reduces poverty). Common failure: describing the opposite concept (e.g., nationalizing for economic liberalization), or a D-answer that states a benefit without linking it to why it is worth the sovereignty tradeoff.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe sovereignty (independent legal authority over a population/territory without outside interference)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] a way governments promote economic liberalization (privatize resources/state enterprises, reduce tariffs, join a free-trade agreement/IMF/WTO, create special economic zones, cut regulations)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how economic liberalization can challenge sovereignty (foreign govts/MNCs exert pressure; complying with supranational trade rules; FDI cultural influence; environmental/inequality backlash)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] explain why a government adopts it despite the challenge (improves the economy → legitimacy; popular support; prestige/power; reduces poverty)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "4",
+     "summary": "Q1 (Set 1) scored 4/4. A: sovereignty as the state's capability to create/enforce/regulate without outside interference. B: privatization of resources. C: economic liberalization gives outside forces (MNCs) control, reducing the state's influence over its economy. D: a government adopts it to join supranational organizations (World Bank/IMF) that provide aid and drive economic growth. Full-credit model across all four parts.",
+     "refId": "COMPGOV:q1-set1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "3",
+     "summary": "Q1 (Set 1) scored 3/4. Earned A (independence without outside interference), B (reduce tariffs), and C (accepting a larger state's help creates dependence/indebtedness). Lost D: said liberalization lets the government participate in free-market trade but never explained the benefit of that participation or why it is worth sacrificing sovereignty. Illustrates the common D-part gap — naming an action without its payoff/motivation.",
+     "refId": "COMPGOV:q1-set1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "Q1 (Set 1) scored 1/4. Earned only A (full power over the state with no external control). Lost B (described nationalizing industries, the opposite of economic liberalization), C (described allies sharing resources, not a challenge to sovereignty), and D (discussed industry revenue, not relevant to sovereignty). Illustrates that misdefining the core concept (liberalization vs. nationalization) cascades through the later parts.",
+     "refId": "COMPGOV:q1-set1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-comp-go-po-q2-set-1",
+   "set": 1,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Quantitative Analysis",
+   "topic": "Corruption Perceptions Index & legitimacy",
+   "teaser": "A. Using the data in the graph, identify the country with the highest level of perceived corruption in 2015. B. Using the data in the graph, describe a trend in China’s score on the Corruption…",
+   "suggestedMinutes": 20,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-comparative-government/ap25-comp-go-po-q2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "CORRUPTION PERCEPTIONS INDEX, 2014 TO 2021\nSource: Transparency International, 2023\nNote: A score of 100 indicates a country with no perceived corruption, while a score of 0\nindicates a country with the highest level of possible perceived corruption.\n2. Respond to parts A, B, C, D, and E.\nA. Using the data in the graph, identify the country with the highest level of perceived\ncorruption in 2015.\nB. Using the data in the graph, describe a trend in China’s score on the Corruption Perceptions\nIndex between 2018 and 2021.\nC. Describe political legitimacy.\nD. Using the data in the graph, draw a conclusion that explains the level of perceived corruption\nin the United Kingdom.\nE. Explain what the data in the graph imply about the relationship between corruption and\nlegitimacy in China.",
+   "sourceText": null,
+   "scoringGuide": "AP Comparative Government FRQ 2 is Quantitative Analysis, 5 points, one per part (A–E), based on a data graph. Task pattern: A identify a value from the data, B describe a trend in the data, C describe a course concept, D draw a data-based conclusion, E explain what the data imply about a relationship. Set 1 answer key (Corruption Perceptions Index graph): A [1] country with highest perceived corruption in 2015 = Nigeria. B [1] describe China's CPI-score trend 2018–2021 (score increased / perceived corruption decreased). C [1] describe political legitimacy (people's belief that the government has the right to rule; sources include elections, transparency, tradition, performance). D [1] draw a conclusion explaining the UK's low perceived corruption (free/fair elections, transparency, consolidated democracy, rule of law). E [1] explain what the data imply about corruption vs. legitimacy in China (e.g., little correlation — high legitimacy from economic performance despite moderate corruption; or govt reduced corruption to maintain legitimacy). Common failure: for C, defining legitimacy as the ability to hold/maintain power rather than the people's belief in the right to rule; for D, restating score changes instead of giving a reason.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] country with highest perceived corruption in 2015 = Nigeria"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe China's CPI-score trend 2018–2021 (score increased / perceived corruption decreased)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] describe political legitimacy (people's belief that the government has the right to rule; sources include elections, transparency, tradition, performance)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] draw a conclusion explaining the UK's low perceived corruption (free/fair elections, transparency, consolidated democracy, rule of law)"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E [1] explain what the data imply about corruption vs. legitimacy in China (e.g., little correlation — high legitimacy from economic performance despite moderate corruption; or govt reduced corruption to maintain legitimacy)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "5",
+     "summary": "Q2 (Set 1) scored 5/5. A: Nigeria. B: slight increase in China's CPI score → perceived corruption decreased. C: legitimacy as the government's right to rule based on citizen perception. D: UK's fair/competitive elections with minimal corruption explain its high score. E: corruption and legitimacy in China are not necessarily correlated — high legitimacy comes from economic prosperity despite a low CPI score. Full-credit model.",
+     "refId": "COMPGOV:q2-set1:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "3",
+     "summary": "Q2 (Set 1) scored 3/5. Earned A (Nigeria), B (score went up), and D (UK consolidated democracy → transparency/audits). Lost C (defined legitimacy as the ability to maintain power, not the people's belief in the right to rule) and E (cited the military as a legitimacy source but never linked it to the perception of corruption). Shows the frequent legitimacy-definition error.",
+     "refId": "COMPGOV:q2-set1:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 (Set 1) scored 2/5. Earned A (Nigeria) and B (score increased). Lost C (defined legitimacy via government actions rather than citizen belief in the right to rule), D (described the UK's score changes rather than a reason for low corruption), and E (connected corruption and legitimacy but named no government action linking higher corruption to lower legitimacy). Illustrates a data-reading response that misses the conceptual and explanatory parts.",
+     "refId": "COMPGOV:q2-set1:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-comp-go-po-q3-set-1",
+   "set": 1,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Comparative Analysis",
+   "topic": "judicial systems",
+   "teaser": "Compare the limits on the power of the judicial system in two different AP Comparative Government and Politics course countries. A. Describe a function of a judicial system. B. Describe a limit on…",
+   "suggestedMinutes": 20,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-comparative-government/ap25-comp-go-po-q3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. Compare the limits on the power of the judicial system in two different AP Comparative\nGovernment and Politics course countries.\nRespond to parts A, B, and C.\nA. Describe a function of a judicial system.\nB. Describe a limit on the power of the judicial system in two different AP Comparative\nGovernment and Politics course countries.\nC. Explain why each of the two AP Comparative Government and Politics course countries\ndescribed in (B) would limit the power of their judicial systems.",
+   "sourceText": null,
+   "scoringGuide": "AP Comparative Government FRQ 3 is Comparative Analysis, 5 points: A describe a concept (1), B describe/apply it in TWO different AP Comparative course countries (2, one per country), C explain WHY for each of those two countries (2, one per country). The six course countries are China, Iran, Mexico, Nigeria, Russia, and the UK. Set 1 answer key: A [1] a function of a judicial system (interpret laws, assess constitutionality, resolve disputes, apply law, checks and balances, protect rights, establish rule of law). B [2] describe a limit on judicial power in two course countries (e.g., China: judiciary under CCP control / rule by law; Russia: judges nominated by the President, no judicial review; UK: no judicial review, bound by common law; Iran: Chief Justice appointed by Supreme Leader). C [2] explain why each country limits judicial power (e.g., China/Russia: executive consolidates power / controls dissent; UK: parliamentary sovereignty / prevent any branch dominating; Mexico/Nigeria: checks and balances). Common failure: attributing powers a country's executive does not actually have; explanations that restate the limit rather than give a reason. Both B and C are country-specific — an inaccurate country claim loses that country's point in both.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] a function of a judicial system (interpret laws, assess constitutionality, resolve disputes, apply law, checks and balances, protect rights, establish rule of law)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B [2] describe a limit on judicial power in two course countries (e.g., China: judiciary under CCP control / rule by law; Russia: judges nominated by the President, no judicial review; UK: no judicial review, bound by common law; Iran: Chief Justice appointed by Supreme Leader)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C [2] explain why each country limits judicial power (e.g., China/Russia: executive consolidates power / controls dissent; UK: parliamentary sovereignty / prevent any branch dominating; Mexico/Nigeria: checks and balances)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "5",
+     "summary": "Q3 (Set 1) scored 5/5. A: judicial function = resolve civil and criminal disputes. B (both earned): UK lacks judicial review (cannot rule on constitutionality of Parliament's laws); Russia's judiciary lacks independence, judges nominated by the President. C (both earned): UK limits the judiciary to concentrate power in Parliament/executive and preserve policy continuity; Russia limits it so the executive (Putin) can consolidate power. Full-credit model with accurate, country-specific claims.",
+     "refId": "COMPGOV:q3-set1:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "3",
+     "summary": "Q3 (Set 1) scored 3/5. A: judicial review of laws' constitutionality. B: 1/2 — UK point earned (advises Parliament via committees but cannot overturn laws); Russia point lost (incorrectly said Russia's judiciary 'doesn't have judicial review'). C: 1/2 — UK explanation lost (efficiency claim didn't clarify parliamentary sovereignty); Russia earned (limits judiciary so United Russia keeps one-party dominance and Putin consolidates power). Shows how one inaccurate country claim costs a point while the parallel country still scores.",
+     "refId": "COMPGOV:q3-set1:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "Q3 (Set 1) scored 1/5. Earned only A (judiciary checks laws against the constitution). Lost both B points and both C points because it attributed powers the executives do not possess — claimed Nigeria's president can remove justices and Mexico's president can ignore judicial rulings. Illustrates that factually wrong country claims void both the description and explanation points for those countries.",
+     "refId": "COMPGOV:q3-set1:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-comp-go-po-q4-set-1",
+   "set": 1,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Argument Essay",
+   "topic": "civil liberties & stability",
+   "teaser": "Develop an argument about whether government protections of civil liberties increase or decrease stability in a state. Use one or more of the following course concepts in your response: •…",
+   "suggestedMinutes": 40,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-comparative-government/ap25-comp-go-po-q4-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "4. Develop an argument about whether government protections of civil liberties increase or\ndecrease stability in a state.\nUse one or more of the following course concepts in your response:\n• Democratization\n• Transparency\n• Rule of law\nIn your response you should do the following.\n• Respond to the prompt with a defensible claim or thesis that establishes a line of\nreasoning using one or more of the provided course concepts.\n• Support your claim with at least TWO pieces of specific and relevant evidence from\none or more course countries. The evidence should be relevant to one or more of the\nprovided course concepts.\n• Use reasoning to explain why your evidence supports your claim or thesis, using one or\nmore of the provided course concepts.\n• Respond to an opposing or alternate perspective using refutation, concession, or rebuttal.",
+   "sourceText": null,
+   "scoringGuide": "AP Comparative Government FRQ 4 is the Argument Essay, 5 points across four rows. Row A Claim/Thesis [1]: a defensible thesis establishing a line of reasoning that uses at least one required course concept. Row B Evidence [2]: two pieces of specific, relevant evidence from required course countries tied to a course concept (1 point each). Row C Reasoning [1]: explain how/why the evidence supports the thesis (requires the Row A point). Row D Alternate Perspectives [1]: describe an opposing perspective AND refute, concede, or rebut it (requires the Row A point; merely describing the alternate view is not enough). Set 1 prompt: whether government protections of civil liberties increase or decrease stability in a state, using one or more of democratization, transparency, and rule of law. Common failure: a 'thesis' that only restates the prompt (loses A); presenting an alternate view without refuting/conceding/rebutting it (loses D); evidence not tied to a course concept.",
+   "rubric": [
+    {
+     "name": "Claim / Thesis",
+     "maxPoints": 1,
+     "criteria": "A defensible thesis that establishes a line of reasoning and uses at least one of the required course concepts."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "One point per piece of specific, relevant evidence from the required course countries tied to a course concept (up to 2)."
+    },
+    {
+     "name": "Reasoning",
+     "maxPoints": 1,
+     "criteria": "Explains how or why the evidence supports the claim or thesis."
+    },
+    {
+     "name": "Alternate Perspective",
+     "maxPoints": 1,
+     "criteria": "Describes an opposing or alternate perspective AND responds to it with refutation, concession, or rebuttal."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "5",
+     "summary": "Q4 (Set 1) scored 5/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 1). Thesis: protections of civil liberties increase stability through transparency. Evidence: UK transparency during Brexit; Iran's media control/hijab enforcement → protests. Reasoning: government honesty builds trust that stabilizes the state. Alternate perspective: acknowledged the 'loss of control/factions' counterargument then rebutted it. Full-credit model for the argument essay.",
+     "refId": "COMPGOV:q4-set1:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (Set 1) scored 4/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 0). Thesis links protections to stability via transparency and rule of law. Evidence: Russia (rule by law, subjective punishments) and China (media censorship reducing transparency). Reasoning: reduced transparency undermines trust and stability. Lost Row D: presented an alternate argument but offered no rebuttal, refutation, or concession. Illustrates the most common argument-essay miss — describing the counterview without responding to it.",
+     "refId": "COMPGOV:q4-set1:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "2",
+     "summary": "Q4 (Set 1) scored 2/5 (Thesis 0, Evidence 2, Reasoning 0, Alternate 0). Earned both evidence points (UK rule of law protecting civil liberties; Nigeria democratization with low transparency re: MOSOP). Lost the thesis point because the claim referenced 'fundamental principles of a democracy' without using democratization, transparency, or rule of law as the line of reasoning — and because Row A was not earned, Reasoning and Alternate Perspectives were ineligible. Illustrates how a thesis that omits the required course concepts caps the score even with strong evidence.",
+     "refId": "COMPGOV:q4-set1:2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-comp-go-po-q1-set-2",
+   "set": 2,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Conceptual Analysis",
+   "topic": "economic globalization & MNCs",
+   "teaser": "A. Describe economic globalization. B. Describe a way that governments support economic globalization. C. Explain how multinational corporations (MNCs) can present challenges to state sovereignty.…",
+   "suggestedMinutes": 10,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-comparative-government/ap25-comp-go-po-q1-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "1. Respond to parts A, B, C, and D.\nA. Describe economic globalization.\nB. Describe a way that governments support economic globalization.\nC. Explain how multinational corporations (MNCs) can present challenges to state sovereignty.\nD. Explain why governments may encourage economic globalization despite the challenges it\nmay present.",
+   "sourceText": null,
+   "scoringGuide": "AP Comparative Government FRQ 1, Conceptual Analysis, 4 points, one per part (A–D), no stimulus. Set 2 answer key: A [1] describe economic globalization (interconnected worldwide markets/trade; unrestricted international movement of goods, capital, or labor across borders). B [1] a way governments support economic globalization (join a trade organization, decrease tariffs/immigration restrictions/quotas/subsidies, encourage FDI, improve infrastructure, create special economic zones, sign trade agreements). C [1] explain how MNCs can challenge state sovereignty (MNC economic/political resources pressure governments to align policies; conflicting labor/environment/tax goals; states compete to attract investment by lowering standards). D [1] explain a related motivation/why. Same task template as Set 1. Common failure: describing globalization as mere international relations, or an MNC-challenge that never ties MNC leverage to reduced state control.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe economic globalization (interconnected worldwide markets/trade; unrestricted international movement of goods, capital, or labor across borders)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] a way governments support economic globalization (join a trade organization, decrease tariffs/immigration restrictions/quotas/subsidies, encourage FDI, improve infrastructure, create special economic zones, sign trade agreements)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how MNCs can challenge state sovereignty (MNC economic/political resources pressure governments to align policies; conflicting labor/environment/tax goals; states compete to attract investment by lowering standards)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] explain a related motivation/why. Same task template as Set 1"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "4",
+     "summary": "Q1 (Set 2) scored 4/4 (A, B, C, D all earned). Correctly described economic globalization, a government action that supports it, how MNCs challenge sovereignty, and the associated motivation. Full-credit model for the Conceptual Analysis task.",
+     "refId": "COMPGOV:q1-set2:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "Q1 (Set 2) scored 2/4 (A=0, B=1, C=1, D=0). Earned the two middle parts (a way to support globalization and an MNC challenge to sovereignty) but lost the concept description (A) and the motivation (D). Illustrates that the descriptive-concept and why parts are often the harder points on this task.",
+     "refId": "COMPGOV:q1-set2:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "Q1 (Set 2) scored 1/4 (only B earned). Named a way governments support economic globalization but missed the definition of globalization (A), the MNC-sovereignty challenge (C), and the motivation (D). Illustrates a low response securing only the concrete example part.",
+     "refId": "COMPGOV:q1-set2:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-comp-go-po-q2-set-2",
+   "set": 2,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Quantitative Analysis",
+   "topic": "legislative seat share & dominant party systems",
+   "teaser": "A. Using the data in the graph, identify the country where the largest party held the lowest percentage of seats in 2016. B. Using the data in the graph, describe a trend in the percentage of…",
+   "suggestedMinutes": 20,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-comparative-government/ap25-comp-go-po-q2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "LARGEST PARTY IN LOWER HOUSE IN LEGISLATURE, 2011 TO 2020\nSource: Inter-Parliamentary Union’s Parline Database\n2. Respond to parts A, B, C, D, and E.\nA. Using the data in the graph, identify the country where the largest party held the lowest\npercentage of seats in 2016.\nB. Using the data in the graph, describe a trend in the percentage of seats held by the largest\nparty in Russia between 2011 and 2020.\nC. Describe dominant party systems.\nD. Using the data in the graph, draw a conclusion that explains the change in the percentage of\nseats held by the largest party in Mexico between 2011 and 2020.\nE. Explain what the data illustrate about the relationship between the percentage of seats held\nby the largest party and the level of democratization in Nigeria.",
+   "sourceText": null,
+   "scoringGuide": "AP Comparative Government FRQ 2, Quantitative Analysis, 5 points, one per part (A–E), from a data graph. Set 2 answer key (percentage of seats held by the largest party): A [1] country where the largest party held the lowest seat share in 2016 = Mexico. B [1] describe the trend in Russia's largest-party seat share 2011–2020 (increased from ~55% to ~75%). C [1] describe dominant party systems (allow multiple parties to compete but one party controls government; hard for new parties to challenge; may restrict opposition media access). D [1] draw a conclusion explaining the change in Mexico's largest-party seat share 2011–2020. E [1] explain what the data imply about a relationship. Same A–E task template as Set 1. Common failure: describing a dominant party system as a one-party state (no competition allowed) rather than one that permits competition but ensures one-party control.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] country where the largest party held the lowest seat share in 2016 = Mexico"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe the trend in Russia's largest-party seat share 2011–2020 (increased from ~55% to ~75%)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] describe dominant party systems (allow multiple parties to compete but one party controls government; hard for new parties to challenge; may restrict opposition media access)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] draw a conclusion explaining the change in Mexico's largest-party seat share 2011–2020"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E [1] explain what the data imply about a relationship. Same A–E task template as Set 1"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "5",
+     "summary": "Q2 (Set 2) scored 5/5 (A–E all earned). Correctly identified Mexico, described Russia's rising seat share, described dominant party systems, drew a data-based conclusion about Mexico, and explained the implied relationship. Full-credit model for the Quantitative Analysis task.",
+     "refId": "COMPGOV:q2-set2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "3",
+     "summary": "Q2 (Set 2) scored 3/5 (A=1, B=1, C=0, D=1, E=0). Earned the two data-reading parts and the conclusion, but lost the concept description (dominant party systems) and the final relationship explanation. Illustrates that the concept and implication parts are the harder points.",
+     "refId": "COMPGOV:q2-set2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "Q2 (Set 2) scored 1/5 (only A earned). Identified Mexico from the graph but missed the trend description, the dominant-party-system concept, the conclusion, and the implication. Illustrates a low response securing only the direct data-identification point.",
+     "refId": "COMPGOV:q2-set2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-comp-go-po-q3-set-2",
+   "set": 2,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Comparative Analysis",
+   "topic": "civil society",
+   "teaser": "Compare the relationship between civil society organizations and regime types in two different AP Comparative Government and Politics course countries. A. Describe civil society. B. Describe a…",
+   "suggestedMinutes": 20,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-comparative-government/ap25-comp-go-po-q3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. Compare the relationship between civil society organizations and regime types in two different\nAP Comparative Government and Politics course countries.\nRespond to parts A, B, and C.\nA. Describe civil society.\nB. Describe a role of civil society organizations in two different AP Comparative Government\nand Politics course countries.\nC. Explain how regime type may affect civil society organizations in each of the two AP\nComparative Government and Politics course countries described in (B).",
+   "sourceText": null,
+   "scoringGuide": "AP Comparative Government FRQ 3, Comparative Analysis, 5 points: A describe a concept (1), B describe a role in TWO different course countries (2), C explain WHY for each (2). Course countries: China, Iran, Mexico, Nigeria, Russia, UK. Set 2 answer key: A [1] describe civil society (voluntary associations autonomous from the state; NGOs citizens join voluntarily — naming a single example organization alone is NOT enough). B [2] describe a role of civil society organizations in two course countries (e.g., monitor/lobby the government and expose corruption; represent members' interests; provide organizational experience). C [2] explain why for each country. Same A/B/C task template as Set 1, with B and C country-specific. Common failure for A: naming one CSO example instead of defining the category.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe civil society (voluntary associations autonomous from the state; NGOs citizens join voluntarily — naming a single example organization alone is NOT enough); A: naming one CSO example instead of defining the category"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B [2] describe a role of civil society organizations in two course countries (e.g., monitor/lobby the government and expose corruption; represent members' interests; provide organizational experience)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C [2] explain why for each country. Same A/B/C task template as Set 1, with B and C country-specific"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "5",
+     "summary": "Q3 (Set 2) scored 5/5 (A=1, B=2, C=2). Defined civil society, described its role in two course countries, and explained why for each. Full-credit model for the Comparative Analysis task.",
+     "refId": "COMPGOV:q3-set2:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "4",
+     "summary": "Q3 (Set 2) scored 4/5 (A=0, B=2, C=2). Earned both country descriptions and both explanations but lost part A — did not correctly define civil society (e.g., named an example rather than describing voluntary associations autonomous from the state). Illustrates that the concept-definition point can be missed even when the two-country application is strong.",
+     "refId": "COMPGOV:q3-set2:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 2) scored 2/5 (A=0, B=2, C=0). Earned only the two country-role descriptions. Lost A (no valid definition of civil society) and both C explanations (did not explain why civil society plays that role in each country). Illustrates a response that can describe roles but not define the concept or explain causation.",
+     "refId": "COMPGOV:q3-set2:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-comp-go-po-q4-set-2",
+   "set": 2,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Argument Essay",
+   "topic": "judicial independence & political legitimacy",
+   "teaser": "Develop an argument about whether judicial independence increases or decreases a government’s political legitimacy. Use one or more of the following course concepts in your response: • Checks and…",
+   "suggestedMinutes": 40,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-comparative-government/ap25-comp-go-po-q4-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "4. Develop an argument about whether judicial independence increases or decreases a\ngovernment’s political legitimacy.\nUse one or more of the following course concepts in your response:\n• Checks and balances\n• Stability\n• Rule of law\nIn your response you should do the following:\n• Respond to the prompt with a defensible claim or thesis that establishes a line of\nreasoning using one or more of the provided course concepts.\n• Support your claim with at least TWO pieces of specific and relevant evidence from\none or more course countries. The evidence should be relevant to one or more of the\nprovided course concepts.\n• Use reasoning to explain why your evidence supports your claim or thesis, using one or\nmore of the provided course concepts.\n• Respond to an opposing or alternate perspective using refutation, concession, or rebuttal.",
+   "sourceText": null,
+   "scoringGuide": "AP Comparative Government FRQ 4, Argument Essay, 5 points across four rows. Row A Claim/Thesis [1]: defensible thesis with a line of reasoning using a required course concept. Row B Evidence [2]: two specific, relevant pieces of evidence from required course countries tied to a course concept. Row C Reasoning [1]: explain how/why the evidence supports the thesis (requires Row A). Row D Alternate Perspectives [1]: describe an opposing view AND refute/concede/rebut it (requires Row A). Set 2 prompt: whether judicial independence increases or decreases a government's political legitimacy, using one or more of checks and balances, stability, and rule of law. Same four-row scoring model as Set 1. Common failure: thesis that only restates the prompt; alternate perspective described but not answered; evidence unconnected to a course concept.",
+   "rubric": [
+    {
+     "name": "Claim / Thesis",
+     "maxPoints": 1,
+     "criteria": "A defensible thesis that establishes a line of reasoning and uses at least one of the required course concepts."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "One point per piece of specific, relevant evidence from the required course countries tied to a course concept (up to 2)."
+    },
+    {
+     "name": "Reasoning",
+     "maxPoints": 1,
+     "criteria": "Explains how or why the evidence supports the claim or thesis."
+    },
+    {
+     "name": "Alternate Perspective",
+     "maxPoints": 1,
+     "criteria": "Describes an opposing or alternate perspective AND responds to it with refutation, concession, or rebuttal."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "5",
+     "summary": "Q4 (Set 2) scored 5/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 1). Defensible thesis on judicial independence and legitimacy using a course concept, two pieces of course-country evidence, reasoning tying evidence to the thesis, and an alternate perspective that is refuted/conceded/rebutted. Full-credit model.",
+     "refId": "COMPGOV:q4-set2:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (Set 2) scored 4/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 0). Earned thesis, both evidence points, and reasoning, but lost Row D by not responding to an alternate perspective with refutation, concession, or rebuttal. Same common miss as Set 1's 4B.",
+     "refId": "COMPGOV:q4-set2:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "3",
+     "summary": "Q4 (Set 2) scored 3/5 (Thesis 1, Evidence 1, Reasoning 1, Alternate 0). Earned the thesis, one piece of evidence, and reasoning connecting it, but earned only one evidence point (a second specific, course-concept-linked piece was missing) and did not respond to an alternate perspective. Illustrates a mid-range essay short one evidence point and the alternate-perspective response.",
+     "refId": "COMPGOV:q4-set2:2025-4C"
+    }
+   ]
+  }
+ ]
+}

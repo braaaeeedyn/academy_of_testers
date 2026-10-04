@@ -1,0 +1,489 @@
+{
+ "subjectName": "AP Environmental Science",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-environmental-science-q1-set-1",
+   "set": 1,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Design an Investigation",
+   "topic": "chickadees, spiders & nonnative plants",
+   "teaser": "A. Describe one reproductive strategy used by a K-selected species such as the chickadee. B. Based on the information provided, explain how a decrease in spider populations could affect a lower…",
+   "suggestedMinutes": 23,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-environmental-science/ap25-environmental-science-q1-set-1.pdf",
+   "pageCount": 5,
+   "promptText": "Chickadees are a K-selected species of bird that eat insects and spiders. Spiders consume insects,\nand many insects consume plants as shown in the following food chain.\nPlants → Insects → Spiders\nChickadee habitat includes forests and residential yards. Residential yards often contain\nnonnative plants, which do not naturally exist in an area, but were introduced by humans.\nScientists measured the average number of insects and spiders as related to the percentage of\nnonnative plants (Figure 1). The scientists also measured the chickadees’ average population\ngrowth rate (Figure 2) to determine the impact of nonnative plants on chickadee populations.\nFigure 1. Percentage of Nonnative Plants and Average Number of Individual\nSpiders and Insects\nFigure 2. Chickadee Population Average Growth Rate and Percentage of Nonnative\n1. Respond to parts A, B, C, D, E, F, G, and H, and all subparts.\nA. Describe one reproductive strategy used by a K-selected species such as the chickadee.\nB. Based on the information provided, explain how a decrease in spider populations could\naffect a lower trophic level.\nC. Based on the data in Figure 1, identify the number of spiders per sample at 25% nonnative\nplants.\nD. Based on the data in Figure 1, describe the trend in the number of insects per sample in\nrelation to the percentage of nonnative plants.\nE. Scientists hypothesized that the population of chickadees would be stable or growing with\nfewer than 25% nonnative plants. Describe one way that the data in Figure 2 support this\nhypothesis.\nF. Insect biodiversity is important to maintain ecosystem health. A group of students was\ninterested in learning about factors that affect ant biodiversity. They located two study sites\nnear their school: a frequently mowed urban park and an unmowed grassland. The students\nused traps designed to collect ants. They loaded 10 of these traps with the same food and\nplaced them randomly at different locations within each site. Students collected the traps\nafter 24 hours and counted the number of different ant species in each trap to determine\nspecies richness.\ni. Identify a likely scientific question for the students’ investigation of ant diversity.\nii. Identify the dependent variable in the students’ investigation.\nG. The data from the student investigation of ant diversity are shown in the following table. An\n“X” in the table indicates that the species was present at that site.\nAnt Species Present in an Urban Park and Unmowed Grassland\nSite Species A Species B Species C Species D Species E Species F\nUrban park X X X\nGrassland X X X X X\ni. Explain why the ant community of the unmowed grassland would be more likely to\nrecover from a disturbance, such as a flood or fire, than the ant community in the\nmowed urban park would.\nii. Explain how the results of the investigation could have been altered if students had\nmeasured ant biodiversity at a paved playground rather than in the grassland.\nH. Habitat fragmentation has impacts on a variety of species. Paved roads can lead to habitat\nfragmentation.\nDescribe one effect that a paved road in a forest can have on animal species such as deer or\nbears.\nThere is a natural climate phenomenon that occurs in the equatorial Pacific Ocean because of\nperiodic fluctuations in sea surface conditions and atmospheric circulation. This phenomenon\nhappens every few years, resulting in shifts in temperature and precipitation in many parts of\nthe world.\nFigure 1 shows temperature and precipitation patterns associated with one phase of this\nphenomenon in the equatorial Pacific Ocean. Figure 2 shows the associated temperature and\nprecipitation patterns that occur over North America.\nFigure 1. Effects of Changes in Sea Surface Conditions in Equatorial Pacific Ocean\nFigure 2. Polar Jet Stream and Climate Conditions in North America",
+   "sourceText": null,
+   "scoringGuide": "AP Environmental Science FRQ 1 is 'Design an Investigation,' 10 points, one point per lettered part (A–H, some split into i/ii; 10 scored points total). The task mixes identify/describe/explain skills with reading data from figures and reasoning about an investigation's design (scientific question, variables). Set 1 answer key: A [P1] a K-selected reproductive strategy (few offspring, high parental care, late maturity, reproduce multiple times). B [P2] a decrease in spiders raises insects (prey released) and lowers plants. C [P3] read the figure: ~2 spiders per sample at 25% nonnative plants. D [P4] trend: as nonnative-plant % increases, insects decrease (inverse relationship). E [P5] Figure 2 support: below 25% the chickadee growth rate is at/above replacement (positive). F(i) [P6] a valid scientific question (does mowing affect ant species richness?); F(ii) [P7] dependent variable = number of ant species. G(i) [P8] the more diverse unmowed grassland recovers better (redundancy/adaptation). G(ii) [P9] a paved playground would show fewer species (unsuitable habitat). H [P10] an effect of a paved road on animals (roadkill, fragmentation/isolation, noise). Common failure: describing r-selected traits for A; naming the independent variable or a non-measurable variable for the dependent variable (F ii); vague 'more diverse' for G(i) without the redundancy/adaptation mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [P1] a K-selected reproductive strategy (few offspring, high parental care, late maturity, reproduce multiple times)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [P2] a decrease in spiders raises insects (prey released) and lowers plants"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [P3] read the figure: ~2 spiders per sample at 25% nonnative plants"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [P4] trend: as nonnative-plant % increases, insects decrease (inverse relationship)"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E [P5] Figure 2 support: below 25% the chickadee growth rate is at/above replacement (positive)"
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part F exactly as the official 2025 scoring guideline for this question specifies. F(i) [P6] a valid scientific question (does mowing affect ant species richness?); F(ii) [P7] dependent variable = number of ant species"
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part G exactly as the official 2025 scoring guideline for this question specifies. G(i) [P8] the more diverse unmowed grassland recovers better (redundancy/adaptation); G(ii) [P9] a paved playground would show fewer species (unsuitable habitat); G(i) without the redundancy/adaptation mechanism"
+    },
+    {
+     "name": "Part H",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part H exactly as the official 2025 scoring guideline for this question specifies. H [P10] an effect of a paved road on animals (roadkill, fragmentation/isolation, noise)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 (Set 1) scored 10/10 (all parts A–H). K-selected 'few offspring' cared for longer (A); spider decrease → insect increase (B); ~2 spiders at 25% (C); insects decrease as nonnative % rises (D); growth rate above replacement below 25% (E); mowing/ant-diversity question and 'number of ant species' dependent variable (F); higher grassland gene pool → survivable genotypes more likely, plus niche partitioning (G i); paved playground fewer species from lack of primary producers (G ii); paved road inhibits migration (H). Full-credit model.",
+     "refId": "APES:q1-set1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "6",
+     "summary": "Q1 (Set 1) scored 6/10. Earned C (2 spiders), D (insects decrease as nonnative % rises), E (growth rate above replacement below 25%), F(i) (mowed-vs-unmowed biodiversity question), F(ii) (amount of ant species), and H (road barrier impedes crossing). Lost A (described r-selected traits — 'many offspring, short lifespan'), B (said both plants AND insects increase, mixing trophic effects), and both G points (G i only said 'greater biodiversity' without the recovery mechanism; G ii compared to the urban park's disturbance rather than habitat suitability). Illustrates that data-reading and identification points are earned while the explanation points (A, B, G) are missed.",
+     "refId": "APES:q1-set1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "Q1 (Set 1) scored 3/10. Earned only C (2 spiders at 25%), D (higher nonnative % → fewer insects), and H (road barrier cuts off resources). Lost A (vague 'build nests and lay eggs,' not a K-selected strategy), B (said lower trophic levels increase, missing the plant decrease), E (growth rate 'at 0' does not show it is at/above replacement below 25%), F(i)/F(ii) (question and dependent variable not valid — named a mowing condition, an independent variable), and both G points. Illustrates a low response holding only two figure-reading points and the road effect.",
+     "refId": "APES:q1-set1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-environmental-science-q2-set-1",
+   "set": 1,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Analyze a Problem & Propose a Solution",
+   "topic": "La Niña & urban flooding",
+   "teaser": "A. Identify the sea surface condition for the eastern equatorial area of the Pacific Ocean illustrated in Figure 1. B. Based on the information in Figure 1, identify the climate phenomenon…",
+   "suggestedMinutes": 23,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-environmental-science/ap25-environmental-science-q2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "2. Respond to parts A, B, C, D, E, F, G, H, I, and J.\nA. Identify the sea surface condition for the eastern equatorial area of the Pacific Ocean\nillustrated in Figure 1.\nB. Based on the information in Figure 1, identify the climate phenomenon associated with the\nsea surface conditions shown in the equatorial area of the Pacific Ocean.\nC. Based on the information in Figure 2, describe a difference in climate patterns between the\nregions A and B.\nD. Increases in regional precipitation can lead to increased flooding in certain locations.\nDescribe one reason why there is an increased risk of flooding in urban areas during\nextended periods of precipitation.\nE. Propose a realistic solution a city could implement to decrease the risk of flooding in urban\nareas.\nF. Justify the solution proposed in part E by providing an additional advantage other than a\nreduction in the risk of flooding.\nG. Terrestrial biomes are primarily determined by temperature and precipitation patterns.\nDescribe one difference between the climate of a temperate seasonal forest and that of a\nsavanna.\nH. Droughts are one environmental problem that can affect the frequency and severity of forest\nfires. Identify the ecological process that occurs following a forest fire that leaves the soil\nintact.\nI. Describe one way burning forests contribute to atmospheric pollution.\nJ. Describe one sustainable forestry practice that could be used to reduce the occurrence or\nseverity of forest fires.",
+   "sourceText": null,
+   "scoringGuide": "AP Environmental Science FRQ 2 is 'Analyze an Environmental Problem and Propose a Solution,' 10 points, one per lettered part (A–J). It threads through a data figure, a proposed solution with justification, and additional content items. Set 1 answer key: A [P1] sea surface condition in the eastern equatorial Pacific = cooler than average. B [P2] associated phenomenon = La Niña. C [P3] difference between regions A and B (one wetter, one drier). D [P4] why urban areas flood during extended precipitation (impervious surfaces increase runoff / reduce infiltration). E [P5] a realistic city solution to reduce flooding (permeable pavement, rain gardens/green roofs, retention ponds). F [P6] justify E with an additional advantage beyond flood reduction (aquifer recharge, pollutant removal, habitat, heat-island reduction) — must match the E solution. G [P7] a climate difference between a temperate seasonal forest and a savanna. H [P8] the process after a fire that leaves soil intact = secondary succession. I [P9] how burning forests add atmospheric pollution. J [P10] final content item. Common failure: a part-F justification that just restates flood reduction; proposing a solution in E that does not fit an urban flooding context.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [P1] sea surface condition in the eastern equatorial Pacific = cooler than average"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [P2] associated phenomenon = La Niña"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [P3] difference between regions A and B (one wetter, one drier)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [P4] why urban areas flood during extended precipitation (impervious surfaces increase runoff / reduce infiltration)"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E [P5] a realistic city solution to reduce flooding (permeable pavement, rain gardens/green roofs, retention ponds)"
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies. F [P6] justify E with an additional advantage beyond flood reduction (aquifer recharge, pollutant removal, habitat, heat-island reduction) — must match the E solution"
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part G exactly as the official 2025 scoring guideline for this question specifies. G [P7] a climate difference between a temperate seasonal forest and a savanna"
+    },
+    {
+     "name": "Part H",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part H exactly as the official 2025 scoring guideline for this question specifies. H [P8] the process after a fire that leaves soil intact = secondary succession"
+    },
+    {
+     "name": "Part I",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part I exactly as the official 2025 scoring guideline for this question specifies. I [P9] how burning forests add atmospheric pollution"
+    },
+    {
+     "name": "Part J",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part J exactly as the official 2025 scoring guideline for this question specifies. J [P10] final content item"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "10",
+     "summary": "Q2 (Set 1) scored 10/10 — earned all ten parts: cooler-than-average water and La Niña identifications, the A-vs-B climate difference, the impervious-surface flooding reason, a realistic flood solution with a matching additional-advantage justification, the forest-vs-savanna climate difference, secondary succession, and the burning-forest pollution item. Full-credit model.",
+     "refId": "APES:q2-set1:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "6",
+     "summary": "Q2 (Set 1) scored 6/10 — typically earned the identifications (cooler water, La Niña), the flooding reason and a solution, and one or two content items (e.g., secondary succession), while losing the justification (F, restated flood reduction) and the more demanding describe/explain points. Illustrates identify-and-propose points secured while the justification and explanation points are missed.",
+     "refId": "APES:q2-set1:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "3",
+     "summary": "Q2 (Set 1) scored 3/10 — earned only about three points, generally the direct identifications and one solution/content item, while losing the difference-description, justification, and explanation points. Illustrates a low response that identifies phenomena but cannot analyze or justify.",
+     "refId": "APES:q2-set1:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-environmental-science-q3-set-1",
+   "set": 1,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Analyze a Problem & Propose a Solution with Calculations",
+   "topic": "air pollution & energy",
+   "teaser": "A. One major environmental problem is air pollution. Air pollution can come from natural or anthropogenic sources. Motor vehicles can be a source of particulate matter (PM) and other pollutants.…",
+   "suggestedMinutes": 23,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-environmental-science/ap25-environmental-science-q3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. Respond to parts A, B, C, D, E, F, and G.\nA. One major environmental problem is air pollution. Air pollution can come from natural or\nanthropogenic sources. Motor vehicles can be a source of particulate matter (PM) and other\npollutants.\nIdentify an anthropogenic source of particulate matter , other than from motor vehicles.\nB. One way to reduce pollutants associated with motor vehicles is to use a vapor recovery\nnozzle. Describe one way a vapor recovery nozzle is used to reduce atmospheric pollution.\nC. Acid rain is another air pollutant linked to motor vehicles. Over the past few years, there\nhas been an increase in the number of people working from home, so fewer people are\ncommuting to work in their personal vehicles.\nExplain how a decrease in the number of people commuting to work in their personal\nvehicles could lead to a reduction in acid rain.\nD. The average gas mileage for a small gasoline-powered sport utility vehicle (SUV) is 22 miles\nper gallon (mpg) in the city. The average gas mileage for a small hybrid SUV is 36 mpg in the\ncity. One commuter sells their gasoline-powered SUV and replaces it with a hybrid SUV.\nCalculate the percent change in gas mileage between the gasoline-powered SUV and the\nhybrid SUV based on the data provided. Show your work.\nE. Both the gasoline-powered SUV and the hybrid SUV have 14-gallon gas tanks. As stated in\npart D, the average gas mileage for a small gasoline-powered sport utility vehicle (SUV) is 22\nmiles per gallon (mpg) in the city. The average gas mileage for a small hybrid SUV is 36 mpg\nin the city.\nCalculate how many more miles the owner can drive in the hybrid SUV in the city than they\ncould have driven in the gasoline-powered SUV. Show your work.\nF. In addition to vehicles, buildings such as schools often have high energy consumption. The\nprimary sources of energy use in many buildings are heating, cooling, and lighting.\nPropose a realistic solution that schools could implement to decrease energy use for heating\nand cooling, other than a reduction in the amount of time the school building is occupied.\nG. The school plans to upgrade its lighting to save money and reduce both its electricity use\nand its ecological footprint. The sustainability committee proposes that the school reduce its\nelectricity use by switching to energy-efficient light-emitting diode (LED) bulbs. The school\nbuilding uses .28 104× bulbs. The LED bulbs would each use 0.0085 kilowatts per hour . Each\nbulb would be used for an average of 2,340 hours per year .\nCalculate the energy use in the school building in kilowatts per year using LED light bulbs.\nShow your work.",
+   "sourceText": null,
+   "scoringGuide": "AP Environmental Science FRQ 3 is 'Analyze an Environmental Problem and Propose a Solution' with a calculation component, 10 points across parts A–G (calculation parts award a setup point AND an answer point). Set 1 answer key: A [P1] an anthropogenic particulate-matter source other than motor vehicles (e.g., coal power plants, construction, agriculture). B [P2] how a vapor recovery system reduces vehicle-associated pollutants. C [P3] explain how fewer personal-vehicle commuters reduces pollution. D [P4 setup, P5 answer] calculate the percent change in gas mileage between the gasoline SUV and the hybrid (percent change = (new−old)/old ×100, show setup). E [P6 setup, P7 answer] calculate how many more city miles the hybrid can drive. F [P8] propose a realistic school solution to decrease energy use for lighting (e.g., LED bulbs, daylighting, occupancy sensors). G [P9 setup, P10 answer] calculate the building's annual energy use with LED bulbs (kWh/year). Common failure in calculations: no setup shown (loses the setup point), unit errors, or a wrong percent-change formula. Show-your-work is required for the setup points.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [P1] an anthropogenic particulate-matter source other than motor vehicles (e.g., coal power plants, construction, agriculture)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [P2] how a vapor recovery system reduces vehicle-associated pollutants"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [P3] explain how fewer personal-vehicle commuters reduces pollution"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies. D [P4 setup, P5 answer] calculate the percent change in gas mileage between the gasoline SUV and the hybrid (percent change = (new−old)/old ×100, show setup)"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part E exactly as the official 2025 scoring guideline for this question specifies. E [P6 setup, P7 answer] calculate how many more city miles the hybrid can drive"
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies. F [P8] propose a realistic school solution to decrease energy use for lighting (e.g., LED bulbs, daylighting, occupancy sensors)"
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part G exactly as the official 2025 scoring guideline for this question specifies. G [P9 setup, P10 answer] calculate the building's annual energy use with LED bulbs (kWh/year)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "9",
+     "summary": "Q3 (Set 1) scored 9/10 — earned nearly every part: the particulate-matter source, vapor-recovery and fewer-commuters reasoning, both percent-change gas-mileage points (setup and answer), the extra-city-miles calculation, the school energy solution, and the LED annual-energy calculation. Lost a single point (typically one calculation answer or one explanation). Model of a near-complete calculation FRQ with correct setups shown.",
+     "refId": "APES:q3-set1:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "5",
+     "summary": "Q3 (Set 1) scored 5/10 — typically earned the identification and description points and one calculation (often the percent-change setup or answer), while losing calculation answer points to missing setups or unit/formula errors and some explanation points. Illustrates how partial calculation work (setup without a correct answer, or vice versa) caps the calculation-heavy question.",
+     "refId": "APES:q3-set1:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 1) scored 2/10 — earned only about two points, generally the anthropogenic-source identification and one other content point, while losing the calculation points (no valid setup/answer) and the explanation and solution points. Illustrates a low response that cannot complete the required calculations.",
+     "refId": "APES:q3-set1:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-environmental-science-q1-set-2",
+   "set": 2,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Design an Investigation",
+   "topic": "Common Tern & sea level rise",
+   "teaser": "A. Based on the data in the graph, identify the number of Common Tern breeding pairs in 1995. B. Based on the data in the graph, describe the trend in the number of Common Tern breeding pairs from…",
+   "suggestedMinutes": 23,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-environmental-science/ap25-environmental-science-q1-set-2.pdf",
+   "pageCount": 4,
+   "promptText": "Common Terns are a species of shore bird that live along coasts and build nests on beaches\nabove the high-tide line. From 1989 to 2008, researchers monitored a stretch of shoreline along\na coast that contained a population of Common Terns. Each year they conducted nest surveys\nduring the breeding season to estimate the number of breeding pairs. They also computed the\nchange in sea level compared to the first year of the study. The graph shows the number of\nbreeding pairs of Common Terns in the study area and relative change in sea level.\nCommon Tern Breeding Pairs and Increase in Sea Level, 1989–2008\n1. Respond to parts A, B, C, D, E, F, G, H, and I, and all subparts.\nA. Based on the data in the graph, identify the number of Common Tern breeding pairs in 1995.\nB. Based on the data in the graph, describe the trend in the number of Common Tern breeding\npairs from 1995 to 2008.\nC. A group of students hypothesized that sea level rise will lead to an increase in Common Tern\npopulations. Describe one way that the data in the graph refute this hypothesis.\nD. Explain how climate change can lead to sea level rise.\nE. Wading birds are a group of large-bodied birds that inhabit coastal wetlands all over the\nworld. Researchers monitored the number of wading bird species at four coastal locations\nexperiencing rising sea levels over a 5-year period. The data are shown in the following table.\nSea Level Rise and Number of Wading Bird Species at Four Coastal Locations\nYear Increase in Sea Level\n(m)\nLocation\nA\nLocation\nB\nLocation\nC\nLocation\nD\n1 0.05 1 5 3 4\n2 0.08 2 4 3 6\n3 0.10 6 7 5 5\n4 0.12 5 7 7 7\n5 0.15 7 8 9 8\ni. Identify a hypothesis that researchers are likely investigating in the wading bird study.\nii. Identify the dependent variable in this study.\nF. One year after the completion of the study of wading bird species described in Part E,\nlocations A and B experienced an increase in the concentration of PCBs, known to be a\npersistent organic pollutant, running off into the water .\nIf the researchers repeated their study, explain how this environmental change could affect\nthe results of the study.\nG. Describe a regulating ecosystem service that can be provided by wetlands.\nH. Since 1990, there has been an increase in urbanization around the coastal wetlands that\nwading bird communities inhabit. Most of these bird species eat fish and locate prey visually\nwhile walking through shallow water . An increase in sediment was discovered in a wetland\nlocated near an urban area.\nExplain how increased sediment might lead to a change in the size of the wading bird\npopulations.\nI. Describe an environmental problem, other than an increase in sediment, that can occur in\nwetlands that is associated with increased urbanization and development.\nSerengeti National Park is located in Tanzania, Africa. The park is located in a valley along a\ntectonic plate boundary called the East African Rift. Figure 1 shows the East African Rift and\nother plate boundaries near the east coast of Africa.\nFigure 1. Tectonic Plate Movement near East Coast of Africa\nSerengeti National Park contains a variety of tropical habitats but is dominated by wideopen\nlands that include a variety of grass species with scattered trees and shrubs. Most grass growth\noccurs after the March through May rainy season. Many of the park’s herbivores, such as\nwildebeest and zebra, migrate through the park in an annual cycle following the growth of new\ngrass (Figure 2).\nFigure 2. Annual Migration of Wildebeest in Serengeti National Park",
+   "sourceText": null,
+   "scoringGuide": "AP Environmental Science FRQ 1, 'Design an Investigation,' 10 points, one per lettered part (A–H with i/ii splits). Task template: identify/read data from a graph, describe trends, explain mechanisms, and reason about investigation design (scientific question, variables, controls). Set 2 topic: Common Tern breeding pairs and sea level rise. Answer key highlights: A [P1] read the number of Common Tern breeding pairs from the graph; B [P2] describe the trend in breeding pairs; C [P3] students' hypothesis linking sea level rise to Common Tern change; D [P4] explain how climate change leads to sea level rise (thermal expansion of seawater; melting land ice/glaciers). Later parts follow the same identify/describe/explain and investigation-design pattern as Set 1. Common failure: describing a correlation as causation; naming an unmeasurable or independent variable when a dependent variable is asked; explanations of sea level rise that cite melting sea ice (which does not raise sea level) rather than land ice or thermal expansion.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [P1] read the number of Common Tern breeding pairs from the graph"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [P2] describe the trend in breeding pairs"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [P3] students' hypothesis linking sea level rise to Common Tern change"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [P4] explain how climate change leads to sea level rise (thermal expansion of seawater; melting land ice/glaciers). Later parts follow the same identify/describe/explain and investigation-design pattern as Set 1"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part E exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part G exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part H",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part H exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part I",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part I exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 (Set 2) scored 10/10 — earned all ten parts across the graph-reading, trend, hypothesis, climate-change/sea-level-rise explanation, and investigation-design items. Full-credit model for the Design an Investigation task.",
+     "refId": "APES:q1-set2:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "6",
+     "summary": "Q1 (Set 2) scored 6/10 — typically earned the identification, data-reading, and trend-description points plus one or two explanation/design points, losing the harder explain/justify parts (e.g., the mechanism for sea level rise or the investigation-design reasoning). Illustrates the common APES pattern where identify/describe points are secured but explanation points are missed.",
+     "refId": "APES:q1-set2:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "Q1 (Set 2) scored 3/10 — earned only about three points, generally the direct graph-reading and one description item, while losing the explanation, hypothesis-support, and investigation-design points. Illustrates a low response that reads the figure but cannot supply mechanisms or valid design elements.",
+     "refId": "APES:q1-set2:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-environmental-science-q2-set-2",
+   "set": 2,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Analyze a Problem & Propose a Solution",
+   "topic": "Serengeti & resource partitioning",
+   "teaser": "A. Based on the information in Figure 1, identify the type of plate boundary that runs beneath Serengeti National Park. B. Based on the information provided, identify the dominant biome within the…",
+   "suggestedMinutes": 23,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-environmental-science/ap25-environmental-science-q2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "2. Respond to parts A, B, C, D, E, F, G, H, I, and J.\nA. Based on the information in Figure 1, identify the type of plate boundary that runs beneath\nSerengeti National Park.\nB. Based on the information provided, identify the dominant biome within the Serengeti.\nC. Wildebeest give birth to their young when new grasses are growing. Based on the\ninformation in Figure 2, identify the location in the Serengeti where wildebeest are most\nlikely to give birth.\nD. The Serengeti has two primary types of grasses: long and short. The two grass types provide\nsimilar levels of nutrition for animals. Wildebeest primarily consume long grasses, while\nother herbivores such as gazelle consume the short grasses. These two similar species coexist\nin Serengeti National Park.\nExplain why resource partitioning allows for the coexistence of the wildebeest and the\ngazelle in the Serengeti.\nE. The Tanzanian government plans to build a highway across the northern portion of the\nSerengeti, as shown in Figure 2.\nDescribe one way the planned highway shown in Figure 2 could negatively affect the\nwildebeest population in the Serengeti.\nF. Propose a solution to the negative effect created by the planned highway described in part E.\nG. Many organisms live in grasslands. One weed species, the spotted knapweed, was introduced\nat one location in North America in the 1890s and is currently found throughout the\nrangelands of the western United States. The spotted knapweed poses several environmental\nproblems in North America. Farmers often use crop rotation to control populations of pests\nlike the spotted knapweed. A more traditional method of controlling pests involves spraying\npesticides.\nDescribe a characteristic of an invasive species, such as the spotted knapweed, that allows\nthem to outcompete native species.\nH. Justify the use of crop rotation as an environmental solution by providing an additional\nadvantage, other than controlling pest populations.\nI. Describe an environmental problem associated with controlling pest populations with large\namounts of pesticide.\nJ. Propose a solution to controlling pests, other than pesticides or crop rotation.",
+   "sourceText": null,
+   "scoringGuide": "AP Environmental Science FRQ 2, 'Analyze an Environmental Problem and Propose a Solution,' 10 points, one per lettered part (A–J), same task template as Set 1 (data figure, propose-and-justify a solution, content items). Set 2 topic: Serengeti ecosystem. Answer key highlights: A [P1] identify the plate-boundary type from Figure 1; B [P2] dominant biome within the Serengeti (savanna/tropical grassland); C [P3] wildebeest give birth as new grasses grow — reasoning about timing/resource availability; D [P4] explain why resource partitioning allows wildebeest and another grazer to coexist (they use different resources/niches, reducing competition). Later parts continue the identify/describe/explain and propose-a-solution pattern. Common failure: defining resource partitioning without linking it to reduced competition/coexistence; misidentifying the biome.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [P1] identify the plate-boundary type from Figure 1"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [P2] dominant biome within the Serengeti (savanna/tropical grassland)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [P3] wildebeest give birth as new grasses grow — reasoning about timing/resource availability"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [P4] explain why resource partitioning allows wildebeest and another grazer to coexist (they use different resources/niches, reducing competition). Later parts continue the identify/describe/explain and propose-a-solution pattern"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part G exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part H",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part H exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part I",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part I exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part J",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part J exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "10",
+     "summary": "Q2 (Set 2) scored 10/10 — earned all ten parts across the plate-boundary and biome identifications, the wildebeest-timing reasoning, the resource-partitioning explanation, and the propose-and-justify and content items. Full-credit model.",
+     "refId": "APES:q2-set2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "6",
+     "summary": "Q2 (Set 2) scored 6/10 — typically earned the identifications and a proposed solution plus a couple of content items, while losing the harder explain/justify points (e.g., a resource-partitioning explanation that omits reduced competition). Illustrates the identify-and-propose points secured but explanation points missed.",
+     "refId": "APES:q2-set2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 (Set 2) scored 2/10 — earned only about two points, generally the direct identifications, while losing the reasoning, explanation, and propose-and-justify points. Illustrates a low response that names features but cannot analyze the problem or propose/justify a solution.",
+     "refId": "APES:q2-set2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-environmental-science-q3-set-2",
+   "set": 2,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Analyze a Problem & Propose a Solution with Calculations",
+   "topic": "coal surface mining",
+   "teaser": "A. Identify a type of surface mining the company could use to access the coal. B. Describe an environmental problem associated with surface mining. C. The town is located downwind of the new…",
+   "suggestedMinutes": 23,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-environmental-science/ap25-environmental-science-q3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "The local government of a newly built town has contracted with an electrical company to\nprovide energy to the town. The company generates electricity primarily through the burning\nof coal and has built a new power plant for the town. A nearby deposit of coal was discovered\nclose to the surface. To access the coal, the company decides to remove the overburden and\nvegetation over the deposit.\n3. Respond to parts A, B, C, D, E, F, and G.\nA. Identify a type of surface mining the company could use to access the coal.\nB. Describe an environmental problem associated with surface mining.\nC. The town is located downwind of the new coal-burning power plant.\nDescribe an environmental problem the town could experience as a result of the electricity\ngeneration at the coal-burning power plant.\nD. The local government is concerned about the environmental consequences of using coal to\ngenerate electricity for the town.\nPropose a realistic solution the local government could enact that would reduce the negative\nenvironmental consequences of using coal to generate electricity.\nE. Burning one pound of coal produces an average of 0.88 kilowatt-hours (kWh) of electricity.\nAn average household in the United States uses . kW h1 064 10 4× of electricity each year .\nCalculate how many pounds of coal would need to be burned to generate enough electricity\nto power a town with 11,000 houses for a year . Show your work.\nF. Researchers are concerned about the impact of noise pollution on songbirds in a forest near\nthe power plant. Since the power plant was installed, bird species richness has declined from\n7.5 species per hectare to 6.0 species per hectare.\nCalculate the percent change in bird species per hectare since the power plant was installed.\nShow your work.\nG. The town has been growing since it was built and had a growth rate of 5.38% in 2022, with a\npopulation of 26,250.\nAssuming that the growth rate remains constant, calculate the year in which the population\nwill reach 52,500. Show your work.",
+   "sourceText": null,
+   "scoringGuide": "AP Environmental Science FRQ 3, 'Analyze an Environmental Problem and Propose a Solution' with a calculation component, 10 points across parts A–G (calculation parts award a setup point AND an answer point), same task template as Set 1. Set 2 topic: coal surface mining near a town. Answer key highlights: A [P1] identify a type of surface mining to access coal (e.g., strip mining, mountaintop removal, open-pit). B [P2] describe an environmental problem associated with surface mining (habitat destruction, erosion/sedimentation, acid mine drainage). C [P3] describe an environmental problem the town could experience. D [P4+] propose a realistic local-government solution and later calculation parts follow (setup + answer each). Common failure: identifying underground rather than surface mining in A; calculation parts missing the shown setup or using wrong units. Show-your-work is required for the setup points.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [P1] identify a type of surface mining to access coal (e.g., strip mining, mountaintop removal, open-pit)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [P2] describe an environmental problem associated with surface mining (habitat destruction, erosion/sedimentation, acid mine drainage)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [P3] describe an environmental problem the town could experience"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [P4+] propose a realistic local-government solution and later calculation parts follow (setup + answer each)"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part E exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part F exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part G exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "10",
+     "summary": "Q3 (Set 2) scored 10/10 — earned every part: surface-mining identification, mining and town environmental problems, the proposed local solution, and all calculation setup-and-answer points with correct work and units. Full-credit model for the calculation FRQ.",
+     "refId": "APES:q3-set2:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "5",
+     "summary": "Q3 (Set 2) scored 5/10 — typically earned the identification and description points and part of the calculations (a setup or an answer), while losing calculation points to missing setups or unit errors and some explanation/solution points. Illustrates partial credit on the calculation-heavy question.",
+     "refId": "APES:q3-set2:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 2) scored 2/10 — earned only about two points, generally the surface-mining identification and one environmental-problem description, while losing the proposed-solution and calculation points (no valid setup/answer). Illustrates a low response that cannot complete the calculations or the solution reasoning.",
+     "refId": "APES:q3-set2:2025-3C"
+    }
+   ]
+  }
+ ]
+}

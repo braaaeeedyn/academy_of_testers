@@ -6,7 +6,8 @@
       "dimension": "saq-no-stimulus",
       "refId": "WORLDH:saq3:set1-rubric",
       "title": "SAQ 3 — No Stimulus (3 points) — Set 1: Muslim empires 1300–1600",
-      "content": "AP World History SAQ 3 (No Stimulus), 3 points, one per part. Set 1 prompts: A [1] identify one technological or military factor that contributed to the expansion of Muslim empires; B [1] explain one way Muslim rulers c. 1300–1600 used economic policy (to consolidate/expand power); C [1] explain one reason some Muslim rulers c. 1300–1600 pursued a stated policy. 'Identify' = correct answer; 'Explain' = how/why. Common failure: vague identification without characteristics; explain parts that describe rather than give a how/why mechanism; out-of-period examples."
+      "content": "AP World History SAQ 3 (No Stimulus), 3 points, one per part. Set 1 prompts: A [1] identify one technological or military factor that contributed to the expansion of Muslim empires; B [1] explain one way Muslim rulers c. 1300–1600 used economic policy (to consolidate/expand power); C [1] explain one reason some Muslim rulers c. 1300–1600 pursued a stated policy. 'Identify' = correct answer; 'Explain' = how/why. Common failure: vague identification without characteristics; explain parts that describe rather than give a how/why mechanism; out-of-period examples.",
+      "promptId": "ap25-world-history-saq3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "3",
       "refId": "WORLDH:saq3:set1-2025-3A",
       "title": "SAQ 3 Set 1 exemplar — Sample 3A, 3/3",
-      "content": "SAQ 3 (Set 1) scored 3/3 (A 1, B 1, C 1). Identified a technological/military factor and explained both the economic-policy use and the reason with causal links. Full-credit model."
+      "content": "SAQ 3 (Set 1) scored 3/3 (A 1, B 1, C 1). Identified a technological/military factor and explained both the economic-policy use and the reason with causal links. Full-credit model.",
+      "promptId": "ap25-world-history-saq3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "WORLDH:saq3:set1-2025-3B",
       "title": "SAQ 3 Set 1 exemplar — Sample 3B, 2/3",
-      "content": "SAQ 3 (Set 1) scored 2/3 (A 1, B 0, C 1). Identified a factor (A) and explained a reason (C) but did not earn the economic-policy explanation (B). Illustrates missing one Explain part."
+      "content": "SAQ 3 (Set 1) scored 2/3 (A 1, B 0, C 1). Identified a factor (A) and explained a reason (C) but did not earn the economic-policy explanation (B). Illustrates missing one Explain part.",
+      "promptId": "ap25-world-history-saq3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "WORLDH:saq3:set1-2025-3C",
       "title": "SAQ 3 Set 1 exemplar — Sample 3C, 1/3",
-      "content": "SAQ 3 (Set 1) scored 1/3 (A 1, B 0, C 0). Identified a factor only. Lost both Explain parts (no causal economic-policy use, no reason). Illustrates a response that names a factor but cannot explain mechanisms."
+      "content": "SAQ 3 (Set 1) scored 1/3 (A 1, B 0, C 0). Identified a factor only. Lost both Explain parts (no causal economic-policy use, no reason). Illustrates a response that names a factor but cannot explain mechanisms.",
+      "promptId": "ap25-world-history-saq3-set-1"
     }
   ]
 }

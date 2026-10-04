@@ -6,7 +6,8 @@
       "dimension": "q6-continuity-change",
       "refId": "ARTH:q6:continuity-change",
       "title": "Q6 — Continuity and Change (5 points)",
-      "content": "AP Art History Q6, Continuity and Change, 5 points (Tasks A–E, 1 point each, independent). A: accurately describe ONE visual characteristic of the shown work (this administration: the Ludovisi Battle Sarcophagus). B–E: use specific visual and/or contextual evidence to explain continuities and/or changes the work demonstrates relative to earlier or later traditions (e.g. how it continues or departs from prior conventions, and the significance of those continuities/changes). Describe = characteristics beyond naming; the explain tasks require evidence tied to continuity or change."
+      "content": "AP Art History Q6, Continuity and Change, 5 points (Tasks A–E, 1 point each, independent). A: accurately describe ONE visual characteristic of the shown work (this administration: the Ludovisi Battle Sarcophagus). B–E: use specific visual and/or contextual evidence to explain continuities and/or changes the work demonstrates relative to earlier or later traditions (e.g. how it continues or departs from prior conventions, and the significance of those continuities/changes). Describe = characteristics beyond naming; the explain tasks require evidence tied to continuity or change.",
+      "promptId": "ap25-art-history-q6"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "5",
       "refId": "ARTH:q6:2025-6A",
       "title": "Q6 exemplar — Sample 6A, 5/5",
-      "content": "Q6 Continuity and Change scored 5/5 — describes a visual characteristic and uses specific evidence to explain the continuities and changes the work demonstrates, with clear significance. Full-credit model."
+      "content": "Q6 Continuity and Change scored 5/5 — describes a visual characteristic and uses specific evidence to explain the continuities and changes the work demonstrates, with clear significance. Full-credit model.",
+      "promptId": "ap25-art-history-q6"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "3",
       "refId": "ARTH:q6:2025-6B",
       "title": "Q6 exemplar — Sample 6B, 3/5",
-      "content": "Q6 scored 3/5 (A 1, B 1, C 1, D 0, E 0). Describes a visual characteristic and earns two explanation points, but the final two tasks fall short (evidence not specific or not tied to a continuity/change). Mid-range profile."
+      "content": "Q6 scored 3/5 (A 1, B 1, C 1, D 0, E 0). Describes a visual characteristic and earns two explanation points, but the final two tasks fall short (evidence not specific or not tied to a continuity/change). Mid-range profile.",
+      "promptId": "ap25-art-history-q6"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "ARTH:q6:2025-6C",
       "title": "Q6 exemplar — Sample 6C, 1/5",
-      "content": "Q6 scored 1/5 (A 1, B–E 0). Earns only the visual-characteristic description; the explanation tasks are not completed with specific evidence tied to continuity or change. Description is the accessible floor; the explain tasks carry the rest of the points."
+      "content": "Q6 scored 1/5 (A 1, B–E 0). Earns only the visual-characteristic description; the explanation tasks are not completed with specific evidence tied to continuity or change. Description is the accessible floor; the explain tasks carry the rest of the points.",
+      "promptId": "ap25-art-history-q6"
     }
   ]
 }

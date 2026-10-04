@@ -1,0 +1,450 @@
+{
+ "subjectName": "AP Government",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-us-go-po-q1-set-1",
+   "set": 1,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Concept Application",
+   "topic": "filibuster & partisanship",
+   "teaser": "A. Describe the Senate procedure at the center of the controversy in the scenario. B. Explain how the procedure described in part A makes passing legislation more difficult in the Senate compared…",
+   "suggestedMinutes": 20,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-government/ap25-us-go-po-q1-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "In the summer of 2021, the House of Representatives passed a bill on election reform with\noverwhelming support from Democrats and no Republican votes. When the same legislation\nwas discussed in the Senate later on in the year , the Democrats had a majority to pass the bill\nbut could not obtain enough Republican votes to end the debate. As long as debate continued,\nthere could be no final vote on the legislation. As a result, the bill did not become law, despite\nhaving the minimum number of supporters to win a floor vote if one were to be held.\nDisappointed by the outcome, some of the bill’s supporters suggested that the problem was not\nthe legislation but the rules of the Senate. Groups pressured the Senate leadership to consider\nrevising the rules to make it easier for the chamber to pass legislation, similar to the rules\ncurrently in place in the House of Representatives.\nOpinions on changing the Senate rules varied. Some Republican and Democratic senators\nsupported the rule change. Others in both parties opposed it, voicing concerns about the long-\nterm consequences of changing the rules. One senator noted that because any party could be in\nthe minority in the future, any changes to the rules should still ensure that all senators continue\nto have input.\n1. Respond to parts A, B, and C.\nA. Describe the Senate procedure at the center of the controversy in the scenario.\nB. Explain how the procedure described in part A makes passing legislation more difficult in\nthe Senate compared with the House of Representatives.\nC. Explain how the senators’ actions in addressing the election reform bill illustrate the concept\nof partisanship.",
+   "sourceText": null,
+   "scoringGuide": "AP Government FRQ 1 is Concept Application, 3 points, one per part A/B/C, based on a scenario. Task pattern: A describe a concept/institution/process in the scenario, B explain how it operates/affects an outcome, C explain how the scenario illustrates a broader course concept. Set 1 answer key: A [1] describe the Senate procedure at issue (filibuster / cloture requiring a 60-vote supermajority to end debate). B [1] explain how it makes passing legislation harder in the Senate than the House (unlimited debate / supermajority for cloture vs. the House's limited debate and simple majority). C [1] explain how the senators' actions illustrate partisanship (voting along party lines — the minority blocking cloture, or the majority failing to reach 60). Common failure: describing rather than explaining in B/C; for C, defining partisanship generally without tying it to the senators' party-line voting in the scenario.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe the Senate procedure at issue (filibuster / cloture requiring a 60-vote supermajority to end debate)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] explain how it makes passing legislation harder in the Senate than the House (unlimited debate / supermajority for cloture vs. the House's limited debate and simple majority)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how the senators' actions illustrate partisanship (voting along party lines — the minority blocking cloture, or the majority failing to reach 60)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "3",
+     "summary": "Q1 (Set 1) scored 3/3. A: identified the filibuster and unlimited Senate debate, with cloture requiring a supermajority. B: explained the House's time-limited debate and simple majority make passage easier than the Senate's, where debate can run out the clock. C: explained partisanship as party-line voting — Republicans filibustering together to block the Democrats' bill. Full-credit model.",
+     "refId": "USGOV:q1-set1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "Q1 (Set 1) scored 2/3 — typically earned A (filibuster/cloture) and B (the Senate-vs-House difficulty) but lost C, defining partisanship generally without connecting it to the senators' party-line voting in the scenario. Illustrates the common miss on the 'illustrates the concept' part, which requires applying the concept to the scenario.",
+     "refId": "USGOV:q1-set1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "Q1 (Set 1) scored 1/3 — earned only the describe point A (the filibuster/cloture procedure), losing B (no clear Senate-vs-House explanation) and C (no scenario-grounded partisanship explanation). Illustrates a response that names the procedure but cannot explain its effect or the broader concept.",
+     "refId": "USGOV:q1-set1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-go-po-q2-set-1",
+   "set": 1,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Quantitative Analysis",
+   "topic": "climate-change opinion line graph",
+   "teaser": "A. Identify the percentage of Americans in 2010 who believed that climate change would pose a serious threat in their lifetime, according to the data in the line graph. B. Describe a trend in the…",
+   "suggestedMinutes": 20,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-government/ap25-us-go-po-q2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "Percentage of Americans Who Believed Climate Change Would Pose a Serious Threat in Their\nLifetime, 1997 to 2015\nSource: Gallup, October 2021\n2. Respond to parts A, B, C, and D.\nA. Identify the percentage of Americans in 2010 who believed that climate change would pose a\nserious threat in their lifetime, according to the data in the line graph.\nB. Describe a trend in the data shown in the line graph.\nC. Draw a conclusion about how a trend in the line graph could be used by an interest group to\ninfluence policymaking.\nD. Explain how the overall trend shown in the line graph could be a result of political\nsocialization.",
+   "sourceText": null,
+   "scoringGuide": "AP Government FRQ 2 is Quantitative Analysis, 4 points, one per part A/B/C/D, based on a data graphic. Task pattern: A identify a specific data value, B describe a trend/pattern in the data, C draw a conclusion linking the data to a political actor/institution (e.g., how an interest group could use a trend), D explain how the data/trend relates to a course concept (e.g., political ideology, participation). Set 1 answer key: A [1] identify the 2010 percentage from the line graph; B [1] describe a trend in the line graph; C [1] draw a conclusion about how an interest group could use a trend; D [1] explain how the overall trend could result from a course concept (e.g., political socialization/ideology). Common failure: for B, restating one value instead of a trend; for D, describing the trend again rather than explaining a cause.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify the 2010 percentage from the line graph"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe a trend in the line graph"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] draw a conclusion about how an interest group could use a trend"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] explain how the overall trend could result from a course concept (e.g., political socialization/ideology)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "4",
+     "summary": "Q2 (Set 1) scored 4/4 — identified the 2010 value (A), described a valid trend (B), drew a conclusion about interest-group use of a trend (C), and explained a course-concept cause of the trend (D). Full-credit model for Quantitative Analysis.",
+     "refId": "USGOV:q2-set1:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "3",
+     "summary": "Q2 (Set 1) scored 3/4 — earned the data identification, trend description, and conclusion, but lost one part, typically D (explained by restating the trend rather than giving a course-concept cause). Illustrates the common miss on the final explain point.",
+     "refId": "USGOV:q2-set1:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 (Set 1) scored 2/4 — earned the data identification and trend description (A, B) but lost the conclusion (C) and the explanation (D). Illustrates a response that reads the graph but cannot connect the data to political actors or concepts.",
+     "refId": "USGOV:q2-set1:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-go-po-q3-set-1",
+   "set": 1,
+   "label": "Q3",
+   "section": null,
+   "essayType": "SCOTUS Comparison",
+   "topic": "United States v. Lopez & Wickard v. Filburn",
+   "teaser": "A. Identify the constitutional clause that is common to both United States v. Lopez (1995) and Wickard v. Filburn (1942). B. Explain how the facts in United States v. Lopez and Wickard v. Filburn…",
+   "suggestedMinutes": 20,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-government/ap25-us-go-po-q3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "This question requires you to compare a Supreme Court case you studied in class with one\nyou have not studied in class. A summary of the Supreme Court case you did not study in\nclass is presented and provides all of the information you need to know about this case to\nanswer the prompts.\nWickard v. Filburn (1942)\nThe Agricultural Adjustment Act of 1938 was a law passed by Congress during the Great\nDepression. The purpose of the federal law was to regulate the production of wheat to stabilize\nthe economy and the nation’s food supply. The law limited the amount of wheat that farmers\ncould grow on their farms. Roscoe Filburn, a farmer in Ohio, grew more wheat than the amount\nallowed under the Agricultural Adjustment Act. When Filburn was penalized under the law, he\nsued.\nFilburn argued that the excess wheat grown on his farm was for personal use and therefore\ndid not fall under the wheat limit established by the law. Filburn also argued that the law was\nunconstitutional because Congress did not have the authority to regulate how much wheat a\nfarmer could grow for personal consumption or use.\nA unanimous Supreme Court held that the power of Congress granted by Article I of the\nConstitution includes the authority to regulate activities in a single state when they have even\nan indirect effect on the economy of other states. That meant that the Agricultural Adjustment\nAct applied to Filburn’s wheat sold at market and his wheat grown for personal use.\n3. Respond to parts A, B, and C.\nA. Identify the constitutional clause that is common to both United States v. Lopez (1995) and\nWickard v. Filburn (1942).\nB. Explain how the facts in United States v. Lopez and Wickard v. Filburn led to different\nholdings.\nC. Explain how the holding in Wickard v. Filburn reflects the concept of federalism.",
+   "sourceText": null,
+   "scoringGuide": "AP Government FRQ 3 is SCOTUS Comparison, 4 points, comparing a required (precedent) case with a non-required case given in the prompt. A [1] identify the common constitutional clause/provision at the basis of both decisions (here the commerce clause). B [2] explain how the facts of the two cases led to different (or similar) holdings — this part is worth two points and requires a correct factual comparison plus the holdings. C [1] explain how the holding relates to a course concept or affects policy/politics (here how Wickard v. Filburn reflects federalism). Common failure: naming the wrong clause in A; describing case facts without connecting them to the different holdings in B; for C, describing the case rather than explaining its link to the concept.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify the common constitutional clause/provision at the basis of both decisions (here the commerce clause)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B [2] explain how the facts of the two cases led to different (or similar) holdings — this part is worth two points and requires a correct factual comparison plus the holdings"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how the holding relates to a course concept or affects policy/politics (here how Wickard v. Filburn reflects federalism)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "4",
+     "summary": "Q3 (Set 1) scored 4/4 (A 1, B 2, C 1). Identified the commerce clause (A), explained how the facts of Lopez and Wickard produced different holdings (B, both points), and explained how the Wickard holding reflects federalism (C). Full-credit model.",
+     "refId": "USGOV:q3-set1:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "3",
+     "summary": "Q3 (Set 1) scored 3/4 — earned A (commerce clause) and C (federalism link) plus one of the two B points; the second B point was lost, typically because the factual comparison did not fully connect the facts to the differing holdings. Illustrates the frequent partial credit on the 2-point comparison row.",
+     "refId": "USGOV:q3-set1:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "Q3 (Set 1) scored 1/4 — earned only one point (typically A, the commerce clause), losing both B points (no valid facts-to-holdings comparison) and C (no federalism explanation). Illustrates a response that names the clause but cannot compare the cases or apply the concept.",
+     "refId": "USGOV:q3-set1:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-go-po-q4-set-1",
+   "set": 1,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Argument Essay",
+   "topic": "Federalist No. 10 / factions",
+   "teaser": "Social media has changed the way many Americans communicate about politics. Develop an argument as to whether the use of social media has helped or hindered participatory democracy. Use at least…",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-government/ap25-us-go-po-q4-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "4. Social media has changed the way many Americans communicate about politics.\nDevelop an argument as to whether the use of social media has helped or hindered\nparticipatory democracy.\nUse at least one piece of evidence from one of the following foundational documents:\n• First Amendment to the Constitution of the United States\n• Federalist No. 10\n• “Letter from a Birmingham Jail”\nIn your response, you should do the following:\n• Respond to the prompt with a defensible claim or thesis that establishes a line of\nreasoning.\n• Support your claim with at least TWO pieces of specific and relevant evidence.\n⸰ One piece of evidence must come from one of the foundational documents listed.\n⸰ A second piece of evidence can come from any other foundational document not\nused as your first piece of evidence or it may be from your knowledge of course\nconcepts.\n• Use reasoning to explain why your evidence supports your claim or thesis.\n• Respond to an opposing or alternate perspective using rebuttal or refutation.",
+   "sourceText": null,
+   "scoringGuide": "AP Government FRQ 4 is the Argument Essay, 6 points across four rows. Row A Claim/Thesis [1]: a defensible claim/thesis responding to the prompt with a line of reasoning. Row B Evidence [0–3]: 1–2 points for relevant evidence supporting the claim; the 3rd point requires using at least ONE of the required foundational documents listed in the prompt (and requires the Row A thesis). Row C Reasoning [1]: explains how/why the evidence supports the claim (requires Row A). Row D Responds to Alternate Perspectives [1]: describes an opposing/alternate perspective AND rebuts/refutes/concedes it (requires Row A). Set 1 prompt cites Federalist No. 10 (factions as a threat) as a required foundational document. Common failure: never using a required foundational document (caps Evidence at 2); presenting but not answering an alternate perspective (loses Row D); a thesis that only restates the prompt.",
+   "rubric": [
+    {
+     "name": "Claim / Thesis",
+     "maxPoints": 1,
+     "criteria": "A defensible claim or thesis that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 3,
+     "criteria": "1 point: one piece of specific, relevant evidence. 2 points: two pieces of evidence that support the claim. 3 points: two pieces of evidence that support the claim, at least one of which is from the required foundational documents listed in the prompt."
+    },
+    {
+     "name": "Reasoning",
+     "maxPoints": 1,
+     "criteria": "Explains how or why the evidence supports the claim or thesis."
+    },
+    {
+     "name": "Alternate Perspective",
+     "maxPoints": 1,
+     "criteria": "Responds to an opposing or alternate perspective using refutation, concession, or rebuttal."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "6",
+     "summary": "Q4 (Set 1) scored 6/6 (Thesis 1, Evidence 3, Reasoning 1, Alternate 1). Defensible thesis; evidence including Federalist No. 10 used to support the claim (earning the 3rd evidence point); reasoning connecting the evidence to the thesis; and an alternate perspective that is rebutted. Full-credit model for the argument essay.",
+     "refId": "USGOV:q4-set1:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (Set 1) scored 4/6 — typically Thesis 1, Evidence 2, Reasoning 1, Alternate 0: a defensible thesis with evidence and reasoning, but the alternate-perspective point is lost (an opposing view described without rebuttal) and/or the 3rd evidence point is missed for not using a foundational document. Illustrates the common 4-point argument essay: solid claim and support without a full response to the counterargument.",
+     "refId": "USGOV:q4-set1:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "Q4 (Set 1) scored 1/6 — earned only one point, typically the thesis (or a single evidence point), with no adequate evidence tied to the claim, no reasoning, and no answered alternate perspective. Because Reasoning and Alternate Perspectives require the Row A thesis and a supported argument, a thin essay collapses to 1. Illustrates a claim without development.",
+     "refId": "USGOV:q4-set1:2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-go-po-q1-set-2",
+   "set": 2,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Concept Application",
+   "topic": "bureaucratic agency power",
+   "teaser": "A. Describe the power the bureaucratic agency used in the scenario. B. Explain how Congress could counteract the use of the power described in part A. C. Explain how the citizens’ groups in the…",
+   "suggestedMinutes": 20,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-government/ap25-us-go-po-q1-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "In recent years, energy producers have been at odds with activists who oppose the construction\nof new pipelines that could transport liquefied natural gas (LNG) to markets in the United States\nand abroad. Coalitions of citizens’ groups have voiced their concerns about the potential threat\nthat new pipelines might pose to the environment and public safety.\nAs a result, energy producers and the government have sought alternative ways to transport\nLNG within the confines of current law. In 2015 the United States Pipeline and Hazardous\nMaterials Safety Administration (PHMSA) issued the first permit for transporting LNG by rail.\nThis bureaucratic agency, which is part of the Department of Transportation, expanded the\npractice in 2017.\nCitizens’ groups voiced similar concerns about the transportation of LNG by rail but could not\nmuster enough support in Congress for a new law. The presidential administration at the time\nresponded to pressure from industry groups by supporting the expansion of permits, setting\nnew rules and regulations to make it easier to transport LNG by rail. In 2019, without further\ndirection from Congress, the PHMSA established new safety requirements and expanded the\nnumber of permits available.\n1. Respond to parts A, B, and C.\nA. Describe the power the bureaucratic agency used in the scenario.\nB. Explain how Congress could counteract the use of the power described in part A.\nC. Explain how the citizens’ groups in the scenario illustrate the concept of pluralist democracy.",
+   "sourceText": null,
+   "scoringGuide": "AP Government FRQ 1, Concept Application, 3 points, one per part A/B/C, scenario-based. Set 2 answer key: A [1] describe the power the bureaucratic agency used in the scenario (e.g., rulemaking/regulatory authority, discretionary implementation of law). B [1] explain how that power operates or affects an outcome in the scenario. C [1] explain how the scenario illustrates a broader course concept (e.g., delegated authority, bureaucratic discretion, checks on the bureaucracy). Same describe/explain/apply task template as Set 1. Common failure: describing what the agency did rather than the power it used; not applying the broader concept to the scenario in C.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe the power the bureaucratic agency used in the scenario (e.g., rulemaking/regulatory authority, discretionary implementation of law)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] explain how that power operates or affects an outcome in the scenario"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how the scenario illustrates a broader course concept (e.g., delegated authority, bureaucratic discretion, checks on the bureaucracy). Same describe/explain/apply task template as Set 1"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "3",
+     "summary": "Q1 (Set 2) scored 3/3 — described the bureaucratic power (A), explained its operation/effect (B), and applied the broader concept to the scenario (C). Full-credit model for Concept Application.",
+     "refId": "USGOV:q1-set2:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "Q1 (Set 2) scored 2/3 — earned two parts (typically the describe and one explain) but lost the third, usually the concept-application part C that requires tying the broader concept to the scenario. Illustrates the common Concept Application ceiling.",
+     "refId": "USGOV:q1-set2:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "Q1 (Set 2) scored 1/3 — earned only the describe point A, losing both explain parts. Illustrates a response that identifies the agency's power but cannot explain its effect or the broader concept.",
+     "refId": "USGOV:q1-set2:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-go-po-q2-set-2",
+   "set": 2,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Quantitative Analysis",
+   "topic": "Senate elections & party alignment",
+   "teaser": "A. Identify the percentage of Senate elections won by candidates of the same party as their state’s most recent presidential election winner in 2018, according to the data in the line graph. B.…",
+   "suggestedMinutes": 20,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-government/ap25-us-go-po-q2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "State Elections for Senator and President, 1980 to 2022\nPercentage of Senate elections won by candidates of the same party as their state’s most\nrecent presidential election winner\nSource: Pew Research Center , 2022\n2. Respond to parts A, B, C, and D.\nA. Identify the percentage of Senate elections won by candidates of the same party as their\nstate’s most recent presidential election winner in 2018, according to the data in the line\ngraph.\nB. Describe the overall trend in the data shown in the line graph.\nC. Draw a conclusion about the level of partisanship among voters since 1980, using the data\nshown in the line graph.\nD. Explain how the overall trend shown in the line graph could reflect changes in how people\nacquire political news.",
+   "sourceText": null,
+   "scoringGuide": "AP Government FRQ 2, Quantitative Analysis, 4 points, one per part A/B/C/D, data-based. Set 2 answer key: A [1] identify the percentage of Senate elections won by candidates of the same party as the state's presidential vote (from the data); B [1] describe a trend/pattern in the data; C [1] draw a conclusion linking the data to a political actor/institution; D [1] explain how the data relates to a course concept (e.g., partisanship, straight-ticket voting, nationalization of elections). Same A/B/C/D task template as Set 1. Common failure: restating a value for B instead of a trend; for D, re-describing rather than explaining a cause.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify the percentage of Senate elections won by candidates of the same party as the state's presidential vote (from the data)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe a trend/pattern in the data"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] draw a conclusion linking the data to a political actor/institution"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] explain how the data relates to a course concept (e.g., partisanship, straight-ticket voting, nationalization of elections). Same A/B/C/D task template as Set 1"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "4",
+     "summary": "Q2 (Set 2) scored 4/4 — identified the data value, described a trend, drew a conclusion, and explained a course-concept relationship. Full-credit model.",
+     "refId": "USGOV:q2-set2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "3",
+     "summary": "Q2 (Set 2) scored 3/4 — earned three parts (identify, describe, and one of conclusion/explanation), losing one — commonly the D explanation that requires a course-concept cause rather than restating the trend.",
+     "refId": "USGOV:q2-set2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "Q2 (Set 2) scored 1/4 — earned only the data identification A, losing the trend description, conclusion, and explanation. Illustrates a response that reads a single value but cannot analyze the data or connect it to concepts.",
+     "refId": "USGOV:q2-set2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-go-po-q3-set-2",
+   "set": 2,
+   "label": "Q3",
+   "section": null,
+   "essayType": "SCOTUS Comparison",
+   "topic": "Shaw v. Reno",
+   "teaser": "A. Identify the constitutional clause that is the basis for the decisions in both Shaw v. Reno (1993) and Bush v. Vera (1996). B. Explain how the facts in Shaw v. Reno and Bush v. Vera led to…",
+   "suggestedMinutes": 20,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-government/ap25-us-go-po-q3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "This question requires you to compare a Supreme Court case you studied in class with one\nyou have not studied in class. A summary of the Supreme Court case you did not study in\nclass is presented and provides all of the information you need to know about this case to\nanswer the prompts.\nBush v. Vera (1996)\nAs a result of the 1990 census, Texas was given three additional congressional districts. In the\nredistricting process that followed, the Texas state legislature redrew the borders of its current\ndistricts to make room for the three new ones. Texas voter Al Vera sued the state of Texas\nfor creating gerrymandered districts. In response, the state of Texas cited compliance with\nfederal regulation of federal elections, as well as seeking to reduce the incumbency advantage.\nSupporters of the plan claimed that the districts establish minority-majority districts that would\nensure minority representation in Congress. The Court of Appeals for the Fifth Circuit struck\nparts of the plan, and the state of Texas appealed to the Supreme Court.\nIn Bush v. Vera, the Court held in favor of Vera and struck down the redistricting plan. Justice\nSandra Day O’Connor reasoned that race was the primary factor used to redraw the districts\nand that other , race-neutral factors were given less consideration. The Court used the highest\nstandard of review to determine the constitutionality of the government discrimination on the\nbasis of race.\n3. Respond to parts A, B, and C.\nA. Identify the constitutional clause that is the basis for the decisions in both Shaw v. Reno\n(1993) and Bush v. Vera (1996).\nB. Explain how the facts in Shaw v. Reno and Bush v. Vera led to similar holdings.\nC. Explain how the decision in Bush v. Vera relates to the democratic ideal of republicanism.",
+   "sourceText": null,
+   "scoringGuide": "AP Government FRQ 3, SCOTUS Comparison, 4 points, comparing the required case Shaw v. Reno with a non-required case in the prompt. A [1] identify the common constitutional clause/provision at the basis of both decisions. B [2] explain how the facts of the two cases led to different (or similar) holdings (two points). C [1] explain how the holding relates to a course concept or affects policy/politics. Same 1-2-1 point structure as Set 1. Common failure: wrong shared clause in A; facts described without linking to the holdings (B); describing rather than explaining the concept in C.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify the common constitutional clause/provision at the basis of both decisions"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B [2] explain how the facts of the two cases led to different (or similar) holdings (two points)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how the holding relates to a course concept or affects policy/politics. Same 1-2-1 point structure as Set 1"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "4",
+     "summary": "Q3 (Set 2) scored 4/4 (A 1, B 2, C 1). Identified the shared clause, explained how the two cases' facts produced their holdings (both B points), and explained the holding's relationship to a course concept. Full-credit model.",
+     "refId": "USGOV:q3-set2:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "2",
+     "summary": "Q3 (Set 2) scored 2/4 — typically earned A (shared clause) and one of the two B points, losing the second B point and C. Illustrates a response that identifies the clause and part of the comparison but cannot complete the facts-to-holdings link or apply the concept.",
+     "refId": "USGOV:q3-set2:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "Q3 (Set 2) scored 1/4 — earned only one point (typically A). Lost both B points (no valid facts-to-holdings comparison) and C. Illustrates a response confined to naming the shared clause.",
+     "refId": "USGOV:q3-set2:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-go-po-q4-set-2",
+   "set": 2,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Argument Essay",
+   "topic": "Federalist No. 51 / No. 78 (checks & balances)",
+   "teaser": "There is continued debate over how to best preserve the democratic ideal of limited government. Develop an argument as to whether an elected legislature or an independent judiciary is more…",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-government/ap25-us-go-po-q4-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "4. There is continued debate over how to best preserve the democratic ideal of limited\ngovernment.\nDevelop an argument as to whether an elected legislature or an independent judiciary is more\neffective in preserving limited government.\nUse at least one piece of evidence from one of the following foundational documents:\n• Federalist No. 51\n• Federalist No. 78\n• Article I of the Constitution of the United States\nIn your response you should do the following:\n• Respond to the prompt with a defensible claim or thesis that establishes a line of\nreasoning.\n• Support your claim with at least TWO pieces of specific and relevant evidence.\n⸰ One piece of evidence must come from one of the foundational documents listed.\n⸰ A second piece of evidence can come from any other foundational document not\nused as your first piece of evidence or it may be from your knowledge of course\nconcepts.\n• Use reasoning to explain why your evidence supports your claim or thesis.\n• Respond to an opposing or alternate perspective using rebuttal or refutation.",
+   "sourceText": null,
+   "scoringGuide": "AP Government FRQ 4, Argument Essay, 6 points across four rows. Row A Claim/Thesis [1]. Row B Evidence [0–3]: relevant evidence (1–2), with the 3rd point requiring use of at least ONE required foundational document. Row C Reasoning [1]: explains how the evidence supports the claim. Row D Alternate Perspectives [1]: describes AND rebuts/refutes/concedes an opposing view. Set 2 prompt cites Federalist No. 51 (checks and balances among branches) and Federalist No. 78 (unelected judiciary, lifetime appointments) as required foundational documents. Same four-row model as Set 1. Common failure: not using a listed foundational document (caps Evidence at 2); describing but not answering the alternate perspective; thesis merely restating the prompt.",
+   "rubric": [
+    {
+     "name": "Claim / Thesis",
+     "maxPoints": 1,
+     "criteria": "A defensible claim or thesis that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 3,
+     "criteria": "1 point: one piece of specific, relevant evidence. 2 points: two pieces of evidence that support the claim. 3 points: two pieces of evidence that support the claim, at least one of which is from the required foundational documents listed in the prompt."
+    },
+    {
+     "name": "Reasoning",
+     "maxPoints": 1,
+     "criteria": "Explains how or why the evidence supports the claim or thesis."
+    },
+    {
+     "name": "Alternate Perspective",
+     "maxPoints": 1,
+     "criteria": "Responds to an opposing or alternate perspective using refutation, concession, or rebuttal."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "6",
+     "summary": "Q4 (Set 2) scored 6/6 (Thesis 1, Evidence 3, Reasoning 1, Alternate 1). Defensible thesis; evidence including Federalist No. 51 (and/or No. 78) used to support the claim (3rd evidence point); reasoning tying evidence to the thesis; and a rebutted alternate perspective. Full-credit model.",
+     "refId": "USGOV:q4-set2:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (Set 2) scored 4/6 — typically Thesis 1, Evidence 2, Reasoning 1, Alternate 0: a supported argument that loses the alternate-perspective point (opposing view not rebutted) and/or the 3rd evidence point for not using a foundational document. Illustrates the common 4-point argument essay.",
+     "refId": "USGOV:q4-set2:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "Q4 (Set 2) scored 1/6 — earned only about one point (typically the thesis), with insufficient evidence, no reasoning tied to the claim, and no answered alternate perspective. Illustrates a claim without development, which caps the reasoning and alternate-perspective rows that depend on the thesis.",
+     "refId": "USGOV:q4-set2:2025-4C"
+    }
+   ]
+  }
+ ]
+}

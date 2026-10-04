@@ -54,7 +54,8 @@
       "scoreBand": "7",
       "refId": "APUSH:dbq:2025-set1-1A",
       "title": "DBQ exemplar — Sample 1A, score 7/7",
-      "content": "DBQ (extent the federal government's role in the US economy changed 1932–1980) scored 7/7. Thesis (1): defensible claim with a line of reasoning — heavy Keynesian intervention early/mid-period, then a more laissez-faire New Right turn later. Contextualization (1): situates in the late-19th-century laissez-faire era through Progressive/WWI growth. Evidence from Documents (2): uses Docs 3, 4, 5, 7 to support the argument. Evidence Beyond (1): LBJ's Great Society/War on Poverty/Medicare. Sourcing (1): explains audience/situation of Docs 3, 4, 5, 7. Complexity (1): sources four documents effectively AND draws an insightful cross-period comparison to the Federalist vs. Democratic-Republican debate."
+      "content": "DBQ (extent the federal government's role in the US economy changed 1932–1980) scored 7/7. Thesis (1): defensible claim with a line of reasoning — heavy Keynesian intervention early/mid-period, then a more laissez-faire New Right turn later. Contextualization (1): situates in the late-19th-century laissez-faire era through Progressive/WWI growth. Evidence from Documents (2): uses Docs 3, 4, 5, 7 to support the argument. Evidence Beyond (1): LBJ's Great Society/War on Poverty/Medicare. Sourcing (1): explains audience/situation of Docs 3, 4, 5, 7. Complexity (1): sources four documents effectively AND draws an insightful cross-period comparison to the Federalist vs. Democratic-Republican debate.",
+      "promptId": "ap25-us-history-dbq-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -62,7 +63,8 @@
       "scoreBand": "5",
       "refId": "APUSH:dbq:2025-set1-1B",
       "title": "DBQ exemplar — Sample 1B, score 5/7",
-      "content": "DBQ scored 5/7 (Thesis 1, Contextualization 1, Evidence from Docs 2, Evidence Beyond 0, Sourcing 1, Complexity 0). Thesis (1): defensible claim about extended federal overreach via trade/travel, equal opportunity, healthcare, and wartime immigration. Contextualization (1): pre-1932 risky banking and consumer culture leading to the Great Depression. Evidence from Docs (2): uses Docs 2, 3, 4, 6 to support arguments (misinterprets Doc 5's Goldwater). Evidence Beyond (0): none. Sourcing (1): explains situation/purpose of Docs 3, 4, 2. Complexity (0): no sophisticated argumentation."
+      "content": "DBQ scored 5/7 (Thesis 1, Contextualization 1, Evidence from Docs 2, Evidence Beyond 0, Sourcing 1, Complexity 0). Thesis (1): defensible claim about extended federal overreach via trade/travel, equal opportunity, healthcare, and wartime immigration. Contextualization (1): pre-1932 risky banking and consumer culture leading to the Great Depression. Evidence from Docs (2): uses Docs 2, 3, 4, 6 to support arguments (misinterprets Doc 5's Goldwater). Evidence Beyond (0): none. Sourcing (1): explains situation/purpose of Docs 3, 4, 2. Complexity (0): no sophisticated argumentation.",
+      "promptId": "ap25-us-history-dbq-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -70,7 +72,8 @@
       "scoreBand": "2",
       "refId": "APUSH:dbq:2025-set1-1C",
       "title": "DBQ exemplar — Sample 1C, score 2/7",
-      "content": "DBQ scored 2/7 (Thesis 1, Contextualization 0, Evidence from Docs 1, Evidence Beyond 0, Sourcing 0, Complexity 0). Thesis (1): minimally defensible, generalized line of reasoning (federal government funded projects that benefited everyone). Contextualization (0): no broader context. Evidence from Docs (1): describes Docs 3, 4, 6 to address the topic but does not use documents to support an argument. Evidence Beyond (0), Sourcing (0), Complexity (0): none. Shows how describing documents without argumentation caps Evidence at 1 and forfeits the reasoning points."
+      "content": "DBQ scored 2/7 (Thesis 1, Contextualization 0, Evidence from Docs 1, Evidence Beyond 0, Sourcing 0, Complexity 0). Thesis (1): minimally defensible, generalized line of reasoning (federal government funded projects that benefited everyone). Contextualization (0): no broader context. Evidence from Docs (1): describes Docs 3, 4, 6 to address the topic but does not use documents to support an argument. Evidence Beyond (0), Sourcing (0), Complexity (0): none. Shows how describing documents without argumentation caps Evidence at 1 and forfeits the reasoning points.",
+      "promptId": "ap25-us-history-dbq-set-1"
     }
   ]
 }

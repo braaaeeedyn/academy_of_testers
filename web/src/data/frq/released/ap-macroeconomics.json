@@ -1,0 +1,369 @@
+{
+ "subjectName": "AP Macroeconomics",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-macroeconomics-q1-set-1",
+   "set": 1,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Long FRQ",
+   "topic": "Phillips curve, AD, foreign exchange & balance of payments",
+   "teaser": "Assume that the economy of Vortania is in long-run equilibrium. A. Draw a correctly labeled graph of the short-run and long-run Phillips curves for the economy of Vortania, and label the long-run…",
+   "suggestedMinutes": 25,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-macroeconomics/ap25-macroeconomics-q1-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "1. Assume that the economy of Vortania is in long-run equilibrium.\nA. Draw a correctly labeled graph of the short-run and long-run Phillips curves for the economy\nof Vortania, and label the long-run equilibrium point as P.\nB. Assume that new residential construction projects are being implemented in Vortania.\ni. Will real output in Vortania increase, decrease, or remain the same in the short run?\nExplain.\nii. Assuming no change in inflationary expectations, on your graph in part A, show the\nshort-run effect of the new residential construction projects on Vortania’s economy,\nlabeling the new short-run equilibrium point as S.\nC. Vortania and Rhodara are trading partners with flexible exchange rates. The currency of\nVortania is the Vortanian crown (VTC), and the currency of Rhodara is the Rhodaran mark\n(RHM). Assume that Vortania’s capital and financial account (CFA) balance is zero. Now\nassume that Vortania imposes new tariffs on imports from Rhodara. Draw a correctly labeled\ngraph of the foreign exchange market for the Vortanian crown, and show the effect of the\ntariffs on the SUPPLY of the Vortanian crown and the international value of the Vortanian\ncrown.\nD. Based solely on the change in the international value of the Vortanian crown shown in part\nC, will Vortania’s net exports increase, decrease, or remain the same in the short run?\nE. Based on the change in net exports identified in part D, what will happen to each of the\nfollowing in the short run?\ni. The capital and financial account (CFA) balance in Vortania. Explain.\nii. Employment in Vortania\nF. Assume the central bank of Vortania wants to return the Vortanian crown to its international\nvalue before the imposition of the tariffs. Would the central bank buy or sell Vortanian\ncrowns in the foreign exchange market? Explain.",
+   "sourceText": null,
+   "scoringGuide": "AP Macroeconomics FRQ 1 (Long), 10 points, one point per element (Points 1–10) mixing correctly labeled graphs with state/explain answers. Set 1 (Vortania): Pt1 draw a correctly labeled short-run Phillips curve (SRPC); Pt2 include a correctly labeled LRPC with point P at the SRPC/LRPC intersection; Pt3 state real output increases and explain new residential construction raises investment spending → aggregate demand; Pt4 show point S on the SRPC to the left of P; Pt5 draw a correctly labeled foreign-exchange market for the crown; Pt6 show a leftward shift in the supply of crowns → appreciation; Pt7 state Vortania's net exports decrease; Pt8 state the capital and financial account moves to surplus and explain CA moved to deficit and CA+CFA=0; Pt9 state employment decreases; Pt10 state the central bank would sell crowns and explain the increased supply causes depreciation. Common failure: unlabeled or mislabeled axes/curves; giving a 'state' answer without the required 'explain'; wrong direction of curve shifts.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part E exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 (Set 1) scored 10/10 — correctly labeled SRPC/LRPC with point P and point S, the foreign-exchange graph with a leftward supply shift and appreciation, and all state/explain answers (real output, net exports, CFA surplus with CA+CFA=0, employment, and central-bank crown sale causing depreciation). Full-credit model for the macro long FRQ.",
+     "refId": "MACRO:q1-set1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "5",
+     "summary": "Q1 (Set 1) scored 5/10 — earned roughly the graph-labeling and simpler state points but lost the explain-dependent points (e.g., the AD/investment linkage, the CA+CFA=0 balance-of-payments explanation, and the central-bank depreciation mechanism). Illustrates the common macro pattern: graph and 'state' points earned, 'state AND explain' points missed.",
+     "refId": "MACRO:q1-set1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "Q1 (Set 1) scored 1/10 — earned only a single element (typically one correctly labeled graph point), losing the shift/appreciation, all state/explain answers, and the balance-of-payments reasoning. Illustrates a response that cannot execute the labeled graphs or the multi-step macro reasoning.",
+     "refId": "MACRO:q1-set1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-macroeconomics-q2-set-1",
+   "set": 1,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "monetary policy & the reserve market",
+   "teaser": "The economies of Country L and Country A are currently in short-run equilibrium at output levels below full employment. Both countries intend to use monetary policy to close their output gaps.…",
+   "suggestedMinutes": 17,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-macroeconomics/ap25-macroeconomics-q2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "2. The economies of Country L and Country A are currently in short-run equilibrium at output\nlevels below full employment. Both countries intend to use monetary policy to close their output\ngaps. Country L has a banking system with limited reserves, and Country A has a banking\nsystem with ample reserves.\nA. What open-market operation would Country L implement to move the economy toward full\nemployment in the short run?\nB. What specific monetary policy action would Country A implement to move the economy\ntoward full employment in the short run?\nC. Draw a correctly labeled graph of the reserve market in Country A, and show the effect of the\nmonetary policy action identified in part B on the policy rate.\nD. Assume instead that no policy actions are taken in Country A and that the economy remains\nin short-run equilibrium at an output level below full employment. Will short-run aggregate\nsupply in Country A increase, decrease, or remain the same as the economy self-adjusts in\nthe long run? Explain.",
+   "sourceText": null,
+   "scoringGuide": "AP Macroeconomics FRQ 2 (Short), 5 points, one per element (Points 1–5), graphs plus state/explain. Set 1 answer key highlights: state the central bank of Country L would buy bonds; state the central bank of Country A would decrease its administered interest rate; draw a correctly labeled reserve market with the supply curve intersecting the demand curve appropriately; plus related state/explain elements on how the tool affects the money market and interest rates. Common failure: unlabeled reserve-market graph; stating a policy tool without explaining its effect; wrong direction of the open-market operation.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "4",
+     "summary": "Q2 (Set 1) scored 4/5 — earned most elements (correct policy-tool statements and the labeled reserve-market graph) but lost one point, typically an explain element or a precise graph feature. Illustrates a strong short-FRQ response one point short.",
+     "refId": "MACRO:q2-set1:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "3",
+     "summary": "Q2 (Set 1) scored 3/5 — earned the policy-tool state points and part of the graph, losing the explain-dependent and precise graph points. Illustrates a mid response with correct statements but incomplete graph/explanation.",
+     "refId": "MACRO:q2-set1:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 (Set 1) scored 2/5 — earned only two elements (typically one policy statement and one graph or state point), losing the explanations and the correctly labeled reserve-market graph features. Illustrates a low short-FRQ response.",
+     "refId": "MACRO:q2-set1:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-macroeconomics-q3-set-1",
+   "set": 1,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "real vs. nominal GDP, AD-AS & fiscal multiplier",
+   "teaser": "The table provided shows the quantities and unit prices of shirts, bread, and pants, the only three goods produced in the country of Middleland in 2021 and 2022. Assume that 2021 was the base year…",
+   "suggestedMinutes": 17,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-macroeconomics/ap25-macroeconomics-q3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. The table provided shows the quantities and unit prices of shirts, bread, and pants, the only\nthree goods produced in the country of Middleland in 2021 and 2022. Assume that 2021 was the\nbase year .\nShirts Bread Pants\nUnit Prices in 2021 $11 $4 $12\nUnit Prices in 2022 $10 $5 $15\nQuantities Produced in 2021 and 2022 50 70 30\nA. Was the real GDP in 2021 in Middleland greater than, less than, or equal to the nominal GDP\nin 2021? Explain.\nB. Calculate the real GDP in Middleland in 2022. Show your work.\nC. Assume that Middleland was in short-run equilibrium in 2022 and that POTENTIAL real\nGDP was $1,150 in 2022. Draw a correctly labeled graph of the aggregate demand, short-run\naggregate supply, and long-run aggregate supply curves for Middleland in 2022, and show\neach of the following.\ni. The equilibrium real output and price level, labeled Y1 and PL1, respectively\nii. The full-employment output, labeled YF\nD. Assume the marginal propensity to consume in Middleland is 0.8. Calculate the minimum\nchange and state the direction of change in government spending required to close the\noutput gap in the short run in Middleland. Show your work.",
+   "sourceText": null,
+   "scoringGuide": "AP Macroeconomics FRQ 3 (Short), 5 points, one per element, including a calculation. Set 1 answer key highlights: state that real GDP in 2021 equaled nominal GDP in 2021 and explain that the base-year price index is 100; draw a correctly labeled AD-AS graph showing PL1 and the relevant equilibrium; calculate the minimum change in government spending (a decrease of $8) and SHOW WORK (spending multiplier). Common failure: calculation without shown work (loses the point); AD-AS graph unlabeled; explaining the real=nominal relationship without the base-year reasoning.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "5",
+     "summary": "Q3 (Set 1) scored 5/5 — stated and explained the real=nominal GDP relationship (base year), drew a correctly labeled AD-AS graph, and calculated the $8 spending decrease with shown work. Full-credit model.",
+     "refId": "MACRO:q3-set1:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "4",
+     "summary": "Q3 (Set 1) scored 4/5 — earned most elements but lost one, commonly the calculation answer (or its shown work) or the base-year explanation. Illustrates a strong response one point short.",
+     "refId": "MACRO:q3-set1:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 1) scored 2/5 — earned about two elements (e.g., one graph or state point), losing the explanation, the labeled AD-AS features, and the multiplier calculation. Illustrates a low response that cannot complete the calculation or the AD-AS reasoning.",
+     "refId": "MACRO:q3-set1:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-macroeconomics-q1-set-2",
+   "set": 2,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Long FRQ",
+   "topic": "unemployment, Phillips curve & government budget",
+   "teaser": "Assume that the economy of Barrikos is in short-run equilibrium, with its economic data summarized in the table provided. The government budget is balanced, and the capital and financial account…",
+   "suggestedMinutes": 25,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-macroeconomics/ap25-macroeconomics-q1-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "1. Assume that the economy of Barrikos is in short-run equilibrium, with its economic data\nsummarized in the table provided. The government budget is balanced, and the capital and\nfinancial account (CFA) balance is zero.\nCyclical unemployment rate 6%\nNatural unemployment rate 4%\nStructural unemployment rate 1%\nActual inflation rate 3%\nExpected inflation rate 5%\nA. What is the numerical value of the actual unemployment rate in Barrikos?\nB. Using the relevant numerical values, draw a correctly labeled graph of the short-run and\nlong-run Phillips curves for Barrikos. Indicate the current short-run equilibrium with a point\nlabeled X. Plot the relevant numerical values on the graph.\nC. Based on your graph in part B, identify one specific fiscal policy action that the government\nof Barrikos would take to move the economy toward long-run equilibrium.\nD. Assume that the fiscal policy action identified in part C is implemented.\ni. Will the government budget in Barrikos move into surplus, move into deficit, or remain\nbalanced? Explain.\nii. Assume there is no change in inflationary expectations. On your graph in part B, show\na possible new short-run equilibrium point, labeled Z, that would result from the fiscal\npolicy action identified in part C.\niii. Draw a correctly labeled graph of the loanable funds market, and show the effect of the\nfiscal policy action identified in part C on the real interest rate.\nE. Barrikos has an open economy and a flexible exchange rate. Based solely on the change in\nthe real interest rate in Barrikos shown on your graph in part D (iii), will Barrikos’ capital\nand financial account (CFA) balance move into surplus, move into deficit, or remain the\nsame? Explain.\nF. Based on the change in Barrikos’ capital and financial account (CFA) balance identified in\npart E, what will happen to the international value of Barrikos’ currency? Explain.",
+   "sourceText": null,
+   "scoringGuide": "AP Macroeconomics FRQ 1 (Long), 10 points, one per element (Points 1–10), graphs plus state/explain answers. Set 2 answer key highlights: state the actual unemployment rate (e.g., 10%); draw a correctly labeled SRPC (and LRPC with the relevant point); state that the government budget moves into deficit and explain that government spending exceeds revenue; plus additional graph and state/explain elements on aggregate demand/supply and fiscal effects. Same 10-point structure as Set 1. Common failure: unlabeled graphs; 'state' answers without the required 'explain'; miscomputing or misreading the unemployment rate.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 (Set 2) scored 10/10 — correct unemployment-rate statement, correctly labeled Phillips-curve graph, the budget-deficit state-and-explain, and all remaining graph and reasoning elements. Full-credit model.",
+     "refId": "MACRO:q1-set2:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "5",
+     "summary": "Q1 (Set 2) scored 5/10 — earned the graph-labeling and simpler state points but lost the explain-dependent points (the fiscal/budget mechanism and other state-and-explain items). Illustrates graph/state points earned, explain points missed.",
+     "refId": "MACRO:q1-set2:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "Q1 (Set 2) scored 3/10 — earned about three elements (a labeled graph and one or two simple state answers), losing the shifts and the state-and-explain reasoning points. Illustrates a low response with fragments of the graph and statements but no multi-step reasoning.",
+     "refId": "MACRO:q1-set2:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-macroeconomics-q2-set-2",
+   "set": 2,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "contractionary monetary policy & bond prices",
+   "teaser": "Assume the economy of Jenland is in short-run equilibrium at a real output level above full-employment real output. A. The banking system in Jenland has ample reserves. Identify a specific…",
+   "suggestedMinutes": 17,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-macroeconomics/ap25-macroeconomics-q2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "2. Assume the economy of Jenland is in short-run equilibrium at a real output level above\nfull-employment real output.\nA. The banking system in Jenland has ample reserves. Identify a specific monetary policy action\nthat the central bank of Jenland would implement to return the economy to full employment\nin the short run.\nB. Draw a correctly labeled graph of the reserve market for Jenland, and show the effect of the\ncentral bank’s action identified in part A on the policy rate.\nC. Based on the change in the interest rate shown on your graph in part B, will each of the\nfollowing increase, decrease, or remain the same in Jenland in the short run?\ni. The price of previously issued bonds\nii. The price level. Explain.",
+   "sourceText": null,
+   "scoringGuide": "AP Macroeconomics FRQ 2 (Short), 5 points, one per element. Set 2 answer key highlights: state the central bank would increase its administered interest rates (or sell bonds); draw a correctly labeled reserve market with the appropriate supply-curve shift; state that the price of previously issued bonds will decrease; plus related state/explain elements linking the policy to interest rates and the economy. Same 5-point structure as Set 1. Common failure: unlabeled graph; stating the bond-price direction without the interest-rate relationship; wrong policy direction.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "5",
+     "summary": "Q2 (Set 2) scored 5/5 — correct interest-rate policy statement, correctly labeled reserve-market graph, the bond-price decrease, and all related explanations. Full-credit model for the short FRQ.",
+     "refId": "MACRO:q2-set2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "4",
+     "summary": "Q2 (Set 2) scored 4/5 — earned most elements but lost one, typically an explain element or a graph feature. Illustrates a strong response one point short.",
+     "refId": "MACRO:q2-set2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "Q2 (Set 2) scored 1/5 — earned only one element (a single state or graph point), losing the graph shift, the bond-price relationship, and the explanations. Illustrates a low short-FRQ response that cannot connect the monetary tool to its effects.",
+     "refId": "MACRO:q2-set2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-macroeconomics-q3-set-2",
+   "set": 2,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "AD-AS & automatic stabilizers",
+   "teaser": "Assume that Nepal is in long-run macroeconomic equilibrium and has an open economy. A. Draw a correctly labeled graph of the aggregate demand, short-run aggregate supply, and long-run aggregate…",
+   "suggestedMinutes": 17,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-macroeconomics/ap25-macroeconomics-q3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. Assume that Nepal is in long-run macroeconomic equilibrium and has an open economy.\nA. Draw a correctly labeled graph of the aggregate demand, short-run aggregate supply, and\nlong-run aggregate supply curves for Nepal, and show each of the following.\ni. The current equilibrium real output and price level, labeled Y1and PL1, respectively\nii. The full-employment output, labeled YF\nB. Nepal and Thailand are trading partners. Assume that Thailand experiences an increase\nin real income. On your graph in part A, show the short-run effect of the increase in real\nincome in Thailand on real output and the price level in Nepal, labeling the new short-run\nequilibrium real output Y2 and the new short-run equilibrium price level PL2.\nC. Assume that at the short-run equilibrium shown on your graph in part B, Nepal is\nexperiencing a 400 million rupee output gap. Policymakers in Nepal want to use\ndiscretionary fiscal policy to return the economy to full employment, and the marginal\npropensity to consume is 0.75. Calculate the minimum change and state the direction of\nchange in government spending required to completely close the output gap in the short run.\nShow your work.\nD. Assume instead that no discretionary policy actions are taken. Explain how automatic\nstabilizers in the short run would reduce the effect of the change in real output shown on\nyour graph in part B.",
+   "sourceText": null,
+   "scoringGuide": "AP Macroeconomics FRQ 3 (Short), 5 points, one per element. Set 2 answer key highlights: draw a correctly labeled AD-AS graph showing PL1 and the relevant equilibrium/shift; explain that as real income rises, tax revenues increase automatically (automatic stabilizers); plus related state/explain elements on the resulting effects. Same 5-point structure as Set 1. Common failure: unlabeled AD-AS graph; describing automatic stabilizers without the income→tax-revenue mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "5",
+     "summary": "Q3 (Set 2) scored 5/5 — correctly labeled AD-AS graph, the automatic-stabilizer explanation (rising income → higher tax revenue), and all related elements. Full-credit model.",
+     "refId": "MACRO:q3-set2:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "3",
+     "summary": "Q3 (Set 2) scored 3/5 — earned the graph and some state points but lost explain-dependent points (e.g., the automatic-stabilizer mechanism). Illustrates a mid response with the graph but incomplete explanation.",
+     "refId": "MACRO:q3-set2:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 2) scored 2/5 — earned about two elements, losing the labeled-graph features and the automatic-stabilizer explanation. Illustrates a low response that cannot complete the AD-AS reasoning.",
+     "refId": "MACRO:q3-set2:2025-3C"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "subjectName": "AP Calculus BC",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-calculus-bc-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Part A — Calculator",
+   "topic": "Applied Context / Rates",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-bc/ap25-calculus-bc-q1.pdf",
+   "pageCount": 1,
+   "promptText": "1. An invasive species of plant appears in a fruit grove at time t 0= and begins to spread. The\nfunction C defined by .. arctanCt t76 02=__ ii models the number of acres in the fruit grove\naffected by the species t weeks after the species appears. It can be shown that Ct t25\n38\n2= +l_i .\n(Note: Your calculator should be in radian mode.)\nA. Find the average number of acres affected by the invasive species from time t 0= to time\nt 4= weeks. Show the setup for your calculations.\nB. Find the time t when the instantaneous rate of change of C equals the average rate of change\nof C over the time interval t04## . Show the setup for your calculations.\nC. Assume that the invasive species continues to spread according to the given model for all\ntimes t 0> . Write a limit expression that describes the end behavior of the rate of change in\nthe number of acres affected by the species. Evaluate this limit expression.\nD. At time t 4= weeks after the invasive species appears in the fruit grove, measures are taken\nto counter the spread of the species. The function A, defined by . lnAt Ct xd x01 ·\nt\n4\n=-__ _ii iy ,\nmodels the number of acres affected by the species over the time interval t43 6## . At what\ntime t, for t43 6## , does A attain its maximum value? Justify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus BC Q1 (Part A, graphing calculator required; a question shared with AB), 9 points. Context: C(t)=7.6·arctan(0.2t) models acres affected by an invasive species; C'(t)=38/(25+t^2). Answers to 3 decimal places. A (2 pts): find the average VALUE of C on [0,4] — P1 for the average-value integral (1/4)∫C(t)dt with evidence of division by 4, P2 for the answer 2.778. B (2 pts): find t where the instantaneous rate of change equals the average rate of change on [0,4] — P3 for using the average rate of change [C(4)−C(0)]/4=1.282, P4 for t=2.154 with a supporting equation. C (2 pts): write and evaluate a limit for end behavior of the rate of change — P5 for lim(t→∞)C'(t), P6 for the value 0. D (3 pts): with A(t)=C(t)−0.1∫ln(x)dx, find where A attains its max on [4,36] — P7 for considering A'(t)=0, P8 for a global/candidates-test justification (evaluate A at 4, 11.442, 36), P9 for t=11.442. Common failure: confusing average value with average rate of change; local arguments in D lose P8 but stay eligible for P9.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (2 pts): find the average VALUE of C on [0,4] — P1 for the average-value integral (1/4)∫C(t)dt with evidence of division by 4, P2 for the answer 2.778"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): find t where the instantaneous rate of change equals the average rate of change on [0,4] — P3 for using the average rate of change [C(4)−C(0)]/4=1.282, P4 for t=2.154 with a supporting equation"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C (2 pts): write and evaluate a limit for end behavior of the rate of change — P5 for lim(t→∞)C'(t), P6 for the value 0"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (3 pts): with A(t)=C(t)−0.1∫ln(x)dx, find where A attains its max on [4,36] — P7 for considering A'(t)=0, P8 for a global/candidates-test justification (evaluate A at 4, 11.442, 36), P9 for t=11.442"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "9",
+     "summary": "Q1 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: average-value integral and answer 2.778 (A); average-rate expression [C(4)−C(0)]/4 and t=2.154 with equation (B); lim(t→∞)C'(t) and value 0 (C); A'(t)=0 with a global candidates-test table at t=4, 11.442, 36 and answer 11.442 (D). Model for a complete calculator FRQ with a global justification.",
+     "refId": "CALCBC:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "7",
+     "summary": "Q1 scored 7/9 (1-1-1-0-1-1-1-0-1). Earned both A points, P3, both C points, P7, and P9 (answer 11.442). Lost P4 (boxed answer in B incorrect) and P8 (used a local argument, 'A' changes positive to negative,' where a global candidates test is required). Shows the classic pairing of a wrong final value after correct setup and a local justification.",
+     "refId": "CALCBC:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "Q1 scored 3/9 (0-0-1-1-0-0-1-0-0). Earned only both B points and P7. Lost part A (computed average RATE of change instead of average VALUE), both C points (limit expression not in eligible form), and P8/P9 (no calculus-based global justification). Illustrates the common average-value vs. average-rate-of-change conflation.",
+     "refId": "CALCBC:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-bc-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Part A — Calculator",
+   "topic": "Polar Curve",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-bc/ap25-calculus-bc-q2.pdf",
+   "pageCount": 1,
+   "promptText": "2. Curve C is defined by the polar equation sinr 2 2i i=^h for 0 ##ir . Curve C and the semicircle\nr 2\n1= for 0 ##ir are shown in the xy-plane.\n(Note: Your calculator should be in radian mode.)\nA. Find the rate of change of r with respect to i at the point on curve C where .13i = . Show the\nsetup for your calculations.\nB. Find the area of the region that lies inside curve C but outside the graph of the polar equation\nr 2\n1= . Show the setup for your calculations.\nC. It can be shown that sinc os sind\ndx 42 23\ni ii i=- for curve C. For 0 2##i r , find the value\nof i that corresponds to the point on curve C that is farthest from the y-axis. Justify your\nanswer .\nD. A particle travels along curve C so that dt\nd 15i = for all times t. Find the rate at which the\nparticle’s distance from the origin changes with respect to time when the particle is at the\npoint where .13i = . Show the setup for your calculations.",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus BC Q2 (Part A, graphing calculator required, BC-only), 9 points. Curve C: r(θ)=2sin(2θ) for 0≤θ≤π, with the semicircle r=1/2. A (1 pt): rate of change of r with respect to θ at θ=1.3 — P1 for dr/dθ=1.031 (differentiation of r indicated). B (3 pts): area inside C but outside r=1/2 — P2 for a definite integral including (r(θ))^2, P3 for the correct integrand ((1/2)((r)^2−(1/2)^2)), P4 for the answer 2.067 (limits π/6, 5π/6 and the factor 1/2 are assessed in P4). C (3 pts): value of θ in [0,π/2] giving the point on C farthest from the y-axis — P5 for considering dx/dθ=0, P6 for a global candidates-test justification (evaluate x(θ)=r cosθ at 0, 0.955, π/2), P7 for the answer θ=0.955. D (2 pts): particle on C with dθ/dt=15; rate its distance from the origin changes at θ=1.3 — P8 for the chain-rule product (dr/dθ)(dθ/dt), P9 for the answer 15.465. Common failure: losing P3 by not squaring the 1/2; local arguments in C lose P6 but stay eligible for P7.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A (1 pt): rate of change of r with respect to θ at θ=1.3 — P1 for dr/dθ=1.031 (differentiation of r indicated)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (3 pts): area inside C but outside r=1/2 — P2 for a definite integral including (r(θ))^2, P3 for the correct integrand ((1/2)((r)^2−(1/2)^2)), P4 for the answer 2.067 (limits π/6, 5π/6 and the factor 1/2 are assessed in P4)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies. C: r(θ)=2sin(2θ) for 0≤θ≤π, with the semicircle r=1/2; C (3 pts): value of θ in [0,π/2] giving the point on C farthest from the y-axis — P5 for considering dx/dθ=0, P6 for a global candidates-test justification (evaluate x(θ)=r cosθ at 0, 0.955, π/2), P7 for the answer θ=0.955"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (2 pts): particle on C with dθ/dt=15; rate its distance from the origin changes at θ=1.3 — P8 for the chain-rule product (dr/dθ)(dθ/dt), P9 for the answer 15.465"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "9",
+     "summary": "Q2 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: dr/dθ=4sin(1.3)cos(1.3) identified as r'(1.3) (A); area integral including (r)^2 with correct integrand and answer 2.067 (B); dx/dθ=0 with a global candidates-test argument and θ=0.955 (C); chain-rule product (dr/dθ)(dθ/dt) and answer 15.465 (D). Model for the polar FRQ.",
+     "refId": "CALCBC:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "6",
+     "summary": "Q2 scored 6/9 (1-1-1-0-1-0-0-1-1). Earned P1, P2, P3 (area setup), P5 (dx/dθ=0), and both D points (chain-rule product and answer). Lost P4 (area answer incorrect), P6 (no justification for the farthest point), and P7 (answer of 0 is incorrect). Shows correct setups undermined by a wrong area value and an unjustified, incorrect optimization answer.",
+     "refId": "CALCBC:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 scored 2/9 (1-1-0-0-0-0-0-0-0). Earned only P1 (dr/dθ at 1.3) and P2 (area integral including (r)^2). Lost P3 (integrand wrong — the 1/2 was not squared), P4 (wrong answer), all of part C (dx/dθ=0 not considered, no justification, no answer), and all of part D (no chain-rule product, no answer). Illustrates that forgetting to square the inner-radius constant costs the area integrand point and cascades to the answer.",
+     "refId": "CALCBC:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-bc-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Table Analysis",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-bc/ap25-calculus-bc-q3.pdf",
+   "pageCount": 1,
+   "promptText": "3. A student starts reading a book at time t 0= minutes and continues reading for the next 10\nminutes. The rate at which the student reads is modeled by the differentiable function R, where\nRt_i is measured in words per minute. Selected values of Rt_i are given in the table shown.\nt (minutes) 0 2 8 10\nRt_i (words per minute) 90 100 150 162\nA. Approximate R 1l_i using the average rate of change of R over the interval t02## . Show\nthe work that leads to your answer . Indicate units of measure.\nB. Must there be a value c, for c01 0<< , such that Rc 155=_i ? Justify your answer .\nC. Use a trapezoidal sum with the three subintervals indicated by the data in the table to\napproximate the value of Rt dt\n0\n10\n_iy . Show the work that leads to your answer .\nD. A teacher also starts reading at time t 0= minutes and continues reading for the next 10\nminutes. The rate at which the teacher reads is modeled by the function W defined by\nWt tt10\n3 8 1002=- ++_i , where Wt_i is measured in words per minute. Based on the model,\nhow many words has the teacher read by the end of the 10 minutes? Show the work that\nleads to your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus BC Q3 (Part B, no calculator; a question shared with AB), 9 points. R(t) words/minute given in a table at t=0,2,8,10 (R=90,100,150,162). A (2 pts): approximate R'(1) by the average rate of change on [0,2] — P1 for [R(2)−R(0)]/2=5 with setup, P2 for correct units (words per minute per minute). B (2 pts): must there be c in (0,10) with R(c)=155? — P3 for stating R is continuous BECAUSE differentiable (bare 'R is continuous' fails P3), P4 for invoking the IVT with R(0)<155<R(10) and answering yes. C (2 pts): trapezoidal sum over the three subintervals for ∫R dt — P5 for the correct trapezoidal form, P6 for the value 1252 (a plain left/right Riemann sum earns P5 but not P6). D (3 pts): teacher's rate W(t)=−(3/10)t^2+8t+100; total words in 10 min — P7 for the integral of W, P8 for the correct antiderivative, P9 (needs P8) for the value 1300. Common failure: incorrect units (P2), stating continuity without the 'because differentiable' link (P3), Riemann sum where a trapezoidal sum is required (P6).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (2 pts): approximate R'(1) by the average rate of change on [0,2] — P1 for [R(2)−R(0)]/2=5 with setup, P2 for correct units (words per minute per minute)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): must there be c in (0,10) with R(c)=155? — P3 for stating R is continuous BECAUSE differentiable (bare 'R is continuous' fails P3), P4 for invoking the IVT with R(0)<155<R(10) and answering yes"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C (2 pts): trapezoidal sum over the three subintervals for ∫R dt — P5 for the correct trapezoidal form, P6 for the value 1252 (a plain left/right Riemann sum earns P5 but not P6)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (3 pts): teacher's rate W(t)=−(3/10)t^2+8t+100; total words in 10 min — P7 for the integral of W, P8 for the correct antiderivative, P9 (needs P8) for the value 1300"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "9",
+     "summary": "Q3 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: (100−90)/2 with units words/min^2 (A); 'R differentiable and therefore continuous' plus a full IVT statement with 90<155<162 (B); correct trapezoidal expression (C); ∫W dt, antiderivative −(1/10)t^3+4t^2+100t, and answer 1300 (D). Model, including the continuity-from-differentiability link.",
+     "refId": "CALCBC:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "6",
+     "summary": "Q3 scored 6/9 (1-0-0-0-1-1-1-1-1). Earned P1 (answer 5 with work), both C points (correct trapezoidal sum), and all three D points. Lost P2 (units incorrect) and both B points — never stated R is continuous, so P3 failed and P4 became ineligible. Shows that omitting the continuity justification forfeits the entire IVT part.",
+     "refId": "CALCBC:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 scored 2/9 (1-0-0-0-0-0-1-0-0). Earned only P1 (answer 5 with supporting work) and P7 (integral of W). Lost P2 (units), both B points (no continuity statement, no bracketing of 155), both C points (not in trapezoidal form), and P8/P9 (no antiderivative). Illustrates a low no-calculator response banking only the difference quotient and integral setup.",
+     "refId": "CALCBC:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-bc-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Graph Analysis / Accumulation Function",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-bc/ap25-calculus-bc-q4.pdf",
+   "pageCount": 1,
+   "promptText": "4. The continuous function f is defined on the closed interval x61 2##- . The graph of f,\nconsisting of two semicircles and one line segment, is shown in the figure.\nLet g be the function defined by gx ft dt\nx\n6\n=__ ii y .\nA. Find g 8l_i . Give a reason for your answer .\nB. Find all values of x in the open interval x61 2<<- at which the graph of g has a point of\ninflection. Give a reason for your answer .\nC. Find g 12_i and g 0_i . Label your answers.\nD. Find the value of x at which g attains an absolute minimum on the closed interval\nx61 2##- . Justify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus BC Q4 (Part A, no calculator; a question shared with AB), 9 points. f is continuous on [−6,12], its graph is two semicircles and a line segment; g(x)=∫_6^x f(t)dt. A (2 pts): find g'(8) with a reason — P1 for g'(x)=f(x) (FTC), P2 for g'(8)=f(8)=1. B (2 pts): x-values in (−6,12) where g has points of inflection with reason — P3 only for x=−3, 3, 6 (any extra declared value loses both P3 and P4), P4 for tying the reason to f (f/g' changing from increasing to decreasing or vice versa; citing g's concavity or g''=f' changing sign earns P3 but NOT P4). C (2 pts): find g(12) and g(0), labeled — P5 for g(12)=9, P6 for g(0)=−9π/2 (unlabeled values earn nothing). D (3 pts): x where g attains its absolute minimum on [−6,12] — P7 for considering g'(x)=f(x)=0, P8 for a global candidates-test at −6, 0, 6, 12 (or a sign-of-f argument), P9 for x=0. Common failure: inflection reasons referencing g rather than f (loses P4); local arguments in D (lose P8 but stay eligible for P9).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (2 pts): find g'(8) with a reason — P1 for g'(x)=f(x) (FTC), P2 for g'(8)=f(8)=1"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): x-values in (−6,12) where g has points of inflection with reason — P3 only for x=−3, 3, 6 (any extra declared value loses both P3 and P4), P4 for tying the reason to f (f/g' changing from increasing to decreasing or vice versa; citing g's concavity or g''=f' changing sign earns P3 but NOT P4)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C (2 pts): find g(12) and g(0), labeled — P5 for g(12)=9, P6 for g(0)=−9π/2 (unlabeled values earn nothing)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (3 pts): x where g attains its absolute minimum on [−6,12] — P7 for considering g'(x)=f(x)=0, P8 for a global candidates-test at −6, 0, 6, 12 (or a sign-of-f argument), P9 for x=0"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "9",
+     "summary": "Q4 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: g'(x)=f(x) and g'(8)=1 (A); inflection points x=−3, 3, 6 with reasoning tied to f increasing/decreasing (B); labeled g(12)=9 and g(0)=−9π/2 (C); g'=f=0, a correct candidates-test table, and absolute minimum at x=0 (D). Model, with inflection reasons referencing f.",
+     "refId": "CALCBC:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "6",
+     "summary": "Q4 scored 6/9 (1-1-0-0-1-1-1-0-1). Earned both A points, both C points (labeled 9 and −9π/2), P7 (g'=f=0), and P9 (answer x=0 with a local argument). Lost both B points (answer x=0 for inflection is wrong) and P8 (justification insufficient for a global absolute minimum). Shows a local minimum argument earning P9 while forfeiting P8.",
+     "refId": "CALCBC:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "3",
+     "summary": "Q4 scored 3/9 (1-1-0-0-0-1-0-0-0). Earned both A points and P6 (labeled g(0)=−9π/2). Lost both B points (declared x=0 as an inflection point — an incorrect value), P5 (wrong g(12)), P7 (no consideration of g'=0 or f=0), P8 (candidates test omits g(0)), and P9 (wrong minimum). Illustrates one wrong extra value voiding the inflection part and a skipped critical-point step collapsing part D.",
+     "refId": "CALCBC:q4:2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-bc-q5",
+   "set": null,
+   "label": "Q5",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Differential Equation, Taylor Polynomial, Euler's Method",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-bc/ap25-calculus-bc-q5.pdf",
+   "pageCount": 1,
+   "promptText": "5. Let yf x= _i be the particular solution to the differential equation dx\ndy xy3 2=-_i with initial\ncondition f 11 =-_i .\nA. Find f 1ll_i , the value of dx\ndy\n2\n2\nat the point ,11-_i . Show the work that leads to your answer .\nB. Write the second-degree Taylor polynomial for f about x 1= .\nC. The second-degree Taylor polynomial for f about x 1= is used to approximate .f 11_i . Given\nthat fx 60#lll_i for all x in the interval .x11 1## , use the Lagrange error bound to show\nthat this approximation differs from .f 11_i by at most 0.01.\nD. Use Euler’s method, starting at x 1= with two steps of equal size, to approximate .f 14_i .\nShow the work that leads to your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus BC Q5 (Part B, no calculator, BC-only), 9 points. y=f(x) solves dy/dx=(3−x)y^2 with f(1)=−1. A (3 pts): find f''(1)=d^2y/dx^2 at (1,−1) — P1 for the product rule, P2 for the chain rule (the dy/dx factor on the first term), P3 for the answer −9 (P3 requires both P1 and P2, or a consistent value). B (2 pts): second-degree Taylor polynomial for f about x=1 — P4 for the two terms −1+2(x−1), P5 for the third term −(9/2)(x−1)^2 (terms of degree >2 or '+…' lose P5; a correct powers-of-(x−1) form is required for P5). C (2 pts): use the Lagrange error bound with |f'''(x)|≤60 on [1,1.1] to show the P_2(1.1) approximation is within 0.01 — P6 for the error-bound form (60/3!)(0.1)^3, P7 for explicitly connecting the bound to ≤0.01 (declaring error EQUALS 0.01 fails P7). D (2 pts): Euler's method from x=1 with two equal steps to approximate f(1.4) — P8 for a correct first step, P9 for the answer −0.47. Common failure: missing the chain-rule factor (loses P2, hence P3); not connecting the error bound to 0.01 (loses P7).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (3 pts): find f''(1)=d^2y/dx^2 at (1,−1) — P1 for the product rule, P2 for the chain rule (the dy/dx factor on the first term), P3 for the answer −9 (P3 requires both P1 and P2, or a consistent value)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): second-degree Taylor polynomial for f about x=1 — P4 for the two terms −1+2(x−1), P5 for the third term −(9/2)(x−1)^2 (terms of degree >2 or '+…' lose P5; a correct powers-of-(x−1) form is required for P5)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C (2 pts): use the Lagrange error bound with |f'''(x)|≤60 on [1,1.1] to show the P_2(1.1) approximation is within 0.01 — P6 for the error-bound form (60/3!)(0.1)^3, P7 for explicitly connecting the bound to ≤0.01 (declaring error EQUALS 0.01 fails P7)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (2 pts): Euler's method from x=1 with two equal steps to approximate f(1.4) — P8 for a correct first step, P9 for the answer −0.47"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 5A",
+     "score": "9",
+     "summary": "Q5 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: product and chain rule with f''(1)=−9 (A); Taylor polynomial −1+2(x−1)−(9/2)(x−1)^2 (B); error-bound form (60/3!)(0.1)^3 explicitly connected to 0.01 (C); correct first Euler step and answer −0.47 (D). Model for differential equation, Taylor polynomial, Lagrange error, and Euler's method.",
+     "refId": "CALCBC:q5:2025-5A"
+    },
+    {
+     "label": "Sample 5B",
+     "score": "6",
+     "summary": "Q5 scored 6/9 (1-0-0-1-1-1-0-1-1). Earned P1 (product rule), both B points (Taylor polynomial consistent with imported f''), P6 (error-bound form), and both D points (Euler's method). Lost P2 (no chain-rule dy/dx factor on the first term) and therefore P3, and P7 (no explicit connection to 0.01). Shows the two most-missed BC points here: the chain-rule factor and the explicit error-bound comparison.",
+     "refId": "CALCBC:q5:2025-5B"
+    },
+    {
+     "label": "Sample 5C",
+     "score": "3",
+     "summary": "Q5 scored 3/9 (0-0-0-0-0-1-0-1-1). Earned only P6 (error-bound form (60/3!)(0.1)^3) and both D points (Euler's method to f(1.4)≈−0.470). Lost all of part A (attempted separation of variables but produced an incorrect solution), both B points (no Taylor terms presented), and P7 (no connection to error/error bound). Illustrates that Euler's method and the error-bound form can be earned even when the derivative and Taylor work fail.",
+     "refId": "CALCBC:q5:2025-5C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-bc-q6",
+   "set": null,
+   "label": "Q6",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Taylor Series and Interval of Convergence",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-bc/ap25-calculus-bc-q6.pdf",
+   "pageCount": 1,
+   "promptText": "6. The Taylor series for a function f about x 4= is given by\n3\nn\nxx xx\nn\nx\n13\n4\n23\n4\n33\n4\n43\n4\n13\n4\n· ··n n\nn\nn\nn\n1\n12\n2\n3\n3\n41\nggR +\n- = - + - + - ++ +\n- +\n=\n++_\n_\n__ __\n_\ni\ni\nii ii\ni and converges to fx_i on\nits interval of convergence.\nA. Using the ratio test, find the interval of convergence of the Taylor series for f about x 4= .\nJustify your answer .\nB. Find the first three nonzero terms and the general term of the Taylor series for f l, the\nderivative of f, about x 4= .\nC. The Taylor series for f l described in part B is a geometric series. For all x in the interval of\nconvergence of the Taylor series for f l, show that fx x\nx\n7\n4= -\n-l_i .\nD. It is known that the radius of convergence of the Taylor series for f about x 4= is the same as\nthe radius of convergence of the Taylor series for f l about x 4= . Does the Taylor series for\nf l described in part B converge to fx x\nx\n7\n4= -\n-l_i at x 8= ? Give a reason for your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus BC Q6 (Part B, no calculator, BC-only), 9 points. A Taylor series for f about x=4 is given (nth term (x−4)^(n+1)/((n+1)·3^n)). A (5 pts): interval of convergence via the ratio test with justification — P1 for setting up the ratio, P2 for the limit |x−4|/3, P3 for the interior 1<x<7, P4 for considering BOTH endpoints, P5 for correct endpoint analysis (x=1 converges by the alternating series test; x=7 diverges by limit/direct comparison to the harmonic series) and stating the interval 1≤x<7. B (2 pts): first three nonzero terms and the general term of the series for f' — P6 for the three terms ((x−4)/3, (x−4)^2/9, (x−4)^3/27), P7 for the general term (x−4)^n/3^n. C (1 pt): show f'(x)=(x−4)/(7−x) by recognizing the geometric series (first term (x−4)/3, ratio (x−4)/3) — P8. D (1 pt): does the series for f' converge to f'(x) at x=8? — P9 for 'no, x=8 is outside the interval of convergence 1<x<7.' Common failure: skipping endpoint checks (loses P4/P5); in D, reasoning by shifting the center rather than citing the interval (loses P9).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 5,
+     "criteria": "Award 0–5 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (5 pts): interval of convergence via the ratio test with justification — P1 for setting up the ratio, P2 for the limit |x−4|/3, P3 for the interior 1<x<7, P4 for considering BOTH endpoints, P5 for correct endpoint analysis (x=1 converges by the alternating series test; x=7 diverges by limit/direct comparison to the harmonic series) and stating the interval 1≤x<7"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): first three nonzero terms and the general term of the series for f' — P6 for the three terms ((x−4)/3, (x−4)^2/9, (x−4)^3/27), P7 for the general term (x−4)^n/3^n"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C (1 pt): show f'(x)=(x−4)/(7−x) by recognizing the geometric series (first term (x−4)/3, ratio (x−4)/3) — P8"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D (1 pt): does the series for f' converge to f'(x) at x=8? — P9 for 'no, x=8 is outside the interval of convergence 1<x<7.'"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 6A",
+     "score": "9",
+     "summary": "Q6 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: ratio set up, limit |x−4|/3, interior 1<x<7, both endpoints considered, and correct endpoint analysis (x=1 converges by AST, x=7 diverges by LCT) giving 1≤x<7 (A, all 5 points); three terms and general term for f' (B); geometric-series verification of f'(x)=(x−4)/(7−x) (C); 'no, x=8 is outside the interval 1≤x<7' (D). Model for the full series question.",
+     "refId": "CALCBC:q6:2025-6A"
+    },
+    {
+     "label": "Sample 6B",
+     "score": "6",
+     "summary": "Q6 scored 6/9 (1-1-1-0-0-1-1-1-0). Earned P1, P2, P3 (ratio, limit, interior 1<x<7), both B points (three terms and general term), and P8 (geometric verification). Lost P4/P5 (endpoints never checked, so no full interval of convergence) and P9 (the 'no' answer was based on incorrectly shifting the center of the interval). Shows the frequent omission of endpoint analysis and a flawed convergence reason in D.",
+     "refId": "CALCBC:q6:2025-6B"
+    },
+    {
+     "label": "Sample 6C",
+     "score": "3",
+     "summary": "Q6 scored 3/9 (1-0-1-0-0-0-0-0-1). Earned P1 (correct ratio), P3 (interior consistent with its limit), and P9 (answer 'no,' consistent with its own interval). Lost P2 (incorrect limit |x−4| instead of |x−4|/3, giving interior 3<x<5), P4/P5 (no endpoint checks), and both B points and P8 (three terms, general term, and verification all incorrect). Illustrates how an early limit error propagates a wrong interval while later parts still earn consistency-based points.",
+     "refId": "CALCBC:q6:2025-6C"
+    }
+   ]
+  }
+ ]
+}

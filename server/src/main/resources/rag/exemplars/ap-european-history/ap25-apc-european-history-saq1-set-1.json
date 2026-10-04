@@ -6,7 +6,8 @@
       "dimension": "saq-secondary-source",
       "refId": "EUROH:saq1:set1-rubric",
       "title": "SAQ 1 — Secondary Source (3 points) — Set 1",
-      "content": "AP European History SAQ 1 (Secondary Source), 3 points, one per part A/B/C. 'Describe' requires relevant characteristics (more than a mention); 'Explain' requires how or why. Set 1 prompts: A [1] describe the main argument the author makes in the excerpt; B [1] describe one piece of evidence the author uses in the excerpt to support the argument; C [1] explain how one historical development in the second half of the 1900s likely influenced the development discussed. Common failure: for A, quoting rather than stating the author's argument; for C, describing a development without explaining how it influenced the topic (Explain requires a causal link)."
+      "content": "AP European History SAQ 1 (Secondary Source), 3 points, one per part A/B/C. 'Describe' requires relevant characteristics (more than a mention); 'Explain' requires how or why. Set 1 prompts: A [1] describe the main argument the author makes in the excerpt; B [1] describe one piece of evidence the author uses in the excerpt to support the argument; C [1] explain how one historical development in the second half of the 1900s likely influenced the development discussed. Common failure: for A, quoting rather than stating the author's argument; for C, describing a development without explaining how it influenced the topic (Explain requires a causal link).",
+      "promptId": "ap25-european-history-saq1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "3",
       "refId": "EUROH:saq1:set1-2025-1A",
       "title": "SAQ 1 Set 1 exemplar — Sample 1A, 3/3",
-      "content": "SAQ 1 (Set 1) scored 3/3 (A 1, B 1, C 1). Correctly stated the author's main argument, identified a supporting piece of evidence from the excerpt, and explained a late-1900s development's influence with a causal link. Full-credit model."
+      "content": "SAQ 1 (Set 1) scored 3/3 (A 1, B 1, C 1). Correctly stated the author's main argument, identified a supporting piece of evidence from the excerpt, and explained a late-1900s development's influence with a causal link. Full-credit model.",
+      "promptId": "ap25-european-history-saq1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "EUROH:saq1:set1-2025-1B",
       "title": "SAQ 1 Set 1 exemplar — Sample 1B, 2/3",
-      "content": "SAQ 1 (Set 1) scored 2/3 (A 1, B 0, C 1). Stated the author's argument (A) and explained a historical development's influence (C), but did not correctly describe a piece of evidence the author used in the excerpt (B). Illustrates missing the source-analysis middle part while handling argument and explanation."
+      "content": "SAQ 1 (Set 1) scored 2/3 (A 1, B 0, C 1). Stated the author's argument (A) and explained a historical development's influence (C), but did not correctly describe a piece of evidence the author used in the excerpt (B). Illustrates missing the source-analysis middle part while handling argument and explanation.",
+      "promptId": "ap25-european-history-saq1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "EUROH:saq1:set1-2025-1C",
       "title": "SAQ 1 Set 1 exemplar — Sample 1C, 1/3",
-      "content": "SAQ 1 (Set 1) scored 1/3 (A 1, B 0, C 0). Stated the author's main argument only. Lost B (no correct supporting evidence from the excerpt) and C (no causal explanation of a late-1900s development's influence). Illustrates a response that reads the argument but neither analyzes the source nor supplies outside explanation."
+      "content": "SAQ 1 (Set 1) scored 1/3 (A 1, B 0, C 0). Stated the author's main argument only. Lost B (no correct supporting evidence from the excerpt) and C (no causal explanation of a late-1900s development's influence). Illustrates a response that reads the argument but neither analyzes the source nor supplies outside explanation.",
+      "promptId": "ap25-european-history-saq1-set-1"
     }
   ]
 }

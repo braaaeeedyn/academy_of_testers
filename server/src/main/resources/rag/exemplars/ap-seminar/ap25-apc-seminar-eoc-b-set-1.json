@@ -6,7 +6,8 @@
       "dimension": "eoc-part-b",
       "refId": "SEMINAR:eocB-set1:rubric",
       "title": "End-of-Course Exam Part B (24 points) — Set 1",
-      "content": "AP Seminar End-of-Course Exam Part B is an individual written argument built from provided source materials, 24 points across four rows, each scored 0–6 (best-fit; 0 for off-topic, NR for blank). Row 1 — Establish Argument: a clear, defensible thesis/argument responding to the prompt. Row 2 — Establish Argument: a well-developed line of reasoning with commentary that connects claims. Row 3 — Select and Use Evidence: relevant evidence from the provided sources, effectively integrated and attributed to support the argument. Row 4 — Apply Conventions: attribution/citation of sources and control of writing conventions (grammar, style). Common failure: a thesis that only restates the prompt (Row 1); evidence dropped in without commentary linking it to the argument (Rows 2–3); missing or inconsistent source attribution/citation (Row 4)."
+      "content": "AP Seminar End-of-Course Exam Part B is an individual written argument built from provided source materials, 24 points across four rows, each scored 0–6 (best-fit; 0 for off-topic, NR for blank). Row 1 — Establish Argument: a clear, defensible thesis/argument responding to the prompt. Row 2 — Establish Argument: a well-developed line of reasoning with commentary that connects claims. Row 3 — Select and Use Evidence: relevant evidence from the provided sources, effectively integrated and attributed to support the argument. Row 4 — Apply Conventions: attribution/citation of sources and control of writing conventions (grammar, style). Common failure: a thesis that only restates the prompt (Row 1); evidence dropped in without commentary linking it to the argument (Rows 2–3); missing or inconsistent source attribution/citation (Row 4).",
+      "promptId": "ap25-seminar-eoc-b-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "24",
       "refId": "SEMINAR:eocB-set1:2025-A",
       "title": "Part B exemplar — Sample A, 24/24",
-      "content": "Part B (Set 1) scored 24/24 (Rows 1–4 all 6). A defensible thesis, a fully developed line of reasoning with commentary, well-integrated and attributed source evidence, and strong control of conventions. Full-credit model for the written argument."
+      "content": "Part B (Set 1) scored 24/24 (Rows 1–4 all 6). A defensible thesis, a fully developed line of reasoning with commentary, well-integrated and attributed source evidence, and strong control of conventions. Full-credit model for the written argument.",
+      "promptId": "ap25-seminar-eoc-b-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "16",
       "refId": "SEMINAR:eocB-set1:2025-B",
       "title": "Part B exemplar — Sample B, 16/24",
-      "content": "Part B (Set 1) scored 16/24 (Rows 1–4 all 4). A workable thesis and reasoning with some commentary, evidence used but not always tightly linked to the argument, and generally adequate attribution/conventions. Illustrates a mid-range argument with partial development across all four rows."
+      "content": "Part B (Set 1) scored 16/24 (Rows 1–4 all 4). A workable thesis and reasoning with some commentary, evidence used but not always tightly linked to the argument, and generally adequate attribution/conventions. Illustrates a mid-range argument with partial development across all four rows.",
+      "promptId": "ap25-seminar-eoc-b-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "8",
       "refId": "SEMINAR:eocB-set1:2025-C",
       "title": "Part B exemplar — Sample C, 8/24",
-      "content": "Part B (Set 1) scored 8/24 (Rows 1–4 all 2). A weak or largely restated thesis, limited reasoning/commentary, evidence with little integration, and inconsistent attribution/conventions. Illustrates a low written argument undeveloped across all rows."
+      "content": "Part B (Set 1) scored 8/24 (Rows 1–4 all 2). A weak or largely restated thesis, limited reasoning/commentary, evidence with little integration, and inconsistent attribution/conventions. Illustrates a low written argument undeveloped across all rows.",
+      "promptId": "ap25-seminar-eoc-b-set-1"
     }
   ]
 }

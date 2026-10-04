@@ -30,7 +30,8 @@
       "scoreBand": "6",
       "refId": "APLIT:poetry:2025-set1-1A",
       "title": "Poetry exemplar — Sample 1A, score 1-4-1 (6/6)",
-      "content": "Poetry Analysis (McElroy, 'Monologue for Saint Louis') scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that grape/grapevine symbols juxtapose the warmth of childhood with the sterility of adulthood. Evidence & Commentary (4): specific evidence for all claims ('succulent pockets of flesh'; 'rotting black sticks'; 'vacant/flat/infect'); commentary consistently explains how imagery, juxtaposition, and metaphor build the interpretation. Sophistication (1): identifies and explores complexities (blue-black grapes vs. green staining as archetypal life/nourishment). A misused term ('anachronism') did not detract."
+      "content": "Poetry Analysis (McElroy, 'Monologue for Saint Louis') scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that grape/grapevine symbols juxtapose the warmth of childhood with the sterility of adulthood. Evidence & Commentary (4): specific evidence for all claims ('succulent pockets of flesh'; 'rotting black sticks'; 'vacant/flat/infect'); commentary consistently explains how imagery, juxtaposition, and metaphor build the interpretation. Sophistication (1): identifies and explores complexities (blue-black grapes vs. green staining as archetypal life/nourishment). A misused term ('anachronism') did not detract.",
+      "promptId": "ap25-english-literature-q1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -38,7 +39,8 @@
       "scoreBand": "4",
       "refId": "APLIT:poetry:2025-set1-1B",
       "title": "Poetry exemplar — Sample 1B, score 1-3-0 (4/6)",
-      "content": "Poetry Analysis scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation of bittersweet emotions about the hometown. Evidence & Commentary (3): specific evidence for all claims (no uppercase except 'I'; no punctuation; 'latticed'/'interlocking'/'twisted vines of genetic maps') with commentary explaining how it supports the reasoning — but only some evidence supports the line of reasoning, so short of 4. Sophistication (0): the 'map to navigate memories' idea appears only at the end and is not sustained."
+      "content": "Poetry Analysis scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation of bittersweet emotions about the hometown. Evidence & Commentary (3): specific evidence for all claims (no uppercase except 'I'; no punctuation; 'latticed'/'interlocking'/'twisted vines of genetic maps') with commentary explaining how it supports the reasoning — but only some evidence supports the line of reasoning, so short of 4. Sophistication (0): the 'map to navigate memories' idea appears only at the end and is not sustained.",
+      "promptId": "ap25-english-literature-q1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -46,7 +48,8 @@
       "scoreBand": "2",
       "refId": "APLIT:poetry:2025-set1-1C",
       "title": "Poetry exemplar — Sample 1C, score 1-1-0 (2/6)",
-      "content": "Poetry Analysis scored 2/6 (Thesis 1, Evidence & Commentary 1, Sophistication 0). Thesis (1): defensible interpretation (incorrect syntax and imagery show estrangement despite being home). Evidence & Commentary (1): mostly general evidence focused on summary ('the poem lacks periods'); notes techniques without explaining how they create the effect, and summarizes rather than analyzing. Sophistication (0): not demonstrated. Shows the gap between a defensible thesis and the specific, explained support needed to rise above 1 point in Row B."
+      "content": "Poetry Analysis scored 2/6 (Thesis 1, Evidence & Commentary 1, Sophistication 0). Thesis (1): defensible interpretation (incorrect syntax and imagery show estrangement despite being home). Evidence & Commentary (1): mostly general evidence focused on summary ('the poem lacks periods'); notes techniques without explaining how they create the effect, and summarizes rather than analyzing. Sophistication (0): not demonstrated. Shows the gap between a defensible thesis and the specific, explained support needed to rise above 1 point in Row B.",
+      "promptId": "ap25-english-literature-q1-set-1"
     }
   ]
 }

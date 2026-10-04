@@ -6,7 +6,8 @@
       "dimension": "saq-primary-source",
       "refId": "WORLDH:saq2:set2-rubric",
       "title": "SAQ 2 — Primary Source (3 points) — Set 2: communism & decolonization in Africa",
-      "content": "AP World History SAQ 2 (Primary Source), 3 points, one per part. Set 2 prompts: A [1] identify one reason United States officials were concerned about communism, as noted in the source; B [1] describe the historical situation that resulted in the 'system of colonialism' referred to; C [1] explain one way the source reflects the political situation in Africa during the second half of the twentieth century. 'Identify' = correct answer; 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: C describing the political situation rather than explaining how the source reflects it."
+      "content": "AP World History SAQ 2 (Primary Source), 3 points, one per part. Set 2 prompts: A [1] identify one reason United States officials were concerned about communism, as noted in the source; B [1] describe the historical situation that resulted in the 'system of colonialism' referred to; C [1] explain one way the source reflects the political situation in Africa during the second half of the twentieth century. 'Identify' = correct answer; 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: C describing the political situation rather than explaining how the source reflects it.",
+      "promptId": "ap25-world-history-saq2-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "3",
       "refId": "WORLDH:saq2:set2-2025-2A",
       "title": "SAQ 2 Set 2 exemplar — Sample 2A, 3/3",
-      "content": "SAQ 2 (Set 2) scored 3/3 (A 1, B 1, C 1). Identified a reason for US concern about communism, described the historical situation behind colonialism, and explained how the source reflects Africa's political situation. Full-credit model."
+      "content": "SAQ 2 (Set 2) scored 3/3 (A 1, B 1, C 1). Identified a reason for US concern about communism, described the historical situation behind colonialism, and explained how the source reflects Africa's political situation. Full-credit model.",
+      "promptId": "ap25-world-history-saq2-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "WORLDH:saq2:set2-2025-2B",
       "title": "SAQ 2 Set 2 exemplar — Sample 2B, 2/3",
-      "content": "SAQ 2 (Set 2) scored 2/3 (A 0, B 1, C 1). Earned B (historical situation) and C (how the source reflects the situation) but not A (did not identify a valid reason for US concern about communism). Illustrates missing the first Identify part while completing the later parts."
+      "content": "SAQ 2 (Set 2) scored 2/3 (A 0, B 1, C 1). Earned B (historical situation) and C (how the source reflects the situation) but not A (did not identify a valid reason for US concern about communism). Illustrates missing the first Identify part while completing the later parts.",
+      "promptId": "ap25-world-history-saq2-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "WORLDH:saq2:set2-2025-2C",
       "title": "SAQ 2 Set 2 exemplar — Sample 2C, 1/3",
-      "content": "SAQ 2 (Set 2) scored 1/3 (A 0, B 1, C 0). Earned only B (historical situation). Lost A (no valid reason for US concern) and C (no explanation of how the source reflects the situation). Illustrates a response holding only the contextual describe part."
+      "content": "SAQ 2 (Set 2) scored 1/3 (A 0, B 1, C 0). Earned only B (historical situation). Lost A (no valid reason for US concern) and C (no explanation of how the source reflects the situation). Illustrates a response holding only the contextual describe part.",
+      "promptId": "ap25-world-history-saq2-set-2"
     }
   ]
 }

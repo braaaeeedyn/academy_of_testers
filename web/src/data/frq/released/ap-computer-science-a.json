@@ -1,0 +1,208 @@
+{
+ "subjectName": "AP Computer Science A",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-computer-science-a-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Methods and Control Structures",
+   "topic": "",
+   "teaser": "This question involves dog walkers who are paid through a dog-walking company to take dogs for one-hour walks. A dog-walking company has a varying number of dogs that need to be walked during each…",
+   "suggestedMinutes": 22,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-computer-science-a/ap25-computer-science-a-q1.pdf",
+   "pageCount": 5,
+   "promptText": "1. This question involves dog walkers who are paid through a dog-walking company to take dogs\nfor one-hour walks. A dog-walking company has a varying number of dogs that need to be\nwalked during each hour of the day. A dog-walking company is represented by the following\nDogWalkCompany class.\npublic class DogWalkCompany\n{\n/**\n* Returns the number of dogs, always greater than 0, that are available\n* for a walk during the time specified by hour\n* Precondition: 0 <= hour <= 23\n*/\npublic int numAvailableDogs(int hour)\n{ /* implementation not shown */ }\n/**\n* Decreases, by numberDogsWalked, the number of dogs available for a walk\n* during the time specified by hour\n* Preconditions: 0 <= hour <= 23\n* numberDogsWalked > 0\n*/\npublic void updateDogs(int hour, int numberDogsWalked)\n{ /* implementation not shown */ }\n/* There may be instance variables, constructors,\nand methods that are not shown. */\n}\nA dog walker is associated with a dog-walking company and is represented by the DogWalker\nclass. You will write two methods of the DogWalker class.\npublic class DogWalker\n{\n/** The maximum number of dogs this walker can walk simultaneously\nper hour */\nprivate int maxDogs;\n/** The dog-walking company this dog walker is associated with */\nprivate DogWalkCompany company;\n/**\n* Assigns max to maxDogs and comp to company\n* Precondition: max > 0\n*/\npublic DogWalker(int max, DogWalkCompany comp)\n{ /* implementation not shown */ }\n/**\n* Takes at least one dog for a walk during the time specified by\n* hour, as described in part (a)\n* Preconditions: 0 <= hour <= 23\n* maxDogs > 0\n*/\npublic int walkDogs(int hour)\n{ /* to be implemented in part (a) */ }\n/**\n* Performs an entire dog-walking shift and returns the amount\n* earned, in dollars, as described in part (b)\n* Preconditions: 0 <= startHour <= endHour <= 23\n* maxDogs > 0\n*/\npublic int dogWalkShift(int startHour, int endHour)\n{ /* to be implemented in part (b) */ }\n/* There may be instance variables, constructors,\nand methods that are not shown. */\n}\nA. Write the walkDogs method, which updates and returns the number of dogs this dog\nwalker walks during the time specified by hour. Values of hour range from 0 to 23,\ninclusive.\nA helper method, numAvailableDogs, has been provided in the DogWalkCompany class.\nThe method returns the number of dogs available to be taken for a walk at a given hour .\nThe dog walker will always walk as many dogs as the dog-walking company has available to\nwalk, as long as the available number of dogs is not greater than the maximum number of\ndogs that the dog walker can handle, represented by the value of maxDogs.\nAnother helper method, updateDogs, has also been provided in the DogWalkCompany\nclass. So that multiple dog walkers do not sign up to walk the same dogs, the walkDogs\nmethod should use updateDogs to update the dog-walking company with the number of\ndogs this dog walker will walk during the given hour . The parameters of the updateDogs\nmethod indicate how many dogs this dog walker will walk during the time specified by\nhour.\nFor example, if the dog-walking company has 10 dogs that need to be walked at the given\nhour but the dog walker’s maximum is 4, the updateDogs method should be used to\nindicate that this dog walker will walk 4 of the 10 dogs during the given hour . As another\nexample, if the dog-walking company has 3 dogs that need to be walked at the given hour\nand the dog walker’s maximum is 4, the updateDogs method should be used to indicate\nthat this dog walker will walk all 3 of the available dogs during the given hour .\nThe walkDogs method should return the number of dogs to be walked by this dog walker\nduring the time specified by hour.\nComplete method walkDogs. You must use numAvailableDogs and updateDogs\nappropriately to receive full credit.\n/**\n* Takes at least one dog for a walk during the time specified by\n* hour, as described in part (a)\n* Preconditions: 0 <= hour <= 23\n* maxDogs > 0\n*/\npublic int walkDogs(int hour)\nB. Write the dogWalkShift method, which performs a dog-walking shift of the hours in\nthe range startHour to endHour, inclusive, and returns the total amount earned. For\nexample, a dog-walking shift from 14 to 16 is composed of three one-hour dog walks\nstarting at hours 14, 15, and 16.\nFor each hour , the base pay is $5 per dog walked plus a bonus of $3 if at least one of the\nfollowing is true.\n• maxDogs dogs are walked\n• the walk occurs between the peak hours of 9 and 17, inclusive\nThe following table shows an example of the calculated amount earned by walking dogs\nfrom hour 7 through hour 10, inclusive.\nHour\nMaximum\nNumber of Dogs\nNumber of\nDogs Walked\nAmount Earned,\nin Dollars\n7 3 3 3 × 5 + 3 = 18\n8 3 2 2 × 5 = 10\n9 3 2 2 × 5 + 3 = 13\n10 3 3 3 × 5 + 3 = 18\nTotal 59\nComplete method dogWalkShift. Assume that walkDogs works as specified, regardless of\nwhat you wrote in part (a). You must use walkDogs appropriately to earn full credit.\n/**\n* Performs an entire dog-walking shift and returns the amount\n* earned, in dollars, as described in part (b)\n* Preconditions: 0 <= startHour <= endHour <= 23\n* maxDogs > 0\n*/\npublic int dogWalkShift(int startHour, int endHour)",
+   "sourceText": null,
+   "scoringGuide": "AP CS A FRQ 1 (Methods and Control Structures), 9 points, applied via per-point criteria then penalties (max 3 penalty points/question, deducted only where rubric credit was earned). Context: a dog-walking company. Part (a) walkDogs (4 pts): Pt1 calls DogWalkCompany method(s) on company (numAvailableDogs/updateDogs on the company instance variable, correct param types); Pt2 compares available dogs to maxDogs to cap the number walked; Pt3 calls numAvailableDogs(hour) and updateDogs(hour, correct#) — the algorithm point; Pt4 returns the calculated int (not print, must return in all cases). Part (b) dogWalkShift (5 pts): Pt5 loops startHour..endHour inclusive; Pt6 calls walkDogs with an int param inside the loop; Pt7 calculates base pay for an hour (5*dogs); Pt8 calculates the possible bonus (BOTH conditions must be tested: dogs==maxDogs OR hour in 9..17 inclusive — no double count, no bonus when unearned); Pt9 accumulates total pay in the loop (must initialize accumulator; must not call walkDogs multiple times per hour). Common failure: Pt8 testing only one bonus condition or using startHour/endHour instead of the current hour i; calling walkDogs twice per iteration (breaks Pt9 because it over-consumes the dog pool).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 5,
+     "criteria": "Award 0–5 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "8",
+     "summary": "Q1 scored 8/9. Earned Pt1–Pt7 and Pt9. Lost only Pt8: the bonus check tested whether the max number of dogs was walked but never checked the peak-hour condition (hour 9–17), and the rubric requires BOTH conditions to be tested. Model of a strong response missing the single most error-prone criterion — the compound bonus condition.",
+     "refId": "CSA:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "5",
+     "summary": "Q1 scored 5/9. Earned Pt2, Pt3, Pt4 (part a) and Pt5, Pt7 (part b). Lost Pt1 (did not call the methods on the company instance variable), Pt6 (called walkDogs() with no int argument), Pt8 (compared startHour/endHour, not the current hour i, and excluded the endpoints), and Pt9 (called this.walkDogs() multiple times per loop, over-consuming the dog pool). The misspelling numAvialableDogs was not penalized (unambiguous). Illustrates how calling walkDogs repeatedly in a loop breaks the accumulation point.",
+     "refId": "CSA:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "4",
+     "summary": "Q1 scored 4/9. Earned Pt4 (returns an int), Pt5 (loop bounds; comma-for-semicolon in the for-header not penalized), Pt6 (walkDogs(i)), and Pt9 (initializes and accumulates). Lost Pt1 (methods not on company), Pt2 (compared available dogs to 0, not maxDogs), Pt3 (a numAvailableDogs() call missing its parameter), Pt7 (added a constant 5 rather than 5*dogsWalked), and Pt8 (compared the int maxDogs with no operand and used startHour/endHour rather than i). Illustrates several independent criterion misses despite a runnable structure.",
+     "refId": "CSA:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-computer-science-a-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Class Design",
+   "topic": "",
+   "teaser": "This question involves the SignedText class, which contains methods that are used to include a signature as part of a string of text. You will write the complete SignedText class, which contains a…",
+   "suggestedMinutes": 22,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-computer-science-a/ap25-computer-science-a-q2.pdf",
+   "pageCount": 3,
+   "promptText": "2. This question involves the SignedText class, which contains methods that are used to include\na signature as part of a string of text. You will write the complete SignedText class, which\ncontains a constructor and two methods.\nThe SignedText constructor takes two String parameters. The first parameter is a first\nname and the second parameter is a last name. The length of the second parameter is always\ngreater than or equal to 1.\nThe getSignature method takes no parameters and returns a formatted signature string\nconstructed from the first and last names according to the following rules.\n• If the first name is an empty string, the returned signature string contains just the last\nname.\n• If the first name is not an empty string, the returned signature string is the first letter of\nthe first name, a dash (\"-\"), and the last name, in that order .\nThe addSignature method returns a possibly revised copy of its String parameter . The\nparameter will contain at most one occurrence of the object’s signature, at either the beginning\nor the end of the parameter . The returned string is created from the parameter according to the\nfollowing rules.\n• If the object’s signature does not occur in the String parameter of the method, the\nreturned String is the value of the parameter with the signature added to the end.\n• If the object’s signature occurs at the end of the String parameter , the returned\nString is the unchanged value of the parameter .\n• If the object’s signature occurs at the beginning of the String parameter , the returned\nString is the value of the original parameter with the signature removed from the\nbeginning and appended to the end of the parameter .\nThe following table contains a sample code execution sequence and the corresponding results.\nThe code execution sequence appears in a class other than SignedText.\nStatement\nMethod Call\nReturn Value\n(blank if none)\nExplanation\nSignedText st1 = new\nSignedText(\"\", \"Wong\");\nThe SignedText object st1 has\nan empty first name and last name\n\"Wong\".\nString temp =\nst1.getSignature(); \"Wong\"\nSignedText st2 = new\nSignedText(\"henri\",\n\"dubois\");\nThe SignedText object st2 has\nfirst name \"henri\" and last name\n\"dubois\".\ntemp = st2.getSignature(); \"h-dubois\"\nSignedText st3 = new\nSignedText(\"GRACE\",\n\"LOPEZ\");\nThe SignedText object st3 has\nfirst name \"GRACE\" and last name\n\"LOPEZ\".\ntemp =\nst3.getSignature(); \"G-LOPEZ\"\nSignedText st4 = new\nSignedText(\"\", \"FOX\");\nThe SignedText object st4 has\nan empty first name and last name\n\"FOX\".\nString text = \"Dear\";\ntemp =\nst4.addSignature(text); \"DearFOX\"\nThe signature does not occur in\nthe addSignature parameter , so\nthe returned string is the value of\nthe parameter with the signature\nappended.\ntext = \"Best wishesFOX\";\ntemp =\nst4.addSignature(text); \"Best wishesFOX\"\nThe signature occurs at the end of\nthe addSignature parameter , so the\nreturned string is the unchanged value\nof the parameter .\nStatement\nMethod Call\nReturn Value\n(blank if none)\nExplanation\ntext = \"FOXThanks\";\ntemp =\nst4.addSignature(text); \"ThanksFOX\"\nThe signature occurs at the beginning\nof the addSignature parameter , so\nthe returned string is the value of the\noriginal parameter with the signature\nremoved from the beginning and\nappended to the end of the parameter .\ntext = \"G-LOPEZHello\";\ntemp =\nst3.addSignature(text); \"HelloG-LOPEZ\"\nThe signature occurs at the beginning\nof the addSignature parameter , so\nthe returned string is the value of the\noriginal parameter with the signature\nremoved from the beginning and\nappended to the end of the parameter .\nWrite the complete SignedText class. Your implementation must meet all specifications and\nconform to the examples in the table.",
+   "sourceText": null,
+   "scoringGuide": "AP CS A FRQ 2 (Class Design), 9 points, per-point criteria then penalties (max 3/question). Task: write class SignedText with instance data, a constructor, getSignature(), and addSignature(String). Pt1 correct class header (public class SignedText, no parentheses/params, not private). Pt2 declares appropriate PRIVATE instance variable(s) and the constructor initializes them from the parameters (not static, not declared inside the constructor, must use both params). Pt3 correct constructor header SignedText(String, String) (not private/static). Pt4 correct method headers: public String getSignature(), public String addSignature(String) (correct names, return, and parameter types). Pt5 compares the first name to the empty string (explicitly or via length). Pt6 determines the correct signature string in both cases (first initial + '-' + last, or just last) — the getSignature algorithm point. Pt7 uses String methods with correct syntax throughout and calls at least one element-accessing method (substring/indexOf/charAt), not only length/equals. Pt8 identifies the three addSignature cases (no-match, match-start, match-end) with appropriate conditions. Pt9 addSignature returns the correct String in all three cases — the algorithm point. Common failure: omitting private (Pt2); a class header with parentheses/params like a record (Pt1); substring index errors in the match-start case (Pt9); a method header missing its return type (Pt4).",
+   "rubric": [
+    {
+     "name": "Class header, instance variables & constructor (Pts 1–3)",
+     "maxPoints": 3,
+     "criteria": "Pt1 correct class header; Pt2 private instance variable(s) initialized from the constructor parameters; Pt3 correct constructor header."
+    },
+    {
+     "name": "Method headers (Pt 4)",
+     "maxPoints": 1,
+     "criteria": "Correct public headers for every required method: names, return types, and parameter types."
+    },
+    {
+     "name": "First method algorithm (Pts 5–7)",
+     "maxPoints": 3,
+     "criteria": "The first required method's points exactly as the official guideline specifies (conditions, correct result in every case, correct String method use)."
+    },
+    {
+     "name": "Second method algorithm (Pts 8–9)",
+     "maxPoints": 2,
+     "criteria": "The second required method's points exactly as the official guideline specifies (identifies every case; returns the correct value in all cases)."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "7",
+     "summary": "Q2 scored 7/9. Earned Pt1, Pt2, Pt3 (miscased 'signedText' constructor not penalized), Pt5, Pt6, Pt7, Pt8. Lost Pt4 (the addSignature header was missing its String return type) and Pt9 (match-start case used text.substring(len-sig, len), returning part of the parameter plus the signature instead of the correct string). Missing () on a getSignature call was not penalized. Illustrates a strong class marred by a header return-type omission and a substring-index error.",
+     "refId": "CSA:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "6",
+     "summary": "Q2 scored 6/9. Earned Pt1, Pt4, Pt5, Pt6, Pt7, Pt8. Lost Pt2 (instance variables declared without private), Pt3 (constructor parameters declared without their String types), and Pt9 (match-start case called signature.substring(s+1), going one character too far). Illustrates the frequent 'forgot private' and off-by-one substring errors.",
+     "refId": "CSA:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "3",
+     "summary": "Q2 scored 3/9. Earned Pt4 (both method headers), Pt5 (empty-string check via length), and Pt7 (String syntax). Lost Pt1 (class header written with parentheses and parameters, record-like but no record keyword), Pt2 (no private instance variables), Pt3 (no constructor header), Pt6 (firstName.substring(0) returns the whole string, not the first letter), Pt8 (match-end condition subtracted 1 incorrectly; = vs == not penalized), and Pt9 (called getSignature with arguments and appended a signature to a signature). Illustrates that a record-style header with no fields collapses the structural points.",
+     "refId": "CSA:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-computer-science-a-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Array / ArrayList",
+   "topic": "",
+   "teaser": "This question involves pairing competitors in a tournament into one-on-one matches for one round of the tournament. For example, in a chess tournament, the competitors are the individual chess…",
+   "suggestedMinutes": 22,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-computer-science-a/ap25-computer-science-a-q3.pdf",
+   "pageCount": 5,
+   "promptText": "3. This question involves pairing competitors in a tournament into one-on-one matches for\none round of the tournament. For example, in a chess tournament, the competitors are the\nindividual chess players. A game of chess involving two players is a match. The winner of\neach match goes on to a match in the next round of the tournament. Since half of the players\nare eliminated in each round of the tournament, there is eventually a final round consisting\nof one match and two competitors. The winner of that match is considered the winner of the\ntournament.\nCompetitors, matches, and rounds of the tournament are represented by the Competitor,\nMatch, and Round classes. You will write the constructor and one method of the Round class.\n/** A single competitor in the tournament */\npublic class Competitor\n{\n/** The competitor’s name and rank */\nprivate String name;\nprivate int rank;\n/**\n* Assigns n to name and initialRank to rank\n* Precondition: initialRank >= 1\n*/\npublic Competitor(String n, int initialRank)\n{ /* implementation not shown */ }\n/* There may be instance variables, constructors,\nand methods that are not shown. */\n}\n/** A match between two competitors */\npublic class Match\n{\npublic Match(Competitor one, Competitor two)\n{ /* implementation not shown */ }\n/* There may be instance variables, constructors,\nand methods that are not shown. */\n}\n/** A single round of the tournament */\npublic class Round\n{\n/** The list of competitors participating in this round */\nprivate ArrayList<Competitor> competitorList;\n/** Initializes competitorList, as described in part (a) */\npublic Round(String[] names)\n{ /* to be implemented in part (a) */ }\n/**\n* Creates an ArrayList of Match objects for the next round\n* of the tournament, as described in part (b)\n* Preconditions: competitorList contains at least one element.\n* competitorList is ordered from best to worst rank.\n* Postcondition: competitorList is unchanged.\n*/\npublic ArrayList<Match> buildMatches()\n{ /* to be implemented in part (b) */ }\n/* There may be instance variables, constructors,\nand methods that are not shown. */\n}\nA. Write the constructor for the Round class. The constructor should initialize\ncompetitorList to contain one Competitor object for each name in the String[]\nnames. The order in which Competitor objects appear in competitorList should be the\nsame as the order in which they appear in names, and the rank of each competitor is based\non the competitor’s position in names. Names are listed in names in order from the best-\nranked competitor with rank 1 to the worst-ranked competitor with rank n, where n is the\nnumber of elements in names.\nFor example, assume the following code segment is executed.\nString[] players = {\"Alex\", \"Ben\", \"Cara\"};\nRound r = new Round(players);\nThe following shows the contents of competitorList in r after the constructor has\nfinished executing.\nComplete the Round constructor .\n/** Initializes competitorList, as described in part (a) */\npublic Round(String[] names)\nB. Write the Round method buildMatches. This method should return a new\nArrayList<Match> object by pairing competitors from competitorList according to the\nfollowing rules.\n• If the number of competitors in competitorList is even, the best-ranked\ncompetitor is paired with the worst-ranked competitor , the second-best-ranked\ncompetitor is paired with the second-worst-ranked competitor , etc.\n• If the number of competitors in competitorList is odd, the competitor with the\nbest rank is ignored and the remaining competitors are paired according to the rule\nfor an even number of competitors.\nEach pair of competitors is used to create a Match object that should be added to the\nArrayList to return. Competitors may appear in either order in a Match object, and\nmatches may appear in any order in the returned ArrayList.\nThe following example shows the contents of competitorList in a Round object r1\ncontaining an odd number of competitors and the ArrayList of Match objects that should\nbe returned by the call r1.buildMatches().\ncompetitorList:\nThe ArrayList to be returned contains a single match between Ben and Cara, the second\nand third-ranked competitors:\nThe next example shows the contents of competitorList in a Round object r2\ncontaining an even number of competitors and the ArrayList of Match objects that\nshould be returned by the call r2.buildMatches().\ncompetitorList:\nThe ArrayList to be returned contains two matches: one match between the first- and last-\nranked competitors Rei and Tim, and a second match between the second- and third-ranked\ncompetitors Sam and Vi:\nComplete the buildMatches method.\n/**\n* Creates an ArrayList of Match objects for the next round\n* of the tournament, as described in part (b)\n* Preconditions: competitorList contains at least one element.\n* competitorList is ordered from best to worst rank.\n* Postcondition: competitorList is unchanged.\n*/\npublic ArrayList<Match> buildMatches()",
+   "sourceText": null,
+   "scoringGuide": "AP CS A FRQ 3 (Array/ArrayList), 9 points, per-point criteria then penalties (max 3/question). Context: a tournament Round of Competitor objects. Part (a) Round(String[] names) constructor (4 pts): Pt1 accesses all elements of names with no bounds errors; Pt2 initializes and maintains a rank starting at 1 for each competitor (rank starting at 0 is fine if offset by 1); Pt3 constructs a Competitor with the provided name and computed rank (must use new and correct params); Pt4 adds all constructed competitors to competitorList in the correct order — the algorithm point (must update the instance variable, not redeclare it locally). Part (b) buildMatches() (5 pts): Pt5 declares and initializes a local ArrayList<Match>; Pt6 maintains an index that moves inward from both ends of competitorList; Pt7 computes the starting low index based on an even/odd size comparison; Pt8 gets two elements by index, constructs a Match, and adds it to the local list; Pt9 populates the correct number of pairs, omitting the first competitor in the odd case, with no bounds errors — the algorithm point. Common failure: not guarding even vs. odd competitor counts (Pt9); off-by-one 'high' index bounds; redeclaring competitorList as a local variable (breaks Pt4).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 5,
+     "criteria": "Award 0–5 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "7",
+     "summary": "Q3 scored 7/9. Earned Pt1–Pt7: a complete constructor (accesses names, maintains rank from 1, constructs Competitor, adds in order) plus buildMatches's local ArrayList (Pt5), the both-ends index (Pt6), and the even/odd starting-index (Pt7). Lost Pt8 (getting two elements, constructing a Match, and adding it) and Pt9 (populating the correct number of pairs) — the response set up the traversal but did not correctly build and add the Match pairs. Model of a correct constructor with an incomplete pairing step.",
+     "refId": "CSA:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "6",
+     "summary": "Q3 scored 6/9. Earned Pt1, Pt3, Pt4 (constructor: accesses names, constructs Competitor, adds in order) and Pt5, Pt6, Pt8 (buildMatches: local ArrayList, both-ends index, gets elements and adds a Match). Lost Pt2 (rank not initialized/maintained correctly from 1), Pt7 (did not compute the starting low index by even/odd comparison), and Pt9 (pair count/odd-omission wrong). Illustrates a response that builds matches but mishandles the even/odd boundary and the rank.",
+     "refId": "CSA:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "3",
+     "summary": "Q3 scored 3/9. Earned only Pt1 (accesses all elements of names), Pt6 (both-ends index in buildMatches), and Pt7 (even/odd starting index). Lost Pt3 (Competitor construction — missing new or wrong params), Pt4 (ordered-add algorithm), Pt5 (local ArrayList<Match> not properly declared/initialized), Pt8 (did not get two elements, build a Match, and add it), and Pt9 (pairing algorithm). Illustrates a low response with fragments of both parts but neither algorithm complete.",
+     "refId": "CSA:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-computer-science-a-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "2D Array",
+   "topic": "",
+   "teaser": "This question involves reasoning about a number puzzle that is represented as a two- dimensional array of integers. Each element of the array initially contains a value between 1 and 9, inclusive.…",
+   "suggestedMinutes": 22,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-computer-science-a/ap25-computer-science-a-q4.pdf",
+   "pageCount": 4,
+   "promptText": "4. This question involves reasoning about a number puzzle that is represented as a two-\ndimensional array of integers. Each element of the array initially contains a value between 1\nand 9, inclusive. Solving the puzzle involves clearing pairs of array elements by setting them\nto 0. Two elements can be cleared if their values sum to 10 or if they have the same value. The\npuzzle is considered solved if all elements of the array are cleared.\nYou will write the constructor and one method of the SumOrSameGame class, which contains\nthe methods that manipulate elements of the puzzle.\npublic class SumOrSameGame\n{\nprivate int[][] puzzle;\n/**\n* Creates a two-dimensional array and fills it with random integers,\n* as described in part (a)\n* Precondition: numRows > 0; numCols > 0\n*/\npublic SumOrSameGame(int numRows, int numCols)\n{ /* to be implemented in part (a) */ }\n/**\n* Identifies and clears an element of puzzle that can be paired with\n* the element at the given row and column, as described in part (b)\n* Preconditions: row and col are valid row and column indices in puzzle.\n* The element at the given row and column is between 1 and 9, inclusive.\n*/\npublic boolean clearPair(int row, int col)\n{ /* to be implemented in part (b) */ }\n/* There may be instance variables, constructors,\nand methods that are not shown. */\n}\nA. Write the constructor for the SumOrSameGame class. The constructor initializes the instance\nvariable puzzle to be a two-dimensional integer array with the number of rows and\ncolumns specified by the parameters numRows and numCols, respectively. Array elements\nare initialized with random integers between 1 and 9, inclusive, each with an equal\nchance of being assigned to each element of puzzle.\nWhen an element of the two-dimensional array is accessed, the first index is used to specify\nthe row and the second index is used to specify the column.\nComplete the SumOrSameGame constructor .\n/**\n* Creates a two-dimensional array and fills it with random integers,\n* as described in part (a)\n* Precondition: numRows > 0; numCols > 0\n*/\npublic SumOrSameGame(int numRows, int numCols)\nB. Write the clearPair method, which takes a valid row index and valid column index as its\nparameters. The array element specified by those indices, which has a value between 1 and\n9, inclusive, is compared to other array elements in puzzle in an attempt to pair it with\nanother array element that meets both of the following conditions.\n• The row index of the second element is greater than or equal to the parameter row.\n• The two elements have equal values or have values that sum to 10.\nIf such an array element is found, both array elements of the pair are cleared (set to 0) and\nthe method returns true. If more than one such array element is found, any one of those\nidentified array elements can be used to complete the pair and can be cleared. If no such\narray element is found, no changes are made to puzzle and the method returns false.\nThe following table shows the possible results of several calls to clearPair.\npuzzle\nbefore call to\nclearPair\nMethod Call\npuzzle\nafter call to\nclearPair\nReturn\nValue\nExplanation\n0 7 9 0\n7 4 1 6\n8 4 1 8\nclearPair(0, 1)\n0 0 9 0\n0 4 1 6\n8 4 1 8\ntrue\nThe value 7 in row 0, column 1\nis matched with the value 7 in\nrow 1, column 0.\n1 2 3 4\n5 6 7 8\n5 4 1 2\nclearPair(2, 2)\n1 2 3 4\n5 6 7 8\n5 4 1 2\nfalse There is no element in row 2 or a\nlater row to pair with the value 1.\n8 1 0 5\n0 4 3 6\n3 4 5 8\nclearPair(1, 1)\n8 1 0 5\n0 0 3 0\n3 4 5 8\ntrue\nThe value 4 in row 1, column 1\nis matched with the value 6 in\nrow 1, column 3. It could also\nhave been matched with the\nvalue 4 in row 2, column 1.\n1 7 9\n2 6 5\n4 4 4\nclearPair(0, 2)\n0 7 0\n2 6 5\n4 4 4\ntrue\nThe value 9 in row 0, column 2\nis matched with the value 1 in\nrow 0, column 0.\nComplete method clearPair.\n/**\n* Identifies and clears an element of puzzle that can be paired with\n* the element at the given row and column, as described in part (b)\n* Preconditions: row and col are valid row and column indices in puzzle.\n* The element at the given row and column is between 1 and 9, inclusive.\n*/\npublic boolean clearPair(int row, int col)",
+   "sourceText": null,
+   "scoringGuide": "AP CS A FRQ 4 (2D Arrays), 9 points, per-point criteria then penalties (max 3/question). Context: SumOrSameGame on a 2D int puzzle grid. Part (a) SumOrSameGame(int numRows, int numCols) constructor (4 pts): Pt1 constructs a correctly sized 2D int array; Pt2 traverses the 2D array with no bounds errors (nested loops); Pt3 generates a uniform random integer for each cell; Pt4 assigns values to the 2D array elements. Part (b) clearPair(int row, int col) (5 pts): Pt5 accesses all and only the necessary elements (may return early if bounds/indices stay correct); Pt6 guards against pairing an element with itself (currRow!=row || currCol!=col); Pt7 determines whether two elements are equal OR sum to 10; Pt8 sets a 2D array element to 0; Pt9 sets both identified elements to 0 when a match is found and returns the appropriate boolean — the algorithm point. Common failure: non-uniform or incorrectly ranged random generation (Pt3); failing to guard the self-pair (Pt6); returning true/false in the wrong cases (Pt9).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 5,
+     "criteria": "Award 0–5 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "8",
+     "summary": "Q4 scored 8/9. Earned Pt1, Pt2, Pt4 (constructor: correctly sized 2D array, nested traversal, value assignment) and Pt5–Pt9 (clearPair: necessary elements, self-pair guard, equal-or-sum-to-10 test, sets an element to 0, and the full match/return algorithm). Lost only Pt3 — did not generate a uniform random integer in the correct range. Model of a nearly complete response missing just the random-generation criterion.",
+     "refId": "CSA:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "5",
+     "summary": "Q4 scored 5/9. Earned Pt4 (assigns values to the 2D array), Pt7 (equal-or-sum-to-10 test), Pt8 (sets an element to 0), and Pt9 (match/return algorithm), plus one constructor traversal/setup criterion. Lost Pt1 (2D array not correctly constructed/sized) and Pt5 (did not access all and only the necessary elements in clearPair). Illustrates a response whose clearPair logic largely works but whose grid construction and element-access scope are flawed.",
+     "refId": "CSA:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "2",
+     "summary": "Q4 scored 2/9. Earned only Pt4 (assigns values to 2D array elements) and Pt8 (sets a 2D array element to 0). Lost Pt1, Pt2, Pt3 (construction, traversal, random generation), Pt5 (element access scope), Pt6 (self-pair guard), Pt7 (equal-or-sum-to-10 test), and Pt9 (match/return algorithm). Illustrates a low response with only isolated assignment and zeroing operations correct.",
+     "refId": "CSA:q4:2025-4C"
+    }
+   ]
+  }
+ ]
+}

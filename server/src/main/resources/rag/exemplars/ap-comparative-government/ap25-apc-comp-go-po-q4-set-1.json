@@ -6,7 +6,8 @@
       "dimension": "q4-argument-essay",
       "refId": "COMPGOV:q4-set1:rubric",
       "title": "Q4 Argument Essay (5 points) — Set 1: civil liberties & stability",
-      "content": "AP Comparative Government FRQ 4 is the Argument Essay, 5 points across four rows. Row A Claim/Thesis [1]: a defensible thesis establishing a line of reasoning that uses at least one required course concept. Row B Evidence [2]: two pieces of specific, relevant evidence from required course countries tied to a course concept (1 point each). Row C Reasoning [1]: explain how/why the evidence supports the thesis (requires the Row A point). Row D Alternate Perspectives [1]: describe an opposing perspective AND refute, concede, or rebut it (requires the Row A point; merely describing the alternate view is not enough). Set 1 prompt: whether government protections of civil liberties increase or decrease stability in a state, using one or more of democratization, transparency, and rule of law. Common failure: a 'thesis' that only restates the prompt (loses A); presenting an alternate view without refuting/conceding/rebutting it (loses D); evidence not tied to a course concept."
+      "content": "AP Comparative Government FRQ 4 is the Argument Essay, 5 points across four rows. Row A Claim/Thesis [1]: a defensible thesis establishing a line of reasoning that uses at least one required course concept. Row B Evidence [2]: two pieces of specific, relevant evidence from required course countries tied to a course concept (1 point each). Row C Reasoning [1]: explain how/why the evidence supports the thesis (requires the Row A point). Row D Alternate Perspectives [1]: describe an opposing perspective AND refute, concede, or rebut it (requires the Row A point; merely describing the alternate view is not enough). Set 1 prompt: whether government protections of civil liberties increase or decrease stability in a state, using one or more of democratization, transparency, and rule of law. Common failure: a 'thesis' that only restates the prompt (loses A); presenting an alternate view without refuting/conceding/rebutting it (loses D); evidence not tied to a course concept.",
+      "promptId": "ap25-comp-go-po-q4-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "5",
       "refId": "COMPGOV:q4-set1:2025-4A",
       "title": "Q4 Set 1 exemplar — Sample 4A, 5/5",
-      "content": "Q4 (Set 1) scored 5/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 1). Thesis: protections of civil liberties increase stability through transparency. Evidence: UK transparency during Brexit; Iran's media control/hijab enforcement → protests. Reasoning: government honesty builds trust that stabilizes the state. Alternate perspective: acknowledged the 'loss of control/factions' counterargument then rebutted it. Full-credit model for the argument essay."
+      "content": "Q4 (Set 1) scored 5/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 1). Thesis: protections of civil liberties increase stability through transparency. Evidence: UK transparency during Brexit; Iran's media control/hijab enforcement → protests. Reasoning: government honesty builds trust that stabilizes the state. Alternate perspective: acknowledged the 'loss of control/factions' counterargument then rebutted it. Full-credit model for the argument essay.",
+      "promptId": "ap25-comp-go-po-q4-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "4",
       "refId": "COMPGOV:q4-set1:2025-4B",
       "title": "Q4 Set 1 exemplar — Sample 4B, 4/5",
-      "content": "Q4 (Set 1) scored 4/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 0). Thesis links protections to stability via transparency and rule of law. Evidence: Russia (rule by law, subjective punishments) and China (media censorship reducing transparency). Reasoning: reduced transparency undermines trust and stability. Lost Row D: presented an alternate argument but offered no rebuttal, refutation, or concession. Illustrates the most common argument-essay miss — describing the counterview without responding to it."
+      "content": "Q4 (Set 1) scored 4/5 (Thesis 1, Evidence 2, Reasoning 1, Alternate 0). Thesis links protections to stability via transparency and rule of law. Evidence: Russia (rule by law, subjective punishments) and China (media censorship reducing transparency). Reasoning: reduced transparency undermines trust and stability. Lost Row D: presented an alternate argument but offered no rebuttal, refutation, or concession. Illustrates the most common argument-essay miss — describing the counterview without responding to it.",
+      "promptId": "ap25-comp-go-po-q4-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "2",
       "refId": "COMPGOV:q4-set1:2025-4C",
       "title": "Q4 Set 1 exemplar — Sample 4C, 2/5",
-      "content": "Q4 (Set 1) scored 2/5 (Thesis 0, Evidence 2, Reasoning 0, Alternate 0). Earned both evidence points (UK rule of law protecting civil liberties; Nigeria democratization with low transparency re: MOSOP). Lost the thesis point because the claim referenced 'fundamental principles of a democracy' without using democratization, transparency, or rule of law as the line of reasoning — and because Row A was not earned, Reasoning and Alternate Perspectives were ineligible. Illustrates how a thesis that omits the required course concepts caps the score even with strong evidence."
+      "content": "Q4 (Set 1) scored 2/5 (Thesis 0, Evidence 2, Reasoning 0, Alternate 0). Earned both evidence points (UK rule of law protecting civil liberties; Nigeria democratization with low transparency re: MOSOP). Lost the thesis point because the claim referenced 'fundamental principles of a democracy' without using democratization, transparency, or rule of law as the line of reasoning — and because Row A was not earned, Reasoning and Alternate Perspectives were ineligible. Illustrates how a thesis that omits the required course concepts caps the score even with strong evidence.",
+      "promptId": "ap25-comp-go-po-q4-set-1"
     }
   ]
 }

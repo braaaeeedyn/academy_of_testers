@@ -30,7 +30,8 @@
       "scoreBand": "6",
       "refId": "APLIT:prose-fiction:2025-set1-2A",
       "title": "Prose Fiction exemplar — Sample 2A, score 1-4-1 (6/6)",
-      "content": "Prose Fiction Analysis (Cusk, The Bradshaw Variations) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that contrast, similes, and lack of dialogue develop Thomas as a man struggling to understand his place as he ages. Evidence & Commentary (4): specific evidence for all claims ('it is easy to tell when something is artificial'; 'limitless copies'; 'platform guard'; no dialogue) with commentary consistently explaining how multiple techniques build meaning. Sophistication (1): explores the tension of Thomas's authenticity — his inner life as 'a constant cycle of mundanity' he can't escape."
+      "content": "Prose Fiction Analysis (Cusk, The Bradshaw Variations) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that contrast, similes, and lack of dialogue develop Thomas as a man struggling to understand his place as he ages. Evidence & Commentary (4): specific evidence for all claims ('it is easy to tell when something is artificial'; 'limitless copies'; 'platform guard'; no dialogue) with commentary consistently explaining how multiple techniques build meaning. Sophistication (1): explores the tension of Thomas's authenticity — his inner life as 'a constant cycle of mundanity' he can't escape.",
+      "promptId": "ap25-english-literature-q2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -38,7 +39,8 @@
       "scoreBand": "4",
       "refId": "APLIT:prose-fiction:2025-set1-2B",
       "title": "Prose Fiction exemplar — Sample 2B, score 1-3-0 (4/6)",
-      "content": "Prose Fiction Analysis scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation that juxtaposition and imagery portray Thomas as valuing authenticity. Evidence & Commentary (3): specific evidence for all claims (Olga's teeth vs. Thomas 'both there and not there'; 'sealed behind glass') with commentary explaining how it supports the reasoning — but some claims ('isn't great at listening'; 'having difficulty reciprocating') are underdeveloped, so short of 4. Sophistication (0): acknowledges a complexity (music as penance) but does not develop it."
+      "content": "Prose Fiction Analysis scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation that juxtaposition and imagery portray Thomas as valuing authenticity. Evidence & Commentary (3): specific evidence for all claims (Olga's teeth vs. Thomas 'both there and not there'; 'sealed behind glass') with commentary explaining how it supports the reasoning — but some claims ('isn't great at listening'; 'having difficulty reciprocating') are underdeveloped, so short of 4. Sophistication (0): acknowledges a complexity (music as penance) but does not develop it.",
+      "promptId": "ap25-english-literature-q2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -46,7 +48,8 @@
       "scoreBand": "3",
       "refId": "APLIT:prose-fiction:2025-set1-2C",
       "title": "Prose Fiction exemplar — Sample 2C, score 1-2-0 (3/6)",
-      "content": "Prose Fiction Analysis scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible interpretation (Thomas as an open free thinker held up on his own concerns). Evidence & Commentary (2): some specific evidence ('hears her tread and doesn't recognize it'; 'limitless copies of this conversation') but commentary is vague, the 'open free thinker' claim is unsupported, and no line of reasoning develops. Sophistication (0): not demonstrated."
+      "content": "Prose Fiction Analysis scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible interpretation (Thomas as an open free thinker held up on his own concerns). Evidence & Commentary (2): some specific evidence ('hears her tread and doesn't recognize it'; 'limitless copies of this conversation') but commentary is vague, the 'open free thinker' claim is unsupported, and no line of reasoning develops. Sophistication (0): not demonstrated.",
+      "promptId": "ap25-english-literature-q2-set-1"
     }
   ]
 }

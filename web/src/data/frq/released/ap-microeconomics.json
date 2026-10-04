@@ -1,0 +1,364 @@
+{
+ "subjectName": "AP Microeconomics",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-microeconomics-q1-set-1",
+   "set": 1,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Long FRQ",
+   "topic": "monopoly (Voda Reservoir) & elasticity",
+   "teaser": "Voda Reservoir is a profit-maximizing firm and the only producer of bottled water in a country. Currently, Voda Reservoir is earning negative economic profit. A. Draw a correctly labeled graph for…",
+   "suggestedMinutes": 25,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-microeconomics/ap25-microeconomics-q1-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "1. Voda Reservoir is a profit-maximizing firm and the only producer of bottled water in a country.\nCurrently, Voda Reservoir is earning negative economic profit.\nA. Draw a correctly labeled graph for Voda Reservoir and show each of the following.\ni. The profit-maximizing quantity, labeled QM\nii. The profit-maximizing price, labeled PM\niii. The average total cost curve consistent with Voda Reservoir earning negative economic\nprofit, labeled ATC\niv. The area of deadweight loss, shaded completely\nB. Suppose the government requires Voda Reservoir to produce the socially optimal quantity of\nbottled water . On your graph in part A, show the socially optimal quantity of bottled water ,\nlabeled QS.\nC. Suppose instead the government grants a per-unit subsidy to Voda Reservoir . What will\nhappen to Voda Reservoir’s profit-maximizing quantity of bottled water? Explain.\nD. Suppose new producers have entered the bottled-water market and Voda Reservoir\ncontinues to operate in the bottled-water market. Will the demand for Voda Reservoir’s\nbottled water become more elastic, become less elastic, or stay the same as new producers\nenter the market?\nE. Voda Reservoir hires workers in a perfectly competitive labor market.\ni. If the demand for bottled water increases, what will happen to Voda Reservoir’s demand\nfor labor? Explain.\nii. The government implements a new regulation that increases the minimum age required\nfor a worker to be employed in a bottled-water factory. What will happen to the market\nwage in the short run? Explain.",
+   "sourceText": null,
+   "scoringGuide": "AP Microeconomics FRQ 1 (Long), 10 points, one point per element, mixing correctly labeled graphs with state/explain and calculation answers. Set 1 (Voda Reservoir, a single seller of bottled water): draw a correctly labeled monopoly graph with a downward-sloping demand and MR, showing the profit-maximizing quantity/price (MR=MC) and the relevant area; state how the profit-maximizing quantity changes under a given scenario; state that demand for Voda's water becomes more elastic (with a substitute) and explain why; plus related state/explain elements. Common failure: unlabeled or incorrectly positioned MR/MC/ATC curves; profit-max where MR≠MC; stating an elasticity change without explaining the substitute mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 5,
+     "criteria": "Award 0–5 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part E exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 (Set 1) scored 10/10 — correctly labeled monopoly graph (demand, MR, MC, profit-max quantity/price), correct quantity-change statement, the more-elastic-demand statement with explanation, and all remaining elements. Full-credit model for the micro long FRQ.",
+     "refId": "MICRO:q1-set1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "6",
+     "summary": "Q1 (Set 1) scored 6/10 — earned the graph-labeling and simpler state points but lost several explain-dependent points (e.g., the elasticity mechanism and other state-and-explain items). Illustrates the common micro pattern: graph/state points earned, explain points missed.",
+     "refId": "MICRO:q1-set1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "Q1 (Set 1) scored 1/10 — earned only a single element (typically one labeled graph point), losing the profit-max positioning, the elasticity reasoning, and all state/explain answers. Illustrates a response that cannot execute the monopoly graph or the multi-step reasoning.",
+     "refId": "MICRO:q1-set1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-microeconomics-q2-set-1",
+   "set": 1,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "total surplus, price controls & international trade",
+   "teaser": "The graph provided shows the market for rice in the country of Rushland. A. Calculate the total economic surplus at market equilibrium. Show your work. B. If the government sets a price floor at…",
+   "suggestedMinutes": 17,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-microeconomics/ap25-microeconomics-q2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "2. The graph provided shows the market for rice in the country of Rushland.\nA. Calculate the total economic surplus at market equilibrium. Show your work.\nB. If the government sets a price floor at $3 per bushel, will there be a surplus, a shortage, or\nneither? Explain.\nC. Suppose that instead of the price floor , Rushland engages in international trade and the\nworld price of rice is $5 per bushel.\ni. Will Rushland export or import rice? Explain using numbers from the graph.\nii. Calculate the domestic consumer surplus when Rushland engages in international trade.\nShow your work.\niii. Calculate the total revenue that Rushland’s farmers will earn at the world price. Show\nyour work.",
+   "sourceText": null,
+   "scoringGuide": "AP Microeconomics FRQ 2 (Short), 5 points, one per element, including a calculation. Set 1 answer key highlights: calculate total economic surplus as $270 and SHOW WORK; state there will be neither a surplus nor a shortage and explain that a price is set at equilibrium (or a non-binding control); state that Rushland will export rice and explain (world price above domestic price, so domestic quantity supplied exceeds quantity demanded). Common failure: calculation without shown work; stating export/import without the world-price-vs-domestic-price reasoning; confusing binding vs. non-binding price controls.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "5",
+     "summary": "Q2 (Set 1) scored 5/5 — calculated total surplus as $270 with shown work, stated no surplus/shortage with the equilibrium explanation, and stated Rushland exports rice with the world-price reasoning. Full-credit model.",
+     "refId": "MICRO:q2-set1:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "4",
+     "summary": "Q2 (Set 1) scored 4/5 — earned most elements but lost one, commonly an explain point or the shown work on the surplus calculation. Illustrates a strong short-FRQ response one point short.",
+     "refId": "MICRO:q2-set1:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 (Set 1) scored 2/5 — earned about two elements (e.g., one state point and a partial calculation), losing the explanations and the trade reasoning. Illustrates a low response that cannot complete the calculation or the trade logic.",
+     "refId": "MICRO:q2-set1:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-microeconomics-q3-set-1",
+   "set": 1,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "game theory (Bitaly's Bracelets)",
+   "teaser": "Tony’s Trinkets and Bitaly’s Bracelets are the only two firms in a town that produce and sell jewelry. Tony’s Trinkets is deciding whether to produce Unique jewelry or Typical jewelry. Bitaly’s…",
+   "suggestedMinutes": 17,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-microeconomics/ap25-microeconomics-q3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. Tony’s Trinkets and Bitaly’s Bracelets are the only two firms in a town that produce and sell\njewelry. Tony’s Trinkets is deciding whether to produce Unique jewelry or Typical jewelry.\nBitaly’s Bracelets is deciding whether to produce Gold jewelry or Silver jewelry. The payoff\nmatrix shows the payoffs for each combination of strategies. The first entry in each cell\nshows Tony’s Trinkets’ profit, and the second entry shows Bitaly’s Bracelets’ profit. Each firm\nindependently and simultaneously chooses its strategy. Assume that the two firms know all the\ninformation in the matrix and do not cooperate.\nBitaly’s Bracelets\nGold Silver\nTony’s\nTrinkets\nUnique $15, $21 $20, $19\nTypical $10, $7 $21, $16\nA. Suppose Bitaly’s Bracelets chooses to produce Silver jewelry. Is choosing to produce Unique\njewelry the best choice for Tony’s Trinkets? Explain using numbers from the payoff matrix.\nB. Is Bitaly’s Bracelets’ dominant strategy to produce Gold jewelry, to produce Silver jewelry, or\ndoes it not have a dominant strategy? Explain using numbers from the payoff matrix.\nC. Identify all Nash equilibria for this game.\nD. Suppose Tony’s Trinkets’ profit from producing Typical jewelry increases regardless of what\nBitaly’s Bracelets does. What is the minimum amount by which Tony’s Trinkets’ profit must\nincrease in order for Typical jewelry to become a dominant strategy: $2, $4, $6, $11, or $15?\nE. Suppose instead that these two firms now cooperate and merge into one firm to maximize\ntheir combined profits. The new firm will have two locations and continue to face the same\nactions and payoffs. Calculate the new firm’s maximum combined profit. Show your work.",
+   "sourceText": null,
+   "scoringGuide": "AP Microeconomics FRQ 3 (Short), 5 points, one per element, based on a payoff matrix. Set 1 answer key highlights: state that Bitaly's Bracelets does not have a dominant strategy and explain that its best response depends on the rival's choice; identify the TWO Nash equilibria for the game; state the minimum amount (e.g., $6) required for a given outcome; plus related state/explain elements. Common failure: asserting a dominant strategy where none exists; identifying only one Nash equilibrium; reading the payoff matrix from the wrong player's perspective.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "5",
+     "summary": "Q3 (Set 1) scored 5/5 — stated no dominant strategy with a best-response explanation, identified both Nash equilibria, and gave the correct minimum amount. Full-credit model for the game-theory FRQ.",
+     "refId": "MICRO:q3-set1:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "4",
+     "summary": "Q3 (Set 1) scored 4/5 — earned most elements but lost one, commonly the explanation of why there is no dominant strategy or one of the two Nash equilibria. Illustrates a strong response one point short.",
+     "refId": "MICRO:q3-set1:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "Q3 (Set 1) scored 1/5 — earned only one element, losing the dominant-strategy explanation, the two Nash equilibria, and the minimum-amount answer. Illustrates a response that misreads the payoff matrix or the game concepts.",
+     "refId": "MICRO:q3-set1:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-microeconomics-q1-set-2",
+   "set": 2,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Long FRQ",
+   "topic": "perfect competition (Deskward, wooden desks)",
+   "teaser": "Deskward is a typical profit-maximizing firm that produces and sells wooden desks in a constant-cost, perfectly competitive market that is in long-run equilibrium. A. Draw correctly labeled…",
+   "suggestedMinutes": 25,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-microeconomics/ap25-microeconomics-q1-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "1. Deskward is a typical profit-maximizing firm that produces and sells wooden desks in a\nconstant-cost, perfectly competitive market that is in long-run equilibrium.\nA. Draw correctly labeled side-by-side graphs for the wooden desk market and for Deskward\nand show each of the following.\ni. The market equilibrium price and quantity, labeled PM and QM , respectively\nii. Deskward’s profit-maximizing price and quantity, labeled PF and QF, respectively\niii. Deskward’s average total cost curve consistent with long-run equilibrium, labeled ATC\nB. If the monthly rent, a fixed cost, on Deskward’s factory building increases, what will happen\nto the firm’s profit-maximizing quantity in the short run? Explain.\nC. Suppose the government is considering granting a per-unit subsidy to producers of wooden\ndesks. On your market graph in part A, show the short-run effect of a per-unit subsidy on\neach of the following.\ni. The new market equilibrium price and quantity of wooden desks, labeled P* and Q*,\nrespectively\nii. The area representing the total cost of the subsidy to the government, shaded completely\nD. Instead of the per-unit subsidy, suppose the government imposes a binding price floor in the\nmarket for wooden desks. Will the price floor result in a shortage of wooden desks, a surplus\nof wooden desks, or neither? Explain.\nE. Deskward also produces chairs. Deskward increases its production from 500 chairs to 600\nchairs, and its long-run total cost increases from $80,000 to $108,000.\ni. Calculate Deskward’s long-run average total cost of producing 500 chairs. Show your\nwork.\nii. As Deskward increases production from 500 chairs to 600 chairs, is Deskward\nexperiencing economies of scale, diseconomies of scale, or the efficient scale? Explain\nusing numbers.",
+   "sourceText": null,
+   "scoringGuide": "AP Microeconomics FRQ 1 (Long), 10 points, one per element. Set 2 (market for wooden desks and the firm Deskward, a perfectly competitive firm): draw a correctly labeled side-by-side market graph (downward-sloping demand, upward supply) and firm graph (horizontal demand = MR = price at the market price); state that Deskward's profit-maximizing quantity will not change in the short run under a given scenario and explain; plus related state/explain elements on profit/loss areas and long-run adjustment. Common failure: firm's demand not horizontal at the market price; profit-max where MR≠MC; stating short-run/long-run outcomes without the perfect-competition reasoning.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part E exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 (Set 2) scored 10/10 — correctly labeled market and firm graphs (horizontal firm demand at the market price), the correct short-run quantity statement with explanation, and all remaining elements. Full-credit model.",
+     "refId": "MICRO:q1-set2:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "6",
+     "summary": "Q1 (Set 2) scored 6/10 — earned the graph-labeling and simpler state points but lost several explain-dependent points (short-run/long-run reasoning). Illustrates graph/state points earned, explain points missed.",
+     "refId": "MICRO:q1-set2:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "Q1 (Set 2) scored 3/10 — earned about three elements (a labeled graph and one or two simple state answers), losing the firm-demand positioning and the state-and-explain reasoning. Illustrates a low response with fragments of the graphs but no multi-step perfect-competition reasoning.",
+     "refId": "MICRO:q1-set2:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-microeconomics-q2-set-2",
+   "set": 2,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "factor market / monopsony (Quartz Excavations)",
+   "teaser": "Quartz Excavations is a profit-maximizing firm and the only employer of miners of quartz in a small town. The graph provided shows the labor market for miners. A. Identify Quartz Excavations’…",
+   "suggestedMinutes": 17,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-microeconomics/ap25-microeconomics-q2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "2. Quartz Excavations is a profit-maximizing firm and the only employer of miners of quartz in a\nsmall town. The graph provided shows the labor market for miners.\nA. Identify Quartz Excavations’ profit-maximizing number of miners to hire.\nB. Will Quartz Excavations pay its profit-maximizing number of miners a wage rate that is\nequal to $15, greater than $15, or less than $15? Explain using numbers.\nC. Suppose the government sets a minimum wage (a price floor on wages) at $25. Calculate the\ntotal wage bill for Quartz Excavations at the resulting profit-maximizing number of miners.\nShow your work.\nD. Suppose that instead of a minimum wage, there is now an increase in the demand for quartz.\ni. Will the marginal revenue product of miners increase, decrease, or remain the same?\nExplain.\nii. After the demand for quartz increases, Quartz Excavations hires the new\nprofit-maximizing number of miners. Will the marginal factor cost of the last\nminer hired be greater than, less than, or equal to the marginal factor cost of the\nlast miner hired before the demand for quartz increased?",
+   "sourceText": null,
+   "scoringGuide": "AP Microeconomics FRQ 2 (Short), 5 points, one per element, including a calculation. Set 2 answer key highlights: state the profit-maximizing number of miners is 4 (where MRP = MRC/wage); state that Quartz Excavations (a monopsony/wage-setting employer) will pay a wage less than $15 and explain why (the firm faces an upward-sloping labor supply and pays below MRP); calculate the total wage bill as $50 and SHOW WORK. Common failure: hiring where MRP≠MRC; stating the wage relationship without the monopsony reasoning; calculation without shown work.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "5",
+     "summary": "Q2 (Set 2) scored 5/5 — stated 4 miners (MRP=MRC), the below-$15 wage with the monopsony explanation, and the $50 total wage bill with shown work. Full-credit model.",
+     "refId": "MICRO:q2-set2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "4",
+     "summary": "Q2 (Set 2) scored 4/5 — earned most elements but lost one, commonly the monopsony wage explanation or the shown work. Illustrates a strong response one point short.",
+     "refId": "MICRO:q2-set2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 (Set 2) scored 2/5 — earned about two elements (e.g., the number of miners and one other point), losing the wage-explanation and calculation-with-work points. Illustrates a low factor-market response.",
+     "refId": "MICRO:q2-set2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-microeconomics-q3-set-2",
+   "set": 2,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "utility maximization (Lucy, Goods X & Y)",
+   "teaser": "The table provided shows the marginal utility for Lucy when she consumes Good X and Good Y. Quantity of Good X Marginal Utility of Good X (utils) Quantity of Good Y Marginal Utility of Good Y…",
+   "suggestedMinutes": 17,
+   "totalPoints": 5,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-microeconomics/ap25-microeconomics-q3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. The table provided shows the marginal utility for Lucy when she consumes Good X and Good Y.\nQuantity of\nGood X\nMarginal Utility of Good\nX (utils)\nQuantity of\nGood Y\nMarginal Utility of Good\nY (utils)\n1 20 1 28\n2 16 2 24\n3 12 3 16\n4 8 4 8\n5 4 5 −4\n6 −2 6 −8\nA. If Good X and Good Y are free, how many units of each good will maximize Lucy’s total\nutility?\nB. Calculate Lucy’s total utility if she consumes 2 units of Good X and 2 units of Good Y. Show\nyour work.\nC. Suppose instead that the price of each unit of Good X is $2 and the price of each unit of Good\nY is $4. Lucy has a budget of $20 to spend on the two goods.\ni. If Lucy purchases 2 units of Good X, what is the maximum quantity of Good Y Lucy can\npurchase?\nii. What is Lucy’s optimal combination of Good X and Good Y? Explain your answer using\nmarginal analysis and numbers.\nD. Suppose the price elasticity of demand for Good X is −20. , the price elasticity of demand\nfor Good Y is −08. , and the cross-price elasticity of demand between Good X and Good Y is\n+16. . Are goods X and Y complementary goods, substitute goods, normal goods, or inferior\ngoods? Explain.",
+   "sourceText": null,
+   "scoringGuide": "AP Microeconomics FRQ 3 (Short), 5 points, one per element, including calculations. Set 2 answer key highlights: state that Lucy maximizes total utility by consuming a given bundle (e.g., 5 units of Good X and some Good Y) where the marginal-utility-per-dollar is equalized within the budget; calculate Lucy's total utility of consuming 2 units of X and 2 units of Y (show work); state the maximum units of Good Y she can purchase given the budget/price. Common failure: applying the utility-maximizing rule (MUx/Px = MUy/Py) incorrectly or ignoring the budget constraint; summing marginal utilities incorrectly; calculation without shown work.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "5",
+     "summary": "Q3 (Set 2) scored 5/5 — identified the utility-maximizing bundle, calculated the total utility of the 2X/2Y bundle with shown work, and stated the maximum units of Good Y affordable. Full-credit model.",
+     "refId": "MICRO:q3-set2:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "4",
+     "summary": "Q3 (Set 2) scored 4/5 — earned most elements but lost one, commonly a calculation answer/shown work or the budget-constrained maximum. Illustrates a strong response one point short.",
+     "refId": "MICRO:q3-set2:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 2) scored 2/5 — earned about two elements (e.g., one calculation or state point), losing the utility-maximizing-bundle identification and the remaining calculations. Illustrates a low response that misapplies the utility-maximization rule or the budget constraint.",
+     "refId": "MICRO:q3-set2:2025-3C"
+    }
+   ]
+  }
+ ]
+}

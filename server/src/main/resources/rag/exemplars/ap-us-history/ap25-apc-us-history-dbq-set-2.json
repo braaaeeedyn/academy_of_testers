@@ -6,7 +6,8 @@
       "scoreBand": "7",
       "refId": "APUSH:dbq:2025-set2-1A",
       "title": "DBQ exemplar — Sample 1A, score 7/7",
-      "content": "DBQ (extent economic changes influenced US society 1865–1910) scored 7/7. Thesis (1): defensible claim with a line of reasoning — railroads, captains of industry, trust control, and rights protection produced both positive (unity) and negative (class division, poverty, discrimination) change. Contextualization (1): post–Civil War changes to society and economy. Evidence from Docs (2): uses all seven documents to support arguments across positive and negative effects. Evidence Beyond (1): sharecropping. Sourcing (1): explains the historical situation of Docs 1 and 7 (Square Deal). Complexity (1): nuanced multi-effect argument AND effective use of all seven documents."
+      "content": "DBQ (extent economic changes influenced US society 1865–1910) scored 7/7. Thesis (1): defensible claim with a line of reasoning — railroads, captains of industry, trust control, and rights protection produced both positive (unity) and negative (class division, poverty, discrimination) change. Contextualization (1): post–Civil War changes to society and economy. Evidence from Docs (2): uses all seven documents to support arguments across positive and negative effects. Evidence Beyond (1): sharecropping. Sourcing (1): explains the historical situation of Docs 1 and 7 (Square Deal). Complexity (1): nuanced multi-effect argument AND effective use of all seven documents.",
+      "promptId": "ap25-us-history-dbq-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "4",
       "refId": "APUSH:dbq:2025-set2-1B",
       "title": "DBQ exemplar — Sample 1B, score 4/7",
-      "content": "DBQ scored 4/7 (Thesis 1, Contextualization 0, Evidence from Docs 2, Evidence Beyond 1, Sourcing 0, Complexity 0). Thesis (1): defensible claim naming the transcontinental railroad, boom of industries, and unions as most impactful. Contextualization (0): 'society has gone through a lot' is too vague. Evidence from Docs (2): uses Docs 1, 3, 4, 5 to support arguments. Evidence Beyond (1): the Sherman Antitrust Act. Sourcing (0): attempts Docs 3 and 5 but does not tie sourcing to a prompt-relevant argument. Complexity (0): none."
+      "content": "DBQ scored 4/7 (Thesis 1, Contextualization 0, Evidence from Docs 2, Evidence Beyond 1, Sourcing 0, Complexity 0). Thesis (1): defensible claim naming the transcontinental railroad, boom of industries, and unions as most impactful. Contextualization (0): 'society has gone through a lot' is too vague. Evidence from Docs (2): uses Docs 1, 3, 4, 5 to support arguments. Evidence Beyond (1): the Sherman Antitrust Act. Sourcing (0): attempts Docs 3 and 5 but does not tie sourcing to a prompt-relevant argument. Complexity (0): none.",
+      "promptId": "ap25-us-history-dbq-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "APUSH:dbq:2025-set2-1C",
       "title": "DBQ exemplar — Sample 1C, score 2/7",
-      "content": "DBQ scored 2/7 (Thesis 1, Contextualization 0, Evidence from Docs 1, Evidence Beyond 0, Sourcing 0, Complexity 0). Thesis (1): defensible claim (productivity, workforce treatment, and stopping monopolies). Contextualization (0): 'growing and expanding' is too vague. Evidence from Docs (1): discusses six documents to address the topic but describes Docs 3 and 4 incorrectly and does not build a supported argument, so it caps at 1. Sourcing/Complexity/Evidence Beyond (0). Reinforces that describing documents ≠ using them to support an argument."
+      "content": "DBQ scored 2/7 (Thesis 1, Contextualization 0, Evidence from Docs 1, Evidence Beyond 0, Sourcing 0, Complexity 0). Thesis (1): defensible claim (productivity, workforce treatment, and stopping monopolies). Contextualization (0): 'growing and expanding' is too vague. Evidence from Docs (1): discusses six documents to address the topic but describes Docs 3 and 4 incorrectly and does not build a supported argument, so it caps at 1. Sourcing/Complexity/Evidence Beyond (0). Reinforces that describing documents ≠ using them to support an argument.",
+      "promptId": "ap25-us-history-dbq-set-2"
     }
   ]
 }

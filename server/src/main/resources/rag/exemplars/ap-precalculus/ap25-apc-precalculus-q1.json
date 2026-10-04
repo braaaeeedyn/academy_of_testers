@@ -6,7 +6,8 @@
       "dimension": "q1-function-modeling-calculator",
       "refId": "PRECALC:q1:rubric",
       "title": "Q1 — Function Modeling (6 points, calculator)",
-      "content": "AP Precalculus FRQ 1 (Part A, graphing calculator required), 6 points, scored by lettered subparts (A/B/C, often with i/ii), each worth points. Q1 topic: exponential/logarithmic function modeling (e.g., fitting or using an exponential regression, evaluating, interpreting a rate/percent change, solving). Points reward: correct model/values from the calculator, correct evaluation/solution with appropriate setup, and correct interpretation in context with units. Common failure: reporting an answer without the required setup; rounding errors; interpretation that omits context/units."
+      "content": "AP Precalculus FRQ 1 (Part A, graphing calculator required), 6 points, scored by lettered subparts (A/B/C, often with i/ii), each worth points. Q1 topic: exponential/logarithmic function modeling (e.g., fitting or using an exponential regression, evaluating, interpreting a rate/percent change, solving). Points reward: correct model/values from the calculator, correct evaluation/solution with appropriate setup, and correct interpretation in context with units. Common failure: reporting an answer without the required setup; rounding errors; interpretation that omits context/units.",
+      "promptId": "ap25-precalculus-q1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "6",
       "refId": "PRECALC:q1:2025-1A",
       "title": "Q1 exemplar — Sample 1A, 6/6",
-      "content": "Q1 scored 6/6 — correct model/values, correct evaluations and solutions with setup, and correct contextual interpretations. Full-credit model for the modeling FRQ."
+      "content": "Q1 scored 6/6 — correct model/values, correct evaluations and solutions with setup, and correct contextual interpretations. Full-credit model for the modeling FRQ.",
+      "promptId": "ap25-precalculus-q1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "5",
       "refId": "PRECALC:q1:2025-1B",
       "title": "Q1 exemplar — Sample 1B, 5/6",
-      "content": "Q1 scored 5/6 — earned nearly all subparts, losing one point, typically an interpretation lacking context/units or a minor calculation/rounding slip. Illustrates a strong response one point short."
+      "content": "Q1 scored 5/6 — earned nearly all subparts, losing one point, typically an interpretation lacking context/units or a minor calculation/rounding slip. Illustrates a strong response one point short.",
+      "promptId": "ap25-precalculus-q1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "3",
       "refId": "PRECALC:q1:2025-1C",
       "title": "Q1 exemplar — Sample 1C, 3/6",
-      "content": "Q1 scored 3/6 — earned about half the subparts (e.g., the model and one evaluation), losing solution setups and/or contextual interpretations. Illustrates a response that computes some values but does not complete the modeling/interpretation tasks."
+      "content": "Q1 scored 3/6 — earned about half the subparts (e.g., the model and one evaluation), losing solution setups and/or contextual interpretations. Illustrates a response that computes some values but does not complete the modeling/interpretation tasks.",
+      "promptId": "ap25-precalculus-q1"
     }
   ]
 }

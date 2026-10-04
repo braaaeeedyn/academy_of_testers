@@ -1,0 +1,556 @@
+{
+ "subjectName": "AP African American Studies",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-afam-edv1-set-1",
+   "set": 1,
+   "label": "Q1",
+   "section": "Section I, Part B",
+   "essayType": "Exam Day Validation",
+   "topic": "",
+   "teaser": "Explain how two of your sources provide different perspectives on one aspect of your topic.",
+   "suggestedMinutes": 10,
+   "totalPoints": 2,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-edv1-set-1.pdf",
+   "pageCount": 2,
+   "promptText": "AFRICAN AMERICAN STUDIES\nSECTION I PART B\nTIME – 10 MINUTES\nDirections:\nSection I, Part B has 1 question and lasts 10 minutes. The question is a written response about your\ncourse project.\nThis part of the exam requires answers written in complete sentences. An outline or bulleted list is\nnot acceptable.\nYou may use scratch paper for planning, but credit will only be given for responses entered in this\napplication. The clock will turn red when 5 minutes remain—the proctor will not give you any\ntime updates or warnings.\nNote: This exam was originally administered digitally. It is presented here in a format optimized for\nteacher and student use in the classroom.\n1. Explain how two of your sources provide different perspectives on one aspect of your topic.",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Exam Day Validation (Q1, 2 points) — a written response about the student's own Individual Student Project sources (prompt: 'Explain how two of your sources provide different perspectives on one aspect of your topic'). Must be in complete sentences and reference the specific source(s) by author or title. 1 point: DESCRIBES the differing perspectives of two sources as they relate to the project topic. 2 points: EXPLAINS how the two sources' perspectives differ (e.g. how the authors' backgrounds, timing, or information shape their views) and their impact on understanding the topic. Does NOT earn points if too vague, if it discusses only one source, or if it fails to name specific sources.",
+   "rubric": [
+    {
+     "name": "Validation response",
+     "maxPoints": 2,
+     "criteria": "1 point: describes the differing perspectives of two of the student's own project sources. 2 points: explains HOW the two sources' perspectives differ and why that matters for the topic. Must name the specific sources."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample A",
+     "score": "2",
+     "summary": "Exam Day Validation scored 2/2. Names both sources (two Ida B. Wells articles) and explains how their perspectives differ — Source 1 on the hardships Wells faced, Source 2 on her accomplishments — and how that difference shapes understanding of her impact. Full credit: names specific sources AND explains (not just describes) the differing perspectives' effect on the topic.",
+     "refId": "AFAM:edv:2025-set1-1A"
+    },
+    {
+     "label": "Sample B",
+     "score": "1",
+     "summary": "Exam Day Validation scored 1/2. Describes two sources on redlining/housing discrimination and their different angles, earning the description point — but does not earn the second point because only one source (a Chicago map) is specified while the other is left vague, and it does not explain how the perspectives differ. Shows the describe→explain gap and the requirement to name BOTH sources.",
+     "refId": "AFAM:edv:2025-set1-1B"
+    },
+    {
+     "label": "Sample C",
+     "score": "0",
+     "summary": "Exam Day Validation scored 0/2. References that two sources give different perspectives but names neither source specifically, does not indicate the topic, and does not describe or explain how the perspectives differ. Illustrates that vague, unattributed reflection earns nothing on this question.",
+     "refId": "AFAM:edv:2025-set1-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-afam-saq1-set-1",
+   "set": 1,
+   "label": "SAQ 1",
+   "section": "Section II",
+   "essayType": "Short Answer — Text-Based Source",
+   "topic": "",
+   "teaser": "A. Describe one claim the author makes in the source. B. Describe one piece of evidence not included in the source that supports a claim the author makes. C. Explain how Harriet Tubman contributed…",
+   "suggestedMinutes": 15,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-saq1-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "I grew up like a neglected weed,—ignorant of liberty, having no experience of it. Then I was\nnot happy or contented: every time I saw a white man I was afraid of being carried away. I\nhad two sisters carried away in a chain-gang,—one of them left two children. We were always\nuneasy. Now I’ve been free, I know what a dreadful condition slavery is. I have seen hundreds\nof escaped slaves, but I never saw one who was willing to go back and be a slave. I have no\nopportunity to see my friends in my native land. We would rather stay in our native land, if we\ncould be as free there as we are here. I think slavery is the next thing to hell. If a person would\nsend another into bondage, he would, it appears to me, be bad enough to send him into hell, if\nhe could.\nSource: Harriet Tubman’s reflection in The Refugee by Benjamin Drew, 1856\n1. Respond to parts A, B, C, and D.\nA. Describe one claim the author makes in the source.\nB. Describe one piece of evidence not included in the source that supports a claim the author\nmakes.\nC. Explain how Harriet Tubman contributed to change for African Americans in the nineteenth\ncentury.\nD. Using a specific example, explain how an African American woman or African American\nwomen’s political activism in the twentieth or twenty-first century helped overcome the\nlegacy of enslavement.",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Short-Answer Q1 (Text-Based Source), 4 points — parts A, B, C, D each worth 1 point, earned INDEPENDENTLY. Typical tasks: DESCRIBE a claim the author makes; DESCRIBE evidence not in the source that supports a claim; EXPLAIN how/why a development or relationship connects to the source. DESCRIBE = give the relevant characteristics of a topic (more than naming a term); EXPLAIN = give how/why a development occurs or a relationship exists. A part earns its point only when historically/disciplinarily defensible and responsive to the specific sub-prompt; naming a term without describing it, or off-topic/inaccurate content, does not earn the point.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "4",
+     "summary": "SAQ Q1 (text-based source) scored 4/4 (A 1, B 1, C 1, D 1). Every part completes its describe/explain task with defensible, on-source content. Model of full credit on a 4-part text-based SAQ.",
+     "refId": "AFAM:saq1:2025-set1-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "SAQ Q1 scored 2/4 (A 1, B 0, C 1, D 0). Parts A and C earn credit; B and D fail (evidence/explanation is off-topic, inaccurate, or does not complete the task). Because parts are independent, the earned points can be non-contiguous.",
+     "refId": "AFAM:saq1:2025-set1-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "SAQ Q1 scored 1/4 (A 1, B 0, C 0, D 0). Only Part A (describe a claim) earns credit; the remaining parts do not complete their describe/explain tasks with defensible content.",
+     "refId": "AFAM:saq1:2025-set1-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-afam-saq2-set-1",
+   "set": 1,
+   "label": "SAQ 2",
+   "section": "Section II",
+   "essayType": "Short Answer — Non-Text Source",
+   "topic": "",
+   "teaser": "A. Describe the broader historical context of the image. B. Describe one example of an African American athlete, other than Jesse Owens, who broke discriminatory barriers in the twentieth or…",
+   "suggestedMinutes": 15,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-saq2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "Jesse Owens Running the 200-Meter Race, 1936 Summer Olympics, Berlin, Germany\nbrandstaetter images / Contributor / Getty\n2. Respond to parts A, B, and C.\nA. Describe the broader historical context of the image.\nB. Describe one example of an African American athlete, other than Jesse Owens, who broke\ndiscriminatory barriers in the twentieth or twenty-first centuries.\nC. Using a specific example, explain how African Americans’ increased access to education\ncontributed to overcoming discrimination in the twentieth or twenty-first century.",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Short-Answer Q2 (Non-Text Source, e.g. an image/map/chart), 3 points — parts A, B, C each worth 1 point, earned INDEPENDENTLY. Tasks combine DESCRIBE (relevant characteristics of the source or a related development, more than naming a term) and EXPLAIN (how/why a development occurs or a relationship exists). A part earns its point only when defensible, responsive to the sub-prompt, and — where required — grounded in the non-text source; off-topic, inaccurate, or under-described answers do not earn it.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "3",
+     "summary": "SAQ Q2 (non-text source) scored 3/3 (A 1, B 1, C 1). All three parts complete their describe/explain tasks with defensible content grounded in the source.",
+     "refId": "AFAM:saq2:2025-set1-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "2",
+     "summary": "SAQ Q2 scored 2/3 (A 0, B 1, C 1). Parts B and C earn credit; Part A fails (under-described, off-topic, or not grounded in the source). Points are independent, so missing the first part does not block the others.",
+     "refId": "AFAM:saq2:2025-set1-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "SAQ Q2 scored 1/3 (A 0, B 0, C 1). Only Part C earns credit; A and B do not complete their tasks with defensible, responsive content.",
+     "refId": "AFAM:saq2:2025-set1-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-afam-saq3-set-1",
+   "set": 1,
+   "label": "SAQ 3",
+   "section": "Section II",
+   "essayType": "Short Answer — No Source",
+   "topic": "",
+   "teaser": "A. Describe a cultural or artistic contribution made by one of the ancient African societies. B. Describe an effect trade had on ancient West African empires such as Ghana, Mali, or Songhai. C.…",
+   "suggestedMinutes": 15,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-saq3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. Respond to parts A, B, and C.\nA. Describe a cultural or artistic contribution made by one of the ancient African societies.\nB. Describe an effect trade had on ancient West African empires such as Ghana, Mali, or\nSonghai.\nC. Explain how a contribution made by one of the ancient West African societies can be\nconnected to a tradition, practice, or development in the nineteenth, twentieth, or twenty-\nfirst centuries.",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Short-Answer Q3 (no stimulus / no source), 3 points — parts A, B, C each worth 1 point, earned INDEPENDENTLY, answered from disciplinary content knowledge. Tasks combine DESCRIBE (relevant characteristics of a specified topic, more than naming a term) and EXPLAIN (how/why a development occurs or a relationship exists). A part earns its point only when defensible, accurate, and responsive to the sub-prompt; naming a term without describing it or giving off-topic/inaccurate content does not earn it.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "3",
+     "summary": "SAQ Q3 (no stimulus) scored 3/3 (A 1, B 1, C 1). All parts complete their describe/explain tasks with accurate, responsive content.",
+     "refId": "AFAM:saq3:2025-set1-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "2",
+     "summary": "SAQ Q3 scored 2/3 (A 1, B 1, C 0). Parts A and B earn credit; Part C fails to complete its task with defensible, responsive content.",
+     "refId": "AFAM:saq3:2025-set1-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "SAQ Q3 scored 1/3 (A 0, B 1, C 0). Only Part B earns credit; A and C do not complete their tasks with accurate content. Points are independent.",
+     "refId": "AFAM:saq3:2025-set1-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-afam-dbq4-set-1",
+   "set": 1,
+   "label": "DBQ",
+   "section": "Section II",
+   "essayType": "Document-Based Question",
+   "topic": "",
+   "teaser": "Explain how the cultural contributions of African Americans promoted resilience during Jim Crow segregation. In your response you should do the following: • Respond to the prompt with a defensible…",
+   "suggestedMinutes": 40,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-dbq4-set-1.pdf",
+   "pageCount": 3,
+   "promptText": "4. Explain how the cultural contributions of African Americans promoted resilience during Jim\nCrow segregation.\nIn your response you should do the following:\n• Respond to the prompt with a defensible thesis or claim that establishes a line of\nreasoning.\n• Describe a broader historical or disciplinary context relevant to the topic of the prompt.\n• Support an argument in response to the prompt using at least three of the sources.\n• Use at least one additional piece of specific evidence (beyond that found in the sources)\nrelevant to your argument.\n• For at least two sources, explain how or why the perspective, purpose, context, and/or\naudience for each source is relevant to your argument.\n• Reference or cite the sources you use in your argument. You can reference or cite the\nsource letter , title, or author .\nSource 1\nSource: Jubilee Singers of Fisk University, 1875\nPhoto by © Hulton-Deutsch Collection/CORBIS/Corbis via Getty Images\nSource 2\nSource: Map of Black Female Blues Singers’ Performances, 1910 to 1930\nTaylor Wesseln, Raina Rosemary, Abigail Davis, Meggie Synder, Dayo Ogunmodede, and Louis Epstein, “Women Performers\non the T.O.B.A. Circuit,” Musical Geography Project, St. Olaf College (2021).\nThe map shows the places where African American female blues singers performed on the Theater\nOwners Booking Association (T.O.B.A.) touring circuit for Black artists.\nSource 3\nSource: James Weldon Johnson, author and NAACP activist, article published in mainstream\nUnited States magazine Harper’s Monthly during the Harlem Renaissance\n“The common idea is that the Negro reached America intellectually, culturally, and morally\nempty, and that he is here to be filled—filled with education, filled with religion, filled with\nmorality, filled with culture. In a word, the stereotype is that the Negro is nothing more than a\nbeggar at the gate of the nation, waiting to be thrown the crumbs of civilization. Through his\nartistic efforts the Negro is smashing this immemorial stereotype faster than he has ever done\nthrough any other method he has been able to use....\nI do not think it too much to say that through artistic achievement the Negro has found a means\nof getting at the very core of the prejudice against him, by challenging the Nordic superiority\ncomplex.”\nSource 4\nSource: Mary Schmidt Campbell, author , published in Renaissance Art of Black America, 1987\n“Driven by the charismatic zeal of Marcus Garvey, a Jamaican who had migrated to New York,\nthe Harlem-based UNIA [Universal Negro Improvement Association] captured the grass-roots\nsensibility of the New Negro [and]…the fervent1 belief in the beauty and nobility of an African\nhomeland, and the deep cultural cleft between Black and White America.\nIf Garvey’s movement was evidence of a breach between the races in the promised land of the\nNorth, art was the hope for a reconciliation. For intellectuals like [Alain] Locke and W.E.B. Du\nBois…art could bridge the gap between the Black and the White worlds if only the Black artist\nwas allowed the opportunity to hone his talents.\nGiven his rich folk background, his African heritage, and his ethnic pride, the Black artist had\nan aesthetic and a message to impart. Art, the essence of the civilized man, would be final proof\nthat the New Negro not only had something positive to contribute to American life but had,\nindeed, ascended to new cultural heights. Harlem, the center of the New Negro Movement and\nthe capital of Black America during the 1920s, was naturally the center of the artistic movement\nas well.”\n1: intense\nSource 5\nSource: Interview with Bob Moses, a Student Nonviolent Coordinating Committee (SNCC)\norganizer , where he recalls meeting Fannie Lou Hamer in 1962, interview conducted in 2014\n“I met Fannie Lou Hamer , I’ll never forget it, August 31st, 1962. Amzie [Moore] has organized a\nschool bus to take people from Ruleville [Mississippi] down to Indianola [Mississippi] right, the\ncounty seat. We’re on this bus and they’re mostly older women in their fifties.... I’m sitting up\nfront, and there’s this lady sitting right behind me who’s turned around facing the back of the\nbus, and when the bus pulls off she starts singing. And she never stops, so it’s one church song,\nit’s like she knew every song that anybody had sung in a Black church, right. And so what was\nactually happening was she was really driving away fear . The people were really immersed\nin the messages of the songs, and that was Mrs. Hamer . We got off and tried to leaflet,1 they\narrested us, and we were in jail for overnight.”\n1: pass out fliers",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Document-Based Question (Q4, 7 points), Thesis/Claim (0–1). 1 point: responds to the prompt with a defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The claim must give a reason OR establish categories, in one place (intro or conclusion).\n\nAP African American Studies DBQ, Context (0–1). 1 point: accurately describes a broader historical context (events/developments/processes/disciplinary connections) relevant to the prompt's topic. Does NOT earn it for an overgeneralized statement, irrelevant/inaccurate context, or a passing phrase. Must be more than a phrase, with elaboration tying it to the topic.\n\nAP African American Studies DBQ, Evidence from Sources (0–2). 1 point: accurately describes (not merely quotes) the content of at least TWO sources to address the topic. 2 points: uses at least THREE sources to support an argument in response to the prompt. Does NOT earn points for using fewer than two sources, misinterpreting content, quoting without description, or treating sources collectively rather than each separately.\n\nAP African American Studies DBQ, Evidence Beyond Sources (0–1). 1 point: uses at least one additional specific piece of evidence (beyond the sources) relevant to an argument about the prompt. Does NOT earn it for irrelevant/off-topic evidence, repeating the prompt or a source, or a passing phrase. Must differ from the contextualization evidence and be more than a phrase; may appear anywhere.\n\nAP African American Studies DBQ, Source Use (0–1). 1 point: for at least TWO sources, explains how or why the source's point of view, purpose, context, and/or audience is relevant to an argument. Does NOT earn it for sourcing fewer than two, merely identifying POV/purpose/context/audience without explaining relevance, or summarizing content without connecting it to sourcing.\n\nAP African American Studies DBQ, Reasoning (0–1). 1 point: uses a reasoning process (causation, comparison, continuity/change across time or geography) to set up or structure an argument that addresses the prompt. The reasoning may be uneven or the evidence may lack specificity, but it must frame a prompt-relevant argument rather than merely assert a skill.",
+   "rubric": [
+    {
+     "name": "Thesis/Claim",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies Document-Based Question (Q4, 7 points), Thesis/Claim (0–1). 1 point: responds to the prompt with a defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The claim must give a reason OR establish categories, in one place (intro or conclusion)."
+    },
+    {
+     "name": "Context",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies DBQ, Context (0–1). 1 point: accurately describes a broader historical context (events/developments/processes/disciplinary connections) relevant to the prompt's topic. Does NOT earn it for an overgeneralized statement, irrelevant/inaccurate context, or a passing phrase. Must be more than a phrase, with elaboration tying it to the topic."
+    },
+    {
+     "name": "Evidence from Sources",
+     "maxPoints": 2,
+     "criteria": "AP African American Studies DBQ, Evidence from Sources (0–2). 1 point: accurately describes (not merely quotes) the content of at least TWO sources to address the topic. 2 points: uses at least THREE sources to support an argument in response to the prompt. Does NOT earn points for using fewer than two sources, misinterpreting content, quoting without description, or treating sources collectively rather than each separately."
+    },
+    {
+     "name": "Evidence Beyond Sources",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies DBQ, Evidence Beyond Sources (0–1). 1 point: uses at least one additional specific piece of evidence (beyond the sources) relevant to an argument about the prompt. Does NOT earn it for irrelevant/off-topic evidence, repeating the prompt or a source, or a passing phrase. Must differ from the contextualization evidence and be more than a phrase; may appear anywhere."
+    },
+    {
+     "name": "Source Use",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies DBQ, Source Use (0–1). 1 point: for at least TWO sources, explains how or why the source's point of view, purpose, context, and/or audience is relevant to an argument. Does NOT earn it for sourcing fewer than two, merely identifying POV/purpose/context/audience without explaining relevance, or summarizing content without connecting it to sourcing."
+    },
+    {
+     "name": "Reasoning",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies DBQ, Reasoning (0–1). 1 point: uses a reasoning process (causation, comparison, continuity/change across time or geography) to set up or structure an argument that addresses the prompt. The reasoning may be uneven or the evidence may lack specificity, but it must frame a prompt-relevant argument rather than merely assert a skill."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "7",
+     "summary": "DBQ (how African American cultural contributions promoted resilience during Jim Crow) scored 7/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 1, Source Use 1, Reasoning 1). Thesis: culture promoted resilience by advocating pride and organizing movements. Context: end of Reconstruction, Compromise of 1877, Plessy v. Ferguson. Evidence-Sources: Sources 1, 4, 5 support the argument. Evidence-Beyond: Marcus Garvey's 'Black is Beautiful.' Source Use: explains purpose of Source 4 and POV of Source 1. Reasoning: causation — shared culture created unity that promoted resilience.",
+     "refId": "AFAM:dbq:2025-set1-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "5",
+     "summary": "DBQ scored 5/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 0, Source Use 0, Reasoning 1). Thesis (minimally acceptable): culture promoted resilience by bringing communities together and providing hope. Context: Civil War, Emancipation Proclamation, Jim Crow laws. Evidence-Sources: Sources 1, 2, 5 address the topic. Evidence-Beyond 0: the Black Arts movement is outside the prompt's period. Source Use 0: does not explain POV/purpose/context/audience. Reasoning 1: causation linking cultural development to resilience.",
+     "refId": "AFAM:dbq:2025-set1-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "2",
+     "summary": "DBQ scored 2/7 (Thesis 1, Context 0, Evidence-Sources 0, Evidence-Beyond 1, Source Use 0, Reasoning 0). Thesis: minimal (culture served as powerful tools via music/church). Context 0: 'the Jim Crow era' reference is too general. Evidence-Sources 0: does not use at least two sources. Evidence-Beyond 1: the Black Church. Source Use / Reasoning 0. Shows a thesis + one outside-evidence point can still score, but neglecting the provided sources forfeits the largest row.",
+     "refId": "AFAM:dbq:2025-set1-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-afam-edv1-set-2",
+   "set": 2,
+   "label": "Q1",
+   "section": "Section I, Part B",
+   "essayType": "Exam Day Validation",
+   "topic": "",
+   "teaser": "Explain why one of your sources is more reliable than another .",
+   "suggestedMinutes": 10,
+   "totalPoints": 2,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-edv1-set-2.pdf",
+   "pageCount": 2,
+   "promptText": "AFRICAN AMERICAN STUDIES\nSECTION I PART B\nTIME – 10 MINUTES\nDirections:\nSection I, Part B has 1 question and lasts 10 minutes. The question is a written response about your\ncourse project.\nThis part of the exam requires answers written in complete sentences. An outline or bulleted list is\nnot acceptable.\nYou may use scratch paper for planning, but credit will only be given for responses entered in this\napplication. The clock will turn red when 5 minutes remain—the proctor will not give you any\ntime updates or warnings.\nNote: This exam was originally administered digitally. It is presented here in a format optimized for\nteacher and student use in the classroom.\n1. Explain why one of your sources is more reliable than another .",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Exam Day Validation (Q1, 2 points) — a written response about the student's own Individual Student Project sources (prompt: 'Explain how two of your sources provide different perspectives on one aspect of your topic'). Must be in complete sentences and reference the specific source(s) by author or title. 1 point: DESCRIBES the differing perspectives of two sources as they relate to the project topic. 2 points: EXPLAINS how the two sources' perspectives differ (e.g. how the authors' backgrounds, timing, or information shape their views) and their impact on understanding the topic. Does NOT earn points if too vague, if it discusses only one source, or if it fails to name specific sources.",
+   "rubric": [
+    {
+     "name": "Validation response",
+     "maxPoints": 2,
+     "criteria": "1 point: describes the differing perspectives of two of the student's own project sources. 2 points: explains HOW the two sources' perspectives differ and why that matters for the topic. Must name the specific sources."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample A",
+     "score": "2",
+     "summary": "Exam Day Validation scored 2/2. Names both project sources and explains how their perspectives differ on one aspect of the topic, connecting the difference to a fuller understanding of the topic. Full credit — specific sources plus an explanation (not just a description) of the differing perspectives.",
+     "refId": "AFAM:edv:2025-set2-1A"
+    },
+    {
+     "label": "Sample B",
+     "score": "1",
+     "summary": "Exam Day Validation scored 1/2. Describes two sources and their differing perspectives (earning the description point) but does not fully explain how the difference shapes the topic, or does not sufficiently specify both sources. Mid-level response short of the explanation point.",
+     "refId": "AFAM:edv:2025-set2-1B"
+    },
+    {
+     "label": "Sample C",
+     "score": "0",
+     "summary": "Exam Day Validation scored 0/2. Too vague — does not name specific sources, indicate the topic, or describe/explain how the perspectives differ.",
+     "refId": "AFAM:edv:2025-set2-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-afam-saq1-set-2",
+   "set": 2,
+   "label": "SAQ 1",
+   "section": "Section II",
+   "essayType": "Short Answer — Text-Based Source",
+   "topic": "",
+   "teaser": "A. Describe one example of African American art, literature, or music that challenged racial barriers or stereotypes. B. Explain how the author’s opinions reflect a principle of the New Negro…",
+   "suggestedMinutes": 15,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-saq1-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "“A number of approaches to the heart of the race problem have been tried: religious,\neducational, political, industrial, ethical, economic, sociological.... Today a newer approach is\nbeing tried, an approach which discards most of the older methods.... It depends more upon\nwhat the Negro himself does than upon what someone else does for him. It is the approach\nalong the line of intellectual and artistic achievement by Negroes, and may be called the art\napproach to the Negro problem.... The results of this method seem to carry a high degree of\nfinality, to be the thing itself that was to be demonstrated....\nBut it should be borne in mind that the conscious [African American] artist is not an entirely\nnew thing. What is new about him is chiefly the evaluation and public recognition of his work.”\nSource: James Weldon Johnson, African American author , “Race Prejudice and the Negro\nArtist,” 1928\n1. Respond to parts A, B, C, and D.\nA. Describe one example of African American art, literature, or music that challenged racial\nbarriers or stereotypes.\nB. Explain how the author’s opinions reflect a principle of the New Negro movement.\nC. Using a specific example, explain how an African American leader or activist advocated for\nracial uplift in the nineteenth century.\nD. Describe one way the Black Arts movement or the Black is Beautiful movement contributed\nto racial uplift for African Americans in the twentieth or twenty-first century.",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Short-Answer Q1 (Text-Based Source), 4 points — parts A, B, C, D each worth 1 point, earned INDEPENDENTLY. Typical tasks: DESCRIBE a claim the author makes; DESCRIBE evidence not in the source that supports a claim; EXPLAIN how/why a development or relationship connects to the source. DESCRIBE = give the relevant characteristics of a topic (more than naming a term); EXPLAIN = give how/why a development occurs or a relationship exists. A part earns its point only when historically/disciplinarily defensible and responsive to the specific sub-prompt; naming a term without describing it, or off-topic/inaccurate content, does not earn the point.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample A",
+     "score": "4",
+     "summary": "SAQ Q1 (text-based/short answer) scored 4/4 (A 1, B 1, C 1, D 1). All four parts complete their describe/explain tasks with defensible content.",
+     "refId": "AFAM:saq1:2025-set2-1A"
+    },
+    {
+     "label": "Sample B",
+     "score": "3",
+     "summary": "SAQ Q1 scored 3/4 (A 1, B 1, C 0, D 1). Parts A, B, and D earn credit; Part C fails (does not complete its task with defensible, responsive content).",
+     "refId": "AFAM:saq1:2025-set2-1B"
+    },
+    {
+     "label": "Sample C",
+     "score": "1",
+     "summary": "SAQ Q1 scored 1/4 (A 0, B 0, C 0, D 1). Only Part D earns credit; the earlier parts do not complete their tasks. Confirms parts are scored independently, so any single part can be the one earned.",
+     "refId": "AFAM:saq1:2025-set2-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-afam-saq2-set-2",
+   "set": 2,
+   "label": "SAQ 2",
+   "section": "Section II",
+   "essayType": "Short Answer — Non-Text Source",
+   "topic": "",
+   "teaser": "A. Describe one way the image serves as evidence of Christianity in early African societies. B. Describe an effect religions from outside of West Africa had on West African societies prior to the…",
+   "suggestedMinutes": 15,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-saq2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "Annunciation to Zechariah from Ethiopian Bible, 1700\nThe Picture Art Collection / Alamy Stock Photo\nThe Ethiopian Bible, a sacred Christian text, was written in Ge’ez script. This page shows a scene\nannouncing the birth of an important figure in Christianity.\n2. Respond to parts A, B, and C.\nA. Describe one way the image serves as evidence of Christianity in early African societies.\nB. Describe an effect religions from outside of West Africa had on West African societies prior to\nthe seventeenth century.\nC. Explain one reason why syncretic spiritual practices developed in the African diaspora.",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Short-Answer Q2 (Non-Text Source, e.g. an image/map/chart), 3 points — parts A, B, C each worth 1 point, earned INDEPENDENTLY. Tasks combine DESCRIBE (relevant characteristics of the source or a related development, more than naming a term) and EXPLAIN (how/why a development occurs or a relationship exists). A part earns its point only when defensible, responsive to the sub-prompt, and — where required — grounded in the non-text source; off-topic, inaccurate, or under-described answers do not earn it.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample A",
+     "score": "3",
+     "summary": "SAQ Q2 (non-text source) scored 3/3 (A 1, B 1, C 1). All parts complete their describe/explain tasks with defensible, source-grounded content.",
+     "refId": "AFAM:saq2:2025-set2-2A"
+    },
+    {
+     "label": "Sample B",
+     "score": "2",
+     "summary": "SAQ Q2 scored 2/3 (A 1, B 0, C 1). Parts A and C earn credit; Part B fails to complete its task with defensible, responsive content.",
+     "refId": "AFAM:saq2:2025-set2-2B"
+    },
+    {
+     "label": "Sample C",
+     "score": "1",
+     "summary": "SAQ Q2 scored 1/3 (A 0, B 0, C 1). Only Part C earns credit; the earlier parts are under-described, off-topic, or inaccurate.",
+     "refId": "AFAM:saq2:2025-set2-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-afam-saq3-set-2",
+   "set": 2,
+   "label": "SAQ 3",
+   "section": "Section II",
+   "essayType": "Short Answer — No Source",
+   "topic": "",
+   "teaser": "A. Describe one way the rights of free African Americans were limited prior to 1865. B. Describe an example of a maroon society that contributed to Black and African American autonomy in the…",
+   "suggestedMinutes": 15,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-saq3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. Respond to parts A, B, and C.\nA. Describe one way the rights of free African Americans were limited prior to 1865.\nB. Describe an example of a maroon society that contributed to Black and African American\nautonomy in the eighteenth and/or nineteenth centuries.\nC. Using a specific example, explain how African Americans advocated for change in the first\nhalf of the twentieth century.",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Short-Answer Q3 (no stimulus / no source), 3 points — parts A, B, C each worth 1 point, earned INDEPENDENTLY, answered from disciplinary content knowledge. Tasks combine DESCRIBE (relevant characteristics of a specified topic, more than naming a term) and EXPLAIN (how/why a development occurs or a relationship exists). A part earns its point only when defensible, accurate, and responsive to the sub-prompt; naming a term without describing it or giving off-topic/inaccurate content does not earn it.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample A",
+     "score": "3",
+     "summary": "SAQ Q3 (short answer, no stimulus) scored 3/3 (A 1, B 1, C 1). All parts complete their describe/explain tasks with accurate, responsive content.",
+     "refId": "AFAM:saq3:2025-set2-3A"
+    },
+    {
+     "label": "Sample B",
+     "score": "2",
+     "summary": "SAQ Q3 scored 2/3 (A 1, B 0, C 1). Parts A and C earn credit; Part B fails to complete its task with defensible, responsive content.",
+     "refId": "AFAM:saq3:2025-set2-3B"
+    },
+    {
+     "label": "Sample C",
+     "score": "1",
+     "summary": "SAQ Q3 scored 1/3 (A 1, B 0, C 0). Only Part A earns credit; the remaining parts do not complete their tasks with accurate content.",
+     "refId": "AFAM:saq3:2025-set2-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-afam-dbq4-set-2",
+   "set": 2,
+   "label": "DBQ",
+   "section": "Section II",
+   "essayType": "Document-Based Question",
+   "topic": "",
+   "teaser": "Explain how twentieth century migrations have shaped Black communities in the United States. In your response you should do the following: • Respond to the prompt with a defensible thesis or claim…",
+   "suggestedMinutes": 40,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-african-american-studies/ap25-afam-dbq4-set-2.pdf",
+   "pageCount": 2,
+   "promptText": "4. Explain how twentieth century migrations have shaped Black communities in the United States.\nIn your response you should do the following:\n• Respond to the prompt with a defensible thesis or claim that establishes a line of\nreasoning.\n• Describe a broader historical or disciplinary context relevant to the topic of the prompt.\n• Support an argument in response to the prompt using at least three of the sources.\n• Use at least one additional piece of specific evidence (beyond that found in the sources)\nrelevant to your argument.\n• For at least two sources, explain how or why the perspective, purpose, context, and/or\naudience for each source is relevant to your argument.\n• Reference or cite the sources you use in your argument. You can reference or cite the\nsource letter , title, or author .\nSource 1\nSource: Claude McKay, A Long Way from Home, autobiography, recalling his life as an immigrant\nin New York City in 1918, autobiography published in 1937\n“I was intent on my own role—I a waiter—waiting for recognition as a poet. It was seven years\nsince I had arrived in the States from Jamaica, leaving behind me a local reputation as a poet. I\ncame to complete my education. But after a few years of study at the Kansas State College I was\ngripped by the lust to wander and wonder . The spirit of the vagabond,1 the daemon2 of some\npoets, had got hold of me. I quit college. I had no desire to return home. What I had previously\ndone was done. But I still cherished the urge to creative expression. I desired to achieve\nsomething new, something in the spirit and accent of America. Against its mighty throbbing\nforce, its grand energy and power and bigness, its bitterness burning in my [B]lack body, I\nwould raise my voice to make a canticle3 of my reaction.”\n1: wanderer\n2: supernatural being\n3: song\nSource 2\nSource: Editorial Letter , The Messenger, African American magazine, March 1920\n“Fellow Negroes of the South, leave there. Go North, East, and West—anywhere—to get out of\nthat hell hole. There are better schools here for your children, higher wages for yourselves,\nvotes if you are twenty-one, better housing and more liberty. All is not rosy here, by any means,\nbut it is Paradise compared with Georgia, Arkansas, Texas, Mississippi and Alabama. Besides,\nyou make it better for those you leave behind. Labor becomes scarce, so that the Bourbons1 of\nDixie are compelled to pay your brothers back home more wages. They will give them more\nschools and privileges, too, to try to get them to come back, and, secondly, to try to keep you\nfrom leaving.”\n1: conservative members of the Democratic Party in the South\nSource 3\nSource: Alain Locke, a scholar in New York City, article about a cultural shift published in Survey\nGraphic magazine, March 1925\n“The migrant masses, shifting from countryside to city, hurdle several generations of experience\nat a leap, but more important, the same thing happens spiritually in the lifeattitudes and self-\nexpression of the Young Negro, in his poetry, his art, his education and his new outlook, with\nthe additional advantage, of course, of the poise1 and greater certainty of knowing what it is all\nabout....\nTo all of this the New Negro is keenly responsive as an augury2 of a new democracy in American\nculture....\nHe now becomes a conscious contributor and lays aside the status of a beneficiary and ward3\nfor that of a collaborator and participant in American civilization. The great social gain in this\nis the releasing of our talented group from the arid4 fields of controversy and debate to the\nproductive fields of creative expression.”\n1: grace\n2: sign\n3: dependent\n4: dry\nSource 4\nSource: Bar graph showing the percentage of Black population in the United States who are\nforeign born, 1980 to 2060\n“Key findings about Black immigrants in the U.S.” Pew Research Center, Washington, D.C., (January 27, 2022). https://www.\npewresearch.org/short-reads/2022/01/27/key-findings-about-black-immigrants-in-the-u-s/.",
+   "sourceText": null,
+   "scoringGuide": "AP African American Studies Document-Based Question (Q4, 7 points), Thesis/Claim (0–1). 1 point: responds to the prompt with a defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The claim must give a reason OR establish categories, in one place (intro or conclusion).\n\nAP African American Studies DBQ, Context (0–1). 1 point: accurately describes a broader historical context (events/developments/processes/disciplinary connections) relevant to the prompt's topic. Does NOT earn it for an overgeneralized statement, irrelevant/inaccurate context, or a passing phrase. Must be more than a phrase, with elaboration tying it to the topic.\n\nAP African American Studies DBQ, Evidence from Sources (0–2). 1 point: accurately describes (not merely quotes) the content of at least TWO sources to address the topic. 2 points: uses at least THREE sources to support an argument in response to the prompt. Does NOT earn points for using fewer than two sources, misinterpreting content, quoting without description, or treating sources collectively rather than each separately.\n\nAP African American Studies DBQ, Evidence Beyond Sources (0–1). 1 point: uses at least one additional specific piece of evidence (beyond the sources) relevant to an argument about the prompt. Does NOT earn it for irrelevant/off-topic evidence, repeating the prompt or a source, or a passing phrase. Must differ from the contextualization evidence and be more than a phrase; may appear anywhere.\n\nAP African American Studies DBQ, Source Use (0–1). 1 point: for at least TWO sources, explains how or why the source's point of view, purpose, context, and/or audience is relevant to an argument. Does NOT earn it for sourcing fewer than two, merely identifying POV/purpose/context/audience without explaining relevance, or summarizing content without connecting it to sourcing.\n\nAP African American Studies DBQ, Reasoning (0–1). 1 point: uses a reasoning process (causation, comparison, continuity/change across time or geography) to set up or structure an argument that addresses the prompt. The reasoning may be uneven or the evidence may lack specificity, but it must frame a prompt-relevant argument rather than merely assert a skill.",
+   "rubric": [
+    {
+     "name": "Thesis/Claim",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies Document-Based Question (Q4, 7 points), Thesis/Claim (0–1). 1 point: responds to the prompt with a defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The claim must give a reason OR establish categories, in one place (intro or conclusion)."
+    },
+    {
+     "name": "Context",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies DBQ, Context (0–1). 1 point: accurately describes a broader historical context (events/developments/processes/disciplinary connections) relevant to the prompt's topic. Does NOT earn it for an overgeneralized statement, irrelevant/inaccurate context, or a passing phrase. Must be more than a phrase, with elaboration tying it to the topic."
+    },
+    {
+     "name": "Evidence from Sources",
+     "maxPoints": 2,
+     "criteria": "AP African American Studies DBQ, Evidence from Sources (0–2). 1 point: accurately describes (not merely quotes) the content of at least TWO sources to address the topic. 2 points: uses at least THREE sources to support an argument in response to the prompt. Does NOT earn points for using fewer than two sources, misinterpreting content, quoting without description, or treating sources collectively rather than each separately."
+    },
+    {
+     "name": "Evidence Beyond Sources",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies DBQ, Evidence Beyond Sources (0–1). 1 point: uses at least one additional specific piece of evidence (beyond the sources) relevant to an argument about the prompt. Does NOT earn it for irrelevant/off-topic evidence, repeating the prompt or a source, or a passing phrase. Must differ from the contextualization evidence and be more than a phrase; may appear anywhere."
+    },
+    {
+     "name": "Source Use",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies DBQ, Source Use (0–1). 1 point: for at least TWO sources, explains how or why the source's point of view, purpose, context, and/or audience is relevant to an argument. Does NOT earn it for sourcing fewer than two, merely identifying POV/purpose/context/audience without explaining relevance, or summarizing content without connecting it to sourcing."
+    },
+    {
+     "name": "Reasoning",
+     "maxPoints": 1,
+     "criteria": "AP African American Studies DBQ, Reasoning (0–1). 1 point: uses a reasoning process (causation, comparison, continuity/change across time or geography) to set up or structure an argument that addresses the prompt. The reasoning may be uneven or the evidence may lack specificity, but it must frame a prompt-relevant argument rather than merely assert a skill."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "7",
+     "summary": "DBQ (how 20th-century migrations shaped Black communities in the US) scored 7/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 1, Source Use 1, Reasoning 1). Full credit across every row: a defensible thesis with a line of reasoning, relevant broader context, three sources used to support the argument, an additional outside piece of evidence, explained sourcing for two sources, and a reasoning process (causation/comparison/change) framing the argument.",
+     "refId": "AFAM:dbq:2025-set2-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "DBQ scored 4/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 0, Source Use 0, Reasoning 0). Earns the thesis, context, and both source-evidence points (three sources used to support the argument) but misses Evidence Beyond, Source Use, and Reasoning — a common mid-range profile where the response marshals the sources well but neither sources them (explains POV/purpose/audience) nor frames the argument with a reasoning process.",
+     "refId": "AFAM:dbq:2025-set2-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "DBQ scored 1/7 (Thesis 1, all other rows 0). Only a defensible thesis is present; the response lacks relevant context, does not use at least two sources to address the topic, offers no outside evidence, does not source, and frames no reasoning. Illustrates the floor: the thesis point is the most accessible, but every other row requires specific, developed work.",
+     "refId": "AFAM:dbq:2025-set2-4C"
+    }
+   ]
+  }
+ ]
+}

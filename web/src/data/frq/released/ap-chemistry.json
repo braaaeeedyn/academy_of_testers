@@ -1,0 +1,422 @@
+{
+ "subjectName": "AP Chemistry",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-chemistry-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Long Answer",
+   "topic": "",
+   "teaser": "Answer the following questions about magnesium. A. An incomplete mass spectrum for magnesium is shown in the diagram. The percent abundance of magnesium-24 is 79%. The percent abundances of the…",
+   "suggestedMinutes": 23,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-chemistry/ap25-chemistry-q1.pdf",
+   "pageCount": 3,
+   "promptText": "1. Answer the following questions about magnesium.\nA. An incomplete mass spectrum for magnesium is shown in the diagram.\nThe percent abundance of magnesium-24 is 79%. The percent abundances of the other two\nnatural isotopes of magnesium, magnesium-25 and magnesium-26, are approximately equal.\ni. Complete the mass spectrum in part A by drawing thick lines in the appropriate locations\nto represent the percent abundance of magnesium-25 and magnesium-26.\nii. Describe the difference in atomic structure that accounts for the difference in mass\nbetween magnesium-25 and magnesium-26.\nA student prepares a . M18 51 0× 3- solution of () ()Mg NO aq32 in beaker 1 and a . M28 01 0× 4-\nsolution of ()NaOH aq in beaker 2, as shown.\nB. The particle diagram shown represents a magnesium ion, Mg2+ , in beaker 1. A sodium\nion, Na+ , in beaker 2 has a weaker attraction to water than the Mg2+ does. Explain this\nphenomenon using Coulomb’s law and each of the following.\ni. The relative charge of the ions\nii. The relative radii of the ions\nC. Calculate the pH of the solution in beaker 2.\nD. A student combines 35.00 mL of .( )( )Mg NOMa q18 51 0× 3\n32\n- with 50.00 mL of\n.( )NaOHMa q28 01 0× 4- , as shown in the diagram. Calculate Mg2+8B after the two solutions are\ncombined but before any reaction takes place. (Assume that volumes are additive.)\nE. The dissolution of magnesium hydroxide is represented by the following equation.\n() () () () .Mg OH Mg OHsa qa qK25 61 10 ×sp2\n21 2E +=+- -\ni. Write the expression for the solubility product constant, Ksp .\nii. After the two solutions are combined in beaker 3 as described in part D, but before any\nreaction takes place, .OH M16 51 0× 4=--7 A . Using your answer to part D, calculate the\nvalue of the reaction quotient, Q.\niii. Using the reaction quotient, Q, predict whether a precipitate should form as the mixture\nin beaker 3 approaches equilibrium. Justify your answer .\nF. In a separate experiment, the student adds ()HNO aq3 to decrease the pH of a saturated\nsolution containing undissolved () ()Mg OH s2 . Does the amount of undissolved () ()Mg OH s2\nincrease, decrease, or remain the same as the ()HNO aq3 is added? Justify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Chemistry Q1 (Long Answer), 10 points, one point per part. Topic: magnesium isotopes, Coulombic attraction, and Mg(OH)2 solubility. A(i) [Pt1]: plot two mass-spectrum lines for Mg-25 and Mg-26 with relative abundance between 10 and 11. A(ii) [Pt2]: Mg-26 has one more neutron than Mg-25. B(i) [Pt3]: Na+ has a smaller charge than Mg2+, so weaker Coulombic attraction to water. B(ii) [Pt4]: Na+ is larger than Mg2+, so greater ion–water distance and weaker attraction (must reference interparticle distance, not nuclear pull). C [Pt5]: pOH = −log(2.80×10^−4)=3.553, pH=10.447. D [Pt6]: dilution M1V1=M2V2 to get [Mg2+]=7.62×10^−4 M after mixing (uses final combined volume). E(i) [Pt7]: Ksp=[Mg2+][OH−]^2 (OH− squared, correct charges). E(ii) [Pt8]: Q=[Mg2+][OH−]^2=2.07×10^−11, consistent with D. E(iii) [Pt9]: Q>Ksp so a precipitate forms. F [Pt10]: adding HNO3 decreases [OH−] making Q<Ksp, so more Mg(OH)2 dissolves (less solid). Common failure: forgetting to square [OH−], using initial volume in dilution, and attributing F to a common-ion or direct acid–solid reaction.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A(i) [Pt1]: plot two mass-spectrum lines for Mg-25 and Mg-26 with relative abundance between 10 and 11; A(ii) [Pt2]: Mg-26 has one more neutron than Mg-25"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B(i) [Pt3]: Na+ has a smaller charge than Mg2+, so weaker Coulombic attraction to water; B(ii) [Pt4]: Na+ is larger than Mg2+, so greater ion–water distance and weaker attraction (must reference interparticle distance, not nuclear pull)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [Pt5]: pOH = −log(2.80×10^−4)=3.553, pH=10.447"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [Pt6]: dilution M1V1=M2V2 to get [Mg2+]=7.62×10^−4 M after mixing (uses final combined volume)"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part E exactly as the official 2025 scoring guideline for this question specifies. E(i) [Pt7]: Ksp=[Mg2+][OH−]^2 (OH− squared, correct charges); E(ii) [Pt8]: Q=[Mg2+][OH−]^2=2.07×10^−11, consistent with D; E(iii) [Pt9]: Q>Ksp so a precipitate forms"
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies. F [Pt10]: adding HNO3 decreases [OH−] making Q<Ksp, so more Mg(OH)2 dissolves (less solid)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 scored 10/10 (all points). Correctly plotted both isotope lines and related the mass difference to neutrons (A); explained the weaker Na+–water attraction by both smaller charge and larger radius/greater distance (B); pH=10.45 from pOH (C); dilution to 7.62×10^−4 M using the final volume (D); correct Ksp expression with [OH−]^2, Q=2.07×10^−11, and Q>Ksp precipitate prediction (E); and the shift explanation for adding HNO3 (F). Full-credit model.",
+     "refId": "CHEM:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "5",
+     "summary": "Q1 scored 5/10. Earned A(i), A(ii), B(i), C, and E(iii). Lost B(ii) (referred to nuclear pull rather than ion–water interparticle attraction), D (found moles of Mg2+ but not the molarity after mixing), E(i) (wrote [2OH−]^2 instead of [OH−]^2), E(ii) (computed a quotient of ion concentrations rather than the product, and did not square [OH−]), and F (claimed undissolved Mg(OH)2 increases, with a flawed common-ion argument). Illustrates the recurring squaring/expression errors in Ksp problems.",
+     "refId": "CHEM:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "2",
+     "summary": "Q1 scored 2/10. Earned only A(i) (both lines at abundance 10) and E(iii) (Q>Ksp precipitate). Lost A(ii) (attributed mass difference to charge), B(i)/B(ii) (electronegativity/size errors), C (treated [OH−] as [H3O+], reporting pOH as pH), D (assumed 1 mol Mg2+ and divided by initial volume), E(i) (included the solid, omitted charges, misplaced the square), and E(ii)/F (product/quotient and mechanism errors). Illustrates a low response that still banks the qualitative precipitate prediction.",
+     "refId": "CHEM:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-chemistry-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Long Answer",
+   "topic": "",
+   "teaser": "Answer the following questions about ascorbic acid (vitamin C). A. A student combusts a sample of ascorbic acid, CH Oxy x , to determine its chemical composition. The only products of the reaction…",
+   "suggestedMinutes": 23,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-chemistry/ap25-chemistry-q2.pdf",
+   "pageCount": 2,
+   "promptText": "2. Answer the following questions about ascorbic acid (vitamin C).\nA. A student combusts a sample of ascorbic acid, CH Oxy x , to determine its chemical\ncomposition. The only products of the reaction are 0.2400 mol of CO2 and 2.883 g of HO2 .\ni. Calculate the number of moles of HO2 produced.\nii. The mole ratio of carbon (C) to oxygen (O) is 1:1 in ascorbic acid. Based on this\ninformation and your answer to part A (i), determine the empirical formula of ascorbic\nacid.\nB. Ascorbic acid, ()HAsc aq , acts as a weak acid, as shown in the equation.\n() () () ()HAsc HO HO Ascaq la qa q23 E++ +-\nThe following titration curve was produced when a 10.0 mL sample of ()HAsc aq was titrated\nusing .( )NaOHMa q0 0550 .\ni. Calculate the molar concentration of the ascorbic acid solution.\nii. From the titration curve, determine the approximate pKa of ascorbic acid.\niii. What is the value of the ratio HAsc\nAsc\n-\n7\n7 A\nA when the pH of the solution is 4.7?\nC. Dehydroascorbic acid (DHAs c) can be produced by reacting ascorbic acid with the triiodide\nion, I3\n- , as represented by the following equation.\nHAsc I DHAsc IH323 \"++ +-- +\nThe student runs three trials of the reaction with different initial concentrations of HAsc and\nI3\n- , producing the following data.\nTrial []HAs c M _i I M3\n- _i7 A Initial Rate of\nDHAs c Formation /sM_i\n1 0.450 1.200 .2 457 10× 4-\n2 0.450 0.600 .1 229 10× 4-\n3 0.900 1.200 .4 914 10× 4-\ni. The rate law for the reaction is IHAs crate k 3= -7 7A A. Explain how the data in the table\nsupport the conclusion that the reaction is first order with respect to HAs c7 A.\nii. Calculate the value of the rate constant, k, for the reaction. Include units with your\nanswer .\nD. The triiodide ion, I3\n- , is significantly more soluble in water than elemental iodine, I2, is.\nIdentify an intermolecular force between I3\n- and water that is not present between I2 and\nwater , which could explain the difference in solubility. Lewis diagrams for I2 and I3\n- are\nprovided.",
+   "sourceText": null,
+   "scoringGuide": "AP Chemistry Q2 (Long Answer), 10 points, one point per part. Topic: ascorbic acid — combustion/empirical formula, titration, and kinetics. A(i) [Pt1]: moles of H2O from mass (2.883 g ÷ 18.02 = 0.1600 mol). A(ii) [Pt2]: moles of H (×2 = 0.3200 mol); [Pt3]: empirical formula C3H4O3 from C:H:O mole ratio. B(i) [Pt4]: [HAsc] from titration (0.0160 L × 0.0550 M NaOH ÷ 0.0100 L = 0.0880 M). B(ii) [Pt5]: pKa = pH at the half-equivalence point ≈ 4.1. B(iii) [Pt6]: [Asc−]/[HAsc] via Henderson–Hasselbalch (≈4.0), consistent with B(ii). C(i) [Pt7]: order with respect to HAsc is 1 (rate doubles when [HAsc] doubles at constant [I3−], trials 1 and 3). C(ii) [Pt8]: rate constant k from one trial (≈4.55×10^−4); [Pt9]: correct units M^−1 s^−1. D [Pt10]: I3− has ion–dipole attractions with water while I2 does not. Common failure: reading pKa at the equivalence rather than half-equivalence point; wrong k units; naming dipole–dipole/LDF instead of ion–dipole in D.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies. A(i) [Pt1]: moles of; A(ii) [Pt2]: moles of H (×2 = 0.3200 mol); [Pt3]: empirical formula"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies. B(i) [Pt4]: [HAsc] from titration (0.0160 L × 0.0550 M NaOH ÷ 0.0100 L = 0.0880 M); B(ii) [Pt5]: pKa = pH at the half-equivalence point ≈ 4.1; B(iii) [Pt6]: [Asc−]/[HAsc] via Henderson–Hasselbalch (≈4.0), consistent with; B(ii)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies. C3H4O3 from; C:H:O mole ratio; C(i) [Pt7]: order with respect to HAsc is 1 (rate doubles when [HAsc] doubles at constant [I3−], trials 1 and 3); C(ii) [Pt8]: rate constant k from one trial (≈4.55×10^−4); [Pt9]: correct units M^−1 s^−1"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [Pt10]:"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "10",
+     "summary": "Q2 scored 10/10 (all points). Correct moles of H2O, moles of H, and empirical formula C3H4O3 (A); [HAsc] from the titration, pKa at the half-equivalence point, and [Asc−]/[HAsc] via Henderson–Hasselbalch (B); first order in HAsc from trials 1 and 3, correct rate constant, and units M^−1 s^−1 (C); ion–dipole forces between I3− and water (D). Full-credit model.",
+     "refId": "CHEM:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "5",
+     "summary": "Q2 scored 5/10. Earned A(i), A(ii), A(iii) (empirical formula), C(i) (first order), and C(ii) rate constant. Lost B(i) (computed H+ of the NaOH solution rather than [HAsc] from the titration curve), B(ii) (reported pKa at the equivalence point instead of half-equivalence), B(iii) (ratio not determined), the k-units point (wrong units), and D (called the force dipole–dipole rather than ion–dipole). Shows the classic half-equivalence-point misread.",
+     "refId": "CHEM:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 scored 2/10. Earned only A(i) (moles of H2O) and C(i) (first order in HAsc). Lost A(ii)/A(iii) (no moles of H, wrong empirical formula), B(i) (set up a Kc expression instead of using titration data), B(ii)/B(iii) (no half-equivalence reasoning, no ratio), C(ii) and units (k not calculated), and D (named LDF, shared by both species, plus an incorrect dipole–dipole). Illustrates a low response that banks only the stoichiometry and the reaction-order reading.",
+     "refId": "CHEM:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-chemistry-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Long Answer",
+   "topic": "",
+   "teaser": "White phosphorus is composed of P4 molecules with a tetrahedral structure, as shown in the diagram on the left. Each P atom is bonded to the other three P atoms by single bonds, as shown in the…",
+   "suggestedMinutes": 23,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-chemistry/ap25-chemistry-q3.pdf",
+   "pageCount": 3,
+   "promptText": "3. White phosphorus is composed of P4 molecules with a tetrahedral structure, as shown in the\ndiagram on the left. Each P atom is bonded to the other three P atoms by single bonds, as shown\nin the incomplete Lewis diagram on the right.\nA. In the box in part A, complete the Lewis diagram for P4 by drawing the nonbonding\nelectrons.\nB. The reaction of white phosphorus with oxygen to form ()PO s41 0 is thermodynamically\nfavorable at 298 K. The reaction is represented by equation 1.\nEquation 1: () () ()PO POsg s5 42 41 0\"+\ni. The entropy change of the reaction, ST c, is negative. Using particle-level reasoning,\nexplain why the entropy decreases as the reaction progresses.\nii. The enthalpy change of the reaction, HT c, is also negative. A student claims that the\nfavorability of the reaction is driven by enthalpy and not by entropy. Is the student’s\nclaim correct? Justify your answer by using the relationship between GT c, HT c, and ST c.\n()PO s41 0 reacts exothermically with water to form phosphoric acid, as represented by\nequation 2.\nEquation 2: () () ()PO HO HP Osl aq64 41 02 34\"+\nA chemist uses a calorimetry experiment to determine the enthalpy change for the reaction, as\nrepresented by the following diagram.\nC. The chemist carries out the calorimetry experiment and records the following information.\nMass of PO41 0 0.100 g\nMass of HO2 100.0 g\nInitial temperature . C22 00°\nFinal temperature . C22 38°\nMolar mass of PO41 0 283.9 /gm ol\nSpecific heat of HO2 4.18 /Jg C·°_i\ni. Calculate the amount of heat, q, released during the experiment, in kJ. Assume that the\nspecific heat of the solution is the same as that of water .\nii. Calculate the value of HrxnT % for equation 2 in /kJ mo lrxn . Include the sign in your answer .\nD. The chemist weighed out 0.100 g PO41 0 of and 100.0 g of HO2 to perform a second trial. In the\nsecond trial, some of the solid PO41 0 stuck to the weighing paper and was not transferred to\nthe calorimeter . Given that PO41 0 is the limiting reactant, would TT for the second trial be\ngreater than, less than, or equal to the value in the first trial? Justify your answer .\n()P s4 also reacts readily with ()Cl g2 to produce phosphorus trichloride, ()PC l g3 , which in turn\nreacts with ()Cl g2 in an equilibrium process to produce ()PC l g5 . The reactions are represented\nby equations 3 and 4.\nEquation 3: () () ()PC lP Clsg g64 42 3\"+ /kJ mo lH 1148 rxn1T =-%\nEquation 4: () () ()PC lC lP Clgg g 32 5E+ /kJ mo lH 88 rxn2T =-%\nE. Calculate the standard enthalpy of formation of ()PC l g5 represented by equation 5.\nEquation 5: ?PC lP Clsg gH4\n1\n2\n5 f42 5\" T+= %__ _ii i\nThe following particle-level diagram represents the contents of the vessel in an equilibrium\nmixture at 546 K involving equation 4.\nF. Equation 4 for the reaction that occurs is shown.\nEquation 4: () () ()PC lC lP Clgg g 32 5E+ /kJ mo lH 88 rxn2T =-%\ni. If each particle in the diagram represents a partial pressure of 1.00 atm, what is the value\nof Kp for the equilibrium mixture at 546 K?\nii. Does the value of Kp increase, decrease, or remain the same when the temperature is\nincreased to 596 K? Justify your answer based on H2T %.",
+   "sourceText": null,
+   "scoringGuide": "AP Chemistry Q3 (Long Answer), 10 points, one point per part. Topic: phosphorus oxides — Lewis structure, thermodynamics, calorimetry, Hess's law, and equilibrium. A [Pt1]: correct Lewis diagram (two lone-pair electrons on each P atom). B(i) [Pt2]: entropy decreases because gaseous reactants have more microstates/dispersal than the solid product (particle-level reasoning required). B(ii) [Pt3]: using ΔG°=ΔH°−TΔS°, the reaction is favorable because it is exothermic (ΔH°<0 drives favorability; ΔS°<0 does not). C(i) [Pt4]: q=mcΔT (≈0.16 kJ) reported to correct sig figs (two). C(ii) [Pt5]: ΔH°rxn magnitude per mole (≈450 kJ/mol) consistent with C(i); [Pt6]: correct negative sign (exothermic). D [Pt7]: with less P4O10, ΔT is 'less than' because less thermal energy is transferred. E [Pt8]: ΔHf via Hess's law (−375 kJ/mol). F(i) [Pt9]: Kp from partial pressures read off the particle diagram (=0.333); F(ii) [Pt10]: Kp decreases with higher T because the exothermic reaction favors reactants. Common failure: significant-figure errors (C(i)), dividing q by coefficients instead of moles of P4O10 (C(ii)), and temperature/equilibrium reasoning errors in D and F(ii).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [Pt1]: correct Lewis diagram (two lone-pair electrons on each P atom)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B(i) [Pt2]: entropy decreases because gaseous reactants have more microstates/dispersal than the solid product (particle-level reasoning required); B(ii) [Pt3]: using ΔG°=ΔH°−TΔS°, the reaction is favorable because it is exothermic (ΔH°<0 drives favorability; ΔS°<0 does not)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies. C(i) [Pt4]: q=mcΔT (≈0.16 kJ) reported to correct sig figs (two); C(ii) [Pt5]: ΔH°rxn magnitude per mole (≈450 kJ/mol) consistent with; C(i); [Pt6]: correct negative sign (exothermic); C(i)), dividing q by coefficients instead of moles of P4O10 (; C(ii)), and temperature/equilibrium reasoning errors in D and"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [Pt7]: with less P4O10, ΔT is 'less than' because less thermal energy is transferred"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E [Pt8]: ΔHf via Hess's law (−375 kJ/mol)"
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part F exactly as the official 2025 scoring guideline for this question specifies. F(i) [Pt9]: Kp from partial pressures read off the particle diagram (=0.333); F(ii) [Pt10]: Kp decreases with higher T because the exothermic reaction favors reactants; F(ii)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "10",
+     "summary": "Q3 scored 10/10 (all points). Correct Lewis lone pairs (A); microstate-based entropy explanation and enthalpy-driven favorability (B); q to two sig figs, ΔH°rxn magnitude, and negative sign (C); ΔT 'less than' with less P4O10 (D); Hess's-law ΔHf (E); Kp from the particle diagram and Kp decreasing with higher T (F). Full-credit model.",
+     "refId": "CHEM:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "5",
+     "summary": "Q3 scored 5/10. Earned A, B(i), B(ii), C(ii) sign point, and E (Hess's law). Lost C(i) (correct q but reported to three sig figs instead of two), C(ii) magnitude (divided q by stoichiometric coefficients rather than moles of P4O10), D (said ΔT increases), F(i) (partial pressures not consistent with the diagram), and F(ii) (correct 'decrease' but no statement that exothermic reactions favor reactants at higher T). Shows how a sig-fig slip and a mole/coefficient error cost multiple points.",
+     "refId": "CHEM:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "3",
+     "summary": "Q3 scored 3/10. Earned A (Lewis lone pairs), E (Hess's law), and F(i) (Kp from the diagram). Lost B(i) (no particle-level reasoning), B(ii) (answered the wrong prompt about the driving force), C(i) (sig figs), C(ii) (wrong moles of P4O10 and missing negative sign), D (said 'equal to'), and F(ii) (said Kp increases with an invalid pressure–temperature justification). Illustrates a low response holding only the structure, Hess's-law, and Kp-calculation points.",
+     "refId": "CHEM:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-chemistry-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Short Answer",
+   "topic": "",
+   "teaser": "A scientist is investigating the properties of a mixture of CH OH3 and HC O2 . The scientist generates the following diagram to represent the mixture. A. Identify the hybridization of the valence…",
+   "suggestedMinutes": 9,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-chemistry/ap25-chemistry-q4.pdf",
+   "pageCount": 1,
+   "promptText": "4. A scientist is investigating the properties of a mixture of CH OH3 and HC O2 . The scientist\ngenerates the following diagram to represent the mixture.\nA. Identify the hybridization of the valence orbitals of the C atom in the HC O2 molecule.\nB. In the diagram provided, draw a SINGLE dashed line (----) to represent a strong hydrogen-\nbonding attraction between one CH OH3 molecule and one HC O2 molecule in the mixture.\nC. The scientist plans to cool a gaseous mixture of CH OH3 and HC O2 to form a liquid mixture\nand finds data on the two compounds. The data are summarized in the table.\nSubstance\nMelting Point\n(K)\nBoiling Point\n(K)\nEnthalpy of Vaporization\n( /kJ mo l)\nCH OH3 176 338 37.6\nHC O2 181 254 24.2\ni. Propose a temperature to which the mixture should be cooled such that CH OH3 and\nHC O2 will both be liquids.\nii. The scientist analyzes the mixture after it is cooled and determines that 8.59 g of\n()CH OH l3 is present. Calculate the amount of thermal energy, in kJ, that was removed to\ncondense the 8.59 g of CH OH3 (molar mass 32.04 /gm ol) at its boiling point.",
+   "sourceText": null,
+   "scoringGuide": "AP Chemistry Q4 (Short Answer), 4 points, one per part. Topic: formaldehyde (H2CO) and methanol (CH3OH). A [Pt1]: hybridization of the C in H2CO is sp2 (three electron domains). B [Pt2]: draw a hydrogen bond — a dashed line between the O of H2CO and the H of the O–H group of CH3OH. C(i) [Pt3]: propose a temperature (181 K–254 K) at which both substances are liquids (between each one's melting and boiling points). C(ii) [Pt4]: energy released on condensation = moles CH3OH × ΔHvap (8.59 g → ≈10.1 kJ removed). Common failure: assigning sp3 to the trigonal-planar carbon; drawing an H bond from a C–H (too small a dipole); misusing q=mcΔT at a phase change instead of moles×ΔHvap.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [Pt1]: hybridization of the C in"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [Pt2]: draw a hydrogen bond — a dashed line between the O of"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C(i) [Pt3]: propose a temperature (181 K–254 K) at which both substances are liquids (between each one's melting and boiling points); C(ii) [Pt4]: energy released on condensation = moles CH3OH × ΔHvap (8.59 g → ≈10.1 kJ removed)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "4",
+     "summary": "Q4 scored 4/4. sp2 hybridization for the carbon (A); a valid hydrogen bond from the O–H hydrogen of CH3OH to the O of H2CO (B); 215 K correctly recognized as between the melting and boiling points of both, so both liquid (C i); moles of CH3OH × ΔHvap giving the energy removed on condensation (C ii). Full-credit model.",
+     "refId": "CHEM:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "2",
+     "summary": "Q4 scored 2/4. Earned B (valid hydrogen bond) and C(i) (185 K, both liquid). Lost A (called the carbon sp3, which would need four domains rather than three) and C(ii) (used q=mcΔT with the boiling point as ΔT and water's specific heat, but no temperature change occurs at a phase change). Shows the common phase-change energy error.",
+     "refId": "CHEM:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "Q4 scored 1/4. Earned only A (sp2 for the H2CO carbon). Lost B (drew the H bond from a C–H, whose dipole is too small), C(i) (chose 120 K, below both melting points, so both are solids; also misused a degree symbol for kelvin), and C(ii) (divided rather than multiplied by ΔHvap). Illustrates a response that secures only the hybridization point.",
+     "refId": "CHEM:q4:2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-chemistry-q5",
+   "set": null,
+   "label": "Q5",
+   "section": null,
+   "essayType": "Short Answer",
+   "topic": "",
+   "teaser": "Complete Lewis diagrams and some physical properties for compounds X and Y are given. Compound X Y Lewis diagram Molar mass 74.1 /gm ol 90.2 /gm ol Boiling point C82° C98° A. Based on VSEPR…",
+   "suggestedMinutes": 9,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-chemistry/ap25-chemistry-q5.pdf",
+   "pageCount": 1,
+   "promptText": "5. Complete Lewis diagrams and some physical properties for compounds X and Y are given.\nCompound X Y\nLewis diagram\nMolar mass 74.1 /gm ol 90.2 /gm ol\nBoiling point C82° C98°\nA. Based on VSEPR theory, predict the geometry around the Si atom in compound Y.\nB. A student claims that compound Y has a higher boiling point than that of compound X\nbecause compound Y has stronger London dispersion forces. Do you agree or disagree?\nJustify your answer .\nC. An equimolar mixture of the two compounds is heated. When the mixture reaches C82° ,\nwhich compound will have the higher vapor pressure? Justify your answer .\nD. The mixture is heated to C198° in a sealed, rigid 12.5 L container , at which point both\nsubstances are gases and the total pressure in the container is 2.30 atm. Calculate the number\nof moles of gas particles in the container .",
+   "sourceText": null,
+   "scoringGuide": "AP Chemistry Q5 (Short Answer), 4 points, one per part. Topic: analogous C and Si compounds (X vs Y) and gas laws. A [Pt1]: electron geometry around the central atom is tetrahedral. B [Pt2]: agree — compound Y (Si) has a larger, more polarizable electron cloud (more occupied electron shells) than X (C), giving stronger London dispersion forces and a higher boiling point. C [Pt3]: compound X has the higher vapor pressure at 82°C (weaker IMFs / X has reached its boiling point while Y has not). D [Pt4]: PV=nRT to find moles (≈0.744 mol). Common failure: attributing Y's stronger LDFs to molar mass instead of polarizability/electron-cloud size; stating agreement without a justification; adding molar masses instead of applying PV=nRT.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [Pt1]: electron geometry around the central atom is tetrahedral"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [Pt2]: agree — compound Y (Si) has a larger, more polarizable electron cloud (more occupied electron shells) than X (C), giving stronger London dispersion forces and a higher boiling point"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [Pt3]: compound X has the higher vapor pressure at 82°C (weaker IMFs / X has reached its boiling point while Y has not)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [Pt4]: PV=nRT to find moles (≈0.744 mol)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 5A",
+     "score": "4",
+     "summary": "Q5 scored 4/4. Tetrahedral geometry (A); 'yes,' with Si having more electron shells and a more polarizable electron cloud than C (B); compound X higher vapor pressure with a valid boiling-point comparison at 82°C (C); moles via PV=nRT with supporting setup (D). Full-credit model.",
+     "refId": "CHEM:q5:2025-5A"
+    },
+    {
+     "label": "Sample 5B",
+     "score": "3",
+     "summary": "Q5 scored 3/4. Earned A (tetrahedral), C (X higher vapor pressure, weaker IMFs), and D (correct moles; a minor R-value typo did not affect the three-sig-fig answer). Lost B: attributed Y's larger London dispersion forces to 'larger molar mass' rather than the larger, more polarizable electron cloud. Shows the frequent polarizability-vs-molar-mass justification error.",
+     "refId": "CHEM:q5:2025-5B"
+    },
+    {
+     "label": "Sample 5C",
+     "score": "1",
+     "summary": "Q5 scored 1/4. Earned only C (X has the greater vapor pressure because it has reached its boiling point while Y has not). Lost A (did not identify tetrahedral geometry), B (agreed but gave no justification), and D (added molar masses instead of using PV=nRT). Illustrates a response holding only the vapor-pressure comparison.",
+     "refId": "CHEM:q5:2025-5C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-chemistry-q6",
+   "set": null,
+   "label": "Q6",
+   "section": null,
+   "essayType": "Short Answer",
+   "topic": "",
+   "teaser": "A scientist constructs a galvanic cell as shown in the diagram. As the cell operates, the ()Zn s electrode increases in mass and the ()Al s electrode decreases in mass. A data table with the…",
+   "suggestedMinutes": 9,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-chemistry/ap25-chemistry-q6.pdf",
+   "pageCount": 2,
+   "promptText": "6. A scientist constructs a galvanic cell as shown in the diagram. As the cell operates, the ()Zn s\nelectrode increases in mass and the ()Al s electrode decreases in mass. A data table with the\nstandard reduction potentials for the substances follows the diagram.\nHalf-Reaction VE c _i\n() ()Zn Znaq es2 2 \"++- .07 6-\n() ()Al Alaq es3 3 \"++- .16 6-\nA. Write the half-reaction for the oxidation that occurs at the anode.\nB. Write the balanced net ionic equation for the overall reaction that occurs in the galvanic cell.\nC. Initially, each electrode has a mass of 50.0 g. The cell is allowed to run for a period of time\nand is then stopped. Which electrode’s mass changed the most? Justify your answer with a\ncalculation.\nReduction Half-Reaction VE c _i\n() ()Au Auaq es3 3 \"++- .15 0+\n() ()Zn Znaq es2 2 \"++- .07 6-\n() ()Mn Mnaq es2 2 \"++- .11 9-\n() ()Al Alaq es3 3 \"++- .16 6-\n() ()Be Beaq es2 2 \"++- .18 5-\nD. The standard /Zn Al cell has a value of Ecell% equal to 0.90 V . The scientist needs a galvanic cell\nthat produces a greater voltage. The scientist has access to the chemical systems in the table.\nIf the scientist uses the Zn half-cell and one of the other options from the table, what is the\nMAXIMUM voltage that could be generated at standard conditions?",
+   "sourceText": null,
+   "scoringGuide": "AP Chemistry Q6 (Short Answer), 4 points, one per part. Topic: electrochemistry (Al/Zn galvanic cell). A [Pt1]: oxidation half-reaction Al → Al3+ + 3e−. B [Pt2]: balanced net ionic equation 2 Al + 3 Zn2+ → 2 Al3+ + 3 Zn. C [Pt3]: Zn experiences the greater mass change — must justify with molar masses AND stoichiometry (for every ~54 g Al consumed, ~196 g Zn is produced; a mole ratio alone is insufficient). D [Pt4]: calculate the maximum cell potential from the table (Zn oxidized, Au3+ reduced): E°cell = 1.50 + 0.76 = 2.26 V. Common failure: in C, comparing moles without molar masses; in D, picking a cell pairing that does not maximize E°cell.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [Pt1]: oxidation half-reaction Al → Al3+ + 3e−"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [Pt2]: balanced net ionic equation 2 Al + 3 Zn2+ → 2 Al3+ + 3 Zn"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [Pt3]: Zn experiences the greater mass change — must justify with molar masses AND stoichiometry (for every ~54 g Al consumed, ~196 g Zn is produced; a mole ratio alone is insufficient)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [Pt4]: calculate the maximum cell potential from the table (Zn oxidized, Au3+ reduced): E°cell = 1.50 + 0.76 = 2.26 V"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 6A",
+     "score": "4",
+     "summary": "Q6 scored 4/4. Correct Al oxidation half-reaction (A); balanced net ionic equation (B); Zn's greater mass change justified with mass-to-mass stoichiometry over 6 moles of electrons (C); correct maximum E°cell for the Zn/Au cell (D). Full-credit model.",
+     "refId": "CHEM:q6:2025-6A"
+    },
+    {
+     "label": "Sample 6B",
+     "score": "3",
+     "summary": "Q6 scored 3/4. Earned A, B, and C (mass comparison via molar masses and stoichiometry: for every 53.96 g Al dissolved, 196.14 g Zn appears). Lost D: computed E°cell correctly for a Zn/Be cell, but that pairing does not give the greatest voltage among the table's options. Shows a right-method-wrong-cell error in the potential calculation.",
+     "refId": "CHEM:q6:2025-6B"
+    },
+    {
+     "label": "Sample 6C",
+     "score": "2",
+     "summary": "Q6 scored 2/4. Earned A (Al oxidation half-reaction) and B (balanced net ionic equation). Lost C (stated 3 mol Zn per 2 mol Al but did not convert to mass — a greater mole change does not guarantee a greater mass change) and D (used a Be/Zn cell, not the maximum-voltage pairing). Illustrates the mole-vs-mass justification gap in part C.",
+     "refId": "CHEM:q6:2025-6C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-chemistry-q7",
+   "set": null,
+   "label": "Q7",
+   "section": null,
+   "essayType": "Short Answer",
+   "topic": "",
+   "teaser": "Answer the following questions about the glycolate ion, CH O233 - , which acts as a base in aqueous solution. A Lewis diagram for the ion is provided. A. On the Lewis diagram in part A, circle the…",
+   "suggestedMinutes": 9,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-chemistry/ap25-chemistry-q7.pdf",
+   "pageCount": 1,
+   "promptText": "7. Answer the following questions about the glycolate ion, CH O233\n- , which acts as a base in\naqueous solution. A Lewis diagram for the ion is provided.\nA. On the Lewis diagram in part A, circle the atom that accepts the proton when the glycolate\nion reacts with water .\nWhen the glycolate ion reacts with water , it forms glycolic acid, HC HO233 , according to the\nfollowing equation. The Kb expression for the reaction is provided.\nOH\n() () () ()CH OH OH CH OO H CH O\nHC HO\naq la qa qK b233 2 233\n23 3\n23 3\nE++ =--\n-\n-8\n7\n8B\nA\nB\nB. At C25° , a . M25 solution of glycolate is found to have .OH M13 10 5#=--7 A .\ni. Calculate the value of Kb for the glycolate ion.\nii. Using your answer to part B (i), calculate the value of Ka for glycolic acid at C25° .\nGlycolic acid can be produced from the hydrolysis of methyl glycolate, CH O36 3. A proposed\nmechanism for the reaction is given.\nStep 1: CH OH OC HO CH OH36 33 25 33E++ ++\nStep 2: CH OH OH CH OH O25 32 233 3E++++\nOverall: CH OH OH CH OC HO H36 32 23 33E++\nC. A student claims that HO3\n+ is a catalyst for the reaction. Do you agree or disagree? Justify\nyour answer based on the mechanism given.",
+   "sourceText": null,
+   "scoringGuide": "AP Chemistry Q7 (Short Answer), 4 points, one per part. Topic: glycolate ion (acid–base) and a reaction mechanism. A [Pt1]: circle a correct oxygen atom (either of the two equivalent resonance C–O bonds on the carboxylate is acceptable). B(i) [Pt2]: calculate Kb = [HAsc-analog][OH−]/[conjugate base] ≈ 6.8×10^−11 by substituting the correct concentrations. B(ii) [Pt3]: calculate Ka from Kw = Ka·Kb (Ka = 1.0×10^−14 / 6.8×10^−11 = 1.5×10^−4), consistent with B(i). C [Pt4]: agree that H3O+ acts as a catalyst — consumed in step 1 and regenerated in step 2, so it is not in the overall reaction. Common failure: circling a carbon rather than oxygen; using Ka = 1/Kb instead of Kw/Kb; agreeing in C without a mechanism-based justification.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [Pt1]: circle a correct oxygen atom (either of the two equivalent resonance C–O bonds on the carboxylate is acceptable)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B(i) [Pt2]: calculate Kb = [HAsc-analog][OH−]/[conjugate base] ≈ 6.8×10^−11 by substituting the correct concentrations; B(ii) [Pt3]: calculate Ka from Kw = Ka·Kb (Ka = 1.0×10^−14 / 6.8×10^−11 = 1.5×10^−4), consistent with; B(i)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [Pt4]: agree that"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 7A",
+     "score": "4",
+     "summary": "Q7 scored 4/4. Circled a correct oxygen (A); correct Kb from substituting concentrations (B i); correct Ka via Kw = Ka·Kb (B ii); agreed on the catalyst, noting H3O+ is a reactant in step 1 and a product in step 2 and absent from the overall reaction (C). Full-credit model.",
+     "refId": "CHEM:q7:2025-7A"
+    },
+    {
+     "label": "Sample 7B",
+     "score": "2",
+     "summary": "Q7 scored 2/4. Earned A (correct oxygen) and B(i) (correct Kb). Lost B(ii) (used Ka = 1/Kb instead of Kw/Kb) and C (agreed but gave no mechanism-based justification). Shows the common Ka–Kb relationship error.",
+     "refId": "CHEM:q7:2025-7B"
+    },
+    {
+     "label": "Sample 7C",
+     "score": "1",
+     "summary": "Q7 scored 1/4. Earned only C (agreed and justified that H3O+ is consumed in step 1 and reappears as a product in step 2). Lost A (circled a carbon atom), B(i) (wrong glycolic-acid concentration and improper scientific notation), and B(ii) (set up a Ka expression but neither substituted concentrations nor used Kw/Kb). Illustrates a response holding only the catalyst identification.",
+     "refId": "CHEM:q7:2025-7C"
+    }
+   ]
+  }
+ ]
+}

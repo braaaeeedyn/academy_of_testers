@@ -1,0 +1,354 @@
+{
+ "subjectName": "AP Biology",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-biology-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Long FRQ",
+   "topic": "Interpreting and Evaluating Experimental Results",
+   "teaser": "Most proteins that are secreted from a cell must be transported to the endoplasmic reticulum (ER) either during translation or after translation. A. Describe the function of ribosomes. For…",
+   "suggestedMinutes": 25,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-biology/ap25-biology-q1.pdf",
+   "pageCount": 2,
+   "promptText": "1. Most proteins that are secreted from a cell must be transported to the endoplasmic reticulum\n(ER) either during translation or after translation.\nA. Describe the function of ribosomes.\nFor proteins transported during translation, this process begins in the cytosol and pauses\nwhen a specific sequence of amino acids is translated. The translation complex is then\ntransported to the surface of the ER where translation continues. Proteins that are transported\nafter translation are translated entirely in the cytosol and then transported to the ER. In both\ninstances, the translated proteins enter the ER through a protein channel in the membrane of\nthe ER.\nResearchers studying the two types of protein transport identified that the ER membrane\nprotein SR is necessary for transport during translation, while the ER membrane protein Sec62\nis necessary for transport after translation. To investigate which transport mechanism is used\nfor different proteins, researchers first created small interfering RNAs (siRNAs) that reduce\nexpression of either SR or Sec62. They then treated groups of cells with either the SR siRNA or\nthe Sec62 siRNA and determined the relative amount of SR and Sec62 protein in each group of\ncells compared with cells treated with a control siRNA (Figure 1).\nFigure 1. Average relative amounts of Sec62 and SR proteins in cells treated with control\nsiRNA, Sec62 siRNA, or SR siRNA. Error bars represent ±SEx .\nB.\ni. Identify the dependent variable in the experiments shown in Figure 1.\nii. Justify why the researchers included the control of measuring the relative amounts of\nboth Sec62 and SR proteins in cells that were treated with Sec62 siRNA only (data shown\nin Figure 1).\niii. Based on Figure 1, describe the effect on the production of SR protein when cells are\ntreated with Sec62 siRNA.\nThe researchers then measured the amount of each of three different proteins that was\ntransported to the ER in cells treated with Sec62 siRNA or SR siRNA. The researchers calculated\nthe percent transported relative to the cells treated with control siRNA (Figure 2).\nFigure 2. Average relative amounts of three proteins that were transported to the ER when\ntreated with control siRNA, Sec62 siRNA, or SR siRNA. Error bars represent ±SEx .\nC.\ni. Identify the independent variable in the researchers’ second experiment (data shown in\nFigure 2).\nii. Based on Figure 2, identify the protein(s) that when treated with Sec62 siRNA showed an\nincrease in percent transport to the ER compared with the control.\niii. Protein 1 is encoded by 234 nucleotides, while protein 2 is encoded by 495 nucleotides.\nAssuming all nucleotides for both proteins encode amino acids, calculate the difference\nin the number of amino acids between the two proteins.\nD.\ni. Researchers claim that protein 1 is the only tested protein that is transported to the ER\nfollowing its complete translation in the cytosol. Using data from Figure 2, support the\nresearchers’ claim.\nii. For any protein that enters the ER, researchers claim that amino acids close to the\nprotein’s amino terminus determine how likely the protein is to pass through the\nprotein channel within the ER membrane. Justify the researchers’ claim based on your\nunderstanding of factors that affect the transport of proteins across membranes.",
+   "sourceText": null,
+   "scoringGuide": "AP Biology Q1 (long FRQ), 9 points, each point earned independently. A1: describe the function of ribosomes (synthesize polypeptides/proteins; perform translation). B1: identify the dependent variable in Figure 1 (the relative amount of protein). B2: justify why measuring both Sec62 and SR proteins in Sec62-siRNA cells is a needed control (to determine whether the siRNA reduced only Sec62 vs. both proteins). B3: describe the effect on SR protein production under Sec62 siRNA (increased). C1: identify the independent variable in the second experiment (the type of siRNA, or the type of protein measured). C2: identify which protein(s) showed increased transport under Sec62 siRNA (protein 2 and/or 3). C3: calculate the difference in amino acids between a 234-nt and a 495-nt protein = 87 [(495/3)−(234/3)]. D1: use Figure 2 data to support that only protein 1 is transported after complete cytosolic translation (only protein 1 showed reduced transport with Sec62 siRNA). D2: justify that amino-terminus amino acids with similar polarity/opposite charge to the channel are more likely to pass through the ER protein channel. Common failure: vague control justifications (B2) and connecting D2 to the phospholipid bilayer rather than the channel interior.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A1: describe the function of ribosomes (synthesize polypeptides/proteins; perform translation)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies. B1: identify the dependent variable in Figure 1 (the relative amount of protein); B2: justify why measuring both Sec62 and SR proteins in Sec62-siRNA cells is a needed control (to determine whether the siRNA reduced only Sec62 vs. both proteins); B3: describe the effect on SR protein production under Sec62 siRNA (increased); B2) and connecting"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies. C1: identify the independent variable in the second experiment (the type of siRNA, or the type of protein measured); C2: identify which protein(s) showed increased transport under Sec62 siRNA (protein 2 and/or 3); C3: calculate the difference in amino acids between a 234-nt and a 495-nt protein = 87 [(495/3)−(234/3)]"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies. D1: use Figure 2 data to support that only protein 1 is transported after complete cytosolic translation (only protein 1 showed reduced transport with Sec62 siRNA); D2: justify that amino-terminus amino acids with similar polarity/opposite charge to the channel are more likely to pass through the ER protein channel; D2 to the phospholipid bilayer rather than the channel interior"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "7",
+     "summary": "Q1 scored 7/9. Earned A1 (ribosomes aid in protein synthesis), B1 (relative protein content), B3 (SR production increased), C1 (kind of siRNA), C2 (proteins 2 and 3), C3 (87 amino acids), D1 (protein 1 is the only one reduced by Sec62 siRNA, with accurate supporting explanation). Lost B2 (only vague 'have results to compare' / 'normal conditions' — did not specify the control distinguishes whether Sec62 siRNA affects Sec62 alone) and D2 (incorrectly tied 'non-polar amino acids' to the phospholipid bilayer rather than the interior of the membrane channel). Model for how strong responses still miss the two most conceptually demanding points.",
+     "refId": "BIO:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "6",
+     "summary": "Q1 scored 6/9. Earned A1, B1, B3, C1, C2, C3. Lost B2 (justified only as comparing to 'normal conditions,' not that the control shows whether Sec62 siRNA reduces Sec62 alone), D1 (did not state that only protein 1 had reduced transport under Sec62 siRNA), and D2 (described charge/attraction to water of the amino terminus but never stated the channel must have similar polarity/opposite charge). Illustrates that both control-justification and mechanism points are the hardest to secure.",
+     "refId": "BIO:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "Q1 scored 3/9. Earned only B3 (SR production increasing), C2 (proteins 2 and 3), C3 (87 amino acids). Lost A1 ('transport proteins' is not the synthesis function of ribosomes), B1 (misidentified 'type of siRNA' as dependent variable), B2 (vague), C1 (identified 'proteins' as independent variable without specifying which set), D1 (misread Sec62/SR as dependent variables changed by protein 1), and D2 (no polarity/charge description). Shows a low response that still banks the calculation and data-reading points.",
+     "refId": "BIO:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-biology-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Long FRQ",
+   "topic": "Interpreting and Evaluating Experimental Results with Graphing",
+   "teaser": "Many insects rely on pheromones (chemical signals) that are released by the females to find mating partners. Scientists hypothesize that, in a certain type of moth, the behavior of male moths in…",
+   "suggestedMinutes": 25,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-biology/ap25-biology-q2.pdf",
+   "pageCount": 2,
+   "promptText": "2. Many insects rely on pheromones (chemical signals) that are released by the females to find\nmating partners. Scientists hypothesize that, in a certain type of moth, the behavior of male\nmoths in response to pheromones is regulated by the extracellular signaling molecule 20E.\nA. Many receptors are embedded in the plasma membrane. Describe the polarity of the portion\nof the receptor that is inside the membrane.\nTo investigate whether the binding of 20E to its receptor , DopEcR, affects behavior in moths,\nscientists injected male moths with saline (control solution) or with small interfering RNA\nmolecules (siRNAs) that inhibit the expression of the gene encoding DopEcR. The scientists then\nexposed the moths to the pheromone and determined the percent of total time observed that\nthe moths engaged in general activity, defined as movement in any direction. The scientists also\ndetermined the percent of the general activity time that the moths spent in oriented activity,\ndefined as movement toward an area of high pheromone concentration (Table 1).\nTable 1. Average General and Oriented Activity in Male Moths Injected With Saline or siRNA\nMolecules\nTreatment\nGeneral Activity (percent\nof total time observed,\naverage ±2SE x )\nOriented Activity\n(percent of general\nactivity, average ±2SE x )\nMale moths injected with saline\n(control solution)\n95 5± 60 4±\nMale moths injected with siRNAs\nthat inhibit expression of the\ngene encoding DopEcR\n90 8± 25 6±\nDopEcR is a G protein-coupled receptor . When 20E binds to DopEcR, GTP displaces the GDP\nbound to the G protein, and a signaling pathway is activated. The scientists hypothesize that this\nleads to the transcription of genes associated with the oriented activity observed in the male\nmoths (Figure 1).\nFigure 1. A simplified model of a signaling pathway activated by the binding of 20E to its\nreceptor , DopEcR\nB.\ni. Using the template in the space provided for your response, construct an appropriate\ntype of graph that represents the data in Table 1. Your graph should be appropriately\nplotted and labeled.\nii. Based on the data in Table 1, determine the type of activity that was affected by\ninhibiting the expression of the DopEcR receptor .\nC.\ni. Based on Table 1, identify the treatment group in which the oriented activity was greater\nthan 50% of the general activity.\nii. The scientists studied some moths with a mutation in the gene encoding the G protein.\nThe mutation prevents GTP from displacing the GDP bound to the G protein. Based\non Figure 1, predict the effect of this mutation on the oriented activity in male moths\nexposed to the pheromone.\nExpression of the gene encoding DopEcR is low in the male moths during their first few days\nas adults, when they are sexually immature. Gene expression rapidly increases as the moths\nreach sexual maturity. The scientists claim that this increase in gene expression increases the\nlikelihood of males finding females with whom to mate.\nD.\ni. Use evidence from the information provided to support the scientists’ claim.\nii. Based on Figure 1, explain how an inhibitor of the DopEcR pathway might serve as an\neffective chemical to protect crops from moth damage.",
+   "sourceText": null,
+   "scoringGuide": "AP Biology Q2 (long FRQ with graphing), 9 points, each point earned independently. A1: describe the polarity of the receptor portion inside the membrane (nonpolar/hydrophobic). B (graphing, 3 points): B1 data represented in a bar/modified bar graph; B2 data and error bars accurately plotted; B3 graph appropriately labeled (axis titles, units, key). B4: from Table 1, determine which activity was affected by inhibiting DopEcR expression (oriented activity). C1: identify the treatment group with oriented activity greater than 50% of general activity (the saline/control group). C2: predict the effect of a G-protein mutation that blocks GTP-for-GDP exchange (decreased oriented activity). D1: support that increased DopEcR expression increases mating success (increases oriented activity / binds more 20E / more sensitive to pheromones). D2: explain how a pathway inhibitor could protect crops (reduces oriented activity/gene expression, therefore decreases mating/population growth). Common failure: losing graphing points B2/B3 for inaccurate plotting or missing labels/key, and losing D2 by not connecting reduced oriented behavior to reduced reproduction.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A1: describe the polarity of the receptor portion inside the membrane (nonpolar/hydrophobic). B (graphing, 3 points):"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part B exactly as the official 2025 scoring guideline for this question specifies. B1 data represented in a bar/modified bar graph; B2 data and error bars accurately plotted; B3 graph appropriately labeled (axis titles, units, key); B4: from Table 1, determine which activity was affected by inhibiting DopEcR expression (oriented activity); B2/B3 for inaccurate plotting or missing labels/key, and losing"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C1: identify the treatment group with oriented activity greater than 50% of general activity (the saline/control group); C2: predict the effect of a G-protein mutation that blocks GTP-for-GDP exchange (decreased oriented activity)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies. D1: support that increased DopEcR expression increases mating success (increases oriented activity / binds more 20E / more sensitive to pheromones); D2: explain how a pathway inhibitor could protect crops (reduces oriented activity/gene expression, therefore decreases mating/population growth); D2 by not connecting reduced oriented behavior to reduced reproduction"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "9",
+     "summary": "Q2 scored 9/9 (full credit). Earned A1 (nonpolar), all three graphing points B1–B3 (bar graph, accurate data + error bars, proper labels), B4 (oriented activity affected), C1 (saline group >50%), C2 (mutation decreases oriented activity), D1 ('more DopEcR increases oriented activity'), and D2 (inhibitor prevents expression of oriented-activity genes, so 'less oriented activity means less mating'). Full-credit model, including a complete, correctly labeled bar graph.",
+     "refId": "BIO:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "7",
+     "summary": "Q2 scored 7/9. Earned A1, B1 (bar graph) and B3 (labeled) but NOT B2 (data and error bars not accurately plotted), B4 (oriented activity), C1, C2 ('oriented activity will decrease'), and D1 (males more likely to find females due to increased oriented activity). Lost D2 by not explaining that reduced oriented behavior leads to decreased reproduction. Shows the typical graphing slip — correct chart type and labels but inaccurate plotting costs one point.",
+     "refId": "BIO:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "3",
+     "summary": "Q2 scored 3/9. Earned only B1 (bar graph), C1 (control group >50%), and C2 (activity will decrease). Lost A1 (called polarity 'very high'), B2 and B3 (inaccurate plotting; no y-axis label, no key), B4 (did not identify oriented activity), D1 (did not tie DopEcR increase to increased oriented activity), and D2 (no link between decreased oriented activity and decreased mating). Illustrates that an unlabeled, inaccurately plotted graph earns only the bar-graph-type point.",
+     "refId": "BIO:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-biology-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "Scientific Investigation",
+   "teaser": "Buffelgrass, an invasive grass species in southwestern desert ecosystems, is threatening the saguaro cactus, a keystone species in these ecosystems. Buffelgrass is drought-tolerant and can survive…",
+   "suggestedMinutes": 10,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-biology/ap25-biology-q3.pdf",
+   "pageCount": 1,
+   "promptText": "3. Buffelgrass, an invasive grass species in southwestern desert ecosystems, is threatening the\nsaguaro cactus, a keystone species in these ecosystems. Buffelgrass is drought-tolerant and can\nsurvive wildfires. However , the dry buffelgrass also acts as fuel for wildfires, causing the fires\nto be more severe. Older saguaro cacti can survive wildfires; however , many of the young cacti\ncannot.\nScientists conducted an experiment to determine whether they could control the abundance\nof the buffelgrass population. The scientists identified several native grass species that, when\ngrown with buffelgrass, might reduce the abundance of buffelgrass. They grew buffelgrass\nin the presence of several different native grass species in greenhouses, in either nondrought\n(watered every 3 days) or drought (watered every 9 days) conditions. After twelve weeks, they\nmeasured the height and dry weight of the buffelgrass in each treatment group.\nA. Describe the effect that removing a keystone species will have on an ecosystem.\nB. Identify a control group the scientists should include in their experiment.\nC. State the null hypothesis of the experiment in which buffelgrass is grown in the presence of\nnative grass species.\nD. Scientists have found that the population growth rates of native grasses are much slower\nthan the population growth rate of buffelgrass following a wildfire. The scientists claim that\nwildfires will therefore increase the abundance of buffelgrass plants in the ecosystem. Based\non the information given, justify the scientists’ claim.",
+   "sourceText": null,
+   "scoringGuide": "AP Biology Q3 (short FRQ, Scientific Investigation), 4 points, one per part. Context: buffelgrass (invasive) vs. saguaro cactus (keystone), grown with native grasses under drought/nondrought. A: describe the effect of removing a keystone species (reduces biodiversity/diversity/resilience, or causes ecosystem collapse). B: identify an appropriate control group (buffelgrass grown alone / with no native grass species). C: state the null hypothesis (no difference/effect on buffelgrass abundance/dry weight/height when grown with native plants vs. alone, or across drought conditions). D: justify the claim that wildfires increase buffelgrass abundance (after a fire, buffelgrass has less/no competition and more resources because native grasses regrow slower). Common failure: null hypotheses stated as a directional effect rather than 'no difference'; part-D answers that omit reduced competition or increased resources.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A: describe the effect of removing a keystone species (reduces biodiversity/diversity/resilience, or causes ecosystem collapse)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B: identify an appropriate control group (buffelgrass grown alone / with no native grass species)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C: state the null hypothesis (no difference/effect on buffelgrass abundance/dry weight/height when grown with native plants vs. alone, or across drought conditions)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D: justify the claim that wildfires increase buffelgrass abundance (after a fire, buffelgrass has less/no competition and more resources because native grasses regrow slower)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "4",
+     "summary": "Q3 scored 4/4. A: 'severe decrease in biodiversity and resilience' that 'could cause it to collapse.' B: control = growing only buffelgrass. C: null = 'presence of native grass species will have no effect on the height and dry weight of the buffelgrass.' D: 'buffelgrass will have no competition.' Full-credit model with a correctly framed no-effect null hypothesis.",
+     "refId": "BIO:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "3",
+     "summary": "Q3 scored 3/4. Earned A ('will reduce biodiversity'), B (grow only buffelgrass), C (native grass 'will not affect buffelgrass abundance'). Lost D: no mention of reduced competition or increased resources for buffelgrass after a wildfire. Shows a common D-part gap — restating the claim without the causal justification.",
+     "refId": "BIO:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 scored 2/4. Earned B (buffelgrass grown without native species in both conditions) and D (grass keeps growing since native competitors are absent). Lost A ('imbalance of trophic levels' does not sufficiently describe the ecosystem effect — no biodiversity loss or collapse) and C (stated a directional effect, 'abundance is reduced when grown with native grasses,' instead of a no-effect null hypothesis). Illustrates the frequent null-hypothesis error of asserting an effect.",
+     "refId": "BIO:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-biology-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "Conceptual Analysis",
+   "teaser": "Twenty million years ago the Caribbean Sea and Pacific Ocean were connected, and water flowed freely between the two bodies of water . Many of the same marine species were found in both areas.…",
+   "suggestedMinutes": 10,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-biology/ap25-biology-q4.pdf",
+   "pageCount": 1,
+   "promptText": "4. Twenty million years ago the Caribbean Sea and Pacific Ocean were connected, and water\nflowed freely between the two bodies of water . Many of the same marine species were found\nin both areas. Over millions of years, the land referred to as the Isthmus of Panama formed,\neventually closing off the connection between the Caribbean Sea and Pacific Ocean and creating\ntwo separate bodies of water . The ecology of these two marine habitats was dramatically altered\nby this land formation. The warmer Caribbean water could no longer flow west, so the Pacific\nwater cooled and became more nutrient-rich, while the Caribbean water became warmer .\nA. Describe the genetic evidence that evolution is occurring in a population.\nB. Explain how the isolation of marine species by the formation of a land barrier can lead to\ndivergent evolution of those species.\nThe formation of the Isthmus of Panama connected two continents, North America and South\nAmerica. Many North American land animal species migrated to South America after the\nformation of the isthmus and occupied similar niches as South American species.\nC. Predict the effect the formation of the isthmus had on resource availability for South\nAmerican species.\nD. Justify your prediction in part C.",
+   "sourceText": null,
+   "scoringGuide": "AP Biology Q4 (short FRQ, Conceptual Analysis), 4 points, one per part. Context: formation of the Isthmus of Panama splitting Caribbean and Pacific marine habitats and connecting North and South America. A: describe genetic evidence that evolution is occurring in a population (changes in allele/gene frequencies; heritable changes in phenotype). B: explain how isolation by a land barrier leads to divergent evolution (reproductive isolation / lack of gene flow / allopatric speciation; different selective pressures select for different alleles/phenotypes). C: predict the effect of the isthmus on resource availability for South American species (would decrease). D: justify the part-C prediction (more species now compete for the same resources, leaving fewer per individual). Common failure: part A omitting allele-frequency change; part B not naming reproductive isolation/lack of gene flow.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A: describe genetic evidence that evolution is occurring in a population (changes in allele/gene frequencies; heritable changes in phenotype)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B: explain how isolation by a land barrier leads to divergent evolution (reproductive isolation / lack of gene flow / allopatric speciation; different selective pressures select for different alleles/phenotypes)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C: predict the effect of the isthmus on resource availability for South American species (would decrease)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D: justify the part-C prediction (more species now compete for the same resources, leaving fewer per individual)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "4",
+     "summary": "Q4 scored 4/4. A: 'allele & genotype frequencies changing by generation.' B: 'isolation inhibits gene flow' between species. C: 'resource availability decreased.' D: 'species migrated South, which increased competition between species.' Full-credit model touching allele frequency, gene flow, and competition.",
+     "refId": "BIO:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "3",
+     "summary": "Q4 scored 3/4. Earned B (land barrier 'creates a reproductive barrier between species'), C ('resource availability decreased for South American species'), and D (migration 'increases competition'). Lost A: did not describe genetic evidence (allele-frequency change) for evolution. Shows the common part-A miss — describing evolution generally without the genetic marker.",
+     "refId": "BIO:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "2",
+     "summary": "Q4 scored 2/4. Earned C ('resource availability went down') and D ('more population competing for same resources causing availability to go down'). Lost A (no mention that allele frequencies change during evolution) and B (did not explain that geographic isolation produces reproductive isolation). Illustrates that the prediction/justification pair (C, D) is often earned even when the conceptual A/B points are not.",
+     "refId": "BIO:q4:2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-biology-q5",
+   "set": null,
+   "label": "Q5",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "Analyze Model or Visual Representation",
+   "teaser": "Figure 1 shows the reactions of the metabolic pathway used to synthesize amino acid B from amino acid A in cells. Figure 1. Synthesis of amino acid B from amino acid A A. Describe a characteristic…",
+   "suggestedMinutes": 10,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-biology/ap25-biology-q5.pdf",
+   "pageCount": 1,
+   "promptText": "5. Figure 1 shows the reactions of the metabolic pathway used to synthesize amino acid B from\namino acid A in cells.\nFigure 1. Synthesis of amino acid B from amino acid A\nA. Describe a characteristic of an enzyme’s active site that allows it to catalyze a specific\nchemical reaction.\nB. Based on Figure 1, explain how the binding of amino acid A to enzyme 1 is regulated by\namino acid B.\nC. Using the information in Figure 1, identify the product of the reaction catalyzed by enzyme\n2: intermediate X, intermediate Y, or amino acid B.\nD. Based on Figure 1, explain how a change in pH could affect enzyme 3 in such a way that\namino acid B cannot be produced.",
+   "sourceText": null,
+   "scoringGuide": "AP Biology Q5 (short FRQ, Analyze a Model/Visual Representation), 4 points, one per part. Context: Figure 1 shows a metabolic pathway synthesizing amino acid B from amino acid A via enzymes and intermediates X and Y. A: describe a characteristic of an enzyme's active site enabling specific catalysis (binds a specific substrate; shape/charge compatible with substrate; positions substrate; induced fit stresses bonds). B: explain how amino acid B regulates the binding of amino acid A to enzyme 1 (B inhibits/feedback-inhibits; binds an allosteric site and changes enzyme 1's shape so A cannot bind). C: identify the product of the reaction catalyzed by enzyme 2 (intermediate Y). D: explain how a pH change could stop production of amino acid B via enzyme 3 (changes the structure/active site or denatures enzyme 3 so intermediate Y/substrate cannot bind). Common failure: part D describing a shape change without stating the substrate can no longer bind; part C misidentifying amino acid B.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A: describe a characteristic of an enzyme's active site enabling specific catalysis (binds a specific substrate; shape/charge compatible with substrate; positions substrate; induced fit stresses bonds)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B: explain how amino acid B regulates the binding of amino acid A to enzyme 1 (B inhibits/feedback-inhibits; binds an allosteric site and changes enzyme 1's shape so A cannot bind)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C: identify the product of the reaction catalyzed by enzyme 2 (intermediate Y)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D: explain how a pH change could stop production of amino acid B via enzyme 3 (changes the structure/active site or denatures enzyme 3 so intermediate Y/substrate cannot bind)"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 5A",
+     "score": "4",
+     "summary": "Q5 scored 4/4. A: 'each active site fits a specific substrate.' B: 'when amino acid B is bound to enzyme 1, the binding of amino acid A to enzyme 1 is inhibited.' C: intermediate Y. D: 'a change in pH could change the shape of enzyme 3 ... which could cause intermediate Y to not be able to bond with enzyme 3.' Full-credit model, with part D correctly linking the shape change to loss of substrate binding.",
+     "refId": "BIO:q5:2025-5A"
+    },
+    {
+     "label": "Sample 5B",
+     "score": "3",
+     "summary": "Q5 scored 3/4. Earned A ('active sites are specific to its substrate'), B ('enzyme 1 is allosterically inhibited, not allowing A to bind'), C (intermediate Y). Lost D: said pH denatures enzyme 3 but did not explain that the denatured enzyme can no longer bind substrate Y. Shows the frequent part-D gap — naming denaturation without stating the binding consequence.",
+     "refId": "BIO:q5:2025-5B"
+    },
+    {
+     "label": "Sample 5C",
+     "score": "2",
+     "summary": "Q5 scored 2/4. Earned B ('amino acid B binds to enzyme 1 ... inhibits the binding of amino acid A') and D (pH 'could change the shape of enzyme 3, preventing the binding of intermediate Y'). Lost A (did not describe that the active site lets a substrate interact with the enzyme) and C (incorrectly identified amino acid B instead of intermediate Y as enzyme 2's product). Illustrates that a correct feedback-inhibition and pH answer can coexist with missing the active-site description and misreading the pathway diagram.",
+     "refId": "BIO:q5:2025-5C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-biology-q6",
+   "set": null,
+   "label": "Q6",
+   "section": null,
+   "essayType": "Short FRQ",
+   "topic": "Analyze Data",
+   "teaser": "The ald gene of fruit flies encodes the ALD protein, which is associated with both the centromeres of chromosomes and protein filaments produced during meiosis. In the absence of functional ALD…",
+   "suggestedMinutes": 10,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-biology/ap25-biology-q6.pdf",
+   "pageCount": 1,
+   "promptText": "6. The ald gene of fruit flies encodes the ALD protein, which is associated with both the\ncentromeres of chromosomes and protein filaments produced during meiosis. In the absence\nof functional ALD proteins, gamete-producing cells enter anaphase I before homologous\nchromosomes are correctly aligned. As a result, the gametes produced do not contain the\ncorrect numbers of chromosomes.\nScientists generated four mutations in the ald gene: ald1, ald3, ald23, and del, which was\na deletion of the gene. To study the role of the ALD protein in meiosis, scientists used\ngameteforming metaphase cells from groups of flies with different ald genotypes. Some of the\nflies were homozygous for the wild-type allele of ald: WT/WT. Other flies were heterozygous for\ndifferent ald alleles: WT/del; ald1/del; ald3/ald23; ald23/del. The scientists measured the percent\nof metaphase cells that contained ALD-associated filaments (Figure 1A) and the amount of ALD\nprotein produced by each of the cell types (Figure 1B).\nFigure 1. (A) The average percent of gamete-forming metaphase cells that contained\nfilaments associated with ALD and (B) the amount of ALD protein produced by each\ncell type. A thicker band indicates a greater amount of ALD protein.\nA. Based on Figure 1A, identify the fly genotype in which the average percent of metaphase\ncells with ALD-associated filaments is close to 12%.\nB. Based on Figure 1B, describe the difference in ALD protein production between gamete-\nforming metaphase cells of flies with the genotype ald3/ald23 and flies with the genotype\nald23/del.\nC. Scientists hypothesize that gamete-forming metaphase cells can produce a normal amount\nof ALD-associated filaments even when they produce about half as much ALD protein as\nthe wild-type cells produce. Use the data in Figures 1A and 1B to support the scientists’\nhypothesis.",
+   "sourceText": null,
+   "scoringGuide": "AP Biology Q6 (short FRQ, Analyze Data), 4 points, one per part. Context: the ald gene encodes ALD protein needed for correct chromosome alignment in meiosis; Figure 1A gives percent of metaphase cells with ALD-associated filaments and Figure 1B gives ALD protein amount for genotypes WT/WT, WT/del, ald1/del, ald3/ald23, ald23/del. A: identify the genotype with about 12% of metaphase cells showing ALD filaments (ald1/del). B: describe the difference in ALD protein production between ald3/ald23 and ald23/del (ald3/ald23 produces more; ald23/del produces less or none). C: use Figures 1A and 1B to support that cells can make a normal amount of filaments with about half the wild-type ALD protein (WT/del makes ~half the protein of WT/WT yet shows no difference in percent of cells with filaments). D: explain why WT/del and ald1/del differ in phenotype (Figure 1A) despite equal ALD protein amounts (Figure 1B) — WT/del has one allele making functional protein giving a wild-type phenotype, whereas the ald1 mutation yields reduced-function protein. Common failure: part C comparing the wrong genotypes; part D not addressing functional vs. reduced-function protein.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A: identify the genotype with about 12% of metaphase cells showing ALD filaments (ald1/del)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B: describe the difference in ALD protein production between ald3/ald23 and ald23/del (ald3/ald23 produces more; ald23/del produces less or none)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C: use Figures 1A and 1B to support that cells can make a normal amount of filaments with about half the wild-type ALD protein (WT/del makes ~half the protein of WT/WT yet shows no difference in percent of cells with filaments)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D: explain why WT/del and ald1/del differ in phenotype (Figure 1A) despite equal ALD protein amounts (Figure 1B) — WT/del has one allele making functional protein giving a wild-type phenotype, whereas the ald1 mutation yields reduced-function protein"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 6A",
+     "score": "4",
+     "summary": "Q6 scored 4/4. A: ald1/del (~12%). B: ald3/ald23 produced less ALD than wild type but ald23/del produced none. C: WT/WT and WT/del have the same percent of metaphase cells with ALD filaments even though WT/del makes about half the ALD of WT/WT. D: the ald1 allele 'may produce a defective or otherwise malfunctioning version of the ALD protein, while the WT/del genotype produces at least one working copy.' Full-credit model contrasting functional vs. nonfunctional protein.",
+     "refId": "BIO:q6:2025-6A"
+    },
+    {
+     "label": "Sample 6B",
+     "score": "3",
+     "summary": "Q6 scored 3/4. Earned A (ald1/del ~12%), B (ald3/ald23 higher in ALD production), C (WT/del makes half the ALD of WT/WT yet the percent of metaphase cells shows no statistical difference). Lost D: did not explain why a protein mutation can change phenotype or which genotype it applies to. Shows a strong data-reading response that misses the functional-protein reasoning in part D.",
+     "refId": "BIO:q6:2025-6B"
+    },
+    {
+     "label": "Sample 6C",
+     "score": "2",
+     "summary": "Q6 scored 2/4. Earned A (ald1/del ~12%) and B (ald3/ald23 has more ALD protein). Lost C (compared the wrong genotype — used ald1/del instead of WT/del against WT/WT) and D (did not explain why WT/del and ald1/del differ in phenotype despite similar ALD amounts). Illustrates that misidentifying the comparison genotype breaks both the support (C) and explanation (D) points.",
+     "refId": "BIO:q6:2025-6C"
+    }
+   ]
+  }
+ ]
+}

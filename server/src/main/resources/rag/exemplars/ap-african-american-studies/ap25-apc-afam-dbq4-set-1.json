@@ -54,7 +54,8 @@
       "scoreBand": "7",
       "refId": "AFAM:dbq:2025-set1-4A",
       "title": "DBQ exemplar — Sample 4A, score 7/7",
-      "content": "DBQ (how African American cultural contributions promoted resilience during Jim Crow) scored 7/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 1, Source Use 1, Reasoning 1). Thesis: culture promoted resilience by advocating pride and organizing movements. Context: end of Reconstruction, Compromise of 1877, Plessy v. Ferguson. Evidence-Sources: Sources 1, 4, 5 support the argument. Evidence-Beyond: Marcus Garvey's 'Black is Beautiful.' Source Use: explains purpose of Source 4 and POV of Source 1. Reasoning: causation — shared culture created unity that promoted resilience."
+      "content": "DBQ (how African American cultural contributions promoted resilience during Jim Crow) scored 7/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 1, Source Use 1, Reasoning 1). Thesis: culture promoted resilience by advocating pride and organizing movements. Context: end of Reconstruction, Compromise of 1877, Plessy v. Ferguson. Evidence-Sources: Sources 1, 4, 5 support the argument. Evidence-Beyond: Marcus Garvey's 'Black is Beautiful.' Source Use: explains purpose of Source 4 and POV of Source 1. Reasoning: causation — shared culture created unity that promoted resilience.",
+      "promptId": "ap25-afam-dbq4-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -62,7 +63,8 @@
       "scoreBand": "5",
       "refId": "AFAM:dbq:2025-set1-4B",
       "title": "DBQ exemplar — Sample 4B, score 5/7",
-      "content": "DBQ scored 5/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 0, Source Use 0, Reasoning 1). Thesis (minimally acceptable): culture promoted resilience by bringing communities together and providing hope. Context: Civil War, Emancipation Proclamation, Jim Crow laws. Evidence-Sources: Sources 1, 2, 5 address the topic. Evidence-Beyond 0: the Black Arts movement is outside the prompt's period. Source Use 0: does not explain POV/purpose/context/audience. Reasoning 1: causation linking cultural development to resilience."
+      "content": "DBQ scored 5/7 (Thesis 1, Context 1, Evidence-Sources 2, Evidence-Beyond 0, Source Use 0, Reasoning 1). Thesis (minimally acceptable): culture promoted resilience by bringing communities together and providing hope. Context: Civil War, Emancipation Proclamation, Jim Crow laws. Evidence-Sources: Sources 1, 2, 5 address the topic. Evidence-Beyond 0: the Black Arts movement is outside the prompt's period. Source Use 0: does not explain POV/purpose/context/audience. Reasoning 1: causation linking cultural development to resilience.",
+      "promptId": "ap25-afam-dbq4-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -70,7 +72,8 @@
       "scoreBand": "2",
       "refId": "AFAM:dbq:2025-set1-4C",
       "title": "DBQ exemplar — Sample 4C, score 2/7",
-      "content": "DBQ scored 2/7 (Thesis 1, Context 0, Evidence-Sources 0, Evidence-Beyond 1, Source Use 0, Reasoning 0). Thesis: minimal (culture served as powerful tools via music/church). Context 0: 'the Jim Crow era' reference is too general. Evidence-Sources 0: does not use at least two sources. Evidence-Beyond 1: the Black Church. Source Use / Reasoning 0. Shows a thesis + one outside-evidence point can still score, but neglecting the provided sources forfeits the largest row."
+      "content": "DBQ scored 2/7 (Thesis 1, Context 0, Evidence-Sources 0, Evidence-Beyond 1, Source Use 0, Reasoning 0). Thesis: minimal (culture served as powerful tools via music/church). Context 0: 'the Jim Crow era' reference is too general. Evidence-Sources 0: does not use at least two sources. Evidence-Beyond 1: the Black Church. Source Use / Reasoning 0. Shows a thesis + one outside-evidence point can still score, but neglecting the provided sources forfeits the largest row.",
+      "promptId": "ap25-afam-dbq4-set-1"
     }
   ]
 }

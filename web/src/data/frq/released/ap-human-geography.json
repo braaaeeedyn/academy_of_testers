@@ -1,0 +1,444 @@
+{
+ "subjectName": "AP Human Geography",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-human-geography-q1-set-1",
+   "set": 1,
+   "label": "Q1",
+   "section": null,
+   "essayType": "No Stimulus",
+   "topic": "political geography",
+   "teaser": "The European Union (EU) and Association of Southeast Asian Nations (ASEAN) are supranational organizations composed of independent member states. A. Define the concept of an independent state. B.…",
+   "suggestedMinutes": 25,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-human-geography/ap25-human-geography-q1-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "1. The European Union (EU) and Association of Southeast Asian Nations (ASEAN) are\nsupranational organizations composed of independent member states.\nRespond to parts A, B, C, D, E, F, and G.\nA. Define the concept of an independent state.\nB. Describe one purpose of supranational organizations.\nC. Describe one global outcome of an increase in international trade.\nD. Explain how deindustrialization has affected the economy of core countries.\nE. Explain why international boundaries on land or at sea may lead to disputes over resources.\nF. Explain how supranational organizations such as the EU or ASEAN may challenge the\nsovereignty of member states.\nG. Explain how advances in communication technologies may affect state sovereignty.",
+   "sourceText": null,
+   "scoringGuide": "AP Human Geography FRQ 1 (No Stimulus), 7 points, parts A–G, one point each, escalating in cognitive skill (define → describe → explain → explain a degree/relationship). Set 1 answer key by part: A [1] define an independent state (a sovereign, self-governing country recognized by others / the basic building block of the political map); B [1] describe a purpose of supranational organizations (address transnational challenges, economies of scale, trade/military alliances); C [1] describe a global outcome of increased international trade (specialization/comparative advantage, outsourcing, deindustrialization, infrastructure, environmental impacts); D [1] explain why land/sea boundaries may lead to disputes; E [1] explain how communication technologies affect state sovereignty; F/G [1 each] further explain-level tasks. Common failure: 'describe' answers that only name a term without characteristics; 'explain' answers that describe rather than give a how/why mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] define an independent state (a sovereign, self-governing country recognized by others / the basic building block of the political map)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe a purpose of supranational organizations (address transnational challenges, economies of scale, trade/military alliances)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] describe a global outcome of increased international trade (specialization/comparative advantage, outsourcing, deindustrialization, infrastructure, environmental impacts)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] explain why land/sea boundaries may lead to disputes"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E [1] explain how communication technologies affect state sovereignty; F/G [1 each] further explain-level tasks"
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part G exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "7",
+     "summary": "Q1 (Set 1) scored 7/7 — earned all parts A–G: defined an independent state, described a supranational-organization purpose and a global trade outcome, and gave valid how/why explanations for boundary disputes, communication technology and sovereignty, and the remaining explain-level parts. Full-credit model.",
+     "refId": "HUGEO:q1-set1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "4",
+     "summary": "Q1 (Set 1) scored 4/7 — typically earned the define and describe parts (A–C) and one explain part, losing the higher explain-level parts (D–G) where a how/why mechanism is required. Illustrates the common Human Geography pattern: define/describe points secured, explain points missed.",
+     "refId": "HUGEO:q1-set1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "2",
+     "summary": "Q1 (Set 1) scored 2/7 — earned only about two of the lower-skill parts (define/describe), losing all explain-level parts. Illustrates a low response that can define terms but cannot describe outcomes or explain mechanisms.",
+     "refId": "HUGEO:q1-set1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-human-geography-q2-set-1",
+   "set": 1,
+   "label": "Q2",
+   "section": null,
+   "essayType": "One Stimulus",
+   "topic": "population pyramid & urbanization",
+   "teaser": "A population pyramid shows changes in population over time. A population pyramid breaks down the population by male and female and divides the population into five-year age groupings called…",
+   "suggestedMinutes": 25,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-human-geography/ap25-human-geography-q2-set-1.pdf",
+   "pageCount": 2,
+   "promptText": "Japan Population Pyramid, 2021\nSource: United States Census Bureau International Database\n2. A population pyramid shows changes in population over time. A population pyramid breaks\ndown the population by male and female and divides the population into five-year age\ngroupings called cohorts.\nRespond to parts A, B, C, D, E, F, and G.\nA. Identify the recent trend in fertility shown in the population pyramid.\nB. Based on the data shown in the population pyramid, describe the ratio of males to females in\nthe Japanese population age 80 and above.\nC. Describe one process that drives urbanization.\nD. Describe one factor that may lead to a decrease in total population within a more developed\ncountry.\nE. Explain how a country’s population pyramid can be used to predict the future needs of the\npopulation.\nF. Explain why the population pyramid provides limited information about immigration to\ncities in Japan.\nG. Explain the degree to which a country’s population growth rate may be affected by a\npronatalist policy. (Response must indicate the degree [low, moderate, high] and provide an\nexplanation.)\nMap 1: Cow’s Milk Production, 2018\nSource: Food and Agriculture Organization\nMap 2: Pork Production, 2018\nSource: Food and Agriculture Organization",
+   "sourceText": null,
+   "scoringGuide": "AP Human Geography FRQ 2 (One Stimulus, here a population pyramid), 7 points, parts A–G, one each, escalating skill (identify from the stimulus → describe → explain → explain a degree). Set 1 answer key by part: A [1] identify the recent fertility trend shown in the pyramid; B [1] describe a process that drives urbanization; C [1] explain the degree to which a country's population growth rate may be affected by a factor; later parts continue with explain-level demographic/urban tasks. Common failure: A misreading the pyramid trend; explain-level parts that describe rather than give a how/why mechanism or fail to address 'the degree to which.'",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify the recent fertility trend shown in the pyramid"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe a process that drives urbanization"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain the degree to which a country's population growth rate may be affected by a factor; later parts continue with explain-level demographic/urban tasks"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part G exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "7",
+     "summary": "Q2 (Set 1) scored 7/7 — read the fertility trend from the pyramid, described an urbanization process, and gave valid degree/mechanism explanations across the remaining parts. Full-credit model for the stimulus-based FRQ.",
+     "refId": "HUGEO:q2-set1:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "6",
+     "summary": "Q2 (Set 1) scored 6/7 — earned six parts, missing one explain-level point, commonly the 'explain the degree to which' task that requires weighing a relationship rather than asserting it. Illustrates a strong response one point short on a degree/explain task.",
+     "refId": "HUGEO:q2-set1:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "4",
+     "summary": "Q2 (Set 1) scored 4/7 — earned the stimulus-reading and describe parts plus one explain part, losing the higher explain/degree parts. Illustrates a mid response that reads the pyramid and describes processes but struggles with mechanism-level explanation.",
+     "refId": "HUGEO:q2-set1:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-human-geography-q3-set-1",
+   "set": 1,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Two Stimuli",
+   "topic": "culture & agriculture (maps)",
+   "teaser": "The global production of cow’s milk and pork results in distinctive spatial patterns of contemporary agriculture and land use. A. Identify an example of a culture trait. B. Describe the spatial…",
+   "suggestedMinutes": 25,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-human-geography/ap25-human-geography-q3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. The global production of cow’s milk and pork results in distinctive spatial patterns of\ncontemporary agriculture and land use.\nRespond to parts A, B, C, D, E, F, and G.\nA. Identify an example of a culture trait.\nB. Describe the spatial pattern of cow’s milk production in Africa, shown in Map 1.\nC. Based on Map 1 and Map 2, compare the spatial patterns of cow’s milk production and pork\nproduction in Asia. (Response must include both maps in the comparison.)\nD. Describe one environmental effect of agricultural land use such as commercial animal farms.\nE. Explain how the globalization of agriculture may affect local culture traits.\nF. Explain why regions of agricultural production may become interdependent.\nG. Explain how domesticated animals such as pigs spatially diffused to create the spatial pattern\nshown on Map 2.",
+   "sourceText": null,
+   "scoringGuide": "AP Human Geography FRQ 3 (Two Stimuli, here maps of agricultural production), 7 points, parts A–G, one each, escalating skill. Set 1 answer key by part: A [1] identify an example of a culture trait; B [1] describe the spatial pattern of cow's milk production in Africa shown in Map 1; C [1] explain how the globalization of agriculture may affect local culture traits; D [1] explain why regions of agricultural production may become interdependent; later parts continue with explain-level tasks. Common failure: describing a spatial pattern as a single location rather than a distribution (B); explain answers that lack a how/why mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify an example of a culture trait"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe the spatial pattern of cow's milk production in Africa shown in Map 1"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how the globalization of agriculture may affect local culture traits"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] explain why regions of agricultural production may become interdependent; later parts continue with explain-level tasks"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part G exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "7",
+     "summary": "Q3 (Set 1) scored 7/7 — identified a culture trait, described the map's spatial pattern of milk production, and explained agricultural globalization's cultural effects and regional interdependence. Full-credit model for the two-stimulus FRQ.",
+     "refId": "HUGEO:q3-set1:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "5",
+     "summary": "Q3 (Set 1) scored 5/7 — earned the identify/describe parts and some explain parts, losing about two explain-level points (mechanism-level cultural or interdependence explanations). Illustrates a solid response short on higher-order explanation.",
+     "refId": "HUGEO:q3-set1:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 1) scored 2/7 — earned only about two lower-skill parts (identify/describe), losing the explain-level parts. Illustrates a low response that reads the maps but cannot explain cultural or economic mechanisms.",
+     "refId": "HUGEO:q3-set1:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-human-geography-q1-set-2",
+   "set": 2,
+   "label": "Q1",
+   "section": null,
+   "essayType": "No Stimulus",
+   "topic": "migration & urban geography",
+   "teaser": "Migration contributes to significant population growth and change in urban landscapes. As populations increase, urban areas face economic, social, and environmental challenges. A. Describe one…",
+   "suggestedMinutes": 25,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-human-geography/ap25-human-geography-q1-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "1. Migration contributes to significant population growth and change in urban landscapes. As\npopulations increase, urban areas face economic, social, and environmental challenges.\nRespond to parts A, B, C, D, E, F, and G.\nA. Describe one type of voluntary migration.\nB. Explain how migration may affect a city’s economy.\nC. Describe one type of housing discrimination that may occur in urban areas.\nD. Explain how a city’s infrastructure affects society.\nE. Describe one challenge to sustainability in urban areas.\nF. Explain how urban design initiatives are intended to affect cities.\nG. Explain why urban design initiatives may be criticized.",
+   "sourceText": null,
+   "scoringGuide": "AP Human Geography FRQ 1 (No Stimulus), 7 points, parts A–G, one each, escalating skill. Set 2 answer key by part: A [1] describe a type of voluntary migration; B [1] explain how migration may affect a city's economy; C [1] describe a type of housing discrimination in urban areas (e.g., redlining, blockbusting, restrictive covenants); D [1] explain how a city's infrastructure affects society; E [1] describe a challenge to urban sustainability; F [1] explain how urban design initiatives are intended to affect cities; G [1] explain why urban design initiatives may be criticized. Common failure: describe answers naming a term without characteristics; explain answers lacking a how/why mechanism; conflating forced with voluntary migration in A.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe a type of voluntary migration"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] explain how migration may affect a city's economy"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] describe a type of housing discrimination in urban areas (e.g., redlining, blockbusting, restrictive covenants)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] explain how a city's infrastructure affects society"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E [1] describe a challenge to urban sustainability"
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies. F [1] explain how urban design initiatives are intended to affect cities"
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part G exactly as the official 2025 scoring guideline for this question specifies. G [1] explain why urban design initiatives may be criticized"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "7",
+     "summary": "Q1 (Set 2) scored 7/7 — earned all parts A–G across voluntary migration, migration's economic effect, housing discrimination, infrastructure and society, sustainability challenges, and the intent and criticism of urban design initiatives. Full-credit model.",
+     "refId": "HUGEO:q1-set2:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "6",
+     "summary": "Q1 (Set 2) scored 6/7 — earned six parts, missing one explain-level part (e.g., the criticism of urban design initiatives or an infrastructure/society explanation) where a how/why mechanism was incomplete. Illustrates a strong response one point short on a single explain task.",
+     "refId": "HUGEO:q1-set2:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "2",
+     "summary": "Q1 (Set 2) scored 2/7 — earned only about two of the describe-level parts, losing the explain-level parts. Illustrates a low response that names terms but cannot explain urban/migration mechanisms.",
+     "refId": "HUGEO:q1-set2:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-human-geography-q2-set-2",
+   "set": 2,
+   "label": "Q2",
+   "section": null,
+   "essayType": "One Stimulus",
+   "topic": "comparative advantage & agriculture/development",
+   "teaser": "Country X and Country Y have a long-established trade relationship in agricultural products. Country X is a developed country, and Country Y is a developing country. A. Using the data in the…",
+   "suggestedMinutes": 25,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-human-geography/ap25-human-geography-q2-set-2.pdf",
+   "pageCount": 3,
+   "promptText": "Food Exports Between Country X and Country Y\n2. Country X and Country Y have a long-established trade relationship in agricultural products.\nCountry X is a developed country, and Country Y is a developing country.\nRespond to parts A, B, C, D, E, F, and G.\nA. Using the data in the charts, identify the largest food export category between the two\ncountries.\nB. Using the data in the charts, describe the difference between the two countries in the meat,\ndairy, and seafood category.\nC. Define the concept of comparative advantage.\nD. Describe one effect of Green Revolution technologies on food supplies in developing\ncountries.\nE. Explain how advances in agricultural technology may increase the carrying capacity of land.\nF. Explain the degree to which the economies of Country X and Country Y are interdependent.\n(Response must indicate the degree [low, moderate, high] and provide an explanation.)\nG. Explain how the charts provide limited information about economic development.\nMap 1: Political Divisions in Saskatchewan, Canada\nSource: Statistics Canada\nMap 2: Political Divisions in Finland\nSource: ESRI Data Partners",
+   "sourceText": null,
+   "scoringGuide": "AP Human Geography FRQ 2 (One Stimulus, here economic charts), 7 points, parts A–G, one each. Set 2 answer key by part: A [1] define comparative advantage; B [1] describe an effect of Green Revolution technologies on food supplies; C [1] explain how advances in agricultural technology may increase carrying capacity; D [1] explain the degree to which the economies of Country X and Country Y are (e.g., interdependent/similar); E [1] explain how the charts provide limited information about economic development; F/G [1 each] further explain-level tasks. Common failure: describe/define answers without characteristics; explain answers that describe rather than give a mechanism; not addressing chart limitations in E.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] define comparative advantage"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe an effect of Green Revolution technologies on food supplies"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how advances in agricultural technology may increase carrying capacity"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] explain the degree to which the economies of Country X and Country Y are (e.g., interdependent/similar)"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E [1] explain how the charts provide limited information about economic development; F/G [1 each] further explain-level tasks"
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part G exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "7",
+     "summary": "Q2 (Set 2) scored 7/7 — defined comparative advantage, described a Green Revolution effect, and explained carrying capacity, cross-country economic relationships, and chart limitations. Full-credit model.",
+     "refId": "HUGEO:q2-set2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "5",
+     "summary": "Q2 (Set 2) scored 5/7 — earned the define/describe parts and some explain parts, losing about two explain-level points (commonly the 'degree to which' economic comparison or the chart-limitation explanation). Illustrates a solid response short on the higher-order explanation tasks.",
+     "refId": "HUGEO:q2-set2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 (Set 2) scored 2/7 — earned only about two lower-skill parts (define/describe), losing the explain-level parts. Illustrates a low response that defines terms but cannot explain mechanisms or interpret the charts' limits.",
+     "refId": "HUGEO:q2-set2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-human-geography-q3-set-2",
+   "set": 2,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Two Stimuli",
+   "topic": "boundaries & political organization (maps)",
+   "teaser": "The two maps show political boundaries in Saskatchewan, Canada, and in Finland. Both Finland and Saskatchewan are home to populations of indigenous peoples with a significant amount of political…",
+   "suggestedMinutes": 25,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-human-geography/ap25-human-geography-q3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. The two maps show political boundaries in Saskatchewan, Canada, and in Finland. Both Finland\nand Saskatchewan are home to populations of indigenous peoples with a significant amount of\npolitical autonomy. Finland is a member state of the European Union.\nRespond to parts A, B, C, D, E, F, and G.\nA. Identify the scale of analysis used for Finland’s political divisions in Map 2.\nB. Define geometric boundaries as shown in Map 1.\nC. Describe one function of internal boundaries.\nD. Explain how the spatial organization of a country such as Canada is affected by a federal\nsystem of governance.\nE. Explain how the supranational organization shown in Map 2 may limit the actions of Finland\nas a member state.\nF. Describe one characteristic of a cultural landscape that may reflect cultural beliefs and\nidentities.\nG. Explain how communication technologies may affect the cultural patterns of indigenous\nlanguages.",
+   "sourceText": null,
+   "scoringGuide": "AP Human Geography FRQ 3 (Two Stimuli, here maps of political divisions/boundaries), 7 points, parts A–G, one each, escalating skill. Set 2 answer key by part: A [1] identify the scale of analysis used for Finland's political divisions in Map 2; B [1] define geometric boundaries as shown in Map 1; C [1] describe a function of internal boundaries; D [1] explain how the spatial organization of a country such as Canada is affected by a factor; E [1] explain how the supranational organization shown in Map 2 may limit member-state actions; F [1] describe a characteristic of a cultural landscape that reflects cultural beliefs; G [1] explain how communication technologies affect cultural patterns. Common failure: confusing scale of analysis with map scale (A); define/describe without characteristics; explain answers lacking a how/why mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify the scale of analysis used for Finland's political divisions in Map 2"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] define geometric boundaries as shown in Map 1"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] describe a function of internal boundaries"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part D exactly as the official 2025 scoring guideline for this question specifies. D [1] explain how the spatial organization of a country such as Canada is affected by a factor"
+    },
+    {
+     "name": "Part E",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part E exactly as the official 2025 scoring guideline for this question specifies. E [1] explain how the supranational organization shown in Map 2 may limit member-state actions"
+    },
+    {
+     "name": "Part F",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part F exactly as the official 2025 scoring guideline for this question specifies. F [1] describe a characteristic of a cultural landscape that reflects cultural beliefs"
+    },
+    {
+     "name": "Part G",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part G exactly as the official 2025 scoring guideline for this question specifies. G [1] explain how communication technologies affect cultural patterns"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "7",
+     "summary": "Q3 (Set 2) scored 7/7 — identified the scale of analysis, defined geometric boundaries, described an internal-boundary function, and explained spatial organization, supranational constraints, cultural landscape, and communication technologies. Full-credit model.",
+     "refId": "HUGEO:q3-set2:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "6",
+     "summary": "Q3 (Set 2) scored 6/7 — earned six parts, missing one explain-level point where a how/why mechanism was incomplete (e.g., the supranational-constraint or cultural-patterns explanation). Illustrates a strong response one point short on a single explain task.",
+     "refId": "HUGEO:q3-set2:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "3",
+     "summary": "Q3 (Set 2) scored 3/7 — earned the identify/define/describe parts, losing the explain-level parts (spatial organization, supranational limits, communication technologies). Illustrates a response that handles lower-skill tasks but not mechanism-level explanation.",
+     "refId": "HUGEO:q3-set2:2025-3C"
+    }
+   ]
+  }
+ ]
+}

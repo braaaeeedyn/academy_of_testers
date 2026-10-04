@@ -6,7 +6,8 @@
       "dimension": "saq-no-stimulus",
       "refId": "EUROH:saq4:set2-rubric",
       "title": "SAQ 4 — No Stimulus (3 points) — Set 2: European unification",
-      "content": "AP European History SAQ 4 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] describe one significant political characteristic of European unification efforts; B [1] describe one economic factor that facilitated European unification efforts; C [1] explain one way the economic system in Eastern Europe differed from that in another region. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A naming an event without a political characteristic; C stating a difference without explaining it."
+      "content": "AP European History SAQ 4 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] describe one significant political characteristic of European unification efforts; B [1] describe one economic factor that facilitated European unification efforts; C [1] explain one way the economic system in Eastern Europe differed from that in another region. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A naming an event without a political characteristic; C stating a difference without explaining it.",
+      "promptId": "ap25-european-history-saq4-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "3",
       "refId": "EUROH:saq4:set2-2025-4A",
       "title": "SAQ 4 Set 2 exemplar — Sample 4A, 3/3",
-      "content": "SAQ 4 (Set 2) scored 3/3 (A 1, B 1, C 1). Described a political characteristic of unification efforts, an economic facilitating factor, and explained an Eastern-European economic difference. Full-credit model."
+      "content": "SAQ 4 (Set 2) scored 3/3 (A 1, B 1, C 1). Described a political characteristic of unification efforts, an economic facilitating factor, and explained an Eastern-European economic difference. Full-credit model.",
+      "promptId": "ap25-european-history-saq4-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "EUROH:saq4:set2-2025-4B",
       "title": "SAQ 4 Set 2 exemplar — Sample 4B, 2/3",
-      "content": "SAQ 4 (Set 2) scored 2/3 (A 0, B 1, C 1). Earned B (an economic facilitating factor) and C (an explained economic difference) but lost A (no valid political characteristic of unification efforts). Illustrates missing the first Describe part while completing the factor and explanation."
+      "content": "SAQ 4 (Set 2) scored 2/3 (A 0, B 1, C 1). Earned B (an economic facilitating factor) and C (an explained economic difference) but lost A (no valid political characteristic of unification efforts). Illustrates missing the first Describe part while completing the factor and explanation.",
+      "promptId": "ap25-european-history-saq4-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "EUROH:saq4:set2-2025-4C",
       "title": "SAQ 4 Set 2 exemplar — Sample 4C, 1/3",
-      "content": "SAQ 4 (Set 2) scored 1/3 (A 0, B 0, C 1). Earned only C (explained an Eastern-European economic difference). Lost A (no valid political characteristic) and B (no valid economic factor). Illustrates a response that can explain a regional difference but not describe unification's political characteristic or economic driver."
+      "content": "SAQ 4 (Set 2) scored 1/3 (A 0, B 0, C 1). Earned only C (explained an Eastern-European economic difference). Lost A (no valid political characteristic) and B (no valid economic factor). Illustrates a response that can explain a regional difference but not describe unification's political characteristic or economic driver.",
+      "promptId": "ap25-european-history-saq4-set-2"
     }
   ]
 }

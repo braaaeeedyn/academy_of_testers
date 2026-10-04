@@ -6,7 +6,8 @@
       "dimension": "q1-conceptual-analysis",
       "refId": "COMPGOV:q1-set2:rubric",
       "title": "Q1 Conceptual Analysis (4 points) — Set 2: economic globalization & MNCs",
-      "content": "AP Comparative Government FRQ 1, Conceptual Analysis, 4 points, one per part (A–D), no stimulus. Set 2 answer key: A [1] describe economic globalization (interconnected worldwide markets/trade; unrestricted international movement of goods, capital, or labor across borders). B [1] a way governments support economic globalization (join a trade organization, decrease tariffs/immigration restrictions/quotas/subsidies, encourage FDI, improve infrastructure, create special economic zones, sign trade agreements). C [1] explain how MNCs can challenge state sovereignty (MNC economic/political resources pressure governments to align policies; conflicting labor/environment/tax goals; states compete to attract investment by lowering standards). D [1] explain a related motivation/why. Same task template as Set 1. Common failure: describing globalization as mere international relations, or an MNC-challenge that never ties MNC leverage to reduced state control."
+      "content": "AP Comparative Government FRQ 1, Conceptual Analysis, 4 points, one per part (A–D), no stimulus. Set 2 answer key: A [1] describe economic globalization (interconnected worldwide markets/trade; unrestricted international movement of goods, capital, or labor across borders). B [1] a way governments support economic globalization (join a trade organization, decrease tariffs/immigration restrictions/quotas/subsidies, encourage FDI, improve infrastructure, create special economic zones, sign trade agreements). C [1] explain how MNCs can challenge state sovereignty (MNC economic/political resources pressure governments to align policies; conflicting labor/environment/tax goals; states compete to attract investment by lowering standards). D [1] explain a related motivation/why. Same task template as Set 1. Common failure: describing globalization as mere international relations, or an MNC-challenge that never ties MNC leverage to reduced state control.",
+      "promptId": "ap25-comp-go-po-q1-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "4",
       "refId": "COMPGOV:q1-set2:2025-1A",
       "title": "Q1 Set 2 exemplar — Sample 1A, 4/4",
-      "content": "Q1 (Set 2) scored 4/4 (A, B, C, D all earned). Correctly described economic globalization, a government action that supports it, how MNCs challenge sovereignty, and the associated motivation. Full-credit model for the Conceptual Analysis task."
+      "content": "Q1 (Set 2) scored 4/4 (A, B, C, D all earned). Correctly described economic globalization, a government action that supports it, how MNCs challenge sovereignty, and the associated motivation. Full-credit model for the Conceptual Analysis task.",
+      "promptId": "ap25-comp-go-po-q1-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "COMPGOV:q1-set2:2025-1B",
       "title": "Q1 Set 2 exemplar — Sample 1B, 2/4",
-      "content": "Q1 (Set 2) scored 2/4 (A=0, B=1, C=1, D=0). Earned the two middle parts (a way to support globalization and an MNC challenge to sovereignty) but lost the concept description (A) and the motivation (D). Illustrates that the descriptive-concept and why parts are often the harder points on this task."
+      "content": "Q1 (Set 2) scored 2/4 (A=0, B=1, C=1, D=0). Earned the two middle parts (a way to support globalization and an MNC challenge to sovereignty) but lost the concept description (A) and the motivation (D). Illustrates that the descriptive-concept and why parts are often the harder points on this task.",
+      "promptId": "ap25-comp-go-po-q1-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "COMPGOV:q1-set2:2025-1C",
       "title": "Q1 Set 2 exemplar — Sample 1C, 1/4",
-      "content": "Q1 (Set 2) scored 1/4 (only B earned). Named a way governments support economic globalization but missed the definition of globalization (A), the MNC-sovereignty challenge (C), and the motivation (D). Illustrates a low response securing only the concrete example part."
+      "content": "Q1 (Set 2) scored 1/4 (only B earned). Named a way governments support economic globalization but missed the definition of globalization (A), the MNC-sovereignty challenge (C), and the motivation (D). Illustrates a low response securing only the concrete example part.",
+      "promptId": "ap25-comp-go-po-q1-set-2"
     }
   ]
 }

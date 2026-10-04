@@ -6,7 +6,8 @@
       "dimension": "q5-analyze-model-or-visual-representation",
       "refId": "BIO:q5:rubric",
       "title": "Q5 — Analyze Model or Visual Representation (4 points)",
-      "content": "AP Biology Q5 (short FRQ, Analyze a Model/Visual Representation), 4 points, one per part. Context: Figure 1 shows a metabolic pathway synthesizing amino acid B from amino acid A via enzymes and intermediates X and Y. A: describe a characteristic of an enzyme's active site enabling specific catalysis (binds a specific substrate; shape/charge compatible with substrate; positions substrate; induced fit stresses bonds). B: explain how amino acid B regulates the binding of amino acid A to enzyme 1 (B inhibits/feedback-inhibits; binds an allosteric site and changes enzyme 1's shape so A cannot bind). C: identify the product of the reaction catalyzed by enzyme 2 (intermediate Y). D: explain how a pH change could stop production of amino acid B via enzyme 3 (changes the structure/active site or denatures enzyme 3 so intermediate Y/substrate cannot bind). Common failure: part D describing a shape change without stating the substrate can no longer bind; part C misidentifying amino acid B."
+      "content": "AP Biology Q5 (short FRQ, Analyze a Model/Visual Representation), 4 points, one per part. Context: Figure 1 shows a metabolic pathway synthesizing amino acid B from amino acid A via enzymes and intermediates X and Y. A: describe a characteristic of an enzyme's active site enabling specific catalysis (binds a specific substrate; shape/charge compatible with substrate; positions substrate; induced fit stresses bonds). B: explain how amino acid B regulates the binding of amino acid A to enzyme 1 (B inhibits/feedback-inhibits; binds an allosteric site and changes enzyme 1's shape so A cannot bind). C: identify the product of the reaction catalyzed by enzyme 2 (intermediate Y). D: explain how a pH change could stop production of amino acid B via enzyme 3 (changes the structure/active site or denatures enzyme 3 so intermediate Y/substrate cannot bind). Common failure: part D describing a shape change without stating the substrate can no longer bind; part C misidentifying amino acid B.",
+      "promptId": "ap25-biology-q5"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "4",
       "refId": "BIO:q5:2025-5A",
       "title": "Q5 exemplar — Sample 5A, 4/4",
-      "content": "Q5 scored 4/4. A: 'each active site fits a specific substrate.' B: 'when amino acid B is bound to enzyme 1, the binding of amino acid A to enzyme 1 is inhibited.' C: intermediate Y. D: 'a change in pH could change the shape of enzyme 3 ... which could cause intermediate Y to not be able to bond with enzyme 3.' Full-credit model, with part D correctly linking the shape change to loss of substrate binding."
+      "content": "Q5 scored 4/4. A: 'each active site fits a specific substrate.' B: 'when amino acid B is bound to enzyme 1, the binding of amino acid A to enzyme 1 is inhibited.' C: intermediate Y. D: 'a change in pH could change the shape of enzyme 3 ... which could cause intermediate Y to not be able to bond with enzyme 3.' Full-credit model, with part D correctly linking the shape change to loss of substrate binding.",
+      "promptId": "ap25-biology-q5"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "3",
       "refId": "BIO:q5:2025-5B",
       "title": "Q5 exemplar — Sample 5B, 3/4",
-      "content": "Q5 scored 3/4. Earned A ('active sites are specific to its substrate'), B ('enzyme 1 is allosterically inhibited, not allowing A to bind'), C (intermediate Y). Lost D: said pH denatures enzyme 3 but did not explain that the denatured enzyme can no longer bind substrate Y. Shows the frequent part-D gap — naming denaturation without stating the binding consequence."
+      "content": "Q5 scored 3/4. Earned A ('active sites are specific to its substrate'), B ('enzyme 1 is allosterically inhibited, not allowing A to bind'), C (intermediate Y). Lost D: said pH denatures enzyme 3 but did not explain that the denatured enzyme can no longer bind substrate Y. Shows the frequent part-D gap — naming denaturation without stating the binding consequence.",
+      "promptId": "ap25-biology-q5"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "2",
       "refId": "BIO:q5:2025-5C",
       "title": "Q5 exemplar — Sample 5C, 2/4",
-      "content": "Q5 scored 2/4. Earned B ('amino acid B binds to enzyme 1 ... inhibits the binding of amino acid A') and D (pH 'could change the shape of enzyme 3, preventing the binding of intermediate Y'). Lost A (did not describe that the active site lets a substrate interact with the enzyme) and C (incorrectly identified amino acid B instead of intermediate Y as enzyme 2's product). Illustrates that a correct feedback-inhibition and pH answer can coexist with missing the active-site description and misreading the pathway diagram."
+      "content": "Q5 scored 2/4. Earned B ('amino acid B binds to enzyme 1 ... inhibits the binding of amino acid A') and D (pH 'could change the shape of enzyme 3, preventing the binding of intermediate Y'). Lost A (did not describe that the active site lets a substrate interact with the enzyme) and C (incorrectly identified amino acid B instead of intermediate Y as enzyme 2's product). Illustrates that a correct feedback-inhibition and pH answer can coexist with missing the active-site description and misreading the pathway diagram.",
+      "promptId": "ap25-biology-q5"
     }
   ]
 }

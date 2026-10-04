@@ -1,0 +1,223 @@
+{
+ "subjectName": "AP Physics C: Mechanics",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-physics-c-mech-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Mathematical Routines",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 20,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-c-mechanics/ap25-physics-c-mech-q1.pdf",
+   "pageCount": 2,
+   "promptText": "Question 1: Version J\n1. Two blocks, 1 and 2, slide toward each other on a horizontal surface. Block 1 has mass m\nand slides in the directionx-+ with constant speed v2 0. Block 2 has mass m6 and slides in the\ndirectionx-- with constant speed v0, as shown in Figure 1. The blocks then collide and stick\ntogether . The collision occurs from time t 0= to tt c= . After the collision, where tt> c , the blocks\nmove together with the same constant speed.\nA. The diagrams in Figure 2 can be used to represent the momentum of blocks 1 and 2 before\nand after the collision. The momentum vector diagram for Block 1 before the collision is\nshown.\ni. Draw arrows on the grids to represent the momentum vectors of Block 2 before the\ncollision and the two-block system before and after the collision.\n• Arrows should start at the zero-momentum line.\n• The length of the arrows should be proportional to the relative magnitudes of the\nvectors.\n• Represent an arrow of zero length by drawing a dot at zero.\nii. During the time interval tt0 c## , a force F is exerted on Block 2 by Block 1 along the\nx-direction as a function of t that is modeled by sinFt FA tma x=__ ii , where A is a positive\nconstant and Fmax is the magnitude of the maximum force exerted on Block 2 by Block 1\nduring the collision.\nDerive an expression for Fmax. Express your answer in terms of m, v0, A, tc , and physical\nconstants, as appropriate. Begin your derivation by writing a fundamental physics\nprinciple or an equation from the reference information.\nB. Consider a new scenario where Block 1 initially slides in the directionx-+ with a new\nconstant speed v1 and Block 2 again initially slides in the directionx-- with constant speed v0.\nThe blocks collide and stick together . In this new scenario, the two-block system has constant\nspeed v0 after the collision.\nDerive an expression for v1 in terms of v0. Begin your derivation by writing a fundamental\nphysics principle or an equation from the reference information.",
+   "sourceText": null,
+   "scoringGuide": "AP Physics C: Mechanics FRQ 1 is Mathematical Routines (MR), 10 points, scored by lettered sub-points. The MR task requires multi-step (often calculus-based) derivations/calculations with correct physics relationships, substitutions, and consistent expressions. Q1 topic: momentum and a collision between blocks/objects (conservation of momentum, impulse, energy). Points reward the governing relationship (conservation of momentum, impulse–momentum, energy), correct substitutions, and final expressions consistent with earlier parts. Common failure: omitting the conservation equation; energy/momentum confusion; expressions inconsistent with prior parts.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 7,
+     "criteria": "Award 0–7 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 (MR) scored 10/10 — all sub-points, with correct momentum/energy relationships, substitutions, and consistent final expressions. Full-credit model.",
+     "refId": "PHYSCMECH:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "6",
+     "summary": "Q1 (MR) scored 6/10 — earned the setup and several relationships but lost points on later derivation steps or consistency-dependent final expressions. Illustrates a partially completed routine.",
+     "refId": "PHYSCMECH:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "4",
+     "summary": "Q1 (MR) scored 4/10 — earned a few sub-points (e.g., a conservation statement and one substitution), losing the full derivation and consistent final expressions. Illustrates a response that cannot carry the multistep routine to completion.",
+     "refId": "PHYSCMECH:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-c-mech-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Translation Between Representations",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 35,
+   "totalPoints": 12,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-c-mechanics/ap25-physics-c-mech-q2.pdf",
+   "pageCount": 4,
+   "promptText": "Question 2: Version J\n2. In Scenario 1, a system composed of two springs, A and B, and a block of mass m is at rest on\na horizontal surface. Friction between the block and the surface is negligible. Each spring is\nattached to a fixed wall and the block, as shown in Figure 1. Spring A has a spring constant k\nand Spring B has a spring constant k2 . Each spring is at its relaxed length when the block is at\nposition x 0= , as shown.\nThe block is moved to xx 1= and held at rest, as shown in Figure 2.\nA. An energy bar chart can be used to represent the elastic potential energy UA of Spring A,\nthe elastic potential energy UB of Spring B, and the kinetic energy Kblock of the block. On the\nenergy bar chart in Figure 3, draw shaded bars to represent the energy of the system for\nwhen the block is at xx 1= .\n• The height of the shaded bars should be proportional to the relative values of UA , UB ,\nand Kblock .\n• Any energy that is equal to zero should be represented by a distinct line on the zero-\nenergy line.\nB. The block is released from rest at xx 1= and begins to oscillate. Derive an expression for the\nspeed v of the block as the block passes through xx 2\n1\n1= . Express your answer in terms of m,\nk , x1, and physical constants, as appropriate. Begin your derivation by writing a fundamental\nphysics principle or an equation from the reference information.\nC. In Scenario 1, the block oscillates with period T . The position x of the block in Scenario 1 as a\nfunction of time t is shown in Figure 4.\nIn Scenario 2, the block-springs system is placed on a new surface. There is friction between\nthe block and the new surface. The block is again moved to the same position xx 1= and\nreleased from rest. The block completes multiple oscillations with the same period as in\nScenario 1 before coming to rest.\nOn the axes shown in Figure 5, sketch a graph of the kinetic energy K of the block as a\nfunction of t for Scenario 2.\nD. In Scenario 3, the block is replaced with a new block of larger mass. The coefficient of kinetic\nfriction between the new block and the surface in Scenario 3 is the same as the coefficient of\nkinetic friction between the original block and the surface in Scenario 2.\nThe new block is moved to position xx 1= and released from rest. The kinetic energy of the\nnew block is plotted as a function of time.\nDescribe how one feature of the graph of K as a function of t in Scenario 3 would differ\nfrom the graph you drew in Figure 5 for Scenario 2.\nBriefly justify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Physics C: Mechanics FRQ 2 is Translation Between Representations (TBR), 12 points, scored by lettered sub-points. The TBR task requires moving among words, equations, graphs, diagrams, and data consistently. Q2 topic: energy with a spring (elastic PE, work–energy theorem, force vs. position). Points reward: correct free-body/energy diagrams, correct (often calculus-based) equations, correctly labeled graphs (e.g., force vs. position where area = work), and quantitative results consistent across representations. Common failure: wrong graph shape or unlabeled axes; equation inconsistent with the diagram; not connecting the area under a force–position graph to work/energy.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies. C: Mechanics FRQ 2 is Translation Between Representations (TBR), 12 points, scored by lettered sub-points. The TBR task requires moving among words, equations, graphs, diagrams, and data consistently. Q2 topic: energy with a spring (elastic PE, work–energy theorem, force vs. position). Points reward: correct free-body/energy diagrams, correct (often calculus-based) equations, correctly labeled graphs (e.g., force vs. position where area = work), and quantitative results consistent across representations"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "12",
+     "summary": "Q2 (TBR) scored 12/12 — all representations correct and consistent: diagrams, energy equations, a labeled force/energy graph, and agreeing quantitative results. Full-credit model.",
+     "refId": "PHYSCMECH:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "8",
+     "summary": "Q2 (TBR) scored 8/12 — earned most representation points but lost several, commonly a graph feature or an equation inconsistent with the diagram/area interpretation. Illustrates a strong response with a couple of translation slips.",
+     "refId": "PHYSCMECH:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "3",
+     "summary": "Q2 (TBR) scored 3/12 — earned only a few sub-points, losing most of the graph/equation translation and the consistent quantitative results. Illustrates a response that cannot keep representations consistent.",
+     "refId": "PHYSCMECH:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-c-mech-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Experimental Design and Analysis",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 25,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-c-mechanics/ap25-physics-c-mech-q3.pdf",
+   "pageCount": 3,
+   "promptText": "Question 3\n3. A box is connected to one end of a rigid rod. Both the box and the rod have negligible mass. The\nother end of the rod is connected to a pivot. The box is open on one side, and a block is placed\ninside the box.\nThe center of mass of the block is displaced a vertical distance h, as shown in Figure 1. The\nblock-box system is then released from rest and swings downward. There is negligible friction\nabout the pivot. When the system is at the lowest point of its swing, the rod collides with a rigid\nstopper , as shown in Figure 2. The box comes to rest, and the block is launched horizontally out\nof the box. The block moves across a horizontal surface toward a motion sensor that measures\nthe speed of the block. All frictional forces are negligible.\nA. Students are asked to experimentally determine the acceleration due to gravity g using a\nlinear graph. To determine g, the students are permitted to use measurements from only a\nmeterstick and the motion sensor .\nDescribe an experimental procedure using the described setup to collect data that would\nallow the students to determine an experimental value of g using a linear graph. Include any\nsteps necessary to reduce experimental uncertainty.\nB. Describe how the data collected in part A could be graphed and how that graph would be\nanalyzed to determine the value of g.\nC. The experiment is repeated, but the horizontal surface on which the block slides is replaced\nwith a new rough surface, as shown in Figure 3. The coefficient of kinetic friction between\nthe block and the new surface is n .\nThe block-box system is pulled aside so that the center of mass of the block is displaced\nvarious vertical distances h and then released from rest. For each vertical distance, students\nmeasure the position xx max= at which the block comes to rest.\nThe students’ measurements of h and xmax are shown in Table 1.\nTable 1\nh (m) xmax(m)\n0.30 0.76\n0.45 1.10\n0.60 1.40\n0.75 1.90\n0.90 2.30\ni. Indicate two quantities, either measured quantities from Table 1 or additional calculated\nquantities, that could be graphed to produce a straight line that could be used to\ndetermine n .\nVertical axis: ______ Horizontal axis: ______\nii. On the grid provided, create a graph of the quantities indicated in part C (i).\n• Use Table 2 to record the measured or calculated quantities that you will plot.\n• Clearly label the axes, including units as appropriate.\n• Plot the points you recorded in Table 2.\niii. Draw a best-fit line to the data graphed in part C (ii).\nD. Using the best-fit line that you drew in part C (iii), calculate an experimental value for n .",
+   "sourceText": null,
+   "scoringGuide": "AP Physics C: Mechanics FRQ 3 is Experimental Design and Analysis (LAB), 10 points, scored by lettered sub-points. The LAB task requires designing a procedure, planning a linearizing analysis, and reasoning from data/graphs. Q3 topic: a block-with-friction experiment (measuring friction coefficient, force, or acceleration). Points reward: a valid, replicable procedure with correct measurements and controls; a correct graphing/linearization plan; correct slope/intercept interpretation (tying it to friction/force); and data-supported conclusions. Common failure: a procedure missing a measurement/control; plotting quantities that do not linearize the relationship; not connecting slope/intercept to the physical quantity.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part C exactly as the official 2025 scoring guideline for this question specifies. C: Mechanics FRQ 3 is Experimental Design and Analysis (LAB), 10 points, scored by lettered sub-points. The LAB task requires designing a procedure, planning a linearizing analysis, and reasoning from data/graphs. Q3 topic: a block-with-friction experiment (measuring friction coefficient, force, or acceleration). Points reward: a valid, replicable procedure with correct measurements and controls; a correct graphing/linearization plan; correct slope/intercept interpretation (tying it to friction/force); and data-supported conclusions"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "10",
+     "summary": "Q3 (LAB) scored 10/10 — complete procedure, correct linearizing plan, correct slope/intercept interpretation (e.g., slope → coefficient of friction), and data-supported conclusions. Full-credit model.",
+     "refId": "PHYSCMECH:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "7",
+     "summary": "Q3 (LAB) scored 7/10 — earned most sub-points, losing a few on the linearization or the slope-to-quantity connection. Illustrates a strong lab design with a minor analysis gap.",
+     "refId": "PHYSCMECH:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "4",
+     "summary": "Q3 (LAB) scored 4/10 — earned a few sub-points (part of the procedure and one analysis element), losing the linearization plan and most data-based reasoning. Illustrates a rough experiment without rigorous analysis.",
+     "refId": "PHYSCMECH:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-c-mech-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Qualitative/Quantitative Translation",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 20,
+   "totalPoints": 8,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-c-mechanics/ap25-physics-c-mech-q4.pdf",
+   "pageCount": 2,
+   "promptText": "Question 4\n4. A uniform disk and ring, each of mass M and radius R, roll without slipping along a horizontal\nsurface, as shown in Figure 1. The outer edges of the disk and ring are made of the same\nmaterial. The center of mass of the disk and the center of mass of the ring each initially move\nwith the same constant speed v.\nThe disk and the ring then smoothly transition to a ramp that is inclined at an angle i above\nthe horizontal. Both the disk and the ring continue to roll without slipping as they move up the\nramp, as shown in Figure 2.\nThe ring travels a greater distance along the ramp than the disk travels before each\nmomentarily comes to rest.\nA. While the disk and the ring are rolling on the ramp without slipping, the magnitudes of\nthe static frictional force exerted on the disk and on the ring by the ramp are fD and fR ,\nrespectively.\nIndicate whether fD is greater than, less than, or equal to fR by writing one of the following.\n• ff >DR\n• ff <DR\n• ffDR=\nJustify your answer using qualitative reasoning beyond referencing equations.\nB. A cylinder has mass M, radius R, and rotational inertia I about its central axis. The cylinder\nrolls without slipping up a ramp that is inclined at an angle i above the horizontal.\nDerive an expression for the magnitude of the static frictional force f exerted on the\ncylinder by the ramp. Express your answer in terms of M, R, I, i, and physical constants,\nas appropriate. Begin your derivation by writing a fundamental physics principle or an\nequation from the reference information.\nC. In a different scenario, the centers of mass of the original disk and ring each have the same\ninitial speed v as they did in the original scenario. The ramp is replaced by a new ramp on\nwhich the disk and the ring initially slip as they roll up the new ramp.\nIndicate whether the magnitude of the kinetic frictional force exerted on the disk by the\nnew ramp is greater than, less than, or equal to the magnitude of the kinetic frictional force\nexerted on the ring by the new ramp while both are slipping.\nBriefly justify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Physics C: Mechanics FRQ 4 is Qualitative Quantitative Translation (QQT), 8 points, scored by lettered sub-points. The QQT task connects qualitative reasoning with quantitative analysis around a claim. Q4 topic: rotation with friction (a disk/rotational dynamics — torque, moment of inertia, angular momentum). Points reward: a correct claim/prediction, qualitative reasoning citing the relevant rotational principle (torque, conservation of angular momentum), a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments. Common failure: a claim without a supporting principle; quantitative work inconsistent with the qualitative reasoning; confusing linear and rotational quantities.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C: Mechanics FRQ 4 is Qualitative Quantitative Translation (QQT), 8 points, scored by lettered sub-points. The QQT task connects qualitative reasoning with quantitative analysis around a claim. Q4 topic: rotation with friction (a disk/rotational dynamics — torque, moment of inertia, angular momentum). Points reward: a correct claim/prediction, qualitative reasoning citing the relevant rotational principle (torque, conservation of angular momentum), a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "8",
+     "summary": "Q4 (QQT) scored 8/8 — a correct claim, sound qualitative rotational reasoning, a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments. Full-credit model.",
+     "refId": "PHYSCMECH:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (QQT) scored 4/8 — earned the claim and some qualitative reasoning but lost points where the quantitative argument was incomplete or inconsistent with the claim (e.g., mixing linear and rotational quantities). Illustrates a half-connected response.",
+     "refId": "PHYSCMECH:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "3",
+     "summary": "Q4 (QQT) scored 3/8 — earned a few sub-points (a claim and one or two reasoning/quantitative steps), losing most of the principle-based reasoning and quantitative support. Illustrates a response that only partially links qualitative and quantitative rotational reasoning.",
+     "refId": "PHYSCMECH:q4:2025-4C"
+    }
+   ]
+  }
+ ]
+}

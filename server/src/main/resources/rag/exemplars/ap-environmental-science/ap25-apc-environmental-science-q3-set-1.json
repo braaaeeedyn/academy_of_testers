@@ -6,7 +6,8 @@
       "dimension": "q3-analyze-problem-propose-solution-calculations",
       "refId": "APES:q3-set1:rubric",
       "title": "Q3 Analyze a Problem & Propose a Solution w/ Calculations (10 points) — Set 1: air pollution & energy",
-      "content": "AP Environmental Science FRQ 3 is 'Analyze an Environmental Problem and Propose a Solution' with a calculation component, 10 points across parts A–G (calculation parts award a setup point AND an answer point). Set 1 answer key: A [P1] an anthropogenic particulate-matter source other than motor vehicles (e.g., coal power plants, construction, agriculture). B [P2] how a vapor recovery system reduces vehicle-associated pollutants. C [P3] explain how fewer personal-vehicle commuters reduces pollution. D [P4 setup, P5 answer] calculate the percent change in gas mileage between the gasoline SUV and the hybrid (percent change = (new−old)/old ×100, show setup). E [P6 setup, P7 answer] calculate how many more city miles the hybrid can drive. F [P8] propose a realistic school solution to decrease energy use for lighting (e.g., LED bulbs, daylighting, occupancy sensors). G [P9 setup, P10 answer] calculate the building's annual energy use with LED bulbs (kWh/year). Common failure in calculations: no setup shown (loses the setup point), unit errors, or a wrong percent-change formula. Show-your-work is required for the setup points."
+      "content": "AP Environmental Science FRQ 3 is 'Analyze an Environmental Problem and Propose a Solution' with a calculation component, 10 points across parts A–G (calculation parts award a setup point AND an answer point). Set 1 answer key: A [P1] an anthropogenic particulate-matter source other than motor vehicles (e.g., coal power plants, construction, agriculture). B [P2] how a vapor recovery system reduces vehicle-associated pollutants. C [P3] explain how fewer personal-vehicle commuters reduces pollution. D [P4 setup, P5 answer] calculate the percent change in gas mileage between the gasoline SUV and the hybrid (percent change = (new−old)/old ×100, show setup). E [P6 setup, P7 answer] calculate how many more city miles the hybrid can drive. F [P8] propose a realistic school solution to decrease energy use for lighting (e.g., LED bulbs, daylighting, occupancy sensors). G [P9 setup, P10 answer] calculate the building's annual energy use with LED bulbs (kWh/year). Common failure in calculations: no setup shown (loses the setup point), unit errors, or a wrong percent-change formula. Show-your-work is required for the setup points.",
+      "promptId": "ap25-environmental-science-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "9",
       "refId": "APES:q3-set1:2025-3A",
       "title": "Q3 Set 1 exemplar — Sample 3A, 9/10",
-      "content": "Q3 (Set 1) scored 9/10 — earned nearly every part: the particulate-matter source, vapor-recovery and fewer-commuters reasoning, both percent-change gas-mileage points (setup and answer), the extra-city-miles calculation, the school energy solution, and the LED annual-energy calculation. Lost a single point (typically one calculation answer or one explanation). Model of a near-complete calculation FRQ with correct setups shown."
+      "content": "Q3 (Set 1) scored 9/10 — earned nearly every part: the particulate-matter source, vapor-recovery and fewer-commuters reasoning, both percent-change gas-mileage points (setup and answer), the extra-city-miles calculation, the school energy solution, and the LED annual-energy calculation. Lost a single point (typically one calculation answer or one explanation). Model of a near-complete calculation FRQ with correct setups shown.",
+      "promptId": "ap25-environmental-science-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "5",
       "refId": "APES:q3-set1:2025-3B",
       "title": "Q3 Set 1 exemplar — Sample 3B, 5/10",
-      "content": "Q3 (Set 1) scored 5/10 — typically earned the identification and description points and one calculation (often the percent-change setup or answer), while losing calculation answer points to missing setups or unit/formula errors and some explanation points. Illustrates how partial calculation work (setup without a correct answer, or vice versa) caps the calculation-heavy question."
+      "content": "Q3 (Set 1) scored 5/10 — typically earned the identification and description points and one calculation (often the percent-change setup or answer), while losing calculation answer points to missing setups or unit/formula errors and some explanation points. Illustrates how partial calculation work (setup without a correct answer, or vice versa) caps the calculation-heavy question.",
+      "promptId": "ap25-environmental-science-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "2",
       "refId": "APES:q3-set1:2025-3C",
       "title": "Q3 Set 1 exemplar — Sample 3C, 2/10",
-      "content": "Q3 (Set 1) scored 2/10 — earned only about two points, generally the anthropogenic-source identification and one other content point, while losing the calculation points (no valid setup/answer) and the explanation and solution points. Illustrates a low response that cannot complete the required calculations."
+      "content": "Q3 (Set 1) scored 2/10 — earned only about two points, generally the anthropogenic-source identification and one other content point, while losing the calculation points (no valid setup/answer) and the explanation and solution points. Illustrates a low response that cannot complete the required calculations.",
+      "promptId": "ap25-environmental-science-q3-set-1"
     }
   ]
 }

@@ -6,7 +6,8 @@
       "dimension": "leq-long-essay-question",
       "refId": "EUROH:leq4:set2-rubric",
       "title": "LEQ — Long Essay Question (6 points) — Q4 Set 2: Changes in the Status of Women",
-      "content": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (here continuity and change over time) (1), complex understanding (1). Q4 Set 2 prompt: evaluate the extent of change in the status of women in Europe over the period. Common failure: describing changes without a defensible thesis; reasoning process without complexity."
+      "content": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (here continuity and change over time) (1), complex understanding (1). Q4 Set 2 prompt: evaluate the extent of change in the status of women in Europe over the period. Common failure: describing changes without a defensible thesis; reasoning process without complexity.",
+      "promptId": "ap25-european-history-leq4-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "6",
       "refId": "EUROH:leq4:set2-2025-4A",
       "title": "LEQ Q4 Set 2 exemplar — Sample 4A, 6/6",
-      "content": "Q4 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows, including a continuity-and-change reasoning process and complex understanding. Full-credit model."
+      "content": "Q4 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows, including a continuity-and-change reasoning process and complex understanding. Full-credit model.",
+      "promptId": "ap25-european-history-leq4-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "4",
       "refId": "EUROH:leq4:set2-2025-4B",
       "title": "LEQ Q4 Set 2 exemplar — Sample 4B, 4/6",
-      "content": "Q4 (Set 2) scored 4/6 (Thesis 0, Context 1, Evidence 2, Analysis 1). Earned contextualization, both Evidence points, and one Analysis point. Lost the Thesis and the Complexity point. A common 4-point profile: well-evidenced with context but no scorable thesis and no complexity."
+      "content": "Q4 (Set 2) scored 4/6 (Thesis 0, Context 1, Evidence 2, Analysis 1). Earned contextualization, both Evidence points, and one Analysis point. Lost the Thesis and the Complexity point. A common 4-point profile: well-evidenced with context but no scorable thesis and no complexity.",
+      "promptId": "ap25-european-history-leq4-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "3",
       "refId": "EUROH:leq4:set2-2025-4C",
       "title": "LEQ Q4 Set 2 exemplar — Sample 4C, 3/6",
-      "content": "Q4 (Set 2) scored 3/6 (Thesis 1, Context 1, Evidence 0, Analysis 1). Earned the thesis, contextualization, and one Analysis point (reasoning process). Lost both Evidence points (no specific, used evidence) and the Complexity point. Illustrates an essay with a good frame (thesis, context, reasoning) but no substantiating evidence."
+      "content": "Q4 (Set 2) scored 3/6 (Thesis 1, Context 1, Evidence 0, Analysis 1). Earned the thesis, contextualization, and one Analysis point (reasoning process). Lost both Evidence points (no specific, used evidence) and the Complexity point. Illustrates an essay with a good frame (thesis, context, reasoning) but no substantiating evidence.",
+      "promptId": "ap25-european-history-leq4-set-2"
     }
   ]
 }

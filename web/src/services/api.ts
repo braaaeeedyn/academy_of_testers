@@ -238,6 +238,8 @@ export interface FrqGradeInput {
   sourceText?: string
   /** Optional stable prompt id so retrieval can filter to this prompt's rubric/exemplars. */
   promptId?: string
+  /** Official scoring guideline for this exact question (released-exam questions send it). */
+  scoringGuide?: string
   rubric: FrqRubricRow[]
   studentResponse: string
 }

@@ -1,38 +1,8 @@
 import type { SubjectFrqSet } from './types'
 import { pointBased } from './rubrics'
 
-// AP Seminar and Research are performance-task courses rather than traditional timed-FRQ exams.
-// Seminar has an end-of-course written argument; these practices model that analysis/argument work.
-
-export const AP_SEMINAR_FRQ: SubjectFrqSet = {
-  subjectName: 'AP Seminar',
-  note: 'Modeled on the AP Seminar end-of-course written tasks (analyzing and building an argument). Scored on the general argument-quality rubric below.',
-  prompts: [
-    {
-      id: 'seminar-analyze-argument',
-      essayType: 'Analyze an Argument',
-      title: 'Analyze an author’s argument',
-      year: 'Sample prompt',
-      suggestedMinutes: 30,
-      directions:
-        'Read the source below. Then, in a well-written response, identify the author’s argument and'
-        + ' analyze how the author uses reasoning and evidence to support it. Evaluate how convincing'
-        + ' the argument is.',
-      sourceText:
-        'Source (columnist): “Cities should make public transit free. Fare collection costs money to'
-        + ' administer, slows boarding, and deters exactly the low-income riders who most need'
-        + ' transit. Cities that dropped fares saw ridership jump and traffic fall. The lost fare'
-        + ' revenue is small next to the economic and environmental gains of getting people out of'
-        + ' cars.”',
-      rubric: pointBased([
-        { name: 'Identifies argument', maxPoints: 1, criteria: 'Accurately states the author’s central claim (cities should make transit free).' },
-        { name: 'Analyzes reasoning', maxPoints: 2, criteria: '1 point for identifying specific lines of reasoning/evidence the author uses; 1 point for explaining how they function to support the claim.' },
-        { name: 'Evaluates', maxPoints: 2, criteria: '1 point for a reasoned evaluation of the argument’s strength; 1 point for identifying a limitation, assumption, or missing counter-evidence.' },
-        { name: 'Communication', maxPoints: 1, criteria: 'Organized, clear response that stays grounded in the source.' },
-      ]),
-    },
-  ],
-}
+// AP Research is a performance-task course rather than a timed FRQ exam (AP Seminar's end-of-course
+// exam is covered by the released 2025 questions in ./released).
 
 export const AP_RESEARCH_FRQ: SubjectFrqSet = {
   subjectName: 'AP Research',

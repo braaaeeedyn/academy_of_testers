@@ -1,0 +1,914 @@
+{
+ "subjectName": "AP European History",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-european-history-saq1-set-1",
+   "set": 1,
+   "label": "SAQ 1",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Secondary Source",
+   "topic": "",
+   "teaser": "A. Describe the main argument made by the author in the excerpt. B. Describe one piece of evidence used by the author in the excerpt to support her argument. C. Explain how one historical…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-saq1-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "“After the [Russian] revolution of 1917, the Bolshevik regime became the first government in\nhistory to declare that women’s emancipation was one of its primary goals and to write it into\nlaw. Legislation ensuring equal pay for equal work was instantly [passed], and women’s right (if\nnot their obligation) to work became central to Soviet notions of citizenship. Yet, after the first\nfifteen years of Soviet rule, it was evident that the Leninist ideal of freeing women...was still a\ndistant utopia. In retrospect it was also evident that the Soviet Union’s commitment to women’s\nequal employment has never been purely ideological and has been based rather on pragmatic,\ndemographic factors: rapid economic growth, labor shortages, and a frequent shortage of males.\nIn the past decade [the 1980s], the average female worker , although she was slightly better\neducated than her male counterpart, earned only two-thirds as much as the average male....\nSome forty percent of Soviet working women are employed in unskilled manual labor or low-\nskilled industrial work.\nThe higher professions are equally unbalanced. About three-quarters of the schoolteachers\nbut only about a third of the school principals are women. Some seventy percent of the doctors\nare women, but more than half the hospital administrators are men and [they] are in charge\nof formulating local health policy. The inequality is even more striking among engineers and\nskilled technical workers.”\nSource: Francine du Plessix Gray, French-American journalist, Soviet Women: Walking the\nTightrope, 1990\n1. Respond to parts A, B, and C.\nA. Describe the main argument made by the author in the excerpt.\nB. Describe one piece of evidence used by the author in the excerpt to support her argument.\nC. Explain how one historical development in the second half of the 1900s likely influenced the\nauthor’s perspective.",
+   "sourceText": null,
+   "scoringGuide": "AP European History SAQ 1 (Secondary Source), 3 points, one per part A/B/C. 'Describe' requires relevant characteristics (more than a mention); 'Explain' requires how or why. Set 1 prompts: A [1] describe the main argument the author makes in the excerpt; B [1] describe one piece of evidence the author uses in the excerpt to support the argument; C [1] explain how one historical development in the second half of the 1900s likely influenced the development discussed. Common failure: for A, quoting rather than stating the author's argument; for C, describing a development without explaining how it influenced the topic (Explain requires a causal link).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe the main argument the author makes in the excerpt"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe one piece of evidence the author uses in the excerpt to support the argument"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how one historical development in the second half of the 1900s likely influenced the development discussed"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "3",
+     "summary": "SAQ 1 (Set 1) scored 3/3 (A 1, B 1, C 1). Correctly stated the author's main argument, identified a supporting piece of evidence from the excerpt, and explained a late-1900s development's influence with a causal link. Full-credit model.",
+     "refId": "EUROH:saq1:set1-2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "SAQ 1 (Set 1) scored 2/3 (A 1, B 0, C 1). Stated the author's argument (A) and explained a historical development's influence (C), but did not correctly describe a piece of evidence the author used in the excerpt (B). Illustrates missing the source-analysis middle part while handling argument and explanation.",
+     "refId": "EUROH:saq1:set1-2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "SAQ 1 (Set 1) scored 1/3 (A 1, B 0, C 0). Stated the author's main argument only. Lost B (no correct supporting evidence from the excerpt) and C (no causal explanation of a late-1900s development's influence). Illustrates a response that reads the argument but neither analyzes the source nor supplies outside explanation.",
+     "refId": "EUROH:saq1:set1-2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-saq2-set-1",
+   "set": 1,
+   "label": "SAQ 2",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Primary Source",
+   "topic": "",
+   "teaser": "A. Describe a likely intended purpose of the engraving. B. Describe a broader historical context for the events depicted in the engraving. C. Explain one way that events such as those referenced…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-saq2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "Fernando Brambila and Juan Gálvez, Spanish Artists, Engraving of Agustina de Aragón, a\nWoman of the Spanish City of Zaragoza During the Siege by One of Napoleon’s Armies, 1808\nThe engraving was part of a series of illustrations of the siege of Zaragoza commissioned by the\nSpanish commander who led the successful defense of the city.\n2. Respond to parts A, B, and C.\nA. Describe a likely intended purpose of the engraving.\nB. Describe a broader historical context for the events depicted in the engraving.\nC. Explain one way that events such as those referenced in the engraving affected European\npolitics in the period after 1815.",
+   "sourceText": null,
+   "scoringGuide": "AP European History SAQ 2 (Primary Source), 3 points, one per part. Set 1 prompts (an engraving): A [1] describe a likely intended purpose of the engraving; B [1] describe a broader historical context for the events depicted; C [1] explain one way that events such as those referenced affected European society/politics. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A describing the content instead of the purpose (why it was made / intended effect on audience); C describing rather than explaining an effect.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe a likely intended purpose of the engraving"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe a broader historical context for the events depicted"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way that events such as those referenced affected European society/politics. 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "3",
+     "summary": "SAQ 2 (Set 1) scored 3/3 (A 1, B 1, C 1). Described a likely intended purpose of the engraving, gave a broader historical context, and explained an effect of such events. Full-credit model.",
+     "refId": "EUROH:saq2:set1-2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "2",
+     "summary": "SAQ 2 (Set 1) scored 2/3 (A 1, B 1, C 0). Described the engraving's purpose (A) and a broader context (B) but did not explain an effect of such events (C) — the causal 'how' was missing. Illustrates the common pattern of losing the Explain part.",
+     "refId": "EUROH:saq2:set1-2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "SAQ 2 (Set 1) scored 1/3 (A 1, B 0, C 0). Described a likely purpose of the engraving only. Lost B (no valid broader context) and C (no causal explanation). Illustrates a response that reads the source's purpose but supplies neither context nor an explained effect.",
+     "refId": "EUROH:saq2:set1-2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-saq3-set-1",
+   "set": 1,
+   "label": "SAQ 3",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "European overseas expansion",
+   "teaser": "A. Describe one significant motivation for European overseas expansion in the period 1450 to 1600. B. Describe one significant change in European overseas expansion in the period 1600 to 1700. C.…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-saq3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. Respond to parts A, B, and C.\nA. Describe one significant motivation for European overseas expansion in the period 1450 to\n1600.\nB. Describe one significant change in European overseas expansion in the period 1600 to 1700.\nC. Explain one way that European overseas expansion affected Europe’s economy in the period\n1700 to 1900.",
+   "sourceText": null,
+   "scoringGuide": "AP European History SAQ 3 (No Stimulus), 3 points, one per part. Set 1 prompts: A [1] describe one significant motivation for European overseas expansion in the period 1450–1648; B [1] describe one significant change in European overseas expansion in the period 1600–1815; C [1] explain one way European overseas expansion affected Europe's economy. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: vague answers that name a term without characteristics; for C, stating an economic effect without explaining the causal mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe one significant motivation for European overseas expansion in the period 1450–1648"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe one significant change in European overseas expansion in the period 1600–1815"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way European overseas expansion affected Europe's economy. 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "3",
+     "summary": "SAQ 3 (Set 1) scored 3/3 (A 1, B 1, C 1). Described a motivation for expansion, a change in expansion, and explained an economic effect with a causal link. Full-credit model.",
+     "refId": "EUROH:saq3:set1-2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "2",
+     "summary": "SAQ 3 (Set 1) scored 2/3 (A 1, B 0, C 1). Described a motivation (A) and explained an economic effect (C) but did not describe a valid change in expansion for the later period (B). Illustrates missing the middle 'change' part.",
+     "refId": "EUROH:saq3:set1-2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "SAQ 3 (Set 1) scored 1/3 (A 1, B 0, C 0). Described a motivation for expansion only. Lost B (no valid change) and C (no explained economic effect). Illustrates a response that identifies a motivation but cannot develop a change or a causal economic effect.",
+     "refId": "EUROH:saq3:set1-2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-saq4-set-1",
+   "set": 1,
+   "label": "SAQ 4",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "Industrialization",
+   "teaser": "A. Describe one significant feature of industrialization in Europe in the period 1750 to 1800. B. Describe one significant change in industrialization in the period 1800 to 1900. C. Explain one…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-saq4-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "4. Respond to parts A, B, and C.\nA. Describe one significant feature of industrialization in Europe in the period 1750 to 1800.\nB. Describe one significant change in industrialization in the period 1800 to 1900.\nC. Explain one way that industrialization affected European politics in the period 1800 to 1900.",
+   "sourceText": null,
+   "scoringGuide": "AP European History SAQ 4 (No Stimulus), 3 points, one per part. Set 1 prompts: A [1] describe one significant feature of industrialization in Europe 1750–1800; B [1] describe one significant change in industrialization 1800–1900; C [1] explain one way industrialization affected European politics in 1800–1900. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A giving a post-1800 feature for the 1750–1800 window (chronology); C describing a political outcome without the causal how.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe one significant feature of industrialization in Europe 1750–1800"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe one significant change in industrialization 1800–1900"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way industrialization affected European politics in 1800–1900. 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "3",
+     "summary": "SAQ 4 (Set 1) scored 3/3 (A 1, B 1, C 1). Described an early-industrialization feature, a 19th-century change, and explained a political effect of industrialization. Full-credit model.",
+     "refId": "EUROH:saq4:set1-2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "2",
+     "summary": "SAQ 4 (Set 1) scored 2/3 (A 0, B 1, C 1). Earned B (a 19th-century change) and C (a political effect) but lost A — the feature given did not fit the 1750–1800 window (a chronology error). Illustrates how a period mismatch costs the Describe point even when later parts succeed.",
+     "refId": "EUROH:saq4:set1-2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "SAQ 4 (Set 1) scored 1/3 (A 0, B 1, C 0). Earned only B (a change in industrialization). Lost A (period mismatch or vague feature) and C (no explained political effect). Illustrates a response holding only the middle 'change' part.",
+     "refId": "EUROH:saq4:set1-2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-dbq-set-1",
+   "set": 1,
+   "label": "DBQ",
+   "section": "Section II",
+   "essayType": "Document-Based Question",
+   "topic": "French Revolutionary Government",
+   "teaser": "Evaluate whether or not the French government upheld the ideals of the Revolution during the period 1789 to 1794. In your response you should do the following: • Respond to the prompt with a…",
+   "suggestedMinutes": 60,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-dbq-set-1.pdf",
+   "pageCount": 5,
+   "promptText": "1. Evaluate whether or not the French government upheld the ideals of the Revolution during the\nperiod 1789 to 1794.\nIn your response you should do the following:\n• Respond to the prompt with a historically defensible thesis or claim that establishes a\nline of reasoning.\n• Describe a broader historical context relevant to the prompt.\n• Support an argument in response to the prompt using at least four documents.\n• Use at least one additional piece of specific historical evidence (beyond that found in the\ndocuments) relevant to an argument about the prompt.\n• For at least two documents, explain how or why the document’s point of view, purpose,\nhistorical situation, and/or audience is relevant to an argument.\n• Demonstrate a complex understanding of a historical development related to the prompt\nthrough sophisticated argumentation and/or effective use of evidence.\nDocument 1\nSource: Declaration of the Rights of Man and of the Citizen, ratified by the National Assembly of\nFrance, August 1789\n“The National Assembly recognizes and proclaims, in the presence and under the auspices of\nthe Supreme Being, the following rights of man and of the citizen:\n1. Men are born and remain free and equal in rights. Social distinctions may be founded only\nupon the general good.\n2. The aim of all political association is the preservation of the natural...rights of man. These\nrights are liberty, property, security, and resistance to oppression.\n9. All persons are held innocent until they shall have been declared guilty. If arrest shall be\ndeemed indispensable, all harshness not essential to the securing of the prisoner’s person shall\nbe severely repressed by law.\n10. No one shall be harassed on account of his opinions, including his religious views.\n11. The free communication of ideas and opinions is one of the most precious of the rights\nof man. Every citizen may, accordingly, speak, write, and print with freedom, but shall be\nresponsible for such abuses of this freedom as shall be defined by law.”\nDocument 2\nSource: Olympe de Gouges, female political activist, Declaration of the Rights of Woman and the\nFemale Citizen, September 1791\n“Woman, wake up! The call of reason is being heard throughout the whole universe. Discover\nyour rights. The powerful empire of nature is no longer surrounded by prejudice, fanaticism,\nsuperstition, and lies. The flame of truth has dispersed all the clouds of folly and violation.\nHaving become free, man has become unjust to you, his companion. Oh, women, women! When\nwill you cease to be blind? What advantage have you received from the Revolution? A more\npronounced scorn, a more marked disdain.\n[I urge you to] deploy all the energy of your character , and you will soon see these overbearing\nmen, not groveling at your feet as servile adorers, but proud to share with you the treasures\nof the Supreme Being. Regardless of what barriers confront you, it is in your power to free\nyourselves. You have only to want to.”\nDocument 3\nSource: The French Constitution, ratified by the National Assembly, September 1791\n“The constitution guarantees as natural and civil rights:\n1. that all citizens are admissible to offices and employments without any other distinction than\nthat of virtues and talents;\n2. that all taxes shall be borne equally by all citizens in proportion to their resources;\n3. that like crimes shall be punished by like penalties without any distinction of persons.\nThe constitution guarantees likewise as natural and civil rights freedom to every man to come\nand go or remain without being arrested or detained except in accordance with the forms\ndetermined by the constitution.\n[The constitution guarantees every man the right] to practice the religious faith which he\naccepts, freedom to citizens to assemble peaceably and without arms in accordance with police\nregulations.\nFurthermore, the legislature may not make any law which interferes with or hinders the\nexercise of the natural and civil rights guaranteed by the present constitution.”\nDocument 4\nSource: Berr Isaac Berr , Jewish-French merchant, “Letter of a Citizen to His Fellow Jews,”\nOctober 1791\n“Gentlemen and dear brethren,\nAt length the day has come when the veil, by which we were kept in a state of humiliation, is\nlifted; at length we recover those rights which have been taken from us more than eighteen\ncenturies ago. How much are we at this moment indebted to the mercy of the God of our\nforefathers! We are now, thanks to the Supreme Being and to the sovereignty of the nation, not\nonly Men and Citizens, but we are Frenchmen!\nThe name of active citizen, which we have just obtained, is, without a doubt, the most precious\ntitle a man can possess in a free state. This title alone is not sufficient; we should possess\nalso the necessary qualifications to fulfill the duties attached to it.... In these things we must\nabsolutely appear simply as individuals, as Frenchmen, guided only by a true patriotism and by\nthe general good of the nation. We must know how to risk our lives and fortunes for the defense\nof the country, to make ourselves useful to our fellow citizens, and to deserve their esteem and\ntheir friendship.”\nDocument 5\nSource: Pierre Vergniaud, one of the leaders of the Girondins, a faction opposed to the Jacobins,\nspeech to the French legislature, March 1793\n“We go from crimes to pardons, from pardons to crimes. Numbers of citizens have begun to\nmistake treasonous insurrections for the great revolution of liberty.\nWe have witnessed the development of that strange system of liberty, in which we are told:\n‘You are free; but think with us, or we will denounce you to the vengeance of the people. You\nare free, but bow down your head to the idol we worship, or we will denounce you to the\nvengeance of the people. You are free, but join us in persecuting the men whose integrity and\nintelligence we fear , or we will denounce you to the vengeance of the people.’ Citizens, we have\nreason to fear that the revolution will devour all its children and only [give rise to] despotism\nand the calamities which accompany it.”\nDocument 6\nSource: Charlotte Corday, political activist, manifesto written before her assassination of the\nJacobin leader Jean-Paul Marat, Paris, July 1793\n“Address to the French, the friends of law and of peace: How long, oh miserable Frenchmen,\nwill you be pleased with disorder and divisions. Long enough and too long have some factious\nmen, some wicked men placed the interest of their ambition in the place of the general good.\nWhy, victims of their fury, do you destroy yourselves to establish their desire of tyranny over\nthe ruins of France?\nThe factions explode on all sides; the Jacobins triumph by crime and oppression. Monsters\ndrenched with our blood conduct their detestable conspiracies.\nAlready the angry inhabitants outside the capital march on Paris. Already the fire of discord\nand civil war inflames half of this vast state. There is still a means of extinguishing it, but the\nmeans must be prompt. The vilest of the wicked, Marat, whose name alone presents the image\nof all crime, when he falls under the avenging steel [of my blade], will shake the Jacobins and\nmake Danton grow pale. Robespierre and those other brigands seated upon the bloody throne\nwill be enveloped in the lightning of the avenging gods of humanity.”\nDocument 7\nSource: Anonymous French artist, “All Mortals are Equal; it is not Birth but Virtue that Makes\nthe Difference,” print created in response to the abolition of slavery in French colonies, 1794\nBibliotheque Nationale, Paris, France/Bridgeman Images\nThe female figure in the center represents Reason. The figure to the left represents Nature. The\nAfrican man to the right is holding a copy of the Declaration of the Rights of Man and the Citizen.",
+   "sourceText": null,
+   "scoringGuide": "AP European History DBQ, 7 points, standardized rubric. A Thesis/Claim [1]: a historically defensible thesis/claim that responds to the prompt with a line of reasoning (in the intro or conclusion; not a restatement). B Contextualization [1]: describes a broader historical context relevant to the prompt. C Evidence [0–3]: (1) uses the content of at least THREE documents to address the topic; (1) supports an argument in response to the prompt using at least FOUR documents; (1) uses at least one additional piece of specific historical evidence BEYOND the documents. D Analysis and Reasoning [0–2]: (1) Sourcing — explains for at least TWO documents how the point of view, purpose, historical situation, and/or audience is relevant to an argument; (1) Complex Understanding — demonstrates a complex understanding via sophisticated argumentation and/or effective use of evidence (e.g., corroboration/qualification, argument + counterargument across all documents). Set 1 prompt: evaluate the extent to which the French revolutionary government upheld the ideals of the French Revolution (7 documents). Common failure: using only three documents (loses the four-document argument point), no sourcing attempt, and evidence-beyond-the-documents that is too vague.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning (not a restatement of the prompt)."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt — more than a passing phrase."
+    },
+    {
+     "name": "Evidence from the Documents",
+     "maxPoints": 2,
+     "criteria": "1 point: uses the content of at least three documents to address the topic. 2 points: supports an argument using at least four documents."
+    },
+    {
+     "name": "Evidence Beyond the Documents",
+     "maxPoints": 1,
+     "criteria": "Uses at least one additional piece of specific, relevant historical evidence not found in the documents to support the argument."
+    },
+    {
+     "name": "Sourcing",
+     "maxPoints": 1,
+     "criteria": "For at least two documents, explains how or why the document's point of view, purpose, historical situation, and/or audience is relevant to the argument."
+    },
+    {
+     "name": "Complex Understanding",
+     "maxPoints": 1,
+     "criteria": "Demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of the evidence. Rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "7",
+     "summary": "DBQ (Set 1) scored 7/7 (Thesis 1, Context 1, Evidence 3, Analysis 2). Thesis linking the government's granting of rights to subduing revolutionary spirit; contextualization via excessive spending and unfair taxation; used all seven documents (3-doc and 4-doc argument points) plus evidence beyond (conditions of slavery); sourced four documents (audience for Docs 4 and 7, purpose for Docs 5 and 6); complex understanding via an argument-and-counterargument using all seven documents. Full-credit model.",
+     "refId": "EUROH:dbq:set1-2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "4",
+     "summary": "DBQ (Set 1) scored 4/7 (Thesis 1, Context 1, Evidence 2, Analysis 0). Earned the thesis (government did not live up to the ideals), contextualization (Enlightenment ideas, American independence), the 3-document content point, and evidence beyond the documents (actions of the Jacobins). Lost the 4-document argument point (used only 3 documents), and both Analysis points — no sourcing attempt and no complex understanding. Illustrates the common ceiling: solid thesis/context/evidence but no document sourcing or complexity.",
+     "refId": "EUROH:dbq:set1-2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "2",
+     "summary": "DBQ (Set 1) scored 2/7 (Thesis 1, Context 1, Evidence 0, Analysis 0). Earned only the thesis (government upheld the ideals by granting rights) and contextualization (Old Regime inequalities, American Revolution). Lost all evidence points (referenced only two documents, so neither the 3-doc nor 4-doc point; evidence beyond was too vague) and both Analysis points. Illustrates a response that frames an argument but does not deploy enough document evidence.",
+     "refId": "EUROH:dbq:set1-2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-leq2-set-1",
+   "set": 1,
+   "label": "LEQ 2",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Reformation in England vs. France",
+   "teaser": "Evaluate the most significant difference between the Protestant Reformation in England and the Protestant Reformation in France.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-leq2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "2. Evaluate the most significant difference between the Protestant Reformation in England and the\nProtestant Reformation in France.",
+   "sourceText": null,
+   "scoringGuide": "AP European History LEQ, 6 points, standardized rubric (Q2/Q3/Q4 are period options; students choose one). A Thesis/Claim [1]: a historically defensible thesis with a line of reasoning (intro or conclusion; not a restatement). B Contextualization [1]: describes a broader relevant historical context. C Evidence [0–2]: (1) provides at least two specific pieces of relevant historical evidence; (2) uses that evidence to support an argument in response to the prompt. D Analysis and Reasoning [0–2]: (1) uses a historical reasoning process (comparison, causation, or continuity/change) to frame or structure the argument; (1) demonstrates a complex understanding (e.g., nuance, corroboration/qualification/modification, multiple variables/perspectives). Q2 Set 1 prompt: evaluate the extent of differences between the Reformation in England and in France — a COMPARISON prompt. Common failure: contextualization that is too brief; evidence listed but not used to support the argument (earns 1 of 2); reasoning process named but complexity not demonstrated.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "6",
+     "summary": "Q2 (Set 1) scored 6/6 (Thesis 1, Contextualization 1, Evidence 2, Analysis 2). Defensible comparative thesis, relevant contextualization, at least two specific pieces of evidence used to support the argument (Evidence 2), and both reasoning points — a comparison reasoning process plus a demonstrated complex understanding. Full-credit model for the LEQ.",
+     "refId": "EUROH:leq2:set1-2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "3",
+     "summary": "Q2 (Set 1) scored 3/6 (Thesis 1, Contextualization 0, Evidence 1, Analysis 1). Earned the thesis, one Evidence point (specific evidence but not fully used to support the argument), and one Analysis point (a reasoning process without complexity). Lost Contextualization (too brief/absent) and the second Evidence and Complexity points. Illustrates the common mid-range LEQ shape: thesis present, but weak context, partial evidence use, and no complexity.",
+     "refId": "EUROH:leq2:set1-2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 (Set 1) scored 2/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis 1). Earned only the thesis and one Analysis point (attempted a reasoning process). Lost Contextualization, both Evidence points (no specific, used evidence), and the Complexity point. Illustrates a low LEQ that states a defensible claim but does not substantiate it with used evidence or context.",
+     "refId": "EUROH:leq2:set1-2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-leq3-set-1",
+   "set": 1,
+   "label": "LEQ 3",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Differences in the Arts, 1750 to 1950",
+   "teaser": "Evaluate the most significant difference between approaches to the arts in the period from 1750 to 1850 and approaches to the arts in the period from 1850 to 1950.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-leq3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. Evaluate the most significant difference between approaches to the arts in the period from 1750\nto 1850 and approaches to the arts in the period from 1850 to 1950.",
+   "sourceText": null,
+   "scoringGuide": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: (1) two specific relevant pieces; (1) evidence used to support the argument. D Analysis and Reasoning [0–2]: (1) reasoning process (comparison/continuity-and-change) framing the argument; (1) complex understanding. Q3 Set 1 prompt: evaluate the extent of differences in the arts in Europe in the period 1750 to 1950. Common failure: no defensible thesis; reasoning present without complexity; evidence not tied to the argument.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "6",
+     "summary": "Q3 (Set 1) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across thesis, contextualization, used evidence, reasoning process, and complex understanding. Full-credit model.",
+     "refId": "EUROH:leq3:set1-2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "4",
+     "summary": "Q3 (Set 1) scored 4/6 (Thesis 0, Context 1, Evidence 2, Analysis 1). Earned contextualization, both Evidence points, and one Analysis point (reasoning process). Lost the Thesis and the Complexity point. Illustrates the frequent 'strong evidence, no scorable thesis' 4-point profile.",
+     "refId": "EUROH:leq3:set1-2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 1) scored 2/6 (Thesis 0, Context 1, Evidence 0, Analysis 1). Earned only contextualization and one Analysis point (attempted a reasoning process). Lost the Thesis and both Evidence points (no specific, used evidence). Illustrates a low LEQ with context and framing but no argument thesis or substantiating evidence.",
+     "refId": "EUROH:leq3:set1-2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-leq4-set-1",
+   "set": 1,
+   "label": "LEQ 4",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Nazism vs. Communism",
+   "teaser": "Evaluate the most significant difference between the Nazi regime in Germany and the communist regime in the Soviet Union.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-leq4-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "4. Evaluate the most significant difference between the Nazi regime in Germany and the\ncommunist regime in the Soviet Union.",
+   "sourceText": null,
+   "scoringGuide": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (comparison) (1), complex understanding (1). Q4 Set 1 prompt: compare Nazism and Communism as ideologies/regimes. Common failure: no defensible thesis; contextualization too brief; reasoning without complexity.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "6",
+     "summary": "Q4 (Set 1) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model.",
+     "refId": "EUROH:leq4:set1-2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (Set 1) scored 4/6 (Thesis 1, Context 0, Evidence 2, Analysis 1). Earned the thesis, both Evidence points, and one Analysis point (comparison). Lost Contextualization and the Complexity point. A common 4-point profile: strong thesis and evidence, weak context, no complexity.",
+     "refId": "EUROH:leq4:set1-2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "2",
+     "summary": "Q4 (Set 1) scored 2/6 (Thesis 0, Context 0, Evidence 1, Analysis 1). Earned one Evidence point and one Analysis point (reasoning process). Lost the Thesis, Contextualization, and the second Evidence and Complexity points. Illustrates a low LEQ that gestures at comparison and cites some evidence but lacks a thesis and context.",
+     "refId": "EUROH:leq4:set1-2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-saq1-set-2",
+   "set": 2,
+   "label": "SAQ 1",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Secondary Source",
+   "topic": "",
+   "teaser": "A. Describe the main argument made by the historian in the excerpt. B. Describe a relevant historical context for the development discussed in the excerpt. C. Explain one way that the development…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-saq1-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "“The Paris department store [of the mid-1800s] was preeminently the ‘world of women,’\nwhere women were encouraged to find their life’s meaning in consumption and where\nthey increasingly found a role in selling as well. Thus, the department store played a highly\nsignificant role in the evolution both of contemporary society and of women’s place in that\nsociety.\nThe buyer’s desire for certain items was created through the tactics of large-scale retailing:\npublicity [advertising], display of goods, and low prices. The low markup of the large stores\nallowed lower prices and helped attract crowds of customers from throughout the city. The\ndepartment stores could not simply depend on the traditional bourgeois clientele of smaller\nshops and so had to attract customers from among the petite bourgeoisie [lower middle class]\nby catering to their budgets and their passion for spending. Thus, the department stores\nbrought increasing numbers of people into contact with modern consumer society.”\nSource: Theresa M. McBride, American historian, scholarly article, 1978\n1. Respond to parts A, B, and C.\nA. Describe the main argument made by the historian in the excerpt.\nB. Describe a relevant historical context for the development discussed in the excerpt.\nC. Explain one way that the development discussed in the excerpt affected European society.",
+   "sourceText": null,
+   "scoringGuide": "AP European History SAQ 1 (Secondary Source), 3 points, one per part. Set 2 prompts: A [1] describe the main argument the historian makes in the excerpt; B [1] describe a relevant historical context for the development discussed; C [1] explain one way the development discussed affected European society/politics. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A restating a detail rather than the overall argument; B naming a context without connecting it to the development; C describing an effect without the causal how.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe the main argument the historian makes in the excerpt"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe a relevant historical context for the development discussed"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way the development discussed affected European society/politics. 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "3",
+     "summary": "SAQ 1 (Set 2) scored 3/3 (A 1, B 1, C 1). Stated the historian's argument, gave a relevant historical context, and explained an effect of the development. Full-credit model.",
+     "refId": "EUROH:saq1:set2-2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "SAQ 1 (Set 2) scored 2/3 (A 1, B 0, C 1). Stated the historian's argument (A) and explained an effect (C) but did not give a valid historical context (B). Illustrates missing the contextualization part while handling argument and effect.",
+     "refId": "EUROH:saq1:set2-2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "SAQ 1 (Set 2) scored 1/3 (A 0, B 0, C 1). Earned only C (explained an effect of the development). Lost A (did not correctly state the historian's argument) and B (no valid context). Illustrates a response that explains an effect but misreads the source's argument.",
+     "refId": "EUROH:saq1:set2-2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-saq2-set-2",
+   "set": 2,
+   "label": "SAQ 2",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Primary Source",
+   "topic": "",
+   "teaser": "A. Describe a likely purpose of the cartoon. B. Describe a relevant religious context for the cartoon. C. Explain one way that the development of the French monarchy in the 1600s led to the type…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-saq2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "“The Missionary Soldier ,” French Protestant Cartoon, 1686\nBridgeman Images\n2. Respond to parts A, B, and C.\nA. Describe a likely purpose of the cartoon.\nB. Describe a relevant religious context for the cartoon.\nC. Explain one way that the development of the French monarchy in the 1600s led to the type of\nactions depicted in the cartoon.",
+   "sourceText": null,
+   "scoringGuide": "AP European History SAQ 2 (Primary Source), 3 points, one per part. Set 2 prompts (a cartoon): A [1] describe a likely purpose of the cartoon; B [1] describe a relevant religious context for the cartoon; C [1] explain one way the development of the French monarchy in the 1600s led to a stated outcome. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A describing content instead of purpose; C describing without explaining the causal link.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe a likely purpose of the cartoon"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe a relevant religious context for the cartoon"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way the development of the French monarchy in the 1600s led to a stated outcome. 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "3",
+     "summary": "SAQ 2 (Set 2) scored 3/3 (A 1, B 1, C 1). Described the cartoon's purpose, a relevant religious context, and explained a consequence of the 1600s French monarchy's development. Full-credit model.",
+     "refId": "EUROH:saq2:set2-2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "2",
+     "summary": "SAQ 2 (Set 2) scored 2/3 (A 1, B 1, C 0). Described the cartoon's purpose (A) and a religious context (B) but did not explain the causal link for C. Illustrates losing the Explain part while handling purpose and context.",
+     "refId": "EUROH:saq2:set2-2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "SAQ 2 (Set 2) scored 1/3 (A 1, B 0, C 0). Described the cartoon's purpose only. Lost B (no valid religious context) and C (no causal explanation). Illustrates a response confined to source purpose.",
+     "refId": "EUROH:saq2:set2-2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-saq3-set-2",
+   "set": 2,
+   "label": "SAQ 3",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "Italian Renaissance",
+   "teaser": "A. Describe one significant cultural characteristic of the Italian Renaissance. B. Describe one political or economic factor that facilitated the Italian Renaissance. C. Explain one way the…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-saq3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. Respond to parts A, B, and C.\nA. Describe one significant cultural characteristic of the Italian Renaissance.\nB. Describe one political or economic factor that facilitated the Italian Renaissance.\nC. Explain one way the Northern Renaissance differed from the Italian Renaissance.",
+   "sourceText": null,
+   "scoringGuide": "AP European History SAQ 3 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] describe one significant cultural characteristic of the Italian Renaissance; B [1] describe one political or economic factor that facilitated the Italian Renaissance; C [1] explain one way the Northern Renaissance differed from the Italian Renaissance. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A naming a figure without a cultural characteristic; C stating a difference without explaining it.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe one significant cultural characteristic of the Italian Renaissance"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe one political or economic factor that facilitated the Italian Renaissance"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way the Northern Renaissance differed from the Italian Renaissance. 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "3",
+     "summary": "SAQ 3 (Set 2) scored 3/3 (A 1, B 1, C 1). Described a cultural characteristic (e.g., humanism/classical revival), a facilitating political/economic factor (e.g., wealthy merchant patronage), and explained a Northern-vs-Italian Renaissance difference. Full-credit model.",
+     "refId": "EUROH:saq3:set2-2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "2",
+     "summary": "SAQ 3 (Set 2) scored 2/3 (A 1, B 0, C 1). Described a cultural characteristic (A) and explained a Northern-vs-Italian difference (C) but did not give a valid facilitating political/economic factor (B). Illustrates missing the causal-factor part.",
+     "refId": "EUROH:saq3:set2-2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "SAQ 3 (Set 2) scored 1/3 (A 0, B 1, C 0). Earned only B (a facilitating political/economic factor). Lost A (no valid cultural characteristic) and C (no explained difference from the Northern Renaissance). Illustrates a response that identifies a facilitating factor but misses the cultural characteristic and the comparison.",
+     "refId": "EUROH:saq3:set2-2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-saq4-set-2",
+   "set": 2,
+   "label": "SAQ 4",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "European unification",
+   "teaser": "A. Describe one significant political characteristic of European unification efforts in the period from 1945 to 1990. B. Describe one economic factor that facilitated European unification efforts…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-saq4-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "4. Respond to parts A, B, and C.\nA. Describe one significant political characteristic of European unification efforts in the period\nfrom 1945 to 1990.\nB. Describe one economic factor that facilitated European unification efforts in the period from\n1945 to 1990.\nC. Explain one way the economic system in Eastern Europe differed from the economic system\nin Western Europe in the period from 1945 to 1990.",
+   "sourceText": null,
+   "scoringGuide": "AP European History SAQ 4 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] describe one significant political characteristic of European unification efforts; B [1] describe one economic factor that facilitated European unification efforts; C [1] explain one way the economic system in Eastern Europe differed from that in another region. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A naming an event without a political characteristic; C stating a difference without explaining it.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] describe one significant political characteristic of European unification efforts"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe one economic factor that facilitated European unification efforts"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way the economic system in Eastern Europe differed from that in another region. 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "3",
+     "summary": "SAQ 4 (Set 2) scored 3/3 (A 1, B 1, C 1). Described a political characteristic of unification efforts, an economic facilitating factor, and explained an Eastern-European economic difference. Full-credit model.",
+     "refId": "EUROH:saq4:set2-2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "2",
+     "summary": "SAQ 4 (Set 2) scored 2/3 (A 0, B 1, C 1). Earned B (an economic facilitating factor) and C (an explained economic difference) but lost A (no valid political characteristic of unification efforts). Illustrates missing the first Describe part while completing the factor and explanation.",
+     "refId": "EUROH:saq4:set2-2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "SAQ 4 (Set 2) scored 1/3 (A 0, B 0, C 1). Earned only C (explained an Eastern-European economic difference). Lost A (no valid political characteristic) and B (no valid economic factor). Illustrates a response that can explain a regional difference but not describe unification's political characteristic or economic driver.",
+     "refId": "EUROH:saq4:set2-2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-dbq-set-2",
+   "set": 2,
+   "label": "DBQ",
+   "section": "Section II",
+   "essayType": "Document-Based Question",
+   "topic": "Causes of the First World War",
+   "teaser": "Evaluate whether the First World War was primarily caused by popular nationalism or by the decisions of government leaders. In your response you should do the following: • Respond to the prompt…",
+   "suggestedMinutes": 60,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-dbq-set-2.pdf",
+   "pageCount": 4,
+   "promptText": "1. Evaluate whether the First World War was primarily caused by popular nationalism or by the\ndecisions of government leaders.\nIn your response you should do the following:\n• Respond to the prompt with a historically defensible thesis or claim that establishes a\nline of reasoning.\n• Describe a broader historical context relevant to the prompt.\n• Support an argument in response to the prompt using at least four documents.\n• Use at least one additional piece of specific historical evidence (beyond that found in the\ndocuments) relevant to an argument about the prompt.\n• For at least two documents, explain how or why the document’s point of view, purpose,\nhistorical situation, and/or audience is relevant to an argument.\n• Demonstrate a complex understanding of a historical development related to the prompt\nthrough sophisticated argumentation and/or effective use of evidence.\nDocument 1\nSource: Constitution of the Black Hand, a secret organization devoted to liberating Serbs living\nunder Austro-Hungarian rule, Belgrade, Serbia, 1911\n“Article 4. In order to carry into effect its task, the organization will do the following things:\n(1) The Black Hand will exercise its influence over all the government institutions in Serbia and\nalso over all the levels of the State and over the entire social life in it....\n(3) Beyond the frontiers, it will fight with all means against all enemies of this idea.\n(4) It will maintain friendly relations with all the States, nations, organizations, and individual\npersons who sympathize with Serbia and the Serbian people.\n(5) It will give every assistance to those nations and organizations who are fighting for their\nown national liberation and unification.”\nDocument 2\nSource: Henri Massis and Alfred de Tarde, “The Young People of Today,” article in a Paris\nnewspaper based on an opinion poll conducted among male students in elite educational\ninstitutions, 1912\n“Consider something even more significant. The most cultivated elite young people declare that\nthey find warfare an aesthetic ideal of energy and strength. They believe that ‘France needs\nheroism in order to live.’ How many times in the last two years have we heard: ‘Better war then\nthis eternal waiting!’ There is no bitterness in this, but rather a secret hope.\nWar! The word has taken on a sudden glamor . It is a youthful word, wholly new, adorned with\nthat seduction which the eternal aggressive instinct has revived in the hearts of men. These\nyoung men imagine war to have all the beauty with which they are in love and of which they\nhave been deprived by ordinary life. Above all, war in their eyes, is the occasion for the most\nnoble of human virtues.... For such men, fired by patriotic faith and the cult of military virtues,\nonly the occasion for heroism is lacking.”\nDocument 3\nSource: Jules Cambon, French Ambassador to Germany, report to the French Minister for\nForeign Affairs, on a new German military spending bill, March 1913\n“The debate about the financial means by which Germany intends to pay for these new\nmilitary measures is the sole cause of the government’s delay in proposing the measures to the\nlegislature. In spite of the patriotism with which the rich classes pretend to accept the sacrifices\nasked of them, they are none the less dissatisfied with the financial measures which have\nbeen announced, and they feel that a new tax imposed in times of peace creates a dangerous\nprecedent for the future.\n[As a result of these concerns], the Imperial German government is constantly rousing patriotic\nsentiment. Every day Kaiser Wilhelm delights to revive memories of 1813.1 Yesterday evening\na military parade went through the streets of Berlin, and speeches were delivered in which the\npresent situation was compared to that of a hundred years ago. The trend of public opinion will\nfind an echo in the speeches which will be delivered next month in the Reichstag,2 and I fear\nthat the German Chancellor himself will be forced to allude in his statements to the relations of\nFrance and Germany.”\n1: a reference to the expulsion of French armies from Germany by Prussia and its allies during the Napoleonic\nWars\n2: German legislature\nDocument 4\nSource: Leopold Berchtold, Austro-Hungarian Minister for Foreign Affairs, letter of instruction\nto the Austrian ambassador to Serbia, July 22, 1914\n“Your Excellency will present the following note to the Royal Government [of Serbia] tomorrow\nafternoon:\nThe history of the past few years, and particularly the painful events of the 28th of June,1 have\nproved the existence of a subversive movement in Serbia, whose object is to separate certain\nportions of territory from the Austro-Hungarian Monarchy. This movement, which came into\nbeing under the very eyes of the Serbian Government, subsequently found expression outside\nof the territory of the Kingdom in acts of terrorism, in a number of attempts at assassination,\nand in murders.\nIt is clear from the statements and confessions of the perpetrators of the assassination on\nthe 28th of June, that the murder at Sarajevo was conceived at Belgrade, that the murderers\nreceived the weapons and the bombs with which they were equipped by Serbian officers and\nofficials who belonged to a Serbian nationalist organization, and, finally, that the dispatch of\nthe criminals and of their weapons to Bosnia was arranged and effected under the conduct of\nSerbian frontier authorities.”\n1: a reference to the assassination of Austrian Archduke Franz Ferdinand in Sarajevo\nDocument 5\nSource: Telegrams between Tsar Nicholas II of Russia and Kaiser Wilhelm II of Germany, 1914.\nThe two rulers were cousins and grandchildren of Great Britain’s Queen Victoria.\nNicholas to Wilhelm, July 31, 1914\n“I thank you heartily for your mediation which begins to give one hope that all may yet end\npeacefully. It is technically impossible to stop our military preparations which were obligatory\nowing to Austria’s mobilization of its armies. We are far from wishing war . As long as our\nnegotiations with Austria on Serbia’s account are taking place my troops shall not make any\nprovocative action. I give you my solemn word for this. I put all my trust in God’s mercy and\nhope in your successful mediation in Vienna for the welfare of our countries and for the peace\nof Europe.\nYour affectionate Nicky”\nWilhelm to Nicholas, August 1, 1914\n“Thanks for your telegram. I yesterday pointed out to your government the only way by which\nwar may be avoided. Although I requested an answer at noon today, no telegram from my\nambassador conveying an answer from your Government has reached me as yet. I therefore\nhave been obliged to mobilize my army.\nImmediate, affirmative, clear , and unmistakable answer from your government is the only\nway to avoid endless misery. Until I have received this answer alas, I am unable to discuss the\nsubject of your telegram. As a matter of fact, I must request you to immediately order your\ntroops on no account to commit the slightest act of trespassing over our frontiers.\nWilly”\nDocument 6\nSource: Jacques Moreau, professional photographer , women seeing off soldiers going to the\nfront, Paris, August 1914\nArchives Larousse, Paris, France/Bridgeman Images\nMoreau took this picture just before he was called up for duty.\nDocument 7\nSource: Rosa Luxemburg, German revolutionary socialist, pamphlet written from prison, 1915\n“The scene has changed fundamentally. The six weeks’ march to Paris [promised by the German\nhigh command in 1914] has grown into a world drama. Mass slaughter has become the tiresome\nand monotonous business of the day and the end is no closer .\nGone is the euphoria. Gone the patriotic noise in the streets. Gone the swaying crowds in the\ncoffee shops with ear-deafening patriotic songs surging ever higher . Gone the transformati",
+   "sourceText": "on\nof whole city neighborhoods into mobs ready to denounce [suspected foreign spies], to shout\nhurrah and to induce delirium in themselves by means of wild rumors.\nThe spectacle is over . The trains full of troops are no longer accompanied by women fainting\nfrom pure happiness. The soldiers no longer greet the people from the windows of the trains\nwith joyous smiles. Carrying their packs, they quietly trot along the streets where the public\ngoes about its daily business with unhappy faces.”",
+   "scoringGuide": "AP European History DBQ, 7 points, standardized rubric. A Thesis/Claim [1]: defensible thesis with a line of reasoning. B Contextualization [1]: broader relevant historical context. C Evidence [0–3]: (1) uses content of at least THREE documents; (1) supports an argument using at least FOUR documents; (1) at least one piece of specific evidence BEYOND the documents. D Analysis and Reasoning [0–2]: (1) Sourcing for at least TWO documents (POV/purpose/situation/audience relevance); (1) Complex Understanding (sophisticated argumentation / effective use of evidence). Set 2 prompt: evaluate the causes of the First World War (7 documents). Same scoring model as Set 1. Common failure: three-document ceiling, missing sourcing, and vague outside evidence.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning (not a restatement of the prompt)."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt — more than a passing phrase."
+    },
+    {
+     "name": "Evidence from the Documents",
+     "maxPoints": 2,
+     "criteria": "1 point: uses the content of at least three documents to address the topic. 2 points: supports an argument using at least four documents."
+    },
+    {
+     "name": "Evidence Beyond the Documents",
+     "maxPoints": 1,
+     "criteria": "Uses at least one additional piece of specific, relevant historical evidence not found in the documents to support the argument."
+    },
+    {
+     "name": "Sourcing",
+     "maxPoints": 1,
+     "criteria": "For at least two documents, explains how or why the document's point of view, purpose, historical situation, and/or audience is relevant to the argument."
+    },
+    {
+     "name": "Complex Understanding",
+     "maxPoints": 1,
+     "criteria": "Demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of the evidence. Rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "7",
+     "summary": "DBQ (Set 2) scored 7/7 (Thesis 1, Context 1, Evidence 3, Analysis 2). Earned a defensible thesis and contextualization, all three evidence points (3-doc content, 4-doc argument, and specific outside evidence), and both analysis points (sourcing at least two documents and demonstrating a complex understanding). Full-credit model.",
+     "refId": "EUROH:dbq:set2-2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "5",
+     "summary": "DBQ (Set 2) scored 5/7 — earned Thesis, Contextualization, both document-evidence points and evidence beyond (Evidence 3), plus one Analysis point (typically sourcing OR complexity), losing the other Analysis point. Illustrates a strong response that falls one short of full analysis credit — the single most common way DBQs land at 5.",
+     "refId": "EUROH:dbq:set2-2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "DBQ (Set 2) scored 3/7 — earned Thesis and Contextualization plus one Evidence point (typically the 3-document content point), losing the 4-document argument point, evidence beyond, and both Analysis points. Illustrates a mid-low response that frames an argument and cites some documents but lacks broad document use, outside evidence, sourcing, and complexity.",
+     "refId": "EUROH:dbq:set2-2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-leq2-set-2",
+   "set": 2,
+   "label": "LEQ 2",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Comparison of Colonization by the Atlantic Powers",
+   "teaser": "Evaluate the most significant difference between the colonization efforts of the Iberian powers (Spain and/or Portugal) and the colonization efforts of the Atlantic powers (Britain, France, and/…",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-leq2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "2. Evaluate the most significant difference between the colonization efforts of the Iberian powers\n(Spain and/or Portugal) and the colonization efforts of the Atlantic powers (Britain, France, and/\nor the Netherlands) in the period 1450 to 1700.",
+   "sourceText": null,
+   "scoringGuide": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]: defensible thesis with a line of reasoning. B Contextualization [1]: broader relevant historical context. C Evidence [0–2]: (1) at least two specific relevant pieces of evidence; (2) evidence used to support an argument. D Analysis and Reasoning [0–2]: (1) a reasoning process (here COMPARISON) frames the argument; (1) demonstrates a complex understanding. Q2 Set 2 prompt: compare the colonization efforts of the Atlantic powers. Common failure: no defensible thesis (a comparison stated without a line of reasoning); reasoning process present but complexity not demonstrated.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "6",
+     "summary": "Q2 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit: comparative thesis, contextualization, two used pieces of evidence, and both reasoning points (comparison plus complex understanding). Full-credit model.",
+     "refId": "EUROH:leq2:set2-2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "4",
+     "summary": "Q2 (Set 2) scored 4/6 (Thesis 0, Context 1, Evidence 2, Analysis 1). Earned contextualization, both Evidence points (specific evidence used to support an argument), and one Analysis point (comparison reasoning). Lost the Thesis (no defensible claim establishing a line of reasoning) and the Complexity point. Illustrates a well-evidenced essay that never states a scorable thesis — and note that without a thesis the essay can still earn evidence and one reasoning point.",
+     "refId": "EUROH:leq2:set2-2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "3",
+     "summary": "Q2 (Set 2) scored 3/6 (Thesis 0, Context 1, Evidence 2, Analysis 0). Earned contextualization and both Evidence points but lost the Thesis and both Analysis points (no reasoning process framing and no complexity). Illustrates evidence-rich writing that lacks an argument thesis and analytical framing.",
+     "refId": "EUROH:leq2:set2-2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-leq3-set-2",
+   "set": 2,
+   "label": "LEQ 3",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Scientific Revolution vs. the Enlightenment",
+   "teaser": "Evaluate the most significant difference between the Scientific Revolution and the Enlightenment.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-leq3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. Evaluate the most significant difference between the Scientific Revolution and the\nEnlightenment.",
+   "sourceText": null,
+   "scoringGuide": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (comparison) (1), complex understanding (1). Q3 Set 2 prompt: compare the Scientific Revolution and the Enlightenment. Common failure: missing contextualization; reasoning without complexity.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "6",
+     "summary": "Q3 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model.",
+     "refId": "EUROH:leq3:set2-2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "4",
+     "summary": "Q3 (Set 2) scored 4/6 (Thesis 1, Context 0, Evidence 2, Analysis 1). Earned the thesis, both Evidence points, and one Analysis point (comparison reasoning). Lost Contextualization (too brief/absent) and the Complexity point. Illustrates a common 4-point profile: good thesis and evidence but weak context and no complexity.",
+     "refId": "EUROH:leq3:set2-2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 2) scored 2/6 (Thesis 1, Context 0, Evidence 1, Analysis 0). Earned the thesis and one Evidence point (specific evidence not fully used to support the argument). Lost Contextualization and both Analysis points. Illustrates a low LEQ with a claim and a little evidence but no context or analytical reasoning.",
+     "refId": "EUROH:leq3:set2-2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-european-history-leq4-set-2",
+   "set": 2,
+   "label": "LEQ 4",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Changes in the Status of Women",
+   "teaser": "Evaluate the most significant difference between the status of women in the period 1815 to 1914 and the status of women in the period after 1914.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-european-history/ap25-european-history-leq4-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "4. Evaluate the most significant difference between the status of women in the period 1815 to 1914\nand the status of women in the period after 1914.",
+   "sourceText": null,
+   "scoringGuide": "AP European History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (here continuity and change over time) (1), complex understanding (1). Q4 Set 2 prompt: evaluate the extent of change in the status of women in Europe over the period. Common failure: describing changes without a defensible thesis; reasoning process without complexity.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "6",
+     "summary": "Q4 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows, including a continuity-and-change reasoning process and complex understanding. Full-credit model.",
+     "refId": "EUROH:leq4:set2-2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (Set 2) scored 4/6 (Thesis 0, Context 1, Evidence 2, Analysis 1). Earned contextualization, both Evidence points, and one Analysis point. Lost the Thesis and the Complexity point. A common 4-point profile: well-evidenced with context but no scorable thesis and no complexity.",
+     "refId": "EUROH:leq4:set2-2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "3",
+     "summary": "Q4 (Set 2) scored 3/6 (Thesis 1, Context 1, Evidence 0, Analysis 1). Earned the thesis, contextualization, and one Analysis point (reasoning process). Lost both Evidence points (no specific, used evidence) and the Complexity point. Illustrates an essay with a good frame (thesis, context, reasoning) but no substantiating evidence.",
+     "refId": "EUROH:leq4:set2-2025-4C"
+    }
+   ]
+  }
+ ]
+}

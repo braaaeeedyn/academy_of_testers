@@ -6,7 +6,8 @@
       "dimension": "q1-mathematical-routines",
       "refId": "PHYSCEM:q1:rubric",
       "title": "Q1 Mathematical Routines (MR) — 10 points",
-      "content": "AP Physics C: E&M FRQ 1 is Mathematical Routines (MR), 10 points, scored by lettered sub-points. The MR task requires multi-step (often calculus-based) derivations/calculations with correct physics relationships, substitutions, and consistent expressions. Q1 topic: charge and a capacitor (electric field/potential, capacitance, or charge distribution). Points reward the correct governing relationship (e.g., Gauss's law, C=Q/V, integration for potential), correct setup and limits, and final expressions consistent with earlier parts. Common failure: wrong integral setup or limits; skipping the governing law; expressions inconsistent with prior parts."
+      "content": "AP Physics C: E&M FRQ 1 is Mathematical Routines (MR), 10 points, scored by lettered sub-points. The MR task requires multi-step (often calculus-based) derivations/calculations with correct physics relationships, substitutions, and consistent expressions. Q1 topic: charge and a capacitor (electric field/potential, capacitance, or charge distribution). Points reward the correct governing relationship (e.g., Gauss's law, C=Q/V, integration for potential), correct setup and limits, and final expressions consistent with earlier parts. Common failure: wrong integral setup or limits; skipping the governing law; expressions inconsistent with prior parts.",
+      "promptId": "ap25-physics-c-em-q1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "9",
       "refId": "PHYSCEM:q1:2025-1A",
       "title": "Q1 exemplar — Sample 1A, 9/10",
-      "content": "Q1 (MR) scored 9/10 — nearly all sub-points, with correct E&M relationships, calculus setup, and consistent final expressions, losing one point on a minor step. Near-full-credit model."
+      "content": "Q1 (MR) scored 9/10 — nearly all sub-points, with correct E&M relationships, calculus setup, and consistent final expressions, losing one point on a minor step. Near-full-credit model.",
+      "promptId": "ap25-physics-c-em-q1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "6",
       "refId": "PHYSCEM:q1:2025-1B",
       "title": "Q1 exemplar — Sample 1B, 6/10",
-      "content": "Q1 (MR) scored 6/10 — earned the setup and several relationships but lost points on the integral/derivation steps or consistency-dependent final expressions. Illustrates a partially completed calculus-based routine."
+      "content": "Q1 (MR) scored 6/10 — earned the setup and several relationships but lost points on the integral/derivation steps or consistency-dependent final expressions. Illustrates a partially completed calculus-based routine.",
+      "promptId": "ap25-physics-c-em-q1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "3",
       "refId": "PHYSCEM:q1:2025-1C",
       "title": "Q1 exemplar — Sample 1C, 3/10",
-      "content": "Q1 (MR) scored 3/10 — earned only a few sub-points (e.g., the governing law statement), losing the setup, integration, and consistent final expressions. Illustrates a response that cannot carry out the multistep derivation."
+      "content": "Q1 (MR) scored 3/10 — earned only a few sub-points (e.g., the governing law statement), losing the setup, integration, and consistent final expressions. Illustrates a response that cannot carry out the multistep derivation.",
+      "promptId": "ap25-physics-c-em-q1"
     }
   ]
 }

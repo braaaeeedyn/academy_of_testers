@@ -30,7 +30,8 @@
       "scoreBand": "6",
       "refId": "APLANG:argument:2025-set1-3A",
       "title": "Argument exemplar — Sample 3A, score 1-4-1 (6/6)",
-      "content": "Argument essay (Osaka, embracing the present moment) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible position that Osaka's claim is 'somewhat valid,' balancing academic success against artificial concerns. Evidence & Commentary (4): specific evidence for all claims (personal 13-hour screen time; Ferris Bueller's Day Off details); commentary consistently explains how the evidence supports the line of reasoning about misplaced importance. Sophistication (1): articulates implications/limitations by situating the argument in a broader context — 'the challenges of prioritizing academic success while also trying to experience life.'"
+      "content": "Argument essay (Osaka, embracing the present moment) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible position that Osaka's claim is 'somewhat valid,' balancing academic success against artificial concerns. Evidence & Commentary (4): specific evidence for all claims (personal 13-hour screen time; Ferris Bueller's Day Off details); commentary consistently explains how the evidence supports the line of reasoning about misplaced importance. Sophistication (1): articulates implications/limitations by situating the argument in a broader context — 'the challenges of prioritizing academic success while also trying to experience life.'",
+      "promptId": "ap25-english-language-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -38,7 +39,8 @@
       "scoreBand": "4",
       "refId": "APLANG:argument:2025-set1-3B",
       "title": "Argument exemplar — Sample 3B, score 1-3-0 (4/6)",
-      "content": "Argument essay scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible position agreeing with Osaka (we rely too heavily on social media and could miss important moments). Evidence & Commentary (3): specific evidence for all claims (YouTube Shorts, TikTok, Instagram Reels; dopamine); commentary explains how some evidence supports the reasoning — but some commentary (paragraph 3, 'getting physically fit…') does not clearly connect to the argument, so short of 4. Sophistication (0): not demonstrated."
+      "content": "Argument essay scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible position agreeing with Osaka (we rely too heavily on social media and could miss important moments). Evidence & Commentary (3): specific evidence for all claims (YouTube Shorts, TikTok, Instagram Reels; dopamine); commentary explains how some evidence supports the reasoning — but some commentary (paragraph 3, 'getting physically fit…') does not clearly connect to the argument, so short of 4. Sophistication (0): not demonstrated.",
+      "promptId": "ap25-english-language-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -46,7 +48,8 @@
       "scoreBand": "2",
       "refId": "APLANG:argument:2025-set1-3C",
       "title": "Argument exemplar — Sample 3C, score 1-1-0 (2/6)",
-      "content": "Argument essay scored 2/6 (Thesis 1, Evidence & Commentary 1, Sophistication 0). Thesis (1): defensible position agreeing with Osaka's claim. Evidence & Commentary (1): general evidence that focuses on summary rather than specific details ('stuck on remembering bad moments in the past'); commentary only summarizes the evidence and does not explain how it supports the argument. Sophistication (0): not demonstrated. Illustrates the difference between a defensible thesis and the developed, specific support needed to move beyond 1 point in Row B."
+      "content": "Argument essay scored 2/6 (Thesis 1, Evidence & Commentary 1, Sophistication 0). Thesis (1): defensible position agreeing with Osaka's claim. Evidence & Commentary (1): general evidence that focuses on summary rather than specific details ('stuck on remembering bad moments in the past'); commentary only summarizes the evidence and does not explain how it supports the argument. Sophistication (0): not demonstrated. Illustrates the difference between a defensible thesis and the developed, specific support needed to move beyond 1 point in Row B.",
+      "promptId": "ap25-english-language-q3-set-1"
     }
   ]
 }

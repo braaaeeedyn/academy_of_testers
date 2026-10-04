@@ -6,7 +6,8 @@
       "scoreBand": "6",
       "refId": "APLIT:literary-argument:2025-set2-3A",
       "title": "Literary Argument exemplar — Sample 3A, score 1-4-1 (6/6)",
-      "content": "Literary Argument (Beloved) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that conflicts arise from withheld information and generational trauma of slavery. Evidence & Commentary (4): specific evidence for all claims ('That's not her mouth. That's not Sethe'; 'Thin love ain't love at all'; Paul D's trauma; the community's jealousy) with commentary consistently supporting the line of reasoning about withheld information causing suffering, addressing the work as a whole. Sophistication (1): explores tensions via the tobacco-tin metaphor (Paul D burying his experiences)."
+      "content": "Literary Argument (Beloved) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that conflicts arise from withheld information and generational trauma of slavery. Evidence & Commentary (4): specific evidence for all claims ('That's not her mouth. That's not Sethe'; 'Thin love ain't love at all'; Paul D's trauma; the community's jealousy) with commentary consistently supporting the line of reasoning about withheld information causing suffering, addressing the work as a whole. Sophistication (1): explores tensions via the tobacco-tin metaphor (Paul D burying his experiences).",
+      "promptId": "ap25-english-literature-q3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "4",
       "refId": "APLIT:literary-argument:2025-set2-3B",
       "title": "Literary Argument exemplar — Sample 3B, score 1-3-0 (4/6)",
-      "content": "Literary Argument (Fences) scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation that Troy's secret affair becomes his family's downfall, showing family should come first. Evidence & Commentary (3): specific evidence for claims (leaving to see Alberta; Rose and Cory becoming distant) with commentary developing a line of reasoning — but the claim that 'family does not leave each other' is not fully integrated, so short of 4. Sophistication (0): Rose caring for the baby hints at complexity but is not explored."
+      "content": "Literary Argument (Fences) scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation that Troy's secret affair becomes his family's downfall, showing family should come first. Evidence & Commentary (3): specific evidence for claims (leaving to see Alberta; Rose and Cory becoming distant) with commentary developing a line of reasoning — but the claim that 'family does not leave each other' is not fully integrated, so short of 4. Sophistication (0): Rose caring for the baby hints at complexity but is not explored.",
+      "promptId": "ap25-english-literature-q3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "3",
       "refId": "APLIT:literary-argument:2025-set2-3C",
       "title": "Literary Argument exemplar — Sample 3C, score 1-2-0 (3/6)",
-      "content": "Literary Argument (The Awakening) scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible claim that Edna's secret wish for independence creates detachment from other characters. Evidence & Commentary (2): some specific evidence ('caged bird'; the socially unacceptable secret) but paragraph 3 offers broad generalities ('the story could have been different had Edna simply voiced her concern') that support no claim, so no line of reasoning; commentary is repetitive. Sophistication (0): not demonstrated."
+      "content": "Literary Argument (The Awakening) scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible claim that Edna's secret wish for independence creates detachment from other characters. Evidence & Commentary (2): some specific evidence ('caged bird'; the socially unacceptable secret) but paragraph 3 offers broad generalities ('the story could have been different had Edna simply voiced her concern') that support no claim, so no line of reasoning; commentary is repetitive. Sophistication (0): not demonstrated.",
+      "promptId": "ap25-english-literature-q3-set-2"
     }
   ]
 }

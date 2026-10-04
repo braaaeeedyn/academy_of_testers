@@ -1,0 +1,354 @@
+{
+ "subjectName": "AP Calculus AB",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-calculus-ab-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Part A — Calculator",
+   "topic": "Applied Context / Rates",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-ab/ap25-calculus-ab-q1.pdf",
+   "pageCount": 1,
+   "promptText": "1. An invasive species of plant appears in a fruit grove at time t 0= and begins to spread. The\nfunction C defined by .. arctanCt t76 02=__ ii models the number of acres in the fruit grove\naffected by the species t weeks after the species appears. It can be shown that Ct t25\n38\n2= +l_i .\n(Note: Your calculator should be in radian mode.)\nA. Find the average number of acres affected by the invasive species from time t 0= to time\nt 4= weeks. Show the setup for your calculations.\nB. Find the time t when the instantaneous rate of change of C equals the average rate of change\nof C over the time interval t04## . Show the setup for your calculations.\nC. Assume that the invasive species continues to spread according to the given model for all\ntimes t 0> . Write a limit expression that describes the end behavior of the rate of change in\nthe number of acres affected by the species. Evaluate this limit expression.\nD. At time t 4= weeks after the invasive species appears in the fruit grove, measures are taken\nto counter the spread of the species. The function A, defined by . lnAt Ct xd x01 ·\nt\n4\n=-__ _ii iy ,\nmodels the number of acres affected by the species over the time interval t43 6## . At what\ntime t, for t43 6## , does A attain its maximum value? Justify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus AB Q1 (Part A, graphing calculator required), 9 points. Context: C(t)=7.6·arctan(0.2t) models acres affected by an invasive species; C'(t)=38/(25+t^2). Answers to 3 decimal places. A (2 pts): find the average VALUE of C on [0,4] — P1 for the average-value integral (1/4)∫C(t)dt with evidence of division by 4, P2 for the correct answer 2.778. B (2 pts): find t where the instantaneous rate of change equals the average rate of change on [0,4] — P3 for using the average rate of change [C(4)−C(0)]/4 = 1.282, P4 for the answer t=2.154 with a supporting equation. C (2 pts): write and evaluate a limit for end behavior of the rate of change — P5 for lim(t→∞)C'(t), P6 for the value 0 (arithmetic with ∞ is scratch work). D (3 pts): with A(t)=C(t)−0.1∫ln(x)dx, find where A attains its max on [4,36] — P7 for considering A'(t)=0, P8 for a global/candidates-test justification (evaluate A at 4, 11.442, 36), P9 for the answer t=11.442. Common failure: presenting only a t-value without setup (no P1/P3/P7); local (First/Second Derivative Test) arguments do not earn P8 but stay eligible for P9.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (2 pts): find the average VALUE of C on [0,4] — P1 for the average-value integral (1/4)∫C(t)dt with evidence of division by 4, P2 for the correct answer 2.778"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): find t where the instantaneous rate of change equals the average rate of change on [0,4] — P3 for using the average rate of change [C(4)−C(0)]/4 = 1.282, P4 for the answer t=2.154 with a supporting equation"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C (2 pts): write and evaluate a limit for end behavior of the rate of change — P5 for lim(t→∞)C'(t), P6 for the value 0 (arithmetic with ∞ is scratch work)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (3 pts): with A(t)=C(t)−0.1∫ln(x)dx, find where A attains its max on [4,36] — P7 for considering A'(t)=0, P8 for a global/candidates-test justification (evaluate A at 4, 11.442, 36), P9 for the answer t=11.442"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "9",
+     "summary": "Q1 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: average-value integral and answer 2.778 (A); average-rate expression [C(4)−C(0)]/4 and t=2.154 with equation (B); lim(t→∞)C'(t) and value 0 (C); A'(t)=0 with a correct global candidates-test table at t=4, 11.442, 36 and answer 11.442 (D). Model for a complete calculator FRQ, including the global justification that secures P8.",
+     "refId": "CALCAB:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "7",
+     "summary": "Q1 scored 7/9 (1-1-1-0-1-1-1-0-1). Earned both A points, P3 (average-rate expression), both C points, P7 (A'=0), and P9 (answer 11.442). Lost P4 (boxed answer in part B incorrect) and P8 (used a local argument, 'A' changes from positive to negative,' rather than a global candidates test). Shows the two classic AB deductions: a wrong final value after correct setup, and a local justification where a global one is required.",
+     "refId": "CALCAB:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "Q1 scored 3/9 (0-0-1-1-0-0-1-0-0). Earned only both B points (average rate of change and t=2.154) and P7 (A'=0). Lost part A entirely (computed the average RATE of change instead of the average VALUE of C), both C points (limit expression not in an eligible form), and P8/P9 (no global justification; presented t without calculus-based support). Illustrates the common conflation of average value with average rate of change.",
+     "refId": "CALCAB:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-ab-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Part A — Calculator",
+   "topic": "Area and Volume",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-ab/ap25-calculus-ab-q2.pdf",
+   "pageCount": 1,
+   "promptText": "2. The shaded region R is bounded by the graphs of the functions f and g, where fx xx 22=-_i\nand singx xx r=+__ ii , as shown in the figure.\n(Note: Your calculator should be in radian mode.)\nA. Find the area of R. Show the setup for your calculations.\nB. Region R is the base of a solid. For this solid, at each x the cross section perpendicular to the\nx-axis is a rectangle with height x and base in region R. Find the volume of the solid. Show\nthe setup for your calculations.\nC. Write, but do not evaluate, an integral expression for the volume of the solid generated when\nthe region R is rotated about the horizontal line y 2=- .\nD. It can be shown that cosgx x1 rr=+l__ ii . Find the value of x, for x01<< , at which the line\ntangent to the graph of f is parallel to the line tangent to the graph of g.",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus AB Q2 (Part A, graphing calculator required), 9 points. Region R bounded by f(x)=x^2−2x and g(x)=x+sin(πx) on [0,3]. A (2 pts): area of R — P1 for a definite integral with integrand |g−f| (or the difference of integrals), P2 for the answer 5.137. B (2 pts): volume of a solid whose cross sections perpendicular to the x-axis are rectangles of height x with base in R — P3 for an integral whose integrand is the product x·(g−f), P4 for the answer 7.705. C (3 pts): write but do NOT evaluate the volume when R is revolved about y=−2 — P5 for a washer form R^2−r^2 with one correct radius, P6 for the correct integrand π-less form ((g+2)^2−(f+2)^2), P7 for the limits 0 to 3, constant π, and differential dx together. D (2 pts): find x in (0,1) where the tangent to f is parallel to the tangent to g — P8 for the general statement f'(x)=g'(x) (or a correct substituted equation), P9 for the answer 0.676. Common failure: losing P7 by omitting π or the differential; losing volume/area answer points to arithmetic while keeping the setup point.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (2 pts): area of R — P1 for a definite integral with integrand |g−f| (or the difference of integrals), P2 for the answer 5.137"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): volume of a solid whose cross sections perpendicular to the x-axis are rectangles of height x with base in R — P3 for an integral whose integrand is the product x·(g−f), P4 for the answer 7.705"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies. C (3 pts): write but do NOT evaluate the volume when R is revolved about y=−2 — P5 for a washer form R^2−r^2 with one correct radius, P6 for the correct integrand π-less form ((g+2)^2−(f+2)^2), P7 for the limits 0 to 3, constant π, and differential dx together"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (2 pts): find x in (0,1) where the tangent to f is parallel to the tangent to g — P8 for the general statement f'(x)=g'(x) (or a correct substituted equation), P9 for the answer 0.676"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "9",
+     "summary": "Q2 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: area integrand g−f and answer 5.137 (A); product integrand x(g−f) and answer 7.705 (B); washer form with correct (g+2)^2 and (f+2)^2 terms, correct integrand, and limits 0–3 with π and dx (C); general statement g'=f' and answer 0.676 (D). Model for area, both volume types, and the parallel-tangent condition.",
+     "refId": "CALCAB:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "6",
+     "summary": "Q2 scored 6/9 (1-1-1-0-1-1-1-0-0). Earned both A points, P3 (product integrand for volume), and all three C points (complete revolution setup). Lost P4 (volume answer 9.858 incorrect), and both D points (never equated f' and g', so no answer). Shows a strong setup response that misses an arithmetic answer (P4) and skips the calculus condition in the last part.",
+     "refId": "CALCAB:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "3",
+     "summary": "Q2 scored 3/9 (1-0-0-0-0-0-0-1-1). Earned only P1 (area integrand g−f) and both D points (g'=f' and answer 0.676). Lost P2 (answer −5.137 has wrong sign), all of part B (integral not a product of eligible factors), and all of part C (integrand not a washer R^2−r^2, so P7 also ineligible). Illustrates that the parallel-tangent part (D) is independently earnable even when the area/volume setups fail.",
+     "refId": "CALCAB:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-ab-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Table Analysis",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-ab/ap25-calculus-ab-q3.pdf",
+   "pageCount": 1,
+   "promptText": "3. A student starts reading a book at time t 0= minutes and continues reading for the next 10\nminutes. The rate at which the student reads is modeled by the differentiable function R, where\nRt_i is measured in words per minute. Selected values of Rt_i are given in the table shown.\nt (minutes) 0 2 8 10\nRt_i (words per minute) 90 100 150 162\nA. Approximate R 1l_i using the average rate of change of R over the interval t02## . Show\nthe work that leads to your answer . Indicate units of measure.\nB. Must there be a value c, for c01 0<< , such that Rc 155=_i ? Justify your answer .\nC. Use a trapezoidal sum with the three subintervals indicated by the data in the table to\napproximate the value of Rt dt\n0\n10\n_iy . Show the work that leads to your answer .\nD. A teacher also starts reading at time t 0= minutes and continues reading for the next 10\nminutes. The rate at which the teacher reads is modeled by the function W defined by\nWt tt10\n3 8 1002=- ++_i , where Wt_i is measured in words per minute. Based on the model,\nhow many words has the teacher read by the end of the 10 minutes? Show the work that\nleads to your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus AB Q3 (Part B, no calculator), 9 points. R(t) words/minute given in a table at t=0,2,8,10 (R=90,100,150,162). A (2 pts): approximate R'(1) by the average rate of change on [0,2] — P1 for the difference-quotient answer [R(2)−R(0)]/(2−0)=5 with setup, P2 for correct units (words per minute per minute / words·min^-2). B (2 pts): must there be c in (0,10) with R(c)=155? — P3 for stating R is continuous BECAUSE differentiable (bare 'R is continuous' fails P3), P4 for invoking the IVT with R(0)<155<R(10) and answering yes. C (2 pts): trapezoidal sum over the three subintervals for ∫R dt — P5 for the correct trapezoidal form (three terms, each a product incorporating 1/2; ≥5 of 6 factors correct), P6 for the value 1252 (a plain left/right Riemann sum earns P5 but not P6). D (3 pts): teacher's rate W(t)=−(3/10)t^2+8t+100; total words in 10 min — P7 for the integral of W, P8 for the correct antiderivative, P9 (needs P8) for the value 1300. Common failure: incorrect units (P2), stating continuity without the 'because differentiable' link (P3), and Riemann sums where a trapezoidal sum is required (P6).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (2 pts): approximate R'(1) by the average rate of change on [0,2] — P1 for the difference-quotient answer [R(2)−R(0)]/(2−0)=5 with setup, P2 for correct units (words per minute per minute / words·min^-2)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): must there be c in (0,10) with R(c)=155? — P3 for stating R is continuous BECAUSE differentiable (bare 'R is continuous' fails P3), P4 for invoking the IVT with R(0)<155<R(10) and answering yes"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C (2 pts): trapezoidal sum over the three subintervals for ∫R dt — P5 for the correct trapezoidal form (three terms, each a product incorporating 1/2; ≥5 of 6 factors correct), P6 for the value 1252 (a plain left/right Riemann sum earns P5 but not P6)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (3 pts): teacher's rate W(t)=−(3/10)t^2+8t+100; total words in 10 min — P7 for the integral of W, P8 for the correct antiderivative, P9 (needs P8) for the value 1300"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "9",
+     "summary": "Q3 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: (100−90)/2 with units words/min^2 (A); 'R differentiable and therefore continuous' plus a full IVT statement with 90<155<162 (B); correct trapezoidal expression (1/2)[2(90+100)+6(100+150)+2(150+162)] (C); ∫W dt, antiderivative −(1/10)t^3+4t^2+100t, and answer 1300 (D). Model, including the explicit continuity-from-differentiability link.",
+     "refId": "CALCAB:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "6",
+     "summary": "Q3 scored 6/9 (1-0-0-0-1-1-1-1-1). Earned P1 (answer 5 with work), both C points (correct trapezoidal sum, simplification not required), and all three D points. Lost P2 (units 'words/min' incorrect) and both B points — never stated R is continuous, so P3 failed and P4 became ineligible. Shows that omitting the continuity justification forfeits the entire IVT part.",
+     "refId": "CALCAB:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 scored 2/9 (1-0-0-0-0-0-1-0-0). Earned only P1 (answer 5 with supporting work) and P7 (integral of W with integrand correct despite a missing differential). Lost P2 (units), both B points (no continuity statement, no bracketing of 155), both C points (expression not in trapezoidal form), and P8/P9 (no antiderivative presented). Illustrates a low no-calculator response that still banks the difference quotient and the integral setup.",
+     "refId": "CALCAB:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-ab-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Graph Analysis / Accumulation Function",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-ab/ap25-calculus-ab-q4.pdf",
+   "pageCount": 1,
+   "promptText": "4. The continuous function f is defined on the closed interval x61 2##- . The graph of f,\nconsisting of two semicircles and one line segment, is shown in the figure.\nLet g be the function defined by gx ft dt\nx\n6\n=__ ii y .\nA. Find g 8l_i . Give a reason for your answer .\nB. Find all values of x in the open interval x61 2<<- at which the graph of g has a point of\ninflection. Give a reason for your answer .\nC. Find g 12_i and g 0_i . Label your answers.\nD. Find the value of x at which g attains an absolute minimum on the closed interval\nx61 2##- . Justify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus AB Q4 (Part A, no calculator), 9 points. f is continuous on [−6,12], its graph is two semicircles and a line segment; g(x)=∫_6^x f(t)dt. A (2 pts): find g'(8) with a reason — P1 for g'(x)=f(x) (FTC), P2 for the value g'(8)=f(8)=1. B (2 pts): x-values in (−6,12) where g has points of inflection with reason — P3 only for x=−3, 3, 6 (any extra declared value loses both P3 and P4), P4 for tying the reason to f (f/g' changes from increasing to decreasing or vice versa; citing g's concavity or g''=f' changing sign earns P3 but NOT P4). C (2 pts): find g(12) and g(0), labeled — P5 for g(12)=9, P6 for g(0)=−9π/2 (unlabeled values earn nothing). D (3 pts): x where g attains its absolute minimum on [−6,12] — P7 for considering g'(x)=f(x)=0, P8 for a global candidates-test evaluating g at −6, 0, 6, 12 (or a sign-of-f argument), P9 for the answer x=0. Common failure: reasons for inflection that reference g rather than f (loses P4); local arguments in D (lose P8 but stay eligible for P9).",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (2 pts): find g'(8) with a reason — P1 for g'(x)=f(x) (FTC), P2 for the value g'(8)=f(8)=1"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): x-values in (−6,12) where g has points of inflection with reason — P3 only for x=−3, 3, 6 (any extra declared value loses both P3 and P4), P4 for tying the reason to f (f/g' changes from increasing to decreasing or vice versa; citing g's concavity or g''=f' changing sign earns P3 but NOT P4)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C (2 pts): find g(12) and g(0), labeled — P5 for g(12)=9, P6 for g(0)=−9π/2 (unlabeled values earn nothing)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (3 pts): x where g attains its absolute minimum on [−6,12] — P7 for considering g'(x)=f(x)=0, P8 for a global candidates-test evaluating g at −6, 0, 6, 12 (or a sign-of-f argument), P9 for the answer x=0"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "9",
+     "summary": "Q4 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: g'(x)=f(x) and g'(8)=1 (A); inflection points x=−3, 3, 6 with reasoning tied to f increasing/decreasing (B); labeled g(12)=9 and g(0)=−9π/2 (C); g'=f=0, a correct candidates-test table, and absolute minimum at x=0 (D). Model, with inflection reasons correctly referencing f rather than g.",
+     "refId": "CALCAB:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "6",
+     "summary": "Q4 scored 6/9 (1-1-0-0-1-1-1-0-1). Earned both A points, both C points (labeled 9 and −9π/2), P7 (g'=f=0), and P9 (answer x=0 with a local argument). Lost both B points (answer x=0 for inflection is incorrect and reasoning wrong) and P8 (justification insufficient to establish a global absolute minimum). Shows that a local minimum argument still earns the answer point P9 while forfeiting P8.",
+     "refId": "CALCAB:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "3",
+     "summary": "Q4 scored 3/9 (1-1-0-0-0-1-0-0-0). Earned both A points and P6 (labeled g(0)=−9π/2). Lost both B points (declared x=0 as an inflection point — an incorrect value), P5 (wrong g(12)), P7 (no consideration of g'=0 or f=0), P8 (candidates test omits g(0)), and P9 (wrong minimum location). Illustrates how one wrong extra value voids the inflection part and how skipping the critical-point step collapses part D.",
+     "refId": "CALCAB:q4:2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-ab-q5",
+   "set": null,
+   "label": "Q5",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Particle Motion",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-ab/ap25-calculus-ab-q5.pdf",
+   "pageCount": 1,
+   "promptText": "5. Two particles, H and J, are moving along the x-axis. For t05## , the position of particle H at\ntime t is given by xt eH\ntt 42\n= -_i and the velocity of particle J at time t is given by\nvt tt21J\n2 3\n=-_ _i i .\nA. Find the velocity of particle H at time t 1= . Show the work that leads to your answer .\nB. During what open intervals of time t, for t05<< , are particles H and J moving in opposite\ndirections? Give a reason for your answer .\nC. It can be shown that v 20 >Jl_i . Is the speed of particle J increasing, decreasing, or neither at\ntime t 2= ? Give a reason for your answer .\nD. Particle J is at position x 7= at time t 0= . Find the position of particle J at time t 2= . Show\nthe work that leads to your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus AB Q5 (Part B, no calculator), 9 points. On 0≤t≤5: particle H has position x_H(t)=e^(t^2−4t); particle J has velocity v_J(t)=(21/2)t(t^2−1). A (2 pts): velocity of H at t=1 — P1 for considering x_H'(t) (product/chain rule form (2t−4)e^(t^2−4t)), P2 for the value −2e^(−3). B (3 pts): open intervals where H and J move in opposite directions with reason — P3 for considering the sign of x_H' or v_J (or identifying t=2 for H / t=1 for J), P4 for a correct sign/direction analysis for ONE particle on (0,5), P5 (needs both analyses correct) for the answer 1<t<2. C (1 pt): is J's speed increasing at t=2, given v_J'(2)>0 — P6 for concluding increasing because v_J(2) and v_J'(2) have the same sign (considering acceleration alone fails). D (3 pts): J is at x=7 at t=0; find position at t=2 — P7 for an integral with integrand v_J, P8 for a correct antiderivative form, P9 (needs P8) for the value 27. Common failure: part C answered from acceleration only; part B losing P4/P5 for no sign analysis.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (2 pts): velocity of H at t=1 — P1 for considering x_H'(t) (product/chain rule form (2t−4)e^(t^2−4t)), P2 for the value −2e^(−3)"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (3 pts): open intervals where H and J move in opposite directions with reason — P3 for considering the sign of x_H' or v_J (or identifying t=2 for H / t=1 for J), P4 for a correct sign/direction analysis for ONE particle on (0,5), P5 (needs both analyses correct) for the answer 1<t<2"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C (1 pt): is J's speed increasing at t=2, given v_J'(2)>0 — P6 for concluding increasing because v_J(2) and v_J'(2) have the same sign (considering acceleration alone fails)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (3 pts): J is at x=7 at t=0; find position at t=2 — P7 for an integral with integrand v_J, P8 for a correct antiderivative form, P9 (needs P8) for the value 27"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 5A",
+     "score": "9",
+     "summary": "Q5 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: x_H' form and value −2e^(−3) (A); v_H=0, correct sign analyses of both H and J on (0,5), and answer 1<t<2 (B); v_J(2) and v_J'(2) both positive so speed increasing (C); integral of v_J, antiderivative, and position 27 (D). Model, including the same-sign reasoning for speed in part C.",
+     "refId": "CALCAB:q5:2025-5A"
+    },
+    {
+     "label": "Sample 5B",
+     "score": "4",
+     "summary": "Q5 scored 4/9 (1-1-0-0-0-0-1-1-0). Earned both A points and P7/P8 in part D (integral and antiderivative). Lost all of part B (never considered the sign of x_H' or v_J, no direction analysis, so P4/P5 ineligible), P6 (considered only acceleration), and P9 (final answer incorrect). Shows the frequent speed error — judging increasing/decreasing from acceleration rather than comparing signs of velocity and acceleration.",
+     "refId": "CALCAB:q5:2025-5B"
+    },
+    {
+     "label": "Sample 5C",
+     "score": "3",
+     "summary": "Q5 scored 3/9 (1-0-1-0-0-0-1-0-0). Earned P1 (x_H' presented), P3 (set (21/2)t(t^2−1)=0), and P7 (integral of v_J). Lost P2 (numerical expression missing parentheses, unresolved), P4/P5 (no sign or direction analysis for either particle), P6 (acceleration only), and P8/P9 (antiderivative exponent wrong). Illustrates that setup points bank even when execution and the required sign analyses are missing.",
+     "refId": "CALCAB:q5:2025-5C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-calculus-ab-q6",
+   "set": null,
+   "label": "Q6",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Implicit Differentiation and Related Rates",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 9,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-calculus-ab/ap25-calculus-ab-q6.pdf",
+   "pageCount": 1,
+   "promptText": "6. Consider the curve G defined by the equation yy yx 4\n1 032 2-- += .\nA. Show that dx\ndy\nyy\nx\n23 212=\n--\n-\n`j\n.\nB. There is a point P on the curve G near ,21-_i with x-coordinate 1.6. Use the line tangent to\nthe curve at ,21-_i to approximate the y-coordinate of point P.\nC. For x 0> and y 0> , there is a point S on the curve G at which the line tangent to the curve\nat that point is vertical. Find the y-coordinate of point S. Show the work that leads to your\nanswer .\nD. A particle moves along the curve H defined by the equation lnxy y28 += . At the instant\nwhen the particle is at the point ,41_i , dt\ndx 3= . Find dt\ndy at that instant. Show the work that\nleads to your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Calculus AB Q6 (Part B, no calculator), 9 points. Curve G: y^3−y^2−y+(1/4)x^2=0. A (2 pts): show dy/dx = −x/(2(3y^2−2y−1)) — P1 for correct implicit differentiation, P2 (needs P1) for the verification. B (2 pts): use the tangent line at (2,−1) to approximate y at x=1.6 — P3 for the slope dy/dx=−1/4 at (2,−1), P4 for the tangent-line value −1−(1/4)(1.6−2)=−0.9 (a nonzero wrong slope k≠−1/4 loses P3 but P4 can be earned for −1+k(−0.4)). C (2 pts): with x>0, y>0, find the y-coordinate where the tangent is vertical — P5 for setting the denominator 2(3y^2−2y−1)=0, P6 (needs P5) for y=1 (must identify y=1 as the only valid solution, rejecting y=−1/3). D (3 pts): particle on curve H: 2xy+ln y=8, at (4,1) with dx/dt=3, find dy/dt — P7 for implicit differentiation w.r.t. t with at most one error, P8 for the equation 2y(dx/dt)+2x(dy/dt)+(1/y)(dy/dt)=0, P9 (needs P7 and P8, no errors) for dy/dt=−2/3. Common failure: part D differentiation errors (multiplying instead of adding terms) that void P8 and P9.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies. A (2 pts): show dy/dx = −x/(2(3y^2−2y−1)) — P1 for correct implicit differentiation, P2 (needs P1) for the verification"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies. B (2 pts): use the tangent line at (2,−1) to approximate y at x=1.6 — P3 for the slope dy/dx=−1/4 at (2,−1), P4 for the tangent-line value −1−(1/4)(1.6−2)=−0.9 (a nonzero wrong slope k≠−1/4 loses P3 but P4 can be earned for −1+k(−0.4))"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C (2 pts): with x>0, y>0, find the y-coordinate where the tangent is vertical — P5 for setting the denominator 2(3y^2−2y−1)=0, P6 (needs P5) for y=1 (must identify y=1 as the only valid solution, rejecting y=−1/3)"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part D exactly as the official 2025 scoring guideline for this question specifies. D (3 pts): particle on curve"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 6A",
+     "score": "9",
+     "summary": "Q6 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: correct implicit differentiation and verification of dy/dx (A); slope −1/4 and tangent approximation −0.9 (B); denominator set to 0 with y=1 identified (C); implicit differentiation w.r.t. t with no errors and dy/dt=−2/3 (D). Model for implicit differentiation, linear approximation, vertical tangent, and related rates.",
+     "refId": "CALCAB:q6:2025-6A"
+    },
+    {
+     "label": "Sample 6B",
+     "score": "6",
+     "summary": "Q6 scored 6/9 (1-1-1-0-1-1-1-0-0). Earned both A points, P3 (slope −1/4 in a linear approximation), and both C points (denominator=0, y=1). Lost P4 (correct final approximation not given) and both remaining D points — the related-rates differentiation had one error (a multiplication where addition was needed), voiding P8 and therefore P9. Shows a single related-rates differentiation slip cascading to lose P8 and P9.",
+     "refId": "CALCAB:q6:2025-6B"
+    },
+    {
+     "label": "Sample 6C",
+     "score": "3",
+     "summary": "Q6 scored 3/9 (1-1-0-0-1-0-0-0-0). Earned both A points and P5 (denominator set to 0). Lost both B points (slope used in the linear approximation was not −1/4 and not declared as dy/dx), P6 (correct y not given), and all of part D (implicit differentiation had more than one error, so P7, P8, P9 all failed). Illustrates that multiple differentiation errors in related rates forfeit the entire part.",
+     "refId": "CALCAB:q6:2025-6C"
+    }
+   ]
+  }
+ ]
+}

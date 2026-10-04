@@ -6,7 +6,8 @@
       "dimension": "q1-applied-context-calculator",
       "refId": "CALCBC:q1:rubric",
       "title": "Q1 — Applied Context / Rates (9 points, calculator)",
-      "content": "AP Calculus BC Q1 (Part A, graphing calculator required; a question shared with AB), 9 points. Context: C(t)=7.6·arctan(0.2t) models acres affected by an invasive species; C'(t)=38/(25+t^2). Answers to 3 decimal places. A (2 pts): find the average VALUE of C on [0,4] — P1 for the average-value integral (1/4)∫C(t)dt with evidence of division by 4, P2 for the answer 2.778. B (2 pts): find t where the instantaneous rate of change equals the average rate of change on [0,4] — P3 for using the average rate of change [C(4)−C(0)]/4=1.282, P4 for t=2.154 with a supporting equation. C (2 pts): write and evaluate a limit for end behavior of the rate of change — P5 for lim(t→∞)C'(t), P6 for the value 0. D (3 pts): with A(t)=C(t)−0.1∫ln(x)dx, find where A attains its max on [4,36] — P7 for considering A'(t)=0, P8 for a global/candidates-test justification (evaluate A at 4, 11.442, 36), P9 for t=11.442. Common failure: confusing average value with average rate of change; local arguments in D lose P8 but stay eligible for P9."
+      "content": "AP Calculus BC Q1 (Part A, graphing calculator required; a question shared with AB), 9 points. Context: C(t)=7.6·arctan(0.2t) models acres affected by an invasive species; C'(t)=38/(25+t^2). Answers to 3 decimal places. A (2 pts): find the average VALUE of C on [0,4] — P1 for the average-value integral (1/4)∫C(t)dt with evidence of division by 4, P2 for the answer 2.778. B (2 pts): find t where the instantaneous rate of change equals the average rate of change on [0,4] — P3 for using the average rate of change [C(4)−C(0)]/4=1.282, P4 for t=2.154 with a supporting equation. C (2 pts): write and evaluate a limit for end behavior of the rate of change — P5 for lim(t→∞)C'(t), P6 for the value 0. D (3 pts): with A(t)=C(t)−0.1∫ln(x)dx, find where A attains its max on [4,36] — P7 for considering A'(t)=0, P8 for a global/candidates-test justification (evaluate A at 4, 11.442, 36), P9 for t=11.442. Common failure: confusing average value with average rate of change; local arguments in D lose P8 but stay eligible for P9.",
+      "promptId": "ap25-calculus-bc-q1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "9",
       "refId": "CALCBC:q1:2025-1A",
       "title": "Q1 exemplar — Sample 1A, 9/9",
-      "content": "Q1 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: average-value integral and answer 2.778 (A); average-rate expression [C(4)−C(0)]/4 and t=2.154 with equation (B); lim(t→∞)C'(t) and value 0 (C); A'(t)=0 with a global candidates-test table at t=4, 11.442, 36 and answer 11.442 (D). Model for a complete calculator FRQ with a global justification."
+      "content": "Q1 scored 9/9 (1-1-1-1-1-1-1-1-1). Full credit: average-value integral and answer 2.778 (A); average-rate expression [C(4)−C(0)]/4 and t=2.154 with equation (B); lim(t→∞)C'(t) and value 0 (C); A'(t)=0 with a global candidates-test table at t=4, 11.442, 36 and answer 11.442 (D). Model for a complete calculator FRQ with a global justification.",
+      "promptId": "ap25-calculus-bc-q1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "7",
       "refId": "CALCBC:q1:2025-1B",
       "title": "Q1 exemplar — Sample 1B, 7/9",
-      "content": "Q1 scored 7/9 (1-1-1-0-1-1-1-0-1). Earned both A points, P3, both C points, P7, and P9 (answer 11.442). Lost P4 (boxed answer in B incorrect) and P8 (used a local argument, 'A' changes positive to negative,' where a global candidates test is required). Shows the classic pairing of a wrong final value after correct setup and a local justification."
+      "content": "Q1 scored 7/9 (1-1-1-0-1-1-1-0-1). Earned both A points, P3, both C points, P7, and P9 (answer 11.442). Lost P4 (boxed answer in B incorrect) and P8 (used a local argument, 'A' changes positive to negative,' where a global candidates test is required). Shows the classic pairing of a wrong final value after correct setup and a local justification.",
+      "promptId": "ap25-calculus-bc-q1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "3",
       "refId": "CALCBC:q1:2025-1C",
       "title": "Q1 exemplar — Sample 1C, 3/9",
-      "content": "Q1 scored 3/9 (0-0-1-1-0-0-1-0-0). Earned only both B points and P7. Lost part A (computed average RATE of change instead of average VALUE), both C points (limit expression not in eligible form), and P8/P9 (no calculus-based global justification). Illustrates the common average-value vs. average-rate-of-change conflation."
+      "content": "Q1 scored 3/9 (0-0-1-1-0-0-1-0-0). Earned only both B points and P7. Lost part A (computed average RATE of change instead of average VALUE), both C points (limit expression not in eligible form), and P8/P9 (no calculus-based global justification). Illustrates the common average-value vs. average-rate-of-change conflation.",
+      "promptId": "ap25-calculus-bc-q1"
     }
   ]
 }

@@ -38,7 +38,8 @@
       "scoreBand": "6",
       "refId": "APUSH:leq:2025-leq2-set1-2A",
       "title": "LEQ exemplar — LEQ2 Sample 2A, score 6/6",
-      "content": "LEQ (how Native American societies adapted to European colonists, 1500–1754) scored 6/6. Thesis (1): defensible claim with categories — forced conversion/abandonment of land, military uprising, and trade/cultural exchange while pushed westward. Contextualization (1): extensive pre-contact Native life and European reasons for expansion. Evidence (2): Spanish caste system, encomienda, Columbian Exchange, smallpox, Metacom's War, William Penn's agreements — used to support the argument (some off-period evidence like Cahokia does not detract). Analysis & Reasoning (2): uses causation to frame Spanish policy effects AND demonstrates complex understanding via multiple regional responses (Spanish, British, French/Dutch)."
+      "content": "LEQ (how Native American societies adapted to European colonists, 1500–1754) scored 6/6. Thesis (1): defensible claim with categories — forced conversion/abandonment of land, military uprising, and trade/cultural exchange while pushed westward. Contextualization (1): extensive pre-contact Native life and European reasons for expansion. Evidence (2): Spanish caste system, encomienda, Columbian Exchange, smallpox, Metacom's War, William Penn's agreements — used to support the argument (some off-period evidence like Cahokia does not detract). Analysis & Reasoning (2): uses causation to frame Spanish policy effects AND demonstrates complex understanding via multiple regional responses (Spanish, British, French/Dutch).",
+      "promptId": "ap25-us-history-leq2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -46,7 +47,8 @@
       "scoreBand": "4",
       "refId": "APUSH:leq:2025-leq2-set1-2B",
       "title": "LEQ exemplar — LEQ2 Sample 2B, score 4/6",
-      "content": "LEQ scored 4/6 (Thesis 1, Contextualization 1, Evidence 1, Analysis & Reasoning 1). Thesis (1): defensible claim (adapted by fighting over territory and assimilating). Contextualization (1): reasons for European exploration/contact. Evidence (1): names Columbian Exchange, King Philip's War, French and Indian War but does not use them to support an argument (and the Cherokee example is outside the period), so caps at 1. Analysis & Reasoning (1): structured by the conflict/assimilation argument, but no complex understanding (claims not backed by accurate evidence)."
+      "content": "LEQ scored 4/6 (Thesis 1, Contextualization 1, Evidence 1, Analysis & Reasoning 1). Thesis (1): defensible claim (adapted by fighting over territory and assimilating). Contextualization (1): reasons for European exploration/contact. Evidence (1): names Columbian Exchange, King Philip's War, French and Indian War but does not use them to support an argument (and the Cherokee example is outside the period), so caps at 1. Analysis & Reasoning (1): structured by the conflict/assimilation argument, but no complex understanding (claims not backed by accurate evidence).",
+      "promptId": "ap25-us-history-leq2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -54,7 +56,8 @@
       "scoreBand": "2",
       "refId": "APUSH:leq:2025-leq2-set1-2C",
       "title": "LEQ exemplar — LEQ2 Sample 2C, score 2/6",
-      "content": "LEQ scored 2/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis & Reasoning 1). Thesis (1): defensible claim (adapted by trading and conquering land westward). Contextualization (0): too vague/overgeneralized. Evidence (0): attempts are inaccurate, off-period, or insufficiently described. Analysis & Reasoning (1): earns the causation point (smallpox causing westward movement; British contact pushing Natives from the coast) but no complex understanding."
+      "content": "LEQ scored 2/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis & Reasoning 1). Thesis (1): defensible claim (adapted by trading and conquering land westward). Contextualization (0): too vague/overgeneralized. Evidence (0): attempts are inaccurate, off-period, or insufficiently described. Analysis & Reasoning (1): earns the causation point (smallpox causing westward movement; British contact pushing Natives from the coast) but no complex understanding.",
+      "promptId": "ap25-us-history-leq2-set-1"
     }
   ]
 }

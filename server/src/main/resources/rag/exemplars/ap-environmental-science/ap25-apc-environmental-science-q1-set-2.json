@@ -6,7 +6,8 @@
       "dimension": "q1-design-an-investigation",
       "refId": "APES:q1-set2:rubric",
       "title": "Q1 Design an Investigation (10 points) — Set 2: Common Tern & sea level rise",
-      "content": "AP Environmental Science FRQ 1, 'Design an Investigation,' 10 points, one per lettered part (A–H with i/ii splits). Task template: identify/read data from a graph, describe trends, explain mechanisms, and reason about investigation design (scientific question, variables, controls). Set 2 topic: Common Tern breeding pairs and sea level rise. Answer key highlights: A [P1] read the number of Common Tern breeding pairs from the graph; B [P2] describe the trend in breeding pairs; C [P3] students' hypothesis linking sea level rise to Common Tern change; D [P4] explain how climate change leads to sea level rise (thermal expansion of seawater; melting land ice/glaciers). Later parts follow the same identify/describe/explain and investigation-design pattern as Set 1. Common failure: describing a correlation as causation; naming an unmeasurable or independent variable when a dependent variable is asked; explanations of sea level rise that cite melting sea ice (which does not raise sea level) rather than land ice or thermal expansion."
+      "content": "AP Environmental Science FRQ 1, 'Design an Investigation,' 10 points, one per lettered part (A–H with i/ii splits). Task template: identify/read data from a graph, describe trends, explain mechanisms, and reason about investigation design (scientific question, variables, controls). Set 2 topic: Common Tern breeding pairs and sea level rise. Answer key highlights: A [P1] read the number of Common Tern breeding pairs from the graph; B [P2] describe the trend in breeding pairs; C [P3] students' hypothesis linking sea level rise to Common Tern change; D [P4] explain how climate change leads to sea level rise (thermal expansion of seawater; melting land ice/glaciers). Later parts follow the same identify/describe/explain and investigation-design pattern as Set 1. Common failure: describing a correlation as causation; naming an unmeasurable or independent variable when a dependent variable is asked; explanations of sea level rise that cite melting sea ice (which does not raise sea level) rather than land ice or thermal expansion.",
+      "promptId": "ap25-environmental-science-q1-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "10",
       "refId": "APES:q1-set2:2025-1A",
       "title": "Q1 Set 2 exemplar — Sample 1A, 10/10",
-      "content": "Q1 (Set 2) scored 10/10 — earned all ten parts across the graph-reading, trend, hypothesis, climate-change/sea-level-rise explanation, and investigation-design items. Full-credit model for the Design an Investigation task."
+      "content": "Q1 (Set 2) scored 10/10 — earned all ten parts across the graph-reading, trend, hypothesis, climate-change/sea-level-rise explanation, and investigation-design items. Full-credit model for the Design an Investigation task.",
+      "promptId": "ap25-environmental-science-q1-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "6",
       "refId": "APES:q1-set2:2025-1B",
       "title": "Q1 Set 2 exemplar — Sample 1B, 6/10",
-      "content": "Q1 (Set 2) scored 6/10 — typically earned the identification, data-reading, and trend-description points plus one or two explanation/design points, losing the harder explain/justify parts (e.g., the mechanism for sea level rise or the investigation-design reasoning). Illustrates the common APES pattern where identify/describe points are secured but explanation points are missed."
+      "content": "Q1 (Set 2) scored 6/10 — typically earned the identification, data-reading, and trend-description points plus one or two explanation/design points, losing the harder explain/justify parts (e.g., the mechanism for sea level rise or the investigation-design reasoning). Illustrates the common APES pattern where identify/describe points are secured but explanation points are missed.",
+      "promptId": "ap25-environmental-science-q1-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "3",
       "refId": "APES:q1-set2:2025-1C",
       "title": "Q1 Set 2 exemplar — Sample 1C, 3/10",
-      "content": "Q1 (Set 2) scored 3/10 — earned only about three points, generally the direct graph-reading and one description item, while losing the explanation, hypothesis-support, and investigation-design points. Illustrates a low response that reads the figure but cannot supply mechanisms or valid design elements."
+      "content": "Q1 (Set 2) scored 3/10 — earned only about three points, generally the direct graph-reading and one description item, while losing the explanation, hypothesis-support, and investigation-design points. Illustrates a low response that reads the figure but cannot supply mechanisms or valid design elements.",
+      "promptId": "ap25-environmental-science-q1-set-2"
     }
   ]
 }

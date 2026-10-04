@@ -30,7 +30,8 @@
       "scoreBand": "6",
       "refId": "APLIT:literary-argument:2025-set1-3A",
       "title": "Literary Argument exemplar — Sample 3A, score 1-4-1 (6/6)",
-      "content": "Literary Argument (A Tale of Two Cities) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that memory's impact is seen chiefly through Dr. Manette, reflecting both individual trauma and the fate of Paris. Evidence & Commentary (4): specific evidence for all claims (shoe-making obsession; ties to the Revolution; parallels to the DeFarges) with commentary consistently supporting a thoughtful line of reasoning about memory driving conflict and growth, addressing the work as a whole. Sophistication (1): situates the interpretation in a broader context — Manette as a smaller-scale representation of an entire populace's sorrow."
+      "content": "Literary Argument (A Tale of Two Cities) scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible interpretation that memory's impact is seen chiefly through Dr. Manette, reflecting both individual trauma and the fate of Paris. Evidence & Commentary (4): specific evidence for all claims (shoe-making obsession; ties to the Revolution; parallels to the DeFarges) with commentary consistently supporting a thoughtful line of reasoning about memory driving conflict and growth, addressing the work as a whole. Sophistication (1): situates the interpretation in a broader context — Manette as a smaller-scale representation of an entire populace's sorrow.",
+      "promptId": "ap25-english-literature-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -38,7 +39,8 @@
       "scoreBand": "4",
       "refId": "APLIT:literary-argument:2025-set1-3B",
       "title": "Literary Argument exemplar — Sample 3B, score 1-3-0 (4/6)",
-      "content": "Literary Argument (The Leavers) scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation that Deming's memory symbolizes the effects of parental absence on a child's growth. Evidence & Commentary (3): specific evidence for claims (becoming the 'outsider'; Chinese identity and Fuzhou language) with commentary — but the identity-struggle evidence is not adequately explained, so short of 4. Sophistication (0): attempts a broader context of parental absence but asserts the connection as fact rather than developing it."
+      "content": "Literary Argument (The Leavers) scored 4/6 (Thesis 1, Evidence & Commentary 3, Sophistication 0). Thesis (1): defensible interpretation that Deming's memory symbolizes the effects of parental absence on a child's growth. Evidence & Commentary (3): specific evidence for claims (becoming the 'outsider'; Chinese identity and Fuzhou language) with commentary — but the identity-struggle evidence is not adequately explained, so short of 4. Sophistication (0): attempts a broader context of parental absence but asserts the connection as fact rather than developing it.",
+      "promptId": "ap25-english-literature-q3-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -46,7 +48,8 @@
       "scoreBand": "3",
       "refId": "APLIT:literary-argument:2025-set1-3C",
       "title": "Literary Argument exemplar — Sample 3C, score 1-2-0 (3/6)",
-      "content": "Literary Argument (Frankenstein) scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible interpretation that memories drive Frankenstein's poor decisions until he seems monstrous himself. Evidence & Commentary (2): some specific relevant evidence (disgust at the creature; refusal to confess) but no commentary connecting the first piece to a claim, and the progression between claims is not explained, so no clear line of reasoning; ends with a simplistic explanation. Sophistication (0): not demonstrated."
+      "content": "Literary Argument (Frankenstein) scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible interpretation that memories drive Frankenstein's poor decisions until he seems monstrous himself. Evidence & Commentary (2): some specific relevant evidence (disgust at the creature; refusal to confess) but no commentary connecting the first piece to a claim, and the progression between claims is not explained, so no clear line of reasoning; ends with a simplistic explanation. Sophistication (0): not demonstrated.",
+      "promptId": "ap25-english-literature-q3-set-1"
     }
   ]
 }

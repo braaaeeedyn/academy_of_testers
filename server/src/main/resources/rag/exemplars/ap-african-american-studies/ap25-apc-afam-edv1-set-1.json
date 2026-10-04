@@ -14,7 +14,8 @@
       "scoreBand": "2",
       "refId": "AFAM:edv:2025-set1-1A",
       "title": "EDV exemplar — Sample A, score 2/2",
-      "content": "Exam Day Validation scored 2/2. Names both sources (two Ida B. Wells articles) and explains how their perspectives differ — Source 1 on the hardships Wells faced, Source 2 on her accomplishments — and how that difference shapes understanding of her impact. Full credit: names specific sources AND explains (not just describes) the differing perspectives' effect on the topic."
+      "content": "Exam Day Validation scored 2/2. Names both sources (two Ida B. Wells articles) and explains how their perspectives differ — Source 1 on the hardships Wells faced, Source 2 on her accomplishments — and how that difference shapes understanding of her impact. Full credit: names specific sources AND explains (not just describes) the differing perspectives' effect on the topic.",
+      "promptId": "ap25-afam-edv1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +23,8 @@
       "scoreBand": "1",
       "refId": "AFAM:edv:2025-set1-1B",
       "title": "EDV exemplar — Sample B, score 1/2",
-      "content": "Exam Day Validation scored 1/2. Describes two sources on redlining/housing discrimination and their different angles, earning the description point — but does not earn the second point because only one source (a Chicago map) is specified while the other is left vague, and it does not explain how the perspectives differ. Shows the describe→explain gap and the requirement to name BOTH sources."
+      "content": "Exam Day Validation scored 1/2. Describes two sources on redlining/housing discrimination and their different angles, earning the description point — but does not earn the second point because only one source (a Chicago map) is specified while the other is left vague, and it does not explain how the perspectives differ. Shows the describe→explain gap and the requirement to name BOTH sources.",
+      "promptId": "ap25-afam-edv1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +32,8 @@
       "scoreBand": "0",
       "refId": "AFAM:edv:2025-set1-1C",
       "title": "EDV exemplar — Sample C, score 0/2",
-      "content": "Exam Day Validation scored 0/2. References that two sources give different perspectives but names neither source specifically, does not indicate the topic, and does not describe or explain how the perspectives differ. Illustrates that vague, unattributed reflection earns nothing on this question."
+      "content": "Exam Day Validation scored 0/2. References that two sources give different perspectives but names neither source specifically, does not indicate the topic, and does not describe or explain how the perspectives differ. Illustrates that vague, unattributed reflection earns nothing on this question.",
+      "promptId": "ap25-afam-edv1-set-1"
     }
   ]
 }

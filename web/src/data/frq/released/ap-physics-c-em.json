@@ -1,0 +1,223 @@
+{
+ "subjectName": "AP Physics C: E&M",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-physics-c-em-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Mathematical Routines",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 20,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-c-em/ap25-physics-c-em-q1.pdf",
+   "pageCount": 2,
+   "promptText": "Question 1: Version J\n1. An isolated, air-filled, charged capacitor consists of two conducting, coaxial, cylindrical shells\nthat each have length L. The inner shell has radius R1 and the outer shell has radius R2, as\nshown in Figure 1, where RR L<12 % . The surface charge densities (amounts of charge per unit\narea) of the inner and outer shells are 1v+ and 2v- , respectively. The absolute values of the\ntotal charges on the shells are equal.\nA.\ni. Using Gauss’s law, derive an expression for the magnitude E of the electric field as\na function of the radial distance r from the center of the capacitor for the region\nRr R<<12 . Express your answer in terms of R1, 1v , r, and physical constants, as\nappropriate.\nii. Derive an expression for the absolute value VT of the potential difference between\nthe outer and inner shells in terms of R1, R2, 1v , and physical constants, as appropriate.\nBegin your derivation by writing a fundamental physics principle or an equation from\nthe reference information.\niii. On the axes shown in Figure 2, sketch a graph of E as a function of r from r 0= to a\nposition that is outside the outer shell.\nB. A material of dielectric constant l is inserted into the isolated, charged capacitor such that\nthe material fills the region Rr R<<12 , as shown in Figure 3.\nDerive an expression for the capacitance C of the capacitor with the material inserted\nin terms of L, R1, R2, l, and physical constants, as appropriate. Begin your derivation by\nwriting a fundamental physics principle or an equation from the reference information.",
+   "sourceText": null,
+   "scoringGuide": "AP Physics C: E&M FRQ 1 is Mathematical Routines (MR), 10 points, scored by lettered sub-points. The MR task requires multi-step (often calculus-based) derivations/calculations with correct physics relationships, substitutions, and consistent expressions. Q1 topic: charge and a capacitor (electric field/potential, capacitance, or charge distribution). Points reward the correct governing relationship (e.g., Gauss's law, C=Q/V, integration for potential), correct setup and limits, and final expressions consistent with earlier parts. Common failure: wrong integral setup or limits; skipping the governing law; expressions inconsistent with prior parts.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 7,
+     "criteria": "Award 0–7 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "9",
+     "summary": "Q1 (MR) scored 9/10 — nearly all sub-points, with correct E&M relationships, calculus setup, and consistent final expressions, losing one point on a minor step. Near-full-credit model.",
+     "refId": "PHYSCEM:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "6",
+     "summary": "Q1 (MR) scored 6/10 — earned the setup and several relationships but lost points on the integral/derivation steps or consistency-dependent final expressions. Illustrates a partially completed calculus-based routine.",
+     "refId": "PHYSCEM:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "Q1 (MR) scored 3/10 — earned only a few sub-points (e.g., the governing law statement), losing the setup, integration, and consistent final expressions. Illustrates a response that cannot carry out the multistep derivation.",
+     "refId": "PHYSCEM:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-c-em-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Translation Between Representations",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 35,
+   "totalPoints": 12,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-c-em/ap25-physics-c-em-q2.pdf",
+   "pageCount": 2,
+   "promptText": "Question 2: Version J\n2. A rotating, circular , conducting loop of area A and resistance R is in an external uniform\nmagnetic field of magnitude B that is directed in the directionz-- . At time t 0= , the magnetic\nfield is perpendicular to the plane of the loop, as shown in Figure 1. The loop is rotating with\nconstant angular speed ~ and period T about the dashed line that is along the diameter of the\nloop. The value of the magnetic flux through the loop as a function of time t is cosBA t~U = _i .\nA. The absolute value of the induced emf in the loop is f . The partially completed bar chart in\nFigure 2 shows a bar that represents f at tT 4\n3= . In Figure 2, draw bars to represent f at\ntimes t 0= , T4\n1 , and T2\n1 relative to f shown at T4\n3 . If 0f = , write a “0” in that column.\nB. Derive an expression for the maximum induced current in the loop in terms of A, R, B,\n~ , and physical constants, as appropriate. Begin your derivation by writing a fundamental\nphysics principle or an equation from the reference information.\nC. On the axes shown in Figure 3, sketch a graph of the instantaneous power P dissipated by\nthe loop as a function of t during the time interval tT0 ## .\nD. Indicate whether the sketch you drew in part C is or is not consistent with the bars that\nyou drew in part A. Briefly justify your answer by referencing the functional dependence\nbetween P and f .",
+   "sourceText": null,
+   "scoringGuide": "AP Physics C: E&M FRQ 2 is Translation Between Representations (TBR), 12 points, scored by lettered sub-points. The TBR task requires moving among words, equations, graphs, diagrams, and data consistently. Q2 topic: current (circuit behavior, current vs. time, or field/potential representations). Points reward: correct diagrams, correct (often calculus-based) equations, correctly labeled graphs (shape/features), and quantitative results consistent across representations. Common failure: graph with wrong shape (e.g., exponential vs. linear) or unlabeled axes; equation inconsistent with the diagram; inconsistent quantitative results.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies. C: E&M FRQ 2 is Translation Between Representations (TBR), 12 points, scored by lettered sub-points. The TBR task requires moving among words, equations, graphs, diagrams, and data consistently. Q2 topic: current (circuit behavior, current vs. time, or field/potential representations). Points reward: correct diagrams, correct (often calculus-based) equations, correctly labeled graphs (shape/features), and quantitative results consistent across representations"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "11",
+     "summary": "Q2 (TBR) scored 11/12 — nearly all representations correct and consistent (diagrams, equations, labeled graphs, quantitative results), losing one point on a minor graph or consistency detail. Near-full-credit model.",
+     "refId": "PHYSCEM:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "7",
+     "summary": "Q2 (TBR) scored 7/12 — earned over half the representation points but lost several, commonly graph features or an equation inconsistent with the diagram. Illustrates a mixed translation across representations.",
+     "refId": "PHYSCEM:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "4",
+     "summary": "Q2 (TBR) scored 4/12 — earned under half the points, losing much of the graph/equation translation and the consistent quantitative results. Illustrates a response that cannot keep representations consistent.",
+     "refId": "PHYSCEM:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-c-em-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Experimental Design and Analysis",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 25,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-c-em/ap25-physics-c-em-q3.pdf",
+   "pageCount": 2,
+   "promptText": "Question 3\n3. In Experiment 1, students are asked to use a graph to determine the resistivity 1t of a circuit\nelement that is connected to a variable power supply, as shown in Figure 1. The circuit element\nis cylindrical and has uniform resistivity. The students have access to a voltmeter , an ammeter ,\nand a ruler .\nFigure 1\nA. Describe a procedure for collecting data that would allow the students to use a graph to\ndetermine 1t , including any steps necessary to reduce experimental uncertainty.\nB. Describe how the collected data could be graphed and how that graph would be analyzed to\ndetermine 1t .\nIn Experiment 2, the students are asked to use a graph to determine the resistivity 2t of solid,\ncylindrical resistors made of the same material but of different lengths L. The cross-sectional\narea of each resistor is . m50 10× 62- . The students directly measure the resistance R between the\nends of each resistor . Table 1 provides L and R for each resistor .\nTable 1\nL (m) R X_i\n0.010 0.90\n0.020 1.6\n0.030 2.5\n0.040 3.2\n0.050 4.0\nC.\ni. Indicate two quantities, either measured quantities from Table 1 or additional calculated\nquantities, that could be graphed to produce a straight line that could be used to\ndetermine 2t .\nVertical axis: ______ Horizontal axis: ______\nii. On the grid provided, create a graph of the quantities indicated in part C (i).\n• Use Table 2 to record the measured or calculated quantities that you will plot.\n• Clearly label the axes, including units as appropriate.\n• Plot the points you recorded in Table 2.\niii. Draw a best-fit line for the data graphed in part C (ii).\nD. Using the best-fit line that you drew in part C (iii), calculate an experimental value for 2t .",
+   "sourceText": null,
+   "scoringGuide": "AP Physics C: E&M FRQ 3 is Experimental Design and Analysis (LAB), 10 points, scored by lettered sub-points. The LAB task requires designing a procedure, planning a linearizing analysis, and reasoning from data/graphs. Q3 topic: an electric-circuit experiment (current measurements, resistance/capacitance determination). Points reward: a valid, replicable procedure with correct electrical measurements; a correct graphing/linearization plan; correct slope/intercept interpretation (tying it to a physical quantity); and data-supported conclusions. Common failure: a procedure missing a measurement/control; plotting quantities that do not linearize the relationship; not connecting slope/intercept to the target physical quantity.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part C exactly as the official 2025 scoring guideline for this question specifies. C: E&M FRQ 3 is Experimental Design and Analysis (LAB), 10 points, scored by lettered sub-points. The LAB task requires designing a procedure, planning a linearizing analysis, and reasoning from data/graphs. Q3 topic: an electric-circuit experiment (current measurements, resistance/capacitance determination). Points reward: a valid, replicable procedure with correct electrical measurements; a correct graphing/linearization plan; correct slope/intercept interpretation (tying it to a physical quantity); and data-supported conclusions"
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "9",
+     "summary": "Q3 (LAB) scored 9/10 — a complete procedure, correct linearizing plan, correct slope/intercept interpretation, and data-supported conclusions, losing one minor point. Near-full-credit model.",
+     "refId": "PHYSCEM:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "6",
+     "summary": "Q3 (LAB) scored 6/10 — earned the procedure and some analysis but lost points on the linearization or the slope-to-quantity connection. Illustrates a partially complete lab design.",
+     "refId": "PHYSCEM:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "3",
+     "summary": "Q3 (LAB) scored 3/10 — earned a few sub-points (part of the procedure and one analysis element), losing the linearization plan and most data-based reasoning. Illustrates a rough experiment without rigorous analysis.",
+     "refId": "PHYSCEM:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-c-em-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Qualitative/Quantitative Translation",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 20,
+   "totalPoints": 8,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-c-em/ap25-physics-c-em-q4.pdf",
+   "pageCount": 2,
+   "promptText": "Question 4\n4. Long, parallel wires S and T are a distance d2 apart. Both wires carry equal currents I, but the\ncurrents are in opposite directions. Both wires are parallel to the x-axis. At the instant shown\nin Figure 1, Sphere 1 is a distance d above Wire S, Sphere 2 is a distance d below Wire S, and\nboth spheres are moving with speed v in the directionx-+ . Each sphere has positive charge Q+ .\nGravitational effects are negligible.\nFigure 1\nA. F1 is the magnitude of the magnetic force exerted on Sphere 1 due to the currents in wires S\nand T. F2 is the magnitude of the magnetic force exerted on Sphere 2 due to the currents in\nwires S and T.\nIndicate whether F2 is greater than, less than, or equal to F1 by writing one of the following.\n• FF>21\n• FF<21\n• FF21=\nJustify your answer .\nB. Derive an expression for the magnitude Btot of the magnetic field at the location of Sphere 2\ndue to the currents in wires S and T in terms of d, I, and physical constants, as appropriate.\nBegin your derivation by writing a fundamental physics principle or an equation from the\nreference information.\nC. Later , Wire T carries current I3 in the directionx-+ . At the instant shown in Figure 2,\nSphere 2 is a distance d below Wire S and is moving with speed v in the directionx-+ . Fnew is\nthe new magnitude of the magnetic force exerted on Sphere 2 due to the currents in wires S\nand T.\nFigure 2\nIndicate whether Fnew is greater than, less than, or equal to F2 by writing one of the\nfollowing.\n• FF > 2new\n• FF < 2new\n• FF 2new =\nBriefly justify your answer by referencing your derivation in part B.",
+   "sourceText": null,
+   "scoringGuide": "AP Physics C: E&M FRQ 4 is Qualitative Quantitative Translation (QQT), 8 points, scored by lettered sub-points. The QQT task connects qualitative reasoning with quantitative analysis around a claim. Q4 topic: magnetism and current (magnetic force/field, induction, or Ampère's law). Points reward: a correct claim/prediction, qualitative reasoning citing the relevant E&M principle, a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments. Common failure: a claim without a supporting principle; quantitative work inconsistent with the qualitative reasoning; sign/direction errors in the magnetic interaction.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies. C: E&M FRQ 4 is Qualitative Quantitative Translation (QQT), 8 points, scored by lettered sub-points. The QQT task connects qualitative reasoning with quantitative analysis around a claim. Q4 topic: magnetism and current (magnetic force/field, induction, or Ampère's law). Points reward: a correct claim/prediction, qualitative reasoning citing the relevant E&M principle, a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "8",
+     "summary": "Q4 (QQT) scored 8/8 — a correct claim, sound qualitative E&M reasoning, a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments. Full-credit model.",
+     "refId": "PHYSCEM:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (QQT) scored 4/8 — earned the claim and some qualitative reasoning but lost points where the quantitative argument was incomplete or inconsistent with the qualitative claim. Illustrates a half-connected qualitative–quantitative response.",
+     "refId": "PHYSCEM:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "Q4 (QQT) scored 1/8 — earned only a single sub-point (e.g., a bare claim), losing the principle-based reasoning and the quantitative support. Illustrates a response that cannot link qualitative and quantitative E&M reasoning.",
+     "refId": "PHYSCEM:q4:2025-4C"
+    }
+   ]
+  }
+ ]
+}

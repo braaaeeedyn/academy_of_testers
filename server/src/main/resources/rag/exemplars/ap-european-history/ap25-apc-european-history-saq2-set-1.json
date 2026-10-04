@@ -6,7 +6,8 @@
       "dimension": "saq-primary-source",
       "refId": "EUROH:saq2:set1-rubric",
       "title": "SAQ 2 — Primary Source (3 points) — Set 1",
-      "content": "AP European History SAQ 2 (Primary Source), 3 points, one per part. Set 1 prompts (an engraving): A [1] describe a likely intended purpose of the engraving; B [1] describe a broader historical context for the events depicted; C [1] explain one way that events such as those referenced affected European society/politics. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A describing the content instead of the purpose (why it was made / intended effect on audience); C describing rather than explaining an effect."
+      "content": "AP European History SAQ 2 (Primary Source), 3 points, one per part. Set 1 prompts (an engraving): A [1] describe a likely intended purpose of the engraving; B [1] describe a broader historical context for the events depicted; C [1] explain one way that events such as those referenced affected European society/politics. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A describing the content instead of the purpose (why it was made / intended effect on audience); C describing rather than explaining an effect.",
+      "promptId": "ap25-european-history-saq2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "3",
       "refId": "EUROH:saq2:set1-2025-2A",
       "title": "SAQ 2 Set 1 exemplar — Sample 2A, 3/3",
-      "content": "SAQ 2 (Set 1) scored 3/3 (A 1, B 1, C 1). Described a likely intended purpose of the engraving, gave a broader historical context, and explained an effect of such events. Full-credit model."
+      "content": "SAQ 2 (Set 1) scored 3/3 (A 1, B 1, C 1). Described a likely intended purpose of the engraving, gave a broader historical context, and explained an effect of such events. Full-credit model.",
+      "promptId": "ap25-european-history-saq2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "EUROH:saq2:set1-2025-2B",
       "title": "SAQ 2 Set 1 exemplar — Sample 2B, 2/3",
-      "content": "SAQ 2 (Set 1) scored 2/3 (A 1, B 1, C 0). Described the engraving's purpose (A) and a broader context (B) but did not explain an effect of such events (C) — the causal 'how' was missing. Illustrates the common pattern of losing the Explain part."
+      "content": "SAQ 2 (Set 1) scored 2/3 (A 1, B 1, C 0). Described the engraving's purpose (A) and a broader context (B) but did not explain an effect of such events (C) — the causal 'how' was missing. Illustrates the common pattern of losing the Explain part.",
+      "promptId": "ap25-european-history-saq2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "EUROH:saq2:set1-2025-2C",
       "title": "SAQ 2 Set 1 exemplar — Sample 2C, 1/3",
-      "content": "SAQ 2 (Set 1) scored 1/3 (A 1, B 0, C 0). Described a likely purpose of the engraving only. Lost B (no valid broader context) and C (no causal explanation). Illustrates a response that reads the source's purpose but supplies neither context nor an explained effect."
+      "content": "SAQ 2 (Set 1) scored 1/3 (A 1, B 0, C 0). Described a likely purpose of the engraving only. Lost B (no valid broader context) and C (no causal explanation). Illustrates a response that reads the source's purpose but supplies neither context nor an explained effect.",
+      "promptId": "ap25-european-history-saq2-set-1"
     }
   ]
 }

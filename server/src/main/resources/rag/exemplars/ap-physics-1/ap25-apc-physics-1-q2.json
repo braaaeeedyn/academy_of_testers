@@ -6,7 +6,8 @@
       "dimension": "q2-translation-between-representations",
       "refId": "PHYS1:q2:rubric",
       "title": "Q2 Translation Between Representations (TBR) — 12 points",
-      "content": "AP Physics 1 FRQ 2 is Translation Between Representations (TBR), 12 points, scored by lettered sub-points. The TBR task requires moving among representations — words, equations, graphs, diagrams, and data — and using each correctly and consistently. Q2 topic: energy with a spring and gravitation. Points reward: correct free-body/energy diagrams, correct equations linking representations, correctly drawn/labeled graphs (axes, shape, features), and quantitative results consistent across representations. Common failure: a graph with wrong shape or unlabeled axes; an equation inconsistent with the diagram; not translating a described situation into the requested representation."
+      "content": "AP Physics 1 FRQ 2 is Translation Between Representations (TBR), 12 points, scored by lettered sub-points. The TBR task requires moving among representations — words, equations, graphs, diagrams, and data — and using each correctly and consistently. Q2 topic: energy with a spring and gravitation. Points reward: correct free-body/energy diagrams, correct equations linking representations, correctly drawn/labeled graphs (axes, shape, features), and quantitative results consistent across representations. Common failure: a graph with wrong shape or unlabeled axes; an equation inconsistent with the diagram; not translating a described situation into the requested representation.",
+      "promptId": "ap25-physics-1-q2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "12",
       "refId": "PHYS1:q2:2025-2A",
       "title": "Q2 exemplar — Sample 2A, 12/12",
-      "content": "Q2 (TBR) scored 12/12 — every representation correct and consistent: diagrams, equations, and a properly labeled graph with the right shape/features, plus quantitative results that agree across representations. Full-credit model."
+      "content": "Q2 (TBR) scored 12/12 — every representation correct and consistent: diagrams, equations, and a properly labeled graph with the right shape/features, plus quantitative results that agree across representations. Full-credit model.",
+      "promptId": "ap25-physics-1-q2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "8",
       "refId": "PHYS1:q2:2025-2B",
       "title": "Q2 exemplar — Sample 2B, 8/12",
-      "content": "Q2 (TBR) scored 8/12 — earned most representation points but lost several, commonly graph features (shape/labels) or an equation inconsistent with the diagram. Illustrates a solid response with one or two representations imperfectly translated."
+      "content": "Q2 (TBR) scored 8/12 — earned most representation points but lost several, commonly graph features (shape/labels) or an equation inconsistent with the diagram. Illustrates a solid response with one or two representations imperfectly translated.",
+      "promptId": "ap25-physics-1-q2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "2",
       "refId": "PHYS1:q2:2025-2C",
       "title": "Q2 exemplar — Sample 2C, 2/12",
-      "content": "Q2 (TBR) scored 2/12 — earned only a couple of sub-points, losing most representations (graph, equations, and consistent quantitative results). Illustrates a response that cannot translate the situation across representations."
+      "content": "Q2 (TBR) scored 2/12 — earned only a couple of sub-points, losing most representations (graph, equations, and consistent quantitative results). Illustrates a response that cannot translate the situation across representations.",
+      "promptId": "ap25-physics-1-q2"
     }
   ]
 }

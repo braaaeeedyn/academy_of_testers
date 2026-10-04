@@ -6,7 +6,8 @@
       "dimension": "q3-probability-and-sampling-distributions",
       "refId": "STATS:q3:rubric",
       "title": "Q3 — Probability and Sampling Distributions (4 points)",
-      "content": "AP Statistics FRQ 3 focuses on Probability and Sampling Distributions, 4 points. Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks: compute a probability (using the correct model — binomial, normal, or a two-way table), describe or use a sampling distribution (mean, standard deviation, shape via CLT), and interpret a probability in context. Common failure: wrong probability model or parameters; not checking conditions for a normal approximation; computing a probability without showing the setup; interpretation without context."
+      "content": "AP Statistics FRQ 3 focuses on Probability and Sampling Distributions, 4 points. Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks: compute a probability (using the correct model — binomial, normal, or a two-way table), describe or use a sampling distribution (mean, standard deviation, shape via CLT), and interpret a probability in context. Common failure: wrong probability model or parameters; not checking conditions for a normal approximation; computing a probability without showing the setup; interpretation without context.",
+      "promptId": "ap25-statistics-q3"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "4",
       "refId": "STATS:q3:2025-3A",
       "title": "Q3 exemplar — Sample 3A, 4/4",
-      "content": "Q3 scored 4/4 — all parts essentially correct: correct probability model and computation with setup, correct sampling-distribution parameters/shape, and a contextual interpretation. Full-credit model."
+      "content": "Q3 scored 4/4 — all parts essentially correct: correct probability model and computation with setup, correct sampling-distribution parameters/shape, and a contextual interpretation. Full-credit model.",
+      "promptId": "ap25-statistics-q3"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "STATS:q3:2025-3B",
       "title": "Q3 exemplar — Sample 3B, 2/4",
-      "content": "Q3 scored 2/4 — some parts partial: a probability computed with a setup error or without justifying the model, or a sampling-distribution description missing shape/conditions. Illustrates partial command of the probability tasks."
+      "content": "Q3 scored 2/4 — some parts partial: a probability computed with a setup error or without justifying the model, or a sampling-distribution description missing shape/conditions. Illustrates partial command of the probability tasks.",
+      "promptId": "ap25-statistics-q3"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "STATS:q3:2025-3C",
       "title": "Q3 exemplar — Sample 3C, 1/4",
-      "content": "Q3 scored 1/4 — mostly incorrect: wrong probability model/parameters and no valid sampling-distribution reasoning. Illustrates a response that cannot set up the probability correctly."
+      "content": "Q3 scored 1/4 — mostly incorrect: wrong probability model/parameters and no valid sampling-distribution reasoning. Illustrates a response that cannot set up the probability correctly.",
+      "promptId": "ap25-statistics-q3"
     }
   ]
 }

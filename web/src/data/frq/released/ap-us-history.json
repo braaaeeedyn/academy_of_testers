@@ -1,0 +1,914 @@
+{
+ "subjectName": "AP US History",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-us-history-saq1-set-1",
+   "set": 1,
+   "label": "SAQ 1",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Secondary Source",
+   "topic": "",
+   "teaser": "A. Briefly describe one major difference between Wilentz’s and Bouton’s historical interpretations of early United States politics. B. Briefly explain how one event or development from 1789 to…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-saq1-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "Source 1\n“The...rise of American democracy was an extraordinary part of the most profound\ntransformation in modern history....\nThe American Revolution had proved more egalitarian1 in its outcome than many of its leaders\nhad hoped or expected it would be in 1776.... Portions of the [people] once largely excluded\nfrom the exercise of power were now among the people’s governors. Efforts to rein in the\negalitarian impulse had faltered.... [But] democracy’s achievements were fragile...and its future\nfar from guaranteed....\n[After 1800,] by beating back [the Federalists], the Jeffersonian ascendency opened up the\npolitical system.... The filters on democracy created by the Framers [of the Constitution] were\nproving porous, while the suppression of democracy sought by the Federalists in the 1790s was\nthoroughly discredited.”\nSource: Sean Wilentz, historian, The Rise of American Democracy: Jefferson to Lincoln, 2005\nSource 2\n“[After the American Revolution] elite men from [many] states...create[d] a new national\ngovernment designed to be a stronger barrier against democracy.... Ordinary folk continued\nto resist.... But they remained unable to mobilize in ways that would bring the changes they\nwanted....\nIt would be an enduring victory for the elite. Although the Federalists both fell politically and\npersonally, the system they created to check democracy has lasted.... Although the Democratic-\nRepublicans rode to power ...across the nation by promising to restore the popular vision of\nthe Revolution,...most Democratic-Republican leaders...were content to leave the bulk of the\nFederalist system in place.... To these men, ‘reform’...did not mean pulling down the barriers to\ndemocracy that they had helped to create.”\nSource: Terry Bouton, historian, Taming Democracy: “The People,” the Founders, and the\nTroubled Ending of the American Revolution, 2007\n1: equal\n1. Respond to parts A, B, and C.\nA. Briefly describe one major difference between Wilentz’s and Bouton’s historical\ninterpretations of early United States politics.\nB. Briefly explain how one event or development from 1789 to 1820 not directly mentioned in\nthe excerpts could be used to support Wilentz’s argument about early United States politics.\nC. Briefly explain how one event or development from 1789 to 1820 not directly mentioned in\nthe excerpts could be used to support Bouton’s argument about early United States politics.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Short-Answer Question scoring (3 points total; parts A, B, C each worth 1 point, earned INDEPENDENTLY). No thesis is required. Two task verbs: DESCRIBE = provide the relevant characteristics of a specified topic (more than merely naming a term); EXPLAIN = provide information about how or why a development/process occurs or a relationship exists. A part earns its point only when the response is historically defensible AND within the prompt's specified time period/region — evidence outside the timeframe, factual inaccuracies, or merely identifying a term without describing/explaining it do not earn the point. Grammatical errors don't count against a response unless they obscure the content.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "3",
+     "summary": "SAQ Q1 (secondary source: Wilentz vs. Bouton on early US politics, 1789–1820) scored 3/3 (A 1, B 1, C 1). A: correctly describes the difference (Wilentz — politics benefited everyone/more egalitarian; Bouton — benefited the elite). B: explains the Bill of Rights supporting Wilentz's egalitarian argument. C: explains the Whiskey Rebellion supporting Bouton (poor farmers unable to mobilize against elites). Model of a full-credit SAQ: each part directly does its task verb with in-period, accurate evidence.",
+     "refId": "APUSH:saq:2025-q1-set1-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "SAQ Q1 scored 2/3 (A 1, B 1, C 0). A: describes the Wilentz/Bouton difference (expanded opportunity vs. victory for the elite). B: explains expanded male suffrage after the War of 1812 supporting Wilentz. C: 0 — uses Andrew Jackson's presidency, which is OUTSIDE the 1789–1820 timeframe. Illustrates the common SAQ error of otherwise-valid evidence that falls outside the prompt's time period.",
+     "refId": "APUSH:saq:2025-q1-set1-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "SAQ Q1 scored 1/3 (A 1, B 0, C 0). A: correctly describes Bouton's elite-benefit argument vs. Wilentz's egalitarian one. B: 0 — cites Federalist/Jeffersonian foreign-policy divide but does not explain how it supports Wilentz's egalitarian argument. C: 0 — Bacon's Rebellion (and its claimed link to replacing the Articles of Confederation) is historically inaccurate. Shows that a part fails when it names an event without explaining the required relationship, or uses inaccurate history.",
+     "refId": "APUSH:saq:2025-q1-set1-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-saq2-set-1",
+   "set": 1,
+   "label": "SAQ 2",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Primary Source",
+   "topic": "",
+   "teaser": "A. Briefly describe one purpose of political leaders in promoting ideas such as Webster’s. B. Briefly explain one development from 1820 to 1848 that contributed to the political ideas debated in…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-saq2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "“[There is a] real and wide difference, in political opinion, between the honorable gentleman\n[from South Carolina] and myself. On my part, I look upon [internal improvements] as\nconnected with the common good.... [He believes] Ohio and Carolina are different Governments\nand different countries.... We [in New England] look upon the States, not as separated, but\nas united. We love to dwell on that Union, and on the mutual happiness which it has so\nmuch promoted, and common renown which it has so greatly contributed to acquire. In our\ncontemplation, Carolina and Ohio are parts of the same country; States, united under the same\nGeneral Government.... We do not impose geographical limits to our patriotic feeling.... I do not\ndesire to enlarge the powers of the Government.... But when it is believed that a power does\nexist, then it is, in my judgment, to be exercised for the general benefit of the whole.”\nSource: Daniel Webster , senator from Massachusetts, future member of the Whig Party, speech\nin the United States Senate, responding to Robert Y. Hayne of South Carolina, a member of the\nDemocratic Party, 1830\n2. Respond to parts A, B, and C.\nA. Briefly describe one purpose of political leaders in promoting ideas such as Webster’s.\nB. Briefly explain one development from 1820 to 1848 that contributed to the political ideas\ndebated in the speech.\nC. Briefly explain how one political debate between 1848 and 1865 was similar to the debate in\nthe speech.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Short-Answer Question scoring (3 points total; parts A, B, C each worth 1 point, earned INDEPENDENTLY). No thesis is required. Two task verbs: DESCRIBE = provide the relevant characteristics of a specified topic (more than merely naming a term); EXPLAIN = provide information about how or why a development/process occurs or a relationship exists. A part earns its point only when the response is historically defensible AND within the prompt's specified time period/region — evidence outside the timeframe, factual inaccuracies, or merely identifying a term without describing/explaining it do not earn the point. Grammatical errors don't count against a response unless they obscure the content.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "3",
+     "summary": "SAQ Q2 (primary source: purpose behind promoting ideas such as Webster's) scored 3/3 (A 1, B 1, C 1). A describes one purpose of political leaders in promoting such ideas; B and C explain in-period events/developments as directed. Full credit — each part directly completes its describe/explain task with accurate, in-period evidence.",
+     "refId": "APUSH:saq:2025-q2-set1-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "2",
+     "summary": "SAQ Q2 scored 2/3 (A 1, B 1, C 0). Parts A and B earn credit; Part C does not — the response fails to explain how its evidence supports the prompt (or the evidence is off-topic/inaccurate). Reinforces that each part is scored independently and the third explain part is the most commonly missed.",
+     "refId": "APUSH:saq:2025-q2-set1-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "SAQ Q2 scored 1/3 (A 1, B 0, C 0). Only the describe part earns credit; both explain parts fail to establish an accurate, in-period how/why link. Typical of responses that describe the source adequately but cannot connect outside evidence to the argument.",
+     "refId": "APUSH:saq:2025-q2-set1-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-saq3-set-1",
+   "set": 1,
+   "label": "SAQ 3",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "",
+   "teaser": "A. Briefly describe one political development in British North America from 1607 to 1753. B. Briefly describe one effect of the Seven Years’ War from 1754 to 1765. C. Briefly explain how one group…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-saq3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. Respond to parts A, B, and C.\nA. Briefly describe one political development in British North America from 1607 to 1753.\nB. Briefly describe one effect of the Seven Years’ War from 1754 to 1765.\nC. Briefly explain how one group responded to debates about the rights of British colonists from\n1765 to 1783.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Short-Answer Question scoring (3 points total; parts A, B, C each worth 1 point, earned INDEPENDENTLY). No thesis is required. Two task verbs: DESCRIBE = provide the relevant characteristics of a specified topic (more than merely naming a term); EXPLAIN = provide information about how or why a development/process occurs or a relationship exists. A part earns its point only when the response is historically defensible AND within the prompt's specified time period/region — evidence outside the timeframe, factual inaccuracies, or merely identifying a term without describing/explaining it do not earn the point. Grammatical errors don't count against a response unless they obscure the content.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "3",
+     "summary": "SAQ Q3 (no stimulus: political developments in British North America, 1607–1753) scored 3/3 (A 1, B 1, C 1). A describes one political development in the period; B and C explain further developments/effects as directed. Full credit — each part completes its describe/explain task with accurate, in-period evidence.",
+     "refId": "APUSH:saq:2025-q3-set1-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "2",
+     "summary": "SAQ Q3 scored 2/3 (A 0, B 1, C 1). Parts B and C earn credit, but Part A does not — the described development is inaccurate, outside 1607–1753, or merely a named term without the required characteristics. Because parts are independent, missing the describe part does not block the explain parts.",
+     "refId": "APUSH:saq:2025-q3-set1-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "SAQ Q3 scored 1/3 (A 0, B 0, C 1). Only Part C earns credit; A and B fail (inaccurate, off-period, or not completing the describe/explain task). Demonstrates that any single part can be the one earned — points are independent.",
+     "refId": "APUSH:saq:2025-q3-set1-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-saq4-set-1",
+   "set": 1,
+   "label": "SAQ 4",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "",
+   "teaser": "A. Briefly describe one political development during Reconstruction from 1865 to 1877. B. Briefly describe one effect of the end of Reconstruction from 1877 to 1900. C. Briefly explain how one…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-saq4-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "4. Respond to parts A, B, and C.\nA. Briefly describe one political development during Reconstruction from 1865 to 1877.\nB. Briefly describe one effect of the end of Reconstruction from 1877 to 1900.\nC. Briefly explain how one group responded to debates about the federal government from\n1900 to 1945.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Short-Answer Question scoring (3 points total; parts A, B, C each worth 1 point, earned INDEPENDENTLY). No thesis is required. Two task verbs: DESCRIBE = provide the relevant characteristics of a specified topic (more than merely naming a term); EXPLAIN = provide information about how or why a development/process occurs or a relationship exists. A part earns its point only when the response is historically defensible AND within the prompt's specified time period/region — evidence outside the timeframe, factual inaccuracies, or merely identifying a term without describing/explaining it do not earn the point. Grammatical errors don't count against a response unless they obscure the content.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "3",
+     "summary": "SAQ Q4 (no stimulus: political development during Reconstruction, 1865–1877) scored 3/3 (A 1, B 1, C 1). A describes one political development of Reconstruction; B and C explain further developments/effects as directed. Full credit — each part completes its describe/explain task with accurate, in-period evidence.",
+     "refId": "APUSH:saq:2025-q4-set1-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "2",
+     "summary": "SAQ Q4 scored 2/3 (A 1, B 1, C 0). Parts A and B earn credit; Part C does not (explanation not tied to the prompt, inaccurate, or outside 1865–1877).",
+     "refId": "APUSH:saq:2025-q4-set1-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "SAQ Q4 scored 1/3 (A 0, B 1, C 0). Only Part B earns credit; A and C fail (inaccurate, off-period, or not completing the describe/explain task). Points are independent, so the middle part can be the only one earned.",
+     "refId": "APUSH:saq:2025-q4-set1-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-dbq-set-1",
+   "set": 1,
+   "label": "DBQ",
+   "section": "Section II",
+   "essayType": "Document-Based Question",
+   "topic": "",
+   "teaser": "Evaluate the extent to which the role of the federal government in the United States economy changed from 1932 to 1980. In your response you should do the following: • Respond to the prompt with a…",
+   "suggestedMinutes": 60,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-dbq-set-1.pdf",
+   "pageCount": 4,
+   "promptText": "1. Evaluate the extent to which the role of the federal government in the United States economy\nchanged from 1932 to 1980.\nIn your response you should do the following:\n• Respond to the prompt with a historically defensible thesis or claim that establishes a\nline of reasoning.\n• Describe a broader historical context relevant to the prompt.\n• Support an argument in response to the prompt using at least four documents.\n• Use at least one additional piece of specific historical evidence (beyond that found in the\ndocuments) relevant to an argument about the prompt.\n• For at least two documents, explain how or why the document’s point of view, purpose,\nhistorical situation, and/or audience is relevant to an argument.\n• Demonstrate a complex understanding of a historical development related to the prompt\nthrough sophisticated argumentation and/or effective use of evidence.\nDocument 1\nSource: Letter from women members of the Workers Council of Colored People to Harry\nHopkins, head administrator of the Works Progress Administration (WPA), 1937\n“We the Workers Council of Colored People in Raleigh, [North Carolina,] do wish to state some\nfacts to you about how colored women (mostly heads of families) have been treated by W.P.A.\nheads here. Also wish you to make investigation about it at once for its pure injustice to us, the\nway it has been done....\nWe also wish you to investigate why [it is] that so many teachers unemployed and eligible to\nteach have not been employed by the Adult Education here, [so] that these teachers can have\nclasses as they once had and help the illiterate colored people. One time it was many grown and\nold people going to the classes learning and proud of the opportunities.... Mr . Hopkins, colored\nwomen have been turned out of different jobs [and] projects to make us take other jobs...and\nwhite women were hired and sent for and given places that colored women was made to leave\nor quit.\nLet us say that if we cannot work on W.P.A. projects and be compelled to take these poor paying\njobs that [instead] food, clothes, and rent money be provided for us at once because we are\nsuffering. We the Workers Council understood that...colored women cannot be hired this winter\non any of the W.P.A. projects. We wish you to tell us why.”\nDocument 2\nSource: United States War Food Administration, pamphlet distributed to farmers, 1943\n“If the local U.S. Crop Corps mobilization, including the Women’s Land Army and Victory Farm\nVolunteers, fails to supply the necessary farm labor requirements,...the office of Labor of the\nWar Food Administration will bring skilled or semiskilled workers from surplus farm labor\nareas.\nMany migrant farm laborers that farmers in special-crop areas depended on in past years have\ngone into war plants or into the service or have year-round farm occupations. Where labor of\nthis type is essential, arrangements are made to bring in workers from Mexico, Jamaica, and the\nBahamas. Laborers from these foreign countries will be treated in accordance with agreements\nreached between their governments and ours.”\nDocument 3\nSource: Federal officials attending an exhibition about the Federal-Aid Highway Act of 1956, a\nlaw that funded the creation of a system of interstate highways across the United States, 1957\nFederal Highway Administration\nDocument 4\nSource: President John F. Kennedy, State of the Union address, 1962\n“A strong America cannot neglect the aspirations of its citizens—the welfare of the needy, the\nhealth care of the elderly, the education of the young. For we are not developing the Nation’s\nwealth for its own sake. Wealth is the means—and people are the ends. All our material riches\nwill avail us little if we do not use them to expand the opportunities of our people....\nIn matters of health, no piece of unfinished business is more important or more urgent than the\nenactment...of health insurance for the aged....\nPrivate health insurance helps very few—for its cost is high and its coverage limited.... I now\nurge that its coverage be extended [by the government] without further delay to provide health\ninsurance for the elderly.”\nDocument 5\nSource: Barry Goldwater , speech accepting the Republican Party presidential nomination, 1964\n“My fellow Americans, the tide has been running against freedom.... We must, and we shall, set\nthe tide running again in the cause of freedom. And this party, with its every action, every word,\nevery breath, and every heartbeat, has but a single resolve, and that is freedom....\nIt is the cause of Republicanism to resist concentrations of power , private or public, which\nenforce such conformity and inflict such despotism. It is the cause of Republicanism to ensure\nthat power remains in the hands of the people....\nWe must assure a society here which, while never abandoning the needy or forsaking the\nhelpless, nurtures incentives and opportunity for the creative and the productive.... We\nRepublicans seek a government that attends to its inherent responsibilities of...encouraging a\nfree and a competitive economy.... We Republicans define government’s role where needed at\nmany, many levels, preferably through the one closest to the people involved.”\nDocument 6\nSource: César Chávez, leader of the National Farm Workers Association, a labor union that\nincluded many Mexican-descended migrant farm workers, statement to the Senate\nCommittee on Labor and Public Welfare, 1969\n“How can the Nation, how can Congress help the farmworker close the yawning gap between\nhis own social and economic condition and that of other wage earners...?\nAnswer? Through strong, effective, well-run unions. The road to social justice for the\nfarmworker is the road of unionization. Our cause [and] our strike...are all founded upon our\ndeep conviction that...unionization holds far more hope for the farmworker than any other\nsingle approach....\nUnionization cannot make progress in the face of hostile employer attitudes unless it receives\neffective governmental support.... If farm unionism is to make progress, we need sufficient\neconomic power under law to be able to wrench signed [labor] agreements from unwilling\nhands of [agricultural] growers who still refuse to admit that unionization and collective\nbargaining have a rightful place to take in agriculture....\nToday we ask the American people and the Congress to help us build our union.”\nDocument 7\nSource: Marjorie S. Holt, Republican member of Congress, The Case Against the Reckless\nCongress, 1976\n“Today we ask whether the noble American experiment in freedom is dissolving into a new\ntyranny....\nSpending by all levels of government in these United States consumes 37 percent of the gross\nnational product.... By taxation and inflation, government drains away so much of our savings\nthat we lack the capital necessary for investment in expanding private industry and creating\njobs....\nHow did we get into this mess? The answer is that Congress has brought us here. For three\ndecades Congress has consistently demonstrated incompetence to do anything except promise\nmore and spend more.... It has done nothing to slow the growth of government, and has actually\nproceeded to accelerate that growth....\nSocial and economic planning by the central government is the surest road to tyranny.... The\npeople are best served by policy set at the state and local levels. The cause of freedom is best\nserved at a level where the individual voice can be heard.”",
+   "sourceText": null,
+   "scoringGuide": "AP US History Document-Based Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if it is not historically defensible, only restates/rephrases the prompt, does not respond to the prompt, is overgeneralized, or does not establish a line of reasoning. The thesis must either give some reason for the claim OR establish categories of the argument, and must be one or more sentences in one place (intro or conclusion).\n\nAP US History DBQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. The context must be more than a phrase — it requires elaboration connecting it to the prompt's topic.\n\nAP US History DBQ, Evidence from the Documents (0–2 points). 1 point: accurately describes (not merely quotes) the content of at least THREE documents to address the topic of the prompt. 2 points: uses at least FOUR documents to support an argument in response to the prompt. Does NOT earn points for using fewer than three documents, misinterpreting content, quoting without description, or addressing documents collectively rather than each separately. The four documents need not support a single argument — they may span sub-arguments or counterarguments.\n\nAP US History DBQ, Evidence Beyond the Documents (0–1 points). 1 point: uses at least one additional piece of specific historical evidence (beyond the documents) relevant to an argument about the prompt. Does NOT earn it for evidence that is irrelevant, outside the prompt's time period/region, repeats the prompt or a document, or is only a passing phrase. Must be different from the evidence used for contextualization and more than a phrase; may appear anywhere in the response.\n\nAP US History DBQ, Analysis and Reasoning — Sourcing (0–1 points). 1 point: for at least TWO documents, explains how or why the document's point of view, purpose, historical situation, and/or audience is relevant to an argument. Does NOT earn it for sourcing fewer than two documents, merely identifying POV/purpose/situation/audience without explaining its relevance, or summarizing content without connecting it to sourcing.\n\nAP US History DBQ, Analysis and Reasoning — Complex Understanding (0–1 points). 1 point: demonstrates a complex understanding of the historical development via sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; explaining multiple causes/effects, similarities/differences, or continuities/changes; explaining both sides of such pairs; making insightful connections across periods/regions; effectively using all seven documents; or explaining the sourcing of at least four documents. Must be part of the argument and more than a phrase or reference.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning (not a restatement of the prompt)."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt — more than a passing phrase."
+    },
+    {
+     "name": "Evidence from the Documents",
+     "maxPoints": 2,
+     "criteria": "1 point: uses the content of at least three documents to address the topic. 2 points: supports an argument using at least four documents."
+    },
+    {
+     "name": "Evidence Beyond the Documents",
+     "maxPoints": 1,
+     "criteria": "Uses at least one additional piece of specific, relevant historical evidence not found in the documents to support the argument."
+    },
+    {
+     "name": "Sourcing",
+     "maxPoints": 1,
+     "criteria": "For at least two documents, explains how or why the document's point of view, purpose, historical situation, and/or audience is relevant to the argument."
+    },
+    {
+     "name": "Complex Understanding",
+     "maxPoints": 1,
+     "criteria": "Demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of the evidence. Rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "7",
+     "summary": "DBQ (extent the federal government's role in the US economy changed 1932–1980) scored 7/7. Thesis (1): defensible claim with a line of reasoning — heavy Keynesian intervention early/mid-period, then a more laissez-faire New Right turn later. Contextualization (1): situates in the late-19th-century laissez-faire era through Progressive/WWI growth. Evidence from Documents (2): uses Docs 3, 4, 5, 7 to support the argument. Evidence Beyond (1): LBJ's Great Society/War on Poverty/Medicare. Sourcing (1): explains audience/situation of Docs 3, 4, 5, 7. Complexity (1): sources four documents effectively AND draws an insightful cross-period comparison to the Federalist vs. Democratic-Republican debate.",
+     "refId": "APUSH:dbq:2025-set1-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "5",
+     "summary": "DBQ scored 5/7 (Thesis 1, Contextualization 1, Evidence from Docs 2, Evidence Beyond 0, Sourcing 1, Complexity 0). Thesis (1): defensible claim about extended federal overreach via trade/travel, equal opportunity, healthcare, and wartime immigration. Contextualization (1): pre-1932 risky banking and consumer culture leading to the Great Depression. Evidence from Docs (2): uses Docs 2, 3, 4, 6 to support arguments (misinterprets Doc 5's Goldwater). Evidence Beyond (0): none. Sourcing (1): explains situation/purpose of Docs 3, 4, 2. Complexity (0): no sophisticated argumentation.",
+     "refId": "APUSH:dbq:2025-set1-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "2",
+     "summary": "DBQ scored 2/7 (Thesis 1, Contextualization 0, Evidence from Docs 1, Evidence Beyond 0, Sourcing 0, Complexity 0). Thesis (1): minimally defensible, generalized line of reasoning (federal government funded projects that benefited everyone). Contextualization (0): no broader context. Evidence from Docs (1): describes Docs 3, 4, 6 to address the topic but does not use documents to support an argument. Evidence Beyond (0), Sourcing (0), Complexity (0): none. Shows how describing documents without argumentation caps Evidence at 1 and forfeits the reasoning points.",
+     "refId": "APUSH:dbq:2025-set1-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-leq2-set-1",
+   "set": 1,
+   "label": "LEQ 2",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "",
+   "teaser": "Evaluate how Native American societies adapted to the presence of European colonists in North America from 1500 to 1754.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-leq2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "2. Evaluate how Native American societies adapted to the presence of European colonists in North\nAmerica from 1500 to 1754.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Long Essay Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not historically defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The thesis must give some reason for the claim OR establish categories of the argument, and be one or more sentences in one place (intro or conclusion).\n\nAP US History LEQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. Must be more than a phrase and require elaboration tying it to the prompt's topic.\n\nAP US History LEQ, Evidence (0–2 points). 1 point: provides specific examples of at least TWO pieces of evidence relevant to the topic of the prompt. 2 points: uses at least two pieces of specific and relevant evidence to SUPPORT AN ARGUMENT in response to the prompt. Does NOT earn points for a single piece of evidence, irrelevant evidence, evidence outside the prompt's time period/region, or merely repeating the prompt. Typically evidence is more specific than contextualization.\n\nAP US History LEQ, Analysis and Reasoning (0–2 points). 1 point: uses a historical reasoning process (comparison, causation, or continuity and change) to frame or structure an argument that addresses the prompt (reasoning may be uneven/imbalanced). 2 points: demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; multiple causes/effects, similarities/differences, or continuities/changes; both sides of such a pair; insightful connections across periods/regions; or explaining how at least four pieces of specific evidence support a nuanced argument. Must be part of the argument and more than a phrase.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "6",
+     "summary": "LEQ (how Native American societies adapted to European colonists, 1500–1754) scored 6/6. Thesis (1): defensible claim with categories — forced conversion/abandonment of land, military uprising, and trade/cultural exchange while pushed westward. Contextualization (1): extensive pre-contact Native life and European reasons for expansion. Evidence (2): Spanish caste system, encomienda, Columbian Exchange, smallpox, Metacom's War, William Penn's agreements — used to support the argument (some off-period evidence like Cahokia does not detract). Analysis & Reasoning (2): uses causation to frame Spanish policy effects AND demonstrates complex understanding via multiple regional responses (Spanish, British, French/Dutch).",
+     "refId": "APUSH:leq:2025-leq2-set1-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "4",
+     "summary": "LEQ scored 4/6 (Thesis 1, Contextualization 1, Evidence 1, Analysis & Reasoning 1). Thesis (1): defensible claim (adapted by fighting over territory and assimilating). Contextualization (1): reasons for European exploration/contact. Evidence (1): names Columbian Exchange, King Philip's War, French and Indian War but does not use them to support an argument (and the Cherokee example is outside the period), so caps at 1. Analysis & Reasoning (1): structured by the conflict/assimilation argument, but no complex understanding (claims not backed by accurate evidence).",
+     "refId": "APUSH:leq:2025-leq2-set1-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "LEQ scored 2/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis & Reasoning 1). Thesis (1): defensible claim (adapted by trading and conquering land westward). Contextualization (0): too vague/overgeneralized. Evidence (0): attempts are inaccurate, off-period, or insufficiently described. Analysis & Reasoning (1): earns the causation point (smallpox causing westward movement; British contact pushing Natives from the coast) but no complex understanding.",
+     "refId": "APUSH:leq:2025-leq2-set1-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-leq3-set-1",
+   "set": 1,
+   "label": "LEQ 3",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "",
+   "teaser": "Evaluate how different reform movements in the United States responded to industrialization from 1820 to 1900.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-leq3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. Evaluate how different reform movements in the United States responded to industrialization\nfrom 1820 to 1900.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Long Essay Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not historically defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The thesis must give some reason for the claim OR establish categories of the argument, and be one or more sentences in one place (intro or conclusion).\n\nAP US History LEQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. Must be more than a phrase and require elaboration tying it to the prompt's topic.\n\nAP US History LEQ, Evidence (0–2 points). 1 point: provides specific examples of at least TWO pieces of evidence relevant to the topic of the prompt. 2 points: uses at least two pieces of specific and relevant evidence to SUPPORT AN ARGUMENT in response to the prompt. Does NOT earn points for a single piece of evidence, irrelevant evidence, evidence outside the prompt's time period/region, or merely repeating the prompt. Typically evidence is more specific than contextualization.\n\nAP US History LEQ, Analysis and Reasoning (0–2 points). 1 point: uses a historical reasoning process (comparison, causation, or continuity and change) to frame or structure an argument that addresses the prompt (reasoning may be uneven/imbalanced). 2 points: demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; multiple causes/effects, similarities/differences, or continuities/changes; both sides of such a pair; insightful connections across periods/regions; or explaining how at least four pieces of specific evidence support a nuanced argument. Must be part of the argument and more than a phrase.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "6",
+     "summary": "LEQ (how reform movements responded to industrialization, 1820–1900) scored 6/6. Thesis (1): women's rights, labor unions, and immigrant advocacy as responses to industrialization. Contextualization (1): late-1700s/early-1800s economic debates, factories, urban growth. Evidence (2): Lowell mills, Seneca Falls, Knights of Labor, Jane Addams, Hull House — used to support the argument. Analysis & Reasoning (2): causation (poor conditions → Knights of Labor) AND complex understanding via multiple themes (suffrage, morality, prison reform, immigration) and geographic/cause-effect connections (Irish famine migration).",
+     "refId": "APUSH:leq:2025-leq3-set1-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "4",
+     "summary": "LEQ scored 4/6 (Thesis 1, Contextualization 0, Evidence 2, Analysis & Reasoning 1). Thesis (1): minimally acceptable claim (radical responses to industrialization due to unjust labor and big business). Contextualization (0): none. Evidence (2): Lowell mill girls, unionization, horizontal integration, Rockefeller, Carnegie — used to support the strikes-for-better-conditions argument. Analysis & Reasoning (1): causation (big business → industrial labor conditions) but no complex understanding.",
+     "refId": "APUSH:leq:2025-leq3-set1-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "LEQ scored 1/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis & Reasoning 0). Thesis (1): defensible claim (reform movements responded via protests by labor unions and Congress). Contextualization (0): rural-to-urban migration reference is a passing/vague phrase. Evidence (0): references to labor unions and congressional testimony are too vague to earn the point. Analysis & Reasoning (0): describes conditions but does not use reasoning to frame a prompt-focused argument.",
+     "refId": "APUSH:leq:2025-leq3-set1-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-leq4-set-1",
+   "set": 1,
+   "label": "LEQ 4",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "",
+   "teaser": "Evaluate how United States foreign policy responded to changes in the world from 1890 to 1930.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-leq4-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "4. Evaluate how United States foreign policy responded to changes in the world from 1890 to 1930.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Long Essay Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not historically defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The thesis must give some reason for the claim OR establish categories of the argument, and be one or more sentences in one place (intro or conclusion).\n\nAP US History LEQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. Must be more than a phrase and require elaboration tying it to the prompt's topic.\n\nAP US History LEQ, Evidence (0–2 points). 1 point: provides specific examples of at least TWO pieces of evidence relevant to the topic of the prompt. 2 points: uses at least two pieces of specific and relevant evidence to SUPPORT AN ARGUMENT in response to the prompt. Does NOT earn points for a single piece of evidence, irrelevant evidence, evidence outside the prompt's time period/region, or merely repeating the prompt. Typically evidence is more specific than contextualization.\n\nAP US History LEQ, Analysis and Reasoning (0–2 points). 1 point: uses a historical reasoning process (comparison, causation, or continuity and change) to frame or structure an argument that addresses the prompt (reasoning may be uneven/imbalanced). 2 points: demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; multiple causes/effects, similarities/differences, or continuities/changes; both sides of such a pair; insightful connections across periods/regions; or explaining how at least four pieces of specific evidence support a nuanced argument. Must be part of the argument and more than a phrase.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "6",
+     "summary": "LEQ (how US foreign policy responded to world changes, 1890–1930) scored 6/6. Thesis (1): foreign policy moved from interventionism to isolationism. Contextualization (1): end of slavery and growth of trade connecting the country to the world. Evidence (2): Spanish-American War, Roosevelt Corollary, Panama Canal, WWI, Treaty of Versailles — used to support the argument. Analysis & Reasoning (2): causation (disillusionment with WWI → isolationism) AND complex understanding via multiple perspectives (both interventionism and isolationism across the period).",
+     "refId": "APUSH:leq:2025-leq4-set1-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "LEQ scored 4/6 (Thesis 1, Contextualization 1, Evidence 1, Analysis & Reasoning 1). Thesis (1): US responded via imperialism and the Big Stick policy despite isolationist/anti-imperialist arguments. Contextualization (1): earlier isolationism and the Mexican-American War (an overly broad 'no foreign policy' claim doesn't detract). Evidence (1): WWI, League of Nations, Big Stick named but the League-rejection argument is historically inaccurate (anti-imperialists as leaders) and Big Stick misconnected, so caps at 1. Analysis & Reasoning (1): frames the isolationism→world-power change; the inaccuracy doesn't negate the reasoning point, but no complex understanding.",
+     "refId": "APUSH:leq:2025-leq4-set1-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "2",
+     "summary": "LEQ scored 2/6 (Thesis 0, Contextualization 1, Evidence 1, Analysis & Reasoning 0). Thesis (0): 'responded by getting involved in WWI' is defensible but establishes no line of reasoning. Contextualization (1): Washington's Farewell Address. Evidence (1): WWI involvement and Treaty of Versailles named but not used to support an argument. Analysis & Reasoning (0): the causal attempt is historically inaccurate ('did not join the League of Nations and instead joined NATO').",
+     "refId": "APUSH:leq:2025-leq4-set1-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-saq1-set-2",
+   "set": 2,
+   "label": "SAQ 1",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Secondary Source",
+   "topic": "",
+   "teaser": "A. Briefly describe one major difference between Pollard’s and Patterson’s historical interpretations of the origins of the Cold War . B. Briefly explain how one event or development from 1940 to…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-saq1-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "Source 1\n“Conflict over economic issues was a critical cause of Soviet-American tensions [after the\nSecond World War]....\nThe key element of U.S. foreign policy after World War II was economic security, the reliance\nupon economic power to achieve strategic aims.... The Truman administration [responded\nduring the Cold War] to what it saw as the long-term need of American business for an open\nworldwide economic environment. Washington officials recognized that foreign trade enhanced\ndomestic prosperity and that U.S. corporations needed access to cheap overseas raw materials\nin order to remain competitive....\nRather than rely primarily upon private institutions, U.S. leaders were determined to make\nextensive use of governmental and multilateral agencies to reshape world commercial,\nmonetary, and financial systems. America’s unrivalled economic power offered the most cost-\neffective means of securing political ends in the postwar period.”\nSource: Robert A. Pollard, historian, Economic Security and the Origins of the Cold War , 1945–\n1950, published in 1985\nSource 2\n“[After the Second World War], leading American officials...worried mainly about the\npsychological appeal of [Soviet ideas] to frightened citizens of unstable countries.... In part\nbecause they worried about their security, the Soviets proceeded to oppress their eastern\nEuropean neighbors and to threaten Western interests in the Mediterranean and Middle East....\n[Americans] came to fear that the USSR was bent on even wider territorial expansion that\nwould endanger the economic and political supremacy of the United States....\nIn these years it was the Soviet Union, more than the United States, whose behavior—especially\nin eastern Europe—seemed alarming in the world. Not just the United States but also other\nWestern nations concluded that ‘appeasement’ would be disastrous. ‘Credibility’ required that\nthey resist.”\nSource: James Patterson, historian, Grand Expectations: The United States, 1945–1974, published\nin 1996\n1. Respond to parts A, B, and C.\nA. Briefly describe one major difference between Pollard’s and Patterson’s historical\ninterpretations of the origins of the Cold War .\nB. Briefly explain how one event or development from 1940 to 1960 not directly mentioned in\nthe excerpts could be used to support Pollard’s interpretation of the origins of the Cold War .\nC. Briefly explain how one event or development from 1940 to 1960 not directly mentioned in\nthe excerpts could be used to support Patterson’s interpretation of the origins of the Cold\nWa r.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Short-Answer Question scoring (3 points total; parts A, B, C each worth 1 point, earned INDEPENDENTLY). No thesis is required. Two task verbs: DESCRIBE = provide the relevant characteristics of a specified topic (more than merely naming a term); EXPLAIN = provide information about how or why a development/process occurs or a relationship exists. A part earns its point only when the response is historically defensible AND within the prompt's specified time period/region — evidence outside the timeframe, factual inaccuracies, or merely identifying a term without describing/explaining it do not earn the point. Grammatical errors don't count against a response unless they obscure the content.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "3",
+     "summary": "SAQ Q1 (secondary source: Pollard vs. Patterson, historical interpretations) scored 3/3 (A 1, B 1, C 1). A describes a major difference between the two historians' interpretations; B explains one in-period event/development supporting the first interpretation; C explains one supporting the second. Full credit: each part completes its task verb (describe / explain) with accurate, in-period evidence.",
+     "refId": "APUSH:saq:2025-q1-set2-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "SAQ Q1 scored 2/3 (A 1, B 0, C 1). Parts A and C complete their tasks with accurate evidence; Part B does not earn the point (the response fails to explain how its evidence supports the relevant historian's argument). Common pattern: naming an event without explaining the required how/why relationship forfeits an EXPLAIN part.",
+     "refId": "APUSH:saq:2025-q1-set2-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "SAQ Q1 scored 1/3 (A 1, B 0, C 0). Only Part A (describe the difference) earns credit; both EXPLAIN parts fail — evidence is not tied to the historian's argument, is inaccurate, or falls outside the prompt's timeframe. Shows that the describe part is often the most accessible point while the explain parts require a clear, accurate how/why link.",
+     "refId": "APUSH:saq:2025-q1-set2-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-saq2-set-2",
+   "set": 2,
+   "label": "SAQ 2",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Primary Source",
+   "topic": "",
+   "teaser": "A. Briefly describe the author’s purpose as expressed in the excerpt. B. Briefly explain how one historical development between 1865 and 1897 contributed to the ideas expressed in the excerpt. C.…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-saq2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "“The colored women of the United States [have] bonded themselves together to fulfill a\nmission to which they feel peculiarly adapted and especially called.... It is not because we are\ndiscouraged at the progress made by our people that we have uttered the cry of alarm which\nhas called together this band of earnest women assembled here tonight. In the unprecedented\nadvancement made by the negro since his emancipation, we take great pride....\nIn public questions affecting our legal status, let us engage intelligently and continuously,\nwhenever and wherever it is possible to strike a blow for equality and right.... Let the cause of\ntemperance and morality be especially espoused in our effort to better humanity and elevate\nthe race.... Let us consecrate1 ourselves anew to the mission which we have been called to\nfulfill....\nLet us not only preach, but practice race unity, race pride, reverence and respect for those\ncapable of leading and advising us.”\nSource: Mary Church Terrell, president of the National Association of Colored Women, first\npresidential address to the association, 1897\n1: dedicate\n2. Respond to parts A, B, and C.\nA. Briefly describe the author’s purpose as expressed in the excerpt.\nB. Briefly explain how one historical development between 1865 and 1897 contributed to the\nideas expressed in the excerpt.\nC. Briefly explain how the ideas expressed in the excerpt contributed to one historical\ndevelopment between 1897 and 1945.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Short-Answer Question scoring (3 points total; parts A, B, C each worth 1 point, earned INDEPENDENTLY). No thesis is required. Two task verbs: DESCRIBE = provide the relevant characteristics of a specified topic (more than merely naming a term); EXPLAIN = provide information about how or why a development/process occurs or a relationship exists. A part earns its point only when the response is historically defensible AND within the prompt's specified time period/region — evidence outside the timeframe, factual inaccuracies, or merely identifying a term without describing/explaining it do not earn the point. Grammatical errors don't count against a response unless they obscure the content.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "3",
+     "summary": "SAQ Q2 (primary source: describe the author's purpose as expressed in the excerpt) scored 3/3 (A 1, B 1, C 1). A describes the author's purpose; B and C explain in-period events/developments as directed. Full credit — each part completes its task with accurate, in-period evidence.",
+     "refId": "APUSH:saq:2025-q2-set2-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "2",
+     "summary": "SAQ Q2 scored 2/3 (A 1, B 1, C 0). Parts A and B earn credit; Part C does not — its explanation is not tied to the prompt, is inaccurate, or falls outside the timeframe. Each part is scored independently.",
+     "refId": "APUSH:saq:2025-q2-set2-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "SAQ Q2 scored 1/3 (A 1, B 0, C 0). Only the describe part earns credit; both explain parts fail to establish an accurate, in-period how/why link to the prompt.",
+     "refId": "APUSH:saq:2025-q2-set2-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-saq3-set-2",
+   "set": 2,
+   "label": "SAQ 3",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "",
+   "teaser": "A. Briefly describe one political debate in British North America from 1763 to 1783. B. Briefly describe one effect of the ratification of the United States Constitution from 1789 to 1800. C.…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-saq3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. Respond to parts A, B, and C.\nA. Briefly describe one political debate in British North America from 1763 to 1783.\nB. Briefly describe one effect of the ratification of the United States Constitution from 1789 to\n1800.\nC. Briefly explain how one group responded to debates about federal government power from\n1800 to 1840.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Short-Answer Question scoring (3 points total; parts A, B, C each worth 1 point, earned INDEPENDENTLY). No thesis is required. Two task verbs: DESCRIBE = provide the relevant characteristics of a specified topic (more than merely naming a term); EXPLAIN = provide information about how or why a development/process occurs or a relationship exists. A part earns its point only when the response is historically defensible AND within the prompt's specified time period/region — evidence outside the timeframe, factual inaccuracies, or merely identifying a term without describing/explaining it do not earn the point. Grammatical errors don't count against a response unless they obscure the content.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "3",
+     "summary": "SAQ Q3 (no stimulus: political debate in British North America, 1763–1783) scored 3/3 (A 1, B 1, C 1). A describes one political debate in the period; B and C explain further developments as directed. Full credit — each part completes its describe/explain task with accurate, in-period evidence.",
+     "refId": "APUSH:saq:2025-q3-set2-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "2",
+     "summary": "SAQ Q3 scored 2/3 (A 1, B 1, C 0). Parts A and B earn credit; Part C does not (its explanation is not tied to the prompt, is inaccurate, or falls outside 1763–1783).",
+     "refId": "APUSH:saq:2025-q3-set2-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "SAQ Q3 scored 1/3 (A 1, B 0, C 0). Only the describe part earns credit; both explain parts fail to establish an accurate, in-period how/why link to the prompt.",
+     "refId": "APUSH:saq:2025-q3-set2-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-saq4-set-2",
+   "set": 2,
+   "label": "SAQ 4",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "",
+   "teaser": "A. Briefly describe one political debate in the United States between 1910 and 1929. B. Briefly describe one effect of the New Deal from 1932 to 1945. C. Briefly explain how one group responded to…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-saq4-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "4. Respond to parts A, B, and C.\nA. Briefly describe one political debate in the United States between 1910 and 1929.\nB. Briefly describe one effect of the New Deal from 1932 to 1945.\nC. Briefly explain how one group responded to debates about government power from 1945 to\n1970.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Short-Answer Question scoring (3 points total; parts A, B, C each worth 1 point, earned INDEPENDENTLY). No thesis is required. Two task verbs: DESCRIBE = provide the relevant characteristics of a specified topic (more than merely naming a term); EXPLAIN = provide information about how or why a development/process occurs or a relationship exists. A part earns its point only when the response is historically defensible AND within the prompt's specified time period/region — evidence outside the timeframe, factual inaccuracies, or merely identifying a term without describing/explaining it do not earn the point. Grammatical errors don't count against a response unless they obscure the content.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "3",
+     "summary": "SAQ Q4 (no stimulus: political debate in the United States, 1910–1929) scored 3/3 (A 1, B 1, C 1). A describes one political debate in the period; B and C explain further developments/effects as directed. Full credit — each part completes its describe/explain task with accurate, in-period evidence.",
+     "refId": "APUSH:saq:2025-q4-set2-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "2",
+     "summary": "SAQ Q4 scored 2/3 (A 1, B 0, C 1). Parts A and C earn credit; Part B does not (explanation not tied to the prompt, inaccurate, or outside 1910–1929).",
+     "refId": "APUSH:saq:2025-q4-set2-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "SAQ Q4 scored 1/3 (A 0, B 0, C 1). Only Part C earns credit; A and B fail (inaccurate, off-period, or not completing the describe/explain task).",
+     "refId": "APUSH:saq:2025-q4-set2-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-dbq-set-2",
+   "set": 2,
+   "label": "DBQ",
+   "section": "Section II",
+   "essayType": "Document-Based Question",
+   "topic": "",
+   "teaser": "Evaluate the extent to which economic changes influenced United States society between 1865 to 1910. In your response you should do the following: • Respond to the prompt with a historically…",
+   "suggestedMinutes": 60,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-dbq-set-2.pdf",
+   "pageCount": 4,
+   "promptText": "1. Evaluate the extent to which economic changes influenced United States society between 1865\nto 1910.\nIn your response you should do the following:\n• Respond to the prompt with a historically defensible thesis or claim that establishes a\nline of reasoning.\n• Describe a broader historical context relevant to the prompt.\n• Support an argument in response to the prompt using at least four documents.\n• Use at least one additional piece of specific historical evidence (beyond that found in the\ndocuments) relevant to an argument about the prompt.\n• For at least two documents, explain how or why the document’s point of view, purpose,\nhistorical situation, and/or audience is relevant to an argument.\n• Demonstrate a complex understanding of a historical development related to the prompt\nthrough sophisticated argumentation and/or effective use of evidence.\nDocument 1\nSource: Francis Vinton, minister , sermon delivered in 1869\n“This [completion of the transcontinental railroad] is indeed a great event of the world.... It is\na triumph of commerce—a triumph indicating free trade as a future law of the nation.... When\nwe contemplate this achievement we can hardly realize its magnitude. Three thousand two\nhundred and eighty-five miles of continuous railway.... It begun when the nation was agitated\nby war , and is finished now when we enjoy a reign of peace.... It will populate our vast territory\nand be the great highway of the nations.... But there is another aspect in which we view it as a\nblessing, and in connection with which we esteem it of still greater importance. It will preserve\nthe Union of these States.... [It] binds the States of the Atlantic and Pacific into one nation.”\nDocument 2\nSource: Henry George, journalist and politician, Progress and Poverty: An Inquiry into the Cause\nof Industrial Depressions, and of Increase of Want with Increase of Wealth, 1879\n“The enormous increase in productive power which has marked the present century and is still\ngoing on with accelerating ratio, has no tendency to extirpate1 poverty or to lighten the burdens\nof those compelled to toil....\nThis association of poverty with progress is the great enigma2 of our times. It is the central fact\nfrom which spring industrial, social, and political difficulties that perplex the world, and with\nwhich statesmanship and philanthropy and education grapple in vain. From it come the clouds\nthat overhang the future of the most progressive and self-reliant nations.... So long as all the\nincreased wealth which modern progress brings goes but to build up great fortunes, to increase\nluxury and make sharper the contrast between the House of Have and the House of Want,\nprogress is not real and cannot be permanent.”\n1: end\n2: mystery\nDocument 3\nSource: Lucy Parsons, formerly enslaved woman and industrial activist, interview in the\nSt. Louis Post-Dispatch, a newspaper published in Missouri, 1886\n“The great monopolies and corporations and syndicates...are now rapidly extinguishing the\nmiddle classes, which we regard as the great bulwark between the monopoly and the great\nproducing or working classes. There will come a time when there will be in this world ONLY\nTWO CLASSES, the possessing class and the non-possessing class, the middle classes having\nbeen forced into the wage class owing to the enormous capital now needed to remain in the\nfield of production. These two classes will therefore find themselves arrayed against each other;\na struggle in the revolutionary stage will come, and the order of things in the world will be\nchanged by the people themselves....\nWitness the strikes without number that have swept up and down this broad land like a great\ncyclone.... The wage system in this country has now reached its full development. It no longer\nsatisfies the needs and wants of the people; facts which are illustrated by the poverty and\nstarvation to be met with in the midst of plenty.”\nDocument 4\nSource: Benjamin Harrison, former Republican president of the United States, speech in New\nYork City supporting Republican candidates for election to the House of Representatives, 1894\n“The trouble with the Democratic party now is that it is an incoherent party. Who could tell\nwhat it was going to do?...\nI have wondered why our Democratic leaders should hate [American factories].... They have in\nthese campaigns described the American manufacturer as a thieving robber-baron.... I never\ncould see why this could be so—why it was an offense against society or country for a man\nto build a [factory] and give employment to men and women at decent wages inside of it. But\nthese appeals have been made, and the minds of the workingmen were inflamed against their\nemployers. They were made to believe that...they must assume toward [employers] the attitude\nof hostility....\nLet us put bitterness out of [our hearts]. Let us stop these [class] envyings and these jealousies....\nLet us stop this war on American industry and American homes.”\nDocument 5\nSource: M. E. J. Kelley, female labor reformer , “The Union Label,” North American Review, 1897\n“The union label is a distinctively American product.... Men [first in California] were urged...\nto buy the products of well-paid white citizens employed at living wages in decent shops. To\ndistinguish [goods] made by white workmen...the local [trade] union issued a label [applied to\nthe packaging].... The union label is usually considered a guarantee that the article on which it\nappears was made in a factory complying with the factory laws, and not in a sweatshop....\nThe effect of the use of the label upon consumption will be to bring an ethical element into\neconomic transactions.... Whether goods shall be made under sweat-shop conditions, under\nconditions which mean the brutalization of the great mass of humanity, or under conditions\nwhich permit the development of all that is best in the workers, and which are the best\nconditions for the interests of society as a whole, depends upon the consumers and not upon\nthe producers. When the ethical sense of the community is so highly developed that no one will\nwear a garment for which just wages have not been paid, the sweatshop will disappear .”\nDocument 6\nSource: “Industrial Leadership,” article in the New York Times, 1900\n“The hero of the future is the Captain of industry, not the Captain of armies. The struggle is\nto produce the most, and most cheaply—not to destroy the most and the most quickly. The\nstrong nation is the one whose manufactures and whose merchant marine reach furthest in\nsupplying the needs of the peoples, and return best laden with the needed goods of other lands.\nThe keynote of success, the secret of power , is economy—economy in production, in methods,\nin management.... Before engineers and managers lie the duty of meeting the conditions—and\nthe other great duty of using their influence and their power in the affairs of the nation, so that\njustice and wisdom may govern the State at home and abroad. The task is a responsible one,\nbut home and foreign politics have proved...the triumphant success which follows when the\nindustry and commerce of the country speak clearly to its rulers.”\nDocument 7\nSource: Charles Lewis Bartholomew, cartoonist, “The ‘Trust Buster ,’” political cartoon in the\nMinneapolis Journal, a newspaper published in Minnesota, 1903\nCourtesy of the Library of Congress\nCaption: “He Has the Octopus Bridled and Saddled”",
+   "sourceText": null,
+   "scoringGuide": "AP US History Document-Based Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if it is not historically defensible, only restates/rephrases the prompt, does not respond to the prompt, is overgeneralized, or does not establish a line of reasoning. The thesis must either give some reason for the claim OR establish categories of the argument, and must be one or more sentences in one place (intro or conclusion).\n\nAP US History DBQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. The context must be more than a phrase — it requires elaboration connecting it to the prompt's topic.\n\nAP US History DBQ, Evidence from the Documents (0–2 points). 1 point: accurately describes (not merely quotes) the content of at least THREE documents to address the topic of the prompt. 2 points: uses at least FOUR documents to support an argument in response to the prompt. Does NOT earn points for using fewer than three documents, misinterpreting content, quoting without description, or addressing documents collectively rather than each separately. The four documents need not support a single argument — they may span sub-arguments or counterarguments.\n\nAP US History DBQ, Evidence Beyond the Documents (0–1 points). 1 point: uses at least one additional piece of specific historical evidence (beyond the documents) relevant to an argument about the prompt. Does NOT earn it for evidence that is irrelevant, outside the prompt's time period/region, repeats the prompt or a document, or is only a passing phrase. Must be different from the evidence used for contextualization and more than a phrase; may appear anywhere in the response.\n\nAP US History DBQ, Analysis and Reasoning — Sourcing (0–1 points). 1 point: for at least TWO documents, explains how or why the document's point of view, purpose, historical situation, and/or audience is relevant to an argument. Does NOT earn it for sourcing fewer than two documents, merely identifying POV/purpose/situation/audience without explaining its relevance, or summarizing content without connecting it to sourcing.\n\nAP US History DBQ, Analysis and Reasoning — Complex Understanding (0–1 points). 1 point: demonstrates a complex understanding of the historical development via sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; explaining multiple causes/effects, similarities/differences, or continuities/changes; explaining both sides of such pairs; making insightful connections across periods/regions; effectively using all seven documents; or explaining the sourcing of at least four documents. Must be part of the argument and more than a phrase or reference.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning (not a restatement of the prompt)."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt — more than a passing phrase."
+    },
+    {
+     "name": "Evidence from the Documents",
+     "maxPoints": 2,
+     "criteria": "1 point: uses the content of at least three documents to address the topic. 2 points: supports an argument using at least four documents."
+    },
+    {
+     "name": "Evidence Beyond the Documents",
+     "maxPoints": 1,
+     "criteria": "Uses at least one additional piece of specific, relevant historical evidence not found in the documents to support the argument."
+    },
+    {
+     "name": "Sourcing",
+     "maxPoints": 1,
+     "criteria": "For at least two documents, explains how or why the document's point of view, purpose, historical situation, and/or audience is relevant to the argument."
+    },
+    {
+     "name": "Complex Understanding",
+     "maxPoints": 1,
+     "criteria": "Demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of the evidence. Rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "7",
+     "summary": "DBQ (extent economic changes influenced US society 1865–1910) scored 7/7. Thesis (1): defensible claim with a line of reasoning — railroads, captains of industry, trust control, and rights protection produced both positive (unity) and negative (class division, poverty, discrimination) change. Contextualization (1): post–Civil War changes to society and economy. Evidence from Docs (2): uses all seven documents to support arguments across positive and negative effects. Evidence Beyond (1): sharecropping. Sourcing (1): explains the historical situation of Docs 1 and 7 (Square Deal). Complexity (1): nuanced multi-effect argument AND effective use of all seven documents.",
+     "refId": "APUSH:dbq:2025-set2-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "4",
+     "summary": "DBQ scored 4/7 (Thesis 1, Contextualization 0, Evidence from Docs 2, Evidence Beyond 1, Sourcing 0, Complexity 0). Thesis (1): defensible claim naming the transcontinental railroad, boom of industries, and unions as most impactful. Contextualization (0): 'society has gone through a lot' is too vague. Evidence from Docs (2): uses Docs 1, 3, 4, 5 to support arguments. Evidence Beyond (1): the Sherman Antitrust Act. Sourcing (0): attempts Docs 3 and 5 but does not tie sourcing to a prompt-relevant argument. Complexity (0): none.",
+     "refId": "APUSH:dbq:2025-set2-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "2",
+     "summary": "DBQ scored 2/7 (Thesis 1, Contextualization 0, Evidence from Docs 1, Evidence Beyond 0, Sourcing 0, Complexity 0). Thesis (1): defensible claim (productivity, workforce treatment, and stopping monopolies). Contextualization (0): 'growing and expanding' is too vague. Evidence from Docs (1): discusses six documents to address the topic but describes Docs 3 and 4 incorrectly and does not build a supported argument, so it caps at 1. Sourcing/Complexity/Evidence Beyond (0). Reinforces that describing documents ≠ using them to support an argument.",
+     "refId": "APUSH:dbq:2025-set2-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-leq2-set-2",
+   "set": 2,
+   "label": "LEQ 2",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "",
+   "teaser": "Evaluate how British colonists in the Americas adapted to their environments from 1607 to 1754.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-leq2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "2. Evaluate how British colonists in the Americas adapted to their environments from 1607 to\n1754.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Long Essay Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not historically defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The thesis must give some reason for the claim OR establish categories of the argument, and be one or more sentences in one place (intro or conclusion).\n\nAP US History LEQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. Must be more than a phrase and require elaboration tying it to the prompt's topic.\n\nAP US History LEQ, Evidence (0–2 points). 1 point: provides specific examples of at least TWO pieces of evidence relevant to the topic of the prompt. 2 points: uses at least two pieces of specific and relevant evidence to SUPPORT AN ARGUMENT in response to the prompt. Does NOT earn points for a single piece of evidence, irrelevant evidence, evidence outside the prompt's time period/region, or merely repeating the prompt. Typically evidence is more specific than contextualization.\n\nAP US History LEQ, Analysis and Reasoning (0–2 points). 1 point: uses a historical reasoning process (comparison, causation, or continuity and change) to frame or structure an argument that addresses the prompt (reasoning may be uneven/imbalanced). 2 points: demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; multiple causes/effects, similarities/differences, or continuities/changes; both sides of such a pair; insightful connections across periods/regions; or explaining how at least four pieces of specific evidence support a nuanced argument. Must be part of the argument and more than a phrase.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "6",
+     "summary": "LEQ (how British colonists adapted to their environments, 1607–1754) scored 6/6. Thesis (1): defensible claim — different environments produced different economies, but all relied on slavery and adapting to Native neighbors. Contextualization (1): Columbus and European colonial competition preceding British settlement. Evidence (2): tobacco cash crop in the Chesapeake and the southern plantation economy used to support the argument (indentured servants → enslaved Africans). Analysis & Reasoning (2): consistent causation (environment → different economies) AND complex understanding via cross-region connections and the peaceful→violent evolution of Native relations (Pocahontas/John Rolfe, Metacom's War, Powhatan conflicts).",
+     "refId": "APUSH:leq:2025-leq2-set2-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "3",
+     "summary": "LEQ scored 3/6 (Thesis 1, Contextualization 0, Evidence 1, Analysis & Reasoning 1). Thesis (1): defensible line of reasoning (adapted via connections with Native Americans and growing beneficial crops). Contextualization (0): overly generalized. Evidence (1): describes Jamestown, staple crops, cash crops but only the cash-crop discussion is tied to an argument, so caps at 1. Analysis & Reasoning (1): causation (climate → cash crops → trade) plus a minimal change-over-time argument, but no complex understanding.",
+     "refId": "APUSH:leq:2025-leq2-set2-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "LEQ scored 2/6 (Thesis 1, Contextualization 0, Evidence 1, Analysis & Reasoning 0). Thesis (1): defensible claim (adapted via trading with American Indians and growing crops). Contextualization (0): the Columbian Exchange mention is too thin/generalized. Evidence (1): names trade, religious freedom, crops, plantations but does not use them to support a clear argument. Analysis & Reasoning (0): asserts continuity but does not use reasoning to structure a prompt-focused argument.",
+     "refId": "APUSH:leq:2025-leq2-set2-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-leq3-set-2",
+   "set": 2,
+   "label": "LEQ 3",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "",
+   "teaser": "Evaluate how sectional tensions shaped United States society from 1800 to 1848.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-leq3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. Evaluate how sectional tensions shaped United States society from 1800 to 1848.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Long Essay Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not historically defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The thesis must give some reason for the claim OR establish categories of the argument, and be one or more sentences in one place (intro or conclusion).\n\nAP US History LEQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. Must be more than a phrase and require elaboration tying it to the prompt's topic.\n\nAP US History LEQ, Evidence (0–2 points). 1 point: provides specific examples of at least TWO pieces of evidence relevant to the topic of the prompt. 2 points: uses at least two pieces of specific and relevant evidence to SUPPORT AN ARGUMENT in response to the prompt. Does NOT earn points for a single piece of evidence, irrelevant evidence, evidence outside the prompt's time period/region, or merely repeating the prompt. Typically evidence is more specific than contextualization.\n\nAP US History LEQ, Analysis and Reasoning (0–2 points). 1 point: uses a historical reasoning process (comparison, causation, or continuity and change) to frame or structure an argument that addresses the prompt (reasoning may be uneven/imbalanced). 2 points: demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; multiple causes/effects, similarities/differences, or continuities/changes; both sides of such a pair; insightful connections across periods/regions; or explaining how at least four pieces of specific evidence support a nuanced argument. Must be part of the argument and more than a phrase.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "6",
+     "summary": "LEQ (how sectional tensions shaped US society, 1800–1848) scored 6/6. Thesis (1): sectional tensions led to political debates over slavery's expansion into western territories. Contextualization (1): Middle Passage, southern slavery, the North's gradual abandonment. Evidence (2): annexation of Texas, Free Soil Party, Missouri Compromise — used to support the argument. Analysis & Reasoning (2): comparison (Free Soil vs. popular sovereignty) and causation (Missouri Compromise → tension) AND complex understanding via four pieces of evidence (King Cotton, Texas, Missouri Compromise, Free Soil) supporting a nuanced argument.",
+     "refId": "APUSH:leq:2025-leq3-set2-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "4",
+     "summary": "LEQ scored 4/6 (Thesis 1, Contextualization 1, Evidence 1, Analysis & Reasoning 1). Thesis (1): regional differences in slavery and economics created society-changing tensions. Contextualization (1): post-period examples (Bleeding Kansas, Lincoln's election, Reconstruction Amendments). Evidence (1): southern slavery vs. northern manufacturing/railroads described but not used to support an argument, so caps at 1. Analysis & Reasoning (1): comparison of North/South economies, but the multiple-perspectives attempt lacks nuance so no complex understanding.",
+     "refId": "APUSH:leq:2025-leq3-set2-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "LEQ scored 1/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis & Reasoning 0). Thesis (1): minimally acceptable claim (tensions shaped society via opinions on slavery and new land). Contextualization (0): the Civil War reference just rephrases the thesis. Evidence (0): the '40 6 40 line' and 'slave rebellions' are inaccurate or too vague. Analysis & Reasoning (0): the North/South economic comparison is only a vague reference.",
+     "refId": "APUSH:leq:2025-leq3-set2-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-us-history-leq4-set-2",
+   "set": 2,
+   "label": "LEQ 4",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "",
+   "teaser": "Evaluate how United States society responded to economic changes from 1960 to 2000.",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-us-history/ap25-us-history-leq4-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "4. Evaluate how United States society responded to economic changes from 1960 to 2000.",
+   "sourceText": null,
+   "scoringGuide": "AP US History Long Essay Question, Thesis/Claim (0–1 points). 1 point: responds to the prompt with a historically defensible thesis/claim that establishes a line of reasoning. Does NOT earn it if not historically defensible, only restates the prompt, does not respond, is overgeneralized, or establishes no line of reasoning. The thesis must give some reason for the claim OR establish categories of the argument, and be one or more sentences in one place (intro or conclusion).\n\nAP US History LEQ, Contextualization (0–1 points). 1 point: accurately describes a broader historical context (events/developments/processes before, during, or after the prompt's timeframe) relevant to the prompt. Does NOT earn it for an overgeneralized statement about the era, irrelevant context, or a passing phrase/reference. Must be more than a phrase and require elaboration tying it to the prompt's topic.\n\nAP US History LEQ, Evidence (0–2 points). 1 point: provides specific examples of at least TWO pieces of evidence relevant to the topic of the prompt. 2 points: uses at least two pieces of specific and relevant evidence to SUPPORT AN ARGUMENT in response to the prompt. Does NOT earn points for a single piece of evidence, irrelevant evidence, evidence outside the prompt's time period/region, or merely repeating the prompt. Typically evidence is more specific than contextualization.\n\nAP US History LEQ, Analysis and Reasoning (0–2 points). 1 point: uses a historical reasoning process (comparison, causation, or continuity and change) to frame or structure an argument that addresses the prompt (reasoning may be uneven/imbalanced). 2 points: demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of evidence — e.g. exploring multiple themes/perspectives; multiple causes/effects, similarities/differences, or continuities/changes; both sides of such a pair; insightful connections across periods/regions; or explaining how at least four pieces of specific evidence support a nuanced argument. Must be part of the argument and more than a phrase.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "6",
+     "summary": "LEQ (how US society responded to economic changes, 1960–2000) scored 6/6. Thesis (1): society responded to the Great Society and Reaganomics with praise or protest depending on political leaning. Contextualization (1): New Deal and conservative opposition to it. Evidence (2): Great Society programs and Reaganomics used to support the liberal-praise/conservative-response argument. Analysis & Reasoning (2): reasoning about how policies drew criticism by group AND complex understanding via effective use of evidence showing different perspectives.",
+     "refId": "APUSH:leq:2025-leq4-set2-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "LEQ scored 4/6 (Thesis 0, Contextualization 1, Evidence 2, Analysis & Reasoning 1). Thesis (0): only restates the prompt. Contextualization (1): post-WWII soldier return and suburb growth before the period. Evidence (2): NAFTA, suburbanization, Reagan's election used to support arguments (outrage at offshoring factories; suburbs → white-collar jobs → blue-collar unemployment). Analysis & Reasoning (1): continuity-and-change on trickle-down economics, but no complex understanding. Note how a missing line of reasoning forfeits the thesis point even with strong evidence.",
+     "refId": "APUSH:leq:2025-leq4-set2-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "2",
+     "summary": "LEQ scored 2/6 (Thesis 1, Contextualization 1, Evidence 0, Analysis & Reasoning 0). Thesis (1): defensible claim about how society responded. Contextualization (1): earned. Evidence (0): the industrial-revolution and post-WWII claims are largely off-period, inaccurate, or too vague to support the 1960–2000 prompt. Analysis & Reasoning (0): no reasoning structuring a prompt-focused argument. Illustrates that evidence must be specific, accurate, and within the prompt's timeframe to count.",
+     "refId": "APUSH:leq:2025-leq4-set2-4C"
+    }
+   ]
+  }
+ ]
+}

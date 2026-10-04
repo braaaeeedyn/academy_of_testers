@@ -1,0 +1,218 @@
+{
+ "subjectName": "AP Precalculus",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-precalculus-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Part A — Calculator",
+   "topic": "Function Modeling",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-precalculus/ap25-precalculus-q1.pdf",
+   "pageCount": 1,
+   "promptText": "1. The function f is decreasing and is defined for all real numbers. The table gives values for fx_i\nat selected values of x.\nx 2- 1- 0 1 2\nfx_i 14 7 3.5 1.75 0.875\nThe function g is given by ..gx xx0 167 1 83432=- +-_i .\nA.\ni. The function h is defined by hx gf xg fx== °__ _ ` _ii ii j. Find the value of h 1_i as a\ndecimal approximation, or indicate that it is not defined. Show the work that leads to\nyour answer .\nii. Find the value of .f 351- _i , or indicate that it is not defined.\nB.\ni. Find all values of x, as decimal approximations, for which gx 0=_i , or indicate that there\nare no such values.\nii. Determine the end behavior of g as x increases without bound. Express your answer\nusing the mathematical notation of a limit.\nC.\ni. Based on the table, which of the following function types best models function f: linear ,\nquadratic, exponential, or logarithmic?\nii. Give a reason for your answer in part C (i) based on the relationship between the change\nin the output values of f and the change in the input values of f. Refer to the values in the\ntable in your reasoning.",
+   "sourceText": null,
+   "scoringGuide": "AP Precalculus FRQ 1 (Part A, graphing calculator required), 6 points, scored by lettered subparts (A/B/C, often with i/ii), each worth points. Q1 topic: exponential/logarithmic function modeling (e.g., fitting or using an exponential regression, evaluating, interpreting a rate/percent change, solving). Points reward: correct model/values from the calculator, correct evaluation/solution with appropriate setup, and correct interpretation in context with units. Common failure: reporting an answer without the required setup; rounding errors; interpretation that omits context/units.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "6",
+     "summary": "Q1 scored 6/6 — correct model/values, correct evaluations and solutions with setup, and correct contextual interpretations. Full-credit model for the modeling FRQ.",
+     "refId": "PRECALC:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "5",
+     "summary": "Q1 scored 5/6 — earned nearly all subparts, losing one point, typically an interpretation lacking context/units or a minor calculation/rounding slip. Illustrates a strong response one point short.",
+     "refId": "PRECALC:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "3",
+     "summary": "Q1 scored 3/6 — earned about half the subparts (e.g., the model and one evaluation), losing solution setups and/or contextual interpretations. Illustrates a response that computes some values but does not complete the modeling/interpretation tasks.",
+     "refId": "PRECALC:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-precalculus-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Part A — Calculator",
+   "topic": "Periodic/Sinusoidal Modeling",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-precalculus/ap25-precalculus-q2.pdf",
+   "pageCount": 1,
+   "promptText": "2. A musician released a new song on a streaming service. A streaming service is an online\nentertainment source that allows users to play music on their computers and mobile devices.\nSeveral months later , the musician began using an app (at time t 0= ) that counts the total\nnumber of plays for the song since its release. A “play” is a single stream of the song on the\nstreaming service. The table gives the total number of plays, in thousands, for selected times\nt months after the musician began using the app. At t 0= , the total number of plays was\n25 thousand. At t 2= , the total number of plays was 30 thousand. At t 4= , the total number of\nplays was 34 thousand.\nMonths after the musician\nbegan using the app\n0 2 4\nTotal number of plays for the song\nsince its release (thousands)\n25 30 34\nThe total number of plays, in thousands, for the song since its release can be modeled by the\nfunction D given by Dt at bt c2=+ +_i , where Dt_i is the total number of plays, in thousands,\nfor the song since its release, and t is the number of months after the musician began using the\napp.\nA.\ni. Use the given data to write three equations that can be used to find the values for\nconstants a, b, and c in the expression for Dt_i .\nii. Find the values for a, b, and c as decimal approximations.\nB.\ni. Use the given data to find the average rate of change of the total number of plays for\nthe song, in thousands per month, from t 0= to t 4= months. Express your answer as a\ndecimal approximation. Show the computations that lead to your answer .\nii. Use the average rate of change found in part B (i) to estimate the total number of plays\nfor the song, in thousands, for .t 15= months. Show the work that leads to your answer .\niii. Let At represent the estimate of the total number of plays for the song, in thousands,\nusing the average rate of change found in part B (i). For A .15 found in part B (ii), it can be\nshown that .AD 15<.15 _i .\nExplain why, in general, AD t<t _i for all t, where t04<< . Your explanation should\ninclude a reference to the graph of D and its relationship to At.\nC. The quadratic function model D has exactly one absolute minimum or one absolute\nmaximum. That minimum or maximum can be used to determine a domain restriction for D.\nBased on the context of the problem, explain how that minimum or maximum can be used to\ndetermine a boundary for the domain of D.",
+   "sourceText": null,
+   "scoringGuide": "AP Precalculus FRQ 2 (Part A, graphing calculator required), 6 points, scored by lettered subparts. Q2 topic: periodic/sinusoidal function modeling (e.g., building a sinusoidal model f(x)=a·sin(b(x−c))+d from context, identifying amplitude/period/midline, evaluating, and interpreting). Points reward: correct sinusoidal parameters, correct evaluations/solutions with setup, and correct contextual interpretation. Common failure: wrong amplitude/period/midline; answer without setup; interpretation without context/units.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "6",
+     "summary": "Q2 scored 6/6 — correct sinusoidal model parameters, correct evaluations/solutions with setup, and correct contextual interpretation. Full-credit model.",
+     "refId": "PRECALC:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "5",
+     "summary": "Q2 scored 5/6 — earned nearly all subparts, losing one on an interpretation or a minor parameter/calculation slip. Illustrates a strong response one point short.",
+     "refId": "PRECALC:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "4",
+     "summary": "Q2 scored 4/6 — earned the model and some evaluations but lost points on solution setup or contextual interpretation. Illustrates a partially complete sinusoidal-modeling response.",
+     "refId": "PRECALC:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-precalculus-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Periodic/Sinusoidal Function",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-precalculus/ap25-precalculus-q3.pdf",
+   "pageCount": 1,
+   "promptText": "3. For a guitar to make a sound, the strings need to vibrate, or move up and down or back and\nforth, in a motion that can be modeled by a periodic function.\nAt time t 0= seconds, point X on one vibrating guitar string starts at its highest position,\n2 millimeters above its resting position. Then it passes through its resting position and moves\nto its lowest position, 2 millimeters below the resting position. Point X then passes through its\nresting position and returns to 2 millimeters above the resting position. This motion occurs\n200 times in 1 second.\nThe sinusoidal function h models how far point X is from its resting position, in millimeters, as\na function of time t, in seconds. A positive value of ht_i indicates the point is above the resting\nposition; a negative value of ht_i indicates the point is below the resting position.\nA. The graph of h and its dashed midline for two full cycles is shown. Five points, F, G, J, K, and\nP, are labeled on the graph. No scale is indicated, and no axes are presented.\nDetermine possible coordinates ,th t` _i j for the five points: F, G, J, K, and P.\nB. The function h can be written in the form sinht ab tc d++=_ ` _i ij . Find values of constants\na, b, c, and d.\nC. Refer to the graph of h in part A. The t-coordinate of G is t1, and the t-coordinate of J is t2.\ni. On the interval ,tt12_i , which of the following is true about h?\na. h is positive and increasing.\nb. h is positive and decreasing.\nc. h is negative and increasing.\nd. h is negative and decreasing.\nii. On the interval ,tt12_i , describe the concavity of the graph of h and determine whether\nthe rate of change of h is increasing or decreasing.",
+   "sourceText": null,
+   "scoringGuide": "AP Precalculus FRQ 3 (Part B, graphing calculator not allowed), 6 points, scored by lettered subparts. Q3 topic: analyzing a periodic/sinusoidal function (amplitude, period, midline, transformations; evaluating exact values; describing behavior). Points reward: correct identification of sinusoidal features, correct exact evaluations/solutions with work shown, and correct descriptions of function behavior. Common failure: sign/phase-shift errors; approximations where exact values are required; incomplete work.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "6",
+     "summary": "Q3 scored 6/6 — correct sinusoidal features, exact evaluations/solutions with work, and correct behavior descriptions. Full-credit model for the no-calculator periodic FRQ.",
+     "refId": "PRECALC:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "5",
+     "summary": "Q3 scored 5/6 — earned nearly all subparts, losing one on a phase/sign detail or a behavior description. Illustrates a strong response one point short.",
+     "refId": "PRECALC:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "4",
+     "summary": "Q3 scored 4/6 — earned the feature identification and some evaluations but lost points on exact-value work or behavior descriptions. Illustrates a partially complete response.",
+     "refId": "PRECALC:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-precalculus-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Part B — No Calculator",
+   "topic": "Logarithmic / Trigonometric / Rational Functions",
+   "teaser": null,
+   "suggestedMinutes": 15,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-precalculus/ap25-precalculus-q4.pdf",
+   "pageCount": 1,
+   "promptText": "4. Directions:\n• Unless otherwise specified, the domain of a function f is assumed to be the set of all real\nnumbers x for which fx_i is a real number . Angle measures for trigonometric functions\nare assumed to be in radians.\n• Solutions to equations must be real numbers. Determine the exact value of any\nexpression that can be obtained without a calculator . For example, log82 , cos 2\nra k, and\nsin1 1- _i can be evaluated without a calculator .\n• Unless otherwise specified, combine terms using algebraic methods and rules for\nexponents and logarithms, where applicable. For example, xx23 + , 55·23 , x\nx\n2\n5\n, and\nln ln35+ should be rewritten in equivalent forms.\n• For each part of the question, show the work that leads to your answers.\nA. The functions g and h are given by\nloggx x2 3=_i\ncoshx x4 2=_i\ni. Solve gx 4=_i for values of x in the domain of g.\nii. Solve hx 3=_i for values of x in the interval ,0 2\nr k9 .\nB. The functions j and k are given by\nlogl ogjx x 3222 +=_i\ntanc sckx xx 1\n6\n2= -\n_ _i i\ni. Rewrite jx_i as a single logarithm base 2 without negative exponents in any part of the\nexpression. Your result should be of the form loge xpression2 _i .\nii. Rewrite kx_i as an expression in which tan x appears exactly once and no other\ntrigonometric functions are involved.\nC. The function m is given by mx ee 12xx2 --=_i . Find all input values in the domain of m that\nyield an output value of 0.",
+   "sourceText": null,
+   "scoringGuide": "AP Precalculus FRQ 4 (Part B, graphing calculator not allowed), 6 points, scored by lettered subparts. Q4 topic: analyzing logarithmic, trigonometric, and/or rational functions (domain/asymptotes, exact solutions of equations, transformations, and interpretation). Points reward: correct exact algebraic manipulation and solutions with work, correct identification of features (asymptotes, domain, zeros), and correct interpretation. Common failure: log/exponent rule errors; missing restrictions/asymptotes for rational functions; approximations where exact values are required; incomplete work.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "6",
+     "summary": "Q4 scored 6/6 — correct exact manipulations and solutions with work, correct feature identification, and correct interpretation across the log/trig/rational subparts. Full-credit model.",
+     "refId": "PRECALC:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "5",
+     "summary": "Q4 scored 5/6 — earned nearly all subparts, losing one on a log/exponent rule slip or a missing restriction/asymptote. Illustrates a strong response one point short.",
+     "refId": "PRECALC:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "3",
+     "summary": "Q4 scored 3/6 — earned about half the subparts, losing exact-solution work and/or feature identification (asymptotes/domain). Illustrates a response that handles part of the algebra but not the full analysis.",
+     "refId": "PRECALC:q4:2025-4C"
+    }
+   ]
+  }
+ ]
+}

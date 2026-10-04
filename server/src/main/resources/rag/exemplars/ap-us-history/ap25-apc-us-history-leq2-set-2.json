@@ -6,7 +6,8 @@
       "scoreBand": "6",
       "refId": "APUSH:leq:2025-leq2-set2-2A",
       "title": "LEQ exemplar — LEQ2/Set2 Sample 2A, score 6/6",
-      "content": "LEQ (how British colonists adapted to their environments, 1607–1754) scored 6/6. Thesis (1): defensible claim — different environments produced different economies, but all relied on slavery and adapting to Native neighbors. Contextualization (1): Columbus and European colonial competition preceding British settlement. Evidence (2): tobacco cash crop in the Chesapeake and the southern plantation economy used to support the argument (indentured servants → enslaved Africans). Analysis & Reasoning (2): consistent causation (environment → different economies) AND complex understanding via cross-region connections and the peaceful→violent evolution of Native relations (Pocahontas/John Rolfe, Metacom's War, Powhatan conflicts)."
+      "content": "LEQ (how British colonists adapted to their environments, 1607–1754) scored 6/6. Thesis (1): defensible claim — different environments produced different economies, but all relied on slavery and adapting to Native neighbors. Contextualization (1): Columbus and European colonial competition preceding British settlement. Evidence (2): tobacco cash crop in the Chesapeake and the southern plantation economy used to support the argument (indentured servants → enslaved Africans). Analysis & Reasoning (2): consistent causation (environment → different economies) AND complex understanding via cross-region connections and the peaceful→violent evolution of Native relations (Pocahontas/John Rolfe, Metacom's War, Powhatan conflicts).",
+      "promptId": "ap25-us-history-leq2-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "3",
       "refId": "APUSH:leq:2025-leq2-set2-2B",
       "title": "LEQ exemplar — LEQ2/Set2 Sample 2B, score 3/6",
-      "content": "LEQ scored 3/6 (Thesis 1, Contextualization 0, Evidence 1, Analysis & Reasoning 1). Thesis (1): defensible line of reasoning (adapted via connections with Native Americans and growing beneficial crops). Contextualization (0): overly generalized. Evidence (1): describes Jamestown, staple crops, cash crops but only the cash-crop discussion is tied to an argument, so caps at 1. Analysis & Reasoning (1): causation (climate → cash crops → trade) plus a minimal change-over-time argument, but no complex understanding."
+      "content": "LEQ scored 3/6 (Thesis 1, Contextualization 0, Evidence 1, Analysis & Reasoning 1). Thesis (1): defensible line of reasoning (adapted via connections with Native Americans and growing beneficial crops). Contextualization (0): overly generalized. Evidence (1): describes Jamestown, staple crops, cash crops but only the cash-crop discussion is tied to an argument, so caps at 1. Analysis & Reasoning (1): causation (climate → cash crops → trade) plus a minimal change-over-time argument, but no complex understanding.",
+      "promptId": "ap25-us-history-leq2-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "APUSH:leq:2025-leq2-set2-2C",
       "title": "LEQ exemplar — LEQ2/Set2 Sample 2C, score 2/6",
-      "content": "LEQ scored 2/6 (Thesis 1, Contextualization 0, Evidence 1, Analysis & Reasoning 0). Thesis (1): defensible claim (adapted via trading with American Indians and growing crops). Contextualization (0): the Columbian Exchange mention is too thin/generalized. Evidence (1): names trade, religious freedom, crops, plantations but does not use them to support a clear argument. Analysis & Reasoning (0): asserts continuity but does not use reasoning to structure a prompt-focused argument."
+      "content": "LEQ scored 2/6 (Thesis 1, Contextualization 0, Evidence 1, Analysis & Reasoning 0). Thesis (1): defensible claim (adapted via trading with American Indians and growing crops). Contextualization (0): the Columbian Exchange mention is too thin/generalized. Evidence (1): names trade, religious freedom, crops, plantations but does not use them to support a clear argument. Analysis & Reasoning (0): asserts continuity but does not use reasoning to structure a prompt-focused argument.",
+      "promptId": "ap25-us-history-leq2-set-2"
     }
   ]
 }

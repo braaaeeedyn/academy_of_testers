@@ -6,7 +6,8 @@
       "dimension": "saq-no-stimulus",
       "refId": "EUROH:saq3:set2-rubric",
       "title": "SAQ 3 — No Stimulus (3 points) — Set 2: Italian Renaissance",
-      "content": "AP European History SAQ 3 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] describe one significant cultural characteristic of the Italian Renaissance; B [1] describe one political or economic factor that facilitated the Italian Renaissance; C [1] explain one way the Northern Renaissance differed from the Italian Renaissance. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A naming a figure without a cultural characteristic; C stating a difference without explaining it."
+      "content": "AP European History SAQ 3 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] describe one significant cultural characteristic of the Italian Renaissance; B [1] describe one political or economic factor that facilitated the Italian Renaissance; C [1] explain one way the Northern Renaissance differed from the Italian Renaissance. 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A naming a figure without a cultural characteristic; C stating a difference without explaining it.",
+      "promptId": "ap25-european-history-saq3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "3",
       "refId": "EUROH:saq3:set2-2025-3A",
       "title": "SAQ 3 Set 2 exemplar — Sample 3A, 3/3",
-      "content": "SAQ 3 (Set 2) scored 3/3 (A 1, B 1, C 1). Described a cultural characteristic (e.g., humanism/classical revival), a facilitating political/economic factor (e.g., wealthy merchant patronage), and explained a Northern-vs-Italian Renaissance difference. Full-credit model."
+      "content": "SAQ 3 (Set 2) scored 3/3 (A 1, B 1, C 1). Described a cultural characteristic (e.g., humanism/classical revival), a facilitating political/economic factor (e.g., wealthy merchant patronage), and explained a Northern-vs-Italian Renaissance difference. Full-credit model.",
+      "promptId": "ap25-european-history-saq3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "EUROH:saq3:set2-2025-3B",
       "title": "SAQ 3 Set 2 exemplar — Sample 3B, 2/3",
-      "content": "SAQ 3 (Set 2) scored 2/3 (A 1, B 0, C 1). Described a cultural characteristic (A) and explained a Northern-vs-Italian difference (C) but did not give a valid facilitating political/economic factor (B). Illustrates missing the causal-factor part."
+      "content": "SAQ 3 (Set 2) scored 2/3 (A 1, B 0, C 1). Described a cultural characteristic (A) and explained a Northern-vs-Italian difference (C) but did not give a valid facilitating political/economic factor (B). Illustrates missing the causal-factor part.",
+      "promptId": "ap25-european-history-saq3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "EUROH:saq3:set2-2025-3C",
       "title": "SAQ 3 Set 2 exemplar — Sample 3C, 1/3",
-      "content": "SAQ 3 (Set 2) scored 1/3 (A 0, B 1, C 0). Earned only B (a facilitating political/economic factor). Lost A (no valid cultural characteristic) and C (no explained difference from the Northern Renaissance). Illustrates a response that identifies a facilitating factor but misses the cultural characteristic and the comparison."
+      "content": "SAQ 3 (Set 2) scored 1/3 (A 0, B 1, C 0). Earned only B (a facilitating political/economic factor). Lost A (no valid cultural characteristic) and C (no explained difference from the Northern Renaissance). Illustrates a response that identifies a facilitating factor but misses the cultural characteristic and the comparison.",
+      "promptId": "ap25-european-history-saq3-set-2"
     }
   ]
 }

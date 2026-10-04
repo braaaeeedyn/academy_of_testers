@@ -1,0 +1,223 @@
+{
+ "subjectName": "AP Physics 1",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-physics-1-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Mathematical Routines",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 20,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-1/ap25-physics-1-q1.pdf",
+   "pageCount": 2,
+   "promptText": "Question 1: Version J\n1. A student has a cart of mass mc and a block of mass m5\n1\nc, as shown in Figure 1.\n• At time t 0= , the cart is moving to the right across a horizontal surface with constant\nspeed vc, and the student releases the block from rest.\n• At tt 1= , the block collides with and sticks to the top of the cart. The block does not slide\non the cart.\n• At tt 2= , the block-cart system continues to move to the right with constant speed vf.\nFigure 1\nA.\ni. On the axes shown in Figure 2, sketch a graph of the magnitude px of the x-component\nof the momentum of the block-cart system as a function of time t from t 0= until tt> 2.\nii. Derive an expression for the speed vf of the block-cart system after time tt 2= in terms\nof mc, vc, and physical constants, as appropriate. Begin your derivation by writing a\nfundamental physics principle or an equation from the reference information.\niii. Derive an expression for the change in the kinetic energy KT in the block-cart system\nfrom t 0= to tt 2= in terms of mc, vc, and physical constants, as appropriate. Begin your\nderivation by writing a fundamental physics principle or an equation from the reference\ninformation.\nB. Consider the case where a new block is dropped and collides with the top of the cart. The\nnew block slides along the cart during the collision but does not slide off the cart. The time\ninterval from when the new block collides with the cart and moves together with the cart\nis tT . During tT there is a frictional force between the new block and the cart.\nIndicate whether the x-component of the momentum of the new block-cart system increases,\ndecreases, or remains constant during tT .\n______ Increases\n______ Decreases\n______ Remains constant\nJustify your response.",
+   "sourceText": null,
+   "scoringGuide": "AP Physics 1 FRQ 1 is Mathematical Routines (MR), 10 points, scored by lettered sub-points (A1, A2, …). The MR task requires deriving/calculating quantities through multi-step mathematical routines with correct physics relationships, substitutions, and final expressions consistent with earlier parts. Q1 topic: momentum and a cart–block collision (conservation of momentum; kinetic energy change). Points reward: sketching/labeling correct quantities vs. time, writing a conservation-of-momentum equation, setting initial equal to final momentum, and a multistep energy derivation (K = ½mv²) with expressions consistent with earlier parts. Common failure: skipping the required intermediate relationship (e.g., writing a final answer without showing the momentum or energy equation); expressions inconsistent with prior parts; algebra errors that break the multistep chain.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 7,
+     "criteria": "Award 0–7 points for part A exactly as the official 2025 scoring guideline for this question specifies. A1,; A2, …). The MR task requires deriving/calculating quantities through multi-step mathematical routines with correct physics relationships, substitutions, and final expressions consistent with earlier parts. Q1 topic: momentum and a cart–block collision (conservation of momentum; kinetic energy change). Points reward: sketching/labeling correct quantities vs. time, writing a conservation-of-momentum equation, setting initial equal to final momentum, and a multistep energy derivation (K = ½mv²) with expressions consistent with earlier parts"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 (MR) scored 10/10 — all sub-points: correct momentum-vs-time reasoning, a conservation-of-momentum equation set initial=final, and a complete multistep kinetic-energy derivation with expressions consistent throughout. Full-credit model for the Mathematical Routines task.",
+     "refId": "PHYS1:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "5",
+     "summary": "Q1 (MR) scored 5/10 — earned about half the sub-points, typically the setup and momentum equation but not the full multistep energy derivation or the consistency-dependent final expressions. Illustrates a response that starts the routine correctly but does not complete the derivation chain.",
+     "refId": "PHYS1:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "2",
+     "summary": "Q1 (MR) scored 2/10 — earned only a couple of sub-points (e.g., an initial sketch or a single equation), losing the conservation equation, the energy derivation, and the consistent final expressions. Illustrates a response that cannot carry out the multistep mathematical routine.",
+     "refId": "PHYS1:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-1-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Translation Between Representations",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 35,
+   "totalPoints": 12,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-1/ap25-physics-1-q2.pdf",
+   "pageCount": 3,
+   "promptText": "Question 2: Version J\n2. A block of mass M is released from rest at position x 0= near the top of a ramp. The ramp\nmakes an angle of i with the horizontal. The block slides down the ramp with negligible\nfriction. At xD 8= the block makes contact with an uncompressed spring with spring\nconstant k. The spring is then compressed and the block momentarily comes to rest at xD 12= .\nFigure 1 shows the instants when the block is at x 0= , xD 6= , and xD 10= , respectively.\nA. Figure 4 shows an energy bar chart that represents the kinetic energy K of the block, the\ngravitational potential energy Ug of the block-spring-Earth system, and the spring potential\nenergy Us of the block-spring-Earth system at the instant that the block is at xD 10= . The\ngravitational potential energy Ug of the block-spring-Earth system is defined to be zero when\nthe block momentarily comes to rest at xD 12= .\nDraw shaded bars that represent K, Ug, and Us to complete the energy bar charts in\nFigure 2 and Figure 3 for when the block is released from rest at x 0= and for when the\nblock is at xD 6= , respectively.\n• Shaded bars should start at the dashed line that represents zero energy.\n• Represent any energy that is equal to zero with a distinct line on the zero-energy line.\n• The relative heights of each shaded bar should reflect the magnitude of the respective\nenergy consistent with the scale used in Figure 4.\nB. Figure 5 shows the block at x 0= when the block is released from rest and the block at\nxD 12= when the block momentarily comes to rest against the compressed spring.\nFigure 5\nStarting with conservation of energy, derive an equation for the spring constant k. Express\nyour answer in terms of M, i, D, and physical constants, as appropriate. Begin your\nderivation by writing a fundamental physics principle or an equation from the reference\ninformation.\nC. Figure 6 shows a graph of the energy of the system as a function of the position of the block\nfrom xD 8= to xD 12= . The spring potential energy Us of the block-spring-Earth system is\nshown on the graph.\nOn the axes shown in Figure 6, do the following.\ni. Sketch and label a line or curve that represents the total mechanical energy E for the\nblock-spring-Earth system as a function of the position of the block from xD 8=\nto xD 12= .\nii. Sketch and label a line or curve that represents the gravitational potential energy Ug for\nthe block-spring-Earth system as a function of the position of the block from xD 8=\nto xD 12= .\nD. Indicate whether the speed v D9 of the block at xD 9= is greater than, less than, or equal to\nthe speed v D8 of the block at xD 8= .\n______ vv >DD98\n______ vv <DD98\n______ vvDD98 =\nJustify how your response is consistent with the energy lines or curves you drew in Figure 6\nin part C.",
+   "sourceText": null,
+   "scoringGuide": "AP Physics 1 FRQ 2 is Translation Between Representations (TBR), 12 points, scored by lettered sub-points. The TBR task requires moving among representations — words, equations, graphs, diagrams, and data — and using each correctly and consistently. Q2 topic: energy with a spring and gravitation. Points reward: correct free-body/energy diagrams, correct equations linking representations, correctly drawn/labeled graphs (axes, shape, features), and quantitative results consistent across representations. Common failure: a graph with wrong shape or unlabeled axes; an equation inconsistent with the diagram; not translating a described situation into the requested representation.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "12",
+     "summary": "Q2 (TBR) scored 12/12 — every representation correct and consistent: diagrams, equations, and a properly labeled graph with the right shape/features, plus quantitative results that agree across representations. Full-credit model.",
+     "refId": "PHYS1:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "8",
+     "summary": "Q2 (TBR) scored 8/12 — earned most representation points but lost several, commonly graph features (shape/labels) or an equation inconsistent with the diagram. Illustrates a solid response with one or two representations imperfectly translated.",
+     "refId": "PHYS1:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "2",
+     "summary": "Q2 (TBR) scored 2/12 — earned only a couple of sub-points, losing most representations (graph, equations, and consistent quantitative results). Illustrates a response that cannot translate the situation across representations.",
+     "refId": "PHYS1:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-1-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Experimental Design and Analysis",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 25,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-1/ap25-physics-1-q3.pdf",
+   "pageCount": 3,
+   "promptText": "Question 3: Version J\n3. Students are investigating balancing systems using the following setup. The students have a\nspring scale of negligible mass that is fixed to one end of a uniform meterstick. The center of the\nmeterstick is attached to a stand on which the meterstick can pivot. There is a hook of negligible\nmass fixed to the top of a block of mass m0. The hook can be attached to the meterstick through\none of the small holes in the meterstick, as shown in Figure 1. The students do not have a direct\nway to measure the mass of the block. The block cannot be attached to the spring scale.\nFigure 1\nThe students are asked to take measurements that will allow the students to create a linear\ngraph whose slope could be used to determine the mass m0 of the block.\nA. Describe an experimental procedure to collect data that would allow the students to\ndetermine m0. Include any steps necessary to reduce experimental uncertainty.\nB. Describe how the data collected in part A could be graphed and how that graph would be\nanalyzed to determine m0.\nThe students have an identical meterstick of mass M that is now attached to an axle that is fixed\nto a wall. The meterstick is free to rotate with negligible friction about the axle. The meterstick\nis suspended horizontally by a string that is connected to a spring scale of negligible mass, as\nshown in Figure 2.\nFigure 2\nThe angle i that the string makes with the meterstick can be varied by attaching the string to\none of the pegs located along the wall. The students use the spring scale to measure the\ntension FT required to hold the meterstick horizontal. Table 1 shows the measured values of i\nand FT .\nTable 1\ni (degrees) FT (N)\n22 21\n31 17\n36 13\n45 12\n80 8\nThe students correctly determine that the relationship between FT and i is given by\nsinF Mg\n6\n5\nT i= .\nThe students create a graph with sin\n1\ni plotted on the horizontal axis.\nC.\ni. Indicate what measured or calculated quantity could be plotted on the vertical axis to\nyield a linear graph whose slope can be used to calculate an experimental value for the\nmass M of the meterstick.\nVertical axis: ______ Horizontal axis: sin\n1\ni\nii. On the blank grid provided, create a graph of the quantities indicated in part C (i) that\ncan be used to determine M.\n• Use Table 2 to record the data points or calculated quantities that you will plot.\n• Clearly label the vertical axis, including units as appropriate.\n• Plot the points you recorded in Table 2.\niii. Draw a straight best-fit line for the data graphed in part C (ii).\nD. Using the best-fit line that you drew in part C (iii), calculate an experimental value for the\nmass M of the meterstick.",
+   "sourceText": null,
+   "scoringGuide": "AP Physics 1 FRQ 3 is Experimental Design and Analysis (LAB), 10 points, scored by lettered sub-points. The LAB task requires designing a procedure (identify measured quantities and equipment, control variables), deciding how to analyze data (what to plot to linearize a relationship), and reasoning from data/graphs to a conclusion. Q3 topic: a block-and-spring / gravitation experiment. Points reward: a valid, replicable procedure with correct measurements; a correct plan for graphing/linearizing; correct interpretation of slope/intercept; and conclusions consistent with the data. Common failure: a procedure missing a needed measurement or control; plotting quantities that do not linearize the relationship; conclusions not supported by the plotted data.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "10",
+     "summary": "Q3 (LAB) scored 10/10 — a complete, replicable procedure with correct measurements, a correct linearizing graph plan, correct slope/intercept interpretation, and data-supported conclusions. Full-credit model for the experimental-design task.",
+     "refId": "PHYS1:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "5",
+     "summary": "Q3 (LAB) scored 5/10 — earned about half the sub-points, typically the procedure and some data handling but not the correct linearization or the fully data-supported reasoning. Illustrates a partially complete experimental design.",
+     "refId": "PHYS1:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "4",
+     "summary": "Q3 (LAB) scored 4/10 — earned a few sub-points (e.g., part of the procedure and one analysis element), losing the linearization plan and much of the data-based reasoning. Illustrates a response that describes a rough experiment but cannot analyze it rigorously.",
+     "refId": "PHYS1:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-1-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Qualitative/Quantitative Translation",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 20,
+   "totalPoints": 8,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-1/ap25-physics-1-q4.pdf",
+   "pageCount": 2,
+   "promptText": "Question 4\n4. In Scenario 1, a swimmer holds a block of mass m at rest in a tank of freshwater with\ndensity 1t , as shown in Figure 1. The block is released from rest and accelerates upward with\nan initial acceleration a1. All frictional forces are negligible.\nFigure 1\nIn Scenario 2, the swimmer holds the same block at rest in a tank of salt water with\ndensity 2t , where >21tt . The swimmer again releases the block from rest, and the block\naccelerates upward with initial acceleration a2. All frictional forces are negligible.\nA. Indicate whether a1 is greater than, less than, or equal to a2 by writing one of the following\nin your answer booklet.\n• aa>12\n• aa<12\n• aa12=\nJustify your answer in terms of ALL forces exerted on the block in each scenario. Use\nqualitative reasoning beyond referencing equations.\nB. Consider the general case where a block of mass m and volume V is completely submerged in\na fluid of density t.\nStarting with Newton’s second law, derive an expression for the initial upward\nacceleration a of the block when the block is released from rest. Express your answer in\nterms of m, V, t, and physical constants, as appropriate. Begin your derivation by writing a\nfundamental physics principle or an equation from the reference information.\nC. Indicate whether the expression for the acceleration a you derived in part B is or is not\nconsistent with the claim made in part A. Briefly justify your answer by referencing your\nderivation in part B.",
+   "sourceText": null,
+   "scoringGuide": "AP Physics 1 FRQ 4 is Qualitative Quantitative Translation (QQT), 8 points, scored by lettered sub-points. The QQT task requires connecting qualitative reasoning with quantitative analysis: make a claim, support it with physics principles in words, and back it with a consistent quantitative argument (or vice versa). Q4 topic: buoyancy and density of a block in fluid. Points reward: a correct claim/prediction, qualitative reasoning citing the relevant principle (buoyant force, density comparison), a quantitative expression/derivation, and consistency between the qualitative and quantitative answers. Common failure: a claim without supporting principle; quantitative work that contradicts the qualitative reasoning; missing the density/buoyancy relationship.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "8",
+     "summary": "Q4 (QQT) scored 8/8 — a correct claim, sound qualitative reasoning (buoyancy/density), a consistent quantitative derivation, and agreement between the qualitative and quantitative arguments. Full-credit model for the QQT task.",
+     "refId": "PHYS1:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "5",
+     "summary": "Q4 (QQT) scored 5/8 — earned the claim and most qualitative reasoning plus part of the quantitative argument, losing points where the quantitative work was incomplete or inconsistent with the qualitative claim. Illustrates a partially connected qualitative–quantitative response.",
+     "refId": "PHYS1:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "2",
+     "summary": "Q4 (QQT) scored 2/8 — earned only a couple of sub-points (e.g., a claim or one reasoning step), losing the principle-based reasoning and the quantitative support. Illustrates a response that cannot link qualitative reasoning to quantitative analysis.",
+     "refId": "PHYS1:q4:2025-4C"
+    }
+   ]
+  }
+ ]
+}

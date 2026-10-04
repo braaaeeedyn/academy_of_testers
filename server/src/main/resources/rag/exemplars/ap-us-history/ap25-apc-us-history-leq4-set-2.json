@@ -6,7 +6,8 @@
       "scoreBand": "6",
       "refId": "APUSH:leq:2025-leq4-set2-4A",
       "title": "LEQ exemplar — LEQ4/Set2 Sample 4A, score 6/6",
-      "content": "LEQ (how US society responded to economic changes, 1960–2000) scored 6/6. Thesis (1): society responded to the Great Society and Reaganomics with praise or protest depending on political leaning. Contextualization (1): New Deal and conservative opposition to it. Evidence (2): Great Society programs and Reaganomics used to support the liberal-praise/conservative-response argument. Analysis & Reasoning (2): reasoning about how policies drew criticism by group AND complex understanding via effective use of evidence showing different perspectives."
+      "content": "LEQ (how US society responded to economic changes, 1960–2000) scored 6/6. Thesis (1): society responded to the Great Society and Reaganomics with praise or protest depending on political leaning. Contextualization (1): New Deal and conservative opposition to it. Evidence (2): Great Society programs and Reaganomics used to support the liberal-praise/conservative-response argument. Analysis & Reasoning (2): reasoning about how policies drew criticism by group AND complex understanding via effective use of evidence showing different perspectives.",
+      "promptId": "ap25-us-history-leq4-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "4",
       "refId": "APUSH:leq:2025-leq4-set2-4B",
       "title": "LEQ exemplar — LEQ4/Set2 Sample 4B, score 4/6",
-      "content": "LEQ scored 4/6 (Thesis 0, Contextualization 1, Evidence 2, Analysis & Reasoning 1). Thesis (0): only restates the prompt. Contextualization (1): post-WWII soldier return and suburb growth before the period. Evidence (2): NAFTA, suburbanization, Reagan's election used to support arguments (outrage at offshoring factories; suburbs → white-collar jobs → blue-collar unemployment). Analysis & Reasoning (1): continuity-and-change on trickle-down economics, but no complex understanding. Note how a missing line of reasoning forfeits the thesis point even with strong evidence."
+      "content": "LEQ scored 4/6 (Thesis 0, Contextualization 1, Evidence 2, Analysis & Reasoning 1). Thesis (0): only restates the prompt. Contextualization (1): post-WWII soldier return and suburb growth before the period. Evidence (2): NAFTA, suburbanization, Reagan's election used to support arguments (outrage at offshoring factories; suburbs → white-collar jobs → blue-collar unemployment). Analysis & Reasoning (1): continuity-and-change on trickle-down economics, but no complex understanding. Note how a missing line of reasoning forfeits the thesis point even with strong evidence.",
+      "promptId": "ap25-us-history-leq4-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "APUSH:leq:2025-leq4-set2-4C",
       "title": "LEQ exemplar — LEQ4/Set2 Sample 4C, score 2/6",
-      "content": "LEQ scored 2/6 (Thesis 1, Contextualization 1, Evidence 0, Analysis & Reasoning 0). Thesis (1): defensible claim about how society responded. Contextualization (1): earned. Evidence (0): the industrial-revolution and post-WWII claims are largely off-period, inaccurate, or too vague to support the 1960–2000 prompt. Analysis & Reasoning (0): no reasoning structuring a prompt-focused argument. Illustrates that evidence must be specific, accurate, and within the prompt's timeframe to count."
+      "content": "LEQ scored 2/6 (Thesis 1, Contextualization 1, Evidence 0, Analysis & Reasoning 0). Thesis (1): defensible claim about how society responded. Contextualization (1): earned. Evidence (0): the industrial-revolution and post-WWII claims are largely off-period, inaccurate, or too vague to support the 1960–2000 prompt. Analysis & Reasoning (0): no reasoning structuring a prompt-focused argument. Illustrates that evidence must be specific, accurate, and within the prompt's timeframe to count.",
+      "promptId": "ap25-us-history-leq4-set-2"
     }
   ]
 }

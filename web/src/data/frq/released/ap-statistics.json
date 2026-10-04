@@ -1,0 +1,264 @@
+{
+ "subjectName": "AP Statistics",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-statistics-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Free Response",
+   "topic": "Exploring Data",
+   "teaser": "The manager of an automotive company is interested in comparing the gas mileages for cars manufactured in Country A and cars manufactured in Country B. The manager selected a random sample of 100…",
+   "suggestedMinutes": 13,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-statistics/ap25-statistics-q1.pdf",
+   "pageCount": 1,
+   "promptText": "1. The manager of an automotive company is interested in comparing the gas mileages for cars\nmanufactured in Country A and cars manufactured in Country B. The manager selected a\nrandom sample of 100 cars manufactured in Country A and a random sample of 100 cars\nmanufactured in Country B. The gas mileages for each sample, in miles per gallon (mpg), are\nsummarized in the boxplots.\nBoxplots of Gas Mileage for Each Country\nA. Compare the distributions of gas mileage for the sample of cars manufactured in Country A\nand the sample of cars manufactured in Country B.\nB. For the distribution of gas mileage for the sample of cars manufactured in Country A, would\nyou expect the mean to be greater than 18 mpg, less than 18 mpg, or equal to 18 mpg? Justify\nyour answer .\nC. The manager will create a new boxplot with the combined data from the sample of cars\nmanufactured in Country A and the sample of cars manufactured in Country B.\ni. What is the range of the combined data set? Justify your answer .\nii. What is a possible value of the median of the combined data set? Justify your answer by\nreferencing the boxplots shown.",
+   "sourceText": null,
+   "scoringGuide": "AP Statistics FRQ 1 focuses on Exploring Data, 4 points. Scoring model: each lettered part is judged essentially correct (E), partially correct (P), or incorrect (I); the combination of part scores maps to an integer 0–4 via the question's conversion table. Q1 topic: comparing two distributions (gas mileage for cars from Country A vs. Country B) — compare center (medians), spread (range/IQR), and identify outliers, with values and context. Common failure: comparing only one feature (e.g., center but not spread); stating statistics without comparative language ('less than'/'greater than'); omitting context/units; misidentifying outliers.",
+   "rubric": [
+    {
+     "name": "Holistic score (E / P / I by part)",
+     "maxPoints": 4,
+     "criteria": "Judge each lettered part essentially correct (E), partially correct (P), or incorrect (I) per the scoring guideline, then convert the part scores to an integer 0–4 exactly as the AP Statistics conversion rule does. Communication, context, and justification count."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "4",
+     "summary": "Q1 scored 4/4 — all parts essentially correct: compared centers (medians 18 vs 32 mpg), spread (range and IQR), and identified the outlier in Country A, all with comparative language and context. Full-credit model for the Exploring Data question.",
+     "refId": "STATS:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "Q1 scored 2/4 — some parts partially correct: typically compared center and one measure of spread but missed a required comparison (e.g., outliers) or omitted comparative language/context on part of the response. Illustrates a partial comparison of distributions.",
+     "refId": "STATS:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "Q1 scored 1/4 — mostly incorrect/partial: compared only one feature or stated statistics without comparison/context. Illustrates a response that reads values but does not properly compare the distributions.",
+     "refId": "STATS:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-statistics-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Free Response",
+   "topic": "Sampling and Experimental Design",
+   "teaser": "Aphids are tiny insects that feed on plants such as cabbage plants. A farmer wants to reduce the number of aphids in a cabbage field. A river is located 100 meters south of the cabbage field. The…",
+   "suggestedMinutes": 13,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-statistics/ap25-statistics-q2.pdf",
+   "pageCount": 2,
+   "promptText": "2. Aphids are tiny insects that feed on plants such as cabbage plants. A farmer wants to reduce the\nnumber of aphids in a cabbage field. A river is located 100 meters south of the cabbage field.\nThe farmer divides the field into 25 regions of equal size, as shown in the diagram. Each region\nhas approximately the same number of cabbage plants.\nThe farmer would like to estimate the proportion of cabbage plants in the field that are affected\nby aphids and believes that the extent of aphid damage is greater for the regions in the cabbage\nfield closer to the river . To obtain the estimate, the farmer is considering three sampling\nmethods.\n• Sampling method I: Select region 3, which is closest to the farmer’s house and farthest\nfrom the river . Examine every cabbage plant in the region for aphid damage.\n• Sampling method II: Randomly select one row (A, B, C, D, or E). For every region in the\nselected row, examine every cabbage plant for aphid damage.\n• Sampling method III: Randomly select one region from each of rows A, B, C, D, and E. For\neach selected region, examine every cabbage plant for aphid damage.\nA. Explain whether sampling method I is an appropriate sampling method for the farmer to use\nto estimate the proportion of cabbage plants in the field that are damaged by aphids.\nB. Using sampling method II, the farmer randomly selected row E and examined every cabbage\nplant in row E. If the farmer’s belief is correct, determine whether the selection of row E is\nlikely to provide an overestimate or an underestimate of the proportion of cabbage plants in\nthe field that are damaged by aphids. Justify your answer .\nC. Using the information provided in the diagram of the cabbage field, describe how to\nimplement sampling method III, which requires a random selection of one region from each\nof rows A, B, C, D, and E.",
+   "sourceText": null,
+   "scoringGuide": "AP Statistics FRQ 2 focuses on Sampling and Experimental Design, 4 points. Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks: identify a sampling method or bias, describe how to implement random assignment/selection, explain the purpose of a control or of random assignment (to allow cause-and-effect / reduce confounding), and identify the scope of inference. Common failure: describing randomization vaguely (not replicable); confusing random sampling (generalizability) with random assignment (causation); stating the purpose of a design feature without the statistical reason.",
+   "rubric": [
+    {
+     "name": "Holistic score (E / P / I by part)",
+     "maxPoints": 4,
+     "criteria": "Judge each lettered part essentially correct (E), partially correct (P), or incorrect (I) per the scoring guideline, then convert the part scores to an integer 0–4 exactly as the AP Statistics conversion rule does. Communication, context, and justification count."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "4",
+     "summary": "Q2 scored 4/4 — all parts essentially correct: a replicable randomization description, the correct statistical purpose of the design feature, and the correct scope of inference. Full-credit model for the design question.",
+     "refId": "STATS:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "3",
+     "summary": "Q2 scored 3/4 — most parts correct with one partial, commonly a randomization description missing a replicable detail or a purpose stated without the full statistical reasoning. Illustrates a strong response one part short.",
+     "refId": "STATS:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "Q2 scored 1/4 — mostly incorrect/partial: vague randomization, or confusing random sampling with random assignment, and missing the design feature's purpose. Illustrates weak command of sampling/experimental-design principles.",
+     "refId": "STATS:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-statistics-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Free Response",
+   "topic": "Probability and Sampling Distributions",
+   "teaser": "Ms. Fey is a manager at a restaurant. To improve the dining experience for her customers, she uses a digital music service to create a playlist of songs that will be played in the restaurant. The…",
+   "suggestedMinutes": 13,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-statistics/ap25-statistics-q3.pdf",
+   "pageCount": 1,
+   "promptText": "3. Ms. Fey is a manager at a restaurant. To improve the dining experience for her customers, she\nuses a digital music service to create a playlist of songs that will be played in the restaurant.\nThe playlist contains 1,000 songs and consists of four different types of music in the following\nquantities: 200 country songs, 400 pop songs, 100 rock songs, and 300 jazz songs. The digital\nmusic service will select songs at random from the playlist to be played in the restaurant. Any\nsong can be replayed at any time.\nA.\ni. Suppose one song is selected at random to be played. What is the probability that the\nsong is a rock song? Show your work.\nii. Suppose two songs are selected at random to be played. What is the probability that both\nsongs are rock songs? Show your work.\nB. In every one-hour period, 20 songs will be played at random and any song can be replayed at\nany time. Ms. Fey is interested in how many rock songs will be played in a typical one-hour\nperiod.\ni. Define the random variable of interest to Ms. Fey, and state how the random variable is\ndistributed.\nii. What is the expected value for the random variable in part B (i)? Show your work.\nC. Recall that in every one-hour period, 20 songs will be played at random and any song can be\nreplayed at any time.\ni. Determine the probability that 4 or more rock songs in a particular one-hour period will\nbe played. Show your work.\nii. Suppose 4 rock songs are played during a particular one-hour period. Does this provide\nstrong evidence that the song selection process was not truly random? Justify your\nanswer without performing an inference procedure.",
+   "sourceText": null,
+   "scoringGuide": "AP Statistics FRQ 3 focuses on Probability and Sampling Distributions, 4 points. Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks: compute a probability (using the correct model — binomial, normal, or a two-way table), describe or use a sampling distribution (mean, standard deviation, shape via CLT), and interpret a probability in context. Common failure: wrong probability model or parameters; not checking conditions for a normal approximation; computing a probability without showing the setup; interpretation without context.",
+   "rubric": [
+    {
+     "name": "Holistic score (E / P / I by part)",
+     "maxPoints": 4,
+     "criteria": "Judge each lettered part essentially correct (E), partially correct (P), or incorrect (I) per the scoring guideline, then convert the part scores to an integer 0–4 exactly as the AP Statistics conversion rule does. Communication, context, and justification count."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "4",
+     "summary": "Q3 scored 4/4 — all parts essentially correct: correct probability model and computation with setup, correct sampling-distribution parameters/shape, and a contextual interpretation. Full-credit model.",
+     "refId": "STATS:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "2",
+     "summary": "Q3 scored 2/4 — some parts partial: a probability computed with a setup error or without justifying the model, or a sampling-distribution description missing shape/conditions. Illustrates partial command of the probability tasks.",
+     "refId": "STATS:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "Q3 scored 1/4 — mostly incorrect: wrong probability model/parameters and no valid sampling-distribution reasoning. Illustrates a response that cannot set up the probability correctly.",
+     "refId": "STATS:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-statistics-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Free Response",
+   "topic": "Inference",
+   "teaser": "A software application (app) lets users enter questions to receive answers in the form of images, texts, or videos. Research indicates that 22 percent of high school students in Country W use the…",
+   "suggestedMinutes": 13,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-statistics/ap25-statistics-q4.pdf",
+   "pageCount": 1,
+   "promptText": "4. A software application (app) lets users enter questions to receive answers in the form of images,\ntexts, or videos. Research indicates that 22 percent of high school students in Country W use the\napp to help them with their homework at least once per week. Karen is an AP Statistics student\nin Country W at a high school that has more than 2,000 students. She believes the proportion of\nall students at her school who use the app to help them with their homework at least once per\nweek is greater than the proportion for her country. To investigate her belief, she took a simple\nrandom sample of 130 students from her school and found that 38 of the sampled students use\nthe app to help them with their homework at least once per week.\nIs there convincing statistical evidence, at a 0.05 significance level, to support Karen’s belief?\nJustify your answer with the appropriate inference procedure.",
+   "sourceText": null,
+   "scoringGuide": "AP Statistics FRQ 4 focuses on Inference, 4 points. Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks: state hypotheses, identify and check conditions for the appropriate procedure (t-test, z-test, chi-square, or confidence interval), compute the test statistic/interval, and state a conclusion in context linked to the p-value/interval. Common failure: hypotheses about statistics rather than parameters; conditions listed but not verified with the data; a conclusion not linked to the p-value or not in context; wrong procedure.",
+   "rubric": [
+    {
+     "name": "Holistic score (E / P / I by part)",
+     "maxPoints": 4,
+     "criteria": "Judge each lettered part essentially correct (E), partially correct (P), or incorrect (I) per the scoring guideline, then convert the part scores to an integer 0–4 exactly as the AP Statistics conversion rule does. Communication, context, and justification count."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "4",
+     "summary": "Q4 scored 4/4 — all parts essentially correct: parameter hypotheses, verified conditions, correct test statistic/interval, and a contextual conclusion linked to the p-value/interval. Full-credit model for the inference question.",
+     "refId": "STATS:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "3",
+     "summary": "Q4 scored 3/4 — most parts correct with one partial, commonly conditions stated but not verified with the data, or a conclusion missing full context/linkage to the p-value. Illustrates a strong inference response one part short.",
+     "refId": "STATS:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "Q4 scored 1/4 — mostly incorrect/partial: hypotheses about statistics, unverified conditions, or a conclusion not linked to the p-value/context. Illustrates weak command of the inference procedure.",
+     "refId": "STATS:q4:2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-statistics-q5",
+   "set": null,
+   "label": "Q5",
+   "section": null,
+   "essayType": "Free Response",
+   "topic": "Multi-Focus",
+   "teaser": "According to a 2017 national survey in Country B, the mean number of bedrooms in newly built houses was 2.9. Rodney, a researcher , believes the mean number of bedrooms in newly built houses in…",
+   "suggestedMinutes": 13,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-statistics/ap25-statistics-q5.pdf",
+   "pageCount": 1,
+   "promptText": "5. According to a 2017 national survey in Country B, the mean number of bedrooms in newly built\nhouses was 2.9. Rodney, a researcher , believes the mean number of bedrooms in newly built\nhouses in the country was different in 2024 than it was in 2017. To investigate his belief, he took\na large random sample of newly built houses in Country B in 2024 and recorded the number of\nbedrooms in each house. The distribution of the number of bedrooms for the sampled houses is\nsummarized in the table.\nDistribution of the Number of Bedrooms for the Houses Sampled in 2024\nNumber of Bedrooms 1 2 3 4 5 6\nProportion of Houses 0.12 0.22 0.28 0.22 0.14 0.02\nA.\ni. A house from the sample will be selected at random. What is the probability that the\nhouse had fewer than 3 bedrooms? Show your work.\nii. What is the mean number of bedrooms for the sample of newly built houses in 2024?\nShow your work.\nB. Rodney will use a one-sample t-test for a population mean to test his belief.\ni. In the context of Rodney’s investigation, state the hypotheses for the test.\nii. Explain, in context, what a Type I error would be for Rodney’s hypothesis test.\nC. A different researcher , Keisha, suggests using a confidence interval to investigate whether\nthe mean number of bedrooms in newly built houses in 2024 in Country B was different\nfrom 2.9.\nAssume the conditions for inference have been met. Using Rodney’s data, Keisha\ncalculated a one-sample 97 percent confidence interval to estimate the population mean\nas 30 131 9., ./g11/g12 . Based on the confidence interval, what conclusion can be made for Rodney’s\nhypothesis test in part B at /g68/g3200 3. ? Justify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Statistics FRQ 5 is Multi-Focus, 4 points, combining skills from multiple content areas (e.g., data analysis, probability, and inference in one scenario). Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks span reading/interpreting data or a model, a probability or expected-value computation, and a short inference or interpretation. Common failure: mishandling one of the linked skills (e.g., correct data reading but a flawed probability or inference step); interpretations without context; computations without setup.",
+   "rubric": [
+    {
+     "name": "Holistic score (E / P / I by part)",
+     "maxPoints": 4,
+     "criteria": "Judge each lettered part essentially correct (E), partially correct (P), or incorrect (I) per the scoring guideline, then convert the part scores to an integer 0–4 exactly as the AP Statistics conversion rule does. Communication, context, and justification count."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 5A",
+     "score": "4",
+     "summary": "Q5 scored 4/4 — all parts essentially correct across the multiple content areas, with correct computations (setup shown) and contextual interpretations. Full-credit model for the multi-focus question.",
+     "refId": "STATS:q5:2025-5A"
+    },
+    {
+     "label": "Sample 5B",
+     "score": "3",
+     "summary": "Q5 scored 3/4 — most parts correct with one partial, commonly one of the linked skills (a probability or inference step) incomplete or lacking context. Illustrates a strong multi-focus response one part short.",
+     "refId": "STATS:q5:2025-5B"
+    },
+    {
+     "label": "Sample 5C",
+     "score": "2",
+     "summary": "Q5 scored 2/4 — some parts partial: handled one content area but mishandled another (e.g., correct data reading but flawed probability/inference), or omitted context/setup. Illustrates uneven command across the linked skills.",
+     "refId": "STATS:q5:2025-5C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-statistics-q6",
+   "set": null,
+   "label": "Q6",
+   "section": null,
+   "essayType": "Investigative Task",
+   "topic": "",
+   "teaser": "Stefan, a psychologist, conducted a study to investigate the effect of time of day on reading comprehension in children. One hundred children volunteered, with their parents’ consent, to…",
+   "suggestedMinutes": 25,
+   "totalPoints": 4,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-statistics/ap25-statistics-q6.pdf",
+   "pageCount": 2,
+   "promptText": "6. Stefan, a psychologist, conducted a study to investigate the effect of time of day on reading\ncomprehension in children. One hundred children volunteered, with their parents’ consent, to\nparticipate in the study. Fifty of the children were randomly assigned to read a story at 9 a.m.\nand then answer 25 questions about it. The remaining 50 children were assigned to read the\nsame story at 3 p.m. and answer the same 25 questions. The reading comprehension for each\nchild was measured by a reading score, which was determined by the number of questions that\nwere answered correctly about the story. Stefan is interested in comparing the mean reading\nscores for the two times of day. Table 1 shows the results of Stefan’s study.\nTable 1: Summary Statistics of Reading Scores\nn Mean Standard Deviation\n9 a.m. 50 15.2 4.12\n3 p.m. 50 17.9 4.43\nStefan found the conditions for inference were met and conducted a two-sample t-test for the\ndifference in two population means. Let µAM represent the mean reading score for all children,\nsimilar to those in the study, who would read the story at 9 a.m. Let µPM represent the mean\nreading score for all children, similar to those in the study, who would read the story at 3 p.m.\nStefan’s hypotheses are as shown.\n:H µµ0 AM PM=\n:H µµaA MP M!\nA. The p-value for Stefan’s hypothesis test was 0.002. State an appropriate conclusion, at the\n5 percent significance level, for Stefan’s test in the context of the investigation. Justify your\nanswer .\nB. Explain why it was appropriate for Stefan to conduct a two-sample t-test for the difference in\ntwo population means instead of a paired t-test for the population mean difference.\nC. Researchers are usually interested in the practical importance of their results as well as the\nstatistical significance of the hypothesis test. The practical importance of the results indicates\nwhether the observed results are meaningful in real life. For example, in an investigation\nof the heights of two groups of students, a difference in the two group means of 3.8 inches\nis much more meaningful, or has more practical importance, than a difference in the two\ngroup means of only 0.2 inches.\nOne indicator of practical importance is effect size. A common method for measuring effect\nsize for the difference in two group means is Cohen’s d coefficient. Cohen’s d coefficient\ncompares the absolute value of the difference in the means of the two groups to the pooled\nvariability of the observed data values from the two groups.\nCohen’s d coefficient can be calculated using d xx\nsp\n/g32/g1612 , where sp represents the pooled\nstandard deviation, x1 represents the sample mean for the first group, and x2 represents the\nsample mean for the second group. When the sizes of the groups are equal, sp is calculated\nas s ss\np /g32 /g141\n2\n2\n2\n2\n, where s1 represents the sample standard deviation for the first group and\ns2 represents the sample standard deviation for the second group.\nConsider the summary statistics from Stefan’s study in Table 1.\ni. Calculate Cohen’s d coefficient for Stefan’s study. Show your work.\nii. Higher values of Cohen’s d indicate greater practical importance and lower values of\nCohen’s d indicate less practical importance. Typically, we use the intervals listed in Table\n2 to help interpret practical importance.\nTable 2: Guidelines for Interpreting Cohen’s d Coefficient\nCohen’s d Coefficient Practical Importance\n00 20≤≤d . Not very meaningful in real life\n02 00 80.. <<d Somewhat meaningful in real life\nd ≥ 08 0. Very meaningful in real life\nBased on your answer to part C (i) and the information in Tables 1 and 2, describe the\npractical importance of Stefan’s results, in context.",
+   "sourceText": null,
+   "scoringGuide": "AP Statistics FRQ 6 is the Investigative Task, 4 points, extending familiar statistics into a novel situation that requires reasoning beyond the standard procedures. Each lettered part is scored E/P/I and combined into an integer 0–4. Typical tasks: analyze given data with standard tools, then apply or derive a new method/quantity the course did not directly teach, and justify the reasoning. Common failure: stopping at the routine parts and not attempting the novel extension; a new-method attempt without justification; interpretations without context. This question is the most discriminating and often the lowest-scoring.",
+   "rubric": [
+    {
+     "name": "Holistic score (E / P / I by part)",
+     "maxPoints": 4,
+     "criteria": "Judge each lettered part essentially correct (E), partially correct (P), or incorrect (I) per the scoring guideline, then convert the part scores to an integer 0–4 exactly as the AP Statistics conversion rule does. Communication, context, and justification count."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 6A",
+     "score": "4",
+     "summary": "Q6 scored 4/4 — all parts essentially correct, including the novel extension with sound justification and contextual interpretation. Full-credit model for the Investigative Task.",
+     "refId": "STATS:q6:2025-6A"
+    },
+    {
+     "label": "Sample 6B",
+     "score": "2",
+     "summary": "Q6 scored 2/4 — earned the routine analysis parts but only partially handled the novel extension (attempted without full justification, or with a reasoning gap). Illustrates the common Investigative-Task ceiling — solid on the familiar, incomplete on the new method.",
+     "refId": "STATS:q6:2025-6B"
+    },
+    {
+     "label": "Sample 6C",
+     "score": "1",
+     "summary": "Q6 scored 1/4 — completed only part of the routine analysis and did not attempt (or badly mishandled) the novel extension. Illustrates a response that cannot reason beyond standard procedures.",
+     "refId": "STATS:q6:2025-6C"
+    }
+   ]
+  }
+ ]
+}

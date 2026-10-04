@@ -30,7 +30,8 @@
       "scoreBand": "6",
       "refId": "APLANG:synthesis:2025-set1-1A",
       "title": "Synthesis exemplar — Sample 1A, score 1-4-1 (6/6)",
-      "content": "Synthesis essay scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible position at end of paragraph 1 — that agencies/nations should solve space junk by regulating the private space corporations most responsible for it. Evidence & Commentary (4): specific evidence supports all claims in a line of reasoning that prevention is achievable, e.g. Source E (Suomi NPP satellite nearly hit at 17,000 mph) and Source C (1977 Soviet satellite radioactive fallout over Canada); commentary consistently explains how evidence supports the reasoning. Sophistication (1): consistently identifies tensions across sources (conceding NOAA's 'rarely a concern' point while arguing even one incident is too much) and articulates limitations/implications (private companies may be more approachable than governments for junk removal)."
+      "content": "Synthesis essay scored 6/6 (Thesis 1, Evidence & Commentary 4, Sophistication 1). Thesis (1): defensible position at end of paragraph 1 — that agencies/nations should solve space junk by regulating the private space corporations most responsible for it. Evidence & Commentary (4): specific evidence supports all claims in a line of reasoning that prevention is achievable, e.g. Source E (Suomi NPP satellite nearly hit at 17,000 mph) and Source C (1977 Soviet satellite radioactive fallout over Canada); commentary consistently explains how evidence supports the reasoning. Sophistication (1): consistently identifies tensions across sources (conceding NOAA's 'rarely a concern' point while arguing even one incident is too much) and articulates limitations/implications (private companies may be more approachable than governments for junk removal).",
+      "promptId": "ap25-english-language-q1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -38,7 +39,8 @@
       "scoreBand": "5",
       "refId": "APLANG:synthesis:2025-set1-1B",
       "title": "Synthesis exemplar — Sample 1B, score 1-4-0 (5/6)",
-      "content": "Synthesis essay scored 5/6 (Thesis 1, Evidence & Commentary 4, Sophistication 0). Thesis (1): defensible position in paragraph 1 naming three factors — reducing satellites launched, mitigation via new science, and inter-nation communication. Evidence & Commentary (4): specific evidence supports all claims (ESA graph on 2020 satellite counts; Mosher & Kiersz graph, 16,000+ items from US/Russia/China); commentary consistently explains how the evidence supports the line of reasoning. Sophistication (0): not demonstrated — paragraph 2 has some complexity, but later paragraphs rely on more simplistic statements."
+      "content": "Synthesis essay scored 5/6 (Thesis 1, Evidence & Commentary 4, Sophistication 0). Thesis (1): defensible position in paragraph 1 naming three factors — reducing satellites launched, mitigation via new science, and inter-nation communication. Evidence & Commentary (4): specific evidence supports all claims (ESA graph on 2020 satellite counts; Mosher & Kiersz graph, 16,000+ items from US/Russia/China); commentary consistently explains how the evidence supports the line of reasoning. Sophistication (0): not demonstrated — paragraph 2 has some complexity, but later paragraphs rely on more simplistic statements.",
+      "promptId": "ap25-english-language-q1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -46,7 +48,8 @@
       "scoreBand": "3",
       "refId": "APLANG:synthesis:2025-set1-1C",
       "title": "Synthesis exemplar — Sample 1C, score 1-2-0 (3/6)",
-      "content": "Synthesis essay scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible position in paragraph 1 (factors to consider are how to remove debris safely and the sheer amount up there). Evidence & Commentary (2): relevant evidence from three sources (F, E, C); some specific (17,000 mph toward Suomi NPP) but mixed with broad generalities; commentary explains how some evidence relates to the argument but does not connect it to the claims, so no clear line of reasoning; includes simplistic explanations that don't strengthen the argument. Sophistication (0): not demonstrated."
+      "content": "Synthesis essay scored 3/6 (Thesis 1, Evidence & Commentary 2, Sophistication 0). Thesis (1): defensible position in paragraph 1 (factors to consider are how to remove debris safely and the sheer amount up there). Evidence & Commentary (2): relevant evidence from three sources (F, E, C); some specific (17,000 mph toward Suomi NPP) but mixed with broad generalities; commentary explains how some evidence relates to the argument but does not connect it to the claims, so no clear line of reasoning; includes simplistic explanations that don't strengthen the argument. Sophistication (0): not demonstrated.",
+      "promptId": "ap25-english-language-q1-set-1"
     }
   ]
 }

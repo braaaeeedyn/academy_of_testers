@@ -267,7 +267,8 @@ public class FrqGradingService {
             + " high-band exemplars demonstrate. Do not reserve the hardest points — the top"
             + " evidence-and-commentary point and the sophistication point — for flawless essays;"
             + " AP readers award them to strong-but-imperfect responses, so essays that resemble the"
-            + " high-band exemplars should reach totals of 5 or 6, and weak ones should reach 0-2.\n\n"
+            + " high-band exemplars should reach totals at or near the maximum, and weak ones near"
+            + " zero.\n\n"
             + "For every rubric row, decide the integer points earned (0 to that row's max) and"
             + " write a specific 1-3 sentence justification that quotes or points to what the"
             + " student did or failed to do. Do not be vague. Then write overall feedback, 2-4"
@@ -285,8 +286,9 @@ public class FrqGradingService {
               + " and align your points on each row to how those exemplars were scored, applying the"
               + " cited rubric clause's decision rules. Use the whole scale — if the response matches"
               + " a high-band exemplar, award the high scores (including the top row points and a"
-              + " total of 5-6); if it matches a low-band exemplar, award low scores. Do NOT cluster"
-              + " every response in the middle (3-4); a middling total should be a deliberate match"
+              + " total at or near the maximum); if it matches a low-band exemplar, award low scores."
+              + " Do NOT cluster every response in the middle of the scale; a middling total should"
+              + " be a deliberate match"
               + " to a mid-band exemplar, not a default. In each row set \"citation\" to the [id] of"
               + " the rubric clause or exemplar that most justifies your decision. Only cite ids that"
               + " appear in the retrieved context; if truly none applies, set \"citation\" to \"\".\n\n";
@@ -335,6 +337,12 @@ public class FrqGradingService {
         sb.append(": ").append(chunk.content()).append('\n');
       }
       sb.append('\n');
+    }
+
+    if (req.getScoringGuide() != null && !req.getScoringGuide().isBlank()) {
+      sb.append("OFFICIAL SCORING GUIDELINE FOR THIS QUESTION (answer key and point rules):\n")
+          .append(req.getScoringGuide())
+          .append("\n\n");
     }
 
     sb.append("OFFICIAL RUBRIC (grade each row strictly):\n");

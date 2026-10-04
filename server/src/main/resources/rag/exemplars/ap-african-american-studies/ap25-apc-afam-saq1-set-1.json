@@ -14,7 +14,8 @@
       "scoreBand": "4",
       "refId": "AFAM:saq1:2025-set1-1A",
       "title": "SAQ Q1 exemplar — Sample 1A, 4/4",
-      "content": "SAQ Q1 (text-based source) scored 4/4 (A 1, B 1, C 1, D 1). Every part completes its describe/explain task with defensible, on-source content. Model of full credit on a 4-part text-based SAQ."
+      "content": "SAQ Q1 (text-based source) scored 4/4 (A 1, B 1, C 1, D 1). Every part completes its describe/explain task with defensible, on-source content. Model of full credit on a 4-part text-based SAQ.",
+      "promptId": "ap25-afam-saq1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +23,8 @@
       "scoreBand": "2",
       "refId": "AFAM:saq1:2025-set1-1B",
       "title": "SAQ Q1 exemplar — Sample 1B, 2/4",
-      "content": "SAQ Q1 scored 2/4 (A 1, B 0, C 1, D 0). Parts A and C earn credit; B and D fail (evidence/explanation is off-topic, inaccurate, or does not complete the task). Because parts are independent, the earned points can be non-contiguous."
+      "content": "SAQ Q1 scored 2/4 (A 1, B 0, C 1, D 0). Parts A and C earn credit; B and D fail (evidence/explanation is off-topic, inaccurate, or does not complete the task). Because parts are independent, the earned points can be non-contiguous.",
+      "promptId": "ap25-afam-saq1-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +32,8 @@
       "scoreBand": "1",
       "refId": "AFAM:saq1:2025-set1-1C",
       "title": "SAQ Q1 exemplar — Sample 1C, 1/4",
-      "content": "SAQ Q1 scored 1/4 (A 1, B 0, C 0, D 0). Only Part A (describe a claim) earns credit; the remaining parts do not complete their describe/explain tasks with defensible content."
+      "content": "SAQ Q1 scored 1/4 (A 1, B 0, C 0, D 0). Only Part A (describe a claim) earns credit; the remaining parts do not complete their describe/explain tasks with defensible content.",
+      "promptId": "ap25-afam-saq1-set-1"
     }
   ]
 }

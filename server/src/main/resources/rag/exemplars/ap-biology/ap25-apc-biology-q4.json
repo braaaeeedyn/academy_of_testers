@@ -6,7 +6,8 @@
       "dimension": "q4-conceptual-analysis",
       "refId": "BIO:q4:rubric",
       "title": "Q4 — Conceptual Analysis (4 points)",
-      "content": "AP Biology Q4 (short FRQ, Conceptual Analysis), 4 points, one per part. Context: formation of the Isthmus of Panama splitting Caribbean and Pacific marine habitats and connecting North and South America. A: describe genetic evidence that evolution is occurring in a population (changes in allele/gene frequencies; heritable changes in phenotype). B: explain how isolation by a land barrier leads to divergent evolution (reproductive isolation / lack of gene flow / allopatric speciation; different selective pressures select for different alleles/phenotypes). C: predict the effect of the isthmus on resource availability for South American species (would decrease). D: justify the part-C prediction (more species now compete for the same resources, leaving fewer per individual). Common failure: part A omitting allele-frequency change; part B not naming reproductive isolation/lack of gene flow."
+      "content": "AP Biology Q4 (short FRQ, Conceptual Analysis), 4 points, one per part. Context: formation of the Isthmus of Panama splitting Caribbean and Pacific marine habitats and connecting North and South America. A: describe genetic evidence that evolution is occurring in a population (changes in allele/gene frequencies; heritable changes in phenotype). B: explain how isolation by a land barrier leads to divergent evolution (reproductive isolation / lack of gene flow / allopatric speciation; different selective pressures select for different alleles/phenotypes). C: predict the effect of the isthmus on resource availability for South American species (would decrease). D: justify the part-C prediction (more species now compete for the same resources, leaving fewer per individual). Common failure: part A omitting allele-frequency change; part B not naming reproductive isolation/lack of gene flow.",
+      "promptId": "ap25-biology-q4"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "4",
       "refId": "BIO:q4:2025-4A",
       "title": "Q4 exemplar — Sample 4A, 4/4",
-      "content": "Q4 scored 4/4. A: 'allele & genotype frequencies changing by generation.' B: 'isolation inhibits gene flow' between species. C: 'resource availability decreased.' D: 'species migrated South, which increased competition between species.' Full-credit model touching allele frequency, gene flow, and competition."
+      "content": "Q4 scored 4/4. A: 'allele & genotype frequencies changing by generation.' B: 'isolation inhibits gene flow' between species. C: 'resource availability decreased.' D: 'species migrated South, which increased competition between species.' Full-credit model touching allele frequency, gene flow, and competition.",
+      "promptId": "ap25-biology-q4"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "3",
       "refId": "BIO:q4:2025-4B",
       "title": "Q4 exemplar — Sample 4B, 3/4",
-      "content": "Q4 scored 3/4. Earned B (land barrier 'creates a reproductive barrier between species'), C ('resource availability decreased for South American species'), and D (migration 'increases competition'). Lost A: did not describe genetic evidence (allele-frequency change) for evolution. Shows the common part-A miss — describing evolution generally without the genetic marker."
+      "content": "Q4 scored 3/4. Earned B (land barrier 'creates a reproductive barrier between species'), C ('resource availability decreased for South American species'), and D (migration 'increases competition'). Lost A: did not describe genetic evidence (allele-frequency change) for evolution. Shows the common part-A miss — describing evolution generally without the genetic marker.",
+      "promptId": "ap25-biology-q4"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "2",
       "refId": "BIO:q4:2025-4C",
       "title": "Q4 exemplar — Sample 4C, 2/4",
-      "content": "Q4 scored 2/4. Earned C ('resource availability went down') and D ('more population competing for same resources causing availability to go down'). Lost A (no mention that allele frequencies change during evolution) and B (did not explain that geographic isolation produces reproductive isolation). Illustrates that the prediction/justification pair (C, D) is often earned even when the conceptual A/B points are not."
+      "content": "Q4 scored 2/4. Earned C ('resource availability went down') and D ('more population competing for same resources causing availability to go down'). Lost A (no mention that allele frequencies change during evolution) and B (did not explain that geographic isolation produces reproductive isolation). Illustrates that the prediction/justification pair (C, D) is often earned even when the conceptual A/B points are not.",
+      "promptId": "ap25-biology-q4"
     }
   ]
 }

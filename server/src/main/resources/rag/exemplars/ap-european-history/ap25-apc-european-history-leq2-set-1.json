@@ -6,7 +6,8 @@
       "dimension": "leq-long-essay-question",
       "refId": "EUROH:leq2:set1-rubric",
       "title": "LEQ — Long Essay Question (6 points) — Q2 Set 1: Reformation in England vs. France",
-      "content": "AP European History LEQ, 6 points, standardized rubric (Q2/Q3/Q4 are period options; students choose one). A Thesis/Claim [1]: a historically defensible thesis with a line of reasoning (intro or conclusion; not a restatement). B Contextualization [1]: describes a broader relevant historical context. C Evidence [0–2]: (1) provides at least two specific pieces of relevant historical evidence; (2) uses that evidence to support an argument in response to the prompt. D Analysis and Reasoning [0–2]: (1) uses a historical reasoning process (comparison, causation, or continuity/change) to frame or structure the argument; (1) demonstrates a complex understanding (e.g., nuance, corroboration/qualification/modification, multiple variables/perspectives). Q2 Set 1 prompt: evaluate the extent of differences between the Reformation in England and in France — a COMPARISON prompt. Common failure: contextualization that is too brief; evidence listed but not used to support the argument (earns 1 of 2); reasoning process named but complexity not demonstrated."
+      "content": "AP European History LEQ, 6 points, standardized rubric (Q2/Q3/Q4 are period options; students choose one). A Thesis/Claim [1]: a historically defensible thesis with a line of reasoning (intro or conclusion; not a restatement). B Contextualization [1]: describes a broader relevant historical context. C Evidence [0–2]: (1) provides at least two specific pieces of relevant historical evidence; (2) uses that evidence to support an argument in response to the prompt. D Analysis and Reasoning [0–2]: (1) uses a historical reasoning process (comparison, causation, or continuity/change) to frame or structure the argument; (1) demonstrates a complex understanding (e.g., nuance, corroboration/qualification/modification, multiple variables/perspectives). Q2 Set 1 prompt: evaluate the extent of differences between the Reformation in England and in France — a COMPARISON prompt. Common failure: contextualization that is too brief; evidence listed but not used to support the argument (earns 1 of 2); reasoning process named but complexity not demonstrated.",
+      "promptId": "ap25-european-history-leq2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "6",
       "refId": "EUROH:leq2:set1-2025-2A",
       "title": "LEQ Q2 Set 1 exemplar — Sample 2A, 6/6",
-      "content": "Q2 (Set 1) scored 6/6 (Thesis 1, Contextualization 1, Evidence 2, Analysis 2). Defensible comparative thesis, relevant contextualization, at least two specific pieces of evidence used to support the argument (Evidence 2), and both reasoning points — a comparison reasoning process plus a demonstrated complex understanding. Full-credit model for the LEQ."
+      "content": "Q2 (Set 1) scored 6/6 (Thesis 1, Contextualization 1, Evidence 2, Analysis 2). Defensible comparative thesis, relevant contextualization, at least two specific pieces of evidence used to support the argument (Evidence 2), and both reasoning points — a comparison reasoning process plus a demonstrated complex understanding. Full-credit model for the LEQ.",
+      "promptId": "ap25-european-history-leq2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "3",
       "refId": "EUROH:leq2:set1-2025-2B",
       "title": "LEQ Q2 Set 1 exemplar — Sample 2B, 3/6",
-      "content": "Q2 (Set 1) scored 3/6 (Thesis 1, Contextualization 0, Evidence 1, Analysis 1). Earned the thesis, one Evidence point (specific evidence but not fully used to support the argument), and one Analysis point (a reasoning process without complexity). Lost Contextualization (too brief/absent) and the second Evidence and Complexity points. Illustrates the common mid-range LEQ shape: thesis present, but weak context, partial evidence use, and no complexity."
+      "content": "Q2 (Set 1) scored 3/6 (Thesis 1, Contextualization 0, Evidence 1, Analysis 1). Earned the thesis, one Evidence point (specific evidence but not fully used to support the argument), and one Analysis point (a reasoning process without complexity). Lost Contextualization (too brief/absent) and the second Evidence and Complexity points. Illustrates the common mid-range LEQ shape: thesis present, but weak context, partial evidence use, and no complexity.",
+      "promptId": "ap25-european-history-leq2-set-1"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "2",
       "refId": "EUROH:leq2:set1-2025-2C",
       "title": "LEQ Q2 Set 1 exemplar — Sample 2C, 2/6",
-      "content": "Q2 (Set 1) scored 2/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis 1). Earned only the thesis and one Analysis point (attempted a reasoning process). Lost Contextualization, both Evidence points (no specific, used evidence), and the Complexity point. Illustrates a low LEQ that states a defensible claim but does not substantiate it with used evidence or context."
+      "content": "Q2 (Set 1) scored 2/6 (Thesis 1, Contextualization 0, Evidence 0, Analysis 1). Earned only the thesis and one Analysis point (attempted a reasoning process). Lost Contextualization, both Evidence points (no specific, used evidence), and the Complexity point. Illustrates a low LEQ that states a defensible claim but does not substantiate it with used evidence or context.",
+      "promptId": "ap25-european-history-leq2-set-1"
     }
   ]
 }

@@ -1,0 +1,223 @@
+{
+ "subjectName": "AP Physics 2",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-physics-2-q1",
+   "set": null,
+   "label": "Q1",
+   "section": null,
+   "essayType": "Mathematical Routines",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 20,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-2/ap25-physics-2-q1.pdf",
+   "pageCount": 3,
+   "promptText": "Question 1: Version J\n1. Very long Wire 1 carries current I in the directionx-+ along the line y 0= . Very long Wire 2\ncarries current I in the directionx-+ along the line yd=+ . Point P is located along Wire 1 at\nthe origin, as shown in Figure 1. The diameters of the wires are small compared to the distance\nbetween the wires. Both wires are in the xy-plane.\nFigure 1\nA.\ni. Complete the following tasks in figures 2 and 3. Use either arrows or the symbols shown\nin the box above the figures for your response.\n• Indicate the direction of the magnetic field from Wire 2 at Point P in Figure 2.\n• Indicate the direction of the magnetic force that is exerted on Wire 1 by Wire 2 in\nFigure 3.\nii. Very long Wire 3 carrying current 2I in the directionx-+ is placed in the xy-plane along\nthe line yy 3= . The net magnetic force exerted on Wire 1 by the currents in wires 2 and 3\nis zero.\nDerive an expression for y3 in terms of d. Begin your derivation by writing a\nfundamental physics principle or an equation from the reference information.\nB. Wire 3 is moved very far away from wires 1 and 2. A circular conducting loop in the\nxy-plane is initially held at rest below Wire 1. The loop is then moved at a constant speed in\nthe directiony-- , as shown in Figure 4.\nFigure 4\nIndicate whether there is a clockwise induced current in the loop, a counterclockwise\ninduced current in the loop, or no induced current in the loop.\n______ Clockwise\n______ Counterclockwise\n______ There is no induced current in the loop.\nJustify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Physics 2 FRQ 1 is Mathematical Routines (MR), 10 points, scored by lettered sub-points (A1, A2, …). The MR task requires multi-step derivations/calculations with correct physics relationships, substitutions, and expressions consistent across parts. Q1 topic: magnetism and current (magnetic force/field on a current-carrying element). Points reward writing the correct governing relationship, correct substitutions, and final expressions consistent with earlier parts. Common failure: omitting the intermediate relationship; sign/direction errors in the magnetic force; expressions inconsistent with prior parts.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 7,
+     "criteria": "Award 0–7 points for part A exactly as the official 2025 scoring guideline for this question specifies. A1,; A2, …). The MR task requires multi-step derivations/calculations with correct physics relationships, substitutions, and expressions consistent across parts. Q1 topic: magnetism and current (magnetic force/field on a current-carrying element). Points reward writing the correct governing relationship, correct substitutions, and final expressions consistent with earlier parts"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "10",
+     "summary": "Q1 (MR) scored 10/10 — all sub-points, with correct magnetism relationships, substitutions, and consistent final expressions. Full-credit model.",
+     "refId": "PHYS2:q1:2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "7",
+     "summary": "Q1 (MR) scored 7/10 — earned most sub-points but lost a few, typically a later derivation step or a consistency-dependent final expression. Illustrates a strong routine with a break late in the chain.",
+     "refId": "PHYS2:q1:2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "4",
+     "summary": "Q1 (MR) scored 4/10 — earned the setup and one or two relationships but not the full multistep derivation or the consistent final expressions. Illustrates a partially completed mathematical routine.",
+     "refId": "PHYS2:q1:2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-2-q2",
+   "set": null,
+   "label": "Q2",
+   "section": null,
+   "essayType": "Translation Between Representations",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 35,
+   "totalPoints": 12,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-2/ap25-physics-2-q2.pdf",
+   "pageCount": 2,
+   "promptText": "Question 2: Version J\n2. A sample of a monatomic ideal gas is sealed in a thermally conducting container by a movable\npiston of mass M and area A. The container is in a large water bath that is held at a constant\ntemperature T0. The piston is free to move with negligible friction. At the instant shown, the gas\nis in thermal equilibrium with the water bath, the piston is at rest, and the gas occupies\nvolume V0. The pressure of the air above the piston is Patm .\nA. On the dot shown, representing the piston, draw and label the forces that are exerted on the\npiston. Each force must be represented by a distinct arrow starting on, and pointing away\nfrom, the dot.\nB. Derive an expression for the internal energy of the gas in terms of M, A, V0, Patm , and\nphysical constants, as appropriate. Begin your derivation by writing a fundamental physics\nprinciple or an equation from the reference information.\nC. A block, also of mass M, is placed on the piston at time tt 0= and is slowly lowered. The\npiston comes to rest at tt f= when the block is completely released.\nOn the axes provided, sketch the expected relationship between the pressure P and\nvolume V of the gas for the thermodynamic process that the gas undergoes during time\ninterval tt tf0 ## . Draw an arrow on your sketch to represent the direction of the\nthermodynamic process.\nD. With the block still on the piston, the temperature of the water bath is changed to a new\nconstant temperature Tnew. The gas occupies the original volume V0 when the sample of gas\nand the water bath come to thermal equilibrium.\nIndicate whether Tnew is greater than, less than, or equal to T0.\n______ TT > 0new\n______ TT < 0new\n______ TT 0new =\nBriefly justify your answer by referencing at least one feature of your answers to parts A, B,\nor C.",
+   "sourceText": null,
+   "scoringGuide": "AP Physics 2 FRQ 2 is Translation Between Representations (TBR), 12 points, scored by lettered sub-points. The TBR task requires moving among words, equations, graphs, diagrams, and data and keeping them consistent. Q2 topic: an ideal gas — pressure, volume, and energy (thermodynamic process, e.g., a PV diagram). Points reward: correct PV-diagram or process representation, correct equations (ideal gas law, first law of thermodynamics), correctly labeled graphs, and quantitative results consistent across representations. Common failure: mislabeled PV axes or wrong process path; sign errors in work/heat; an equation inconsistent with the diagram.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "12",
+     "summary": "Q2 (TBR) scored 12/12 — all representations correct and consistent: PV diagram/process, thermodynamic equations, labeled graphs, and agreeing quantitative results. Full-credit model.",
+     "refId": "PHYS2:q2:2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "9",
+     "summary": "Q2 (TBR) scored 9/12 — earned most representation points but lost a few, commonly a graph feature or a sign error in the first-law energy accounting. Illustrates a strong response with a couple of translation slips.",
+     "refId": "PHYS2:q2:2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "5",
+     "summary": "Q2 (TBR) scored 5/12 — earned under half the representation points, losing much of the graph/equation translation and the consistent quantitative results. Illustrates a response that handles some representations but cannot keep them consistent.",
+     "refId": "PHYS2:q2:2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-2-q3",
+   "set": null,
+   "label": "Q3",
+   "section": null,
+   "essayType": "Experimental Design and Analysis",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 25,
+   "totalPoints": 10,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-2/ap25-physics-2-q3.pdf",
+   "pageCount": 3,
+   "promptText": "Question 3\n3. In Experiment 1, a student is given a resistor of unknown resistance and an air-filled parallel-\nplate capacitor of unknown capacitance. The student is asked to predict the expected time\nconstant x of a circuit if these two circuit elements were connected in series with a battery.\nThe student has access to a battery of known emf, a switch, an ammeter , a ruler , and wires, as\nshown in Figure 1. The plates of the capacitor are square, and the separation between the plates\nis small compared to the dimensions of the plates. The capacitor is initially uncharged. Assume\nthat the dielectric constant of air is 1.\nFigure 1\nA. Describe a procedure for collecting data that would allow the student to determine the\nexpected time constant x. In your description, include the measurements to be made.\nInclude any steps necessary to reduce experimental uncertainty.\nB. Describe how the collected data could be analyzed to determine x. Include references to\nappropriate equations and to relationships between measured and known quantities.\nC. In Experiment 2, the student is asked to determine the capacitance C of a new parallel-\nplate capacitor . For each trial, the absolute value VT of the potential difference across the\ncapacitor is varied and the charge q stored on one plate of the fully charged capacitor is\nmeasured. Table 1 contains the data collected.\nTable 1\n()VV T Cq 10 × 10-_i\n3.0 2.4\n5.0 4.2\n7.2 5.6\n8.0 6.6\n10.0 8.0\ni. Indicate two quantities, either measured quantities from Table 1 or additional calculated\nquantities, that could be graphed to produce a straight line that could be used to\ndetermine C.\nVertical axis: ______ Horizontal axis: ______\nii. On the grid provided, create a graph of the quantities indicated in part C (i).\n• Use Table 2 to record the measured or calculated quantities that you will plot.\n• Clearly label the axes, including units as appropriate.\n• Plot the points you recorded in Table 2.\niii. Draw a best-fit line for the data graphed in part C (ii).\nD. Using the best-fit line that you drew in part C (iii), calculate an experimental value for\ncapacitance C.",
+   "sourceText": null,
+   "scoringGuide": "AP Physics 2 FRQ 3 is Experimental Design and Analysis (LAB), 10 points, scored by lettered sub-points. The LAB task requires designing a procedure (measurements, equipment, controls), planning a linearizing analysis, and reasoning from data/graphs to a conclusion. Q3 topic: an electric-circuit experiment with a capacitor and resistors (e.g., RC charging/discharging or resistance measurement). Points reward: a valid, replicable procedure with correct electrical measurements; a correct graphing/linearization plan; correct slope/intercept interpretation; and data-supported conclusions. Common failure: a procedure missing a needed measurement (e.g., time or voltage); plotting quantities that do not linearize the relationship; conclusions unsupported by the data.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 4,
+     "criteria": "Award 0–4 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part D",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part D exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "10",
+     "summary": "Q3 (LAB) scored 10/10 — complete procedure, correct linearizing graph plan, correct slope/intercept interpretation, and data-supported conclusions. Full-credit model.",
+     "refId": "PHYS2:q3:2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "8",
+     "summary": "Q3 (LAB) scored 8/10 — earned most sub-points, losing a couple where the linearization or the data-based reasoning was incomplete. Illustrates a strong experimental design with a minor analysis gap.",
+     "refId": "PHYS2:q3:2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "5",
+     "summary": "Q3 (LAB) scored 5/10 — earned about half, typically the procedure and some data handling but not the correct linearization or fully data-supported reasoning. Illustrates a partially complete lab design.",
+     "refId": "PHYS2:q3:2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-physics-2-q4",
+   "set": null,
+   "label": "Q4",
+   "section": null,
+   "essayType": "Qualitative/Quantitative Translation",
+   "topic": "",
+   "teaser": null,
+   "suggestedMinutes": 20,
+   "totalPoints": 8,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-physics-2/ap25-physics-2-q4.pdf",
+   "pageCount": 1,
+   "promptText": "Question 4\n4. Two narrow slits are a distance d apart. A screen is a distance L from the midpoint of the slits,\nwhere Ld& . When a laser emits monochromatic light toward the slits, a pattern of narrow\nbright and dark bands is observed on the screen. The centers of bright bands A and B are\nindicated. Three additional bright bands, including the central bright band, are observed on the\nscreen between bands A and B, as shown.\nA student claims that the distance between the center of Band A and the center of the central\nbright band is smaller when using a laser that emits violet light than when using a laser that\nemits red light.\nA. Indicate whether the student’s claim is correct or incorrect. Without manipulating\nequations, justify your answer by referencing the difference in path length traveled by the\nlight from each slit to the center of Band A.\nB. Derive an expression for the distance between the centers of bands A and B when light of\nfrequency f is emitted toward the slits. Express your answer in terms of d, L, f, and physical\nconstants, as appropriate. Begin your derivation by writing a fundamental physics principle\nor an equation from the reference information.\nC. Indicate whether the expression you derived in part B is or is not consistent with your\nanswer from part A. Briefly justify your answer .",
+   "sourceText": null,
+   "scoringGuide": "AP Physics 2 FRQ 4 is Qualitative Quantitative Translation (QQT), 8 points, scored by lettered sub-points. The QQT task requires connecting qualitative reasoning with quantitative analysis around a claim. Q4 topic: waves (e.g., wave behavior, interference, or optics). Points reward: a correct claim/prediction, qualitative reasoning citing the relevant wave principle, a consistent quantitative expression/derivation, and agreement between the qualitative and quantitative arguments. Common failure: a claim without a supporting principle; quantitative work inconsistent with the qualitative reasoning; misapplying the wave relationship.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part A exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 3,
+     "criteria": "Award 0–3 points for part B exactly as the official 2025 scoring guideline for this question specifies."
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 2,
+     "criteria": "Award 0–2 points for part C exactly as the official 2025 scoring guideline for this question specifies."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "7",
+     "summary": "Q4 (QQT) scored 7/8 — a correct claim, sound qualitative wave reasoning, and a mostly consistent quantitative argument, losing one sub-point on a minor inconsistency or incomplete step. Illustrates a near-complete qualitative–quantitative link.",
+     "refId": "PHYS2:q4:2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "6",
+     "summary": "Q4 (QQT) scored 6/8 — earned the claim and qualitative reasoning plus most of the quantitative argument, losing a couple of sub-points where the quantitative support was incomplete. Illustrates a solid response short of full consistency.",
+     "refId": "PHYS2:q4:2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "2",
+     "summary": "Q4 (QQT) scored 2/8 — earned only a couple of sub-points (e.g., a claim or one reasoning step), losing the principle-based reasoning and the quantitative support. Illustrates a response that cannot connect qualitative and quantitative wave reasoning.",
+     "refId": "PHYS2:q4:2025-4C"
+    }
+   ]
+  }
+ ]
+}

@@ -35,6 +35,14 @@ public class FrqGradeRequest {
   @Size(max = 120, message = "Prompt id is too long")
   private String promptId;
 
+  /**
+   * Optional official scoring guideline for this exact question (answer key + point rules). Sent by
+   * released-exam questions so grading never depends on retrieval succeeding; rubric rows can then
+   * stay short and point back to it.
+   */
+  @Size(max = 8000, message = "Scoring guide is too long")
+  private String scoringGuide;
+
   // Required for a normal (RAG) grade and enforced in FrqGradingService; omitted by the eval's
   // naive baseline arm (bypassGrounding=true), which grades with no rubric, so it is not @NotNull.
   @Size(min = 1, message = "Rubric must have at least one row")
@@ -89,6 +97,14 @@ public class FrqGradeRequest {
 
   public void setPromptId(String promptId) {
     this.promptId = promptId;
+  }
+
+  public String getScoringGuide() {
+    return scoringGuide;
+  }
+
+  public void setScoringGuide(String scoringGuide) {
+    this.scoringGuide = scoringGuide;
   }
 
   public List<RubricRow> getRubric() {

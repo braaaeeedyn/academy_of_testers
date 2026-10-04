@@ -6,7 +6,8 @@
       "dimension": "q3-scotus-comparison",
       "refId": "USGOV:q3-set2:rubric",
       "title": "Q3 SCOTUS Comparison (4 points) — Set 2: Shaw v. Reno",
-      "content": "AP Government FRQ 3, SCOTUS Comparison, 4 points, comparing the required case Shaw v. Reno with a non-required case in the prompt. A [1] identify the common constitutional clause/provision at the basis of both decisions. B [2] explain how the facts of the two cases led to different (or similar) holdings (two points). C [1] explain how the holding relates to a course concept or affects policy/politics. Same 1-2-1 point structure as Set 1. Common failure: wrong shared clause in A; facts described without linking to the holdings (B); describing rather than explaining the concept in C."
+      "content": "AP Government FRQ 3, SCOTUS Comparison, 4 points, comparing the required case Shaw v. Reno with a non-required case in the prompt. A [1] identify the common constitutional clause/provision at the basis of both decisions. B [2] explain how the facts of the two cases led to different (or similar) holdings (two points). C [1] explain how the holding relates to a course concept or affects policy/politics. Same 1-2-1 point structure as Set 1. Common failure: wrong shared clause in A; facts described without linking to the holdings (B); describing rather than explaining the concept in C.",
+      "promptId": "ap25-us-go-po-q3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "4",
       "refId": "USGOV:q3-set2:2025-3A",
       "title": "Q3 Set 2 exemplar — Sample 3A, 4/4",
-      "content": "Q3 (Set 2) scored 4/4 (A 1, B 2, C 1). Identified the shared clause, explained how the two cases' facts produced their holdings (both B points), and explained the holding's relationship to a course concept. Full-credit model."
+      "content": "Q3 (Set 2) scored 4/4 (A 1, B 2, C 1). Identified the shared clause, explained how the two cases' facts produced their holdings (both B points), and explained the holding's relationship to a course concept. Full-credit model.",
+      "promptId": "ap25-us-go-po-q3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "2",
       "refId": "USGOV:q3-set2:2025-3B",
       "title": "Q3 Set 2 exemplar — Sample 3B, 2/4",
-      "content": "Q3 (Set 2) scored 2/4 — typically earned A (shared clause) and one of the two B points, losing the second B point and C. Illustrates a response that identifies the clause and part of the comparison but cannot complete the facts-to-holdings link or apply the concept."
+      "content": "Q3 (Set 2) scored 2/4 — typically earned A (shared clause) and one of the two B points, losing the second B point and C. Illustrates a response that identifies the clause and part of the comparison but cannot complete the facts-to-holdings link or apply the concept.",
+      "promptId": "ap25-us-go-po-q3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "1",
       "refId": "USGOV:q3-set2:2025-3C",
       "title": "Q3 Set 2 exemplar — Sample 3C, 1/4",
-      "content": "Q3 (Set 2) scored 1/4 — earned only one point (typically A). Lost both B points (no valid facts-to-holdings comparison) and C. Illustrates a response confined to naming the shared clause."
+      "content": "Q3 (Set 2) scored 1/4 — earned only one point (typically A). Lost both B points (no valid facts-to-holdings comparison) and C. Illustrates a response confined to naming the shared clause.",
+      "promptId": "ap25-us-go-po-q3-set-2"
     }
   ]
 }

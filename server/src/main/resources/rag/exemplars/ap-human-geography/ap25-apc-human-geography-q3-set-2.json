@@ -6,7 +6,8 @@
       "dimension": "q3-two-stimuli",
       "refId": "HUGEO:q3-set2:rubric",
       "title": "Q3 Two Stimuli (7 points) — Set 2: boundaries & political organization (maps)",
-      "content": "AP Human Geography FRQ 3 (Two Stimuli, here maps of political divisions/boundaries), 7 points, parts A–G, one each, escalating skill. Set 2 answer key by part: A [1] identify the scale of analysis used for Finland's political divisions in Map 2; B [1] define geometric boundaries as shown in Map 1; C [1] describe a function of internal boundaries; D [1] explain how the spatial organization of a country such as Canada is affected by a factor; E [1] explain how the supranational organization shown in Map 2 may limit member-state actions; F [1] describe a characteristic of a cultural landscape that reflects cultural beliefs; G [1] explain how communication technologies affect cultural patterns. Common failure: confusing scale of analysis with map scale (A); define/describe without characteristics; explain answers lacking a how/why mechanism."
+      "content": "AP Human Geography FRQ 3 (Two Stimuli, here maps of political divisions/boundaries), 7 points, parts A–G, one each, escalating skill. Set 2 answer key by part: A [1] identify the scale of analysis used for Finland's political divisions in Map 2; B [1] define geometric boundaries as shown in Map 1; C [1] describe a function of internal boundaries; D [1] explain how the spatial organization of a country such as Canada is affected by a factor; E [1] explain how the supranational organization shown in Map 2 may limit member-state actions; F [1] describe a characteristic of a cultural landscape that reflects cultural beliefs; G [1] explain how communication technologies affect cultural patterns. Common failure: confusing scale of analysis with map scale (A); define/describe without characteristics; explain answers lacking a how/why mechanism.",
+      "promptId": "ap25-human-geography-q3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -14,7 +15,8 @@
       "scoreBand": "7",
       "refId": "HUGEO:q3-set2:2025-3A",
       "title": "Q3 Set 2 exemplar — Sample 3A, 7/7",
-      "content": "Q3 (Set 2) scored 7/7 — identified the scale of analysis, defined geometric boundaries, described an internal-boundary function, and explained spatial organization, supranational constraints, cultural landscape, and communication technologies. Full-credit model."
+      "content": "Q3 (Set 2) scored 7/7 — identified the scale of analysis, defined geometric boundaries, described an internal-boundary function, and explained spatial organization, supranational constraints, cultural landscape, and communication technologies. Full-credit model.",
+      "promptId": "ap25-human-geography-q3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -22,7 +24,8 @@
       "scoreBand": "6",
       "refId": "HUGEO:q3-set2:2025-3B",
       "title": "Q3 Set 2 exemplar — Sample 3B, 6/7",
-      "content": "Q3 (Set 2) scored 6/7 — earned six parts, missing one explain-level point where a how/why mechanism was incomplete (e.g., the supranational-constraint or cultural-patterns explanation). Illustrates a strong response one point short on a single explain task."
+      "content": "Q3 (Set 2) scored 6/7 — earned six parts, missing one explain-level point where a how/why mechanism was incomplete (e.g., the supranational-constraint or cultural-patterns explanation). Illustrates a strong response one point short on a single explain task.",
+      "promptId": "ap25-human-geography-q3-set-2"
     },
     {
       "corpus": "ap_exemplar",
@@ -30,7 +33,8 @@
       "scoreBand": "3",
       "refId": "HUGEO:q3-set2:2025-3C",
       "title": "Q3 Set 2 exemplar — Sample 3C, 3/7",
-      "content": "Q3 (Set 2) scored 3/7 — earned the identify/define/describe parts, losing the explain-level parts (spatial organization, supranational limits, communication technologies). Illustrates a response that handles lower-skill tasks but not mechanism-level explanation."
+      "content": "Q3 (Set 2) scored 3/7 — earned the identify/define/describe parts, losing the explain-level parts (spatial organization, supranational limits, communication technologies). Illustrates a response that handles lower-skill tasks but not mechanism-level explanation.",
+      "promptId": "ap25-human-geography-q3-set-2"
     }
   ]
 }

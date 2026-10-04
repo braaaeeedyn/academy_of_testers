@@ -1,0 +1,914 @@
+{
+ "subjectName": "AP World History",
+ "year": 2025,
+ "questions": [
+  {
+   "id": "ap25-world-history-saq1-set-1",
+   "set": 1,
+   "label": "SAQ 1",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Secondary Source",
+   "topic": "",
+   "teaser": "A. Identify one claim that the author makes in the first paragraph about the effect of the discovery of the Americas on Africa. B. Describe one economic change in the Americas that occurred as a…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-saq1-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "“Asia experienced a temporary gain from the discovery of America, but Africa suffered.\nAmerica had all the silver and gold Europe needed, and this destroyed the African gold markets\nand the dependent trade networks. Cities such as Timbuktu and the Songhai Empire of which it\nwas a part crumbled as merchants abandoned the ancient trade routes.\nTo replace the Mediterranean trade of cloth, beads, leather , and metals upon which the\nAfricans had become dependent, the Africans now had only one commodity that the Europeans\nwanted—slaves. For centuries the African merchants had sold a small but steady number of\nslaves to the Middle East, but with the decline of their traditional European trade and with the\nopening of America, the slave trade became a boom. The Africans thus became victims of the\ndiscovery of America as surely as did the American Indians.”\nSource: Jack Weatherford, United States anthropologist, academic book, 1988\n1. Respond to parts A, B, and C.\nA. Identify one claim that the author makes in the first paragraph about the effect of the\ndiscovery of the Americas on Africa.\nB. Describe one economic change in the Americas that occurred as a result of the developments\ndiscussed in the second paragraph.\nC. Explain one reason why “American Indians” “became victims of the discovery of America” as\nsuggested by the author in the last sentence of the passage.",
+   "sourceText": null,
+   "scoringGuide": "AP World History SAQ 1 (Secondary Source), 3 points, one per part A/B/C. 'Identify' = a correct answer; 'Describe' = relevant characteristics beyond a mention; 'Explain' = how or why. Set 1 prompts: A [1] identify one claim the author makes about the effect of a development; B [1] describe one economic change in the Americas that resulted; C [1] explain one reason 'American Indians became victims of the discovery of America.' Common failure: for A, quoting rather than stating the claim; for C, describing an effect without a causal explanation.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify one claim the author makes about the effect of a development"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe one economic change in the Americas that resulted"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one reason 'American Indians became victims of the discovery of America.'"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "3",
+     "summary": "SAQ 1 (Set 1) scored 3/3 (A 1, B 1, C 1). Identified the author's claim, described an economic change in the Americas, and explained a reason with a causal link. Full-credit model.",
+     "refId": "WORLDH:saq1:set1-2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "SAQ 1 (Set 1) scored 2/3 (A 1, B 0, C 1). Identified the claim (A) and explained a reason (C) but did not describe a valid economic change (B). Illustrates missing the middle describe part.",
+     "refId": "WORLDH:saq1:set1-2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "SAQ 1 (Set 1) scored 1/3 (A 0, B 0, C 1). Earned only C (explained a reason). Lost A (did not correctly identify the author's claim) and B (no valid economic change). Illustrates a response that explains a cause but misreads the source's claim.",
+     "refId": "WORLDH:saq1:set1-2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-saq2-set-1",
+   "set": 1,
+   "label": "SAQ 2",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Primary Source",
+   "topic": "nineteenth-century passage",
+   "teaser": "A. Identify one likely audience for the claims that the author makes in the passage. B. Describe one historical context during the nineteenth century that explains the increased poverty and misery…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-saq2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "“History teaches us that those who forget to think about themselves will be forgotten by others!\nIt is this principle that prompts me to publish a women’s newspaper .\nMy sisters, join me so that we shall not be left behind while everyone else around us is\npushing forward. We demand the right to cultivate our human potential and the right to act\nindependently in the state.\nWe want to spread the great ideas of liberty and humanity through every avenue open to us. To\nthe wider world, we want to spread these ideas through the press. Within the narrower world\nof our families, we want to spread these ideas through example, instruction, and child-rearing.\nWe want to earn our liberty and humanity, not by striving individually—each one for herself—\nbut rather by looking after those who languish forgotten and neglected in poverty, misery, and\nignorance—each for all.”\nSource: Louise Otto-Peters, German writer , first issue of the Women’s Newspaper , the first\nwomen’s newspaper published in Germany, 1849. The newspaper was banned by the\ngovernment in Saxony, Germany.\n2. Respond to parts A, B, and C.\nA. Identify one likely audience for the claims that the author makes in the passage.\nB. Describe one historical context during the nineteenth century that explains the increased\npoverty and misery referred to in the fourth paragraph.\nC. Explain how one ideology or set of ideas likely influenced the author’s claims in the passage.",
+   "sourceText": null,
+   "scoringGuide": "AP World History SAQ 2 (Primary Source), 3 points, one per part. Set 1 prompts: A [1] identify one likely audience for the author's claims; B [1] describe one historical context during the nineteenth century that explains the passage; C [1] explain how one ideology or set of ideas likely influenced the author's claims. 'Identify' = correct answer; 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: A naming the author instead of an audience; C naming an ideology without explaining its influence on the claims.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify one likely audience for the author's claims"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe one historical context during the nineteenth century that explains the passage"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how one ideology or set of ideas likely influenced the author's claims. 'Identify' = correct answer; 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "3",
+     "summary": "SAQ 2 (Set 1) scored 3/3 (A 1, B 1, C 1). Identified a likely audience, described a relevant nineteenth-century context, and explained how an ideology influenced the author's claims. Full-credit model.",
+     "refId": "WORLDH:saq2:set1-2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "2",
+     "summary": "SAQ 2 (Set 1) scored 2/3 (A 1, B 1, C 0). Identified the audience (A) and described a context (B) but did not explain how an ideology influenced the claims (C). Illustrates losing the Explain part.",
+     "refId": "WORLDH:saq2:set1-2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "SAQ 2 (Set 1) scored 1/3 (A 1, B 0, C 0). Identified an audience only. Lost B (no valid context) and C (no ideology explanation). Illustrates a response confined to identifying the audience.",
+     "refId": "WORLDH:saq2:set1-2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-saq3-set-1",
+   "set": 1,
+   "label": "SAQ 3",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "Muslim empires 1300–1600",
+   "teaser": "A. Identify one technological or military factor that contributed to the expansion of Muslim empires such as the Ottoman, Safavid, or Mughal Empires during the period circa 1300 to 1600. B.…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-saq3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. Respond to parts A, B, and C.\nA. Identify one technological or military factor that contributed to the expansion of Muslim\nempires such as the Ottoman, Safavid, or Mughal Empires during the period circa 1300 to\n1600.\nB. Explain one way that Muslim rulers during the period circa 1300 to 1600 used economic\npolicies to generate revenue for their states or empires.\nC. Explain one reason why some Muslim rulers during the period circa 1300 to 1600 adopted\ntolerant policies toward religious or ethnic minorities in their states or empires.",
+   "sourceText": null,
+   "scoringGuide": "AP World History SAQ 3 (No Stimulus), 3 points, one per part. Set 1 prompts: A [1] identify one technological or military factor that contributed to the expansion of Muslim empires; B [1] explain one way Muslim rulers c. 1300–1600 used economic policy (to consolidate/expand power); C [1] explain one reason some Muslim rulers c. 1300–1600 pursued a stated policy. 'Identify' = correct answer; 'Explain' = how/why. Common failure: vague identification without characteristics; explain parts that describe rather than give a how/why mechanism; out-of-period examples.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify one technological or military factor that contributed to the expansion of Muslim empires"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] explain one way Muslim rulers c. 1300–1600 used economic policy (to consolidate/expand power)"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one reason some Muslim rulers c. 1300–1600 pursued a stated policy. 'Identify' = correct answer; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "3",
+     "summary": "SAQ 3 (Set 1) scored 3/3 (A 1, B 1, C 1). Identified a technological/military factor and explained both the economic-policy use and the reason with causal links. Full-credit model.",
+     "refId": "WORLDH:saq3:set1-2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "2",
+     "summary": "SAQ 3 (Set 1) scored 2/3 (A 1, B 0, C 1). Identified a factor (A) and explained a reason (C) but did not earn the economic-policy explanation (B). Illustrates missing one Explain part.",
+     "refId": "WORLDH:saq3:set1-2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "SAQ 3 (Set 1) scored 1/3 (A 1, B 0, C 0). Identified a factor only. Lost both Explain parts (no causal economic-policy use, no reason). Illustrates a response that names a factor but cannot explain mechanisms.",
+     "refId": "WORLDH:saq3:set1-2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-saq4-set-1",
+   "set": 1,
+   "label": "SAQ 4",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "revolutions",
+   "teaser": "A. Identify one factor that contributed to the outbreak of revolutions in the period circa 1750 to 1900. B. Explain one way that revolutionary movements used ideologies in their attempts to change…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-saq4-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "4. Respond to parts A, B, and C.\nA. Identify one factor that contributed to the outbreak of revolutions in the period circa 1750 to\n1900.\nB. Explain one way that revolutionary movements used ideologies in their attempts to change\nsocieties during the period circa 1750 to 1900.\nC. Explain one way in which revolutionary movements were challenged as they attempted to\nchange societies during the period circa 1750 to 1900.",
+   "sourceText": null,
+   "scoringGuide": "AP World History SAQ 4 (No Stimulus), 3 points, one per part. Set 1 prompts: A [1] identify one factor that contributed to the outbreak of revolutions in the period; B [1] explain one way revolutionary movements used ideologies in their attempts to gain support/power; C [1] explain one way revolutionary movements were challenged as they attempted to enact change. 'Identify' = correct answer; 'Explain' = how/why. Common failure: vague identification; explain parts that describe rather than give a causal mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify one factor that contributed to the outbreak of revolutions in the period"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] explain one way revolutionary movements used ideologies in their attempts to gain support/power"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way revolutionary movements were challenged as they attempted to enact change. 'Identify' = correct answer; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "3",
+     "summary": "SAQ 4 (Set 1) scored 3/3 (A 1, B 1, C 1). Identified a factor behind revolutions and explained both an ideological use and a challenge revolutionary movements faced. Full-credit model.",
+     "refId": "WORLDH:saq4:set1-2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "2",
+     "summary": "SAQ 4 (Set 1) scored 2/3 (A 1, B 0, C 1). Identified a factor (A) and explained a challenge (C) but did not earn the ideology-use explanation (B). Illustrates missing one Explain part.",
+     "refId": "WORLDH:saq4:set1-2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "SAQ 4 (Set 1) scored 1/3 (A 1, B 0, C 0). Identified a factor only. Lost both Explain parts (no ideology use, no challenge). Illustrates a response that names a cause but cannot explain movements' ideologies or obstacles.",
+     "refId": "WORLDH:saq4:set1-2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-dbq-set-1",
+   "set": 1,
+   "label": "DBQ",
+   "section": "Section II",
+   "essayType": "Document-Based Question",
+   "topic": "Transportation/Communication Technologies in Africa",
+   "teaser": "Evaluate the extent to which new transportation and/or communication technologies affected African societies during the period circa 1850 to 1960. Note: The map shows some of the locations…",
+   "suggestedMinutes": 60,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-dbq-set-1.pdf",
+   "pageCount": 6,
+   "promptText": "1. Evaluate the extent to which new transportation and/or communication technologies affected\nAfrican societies during the period circa 1850 to 1960.\nNote: The map shows some of the locations mentioned in the documents and is provided as a\nreference. The map is NOT one of the seven documents.\nThe space for your response is below the map.\nIn your response you should do the following:\n• Respond to the prompt with a historically defensible thesis or claim that establishes a\nline of reasoning.\n• Describe a broader historical context relevant to the prompt.\n• Support an argument in response to the prompt using at least four documents.\n• Use at least one additional piece of specific historical evidence (beyond that found in the\ndocuments) relevant to an argument about the prompt.\n• For at least two documents, explain how or why the document’s point of view, purpose,\nhistorical situation, and/or audience is relevant to an argument.\n• Demonstrate a complex understanding of a historical development related to the prompt\nthrough sophisticated argumentation and/or effective use of evidence.\nDocument 1\nSource: Bai Bureh and other leaders of the Temne people in Sierra Leone (in West Africa), letter\nto the British colonial authorities of Sierra Leone, 1896\n“We received a letter from the colonial Governor sent to tell us that the British Queen now\ntakes the whole of Temne country. We read the Governor’s letter and we now know the law\nthat the Governor puts on us; namely, that we are to pay a tax on our houses each year so the\nGovernment can build roads and a rail line.1 ... But we must inform you that we are not able to\npay a tax for our own houses because we have no power and no money to do so. So please tell\nthe Governor we beg him not to impose the tax and to consider the old agreement he made with\nour fathers.”\n1: The British colonial authorities attempted to impose a “hut tax” on each African household in Sierra Leone to\nraise money for transportation projects.\nDocument 2\nSource: William Douglas Mackenzie, Protestant minister born in South Africa who later\nemigrated to the United States, image from his illustrated book South Africa: Its History, Heroes\nand Wars, published in Chicago, 1899\nThe photograph shows two African employees of the Kimberley Diamond mines in South Africa.\nThe caption reads: “GOING HOME FROM THE MINES. These two Bechuanas [members of the\nTswana people of southern Africa] have been working at Kimberley or Johannesburg, have\nreceived their pay in the golden coin of the British realm, and are traveling on their road from\n100 to 400 miles to their distant home. They carry a few trophies purchased in the great city, and\nreckon themselves as they approach their own town among the heroes and wise men of their\ntribe.”\nDocument 3\nSource: Exchange of telegrams between William Low, British colonial official in Gold Coast\n(present-day Ghana), and British Colonial Secretary Joseph Chamberlain in London, 1900\n“[April 30, 1900; Low to Chamberlain]: Update on the fighting against the Ashanti1 — Ashanti\nwarriors launched a serious attack on a telegraph clerk while he was repairing telegraph lines\nthat had previously been severed by the Ashanti. Other telegraph clerks report Ashanti troops\nhave effectively blockaded the main road to the city of Kumasi since April 25th. Government\ntroops from Lagos [in Nigeria] were sent to Kumasi. We hope that they will succeed in\nreopening communications.\n[May 1, 1900; Chamberlain to Low]: In response to your telegram of April 30th, we will be\nsending 250 more troops from southern Nigeria to Kumasi to counter Ashanti attacks. I will also\nsend 50 additional Frontier Police from Sierra Leone to the Ashanti territories for protection of\nBritish life and property.”\n1: The Ashanti Empire was an African state adjacent to the British Gold Coast colony, whose rulers fought five\nwars of resistance against British colonial expansion during the nineteenth century.\nDocument 4\nSource: Peninsular and Oriental Steam Navigation Company (P&O), a British shipping company\nthat provided passenger and freight service from Great Britain to many parts of the world, an\nadvertising brochure for travelers on P&O’s ships to Egypt, 1908\n“As we leave the ship at Alexandria and board the train to Cairo, we may observe simple farm\nand rural scenes but also, here and there, the huge new cotton mills that remind us that Egypt is\nprogressive and up to date.\nCairo has changed greatly since 1882,1 and it is inevitable that, in a country so closely in touch\nwith Western civilization, many traditional local shops have been replaced by storefronts with\nlarge windows displaying products of European industry. In the west end of Cairo huge hotels\nand commercial buildings have replaced the former delightful residences of the elite. In the\nhotels, the vibrant social life of modern Cairo is in full swing, making the city attractive to\nmany.”\n1: Beginning in 1882, Great Britain effectively controlled Egypt without formally colonizing the country.\nDocument 5\nSource: British Parliamentary Commission appointed to investigate the spread of tuberculosis\nin South Africa, report of its findings presented to the British Parliament, 1914\n“In those towns which were the first to be opened up by the railway, the disease of tuberculosis\nhas prevailed the longest and to the greatest extent.\nThe opening up of South Africa as a result of the development of diamond and gold mining has\nled to the creation of labor centers and the clustering of the African and mixed-race populations\nin towns and in separate workers’ quarters, where the conditions of housing and general health\nhave been bad in the extreme. For the first time, increasing numbers of Africans are crowding\ninto urban centers in search of work that dire economic conditions and expanding needs are\nforcing them to undertake.\nWith these changes have come changes in habits, in clothing, and in diet, the adoption of\nEuropean vices, and exposure to unhealthy conditions of labor in mines and elsewhere.... It is\nevident that the rise of industry has produced exactly those conditions that can best account for\nthe spread of tuberculosis in South Africa.”\nDocument 6\nSource: William Claridge and Hugh Clifford, British colonial officials employed in the colony\nof Gold Coast (present-day Ghana), A History of the Gold Coast and Ashanti, book published in\nLondon, 1915\n“The completion of the railway from [the port] of Sekondi to Kumasi in 1903 has been followed\nby the construction of another line from [the port of] Accra to the cocoa-bearing districts, and\nthese two lines have enormously facilitated trade. The first line has also been responsible for\nthe establishment of numerous European trading firms in Kumasi, which has become a great\ntrading center .\nThe abolition of the slave trade and the acquisition of most of the gold-bearing lands in the\ncolony by European entrepreneurs has caused the local people to seek work in timber , rubber\ncollecting, and agriculture, which the Government has encouraged by holding agricultural\nshows and providing traveling instructors to assist farmers with expert advice.\nA submarine cable to England was connected in July 1886, and telegraphic communication\nbetween different parts of the country has been extended even to the northern districts.”\nDocument 7\nSource: Toyin Falola, Nigerian historian and public intellectual, memoir about his childhood in\nthe 1950s and 1960s, published in 2004\n“The trains on which I sometimes took joy rides after skipping school were part of the changes\nthat the British had introduced to Nigeria before I was born. By the 1930s, the new railway\nsystem had connected Ibadan, my home city, to the rest of the country.\nIbadan was in the heartland of the cocoa-growing belt. Millions of coco",
+   "sourceText": "a bags were brought to\nthe city, to be carried by train to the port in Lagos for onward transmission to Europe. Ibadan\nwas also in the region producing palm oil and peanuts, which ended up in far-flung places such\nas New York and London....\nThe trains brought new settlers to Ibadan. They created new neighborhoods defined by\nethnicity, race, and education. The old city, whose native residents called each other ‘Mesiogo,’\nhad remained intact, but the new immigrants had established their own new city, which had\nbecome fully developed, well populated, and vibrant. The Mesiogo would travel from the old to\nthe new city to shop, buying goods from the Lebanese, Syrians, and Indians as well as from the\nIgbo, Edo, Urhobo, and Ibibio immigrants from other parts of Nigeria who had flocked to the\ncity. The new areas were the first to acquire the modern amenities of electricity and pipe-borne\nwater .”",
+   "scoringGuide": "AP World History DBQ, 7 points, standardized rubric. A Thesis/Claim [1]: a historically defensible thesis that responds to the prompt with a line of reasoning (intro or conclusion; not a restatement). B Contextualization [1]: describes a broader relevant historical context. C Evidence [0–3]: (1) uses the content of at least THREE documents to address the topic; (1) supports an argument using at least FOUR documents; (1) uses at least one piece of specific evidence BEYOND the documents. D Analysis and Reasoning [0–2]: (1) Sourcing — for at least TWO documents, explains how POV/purpose/situation/audience is relevant; (1) Complex Understanding — sophisticated argumentation and/or effective use of evidence (e.g., argument + counterargument across the documents). Set 1 prompt: evaluate transportation/communication technologies in Africa (7 documents). Common failure: three-document ceiling (loses the 4-doc point), no sourcing attempt, vague outside evidence.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning (not a restatement of the prompt)."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt — more than a passing phrase."
+    },
+    {
+     "name": "Evidence from the Documents",
+     "maxPoints": 2,
+     "criteria": "1 point: uses the content of at least three documents to address the topic. 2 points: supports an argument using at least four documents."
+    },
+    {
+     "name": "Evidence Beyond the Documents",
+     "maxPoints": 1,
+     "criteria": "Uses at least one additional piece of specific, relevant historical evidence not found in the documents to support the argument."
+    },
+    {
+     "name": "Sourcing",
+     "maxPoints": 1,
+     "criteria": "For at least two documents, explains how or why the document's point of view, purpose, historical situation, and/or audience is relevant to the argument."
+    },
+    {
+     "name": "Complex Understanding",
+     "maxPoints": 1,
+     "criteria": "Demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of the evidence. Rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "7",
+     "summary": "DBQ (Set 1) scored 7/7 (Thesis 1, Context 1, Evidence 3, Analysis 2). Defensible thesis; contextualization; used at least six documents (3-doc and 4-doc points) plus specific outside evidence; sourced at least two documents; and demonstrated a complex understanding via argument and counterargument. Full-credit model.",
+     "refId": "WORLDH:dbq:set1-2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "4",
+     "summary": "DBQ (Set 1) scored 4/7 (Thesis 1, Context 1, Evidence 2, Analysis 0). Earned the thesis, contextualization, the 3-document content point, and evidence beyond the documents, but lost the 4-document argument point and both Analysis points (no sourcing, no complexity). Illustrates the common ceiling — solid thesis/context/evidence with no document sourcing or complexity.",
+     "refId": "WORLDH:dbq:set1-2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "2",
+     "summary": "DBQ (Set 1) scored 2/7 (Thesis 1, Context 1, Evidence 0, Analysis 0). Earned only the thesis and contextualization; used too few documents for either evidence point, gave no valid outside evidence, and attempted no sourcing or complexity. Illustrates a response that frames an argument but does not deploy enough document evidence.",
+     "refId": "WORLDH:dbq:set1-2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-leq2-set-1",
+   "set": 1,
+   "label": "LEQ 2",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Belief Systems and Societies in Asia",
+   "teaser": "In the period circa 1200 to 1450, Buddhism, Hinduism, and Confucianism included ideas about social structures, gender roles, and political authority that influenced societies across Asia. Develop…",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-leq2-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "2. In the period circa 1200 to 1450, Buddhism, Hinduism, and Confucianism included ideas about\nsocial structures, gender roles, and political authority that influenced societies across Asia.\nDevelop an argument that evaluates the extent to which one or more of these belief systems\nshaped societies and/or political systems in Asia during this period.",
+   "sourceText": null,
+   "scoringGuide": "AP World History LEQ, 6 points, standardized rubric (Q2/Q3/Q4 are period options; students choose one). A Thesis/Claim [1]: defensible thesis with a line of reasoning. B Contextualization [1]: broader relevant context. C Evidence [0–2]: (1) at least two specific relevant pieces of evidence; (1) evidence used to support the argument. D Analysis and Reasoning [0–2]: (1) a reasoning process (comparison, causation, or continuity/change) frames the argument; (1) demonstrates a complex understanding. Q2 Set 1 prompt: belief systems and societies in Asia. Common failure: brief/absent contextualization; evidence listed but not used; reasoning process without complexity.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "6",
+     "summary": "Q2 (Set 1) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Defensible thesis, contextualization, two used pieces of evidence, and both reasoning points (a reasoning process plus complex understanding). Full-credit model.",
+     "refId": "WORLDH:leq2:set1-2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "4",
+     "summary": "Q2 (Set 1) scored 4/6 (Thesis 1, Context 0, Evidence 2, Analysis 1). Earned the thesis, both Evidence points, and one Analysis point (reasoning process). Lost Contextualization and the Complexity point. A common 4-point profile: strong thesis/evidence, weak context, no complexity.",
+     "refId": "WORLDH:leq2:set1-2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "Q2 (Set 1) scored 1/6 (Thesis 1, Context 0, Evidence 0, Analysis 0). Earned only the thesis. Lost contextualization, both Evidence points (no specific, used evidence), and both Analysis points. Illustrates a claim with no substantiation.",
+     "refId": "WORLDH:leq2:set1-2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-leq3-set-1",
+   "set": 1,
+   "label": "LEQ 3",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Economic Rivalries and Imperialism",
+   "teaser": "In the period circa 1450 to 1750, economic, political, and religious rivalries led many imperial states around the world to expand their territories and influence. Develop an argument that…",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-leq3-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "3. In the period circa 1450 to 1750, economic, political, and religious rivalries led many imperial\nstates around the world to expand their territories and influence.\nDevelop an argument that evaluates the extent to which economic rivalries were the primary\nmotivation for the expansion of European empires during this period.",
+   "sourceText": null,
+   "scoringGuide": "AP World History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (causation) (1), complex understanding (1). Q3 Set 1 prompt: economic rivalries and imperialism. Common failure: brief context; evidence not tied to the argument; reasoning without complexity.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "6",
+     "summary": "Q3 (Set 1) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model.",
+     "refId": "WORLDH:leq3:set1-2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "3",
+     "summary": "Q3 (Set 1) scored 3/6 (Thesis 1, Context 0, Evidence 1, Analysis 1). Earned the thesis, one Evidence point (specific evidence not fully used to support the argument), and one Analysis point (reasoning process). Lost contextualization, the second Evidence point, and the Complexity point. Illustrates a mid-low essay with a thesis and partial evidence/reasoning.",
+     "refId": "WORLDH:leq3:set1-2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "Q3 (Set 1) scored 1/6 (Thesis 1, Context 0, Evidence 0, Analysis 0). Earned only the thesis. Lost contextualization, both Evidence points, and both Analysis points. Illustrates a claim with no substantiation.",
+     "refId": "WORLDH:leq3:set1-2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-leq4-set-1",
+   "set": 1,
+   "label": "LEQ 4",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Discoveries and Benefits to Individuals/Societies",
+   "teaser": "During the twentieth century, medical and scientific discoveries affected life expectancies, access to resources, and social and economic structures, which reshaped individual lives as well as…",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-leq4-set-1.pdf",
+   "pageCount": 1,
+   "promptText": "4. During the twentieth century, medical and scientific discoveries affected life expectancies,\naccess to resources, and social and economic structures, which reshaped individual lives as well\nas entire societies.\nDevelop an argument that evaluates the extent to which medical and scientific discoveries\nbenefited individuals and/or societies during this period.",
+   "sourceText": null,
+   "scoringGuide": "AP World History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (causation/CCOT) (1), complex understanding (1). Q4 Set 1 prompt: discoveries and their benefits to individuals/societies. Common failure: brief context; evidence not tied to the argument; reasoning without complexity.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "6",
+     "summary": "Q4 (Set 1) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model.",
+     "refId": "WORLDH:leq4:set1-2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (Set 1) scored 4/6 (Thesis 1, Context 0, Evidence 2, Analysis 1). Earned the thesis, both Evidence points, and one Analysis point. Lost contextualization and the Complexity point. A common 4-point profile: strong thesis/evidence, weak context, no complexity.",
+     "refId": "WORLDH:leq4:set1-2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "Q4 (Set 1) scored 1/6 (Thesis 1, Context 0, Evidence 0, Analysis 0). Earned only the thesis. Lost contextualization, both Evidence points, and both Analysis points. Illustrates a claim with no substantiation.",
+     "refId": "WORLDH:leq4:set1-2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-saq1-set-2",
+   "set": 2,
+   "label": "SAQ 1",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Secondary Source",
+   "topic": "tea production",
+   "teaser": "A. Identify one argument the author makes regarding tea production in the late nineteenth and early twentieth centuries. B. Describe one likely reason for the change in tea imports to Britain, as…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-saq1-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "“Industrialization reduced [tea production] costs dramatically. In 1872 the production cost of a\npound of tea was roughly the same in India and China. [But] by 1913 the cost of production in\nIndia had fallen by three-quarters.... In the space of a few years China had been dethroned [by\nIndia] as Britain’s main supplier of tea.\nThe figures tell the story: Britain imported thirty-one thousand tons of tea from China in 1859,\nbut by 1899 that total had fallen to seven thousand tons, while imports from India had risen to\nnearly one hundred thousand tons. The rise of India’s tea industry had a devastating impact on\nChina’s tea farmers and further contributed to the instability of the country, which descended\ninto a chaotic period of rebellions, revolutions, and wars.”\nSource: Tom Standage, British journalist, A History of the World in 6 Glasses, book published in\n2006\n1. Respond to parts A, B, and C.\nA. Identify one argument the author makes regarding tea production in the late nineteenth and\nearly twentieth centuries.\nB. Describe one likely reason for the change in tea imports to Britain, as outlined by the author .\nC. Explain how one additional piece of evidence, not included in the passage, would support\nthe author’s claim that China “descended into a chaotic period” in the nineteenth and early\ntwentieth centuries.",
+   "sourceText": null,
+   "scoringGuide": "AP World History SAQ 1 (Secondary Source), 3 points, one per part. Set 2 prompts: A [1] identify one argument the author makes regarding tea production in the late nineteenth century; B [1] describe one likely reason for the change in tea imports to Britain, as outlined by the author; C [1] explain how one additional piece of evidence NOT in the passage would support/modify the argument. 'Identify' = correct answer; 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: C naming a piece of evidence without explaining how it bears on the argument.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify one argument the author makes regarding tea production in the late nineteenth century"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe one likely reason for the change in tea imports to Britain, as outlined by the author"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain how one additional piece of evidence NOT in the passage would support/modify the argument. 'Identify' = correct answer; 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "3",
+     "summary": "SAQ 1 (Set 2) scored 3/3 (A 1, B 1, C 1). Identified the author's argument, described a reason for the change in tea imports, and explained how an additional piece of evidence would support/modify the argument. Full-credit model.",
+     "refId": "WORLDH:saq1:set2-2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "2",
+     "summary": "SAQ 1 (Set 2) scored 2/3 (A 1, B 1, C 0). Identified the argument (A) and described a reason (B) but did not explain how additional evidence would bear on the argument (C). Illustrates losing the Explain part.",
+     "refId": "WORLDH:saq1:set2-2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "1",
+     "summary": "SAQ 1 (Set 2) scored 1/3 (A 1, B 0, C 0). Identified the argument only. Lost B (no valid reason for the change) and C (no explanation of additional evidence). Illustrates a response confined to reading the source's argument.",
+     "refId": "WORLDH:saq1:set2-2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-saq2-set-2",
+   "set": 2,
+   "label": "SAQ 2",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer — Primary Source",
+   "topic": "communism & decolonization in Africa",
+   "teaser": "A. Identify one reason United States officials were concerned about communism as noted in the first paragraph of the passage. B. Describe the historical situation that resulted in the “system of…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-saq2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "“White folk who want to help Africa must be prepared to work with Africans on the basis of\ncomplete racial equality. If the United States...is really worried about Communism taking root\nin Africa and wants to prevent such a disaster from taking place, [as a former communist] I can\noffer an assurance against it.1 This assurance will not only prevent Communism, but endear the\npeople of the great United States forever to the Africans.\nInstead of supporting the discredited system of colonialism by propping up the European\nregimes with military and financial aid, let American statesmen make a bold gesture to the\nAfrican in the spirit of the anti-colonialist tradition of 1776. This gesture should take the form of\nan aid package for Africa similar to the Marshall Plan.”2\nSource: George Padmore, Afro-Caribbean intellectual, essay published while he lived in\nLondon, 1956\n1: Padmore spent much of the 1920s and 1930s as a supporter of communism but became disillusioned with\nSoviet leader Joseph Stalin.\n2: an initiative by the United States to provide aid to Western Europe after the end of the Second World War\n2. Respond to parts A, B, and C.\nA. Identify one reason United States officials were concerned about communism as noted in the\nfirst paragraph of the passage.\nB. Describe the historical situation that resulted in the “system of colonialism” referred to by\nthe author in the second paragraph of the passage.\nC. Explain one way the source reflects the political situation in Africa during the second half of\nthe twentieth century.",
+   "sourceText": null,
+   "scoringGuide": "AP World History SAQ 2 (Primary Source), 3 points, one per part. Set 2 prompts: A [1] identify one reason United States officials were concerned about communism, as noted in the source; B [1] describe the historical situation that resulted in the 'system of colonialism' referred to; C [1] explain one way the source reflects the political situation in Africa during the second half of the twentieth century. 'Identify' = correct answer; 'Describe' = relevant characteristics; 'Explain' = how/why. Common failure: C describing the political situation rather than explaining how the source reflects it.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify one reason United States officials were concerned about communism, as noted in the source"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] describe the historical situation that resulted in the 'system of colonialism' referred to"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way the source reflects the political situation in Africa during the second half of the twentieth century. 'Identify' = correct answer; 'Describe' = relevant characteristics; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "3",
+     "summary": "SAQ 2 (Set 2) scored 3/3 (A 1, B 1, C 1). Identified a reason for US concern about communism, described the historical situation behind colonialism, and explained how the source reflects Africa's political situation. Full-credit model.",
+     "refId": "WORLDH:saq2:set2-2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "2",
+     "summary": "SAQ 2 (Set 2) scored 2/3 (A 0, B 1, C 1). Earned B (historical situation) and C (how the source reflects the situation) but not A (did not identify a valid reason for US concern about communism). Illustrates missing the first Identify part while completing the later parts.",
+     "refId": "WORLDH:saq2:set2-2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "SAQ 2 (Set 2) scored 1/3 (A 0, B 1, C 0). Earned only B (historical situation). Lost A (no valid reason for US concern) and C (no explanation of how the source reflects the situation). Illustrates a response holding only the contextual describe part.",
+     "refId": "WORLDH:saq2:set2-2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-saq3-set-2",
+   "set": 2,
+   "label": "SAQ 3",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "gunpowder & military/navigational technologies",
+   "teaser": "A. Identify one development that contributed to the spread of gunpowder technologies in the period before circa 1500. B. Explain one way the use of military technologies affected the development…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-saq3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. Respond to parts A, B, and C.\nA. Identify one development that contributed to the spread of gunpowder technologies in the\nperiod before circa 1500.\nB. Explain one way the use of military technologies affected the development of land-based\nempires in the period circa 1450 to 1750.\nC. Explain one way navigational technologies contributed to economic change in the period\ncirca 1450 to 1750.",
+   "sourceText": null,
+   "scoringGuide": "AP World History SAQ 3 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] identify one development that contributed to the spread of gunpowder technologies; B [1] explain one way the use of military technologies affected the development of land-based empires; C [1] explain one way navigational technologies contributed to economic change. 'Identify' = correct answer; 'Explain' = how/why. Common failure: vague identification; explain parts that describe rather than give a mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify one development that contributed to the spread of gunpowder technologies"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] explain one way the use of military technologies affected the development of land-based empires"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way navigational technologies contributed to economic change. 'Identify' = correct answer; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "3",
+     "summary": "SAQ 3 (Set 2) scored 3/3 (A 1, B 1, C 1). Identified a development in gunpowder spread and explained both a military-technology effect on land-based empires and a navigational-technology economic change. Full-credit model.",
+     "refId": "WORLDH:saq3:set2-2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "2",
+     "summary": "SAQ 3 (Set 2) scored 2/3 (A 0, B 1, C 1). Explained both military-technology (B) and navigational-technology (C) effects but did not identify a valid development in the spread of gunpowder (A). Illustrates missing the first Identify part.",
+     "refId": "WORLDH:saq3:set2-2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "1",
+     "summary": "SAQ 3 (Set 2) scored 1/3 (A 0, B 0, C 1). Earned only C (navigational-technology economic change). Lost A (no valid gunpowder-spread development) and B (no military-technology explanation). Illustrates a response holding only one Explain part.",
+     "refId": "WORLDH:saq3:set2-2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-saq4-set-2",
+   "set": 2,
+   "label": "SAQ 4",
+   "section": "Section I, Part B",
+   "essayType": "Short Answer, choose 3 or 4",
+   "topic": "20th-century technologies",
+   "teaser": "A. Identify one technological development in communication or transportation in the twentieth century. B. Explain one way nuclear technologies affected international relations in the second half…",
+   "suggestedMinutes": 13,
+   "totalPoints": 3,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-saq4-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "4. Respond to parts A, B, and C.\nA. Identify one technological development in communication or transportation in the twentieth\ncentury.\nB. Explain one way nuclear technologies affected international relations in the second half of\nthe twentieth century.\nC. Explain one way the spread of new technologies contributed to increased economic activity\nin the twentieth century.",
+   "sourceText": null,
+   "scoringGuide": "AP World History SAQ 4 (No Stimulus), 3 points, one per part. Set 2 prompts: A [1] identify one technological development in communication or transportation in the period; B [1] explain one way nuclear technologies affected international relations in the second half of the twentieth century; C [1] explain one way the spread of new technologies contributed to increased economic (interconnection/globalization). 'Identify' = correct answer; 'Explain' = how/why. Common failure: vague identification; explain parts that describe rather than give a causal mechanism.",
+   "rubric": [
+    {
+     "name": "Part A",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part A exactly as the official 2025 scoring guideline for this question specifies. A [1] identify one technological development in communication or transportation in the period"
+    },
+    {
+     "name": "Part B",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part B exactly as the official 2025 scoring guideline for this question specifies. B [1] explain one way nuclear technologies affected international relations in the second half of the twentieth century"
+    },
+    {
+     "name": "Part C",
+     "maxPoints": 1,
+     "criteria": "Award 0–1 point for part C exactly as the official 2025 scoring guideline for this question specifies. C [1] explain one way the spread of new technologies contributed to increased economic (interconnection/globalization). 'Identify' = correct answer; 'Explain' = how/why"
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "3",
+     "summary": "SAQ 4 (Set 2) scored 3/3 (A 1, B 1, C 1). Identified a communication/transportation development and explained both a nuclear-technology effect on international relations and a technology-driven economic change. Full-credit model.",
+     "refId": "WORLDH:saq4:set2-2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "2",
+     "summary": "SAQ 4 (Set 2) scored 2/3 (A 0, B 1, C 1). Explained the nuclear-technology effect (B) and the economic change (C) but did not identify a valid communication/transportation development (A). Illustrates missing the first Identify part.",
+     "refId": "WORLDH:saq4:set2-2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "SAQ 4 (Set 2) scored 1/3 (A 0, B 1, C 0). Earned only B (nuclear-technology effect). Lost A (no valid development) and C (no technology-driven economic-change explanation). Illustrates a response holding only one Explain part.",
+     "refId": "WORLDH:saq4:set2-2025-4C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-dbq-set-2",
+   "set": 2,
+   "label": "DBQ",
+   "section": "Section II",
+   "essayType": "Document-Based Question",
+   "topic": "Spread of Industrialization & Impact on Women",
+   "teaser": "Evaluate the extent to which the spread of industrialization provided women with new opportunities and/or challenges during the period circa 1850 to 1950. In your response you should do the…",
+   "suggestedMinutes": 60,
+   "totalPoints": 7,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-dbq-set-2.pdf",
+   "pageCount": 5,
+   "promptText": "1. Evaluate the extent to which the spread of industrialization provided women with new\nopportunities and/or challenges during the period circa 1850 to 1950.\nIn your response you should do the following:\n• Respond to the prompt with a historically defensible thesis or claim that establishes a\nline of reasoning.\n• Describe a broader historical context relevant to the prompt.\n• Support an argument in response to the prompt using at least four documents.\n• Use at least one additional piece of specific historical evidence (beyond that found in the\ndocuments) relevant to an argument about the prompt.\n• For at least two documents, explain how or why the document’s point of view, purpose,\nhistorical situation, and/or audience is relevant to an argument.\n• Demonstrate a complex understanding of a historical development related to the prompt\nthrough sophisticated argumentation and/or effective use of evidence.\nDocument 1\nSource: Vera Karelina, Russian woman labor activist and revolutionary, describing her work as\na political organizer among factory workers in St. Petersburg in the 1890s, memoir published in\nthe Soviet Union in 1926\n“I began the mass organization of women in the Factory Workers’ Society. Each branch of the\nSociety elected its own chairwoman and secretary. The chairwoman of one of the branches was\nMaria Soldatova, who worked at a cigarette factory.\nMaria was forty years old and illiterate. But she possessed inexhaustible energy and natural\norganizational ability and could understand and think quickly. Despite her illiteracy, Maria was\nunanimously elected chairwoman of her branch. She often complained about her illiteracy,\nand would always say, ‘If only I could read and write, I could do so much more for the factory\nand the Society.’ When someone offered to teach her to read and write, she began to study\ndiligently.”\nDocument 2\nSource: Ottoman postcard showing women and girls supervised by a male manager (the\nstanding figure in the background) at a silk factory in the Ottoman city of Bursa, 1902\nChronicle / Alamy Stock Photo\nDocument 3\nSource: He-Yin Zhen, Chinese woman political activist, “What Women Should Know About\nCommunism,” essay published in a Chinese language journal in 1907, while she was living as a\npolitical exile in Japan\n“Everywhere in Shanghai there are silk factories, cotton mills, weaving factories, and laundries,\nemploying thousands of women. These women work all day into the evening.\nWomen suffer just to get hold of our meager bowl of rice. My fellow women: why don’t you\nhave any money to buy food? It is because the rich have stolen our property. They have forced\nthe majority of the people into poverty and starvation. Look at the wives and daughters of the\nelite. They live luxuriously with plenty of food.\nSociety has accepted this state of affairs because, people say, as long as a woman has a job she\nwould not fear starvation.... So the families that are very poor are sending their daughters and\ndaughters-in-law to work in factories. But factories are built by investors to make a profit and, if\nyou work in a factory, you remain at the mercy of its capitalist owners.”\nDocument 4\nSource: Report by the provincial governorate of the Vladimir District of the Russian Empire on\nthe occupations of the rural population of the district, published as part of a comprehensive\ngovernment survey of the occupational patterns of the Russian population, 1912\n“According to a local census taken in 1897, 52.2% of the male population of the Vladimir District\nwere involved in some type of manufacturing occupation rather than in farming. The fact that\nsuch a significant portion of men in the villages are working in non-farming jobs means that\noften it is the women in these households that must do the majority of farm field work, which\nhas traditionally been a male task.\nIn these circumstances, in many areas of the district, women take the leading roles in the\nhouseholds. Not only do women plow, plant, rake, and gather the hay and grain, but they often\nexecute the social obligations of men. Many women now serve as village council leaders or\nmembers, and even as village tax collectors, positions that were all previously reserved for\nmen.”\nDocument 5\nSource: Toshio Takai, Japanese woman labor activist, memoir describing events in the 1910s\nand 1920s, first published in 1980\n“I was around twelve years old in 1913 when a recruiter for female textile workers came to\nour village. He stopped by our house and said, ‘How about it? Wouldn’t you like to send your\ndaughter to work for the Ogaki Company? We have dormitories, the work is easy and pleasant.\nThere’s silk spinning and you get paid thirteen sen [0.13 yen] per day. We feed you and clothe\nyou, so it’s really a help to your parents.’ Once I heard all this, I made up my mind. I reckoned\nthat with that kind of money I could buy my mother and sister something, so I said, ‘I will do it.\nI’ll work.’\nWhat we had heard was paradise; the reality turned out to be hell. The thirteen sen we were\nsupposed to earn per day was before deductions were made for the food we ate and the soap,\ntoilet paper , and straw sandals we used, so in the end we were left with less than one sen per\nday.\nMy job was to clean up waste pieces of silk thread from the factory floor . For twelve hours a day\nI was standing or walking among the machines. My legs became stiff and my feet were always\nswollen.”\nDocument 6\nSource: Johanna Cornelius, White South African labor activist, autobiographical statement\nprepared for press release when she was elected as a National Organizing Officer for a major\nlabor union of South African garment industry workers, circa 1940\n“I was born and raised on a farm, but my parents struggled to earn enough to support their\nfamily. So, by the time I turned 18 [in 1930], I had to abandon ideas of further studies and\ninstead travelled to Johannesburg, to earn my own living in the clothing factories. How proud\nI was on receiving my first week’s wages! I wrote home, telling my father that he now had\none mouth less to feed. I thought I would be able to save a sufficiently large sum to enable me\nto continue my studies. But to my sorrow and disappointment, after only a few months, the\ndepression began to be felt in the clothing industry. Like many other workers, I was laid off.\nWhat could I do now? I had no money to take me home and could expect no financial help from\nmy parents. So I stayed in the city, working a few hours here and there as I could, eating less\nfood, and living on practically nothing....\nNonetheless, I could not then, and cannot now agree with the arguments of those that say that\nrural life is the basis of family life. I and thousands of my fellow working women in the factories\nare moved by everyday financial problems and cannot become sentimental about the beauties\nof the countryside. I am not afraid of the towns nor of the march of progress. I refuse to remain\na servant in the kitchen.”\nDocument 7\nSource: Ellen Kuzwayo, Black South African educator and women’s rights activist, describing\nthe history of Johannesburg, from her autobiography published in 1985\n“After the discovery of gold in 1886, Black men from different communities streamed into\nJohannesburg which, at that time, was more or less a temporary mining camp. Men flowed\nto the mines from the rural areas leaving their families behind to be cared for by the senior\nwoman in every home. Still, in those early decades most Black women lived on land which their\ncommunities owned and which they cultivated.\nBut things changed for the worse in the [early decades of the twentieth century], when\ncommunal land was removed from the control of Black people and communities were forced\nto move from one area to another .1 So Black women were suddenly plunged into ",
+   "sourceText": "a situation of\naccepting numerous roles of responsibility. Without warning or training, they became not only\nmothers, but also family administrators, community counselors, and overall overseers of both\nhome and neighborhood.\nFor many women, the burden proved too much. Their response came in the form of moving\nto cities themselves, often in search of their husbands or sons and despite stringent ‘influx’\nregulations.2 As they were usually not allowed to live with their husbands in company\ndormitories, they found a solution in domestic work, where they were provided with a room,\nusually somewhere at the back of their White employers’ houses.”\n1: In the early twentieth century, the government of South Africa imposed limits on the total amount of agricultural\nland in the country that could be owned by Black farmers, effectively forcing most Black South Africans who lived\nin rural areas to become tenant farmers on lands owned by Whites.\n2: government-imposed restrictions that were designed to prevent the permanent settlement of Black families\ninto “Whites-only” urban areas of the country",
+   "scoringGuide": "AP World History DBQ, 7 points, standardized rubric. A Thesis/Claim [1]: defensible thesis with a line of reasoning. B Contextualization [1]: broader relevant context. C Evidence [0–3]: (1) content of at least THREE documents; (1) argument using at least FOUR documents; (1) specific evidence BEYOND the documents. D Analysis and Reasoning [0–2]: (1) Sourcing for at least TWO documents; (1) Complex Understanding. Set 2 prompt: evaluate the spread of industrialization and its impact on women (7 documents). Same scoring model as Set 1. Common failure: three-document ceiling, missing sourcing, vague outside evidence.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning (not a restatement of the prompt)."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt — more than a passing phrase."
+    },
+    {
+     "name": "Evidence from the Documents",
+     "maxPoints": 2,
+     "criteria": "1 point: uses the content of at least three documents to address the topic. 2 points: supports an argument using at least four documents."
+    },
+    {
+     "name": "Evidence Beyond the Documents",
+     "maxPoints": 1,
+     "criteria": "Uses at least one additional piece of specific, relevant historical evidence not found in the documents to support the argument."
+    },
+    {
+     "name": "Sourcing",
+     "maxPoints": 1,
+     "criteria": "For at least two documents, explains how or why the document's point of view, purpose, historical situation, and/or audience is relevant to the argument."
+    },
+    {
+     "name": "Complex Understanding",
+     "maxPoints": 1,
+     "criteria": "Demonstrates a complex understanding of the development through sophisticated argumentation and/or effective use of the evidence. Rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 1A",
+     "score": "7",
+     "summary": "DBQ (Set 2) scored 7/7 (Thesis 1, Context 1, Evidence 3, Analysis 2). Defensible thesis and contextualization, all three evidence points (3-doc, 4-doc, outside), and both analysis points (sourcing and complex understanding). Full-credit model.",
+     "refId": "WORLDH:dbq:set2-2025-1A"
+    },
+    {
+     "label": "Sample 1B",
+     "score": "4",
+     "summary": "DBQ (Set 2) scored 4/7 (Thesis 1, Context 1, Evidence 2, Analysis 0). Earned thesis, contextualization, and two evidence points but lost the remaining evidence point and both analysis points (no sourcing, no complexity). Illustrates the common no-analysis ceiling.",
+     "refId": "WORLDH:dbq:set2-2025-1B"
+    },
+    {
+     "label": "Sample 1C",
+     "score": "2",
+     "summary": "DBQ (Set 2) scored 2/7 (Thesis 1, Context 1, Evidence 0, Analysis 0). Earned only thesis and contextualization; insufficient document use and outside evidence, and no sourcing/complexity. Illustrates an argument framed without enough document evidence.",
+     "refId": "WORLDH:dbq:set2-2025-1C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-leq2-set-2",
+   "set": 2,
+   "label": "LEQ 2",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Impact of the Columbian Exchange in the Atlantic",
+   "teaser": "In the period circa 1450 to 1750, new connections between world regions led to the movement or transfer of people, animals, plants, and pathogens. Develop an argument that evaluates the extent to…",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-leq2-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "2. In the period circa 1450 to 1750, new connections between world regions led to the movement\nor transfer of people, animals, plants, and pathogens.\nDevelop an argument that evaluates the extent to which such movements or transfers led to\ndemographic, cultural, or social changes across the Atlantic region during this period.",
+   "sourceText": null,
+   "scoringGuide": "AP World History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (causation/CCOT) (1), complex understanding (1). Q2 Set 2 prompt: the impact of the Columbian Exchange in the Atlantic world. Common failure: no defensible thesis; evidence not tied to the argument; reasoning without complexity.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 2A",
+     "score": "6",
+     "summary": "Q2 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model.",
+     "refId": "WORLDH:leq2:set2-2025-2A"
+    },
+    {
+     "label": "Sample 2B",
+     "score": "4",
+     "summary": "Q2 (Set 2) scored 4/6 (Thesis 0, Context 1, Evidence 2, Analysis 1). Earned contextualization, both Evidence points, and one Analysis point. Lost the Thesis (no defensible claim with a line of reasoning) and the Complexity point. Illustrates a well-evidenced essay with no scorable thesis.",
+     "refId": "WORLDH:leq2:set2-2025-2B"
+    },
+    {
+     "label": "Sample 2C",
+     "score": "1",
+     "summary": "Q2 (Set 2) scored 1/6 (Thesis 0, Context 0, Evidence 1, Analysis 0). Earned only one Evidence point (specific evidence not fully used to support an argument). Lost thesis, contextualization, and both Analysis points. Illustrates a low essay with a fragment of evidence and no framing.",
+     "refId": "WORLDH:leq2:set2-2025-2C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-leq3-set-2",
+   "set": 2,
+   "label": "LEQ 3",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Enlightenment and Reform Movements",
+   "teaser": "During the eighteenth century, Enlightenment philosophers developed new ideas about individual rights and the role of governments. Develop an argument that evaluates the extent to which…",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-leq3-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "3. During the eighteenth century, Enlightenment philosophers developed new ideas about\nindividual rights and the role of governments.\nDevelop an argument that evaluates the extent to which Enlightenment ideas encouraged\nmovements for political change and/or social reform during the period circa 1750 to 1900.",
+   "sourceText": null,
+   "scoringGuide": "AP World History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (causation/CCOT) (1), complex understanding (1). Q3 Set 2 prompt: the Enlightenment and reform movements. Common failure: reasoning process present without complexity; evidence not tied to the argument.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 3A",
+     "score": "6",
+     "summary": "Q3 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model.",
+     "refId": "WORLDH:leq3:set2-2025-3A"
+    },
+    {
+     "label": "Sample 3B",
+     "score": "4",
+     "summary": "Q3 (Set 2) scored 4/6 (Thesis 1, Context 1, Evidence 2, Analysis 0). Earned the thesis, contextualization, and both Evidence points but lost BOTH Analysis points (no reasoning process framing and no complexity). Illustrates a well-built essay that never earns the analysis row.",
+     "refId": "WORLDH:leq3:set2-2025-3B"
+    },
+    {
+     "label": "Sample 3C",
+     "score": "2",
+     "summary": "Q3 (Set 2) scored 2/6 (Thesis 1, Context 0, Evidence 1, Analysis 0). Earned the thesis and one Evidence point. Lost contextualization, the second Evidence point, and both Analysis points. Illustrates a low essay with a claim and a little evidence.",
+     "refId": "WORLDH:leq3:set2-2025-3C"
+    }
+   ]
+  },
+  {
+   "id": "ap25-world-history-leq4-set-2",
+   "set": 2,
+   "label": "LEQ 4",
+   "section": "Section II",
+   "essayType": "Long Essay, choose one",
+   "topic": "Nationalism and Global Conflicts",
+   "teaser": "During the twentieth century, competing political and economic interests along with intense nationalism contributed to global conflicts. Develop an argument that evaluates the extent to which…",
+   "suggestedMinutes": 40,
+   "totalPoints": 6,
+   "pdfUrl": "/resources/AP/FRQ/2025/ap-world-history/ap25-world-history-leq4-set-2.pdf",
+   "pageCount": 1,
+   "promptText": "4. During the twentieth century, competing political and economic interests along with intense\nnationalism contributed to global conflicts.\nDevelop an argument that evaluates the extent to which nationalism was the most important\nfactor contributing to global conflict during this period.",
+   "sourceText": null,
+   "scoringGuide": "AP World History LEQ, 6 points, standardized rubric. A Thesis/Claim [1]. B Contextualization [1]. C Evidence [0–2]: two specific pieces (1), used to support the argument (1). D Analysis and Reasoning [0–2]: reasoning process (causation) (1), complex understanding (1). Q4 Set 2 prompt: nationalism and global conflicts. Common failure: no defensible thesis; evidence not tied to the argument; reasoning without complexity.",
+   "rubric": [
+    {
+     "name": "Thesis / Claim",
+     "maxPoints": 1,
+     "criteria": "A historically defensible thesis/claim that responds to the prompt and establishes a line of reasoning."
+    },
+    {
+     "name": "Contextualization",
+     "maxPoints": 1,
+     "criteria": "Describes a broader historical context relevant to the prompt."
+    },
+    {
+     "name": "Evidence",
+     "maxPoints": 2,
+     "criteria": "1 point: provides two specific, relevant examples of evidence. 2 points: uses specific, relevant evidence to support an argument in response to the prompt."
+    },
+    {
+     "name": "Analysis & Reasoning",
+     "maxPoints": 2,
+     "criteria": "1 point: uses historical reasoning (comparison, causation, continuity/change) to frame or structure an argument. 2 points: demonstrates a complex understanding of the development. The second point is rarely earned."
+    }
+   ],
+   "examples": [
+    {
+     "label": "Sample 4A",
+     "score": "6",
+     "summary": "Q4 (Set 2) scored 6/6 (Thesis 1, Context 1, Evidence 2, Analysis 2). Full credit across all four rows. Full-credit model.",
+     "refId": "WORLDH:leq4:set2-2025-4A"
+    },
+    {
+     "label": "Sample 4B",
+     "score": "4",
+     "summary": "Q4 (Set 2) scored 4/6 (Thesis 1, Context 0, Evidence 2, Analysis 1). Earned the thesis, both Evidence points, and one Analysis point. Lost contextualization and the Complexity point. A common 4-point profile: strong thesis/evidence, weak context, no complexity.",
+     "refId": "WORLDH:leq4:set2-2025-4B"
+    },
+    {
+     "label": "Sample 4C",
+     "score": "1",
+     "summary": "Q4 (Set 2) scored 1/6 (Thesis 1, Context 0, Evidence 0, Analysis 0). Earned only the thesis. Lost contextualization, both Evidence points, and both Analysis points. Illustrates a claim with no substantiation.",
+     "refId": "WORLDH:leq4:set2-2025-4C"
+    }
+   ]
+  }
+ ]
+}
