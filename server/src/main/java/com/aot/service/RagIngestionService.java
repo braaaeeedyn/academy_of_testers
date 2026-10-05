@@ -26,11 +26,13 @@ public class RagIngestionService {
 
   private final RagChunkRepository chunkRepository;
   private final EmbeddingService embeddingService;
+  private final RagCorpusCache cache;
 
   public RagIngestionService(
-      RagChunkRepository chunkRepository, EmbeddingService embeddingService) {
+      RagChunkRepository chunkRepository, EmbeddingService embeddingService, RagCorpusCache cache) {
     this.chunkRepository = chunkRepository;
     this.embeddingService = embeddingService;
+    this.cache = cache;
   }
 
   /** Upserts and embeds a batch. Returns the number of chunks written. */
@@ -73,6 +75,7 @@ public class RagIngestionService {
     }
 
     chunkRepository.saveAll(toSave);
+    cache.invalidatePools();
     logger.info("Ingested {} RAG chunks", toSave.size());
     return toSave.size();
   }
@@ -100,6 +103,7 @@ public class RagIngestionService {
       c.setEmbeddingDims(vec.length);
     }
     chunkRepository.saveAll(missing);
+    cache.invalidatePools();
     return missing.size();
   }
 
