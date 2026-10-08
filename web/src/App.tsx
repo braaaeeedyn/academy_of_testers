@@ -1,28 +1,11 @@
-import { useState, useEffect, type ReactNode } from 'react'
+import { lazy, Suspense, useState, useEffect, type ReactNode } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import { setTokenAccessor } from './services/api'
 import ClickSpark from './components/ClickSpark'
-import LogoLoop from './components/LogoLoop'
 import ExamsPage from './pages/ExamsPage'
-import ResourcesPage from './pages/ResourcesPage'
-import ResourceDetailPage from './pages/ResourceDetailPage'
-import ExamHubPage from './pages/ExamHubPage'
-import ExamInfoPage from './pages/ExamInfoPage'
-import ApPlannerPage from './pages/ApPlannerPage'
-import ThemesPage from './pages/ThemesPage'
-import AboutPage from './pages/AboutPage'
-import MissionPage from './pages/MissionPage'
-import LoginPage from './pages/LoginPage'
-import RegisterPage from './pages/RegisterPage'
-import VerifyPage from './pages/VerifyPage'
-import SatAdaptivePage from './pages/SatAdaptivePage'
-import SatHubPage from './pages/SatHubPage'
-import SatPrepPage from './pages/SatPrepPage'
-import SatPrepTopicPage from './pages/SatPrepTopicPage'
-import AiChat from './components/AiChat'
-import TestyPage from './pages/TestyPage'
+import LoadingScreen from './components/LoadingScreen'
 import { ChatProvider } from './context/ChatContext'
 import {
   LegacyExamHubRedirect,
@@ -32,6 +15,25 @@ import {
   LegacySubjectRedirect,
   PracticeToHubRedirect,
 } from './pages/LegacyRedirects'
+
+// Every page but the landing page loads on first visit, so the home page doesn't wait on the AP
+// question banks, KaTeX, and the adaptive engine UI.
+const ResourcesPage = lazy(() => import('./pages/ResourcesPage'))
+const ResourceDetailPage = lazy(() => import('./pages/ResourceDetailPage'))
+const ExamHubPage = lazy(() => import('./pages/ExamHubPage'))
+const ExamInfoPage = lazy(() => import('./pages/ExamInfoPage'))
+const ApPlannerPage = lazy(() => import('./pages/ApPlannerPage'))
+const ThemesPage = lazy(() => import('./pages/ThemesPage'))
+const MissionPage = lazy(() => import('./pages/MissionPage'))
+const LoginPage = lazy(() => import('./pages/LoginPage'))
+const RegisterPage = lazy(() => import('./pages/RegisterPage'))
+const VerifyPage = lazy(() => import('./pages/VerifyPage'))
+const SatAdaptivePage = lazy(() => import('./pages/SatAdaptivePage'))
+const SatHubPage = lazy(() => import('./pages/SatHubPage'))
+const SatPrepPage = lazy(() => import('./pages/SatPrepPage'))
+const SatPrepTopicPage = lazy(() => import('./pages/SatPrepTopicPage'))
+const TestyPage = lazy(() => import('./pages/TestyPage'))
+const AiChat = lazy(() => import('./components/AiChat'))
 
 
 const headerBtnClass = 'nav-hover-btn flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all border cursor-pointer'
@@ -179,7 +181,17 @@ function AppHeader({ onChatOpen }: { onChatOpen: () => void }) {
 
 const FOOTER_ICON_SIZE = 'w-5 h-5'
 
-const footerLogos: { node: ReactNode; title: string; href?: string; internal?: boolean }[] = [
+const PORTFOLIO_URL = 'https://braedynthompson.com'
+
+/** Old /about links land on the developer's portfolio, which replaced the in-app About page. */
+function ExternalRedirect({ to }: { to: string }) {
+  useEffect(() => {
+    window.location.replace(to)
+  }, [to])
+  return null
+}
+
+const footerLogos: { node: ReactNode; title: string; href: string }[] = [
   {
     node: (
       <svg className={FOOTER_ICON_SIZE} viewBox="0 0 24 24" fill="currentColor">
@@ -226,63 +238,30 @@ const footerLogos: { node: ReactNode; title: string; href?: string; internal?: b
       </svg>
     ),
     title: 'About',
-    href: '/about',
-    internal: true,
+    href: PORTFOLIO_URL,
   },
 ]
 
 function AppFooter() {
-  const navigate = useNavigate()
-
   return (
-    <footer className="py-4 mt-auto overflow-hidden" style={{ backgroundColor: 'var(--footer-bg)', borderTop: '1px solid var(--footer-border)' }}>
-      <div style={{ height: '40px', position: 'relative', overflow: 'hidden' }}>
-        <LogoLoop
-          logos={footerLogos}
-          speed={40}
-          direction="left"
-          logoHeight={22}
-          gap={80}
-          hoverSpeed={0}
-          scaleOnHover
-          fadeOut
-          fadeOutColor="var(--footer-bg)"
-          ariaLabel="Social links"
-          renderItem={(item, key) => {
-            const logo = item as (typeof footerLogos)[number]
-            if (logo.internal) {
-              return (
-                <button
-                  key={key}
-                  onClick={() => navigate(logo.href!)}
-                  className="logoloop__link flex items-center gap-2 cursor-pointer bg-transparent border-none p-0"
-                  style={{ color: 'var(--footer-text)', fontSize: '14px' }}
-                  aria-label={logo.title}
-                >
-                  <span className="logoloop__node">{logo.node}</span>
-                  <span className="font-medium">{logo.title}</span>
-                </button>
-              )
-            }
-            return (
-              <a
-                key={key}
-                href={logo.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="logoloop__link flex items-center gap-2"
-                style={{ color: 'var(--footer-text)', fontSize: '14px' }}
-                aria-label={logo.title}
-              >
-                <span className="logoloop__node">{logo.node}</span>
-                <span className="font-medium">{logo.title}</span>
-              </a>
-            )
-          }}
-        />
-      </div>
-      <p className="text-center text-xs mt-2 opacity-60" style={{ color: 'var(--footer-text)' }}>
-        Academy of Testers © 2025
+    <footer className="py-6 mt-auto" style={{ backgroundColor: 'var(--footer-bg)', borderTop: '1px solid var(--footer-border)' }}>
+      <nav aria-label="Social links" className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 px-4">
+        {footerLogos.map((logo) => (
+          <a
+            key={logo.title}
+            href={logo.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-sm font-medium hover:opacity-70 transition-opacity"
+            style={{ color: 'var(--footer-text)' }}
+          >
+            {logo.node}
+            {logo.title}
+          </a>
+        ))}
+      </nav>
+      <p className="text-center text-xs mt-4 opacity-60" style={{ color: 'var(--footer-text)' }}>
+        Academy of Testers © {new Date().getFullYear()}
       </p>
     </footer>
   )
@@ -298,6 +277,17 @@ function TokenAccessorBridge() {
 
 function App() {
   const [chatOpen, setChatOpen] = useState(false)
+  // The chat panel's code is fetched the first time it opens, then stays mounted so the
+  // conversation survives closing and reopening.
+  const [chatLoaded, setChatLoaded] = useState(false)
+  useEffect(() => {
+    if (chatOpen) setChatLoaded(true)
+  }, [chatOpen])
+  // Warm the chat chunk once the page has settled, so the first open isn't a visible wait.
+  useEffect(() => {
+    const id = setTimeout(() => void import('./components/AiChat'), 4000)
+    return () => clearTimeout(id)
+  }, [])
 
   return (
     <ThemeProvider>
@@ -310,6 +300,7 @@ function App() {
 
               <main className="w-full max-w-screen-2xl mx-auto px-4 sm:px-8 lg:px-12 py-6 sm:py-8 flex-1">
                 <ChatProvider openChat={() => setChatOpen(true)}>
+                <Suspense fallback={<LoadingScreen />}>
                 <Routes>
                   <Route path="/" element={<ExamsPage />} />
                   <Route path="/login" element={<LoginPage />} />
@@ -334,9 +325,10 @@ function App() {
                   <Route path="/sat/adaptive" element={<SatAdaptivePage />} />
                   <Route path="/testy" element={<TestyPage />} />
                   <Route path="/themes" element={<ThemesPage />} />
-                  <Route path="/about" element={<AboutPage />} />
+                  <Route path="/about" element={<ExternalRedirect to={PORTFOLIO_URL} />} />
                   <Route path="/mission" element={<MissionPage />} />
                 </Routes>
+                </Suspense>
                 </ChatProvider>
               </main>
 
@@ -344,7 +336,11 @@ function App() {
             </div>
           </ClickSpark>
 
-          <AiChat isOpen={chatOpen} onClose={() => setChatOpen(false)} />
+          {chatLoaded && (
+            <Suspense fallback={null}>
+              <AiChat isOpen={chatOpen} onClose={() => setChatOpen(false)} />
+            </Suspense>
+          )}
         </Router>
       </AuthProvider>
     </ThemeProvider>

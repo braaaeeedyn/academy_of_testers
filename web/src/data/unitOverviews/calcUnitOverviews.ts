@@ -475,7 +475,7 @@ f(x)=e^{\\sin x} \\Rightarrow f'(x) = e^{\\sin x}\\cos x
       subunit(
         '4-1',
         'Interpreting the Derivative in Context',
-        'If \\(f(x)\\) represents a real quantity (revenue, cost, population, etc.), then \\(f\'(x)\\) represents how that quantity changes per unit change in \\(x\\). Always state units: “revenue is increasing at \$30 per unit” means that for each additional unit sold, revenue rises by about \$30 at that level.\n\n' +
+        'If \\(f(x)\\) represents a real quantity (revenue, cost, population, etc.), then \\(f\'(x)\\) represents how that quantity changes per unit change in \\(x\\). Always state units: “revenue is increasing at $30 per unit” means that for each additional unit sold, revenue rises by about $30 at that level.\n\n' +
           'Positive derivative means the quantity is increasing; negative means decreasing. The magnitude tells how fast. In business, \\(R\'(x)\\) might be marginal revenue; in science, \\(P\'(t)\\) might be growth rate. Read the problem carefully to identify what \\(f\\) and \\(x\\) represent and what \\(f\'(a)\\) means in that context.',
         ['\\(f\'(x)\\) = instantaneous rate of change of \\(f\\) with respect to \\(x\\).', 'State units (e.g. dollars per unit, meters per second).', 'Positive \\(f\'\\) means increasing; negative means decreasing.'],
         {
@@ -485,7 +485,7 @@ f(x)=e^{\\sin x} \\Rightarrow f'(x) = e^{\\sin x}\\cos x
 \\\\
 \\text{Extra: } C(x)=100+4x \\Rightarrow C'(x)=4.\\quad \\text{Marginal cost } \\$4 \\text{ per item.}`,
           exampleLanguage: 'latex',
-          exampleExplanation: 'At \\(x=3\\), selling one more unit increases revenue by approximately \$30. The derivative gives the rate per unit.',
+          exampleExplanation: 'At \\(x=3\\), selling one more unit increases revenue by approximately $30. The derivative gives the rate per unit.',
         }
       ),
       subunit(
@@ -554,7 +554,7 @@ L(x)=2+\\frac{1}{4}(x-4),\\quad L(4.1)=2+\\frac{1}{4}(0.1)=2.025 \\approx \\sqrt
       subunit(
         '4-6',
         "L'Hôpital's Rule",
-        "When a limit produces the indeterminate form \\(\\frac{0}{0}\\) or \\(\\frac{\\infty}{\\infty}\\), we can often evaluate it by differentiating the numerator and denominator separately: \\(\\lim_{x\\to c}\\frac{f(x)}{g(x)} = \\lim_{x\\to c}\\frac{f\'(x)}{g\'(x)}\\) (provided the limit on the right exists or is \\(\\pm\\infty\\)).\n\n" +
+        "When a limit produces the indeterminate form \\(\\frac{0}{0}\\) or \\(\\frac{\\infty}{\\infty}\\), we can often evaluate it by differentiating the numerator and denominator separately: \\(\\lim_{x\\to c}\\frac{f(x)}{g(x)} = \\lim_{x\\to c}\\frac{f'(x)}{g'(x)}\\) (provided the limit on the right exists or is \\(\\pm\\infty\\)).\n\n" +
           "Apply L'Hôpital's rule only when the limit is indeterminate. After applying, check if the new limit is determinate; if it is still \\(0/0\\) or \\(\\infty/\\infty\\), apply the rule again. Other indeterminate forms (\\(0\\cdot\\infty\\), \\(\\infty-\\infty\\)) can sometimes be rewritten so that L'Hôpital applies.\n\n" +
           "Common use: \\(\\lim_{x\\to 0}\\frac{\\sin x}{x} = \\lim_{x\\to 0}\\frac{\\cos x}{1} = 1\\).",
         ['Only for \\(0/0\\) or \\(\\infty/\\infty\\): \\(\\lim\\frac{f}{g} = \\lim\\frac{f\'}{g\'}\\) when the right-hand limit exists.', 'Differentiate numerator and denominator separately; do not use the quotient rule.', 'If the result is still indeterminate, apply the rule again.'],

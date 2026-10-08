@@ -188,6 +188,15 @@ export interface AiChatContext {
   masteryLevel?: string
 }
 
+// Contact form (public; the server emails the message to the developer)
+export async function sendContactMessage(message: { name: string; email: string; message: string }): Promise<void> {
+  await fetchAPI('/contact', {
+    method: 'POST',
+    headers: JSON_HEADERS,
+    body: JSON.stringify(message),
+  })
+}
+
 export async function sendAiMessage(
   messages: { role: string; content: string }[],
   context?: AiChatContext

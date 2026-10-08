@@ -74,6 +74,23 @@ public class AiUsageService {
     aiUsageRepository.save(usage);
   }
 
+  /**
+   * Gives back one request counted by {@link #checkAndIncrement} when the AI call then failed, so a
+   * provider outage or a bad request doesn't cost the student part of their hourly allowance.
+   */
+  @Transactional
+  public void refund(Long userId) {
+    aiUsageRepository
+        .findByUserId(userId)
+        .filter(usage -> usage.getUsageCount() > 0)
+        .filter(usage -> !LocalDateTime.now().isAfter(usage.getWindowStart().plus(WINDOW_DURATION)))
+        .ifPresent(
+            usage -> {
+              usage.setUsageCount(usage.getUsageCount() - 1);
+              aiUsageRepository.save(usage);
+            });
+  }
+
   public Map<String, Object> getUsageInfo(Long userId) {
     Optional<AiUsage> existing = aiUsageRepository.findByUserId(userId);
 

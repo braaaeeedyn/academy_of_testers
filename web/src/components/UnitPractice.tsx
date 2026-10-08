@@ -67,8 +67,10 @@ export default function UnitPractice({
   const [progressMap, setProgressMap] = useState<Map<string, CardMastery>>(new Map())
   const tracksMastery = isAuthenticated && subjectId != null
   // Subject-scoped /progress key for a question (empty when we can't track, i.e. no subjectId).
-  const keyFor = (questionId: string) =>
-    subjectId != null ? practiceCardKey(subjectId, questionId) : ''
+  const keyFor = useCallback(
+    (questionId: string) => (subjectId != null ? practiceCardKey(subjectId, questionId) : ''),
+    [subjectId]
+  )
 
   useEffect(() => {
     if (!tracksMastery || subjectId == null) return
@@ -95,7 +97,7 @@ export default function UnitPractice({
       }
     }
     return items
-  }, [bank, scope, difficulty, progressMap])
+  }, [bank, scope, difficulty, progressMap, keyFor])
 
   // A scope switch can strand a difficulty filter with no matching questions; fall back to all.
   useEffect(() => {
@@ -148,7 +150,7 @@ export default function UnitPractice({
         setStreak(0)
       }
     },
-    [current, selected, tracksMastery, subjectId]
+    [current, selected, tracksMastery, subjectId, keyFor]
   )
 
   const next = useCallback(() => {

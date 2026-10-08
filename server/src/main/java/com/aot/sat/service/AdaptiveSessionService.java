@@ -131,8 +131,7 @@ public class AdaptiveSessionService {
         s.setQuestionQueue(queue);
         session = sessionRepo.save(s);
       } else {
-        int len =
-            length != null && length > 0 ? length : AdaptiveConstants.DEFAULT_SESSION_LENGTH;
+        int len = length != null && length > 0 ? length : AdaptiveConstants.DEFAULT_SESSION_LENGTH;
         SatSession s = new SatSession(userId, len);
         if (focusSkillId != null && !focusSkillId.isBlank()) {
           s.setFocusSkillId(focusSkillId);
@@ -210,7 +209,14 @@ public class AdaptiveSessionService {
 
     // 4-5: BKT posterior + learning transition, damped so mastery changes more gradually.
     // Gains use a smaller rate than losses, so mastery is easier to lose than to earn.
-    double rawAfter = BayesianKnowledgeTracer.update(wBefore, correct, AdaptiveConstants.P_GUESS_MC);
+    double rawAfter =
+        BayesianKnowledgeTracer.update(wBefore, correct, AdaptiveConstants.P_GUESS_MC);
+    // BKT applies the learning transition after every answer, so below w ~= 0.115 a miss nets a
+    // small rise. A wrong answer must never raise mastery, nor (through a negative delta in step 6)
+    // raise the prerequisites, so a miss is capped at no change.
+    if (!correct) {
+      rawAfter = Math.min(rawAfter, wBefore);
+    }
     double rawDelta = rawAfter - wBefore;
     double rate =
         rawDelta >= 0 ? AdaptiveConstants.MASTERY_GAIN_RATE : AdaptiveConstants.MASTERY_LOSS_RATE;

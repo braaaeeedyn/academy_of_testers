@@ -23,6 +23,7 @@ public final class PrerequisitePropagator {
    * @param edgeStrength sigma_p in (0,1], from sat_skill_prerequisites
    */
   public static double penalize(double prereqWeight, double delta, double edgeStrength) {
+    if (delta <= 0) return prereqWeight; // a penalty can only lower a prerequisite
     double penalized = prereqWeight - KAPPA * edgeStrength * delta;
     return clamp(penalized, WEIGHT_LO, WEIGHT_HI);
   }

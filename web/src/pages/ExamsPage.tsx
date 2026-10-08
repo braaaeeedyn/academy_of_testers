@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
 import AotLogo from '../components/AotLogo'
+import ContactForm from '../components/ContactForm'
 import PageBand from '../components/PageBand'
 import WatermarkCard from '../components/WatermarkCard'
 import { AP_SUBJECT_CATEGORIES } from '../data/apCategories'
@@ -75,55 +75,72 @@ export default function ExamsPage() {
       </section>
 
       <section
-        className="max-w-5xl mx-auto mt-16 grid sm:grid-cols-2 gap-10 pt-10"
+        className="max-w-5xl mx-auto mt-16 grid lg:grid-cols-2 gap-10 pt-10"
         style={{ borderTop: '1px solid var(--hairline)' }}
       >
-        <div className="flex items-start gap-5">
-          <img
-            src={DEVELOPER.photo}
-            alt=""
-            className="w-20 h-20 object-cover flex-shrink-0"
-            style={{ borderRadius: 'var(--radius-card)' }}
-          />
+        <div className="flex flex-col gap-10">
+          <div className="flex items-start gap-5">
+            <img
+              src={DEVELOPER.photo}
+              alt=""
+              className="w-20 h-20 object-cover flex-shrink-0"
+              style={{ borderRadius: 'var(--radius-card)' }}
+            />
+            <div>
+              <h2 className="font-display text-xl font-bold">Meet the developer</h2>
+              <p className="text-sm mt-1.5 leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+                <span className="font-semibold" style={{ color: 'var(--text)' }}>
+                  {DEVELOPER.name}
+                </span>
+                . {DEVELOPER.line}
+              </p>
+              <a
+                href="https://braedynthompson.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-sm font-semibold mt-2 underline underline-offset-4"
+              >
+                Visit Braedyn’s portfolio
+              </a>
+            </div>
+          </div>
+
           <div>
-            <h2 className="font-display text-xl font-bold">Meet the developer</h2>
-            <p className="text-sm mt-1.5 leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-              <span className="font-semibold" style={{ color: 'var(--text)' }}>
-                {DEVELOPER.name}
-              </span>
-              . {DEVELOPER.line}
+            <h2 className="font-display text-xl font-bold">Follow Academy of Testers</h2>
+            <p className="text-sm mt-1.5" style={{ color: 'var(--text-muted)' }}>
+              New resources and study tips, as they’re made.
             </p>
-            <Link
-              to="/about"
-              className="inline-block text-sm font-semibold mt-2 underline underline-offset-4"
-            >
-              Read about Braedyn
-            </Link>
+            <div className="flex flex-wrap gap-2 mt-3">
+              {SOCIALS.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium hover:opacity-80"
+                  style={{ border: '1px solid var(--hairline)', borderRadius: 'var(--radius-btn)' }}
+                >
+                  <svg
+                    className="w-4 h-4"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d={s.path} />
+                  </svg>
+                  {s.label}
+                </a>
+              ))}
+            </div>
           </div>
         </div>
 
-        <div>
-          <h2 className="font-display text-xl font-bold">Follow Academy of Testers</h2>
-          <p className="text-sm mt-1.5" style={{ color: 'var(--text-muted)' }}>
-            New resources and study tips, as they’re made.
+        <div id="contact" className="scroll-mt-6">
+          <h2 className="font-display text-xl font-bold">Get in touch</h2>
+          <p className="text-sm mt-1.5 mb-4" style={{ color: 'var(--text-muted)' }}>
+            Questions, bug reports, or ideas for resources that would help you study.
           </p>
-          <div className="flex flex-wrap gap-2 mt-3">
-            {SOCIALS.map((s) => (
-              <a
-                key={s.label}
-                href={s.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium hover:opacity-80"
-                style={{ border: '1px solid var(--hairline)', borderRadius: 'var(--radius-btn)' }}
-              >
-                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d={s.path} />
-                </svg>
-                {s.label}
-              </a>
-            ))}
-          </div>
+          <ContactForm />
         </div>
       </section>
     </div>

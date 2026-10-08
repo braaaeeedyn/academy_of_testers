@@ -582,7 +582,7 @@ while (count < 5) {
           exampleCode:
             'int count = 0;\\n' +
             'while (count < 3) {\\n' +
-            '    System.out.println(\"Hello \" + count);\\n' +
+            '    System.out.println("Hello " + count);\\n' +
             '    count++;  // update is required or the loop never ends\\n' +
             '}\\n' +
             '// Output:\\n' +

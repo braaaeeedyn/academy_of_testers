@@ -1,16 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 import ChatMessage from '../components/ChatMessage'
-import { useAuth } from '../context/AuthContext'
-import { sendAiMessage, getAiUsage } from '../services/api'
-
-interface Message {
-  role: 'user' | 'assistant'
-  content: string
-}
-
-const MAX_CHARS = 1000
-const INITIAL_REMAINING = 10
+import { useTestyChat, TESTY_MAX_CHARS as MAX_CHARS } from '../hooks/useTestyChat'
 
 /** Subjects Testy can ground answers in via the RAG curriculum corpus.
  *  '' == no scoping (general tutor). Names must match the corpus subject naming
@@ -92,16 +83,16 @@ function SparkIcon({ className, style }: { className?: string; style?: React.CSS
 }
 
 export default function TestyPage() {
-  const [messages, setMessages] = useState<Message[]>([])
-  const [input, setInput] = useState('')
-  const [isLoading, setIsLoading] = useState(false)
-  const [remaining, setRemaining] = useState(INITIAL_REMAINING)
-  const [resetsAt, setResetsAt] = useState<string | null>(null)
-  const [error, setError] = useState<string | null>(null)
-  const [subject, setSubject] = useState<string>('')
+  const { isAuthenticated, messages, input, setInput, isLoading, remaining, error, send, reset, usageLabel: labelFor } =
+    useTestyChat()
+  const [searchParams] = useSearchParams()
+  // `?subject=` preselects grounding when another page links here (e.g. an SAT prep topic).
+  const [subject, setSubject] = useState<string>(() => {
+    const requested = searchParams.get('subject') ?? ''
+    return (SUBJECTS as readonly string[]).includes(requested) ? requested : ''
+  })
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
-  const { isAuthenticated } = useAuth()
   const navigate = useNavigate()
 
   const hasConversation = messages.length > 0
@@ -114,45 +105,15 @@ export default function TestyPage() {
     if (hasConversation) messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages, isLoading, hasConversation])
 
-  useEffect(() => {
-    if (!isAuthenticated) return
-    getAiUsage()
-      .then((d) => {
-        setRemaining(d.remaining)
-        if (d.resetsAt !== 'N/A') setResetsAt(d.resetsAt)
-      })
-      .catch(() => {})
-  }, [isAuthenticated])
-
-  const sendMessage = async (override?: string) => {
+  const sendMessage = (override?: string) => {
     if (!isAuthenticated) {
       navigate('/login')
       return
     }
-
-    const trimmed = (override ?? input).trim()
-    if (!trimmed || isLoading || remaining <= 0) return
-    if (trimmed.length > MAX_CHARS) return
-
-    setError(null)
-    const userMsg: Message = { role: 'user', content: trimmed }
-    const updated = [...messages, userMsg]
-    setMessages(updated)
-    setInput('')
-    setIsLoading(true)
-
-    try {
-      const data = await sendAiMessage(updated, subject ? { subject } : undefined)
-      setMessages([...updated, { role: 'assistant', content: data.content }])
-      if (typeof data.remaining === 'number') setRemaining(data.remaining)
-    } catch (err: any) {
-      setError(err.message || 'Something went wrong')
-    } finally {
-      setIsLoading(false)
-    }
+    send(override, subject ? { subject } : undefined)
   }
 
-  const useSuggestion = (prompt: string) => {
+  const applySuggestion = (prompt: string) => {
     if (!isAuthenticated) {
       navigate('/login')
       return
@@ -168,23 +129,17 @@ export default function TestyPage() {
   }
 
   const newChat = () => {
-    setMessages([])
-    setInput('')
-    setError(null)
+    reset()
     setTimeout(() => inputRef.current?.focus(), 100)
   }
 
-  const usageLabel = !isAuthenticated
-    ? 'Log in to chat'
-    : remaining <= 0 && resetsAt
-      ? `Resets ${new Date(resetsAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`
-      : `${remaining}/10 messages left this hour`
+  const usageLabel = labelFor(false)
 
   /* ------- The composer (shared between hero + conversation) ------- */
   const composer = (
     <div className="w-full">
       <div
-        className="rounded-2xl border shadow-sm transition-shadow focus-within:shadow-md"
+        className="rounded-card border shadow-sm transition-shadow focus-within:shadow-md"
         style={{
           backgroundColor: 'var(--surface-elevated)',
           borderColor: 'var(--hairline)',
@@ -193,7 +148,7 @@ export default function TestyPage() {
         <textarea
           ref={inputRef}
           value={input}
-          onChange={(e) => setInput(e.target.value.slice(0, MAX_CHARS))}
+          onChange={(e) => setInput(e.target.value)}
           placeholder={
             !isAuthenticated
               ? 'Log in to ask Testy anything…'
@@ -213,7 +168,7 @@ export default function TestyPage() {
         <div className="flex items-center justify-between gap-2 px-3 pb-3">
           {/* Subject grounding selector */}
           <label
-            className="flex items-center gap-1.5 rounded-full border px-2.5 py-1.5 text-xs cursor-pointer"
+            className="flex items-center gap-1.5 rounded-pill border px-2.5 py-1.5 text-xs cursor-pointer"
             style={{ borderColor: 'var(--hairline)', color: 'var(--text-muted)' }}
             title="Ground Testy's answers in a subject's curriculum"
           >
@@ -227,7 +182,7 @@ export default function TestyPage() {
               style={{ color: 'var(--text)', fontFamily: 'var(--font-body)' }}
             >
               {SUBJECTS.map((s) => (
-                <option key={s || 'all'} value={s} style={{ color: '#000' }}>
+                <option key={s || 'all'} value={s} style={{ color: 'var(--text)', backgroundColor: 'var(--surface-elevated)' }}>
                   {s || 'All subjects'}
                 </option>
               ))}
@@ -241,7 +196,7 @@ export default function TestyPage() {
             <button
               onClick={() => sendMessage()}
               disabled={!isAuthenticated || !input.trim() || isLoading || remaining <= 0}
-              className="shrink-0 p-2.5 rounded-xl transition-opacity disabled:opacity-25 cursor-pointer"
+              className="shrink-0 p-2.5 rounded-btn transition-opacity disabled:opacity-25 cursor-pointer"
               style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
               aria-label="Send message"
             >
@@ -281,8 +236,8 @@ export default function TestyPage() {
           {SUGGESTIONS.map((s) => (
             <button
               key={s.label}
-              onClick={() => useSuggestion(s.prompt)}
-              className="flex items-center gap-2.5 text-left rounded-xl border px-3.5 py-3 transition-all hover:-translate-y-0.5 hover:shadow-sm cursor-pointer"
+              onClick={() => applySuggestion(s.prompt)}
+              className="flex items-center gap-2.5 text-left rounded-card border px-3.5 py-3 transition-all hover:-translate-y-0.5 hover:shadow-sm cursor-pointer"
               style={{ borderColor: 'var(--hairline)', backgroundColor: 'var(--surface)', color: 'var(--text)' }}
             >
               <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8} style={{ color: 'var(--accent)' }}>
@@ -296,7 +251,7 @@ export default function TestyPage() {
         {!isAuthenticated && (
           <button
             onClick={() => navigate('/login')}
-            className="mt-6 px-5 py-2.5 rounded-lg text-sm font-semibold transition-opacity hover:opacity-90 cursor-pointer"
+            className="mt-6 px-5 py-2.5 rounded-btn text-sm font-semibold transition-opacity hover:opacity-90 cursor-pointer"
             style={{ backgroundColor: 'var(--color-primary)', color: 'var(--color-secondary)' }}
           >
             Log in to start chatting
@@ -334,7 +289,7 @@ export default function TestyPage() {
         </div>
         <button
           onClick={newChat}
-          className="flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity"
+          className="flex items-center gap-1.5 rounded-btn border px-3 py-1.5 text-sm font-medium cursor-pointer hover:opacity-80 transition-opacity"
           style={{ borderColor: 'var(--hairline)', color: 'var(--text)' }}
         >
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -349,7 +304,7 @@ export default function TestyPage() {
         {messages.map((msg, i) => (
           <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'} testy-fade-in`}>
             <div
-              className={`max-w-[85%] rounded-2xl px-4 py-2.5 leading-relaxed ${msg.role === 'user' ? 'rounded-br-md' : 'rounded-bl-md border'}`}
+              className={`max-w-[85%] rounded-card px-4 py-2.5 leading-relaxed ${msg.role === 'user' ? 'rounded-br-md' : 'rounded-bl-md border'}`}
               style={{
                 fontSize: '0.9rem',
                 ...(msg.role === 'user'
@@ -364,7 +319,7 @@ export default function TestyPage() {
 
         {isLoading && (
           <div className="flex justify-start">
-            <div className="rounded-2xl rounded-bl-md px-4 py-3 border" style={{ borderColor: 'var(--hairline)', borderWidth: '1px' }}>
+            <div className="rounded-card rounded-bl-md px-4 py-3 border" style={{ borderColor: 'var(--hairline)', borderWidth: '1px' }}>
               <div className="flex items-center gap-2">
                 <SparkIcon className="w-4 h-4 flex-shrink-0" style={{ color: 'var(--text)', animation: 'testy-pulse 1.5s ease-in-out infinite' }} />
                 <span className="text-xs font-medium opacity-70" style={{ color: 'var(--text)' }}>

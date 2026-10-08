@@ -47,8 +47,8 @@ export default function VerifyPage() {
       navigate('/login', {
         state: { message: 'Verification successful! You can now log in.' },
       })
-    } catch (err: any) {
-      setError(err.message || 'Verification failed')
+    } catch (err: unknown) {
+      setError((err instanceof Error && err.message) || 'Verification failed')
     } finally {
       setIsSubmitting(false)
     }
@@ -62,8 +62,8 @@ export default function VerifyPage() {
     try {
       await resendVerification(state.userId)
       setSuccess('A new verification code has been sent.')
-    } catch (err: any) {
-      setError(err.message || 'Failed to resend code')
+    } catch (err: unknown) {
+      setError((err instanceof Error && err.message) || 'Failed to resend code')
     } finally {
       setIsResending(false)
     }

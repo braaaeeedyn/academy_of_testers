@@ -21,7 +21,7 @@ export interface Theme {
   fontStack: string
 }
 
-export const DEFAULT_THEME_ID = 'mintlify'
+export const DEFAULT_THEME_ID = 'wired'
 
 export const themes: Theme[] = [
   {

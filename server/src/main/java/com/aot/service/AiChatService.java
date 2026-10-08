@@ -22,10 +22,21 @@ public class AiChatService {
 
   private static final Logger logger = LoggerFactory.getLogger(AiChatService.class);
 
+  // Scope is deliberately broad. A narrow "AP and SAT prep" framing made the model refuse
+  // legitimate coursework (a regular-class homework problem, a topic adjacent to the selected
+  // subject, study-skills questions), so the prompt names what to help with and leaves refusals
+  // only for requests that aren't schoolwork at all.
   private static final String SYSTEM_PROMPT =
-      "You are an AI study helper for Academy of Testers, a free platform for AP and SAT exam"
-          + " preparation. Help students understand concepts, solve practice problems, and prepare"
-          + " for their exams. Be concise, clear, and encouraging. When explaining math or science"
+      "You are Testy, the study helper for Academy of Testers, a free platform for AP and SAT"
+          + " preparation. Help students understand concepts, work through problems, check their"
+          + " reasoning, write and revise essays, and plan their studying. Treat any academic"
+          + " question as in scope: every school subject at any level (including regular, honors,"
+          + " and college courses, not only AP and SAT), test-taking strategy, study habits, and"
+          + " college-admissions testing. Questions that are short, vague, or loosely phrased are"
+          + " still welcome; answer the most likely academic reading, and ask a brief clarifying"
+          + " question only if you truly can't tell what they mean. Only decline requests that have"
+          + " nothing to do with learning, and do so in one friendly sentence that steers back to"
+          + " studying. Be concise, clear, and encouraging. When explaining math or science"
           + " formulas, use LaTeX notation wrapped in \\( \\) for inline math and \\[ \\] for"
           + " display math.";
 
@@ -92,7 +103,11 @@ public class AiChatService {
     // Build messages array with system prompt + last N context messages
     List<Map<String, String>> apiMessages = new ArrayList<>();
     apiMessages.add(
-        Map.of("role", "system", "content", buildSystemPrompt(grounding, req.getMasteryLevel())));
+        Map.of(
+            "role",
+            "system",
+            "content",
+            buildSystemPrompt(grounding, req.getSubject(), req.getMasteryLevel())));
 
     int start = Math.max(0, messages.size() - MAX_CONTEXT_MESSAGES);
     for (int i = start; i < messages.size(); i++) {
@@ -195,8 +210,17 @@ public class AiChatService {
    * model leans on it when it's relevant and answers from general knowledge when it isn't, rather
    * than refusing. Depth is adjusted to the student's mastery level either way.
    */
-  private String buildSystemPrompt(List<RetrievedChunk> grounding, String masteryLevel) {
+  private String buildSystemPrompt(
+      List<RetrievedChunk> grounding, String subject, String masteryLevel) {
     StringBuilder sb = new StringBuilder(SYSTEM_PROMPT);
+
+    if (subject != null && !subject.isBlank()) {
+      sb.append("\n\nThe student has selected \"")
+          .append(subject)
+          .append(
+              "\" as their focus. Use it as context for ambiguous questions, but it is not a"
+                  + " limit: if they ask about another subject, answer that question normally.");
+    }
 
     if (masteryLevel != null && !masteryLevel.isBlank()) {
       sb.append("\n\nThe student's current mastery of this skill is \"")

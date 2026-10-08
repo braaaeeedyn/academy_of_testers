@@ -1,19 +1,9 @@
-import { useState, useRef, useEffect, type KeyboardEvent } from 'react'
+import { useRef, useEffect, type KeyboardEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import ChatMessage from './ChatMessage'
-import { useAuth } from '../context/AuthContext'
-import { sendAiMessage, getAiUsage } from '../services/api'
+import { useTestyChat, TESTY_MAX_CHARS as MAX_CHARS } from '../hooks/useTestyChat'
 
-interface Message {
-  role: 'user' | 'assistant'
-  content: string
-}
-
-const MAX_CHARS = 1000
-const INITIAL_REMAINING = 10
 const CHAT_FONT = 'var(--font-body)'
-const LEXEND_URL =
-  'https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap'
 
 interface AiChatProps {
   isOpen: boolean
@@ -21,24 +11,11 @@ interface AiChatProps {
 }
 
 export default function AiChat({ isOpen, onClose }: AiChatProps) {
-  const [messages, setMessages] = useState<Message[]>([])
-  const [input, setInput] = useState('')
-  const [isLoading, setIsLoading] = useState(false)
-  const [remaining, setRemaining] = useState(INITIAL_REMAINING)
-  const [resetsAt, setResetsAt] = useState<string | null>(null)
-  const [error, setError] = useState<string | null>(null)
+  const { isAuthenticated, messages, input, setInput, isLoading, remaining, error, send, usageLabel } =
+    useTestyChat({ active: isOpen })
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
-  const { isAuthenticated } = useAuth()
   const navigate = useNavigate()
-
-  useEffect(() => {
-    if (document.querySelector(`link[href="${LEXEND_URL}"]`)) return
-    const link = document.createElement('link')
-    link.rel = 'stylesheet'
-    link.href = LEXEND_URL
-    document.head.appendChild(link)
-  }, [])
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
@@ -48,44 +25,13 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
     if (isOpen) setTimeout(() => inputRef.current?.focus(), 300)
   }, [isOpen])
 
-  useEffect(() => {
-    if (!isOpen || !isAuthenticated) return
-    getAiUsage()
-      .then((d) => {
-        setRemaining(d.remaining)
-        if (d.resetsAt !== 'N/A') setResetsAt(d.resetsAt)
-      })
-      .catch(() => {})
-  }, [isOpen, isAuthenticated])
-
-  const sendMessage = async () => {
+  const sendMessage = () => {
     if (!isAuthenticated) {
       onClose()
       navigate('/login')
       return
     }
-
-    const trimmed = input.trim()
-    if (!trimmed || isLoading || remaining <= 0) return
-    if (trimmed.length > MAX_CHARS) return
-
-    setError(null)
-    const userMsg: Message = { role: 'user', content: trimmed }
-    const updated = [...messages, userMsg]
-    setMessages(updated)
-    setInput('')
-    setIsLoading(true)
-
-    try {
-      const data = await sendAiMessage(updated)
-      setMessages([...updated, { role: 'assistant', content: data.content }])
-      if (typeof data.remaining === 'number') setRemaining(data.remaining)
-    } catch (err: any) {
-      const msg = err.message || 'Something went wrong'
-      setError(msg)
-    } finally {
-      setIsLoading(false)
-    }
+    send()
   }
 
   const handleKeyDown = (e: KeyboardEvent<HTMLTextAreaElement>) => {
@@ -151,11 +97,7 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
                 fontSize: '0.7rem',
               }}
             >
-              {isAuthenticated
-                ? remaining <= 0 && resetsAt
-                  ? `Resets ${new Date(resetsAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`
-                  : `${remaining}/10 left`
-                : 'Log in to chat'}
+              {usageLabel(true)}
             </span>
             <button
               onClick={() => { onClose(); navigate('/testy') }}
@@ -180,6 +122,7 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
             </button>
             <button
               onClick={onClose}
+              aria-label="Close Testy"
               className="p-1 rounded hover:opacity-70 transition-opacity cursor-pointer"
               style={{ color: 'var(--color-secondary)' }}
             >
@@ -224,13 +167,13 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
                 Hey, I'm Testy!
               </p>
               <p style={{ fontSize: '0.7rem', marginTop: '4px' }}>
-                Ask me anything about AP &amp; SAT exam topics, concepts, and
-                practice problems.
+                Ask me about any class, concept, or practice problem, from AP
+                and SAT prep to everyday homework.
               </p>
               {!isAuthenticated && (
                 <button
                   onClick={() => { onClose(); navigate('/login') }}
-                  className="mt-4 px-4 py-2 rounded-lg text-sm font-semibold transition-opacity hover:opacity-90 cursor-pointer"
+                  className="mt-4 px-4 py-2 rounded-btn text-sm font-semibold transition-opacity hover:opacity-90 cursor-pointer"
                   style={{
                     backgroundColor: 'var(--color-primary)',
                     color: 'var(--color-secondary)',
@@ -249,7 +192,7 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
               className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
             >
               <div
-                className={`max-w-[85%] rounded-2xl px-4 py-2.5 leading-relaxed ${
+                className={`max-w-[85%] rounded-card px-4 py-2.5 leading-relaxed ${
                   msg.role === 'user'
                     ? 'rounded-br-md'
                     : 'rounded-bl-md border'
@@ -281,7 +224,7 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
           {isLoading && (
             <div className="flex justify-start">
               <div
-                className="rounded-2xl rounded-bl-md px-4 py-3 border"
+                className="rounded-card rounded-bl-md px-4 py-3 border"
                 style={{
                   borderColor: 'var(--color-primary)',
                   borderWidth: '1px',
@@ -345,7 +288,7 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
             <textarea
               ref={inputRef}
               value={input}
-              onChange={(e) => setInput(e.target.value.slice(0, MAX_CHARS))}
+              onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder={
                 !isAuthenticated
@@ -356,7 +299,7 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
               }
               disabled={!isAuthenticated || remaining <= 0 || isLoading}
               rows={2}
-              className="flex-1 resize-none rounded-xl px-3 py-2 border outline-none transition-shadow focus:ring-2 disabled:opacity-40"
+              className="flex-1 resize-none rounded-input px-3 py-2 border outline-none transition-shadow focus:ring-2 disabled:opacity-40"
               style={{
                 fontSize: '0.8rem',
                 fontFamily: CHAT_FONT,
@@ -371,8 +314,9 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
             />
             <button
               onClick={sendMessage}
+              aria-label="Send message"
               disabled={!isAuthenticated || !input.trim() || isLoading || remaining <= 0}
-              className="shrink-0 p-2.5 rounded-xl transition-opacity disabled:opacity-25 cursor-pointer"
+              className="shrink-0 p-2.5 rounded-btn transition-opacity disabled:opacity-25 cursor-pointer"
               style={{
                 backgroundColor: 'var(--color-primary)',
                 color: 'var(--color-secondary)',

@@ -97,6 +97,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
+
+        <!-- Unit tests for the pure sat/engine classes. Plain JUnit, not spring-boot-starter-test:
+             the engine needs no Spring context or database (SAT_ADAPTIVE_ENGINE.md §0). -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

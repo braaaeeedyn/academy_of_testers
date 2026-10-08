@@ -51,9 +51,12 @@ Rebuild the api after backend changes: `docker compose build api && docker compo
   is effectively off; the hard RECENT_EXCLUSION=30 window is what prevents repeats. Wire real
   last-seen timestamps when tuning.
 - **Grid items**: none exist; the whole path is `mc`-only (Phase 6).
-- **No JUnit**: engine correctness is by-construction + the end-to-end check above; `spring-boot-starter-test`
-  was intentionally not added to avoid an offline-resolution risk. Add it when convenient (§10 Phase 1's
-  property tests).
+- **Unit tests**: plain JUnit 5 (not `spring-boot-starter-test`) covers every `sat/engine` class in
+  `server/src/test/java/com/aot/sat/engine`; run with `cd server && mvn test`. Added 2026-10-07.
+- **Misses never raise mastery** (2026-10-07): textbook BKT applies the learning transition after every
+  answer, so below w ≈ 0.115 a miss nets a small rise, and the resulting negative delta turned the
+  prerequisite penalty into a boost. `AdaptiveSessionService` now caps a miss at no change, and
+  `PrerequisitePropagator.penalize` ignores a non-positive delta. The engine's BKT itself is unchanged.
 
 ### What exists on disk
 

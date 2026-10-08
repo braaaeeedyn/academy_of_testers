@@ -43,10 +43,13 @@ cd server && mvn spotless:apply
 
 ### Tests
 
-**There is no test suite** — no `server/src/test`, no frontend test runner. `spring-boot-starter-test`
-was deliberately omitted (see `SAT_ADAPTIVE_ENGINE.md` §0, "Known simplifications"); the adaptive engine
-is verified by construction plus manual end-to-end runs. Don't fabricate a test command; if tests are
-wanted, the engine classes under `com.aot.sat.engine` are pure and the natural first target.
+```bash
+cd server && mvn test     # JUnit 5 unit tests for the pure com.aot.sat.engine classes
+```
+
+Only the adaptive engine is covered: plain `junit-jupiter`, deliberately not `spring-boot-starter-test`,
+since the engine needs no Spring context or database. There is no frontend test runner, and the Docker
+build skips tests (`-DskipTests`). Services, controllers, and the AI features are verified manually.
 
 ## The port 5433 rule
 
