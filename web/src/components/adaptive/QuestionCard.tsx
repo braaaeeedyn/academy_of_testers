@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import MathText from '../MathText'
+import ExplainMistakeButton from '../ExplainMistakeButton'
 import type { AdaptiveQuestion } from '../../types/adaptive'
 
 export interface Feedback {
@@ -246,6 +247,19 @@ export default function QuestionCard({
           <MathText component="div" style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--text-muted)' }}>
             {feedback!.explanation}
           </MathText>
+          {/* Answers only reach the client after submission, so this is safe in session and diagnostic. */}
+          {feedback && !feedback.correct && selectedIndex !== null && (
+            <div style={{ marginTop: 12 }}>
+              <ExplainMistakeButton
+                subject="SAT Math"
+                question={question.stem}
+                options={question.options}
+                selectedIndex={selectedIndex}
+                correctIndex={feedback.correctIndex}
+                explanation={feedback.explanation}
+              />
+            </div>
+          )}
           <button
             onClick={onNext}
             style={{

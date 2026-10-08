@@ -1,4 +1,4 @@
-import { lazy, Suspense, useState, useEffect, type ReactNode } from 'react'
+import { lazy, Suspense, useState, useEffect, useCallback, type ReactNode } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext'
 import { AuthProvider, useAuth } from './context/AuthContext'
@@ -6,7 +6,7 @@ import { setTokenAccessor } from './services/api'
 import ClickSpark from './components/ClickSpark'
 import ExamsPage from './pages/ExamsPage'
 import LoadingScreen from './components/LoadingScreen'
-import { ChatProvider } from './context/ChatContext'
+import { ChatProvider, type ChatDraft } from './context/ChatContext'
 import {
   LegacyExamHubRedirect,
   LegacyExamRedirect,
@@ -33,6 +33,11 @@ const SatHubPage = lazy(() => import('./pages/SatHubPage'))
 const SatPrepPage = lazy(() => import('./pages/SatPrepPage'))
 const SatPrepTopicPage = lazy(() => import('./pages/SatPrepTopicPage'))
 const TestyPage = lazy(() => import('./pages/TestyPage'))
+const MistakeNotebookPage = lazy(() => import('./pages/MistakeNotebookPage'))
+const SatDesmosGuidePage = lazy(() => import('./pages/SatDesmosGuidePage'))
+const ApStudyPlanPage = lazy(() => import('./pages/ApStudyPlanPage'))
+const SatStudyPlanPage = lazy(() => import('./pages/SatStudyPlanPage'))
+const ExamLogisticsPage = lazy(() => import('./pages/ExamLogisticsPage'))
 const AiChat = lazy(() => import('./components/AiChat'))
 
 
@@ -277,6 +282,13 @@ function TokenAccessorBridge() {
 
 function App() {
   const [chatOpen, setChatOpen] = useState(false)
+  // A prefilled message waiting for the chat panel to pick it up (never auto-sent).
+  const [chatDraft, setChatDraft] = useState<ChatDraft | null>(null)
+  const openChat = useCallback((draft?: ChatDraft) => {
+    if (draft) setChatDraft(draft)
+    setChatOpen(true)
+  }, [])
+  const consumeDraft = useCallback(() => setChatDraft(null), [])
   // The chat panel's code is fetched the first time it opens, then stays mounted so the
   // conversation survives closing and reopening.
   const [chatLoaded, setChatLoaded] = useState(false)
@@ -299,7 +311,7 @@ function App() {
               <AppHeader onChatOpen={() => setChatOpen(true)} />
 
               <main className="w-full max-w-screen-2xl mx-auto px-4 sm:px-8 lg:px-12 py-6 sm:py-8 flex-1">
-                <ChatProvider openChat={() => setChatOpen(true)}>
+                <ChatProvider openChat={openChat}>
                 <Suspense fallback={<LoadingScreen />}>
                 <Routes>
                   <Route path="/" element={<ExamsPage />} />
@@ -315,15 +327,21 @@ function App() {
                   <Route path="/subjects/:subjectId" element={<LegacySubjectRedirect />} />
                   {/* Slug-based exam routes */}
                   <Route path="/ap/planner" element={<ApPlannerPage />} />
+                  <Route path="/ap/study-plan" element={<ApStudyPlanPage />} />
+                  <Route path="/ap/logistics" element={<ExamLogisticsPage exam="ap" />} />
                   <Route path="/:examSlug/hub" element={<ExamHubPage />} />
                   <Route path="/:examSlug/exam-info" element={<ExamInfoPage />} />
                   <Route path="/:examSlug/practice" element={<PracticeToHubRedirect />} />
                   <Route path="/:examSlug/:subjectSlug" element={<ResourcesPage />} />
                   <Route path="/sat/hub" element={<SatHubPage />} />
                   <Route path="/sat/prep" element={<SatPrepPage />} />
+                  <Route path="/sat/prep/desmos" element={<SatDesmosGuidePage />} />
                   <Route path="/sat/prep/:topicId" element={<SatPrepTopicPage />} />
+                  <Route path="/sat/study-plan" element={<SatStudyPlanPage />} />
+                  <Route path="/sat/logistics" element={<ExamLogisticsPage exam="sat" />} />
                   <Route path="/sat/adaptive" element={<SatAdaptivePage />} />
                   <Route path="/testy" element={<TestyPage />} />
+                  <Route path="/notebook" element={<MistakeNotebookPage />} />
                   <Route path="/themes" element={<ThemesPage />} />
                   <Route path="/about" element={<ExternalRedirect to={PORTFOLIO_URL} />} />
                   <Route path="/mission" element={<MissionPage />} />
@@ -338,7 +356,12 @@ function App() {
 
           {chatLoaded && (
             <Suspense fallback={null}>
-              <AiChat isOpen={chatOpen} onClose={() => setChatOpen(false)} />
+              <AiChat
+                isOpen={chatOpen}
+                onClose={() => setChatOpen(false)}
+                draft={chatDraft}
+                onDraftConsumed={consumeDraft}
+              />
             </Suspense>
           )}
         </Router>

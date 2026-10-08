@@ -1,10 +1,13 @@
 package com.aot.sat.controller;
 
+import com.aot.sat.dto.AdaptiveDtos.AdaptiveQuestion;
 import com.aot.sat.dto.AdaptiveDtos.AnswerResult;
 import com.aot.sat.dto.AdaptiveDtos.DashboardData;
 import com.aot.sat.dto.AdaptiveDtos.DiagnosticAnswerResult;
 import com.aot.sat.dto.AdaptiveDtos.DiagnosticStep;
 import com.aot.sat.dto.AdaptiveDtos.RepairRequest;
+import com.aot.sat.dto.AdaptiveDtos.ReviewAnswer;
+import com.aot.sat.dto.AdaptiveDtos.ReviewResult;
 import com.aot.sat.dto.AdaptiveDtos.SessionStep;
 import com.aot.sat.dto.AdaptiveDtos.SessionSummary;
 import com.aot.sat.dto.AdaptiveDtos.SkillCatalog;
@@ -15,6 +18,7 @@ import com.aot.sat.dto.AdaptiveDtos.UserPrefs;
 import com.aot.sat.service.AdaptiveSessionService;
 import com.aot.sat.service.DiagnosticService;
 import com.aot.sat.service.MasteryService;
+import com.aot.sat.service.MistakeReviewService;
 import com.aot.sat.service.SatUserPrefsService;
 import com.aot.sat.service.StreakService;
 import java.time.LocalDate;
@@ -44,18 +48,21 @@ public class SatAdaptiveController {
   private final MasteryService masteryService;
   private final StreakService streakService;
   private final SatUserPrefsService prefsService;
+  private final MistakeReviewService reviewService;
 
   public SatAdaptiveController(
       DiagnosticService diagnosticService,
       AdaptiveSessionService sessionService,
       MasteryService masteryService,
       StreakService streakService,
-      SatUserPrefsService prefsService) {
+      SatUserPrefsService prefsService,
+      MistakeReviewService reviewService) {
     this.diagnosticService = diagnosticService;
     this.sessionService = sessionService;
     this.masteryService = masteryService;
     this.streakService = streakService;
     this.prefsService = prefsService;
+    this.reviewService = reviewService;
   }
 
   private static Long uid(Authentication auth) {
@@ -82,8 +89,8 @@ public class SatAdaptiveController {
   }
 
   /**
-   * The full results board: mastery, recommended focus, and the streak calendar for one month.
-   * The "current day" is resolved server-side in UTC so the streak boundary is universal and not
+   * The full results board: mastery, recommended focus, and the streak calendar for one month. The
+   * "current day" is resolved server-side in UTC so the streak boundary is universal and not
    * subject to the device clock or time zone.
    */
   @GetMapping("/dashboard")
@@ -173,5 +180,22 @@ public class SatAdaptiveController {
   @PostMapping("/session/{id}/end")
   public ResponseEntity<List<SkillWeight>> endSession(Authentication auth, @PathVariable Long id) {
     return ResponseEntity.ok(sessionService.endSession(uid(auth), id));
+  }
+
+  /**
+   * Mistake Notebook: an answer-free copy of a question this user has answered before (404
+   * otherwise). Read-only; never touches weights, streaks or calibration data.
+   */
+  @GetMapping("/review/{questionId}")
+  public ResponseEntity<AdaptiveQuestion> reviewQuestion(
+      Authentication auth, @PathVariable String questionId) {
+    return ResponseEntity.ok(reviewService.question(uid(auth), questionId));
+  }
+
+  /** Mistake Notebook: grades a re-attempt without recording it. */
+  @PostMapping("/review/{questionId}/check")
+  public ResponseEntity<ReviewResult> reviewCheck(
+      Authentication auth, @PathVariable String questionId, @RequestBody ReviewAnswer body) {
+    return ResponseEntity.ok(reviewService.check(uid(auth), questionId, body.selectedIndex()));
   }
 }

@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import PageBand from '../components/PageBand'
 import WatermarkCard from '../components/WatermarkCard'
 
@@ -30,6 +30,30 @@ interface HubOption {
   /** Oversized faded word in the card's corner. */
   watermark: string
 }
+
+/** Smaller tools under the two main paths. */
+const TOOLS: { to: string; title: string; subtitle: string; iconPath: string }[] = [
+  {
+    to: '/sat/study-plan',
+    title: 'Week-by-week plan',
+    subtitle: 'Topics spread across the weeks until your test date',
+    iconPath: 'M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z',
+  },
+  {
+    to: '/notebook',
+    title: 'Mistake Notebook',
+    subtitle: 'Re-try missed questions on a spaced schedule',
+    iconPath:
+      'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
+  },
+  {
+    to: '/sat/logistics',
+    title: 'Test-day logistics',
+    subtitle: 'Bluebook, what to bring, scores & sending them',
+    iconPath:
+      'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4',
+  },
+]
 
 const OPTIONS: HubOption[] = [
   {
@@ -121,6 +145,30 @@ export default function SatHubPage() {
               </>
             }
           />
+        ))}
+      </section>
+
+      <section className="grid sm:grid-cols-3 gap-3 mt-5">
+        {TOOLS.map((t) => (
+          <Link
+            key={t.to}
+            to={t.to}
+            className="group flex items-center gap-3.5 p-4 rounded-2xl border transition-all hover:shadow-md hover:-translate-y-0.5"
+            style={{ backgroundColor: 'var(--surface-elevated)', borderColor: 'var(--hairline)', color: 'var(--text)' }}
+          >
+            <span
+              className="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center"
+              style={{ backgroundColor: 'var(--accent)', color: 'var(--accent-ink)' }}
+            >
+              <Icon path={t.iconPath} className="w-5 h-5" />
+            </span>
+            <span className="min-w-0">
+              <span className="block text-sm font-bold leading-tight">{t.title}</span>
+              <span className="block text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
+                {t.subtitle}
+              </span>
+            </span>
+          </Link>
         ))}
       </section>
     </div>

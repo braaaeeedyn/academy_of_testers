@@ -489,6 +489,15 @@ export default function ApPlannerPage() {
                       Review Material
                     </Link>
                   </div>
+                  {hasBank && (
+                    <Link
+                      to={`/ap/study-plan?subject=${encodeURIComponent(subject.name)}`}
+                      className="mt-3 flex items-center justify-center gap-2 text-xs font-semibold hover:underline"
+                      style={{ color: 'var(--text-muted)' }}
+                    >
+                      Week-by-week study plan →
+                    </Link>
+                  )}
                 </div>
               )
             })}

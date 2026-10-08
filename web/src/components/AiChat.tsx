@@ -2,20 +2,35 @@ import { useRef, useEffect, type KeyboardEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import ChatMessage from './ChatMessage'
 import { useTestyChat, TESTY_MAX_CHARS as MAX_CHARS } from '../hooks/useTestyChat'
+import type { ChatDraft } from '../context/ChatContext'
+import type { AiChatContext } from '../services/api'
 
 const CHAT_FONT = 'var(--font-body)'
 
 interface AiChatProps {
   isOpen: boolean
   onClose: () => void
+  /** A prefilled message (e.g. "Explain my mistake"). Placed in the input, never auto-sent. */
+  draft?: ChatDraft | null
+  onDraftConsumed?: () => void
 }
 
-export default function AiChat({ isOpen, onClose }: AiChatProps) {
+export default function AiChat({ isOpen, onClose, draft, onDraftConsumed }: AiChatProps) {
   const { isAuthenticated, messages, input, setInput, isLoading, remaining, error, send, usageLabel } =
     useTestyChat({ active: isOpen })
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
   const navigate = useNavigate()
+  // Context that came with a draft; applied to the next send only.
+  const draftContextRef = useRef<AiChatContext | undefined>(undefined)
+
+  useEffect(() => {
+    if (!draft) return
+    setInput(draft.text)
+    draftContextRef.current = draft.context
+    setTimeout(() => inputRef.current?.focus(), 300)
+    onDraftConsumed?.()
+  }, [draft, setInput, onDraftConsumed])
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
@@ -31,7 +46,9 @@ export default function AiChat({ isOpen, onClose }: AiChatProps) {
       navigate('/login')
       return
     }
-    send()
+    const context = draftContextRef.current
+    draftContextRef.current = undefined
+    send(undefined, context)
   }
 
   const handleKeyDown = (e: KeyboardEvent<HTMLTextAreaElement>) => {

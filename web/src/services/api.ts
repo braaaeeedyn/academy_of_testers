@@ -376,6 +376,8 @@ import type {
   DashboardData,
   SkillCatalog,
   UserPrefs,
+  AdaptiveQuestion,
+  ReviewResult,
 } from '../types/adaptive'
 
 export async function getAdaptiveStatus(): Promise<AdaptiveStatus> {
@@ -489,4 +491,32 @@ export async function getSessionSummary(sessionId: number): Promise<SessionSumma
 /** Ends the session early; grades on completed questions and returns updated mastery weights. */
 export async function endSession(sessionId: number): Promise<SkillWeight[]> {
   return fetchAPI<SkillWeight[]>(`/sat/adaptive/session/${sessionId}/end`, { method: 'POST' })
+}
+
+// Mistake Notebook re-attempts of SAT questions (read-only on the server: they never move mastery).
+
+/**
+ * An answer-free copy of a question the user has answered before, or 'NOT_FOUND' when the server
+ * says it isn't theirs (e.g. a notebook entry from another account on a shared browser).
+ */
+export async function getReviewQuestion(questionId: string): Promise<AdaptiveQuestion | 'NOT_FOUND'> {
+  const headers: Record<string, string> = {}
+  const token = getAccessToken?.()
+  if (token) headers['Authorization'] = `Bearer ${token}`
+  const res = await fetch(`${API_BASE_URL}/sat/adaptive/review/${encodeURIComponent(questionId)}`, { headers })
+  if (res.status === 404) return 'NOT_FOUND'
+  if (!res.ok) {
+    const data = await res.json().catch(() => ({}))
+    throw new Error(data.message || `API Error: ${res.status} ${res.statusText}`)
+  }
+  return res.json()
+}
+
+/** Grades a notebook re-attempt. Nothing is recorded server-side. */
+export async function checkReviewAnswer(questionId: string, selectedIndex: number): Promise<ReviewResult> {
+  return fetchAPI<ReviewResult>(`/sat/adaptive/review/${encodeURIComponent(questionId)}/check`, {
+    method: 'POST',
+    headers: JSON_HEADERS,
+    body: JSON.stringify({ selectedIndex }),
+  })
 }

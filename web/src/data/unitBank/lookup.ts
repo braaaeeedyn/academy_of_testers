@@ -43,3 +43,8 @@ export function getUnitBank(subjectName: string): SubjectUnitBank | undefined {
   const slug = subjectToApSlug(subjectName)
   return UNIT_BANKS.find((b) => b.slug === slug)
 }
+
+/** DB subject names that have a unit bank, in the map's order (for subject pickers). */
+export function subjectsWithUnitBank(): string[] {
+  return Object.keys(SUBJECT_TO_SLUG).filter((name) => !!getUnitBank(name))
+}

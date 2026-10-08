@@ -55,8 +55,16 @@ Rebuild the api after backend changes: `docker compose build api && docker compo
   `server/src/test/java/com/aot/sat/engine`; run with `cd server && mvn test`. Added 2026-10-07.
 - **Misses never raise mastery** (2026-10-07): textbook BKT applies the learning transition after every
   answer, so below w ≈ 0.115 a miss nets a small rise, and the resulting negative delta turned the
-  prerequisite penalty into a boost. `AdaptiveSessionService` now caps a miss at no change, and
-  `PrerequisitePropagator.penalize` ignores a non-positive delta. The engine's BKT itself is unchanged.
+  prerequisite penalty into a boost. The per-answer update now lives in the pure
+  `sat/engine/MasteryUpdate.applyAnswer` (BKT, then a miss capped at no change, then gain/loss damping,
+  then clamp), which `AdaptiveSessionService` calls; `PrerequisitePropagator.penalize` ignores a
+  non-positive delta. The engine's BKT itself is unchanged. `MasteryUpdateTest` proves it across the
+  whole weight range: a miss never raises the weight or a prerequisite, a correct answer never lowers
+  it, repeated misses never climb, and a diagnostic miss never scores above the same item correct.
+- **Mistake Notebook review** (2026-10-07): `GET /review/{questionId}` and
+  `POST /review/{questionId}/check` (`MistakeReviewService`) let a student re-attempt a question they
+  already answered in a session. Strictly read-only: no weight, streak, `sat_responses` or attempt-count
+  writes, because a re-attempt is made with prior knowledge of the answer.
 
 ### What exists on disk
 

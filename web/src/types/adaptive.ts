@@ -66,6 +66,13 @@ export interface AnswerResult {
   complete: boolean
 }
 
+/** Grade for a Mistake Notebook re-attempt (read-only server-side). */
+export interface ReviewResult {
+  correct: boolean
+  correctIndex: number
+  explanation: string
+}
+
 export interface SessionSummary {
   sessionId: number
   total: number

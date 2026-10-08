@@ -104,7 +104,9 @@ public final class AdaptiveDtos {
   /** User-linked dashboard preferences. {@code testDate} is ISO yyyy-MM-dd (or null). */
   public record UserPrefs(String testDate, Integer weeklyGoal) {}
 
-  /** How many active bank questions exist per skill, split by difficulty (for the practice builder). */
+  /**
+   * How many active bank questions exist per skill, split by difficulty (for the practice builder).
+   */
   public record SkillCatalog(
       String skillId,
       String skillName,
@@ -113,4 +115,12 @@ public final class AdaptiveDtos {
       int medium,
       int hard,
       int total) {}
+
+  /** A Mistake Notebook re-attempt of a previously answered question. */
+  public record ReviewAnswer(Integer selectedIndex) {}
+
+  /**
+   * Grade for a Mistake Notebook re-attempt. Read-only: it never moves weights or calibration data.
+   */
+  public record ReviewResult(boolean correct, int correctIndex, String explanation) {}
 }

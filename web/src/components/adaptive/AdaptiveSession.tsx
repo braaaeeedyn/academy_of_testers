@@ -5,6 +5,7 @@ import ReferenceSheet from './ReferenceSheet'
 import DesmosCalculator from './DesmosCalculator'
 import LoadingScreen from '../LoadingScreen'
 import { startSession, answerSession, endSession, type PracticeConfig } from '../../services/api'
+import { addMistake } from '../../utils/mistakeNotebookStore'
 import type { AdaptiveQuestion, SkillWeight } from '../../types/adaptive'
 
 interface Props {
@@ -67,6 +68,8 @@ export default function AdaptiveSession({ onComplete, onNeedsDiagnostic, config 
     try {
       const res = await answerSession(sessionId, question.id, index, Date.now() - startedAt.current)
       setFeedback({ correct: res.correct, correctIndex: res.correctIndex, explanation: res.explanation })
+      // Mistake Notebook stores only the question id; the content is re-fetched answer-free on review.
+      if (!res.correct) addMistake({ source: 'sat', subject: 'SAT Math', questionId: question.id })
       finalWeights.current = res.updatedWeights
       done.current = res.complete
       nextQ.current = res.nextQuestion

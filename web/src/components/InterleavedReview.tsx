@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react'
 import { getMixedQuestions, shuffle, type MixQuestion } from '../data/questionBank'
+import ExplainMistakeButton from './ExplainMistakeButton'
+import { addMistake } from '../utils/mistakeNotebookStore'
 
 function Icon({ path, className }: { path: string; className?: string }) {
   return (
@@ -85,6 +87,7 @@ export default function InterleavedReview({ subjectName }: { subjectName: string
     if (selected !== null) return
     setSelected(idx)
     setAnswers((a) => ({ ...a, [q.id]: idx === q.correctAnswer }))
+    if (idx !== q.correctAnswer) addMistake({ source: 'ap', subject: subjectName, questionId: q.id })
   }
 
   const next = () => {
@@ -151,6 +154,17 @@ export default function InterleavedReview({ subjectName }: { subjectName: string
                 {selected === q.correctAnswer ? 'Correct!' : `Incorrect — Answer: ${String.fromCharCode(65 + q.correctAnswer)}`}
               </span>
               <p className="text-sm mt-1" style={{ color: 'var(--text)' }}>{q.explanation}</p>
+              {selected !== q.correctAnswer && (
+                <ExplainMistakeButton
+                  className="mt-3"
+                  subject={subjectName}
+                  question={q.question}
+                  options={q.options}
+                  selectedIndex={selected}
+                  correctIndex={q.correctAnswer}
+                  explanation={q.explanation}
+                />
+              )}
             </div>
           )}
 

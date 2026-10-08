@@ -14,6 +14,8 @@ public interface SatResponseRepository extends JpaRepository<SatResponse, Long> 
 
   boolean existsBySessionIdAndQuestionId(Long sessionId, String questionId);
 
+  boolean existsByUserIdAndQuestionId(Long userId, String questionId);
+
   @Query(
       "select r.questionId from SatResponse r where r.userId = :userId "
           + "order by r.answeredAt desc")

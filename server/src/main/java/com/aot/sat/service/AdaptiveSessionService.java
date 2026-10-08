@@ -8,8 +8,8 @@ import com.aot.sat.dto.AdaptiveDtos.SessionSummary;
 import com.aot.sat.dto.AdaptiveDtos.SkillCatalog;
 import com.aot.sat.dto.AdaptiveDtos.SkillWeight;
 import com.aot.sat.engine.AdaptiveConstants;
-import com.aot.sat.engine.BayesianKnowledgeTracer;
 import com.aot.sat.engine.ItemResponseTheory;
+import com.aot.sat.engine.MasteryUpdate;
 import com.aot.sat.engine.PrerequisitePropagator;
 import com.aot.sat.engine.QuestionSelector;
 import com.aot.sat.engine.QuestionSelector.Candidate;
@@ -207,20 +207,9 @@ public class AdaptiveSessionService {
     double wBefore = MasteryService.decayed(row);
     double theta = ItemResponseTheory.theta(wBefore);
 
-    // 4-5: BKT posterior + learning transition, damped so mastery changes more gradually.
-    // Gains use a smaller rate than losses, so mastery is easier to lose than to earn.
-    double rawAfter =
-        BayesianKnowledgeTracer.update(wBefore, correct, AdaptiveConstants.P_GUESS_MC);
-    // BKT applies the learning transition after every answer, so below w ~= 0.115 a miss nets a
-    // small rise. A wrong answer must never raise mastery, nor (through a negative delta in step 6)
-    // raise the prerequisites, so a miss is capped at no change.
-    if (!correct) {
-      rawAfter = Math.min(rawAfter, wBefore);
-    }
-    double rawDelta = rawAfter - wBefore;
-    double rate =
-        rawDelta >= 0 ? AdaptiveConstants.MASTERY_GAIN_RATE : AdaptiveConstants.MASTERY_LOSS_RATE;
-    double wAfter = wBefore + rawDelta * rate;
+    // 4-5: BKT posterior + learning transition, a miss capped at no change, then damped so
+    // mastery changes more gradually (gains damped harder than losses). See MasteryUpdate.
+    double wAfter = MasteryUpdate.applyAnswer(wBefore, correct, AdaptiveConstants.P_GUESS_MC);
 
     // 6: on a miss, propagate a depth-1 penalty to prerequisites
     if (!correct) {

@@ -7,6 +7,9 @@ import { useAuth } from '../context/AuthContext'
 import type { CardMastery } from '../types/flashcards'
 import { correctToMaster, tierOf, practiceCardKey } from '../utils/apMastery'
 import MathText from './MathText'
+import ExplainMistakeButton from './ExplainMistakeButton'
+import { addMistake } from '../utils/mistakeNotebookStore'
+import { Link } from 'react-router-dom'
 
 type Scope = 'all' | 'unmastered' | number
 type DifficultyFilter = 'all' | Difficulty | 'unrated'
@@ -148,9 +151,11 @@ export default function UnitPractice({
         })
       } else {
         setStreak(0)
+        // Save a reference (never the content) to the Mistake Notebook for spaced review.
+        addMistake({ source: 'ap', subject: subjectName, questionId: current.question.id })
       }
     },
-    [current, selected, tracksMastery, subjectId, keyFor]
+    [current, selected, tracksMastery, subjectId, keyFor, subjectName]
   )
 
   const next = useCallback(() => {
@@ -450,8 +455,24 @@ export default function UnitPractice({
                 <MathText className="text-xs mt-2" component="p" style={{ color: 'var(--text-muted)' }}>
                   {m.item.question.explanation}
                 </MathText>
+                <ExplainMistakeButton
+                  className="mt-3"
+                  subject={subjectName}
+                  question={m.item.question.question}
+                  options={m.item.question.options}
+                  selectedIndex={m.selected}
+                  correctIndex={m.item.question.correctAnswer}
+                  explanation={m.item.question.explanation}
+                />
               </div>
             ))}
+            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+              Missed questions saved to your{' '}
+              <Link to="/notebook" className="font-semibold underline" style={{ color: 'var(--text)' }}>
+                Mistake Notebook
+              </Link>{' '}
+              for spaced review.
+            </p>
           </div>
         )}
       </div>
@@ -618,6 +639,17 @@ export default function UnitPractice({
               <MathText className="text-sm" component="p" style={{ color: 'var(--text)' }}>
                 {q.explanation}
               </MathText>
+              {selected !== q.correctAnswer && (
+                <ExplainMistakeButton
+                  className="mt-3"
+                  subject={subjectName}
+                  question={q.question}
+                  options={q.options}
+                  selectedIndex={selected}
+                  correctIndex={q.correctAnswer}
+                  explanation={q.explanation}
+                />
+              )}
             </div>
           )}
 

@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { getMixedQuestions, shuffle, type MixQuestion } from '../data/questionBank'
+import ExplainMistakeButton from './ExplainMistakeButton'
+import { addMistake } from '../utils/mistakeNotebookStore'
 
 function Icon({ path, className }: { path: string; className?: string }) {
   return (
@@ -110,6 +112,19 @@ function ExamRunner({
   useEffect(() => {
     if (timeLeft <= 0 && !submitted) setSubmitted(true)
   }, [timeLeft, submitted])
+
+  // On submit, save every wrong or blank question to the Mistake Notebook (references only).
+  // The ref guard keeps a StrictMode re-run from counting the same miss twice.
+  const missesSaved = useRef(false)
+  useEffect(() => {
+    if (!submitted || missesSaved.current) return
+    missesSaved.current = true
+    for (const q of questions) {
+      if (answers[q.id] !== q.correctAnswer) {
+        addMistake({ source: 'ap', subject: subjectName, questionId: q.id })
+      }
+    }
+  }, [submitted, questions, answers, subjectName])
 
   const answeredCount = Object.keys(answers).length
 
@@ -284,6 +299,17 @@ function ExamResults({
                     {chosen === undefined ? ' · you left this blank' : right ? '' : ` · you chose ${String.fromCharCode(65 + chosen)}`}
                   </p>
                   <p className="text-sm mt-1.5 leading-relaxed">{q.explanation}</p>
+                  {chosen !== undefined && !right && (
+                    <ExplainMistakeButton
+                      className="mt-3"
+                      subject={subjectName}
+                      question={q.question}
+                      options={q.options}
+                      selectedIndex={chosen}
+                      correctIndex={q.correctAnswer}
+                      explanation={q.explanation}
+                    />
+                  )}
                 </div>
               </div>
             </div>

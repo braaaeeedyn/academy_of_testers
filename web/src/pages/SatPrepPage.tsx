@@ -63,6 +63,26 @@ export default function SatPrepPage() {
         ))}
       </div>
 
+      {/* Calculator strategy guide */}
+      <Link
+        to="/sat/prep/desmos"
+        className="group mt-5 flex items-center justify-between gap-4 p-6 rounded-2xl border transition-all hover:shadow-lg hover:-translate-y-0.5"
+        style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}
+      >
+        <div>
+          <h2 className="font-display text-xl font-bold tracking-tight leading-tight">Desmos strategy guide</h2>
+          <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>
+            Graph systems, read vertices and zeros, run regressions, and check answers with the built-in calculator.
+          </p>
+        </div>
+        <span className="flex items-center gap-1 text-sm font-semibold group-hover:gap-2 transition-all flex-shrink-0" style={{ color: 'var(--text)' }}>
+          Read
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </span>
+      </Link>
+
       {/* Footer: route to adaptive practice */}
       <div
         className="mt-10 flex flex-col sm:flex-row items-center justify-between gap-4 rounded-2xl border p-6"
