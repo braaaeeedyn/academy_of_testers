@@ -24,8 +24,18 @@ type LoadState =
 
 function formatDue(dueAt: number, now: number): string {
   if (dueAt <= now) return 'Due now'
-  const d = new Date(dueAt)
-  return `Due ${d.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' })}`
+  return `Due ${formatWhen(dueAt)}`
+}
+
+/** "Thu, Oct 8, 9:40 PM": entries unlock at the exact time, so the date alone is misleading. */
+function formatWhen(at: number): string {
+  return new Date(at).toLocaleString(undefined, {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+  })
 }
 
 /** Finds an AP question in the bundled bank, or null if it no longer exists. */
@@ -136,6 +146,12 @@ export default function MistakeNotebookPage() {
               <div className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>
                 {due.length === 1 ? 'question' : 'questions'} due for review · {entries.length} in the notebook
               </div>
+              {due.length === 0 && upcoming.length > 0 && (
+                <p className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>
+                  Missed questions unlock for review 24 hours after you miss them, so new mistakes can't be retried
+                  the same day. Your next one opens {formatWhen(upcoming[0].dueAt)}.
+                </p>
+              )}
               {satLocked > 0 && (
                 <p className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>
                   {satLocked} SAT question{satLocked === 1 ? ' is' : 's are'} due.{' '}
