@@ -117,7 +117,7 @@ export default function MyStacks({ subjectId, pool, stacks, onStacksChange, onTr
         <FlashcardEmptyState
           iconPath={STACK_ICON}
           title="No stacks yet"
-          body="A stack is a small set of cards — mix premade questions with your own, then train until every card is mastered."
+          body="A stack is a small set of cards. Mix premade questions with your own, then train until every card is mastered."
           action={
             <button
               onClick={openCreate}

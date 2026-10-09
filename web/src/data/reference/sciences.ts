@@ -6,7 +6,7 @@ export const AP_BIOLOGY_REFERENCE: SubjectReference = {
   glossary: [
     { term: 'Allele', definition: 'One of two or more alternative forms of a gene at a given locus.' },
     { term: 'Homeostasis', definition: 'The maintenance of a stable internal environment despite external change.' },
-    { term: 'ATP', definition: 'Adenosine triphosphate — the cell’s main energy-carrying molecule.' },
+    { term: 'ATP', definition: 'Adenosine triphosphate, the cell’s main energy-carrying molecule.' },
     { term: 'Natural selection', definition: 'Differential survival and reproduction of individuals based on heritable traits.' },
     { term: 'Feedback (negative)', definition: 'A response that counteracts a change, returning a system toward its set point.' },
     { term: 'Gene expression', definition: 'The process by which information in a gene produces a functional product (transcription → translation).' },
@@ -15,7 +15,7 @@ export const AP_BIOLOGY_REFERENCE: SubjectReference = {
   ],
   frequentlyTested: [
     { topic: 'Cellular energetics', weight: '12–16%', note: 'Enzymes, respiration, and photosynthesis.' },
-    { topic: 'Heredity & gene expression', weight: '25–35%', note: 'Meiosis, Mendelian genetics, and regulation — the largest band.' },
+    { topic: 'Heredity & gene expression', weight: '25–35%', note: 'Meiosis, Mendelian genetics, and regulation (the largest band).' },
     { topic: 'Natural selection', weight: '13–20%', note: 'Evidence for evolution, Hardy–Weinberg, and speciation.' },
     { topic: 'Cell structure & function', weight: '10–13%', note: 'Membranes, transport, and compartmentalization.' },
   ],
@@ -45,7 +45,7 @@ export const AP_CHEMISTRY_REFERENCE: SubjectReference = {
   frequentlyTested: [
     { topic: 'Atomic structure & periodicity', weight: '7–9%', note: 'Electron configuration and periodic trends.' },
     { topic: 'Equilibrium', weight: '7–9%', note: 'Le Châtelier, K, and reaction quotients.' },
-    { topic: 'Acids & bases', weight: '11–15%', note: 'pH, titrations, and buffers — heavily tested.' },
+    { topic: 'Acids & bases', weight: '11–15%', note: 'pH, titrations, and buffers (heavily tested).' },
     { topic: 'Thermodynamics', weight: '7–9%', note: 'Enthalpy, entropy, and free energy.' },
   ],
 }
@@ -54,7 +54,7 @@ export const AP_ENVIRONMENTAL_SCIENCE_REFERENCE: SubjectReference = {
   subjectName: 'AP Environmental Science',
   note: 'Key terms and exam breakdown for AP Environmental Science.',
   glossary: [
-    { term: 'Biodiversity', definition: 'The variety of life in an area — genetic, species, and ecosystem diversity.' },
+    { term: 'Biodiversity', definition: 'The variety of life in an area: genetic, species, and ecosystem diversity.' },
     { term: 'Carrying capacity', definition: 'The maximum population an environment can sustain given its resources.' },
     { term: 'Eutrophication', definition: 'Nutrient over-enrichment of water causing algal blooms and oxygen depletion.' },
     { term: 'Keystone species', definition: 'A species with a disproportionately large effect on its ecosystem.' },
@@ -65,7 +65,7 @@ export const AP_ENVIRONMENTAL_SCIENCE_REFERENCE: SubjectReference = {
   frequentlyTested: [
     { topic: 'Populations', weight: '10–15%', note: 'Growth models, carrying capacity, and demographics.' },
     { topic: 'Energy resources', weight: '10–15%', note: 'Fossil fuels, renewables, and efficiency calculations.' },
-    { topic: 'Pollution', weight: '25–30%', note: 'Air, water, and waste — the largest tested band.' },
+    { topic: 'Pollution', weight: '25–30%', note: 'Air, water, and waste (the largest tested band).' },
     { topic: 'Global change', weight: '15–20%', note: 'Climate change, ozone, and loss of biodiversity.' },
   ],
 }
@@ -92,7 +92,7 @@ export const AP_PHYSICS_1_REFERENCE: SubjectReference = {
     },
   ],
   frequentlyTested: [
-    { topic: 'Kinematics & dynamics', weight: '~40%', note: 'Motion, forces, and Newton’s laws — the core of the course.' },
+    { topic: 'Kinematics & dynamics', weight: '~40%', note: 'Motion, forces, and Newton’s laws (the core of the course).' },
     { topic: 'Energy & momentum', weight: '~30%', note: 'Work–energy theorem and conservation laws.' },
     { topic: 'Rotation', weight: '~15%', note: 'Torque, rotational kinematics, and angular momentum.' },
   ],

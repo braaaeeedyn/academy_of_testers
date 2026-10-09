@@ -201,7 +201,7 @@ export default function TrainingMode({ subjectId, pool, stacks, initialSource }:
           className="mb-4 p-3 rounded-lg border text-sm"
           style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)', color: 'var(--text-muted)' }}
         >
-          You're not signed in — mastery is tracked for this session only and won't be saved.
+          You're not signed in, so mastery is tracked for this session only and won't be saved.
         </div>
       )}
 

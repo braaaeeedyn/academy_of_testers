@@ -43,7 +43,7 @@ export default function MockExam({ subjectName }: { subjectName: string }) {
       <div className="text-center py-16 rounded-2xl border" style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--hairline)' }}>
         <h3 className="font-display text-xl font-bold mb-2">Mock exams are coming soon</h3>
         <p className="max-w-md mx-auto text-sm" style={{ color: 'var(--text-muted)' }}>
-          There isn’t a question bank for {subjectName} yet. Check back soon!
+          There isn’t a question bank for {subjectName} yet. Check back soon.
         </p>
       </div>
     )
@@ -56,7 +56,7 @@ export default function MockExam({ subjectName }: { subjectName: string }) {
       <div>
         <h2 className="font-display text-2xl font-bold">Timed Mock Exam</h2>
         <p className="text-sm mt-1 mb-4 max-w-prose" style={{ color: 'var(--text-muted)' }}>
-          A full, timed multiple-choice mock under exam-like conditions — no feedback until you submit,
+          A full, timed multiple-choice mock under exam-like conditions. You get no feedback until you submit,
           then a predicted AP score and a full review.
         </p>
         <div
@@ -65,8 +65,8 @@ export default function MockExam({ subjectName }: { subjectName: string }) {
         >
           <span className="font-semibold" style={{ color: 'var(--text)' }}>Heads up:</span> this mock is
           assembled from our practice question bank, not the secure official College Board exam. The
-          predicted 1–5 is estimated from multiple-choice performance only — the real exam also weights
-          free response — so treat it as a directional check, not a guarantee.
+          predicted 1–5 is estimated from multiple-choice performance only. The real exam also weights
+          free response, so treat it as a directional check, not a guarantee.
         </div>
         <div className="flex flex-wrap items-center gap-4">
           <button

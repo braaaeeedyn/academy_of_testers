@@ -33,7 +33,7 @@ export const EXAM_LOGISTICS: Record<'ap' | 'sat', ExamLogistics> = {
         title: 'Bluebook and exam format',
         items: [
           'Most AP exams are taken in Bluebook, College Board\'s testing app. Some are fully digital and others are hybrid: you read questions in Bluebook but write free-response answers in a paper booklet.',
-          'Which format your subject uses is listed on its course page on AP Students; check it rather than assuming.',
+          'Your subject\'s course page on AP Students lists which format it uses, so check there instead of guessing.',
           'Install Bluebook on the device you will test on and complete exam setup before test day, when your school or College Board asks you to. You cannot test without it.',
           'Try the full-length practice in Bluebook so the tools (highlighter, annotations, timer, and the built-in calculator where allowed) feel familiar.',
         ],
@@ -93,7 +93,7 @@ export const EXAM_LOGISTICS: Record<'ap' | 'sat', ExamLogistics> = {
         title: 'Accommodations',
         items: [
           'Testing accommodations (for example extended time or breaks) are approved through College Board\'s Services for Students with Disabilities (SSD).',
-          'Requests usually go through your school\'s SSD coordinator and must be made well ahead of the exam, since review takes time. Check College Board for this year\'s request deadline.',
+          'Requests usually go through your school\'s SSD coordinator. Make them well ahead of the exam, because review takes time. Check College Board for this year\'s request deadline.',
           'Once approved, accommodations generally carry over to other College Board tests, including the SAT.',
         ],
         links: [{ label: 'College Board SSD', url: 'https://accommodations.collegeboard.org' }],
@@ -103,7 +103,7 @@ export const EXAM_LOGISTICS: Record<'ap' | 'sat', ExamLogistics> = {
         title: 'Sending scores',
         items: [
           'Each year you can send your scores to one college or scholarship program for free; the deadline for that free send varies, so check College Board for this year\'s date.',
-          'After that, additional score reports can be ordered for a fee from your College Board account.',
+          'After that, you can order more score reports from your College Board account for a fee.',
         ],
         links: [{ label: 'Sending AP scores', url: 'https://apstudents.collegeboard.org/sending-scores' }],
       },
@@ -174,7 +174,7 @@ export const EXAM_LOGISTICS: Record<'ap' | 'sat', ExamLogistics> = {
         title: 'Sending scores',
         items: [
           'Free score sends are included with registration; the window to use them varies, so check College Board for the deadline for your test.',
-          'Additional score reports can be ordered for a fee from your College Board account.',
+          'You can order more score reports from your College Board account for a fee.',
           'Many colleges let you choose which test dates to send; check each college\'s score-use policy.',
         ],
         links: [{ label: 'Sending SAT scores', url: 'https://satsuite.collegeboard.org/sat/scores/sending-scores' }],

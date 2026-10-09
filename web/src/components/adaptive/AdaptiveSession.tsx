@@ -180,7 +180,7 @@ export default function AdaptiveSession({ onComplete, onNeedsDiagnostic, config 
           <p style={overlayText}>
             {answered > 0
               ? `You'll be graded on the ${answered} question${answered === 1 ? '' : 's'} you've completed so far.`
-              : "You haven't completed any questions yet — you can keep practicing instead."}
+              : "You haven't completed any questions yet. You can keep practicing instead."}
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', justifyContent: 'center' }}>
             <button onClick={endEarly} disabled={ending} style={{ ...overlayPrimaryBtn, opacity: ending ? 0.6 : 1, cursor: ending ? 'default' : 'pointer' }}>

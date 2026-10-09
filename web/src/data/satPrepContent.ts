@@ -74,7 +74,7 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
   {
     id: 'arithmetic-percentages',
     name: 'Arithmetic & Percentages',
-    summary: 'Ratios, proportions, percent change, and unit conversions: the backbone of the easier Math questions.',
+    summary: 'Ratios, proportions, percent change, and unit conversions, which come up in many of the easier Math questions.',
     covers: ['Ratios & proportions', 'Percent of / percent change', 'Unit rates & conversions', 'Fractions and decimals'],
     concepts: [
       {
@@ -128,7 +128,7 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
         steps: [
           'The markup is a multiplier of \\(1.40\\): \\(50 \\times 1.40 = 70\\).',
           'The discount is a multiplier of \\(0.75\\), applied to the new price: \\(70 \\times 0.75 = 52.5\\).',
-          'Notice it is not \\(50 \\times 1.15\\); percents applied in sequence multiply rather than add.',
+          'Notice it is not \\(50 \\times 1.15\\); percents applied in sequence multiply.',
         ],
         answer: '$52.50',
       },
@@ -145,7 +145,7 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
       'Comparing quantities before converting them to the same units.',
     ],
     advice: [
-      'Memorize the percent-change formula: (new − old) ÷ old × 100. Most percent questions are just this in disguise.',
+      'Memorize the percent-change formula: (new − old) ÷ old × 100. Most percent questions come down to this formula.',
       'Translate words into an equation before touching numbers: "of" means multiply, "is" means equals.',
       'For "percent greater/less than," decide the base (what you are comparing to) first; it is the number after "than".',
       'When the answer choices are numbers, plugging them back into the question is often faster than solving forward.',
@@ -482,7 +482,7 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
     ],
     advice: [
       'Try factoring first: most SAT quadratics factor cleanly. Fall back to the quadratic formula only when they do not.',
-      'Vertex form y = a(x − h)² + k hands you the vertex (h, k) directly; great for max/min and axis-of-symmetry questions.',
+      'Vertex form y = a(x − h)² + k gives you the vertex (h, k) directly, which makes max/min and axis-of-symmetry questions quick.',
       'The discriminant b² − 4ac tells the number of real solutions: positive = 2, zero = 1, negative = 0.',
       'The roots are the x-intercepts. If a question gives you the zeros, write the factors: zeros 3 and −2 → (x − 3)(x + 2).',
     ],
@@ -507,7 +507,7 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
       },
       {
         heading: 'Linear adds, exponential multiplies',
-        body: 'In a table, a linear pattern changes by the same difference each step (5, 8, 11, 14), while an exponential pattern changes by the same ratio (5, 15, 45, 135). Always check which one you have.',
+        body: 'In a table, a linear pattern changes by the same difference each step (5, 8, 11, 14). An exponential pattern changes by the same ratio (5, 15, 45, 135). Always check which one you have.',
       },
       {
         heading: 'Matching the time unit',
@@ -582,7 +582,7 @@ export const SAT_PREP_TOPICS: PrepTopic[] = [
     concepts: [
       {
         heading: 'Measures of center',
-        body: 'The mean is the sum divided by the count; the median is the middle value once the data are sorted (the average of the two middle values for an even count); the mode is the most frequent value. Outliers pull the mean toward them but barely move the median.',
+        body: 'The mean is the sum divided by the count. The median is the middle value once the data are sorted (the average of the two middle values for an even count). The mode is the most frequent value. Outliers pull the mean toward them but barely move the median.',
       },
       {
         heading: 'Work with totals',

@@ -30,7 +30,7 @@ export const AP_CALCULUS_BC_REFERENCE: SubjectReference = {
     },
   ],
   frequentlyTested: [
-    { topic: 'Series & convergence', weight: '17–18%', note: 'Taylor/Maclaurin series, convergence tests, and error bounds — BC-only and heavily tested.' },
+    { topic: 'Series & convergence', weight: '17–18%', note: 'Taylor/Maclaurin series, convergence tests, and error bounds (BC-only and heavily tested).' },
     { topic: 'Integration & techniques', weight: '17–20%', note: 'By parts, partial fractions, improper integrals.' },
     { topic: 'Parametric, polar, vectors', weight: '11–12%', note: 'Derivatives, arc length, and polar area.' },
     { topic: 'Differential equations', weight: '6–9%', note: 'Euler’s method and logistic growth (BC additions).' },

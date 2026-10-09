@@ -574,7 +574,7 @@ export default function ResourcesPage() {
                 style={{ color: 'var(--text-muted)' }}
               >
                 {categories.find((c) => c.id === activeCategory)?.title} for{' '}
-                {subject.name} are being prepared. Check back soon!
+                {subject.name} are being prepared. Check back soon.
               </p>
             </div>
           )}

@@ -165,7 +165,7 @@ export default function ReferenceSheet({ open, onClose }: Props) {
           </button>
         </div>
         <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.6, marginBottom: 22 }}>
-          These formulas are available throughout the Math section — the same reference you get on test day.
+          These formulas are available throughout the Math section, the same reference you get on test day.
         </p>
 
         <FormulaGroup title="Area & Circumference" items={AREA} />

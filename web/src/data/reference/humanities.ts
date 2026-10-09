@@ -6,7 +6,7 @@ export const AP_ENGLISH_LITERATURE_REFERENCE: SubjectReference = {
   glossary: [
     { term: 'Diction', definition: 'A writer’s word choice, which shapes tone and meaning.' },
     { term: 'Imagery', definition: 'Descriptive language appealing to the senses to create vivid impressions.' },
-    { term: 'Metaphor / simile', definition: 'Figurative comparisons — direct (metaphor) or using like/as (simile).' },
+    { term: 'Metaphor / simile', definition: 'Figurative comparisons, either direct (metaphor) or using like/as (simile).' },
     { term: 'Tone', definition: 'The author’s or speaker’s attitude toward the subject.' },
     { term: 'Irony', definition: 'A contrast between expectation and reality (verbal, situational, dramatic).' },
     { term: 'Symbolism', definition: 'Using an object or image to represent a larger idea.' },
@@ -33,7 +33,7 @@ export const AP_ART_HISTORY_REFERENCE: SubjectReference = {
     { term: 'Provenance', definition: 'The documented history of an artwork’s ownership and origin.' },
   ],
   frequentlyTested: [
-    { topic: 'Later Europe & Americas', weight: '~22%', note: '1750–1980 CE — the largest content area.' },
+    { topic: 'Later Europe & Americas', weight: '~22%', note: '1750–1980 CE (the largest content area).' },
     { topic: 'Ancient Mediterranean', weight: '~15%', note: 'Greek, Roman, and Near Eastern works.' },
     { topic: 'Global contemporary', weight: '~11%', note: '1980 CE to present.' },
     { topic: 'Indigenous Americas / Africa / Asia', note: 'Non-Western traditions across several content areas.' },
@@ -52,7 +52,7 @@ export const AP_MUSIC_THEORY_REFERENCE: SubjectReference = {
     { term: 'Modulation', definition: 'A change from one key to another within a piece.' },
   ],
   frequentlyTested: [
-    { topic: 'Harmony & voice leading', note: 'Roman numerals, part-writing, and cadences — the core of the exam.' },
+    { topic: 'Harmony & voice leading', note: 'Roman numerals, part-writing, and cadences (the core of the exam).' },
     { topic: 'Melody & scales', note: 'Intervals, key signatures, scales, and modes.' },
     { topic: 'Rhythm & meter', note: 'Notation, meter, and rhythmic dictation.' },
     { topic: 'Aural skills', note: 'Listening: identifying intervals, chords, and errors.' },

@@ -421,7 +421,7 @@ function QuickStartCard({ onStart }: { onStart: () => void }) {
         Start today's practice
       </button>
       <p style={{ fontSize: 12, color: 'var(--text-muted)', margin: '10px 0 0' }}>
-        Adaptive — the engine picks questions from your weakest skills.
+        Adaptive: the engine picks questions from your weakest skills.
       </p>
     </div>
   )
@@ -516,7 +516,7 @@ function TestCountdownCard({
               <div style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 4 }}>{formatLongDate(prefs.testDate!)}</div>
             </>
           ) : (
-            <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>Your test date has passed — set a new one.</div>
+            <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>Your test date has passed. Set a new one.</div>
           )}
         </div>
       )}
@@ -532,7 +532,7 @@ function TestCountdownCard({
         </div>
         <p style={{ fontSize: 11, color: 'var(--text-muted)', margin: '8px 0 0' }}>
           {practicedThisWeek >= goal
-            ? 'Weekly goal reached — nice work! 🎉'
+            ? 'Weekly goal reached. Nice work 🎉'
             : `${goal - practicedThisWeek} more day${goal - practicedThisWeek === 1 ? '' : 's'} to hit your goal.`}
         </p>
       </div>

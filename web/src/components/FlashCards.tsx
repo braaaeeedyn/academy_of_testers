@@ -532,7 +532,7 @@ function FlashcardEditor({
         />
 
         <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
-          Math is supported — wrap it in <code>{'\\( ... \\)'}</code> for inline or{' '}
+          Math is supported: wrap it in <code>{'\\( ... \\)'}</code> for inline or{' '}
           <code>{'\\[ ... \\]'}</code> for a display block.
         </p>
 

@@ -272,7 +272,7 @@ export default function ApPlannerPage() {
         <div className="mt-8">
           <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
             {savedIds.length === 0
-              ? 'Welcome! Select the AP classes you’re taking this year — your planner will show study tools for exactly those subjects.'
+              ? 'Welcome. Select the AP classes you’re taking this year, and your planner will show study tools for exactly those subjects.'
               : 'Add or drop classes, then save.'}
           </p>
 
@@ -376,7 +376,7 @@ export default function ApPlannerPage() {
                   Your mastery map
                 </div>
                 <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                  Built from your Unit Practice results — {totalMastered} of {totalQuestions} questions mastered across your classes.
+                  Built from your Unit Practice results: {totalMastered} of {totalQuestions} questions mastered across your classes.
                 </p>
               </div>
               {masteryData.length > 0 && (
@@ -406,7 +406,7 @@ export default function ApPlannerPage() {
                   {totalMastered === 0 && (
                     <p className="text-xs mt-4 text-center" style={{ color: 'var(--text-muted)' }}>
                       Answer questions in <span className="font-semibold" style={{ color: 'var(--text)' }}>Unit Practice</span> to
-                      fill this in — a question counts as mastered after 3 correct answers, 2 in a row.
+                      fill this in. A question counts as mastered after 3 correct answers, 2 in a row.
                     </p>
                   )}
                 </>
@@ -421,7 +421,7 @@ export default function ApPlannerPage() {
               <Icon path="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" className="w-4 h-4 flex-shrink-0 mt-px" />
               <span>
                 <span className="font-semibold" style={{ color: 'var(--text)' }}>Mastery fades over time.</span>{' '}
-                Every 2 weeks a question goes without a correct answer, it slips one tier —
+                Every 2 weeks a question goes without a correct answer, it slips one tier:
                 Mastered&nbsp;→&nbsp;Proficient&nbsp;→&nbsp;Approaching&nbsp;→&nbsp;not started. Keep
                 practicing in Unit Practice to hold your level.
               </span>

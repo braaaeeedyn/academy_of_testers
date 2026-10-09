@@ -25,7 +25,7 @@ export const AP_MACROECONOMICS_REFERENCE: SubjectReference = {
     { topic: 'National income & prices', weight: '17–27%', note: 'GDP, inflation, and unemployment measurement.' },
     { topic: 'AD–AS model', weight: '15–20%', note: 'Short- and long-run equilibrium and gaps.' },
     { topic: 'Financial sector', weight: '15–20%', note: 'Money market, banking, and the money multiplier.' },
-    { topic: 'Stabilization policy', weight: '20–30%', note: 'Fiscal and monetary policy — the most tested band.' },
+    { topic: 'Stabilization policy', weight: '20–30%', note: 'Fiscal and monetary policy (the most tested band).' },
   ],
 }
 
@@ -53,7 +53,7 @@ export const AP_MICROECONOMICS_REFERENCE: SubjectReference = {
   frequentlyTested: [
     { topic: 'Supply & demand', weight: '20–25%', note: 'Markets, elasticity, and welfare (surplus).' },
     { topic: 'Production & costs', weight: '22–25%', note: 'Cost curves and the firm’s short/long-run decisions.' },
-    { topic: 'Market structures', weight: '25–35%', note: 'Perfect competition, monopoly, oligopoly — the largest band.' },
+    { topic: 'Market structures', weight: '25–35%', note: 'Perfect competition, monopoly, oligopoly (the largest band).' },
     { topic: 'Factor markets', weight: '10–13%', note: 'Labor demand and marginal revenue product.' },
   ],
 }

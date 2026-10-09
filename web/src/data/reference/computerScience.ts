@@ -27,11 +27,11 @@ export const AP_CS_PRINCIPLES_REFERENCE: SubjectReference = {
     { term: 'Algorithm', definition: 'A finite sequence of steps (sequencing, selection, iteration) that solves a problem.' },
     { term: 'Procedure / abstraction', definition: 'A named, reusable block of code, often with parameters.' },
     { term: 'Iteration', definition: 'Repeating steps with a loop until a condition is met.' },
-    { term: 'Data compression', definition: 'Reducing data size — lossless preserves all data; lossy discards some.' },
+    { term: 'Data compression', definition: 'Reducing data size: lossless preserves all data; lossy discards some.' },
     { term: 'Fault tolerance', definition: 'A system’s ability to keep working when part of it fails (e.g. redundant routing).' },
   ],
   frequentlyTested: [
-    { topic: 'Algorithms & programming', weight: '~30%', note: 'The largest exam band — variables, control, procedures, lists.' },
+    { topic: 'Algorithms & programming', weight: '~30%', note: 'The largest exam band: variables, control, procedures, lists.' },
     { topic: 'Data', weight: '~18%', note: 'Binary, compression, and extracting information.' },
     { topic: 'Computing systems & networks', weight: '~13%', note: 'The Internet, protocols, and fault tolerance.' },
     { topic: 'Impact of computing', weight: '~23%', note: 'Benefits, harms, bias, and digital divide.' },

@@ -20,9 +20,9 @@ const AP_SCORE_SCALE: { score: number; label: string; qualifying: boolean }[] = 
 
 // General AP strategy tips that rotate in the study rail.
 const STUDY_TIPS = [
-  'There’s no penalty for wrong multiple-choice answers — never leave a question blank.',
+  'There’s no penalty for wrong multiple-choice answers, so never leave a question blank.',
   'On free response, check each part’s point value and spend your time in proportion.',
-  'Show your work on math and science FRQs — you can earn partial credit even with a wrong final answer.',
+  'Show your work on math and science FRQs. You can earn partial credit even with a wrong final answer.',
   'For source-based questions, tie every claim to specific evidence; graders reward explicit support.',
   'A 3 is passing at most colleges, but always check each school’s AP credit policy.',
   'Practice with official released FRQs and their rubrics so you know exactly what graders look for.',
@@ -173,7 +173,7 @@ export default function ExamHubPage() {
             <div className="flex-1 min-w-0">
               <h3 className="font-display text-lg font-bold leading-tight">My AP Planner</h3>
               <p className="text-xs mt-0.5 opacity-85">
-                Pick your classes — get a personalized hub with every study tool for your subjects
+                Pick your classes and get a personalized hub with every study tool for your subjects
               </p>
             </div>
             <svg

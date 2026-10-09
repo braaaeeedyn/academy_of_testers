@@ -426,7 +426,7 @@ function ReviewItem({
                 >
                   <p className="font-bold text-sm">
                     {result.correct
-                      ? 'Correct! It moves to a longer interval.'
+                      ? 'Correct. It moves to a longer interval.'
                       : `Not yet. The answer is ${String.fromCharCode(65 + result.correctIndex)}; it comes back tomorrow.`}
                   </p>
                   <MathText className="text-sm mt-2" component="p" style={{ color: 'var(--text)' }}>

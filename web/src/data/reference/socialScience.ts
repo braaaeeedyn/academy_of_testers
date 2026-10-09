@@ -13,7 +13,7 @@ export const AP_US_GOVERNMENT_REFERENCE: SubjectReference = {
   ],
   frequentlyTested: [
     { topic: 'Foundations of democracy', weight: '15–22%', note: 'Founding documents, federalism, and Constitutional principles.' },
-    { topic: 'Interactions among branches', weight: '25–36%', note: 'Congress, presidency, courts, and bureaucracy — the largest band.' },
+    { topic: 'Interactions among branches', weight: '25–36%', note: 'Congress, presidency, courts, and bureaucracy (the largest band).' },
     { topic: 'Civil liberties & rights', weight: '13–18%', note: 'Landmark cases and the Bill of Rights.' },
     { topic: 'Political participation', weight: '20–27%', note: 'Elections, parties, media, and interest groups.' },
   ],

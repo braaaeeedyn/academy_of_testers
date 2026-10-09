@@ -60,7 +60,7 @@ const SUGGESTIONS: { label: string; icon: string; prompt: string }[] = [
   {
     label: 'Check my reasoning',
     icon: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
-    prompt: 'Here is my reasoning for a problem — tell me where it breaks down and how to fix it:\n',
+    prompt: 'Here is my reasoning for a problem; tell me where it breaks down and how to fix it:\n',
   },
   {
     label: 'Build a study plan',
@@ -153,7 +153,7 @@ export default function TestyPage() {
             !isAuthenticated
               ? 'Log in to ask Testy anything…'
               : remaining <= 0
-                ? 'Hourly limit reached — try again later'
+                ? 'Hourly limit reached. Try again later'
                 : 'Ask Testy about any AP or SAT topic…'
           }
           disabled={!isAuthenticated || remaining <= 0 || isLoading}

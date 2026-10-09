@@ -25,7 +25,7 @@ export interface DesmosGuide {
 export const DESMOS_GUIDE: DesmosGuide = {
   title: 'Desmos strategy guide',
   intro:
-    'The digital SAT includes the Desmos graphing calculator on every Math question. Used well, it turns many algebra problems into "type it in and read the answer." These are the moves that save the most time. Practice them in the calculator inside the SAT Academy so they are automatic on test day.',
+    'The digital SAT includes the Desmos graphing calculator on every Math question. Used well, it lets you solve many algebra problems by typing them in and reading off the answer. The moves below save the most time. Practice them in the calculator inside the SAT Academy so they are automatic on test day.',
   sections: [
     {
       id: 'graphing-systems',
@@ -74,7 +74,7 @@ export const DESMOS_GUIDE: DesmosGuide = {
       steps: [
         'Add a table (the plus button, then "table") and type the data into the \\(x_1\\) and \\(y_1\\) columns.',
         'On a new line type \\(y_1 \\sim m x_1 + b\\). The tilde (\\(\\sim\\)) means "fit"; on the keyboard it is Shift plus the key left of 1.',
-        'Desmos prints the best values of \\(m\\) and \\(b\\). Those are the slope and intercept of the best-fit line.',
+        'Desmos prints the best values of \\(m\\) and \\(b\\), which are the slope and intercept of the best-fit line.',
         'For curved data use a different model, such as \\(y_1 \\sim a x_1^2 + b x_1 + c\\) for a quadratic or \\(y_1 \\sim a \\cdot b^{x_1}\\) for exponential.',
       ],
       example: {
@@ -134,7 +134,7 @@ export const DESMOS_GUIDE: DesmosGuide = {
         'Graph the original equation or both sides of it, for example \\(y = 2(x - 3) + 5\\) and \\(y = 4x - 7\\), and find where they meet.',
         'Or type each answer choice into the expression to see which one makes it true.',
         'For "which expression is equivalent," graph the original and each choice: an equivalent expression draws exactly the same graph.',
-        'Spend a few seconds checking, but do not re-check every question; save it for the ones you are unsure of.',
+        'A check takes a few seconds, so save it for the questions you are unsure of instead of re-checking every one.',
       ],
       example: {
         problem: 'Which is equivalent to \\((x + 3)^2 - 9\\)? Choices include \\(x^2 + 6x\\) and \\(x^2 - 9\\).',
@@ -144,7 +144,7 @@ export const DESMOS_GUIDE: DesmosGuide = {
           'Graph \\(y = x^2 - 9\\): it does not, so \\(x^2 + 6x\\) is the answer.',
         ],
       },
-      tip: 'Desmos is a tool, not a crutch: quick mental math is still faster for simple arithmetic.',
+      tip: 'For simple arithmetic, quick mental math is still faster than typing it into Desmos.',
     },
   ],
 }
