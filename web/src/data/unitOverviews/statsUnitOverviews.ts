@@ -9,7 +9,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '1-0',
         'Unit 1 Overview: Exploring One-Variable Data',
-        'This unit introduces statistics as the science of learning from data. We explore single variables: how to classify them (categorical vs quantitative), display them (tables and graphs), describe their distributions (shape, center, spread), and use the normal distribution. The goal is to summarize and compare one-variable data in context.'
+        'This unit introduces statistics as the science of learning from data. We explore single variables. We classify them (categorical vs quantitative) and display them (tables and graphs). We also describe their distributions (shape, center, spread) and use the normal distribution. The goal is to summarize and compare one-variable data in context.'
       ),
       subunit(
         '1-1',
@@ -46,7 +46,7 @@ const STATS_UNITS: UnitOverview[] = [
           'Relative frequency allows comparison when totals differ.',
         ],
         {
-          exampleCode: '\\text{Survey of 100 students: 40 math, 35 science, 25 English.}\\\\quad \\frac{40}{100}=0.40 \\text{ for math}',
+          exampleCode: '\\text{Survey of 100 students: 40 math, 35 science, 25 English.}\\quad \\frac{40}{100}=0.40 \\text{ for math}',
           exampleLanguage: 'latex',
           exampleExplanation: 'Relative frequency for math is 40/100 = 0.40 (40%).',
         }
@@ -73,7 +73,7 @@ const STATS_UNITS: UnitOverview[] = [
         {
           exampleCode: '\\text{Test scores } 60\\text{--}100 \\text{ grouped into bins of width } 5.',
           exampleLanguage: 'latex',
-          exampleExplanation: 'Bins might be 60,65, 65,70, etc.; count how many values fall in each.',
+          exampleExplanation: 'Bins might be 60–65, 65–70, etc.; count how many values fall in each.',
         }
       ),
       subunit(
@@ -94,7 +94,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '1-7',
         'Summary Statistics for a Quantitative Variable',
-        'Quantitative data are summarized numerically. The mean is \\(\\bar{x} = \\frac{\\sum x_i}{n}\\). The standard deviation is \\(s = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{n-1}}\\). The median and IQR are resistant to outliers; the mean and standard deviation are not.\n\n' +
+        'Quantitative data are summarized numerically. The mean is \\(\\bar{x} = \\frac{\\sum x_i}{n}\\). The standard deviation is \\(s = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{n-1}}\\). The median and IQR are resistant to outliers (extreme values barely move them); the mean and standard deviation are not.\n\n' +
           'General method: (1) Compute the mean. (2) Compute deviations from the mean. (3) Calculate the standard deviation. (4) Compare with median and IQR for resistance to outliers.',
         [
           'Mean is sensitive to outliers; median is resistant.',
@@ -181,7 +181,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '2-2',
         'Representing Two Categorical Variables',
-        'Relationships between two categorical variables are displayed in two-way tables (contingency tables). Rows and columns show the two variables; cells show counts. Conditional proportions (row or column proportions) help determine whether an association exists, compare the distribution of one variable across categories of the other.\n\n' +
+        'Relationships between two categorical variables are displayed in two-way tables (contingency tables). Rows and columns show the two variables; cells show counts. Conditional proportions (row or column proportions) help determine whether an association exists: compare the distribution of one variable across categories of the other.\n\n' +
           'General method: (1) Construct a two-way table with counts. (2) Calculate row or column conditional proportions. (3) Compare proportions across rows or columns. (4) Conclude whether an association appears present.',
         [
           'Compare conditional proportions, not overall totals.',
@@ -237,7 +237,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '2-6',
         'Linear Regression Models',
-        'The Least Squares Regression Line (LSRL) predicts the response from the explanatory variable: \\(\\hat{y} = a + bx\\). The slope \\(b = r \\frac{s_y}{s_x}\\) and the intercept \\(a = \\bar{y} - b\\bar{x}\\). The slope is the predicted change in y per unit increase in x; the intercept is the predicted y when \\(x=0\\) (interpret only when that is in scope).\n\n' +
+        'The Least Squares Regression Line (LSRL) predicts the response from the explanatory variable: \\(\\hat{y} = a + bx\\). The slope \\(b = r \\frac{s_y}{s_x}\\) and the intercept \\(a = \\bar{y} - b\\bar{x}\\). The slope is the predicted change in y per unit increase in x. The intercept is the predicted y when \\(x=0\\) (interpret it only when that is in scope).\n\n' +
           'General method: (1) Calculate slope and intercept (or use technology). (2) Write \\(\\hat{y} = a + bx\\). (3) Interpret slope and intercept in context. (4) Use the equation for prediction within the data range.',
         [
           'Slope = predicted change in y per unit increase in x.',
@@ -252,7 +252,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '2-7',
         'Residuals',
-        'The residual is the observed value minus the predicted value: residual \\(= y - \\hat{y}\\). Residuals show prediction error. A residual plot (residuals vs x or vs \\(\\hat{y}\\)) is used to assess the linear model: random scatter suggests the linear model is appropriate; a curved or systematic pattern suggests nonlinearity or other problems.\n\n' +
+        'The residual is the observed value minus the predicted value: residual \\(= y - \\hat{y}\\). Residuals show prediction error. A residual plot (residuals vs x or vs \\(\\hat{y}\\)) is used to assess the linear model. Random scatter suggests the linear model is appropriate. A curved or systematic pattern suggests nonlinearity (a relationship that bends) or other problems.\n\n' +
           'General method: (1) Compute residuals \\(y - \\hat{y}\\) for each point. (2) Plot residuals vs x (or vs \\(\\hat{y}\\)). (3) Look for patterns (curve, funnel shape). (4) Decide whether the linear model is appropriate.',
         [
           'Random scatter in residual plot \\(\\Rightarrow\\) linear model reasonable.',
@@ -298,7 +298,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '3-0',
         'Unit 3 Overview: Collecting Data',
-        'This unit covers how to plan and carry out studies that produce trustworthy data. We distinguish observational studies (observe only) from experiments (impose treatments), and discuss random sampling methods, sources of bias, and principles of experimental design (control, randomization, replication). Proper design determines whether we can infer association or causation.'
+        'This unit covers how to plan and carry out studies that produce trustworthy data. We distinguish observational studies (observe only) from experiments (impose treatments). We also discuss random sampling methods, sources of bias, and principles of experimental design (control, randomization, replication). Proper design determines whether we can infer association or causation.'
       ),
       subunit(
         '3-1',
@@ -308,7 +308,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '3-2',
         'Introduction to Planning a Study',
-        'Studies are designed to collect data that answer specific research questions. Two main types: observational study, observe individuals without imposing treatments; experiment, impose treatments and measure the response. Observational studies can show association; experiments with random assignment can support causal conclusions.\n\n' +
+        'Studies are designed to collect data that answer specific research questions. Two main types: observational study (observe individuals without imposing treatments); experiment (impose treatments and measure the response). Observational studies can show association; experiments with random assignment can support causal conclusions.\n\n' +
           'General method: (1) Identify the research question. (2) Determine explanatory and response variables. (3) Decide whether an observational study or experiment is appropriate. (4) Define the population and how the sample will be obtained.',
         [
           'Observational study: observe only; shows association.',
@@ -324,7 +324,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '3-3',
         'Random Sampling and Data Collection',
-        'Random sampling ensures that every individual (or every set of individuals of a given size) has a known chance of being selected, which reduces selection bias. Common methods: Simple Random Sample (SRS), every possible sample of size n equally likely; stratified, divide population into strata, sample from each; cluster, randomly select groups and use all individuals in those groups; systematic, select every kth individual.\n\n' +
+        'Random sampling ensures that every individual (or every set of individuals of a given size) has a known chance of being selected. That reduces selection bias. A Simple Random Sample (SRS) makes every possible sample of size n equally likely. A stratified sample divides the population into strata (groups of similar individuals) and samples from each. A cluster sample randomly selects groups and uses all individuals in those groups. A systematic sample selects every kth individual.\n\n' +
           'General method: (1) Define the population and sampling frame. (2) Choose a sampling method. (3) Use a random mechanism to select the sample. (4) Collect data from selected individuals.',
         [
           'SRS: every group of size n equally likely to be chosen.',
@@ -341,7 +341,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '3-4',
         'Potential Problems with Sampling',
-        'Bias occurs when the sampling method systematically favors certain outcomes or underrepresents parts of the population. Common sources: undercoverage, some groups not in the sampling frame or underrepresented; nonresponse, selected individuals do not respond; response bias, wording of questions or context leads to inaccurate answers.\n\n' +
+        'Bias occurs when the sampling method systematically favors certain outcomes or underrepresents parts of the population. Common sources include undercoverage, where some groups are not in the sampling frame (the list the sample is drawn from) or are underrepresented. Nonresponse means selected individuals do not respond. Response bias means the wording of questions or the context leads to inaccurate answers.\n\n' +
           'General method: (1) Identify the sampling frame and check who might be excluded. (2) Determine if certain groups are underrepresented (undercoverage). (3) Examine response rate and consider nonresponse bias. (4) Evaluate question wording and context for response bias.',
         [
           'Undercoverage: some groups in the population are not represented.',
@@ -358,7 +358,7 @@ const STATS_UNITS: UnitOverview[] = [
         '3-5',
         'Introduction to Experimental Design',
         'Well-designed experiments use control, randomization, and replication. Control: use a control group (e.g. placebo) for comparison. Randomization: randomly assign subjects to treatments to balance confounding variables across groups. Replication: use enough subjects (or experimental units) so that random variation can be assessed and effects can be detected.\n\n' +
-          'General method: (1) Define treatments and control. (2) Randomly assign subjects to treatment groups. (3) Use a control group when appropriate. (4) Replicate, ensure sufficient sample size and consistent procedures.',
+          'General method: (1) Define treatments and control. (2) Randomly assign subjects to treatment groups. (3) Use a control group when appropriate. (4) Replicate: ensure sufficient sample size and consistent procedures.',
         [
           'Random assignment balances groups and reduces confounding.',
           'Control group provides a baseline for comparison.',
@@ -373,7 +373,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '3-6',
         'Selecting an Experimental Design',
-        'Common designs: Completely randomized design; all subjects randomly assigned to treatments with no blocking. Randomized block design, form blocks of similar subjects, then randomly assign within each block to reduce variability due to the blocking variable. Matched pairs, pair similar individuals and randomly assign which member gets which treatment (or use each subject as their own control).\n\n' +
+        'Common designs: Completely randomized design; all subjects randomly assigned to treatments with no blocking. Randomized block design: form blocks of similar subjects, then randomly assign within each block to reduce variability due to the blocking variable (the trait used to group subjects). Matched pairs: pair similar individuals and randomly assign which member gets which treatment (or use each subject as their own control).\n\n' +
           'General method: (1) Identify blocking variables if variability can be reduced by grouping similar units. (2) Randomly assign treatments within blocks (or within pairs). (3) Keep treatment conditions consistent. (4) Collect response data.',
         [
           'Blocking reduces variability by comparing within similar groups.',
@@ -577,7 +577,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '5-0',
         'Unit 5 Overview: Sampling Distributions',
-        'This unit explains why different samples from the same population give different statistics (sampling variability) and when a statistic is biased. We revisit the normal model and the Central Limit Theorem, then derive the sampling distributions for sample proportions, differences in proportions, sample means, and differences in means. These distributions are the foundation for confidence intervals and hypothesis tests in later units.'
+        'This unit explains why different samples from the same population give different statistics (sampling variability) and when a statistic is biased. We revisit the normal model and the Central Limit Theorem. Then we derive the sampling distributions for sample proportions, differences in proportions, sample means, and differences in means. These distributions are the foundation for confidence intervals and hypothesis tests in later units.'
       ),
       subunit(
         '5-1',
@@ -613,7 +613,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '5-3',
         'The Central Limit Theorem',
-        'The Central Limit Theorem (CLT) states that for large sample sizes, the sampling distribution of the sample mean \\(\\bar{x}\\) is approximately normal, regardless of the shape of the population distribution. A common rule of thumb is \\(n \\ge 30\\). The mean of the sampling distribution equals the population mean \\(\\mu\\); larger \\(n\\) gives a better normal approximation.\n\n' +
+        'The Central Limit Theorem (CLT) states that for large sample sizes, the sampling distribution of the sample mean \\(\\bar{x}\\) is approximately normal. That holds whatever the shape of the population distribution. A common rule of thumb is \\(n \\ge 30\\). The mean of the sampling distribution equals the population mean \\(\\mu\\); larger \\(n\\) gives a better normal approximation.\n\n' +
           'General method: (1) Identify the population distribution. (2) Check the sample size condition (e.g. \\(n \\ge 30\\)). (3) Approximate the sampling distribution of \\(\\bar{x}\\) as normal with mean \\(\\mu\\) and SD \\(\\sigma/\\sqrt{n}\\). (4) Use normal calculations for probabilities.',
         [
           'Applies to the sample mean; sampling distribution of \\(\\bar{x}\\) is approximately normal for large \\(n\\).',
@@ -710,7 +710,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '6-1',
         'Introducing Statistics: Why Be Normal?',
-        'The sampling distribution of \\(\\hat{p}\\) is approximately normal when the Large Counts condition is met. That normal shape is what allows us to use a single formula for confidence intervals and a z-statistic for tests. Without the normal approximation, we could not use these standard procedures; the "why be normal?" idea is that normality of the sampling distribution is the basis for proportion inference.'
+        'The sampling distribution of \\(\\hat{p}\\) is approximately normal when the Large Counts condition is met. That normal shape is what allows us to use a single formula for confidence intervals and a z-statistic for tests. Without the normal approximation, we could not use these standard procedures. That is the "why be normal?" idea: normality of the sampling distribution is the basis for proportion inference.'
       ),
       subunit(
         '6-2',
@@ -730,7 +730,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '6-3',
         'Justifying a Claim Based on a Confidence Interval for a Population Proportion',
-        'To justify a claim about a population proportion using a confidence interval: if the claimed value \\(p_0\\) lies inside the interval, the data are consistent with that claim; if \\(p_0\\) lies outside the interval, the data provide evidence against that claim. Always state the confidence level and interpret in context.',
+        'You can justify a claim about a population proportion using a confidence interval. If the claimed value \\(p_0\\) lies inside the interval, the data are consistent with that claim. If \\(p_0\\) lies outside the interval, the data provide evidence against that claim. Always state the confidence level and interpret in context.',
         [
           'Claimed value inside interval \\(\\Rightarrow\\) plausible; outside \\(\\Rightarrow\\) evidence against.',
           'Interpretation must reference the population and the confidence level.',
@@ -762,7 +762,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '6-6',
         'Concluding a Test for a Population Proportion',
-        'After computing the test statistic and p-value, state the conclusion in context. If we reject \\(H_0\\), we say there is convincing evidence that [\\(H_a\\) in context]. If we fail to reject \\(H_0\\), we say there is not convincing evidence that [\\(H_a\\) in context]. The conclusion should refer to the population proportion and the alternative hypothesis, not just "reject" or "fail to reject."',
+        'After computing the test statistic and p-value, state the conclusion in context. If we reject \\(H_0\\), we say there is convincing evidence that [\\(H_a\\) in context]. If we fail to reject \\(H_0\\), we say there is not convincing evidence that [\\(H_a\\) in context]. Saying "reject" or "fail to reject" is not enough: the conclusion should refer to the population proportion and the alternative hypothesis.',
         [
           'Conclusion references the population proportion and the alternative in context.',
           'Do not say "accept \\(H_0\\)"; say "fail to reject \\(H_0\\)" or "no convincing evidence for \\(H_a\\)."',
@@ -818,7 +818,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '6-11',
         'Carrying Out a Test for the Difference of Two Population Proportions',
-        'Compute the pooled proportion \\(\\hat{p} = \\frac{x_1+x_2}{n_1+n_2}\\). The test statistic is \\(z = \\frac{\\hat{p}_1 - \\hat{p}_2}{\\sqrt{\\hat{p}(1-\\hat{p})(\\frac{1}{n_1}+\\frac{1}{n_2})}}\\). Find the p-value (two-tailed or one-tailed), compare to \\(\\alpha\\), and state the conclusion in context: whether there is convincing evidence that the two population proportions differ (or that one is greater than the other).',
+        'Compute the pooled proportion \\(\\hat{p} = \\frac{x_1+x_2}{n_1+n_2}\\). The test statistic is \\(z = \\frac{\\hat{p}_1 - \\hat{p}_2}{\\sqrt{\\hat{p}(1-\\hat{p})(\\frac{1}{n_1}+\\frac{1}{n_2})}}\\). Find the p-value (two-tailed or one-tailed) and compare it to \\(\\alpha\\). Then state the conclusion in context: is there convincing evidence that the two population proportions differ (or that one is greater than the other)?',
         [
           'Use pooled \\(\\hat{p}\\) in the denominator of the z-statistic.',
           'Small p-value \\(\\Rightarrow\\) evidence of a difference; interpretation refers to the two populations.',
@@ -838,12 +838,12 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '7-1',
         'Introducing Statistics: Should I Worry About Error?',
-        'Error in inference has two sources: sampling variability (different samples give different results) and the margin of error in an interval (which quantifies uncertainty). We should worry about error in the sense of reporting and interpreting it correctly: state the margin of error or confidence level, and avoid overstating certainty. Larger sample sizes reduce margin of error; the t-procedure accounts for estimating \\(\\sigma\\) with \\(s\\).'
+        'Error in inference has two sources: sampling variability (different samples give different results) and the margin of error in an interval (which quantifies uncertainty). We should worry about error in the sense of reporting and interpreting it correctly. State the margin of error or confidence level, and avoid overstating certainty. Larger sample sizes reduce margin of error; the t-procedure accounts for estimating \\(\\sigma\\) with \\(s\\).'
       ),
       subunit(
         '7-2',
         'Constructing a Confidence Interval for a Population Mean',
-        'A confidence interval estimates the population mean \\(\\mu\\) using the sample mean \\(\\bar{x}\\). When the population standard deviation is unknown (almost always), use a t-interval: \\(\\bar{x} \\pm t^* \\frac{s}{\\sqrt{n}}\\), where \\(t^*\\) is the critical value for the chosen confidence level with \\(df = n-1\\). Conditions: random sample, 10% condition, and Nearly Normal condition (population normal or \\(n \\ge 30\\)).\n\n' +
+        'A confidence interval estimates the population mean \\(\\mu\\) using the sample mean \\(\\bar{x}\\). The population standard deviation is almost always unknown, so use a t-interval: \\(\\bar{x} \\pm t^* \\frac{s}{\\sqrt{n}}\\). Here \\(t^*\\) is the critical value for the chosen confidence level, with \\(df = n-1\\). Conditions: random sample, 10% condition, and Nearly Normal condition (population normal or \\(n \\ge 30\\)).\n\n' +
           'General method: (1) Verify conditions. (2) Compute \\(\\bar{x}\\) and \\(s\\). (3) Find \\(t^*\\) using \\(df = n-1\\). (4) Compute margin of error \\(t^* \\cdot \\frac{s}{\\sqrt{n}}\\) and the interval. (5) Interpret: "We are C% confident that the interval from ___ to ___ captures the true mean ..."',
         [
           'Use t-distribution (not z) when \\(\\sigma\\) is unknown; \\(df = n-1\\).',
@@ -858,7 +858,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '7-3',
         'Justifying a Claim About a Population Mean Based on a Confidence Interval',
-        'To justify a claim about \\(\\mu\\) using a confidence interval: if the claimed value \\(\\mu_0\\) lies inside the interval, the data are consistent with that claim; if \\(\\mu_0\\) lies outside the interval, the data provide evidence against the claim. State the confidence level and interpret in context.'
+        'You can justify a claim about \\(\\mu\\) using a confidence interval. If the claimed value \\(\\mu_0\\) lies inside the interval, the data are consistent with that claim. If \\(\\mu_0\\) lies outside the interval, the data provide evidence against the claim. State the confidence level and interpret in context.'
       ),
       subunit(
         '7-4',
@@ -919,7 +919,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '7-9',
         'Carrying Out a Test for the Difference of Two Population Means',
-        'Compute \\(t = \\frac{\\bar{x}_1 - \\bar{x}_2}{\\sqrt{s_1^2/n_1 + s_2^2/n_2}}\\) and find the p-value using the appropriate df (calculator). Compare to \\(\\alpha\\) and state the conclusion in context: whether there is convincing evidence that the two population means differ (or that one is greater than the other). Interpretation must refer to the difference in population means.',
+        'Compute \\(t = \\frac{\\bar{x}_1 - \\bar{x}_2}{\\sqrt{s_1^2/n_1 + s_2^2/n_2}}\\) and find the p-value using the appropriate df (calculator). Compare it to \\(\\alpha\\). Then state the conclusion in context: is there convincing evidence that the two population means differ (or that one is greater than the other)? Interpretation must refer to the difference in population means.',
         [
           'Use two-sample t-test; interpretation refers to difference in population means.',
         ]
@@ -949,12 +949,12 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '8-0',
         'Unit 8 Overview: Chi Square',
-        'This unit covers chi-square tests for categorical data. The Goodness of Fit test checks whether a single categorical variable follows a claimed distribution. For two categorical variables, we use expected counts in two-way tables and chi-square tests for homogeneity (comparing distributions across populations) or independence (testing association in one population). Selecting the right procedure depends on whether we have one variable or two and whether we are comparing populations or assessing association.'
+        'This unit covers chi-square tests for categorical data. The Goodness of Fit test checks whether a single categorical variable follows a claimed distribution. For two categorical variables, we use expected counts in two-way tables. Then a chi-square test for homogeneity compares distributions across populations, and a test for independence tests association in one population. Selecting the right procedure depends on whether we have one variable or two and whether we are comparing populations or assessing association.'
       ),
       subunit(
         '8-1',
         'Introducing Statistics: Are My Results Unexpected?',
-        'Chi-square tests answer "Are my results unexpected?" by comparing observed counts to the counts we would expect if a certain model were true (e.g. a claimed distribution or independence). If the observed counts are far from the expected counts, we get a large \\(\\chi^2\\) statistic and a small p-value, suggesting the model does not fit. These tests extend inference beyond a single proportion to entire distributions or to the relationship between two categorical variables.'
+        'Chi-square tests answer "Are my results unexpected?" They do it by comparing observed counts to the counts we would expect if a certain model were true (e.g. a claimed distribution or independence). Observed counts far from the expected counts give a large \\(\\chi^2\\) statistic and a small p-value. That suggests the model does not fit. These tests extend inference beyond a single proportion to entire distributions or to the relationship between two categorical variables.'
       ),
       subunit(
         '8-2',
@@ -1012,10 +1012,10 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '8-6',
         'Carrying Out a Chi-Square Test for Homogeneity or Independence',
-        'Compute expected counts for each cell: \\(E = \\frac{\\text{row total} \\times \\text{column total}}{\\text{grand total}}\\). Calculate \\(\\chi^2 = \\sum \\frac{(O-E)^2}{E}\\). Find the p-value using \\(df = (r-1)(c-1)\\) (right-tail). Large \\(\\chi^2\\) and small p-value indicate that observed counts deviate from what we would expect under independence (or homogeneity); conclude there is convincing evidence of association (or that distributions differ). State the conclusion in context.',
+        'Compute expected counts for each cell: \\(E = \\frac{\\text{row total} \\times \\text{column total}}{\\text{grand total}}\\). Calculate \\(\\chi^2 = \\sum \\frac{(O-E)^2}{E}\\). Find the p-value using \\(df = (r-1)(c-1)\\) (right-tail). Large \\(\\chi^2\\) and small p-value indicate that observed counts deviate from what we would expect under independence (or homogeneity). In that case, conclude there is convincing evidence of association (or that distributions differ). State the conclusion in context.',
         [
           'Large deviations of O from E \\(\\Rightarrow\\) large \\(\\chi^2\\) \\(\\Rightarrow\\) evidence of association or difference.',
-          'Interpretation differs slightly: homogeneity emphasizes "distributions differ"; independence emphasizes "variables are associated."',
+          'The wording differs slightly: a homogeneity conclusion says "distributions differ"; an independence conclusion says "variables are associated."',
         ]
       ),
       subunit(
@@ -1048,12 +1048,12 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '9-1',
         'Introducing Statistics: Do Those Points Align?',
-        'Inference for the regression slope answers "Do those points align?" in the sense of whether there is a significant linear relationship between two quantitative variables. We test \\(H_0: \\beta = 0\\) (no linear relationship) vs \\(H_a: \\beta \\neq 0\\) (or one-sided). If \\(\\beta = 0\\), the population regression line is horizontal and x does not help predict y. The sample slope \\(b\\) and its standard error \\(SE_b\\) are used to construct t-based confidence intervals and tests; inference is about the population slope \\(\\beta\\), not the sample value \\(b\\).'
+        'Inference for the regression slope answers "Do those points align?" in the sense of whether there is a significant linear relationship between two quantitative variables. We test \\(H_0: \\beta = 0\\) (no linear relationship) vs \\(H_a: \\beta \\neq 0\\) (or one-sided). If \\(\\beta = 0\\), the population regression line is horizontal and x does not help predict y. The sample slope \\(b\\) has a standard error \\(SE_b\\), which measures how much the slope would vary from sample to sample. Both are used to construct t-based confidence intervals and tests. Inference is about the population slope \\(\\beta\\), not the sample value \\(b\\).'
       ),
       subunit(
         '9-2',
         'Confidence Intervals for the Slope of a Regression Model',
-        'A confidence interval for the population slope \\(\\beta\\) is \\(b \\pm t^* (SE_b)\\), where \\(b\\) is the sample slope, \\(SE_b\\) is the standard error of the slope (from regression output), and \\(t^*\\) is the critical value with \\(df = n - 2\\). Conditions: LINE (Linear, Independent, Normal residuals, Equal variance).\n\n' +
+        'A confidence interval for the population slope \\(\\beta\\) is \\(b \\pm t^* (SE_b)\\). Here \\(b\\) is the sample slope and \\(SE_b\\) is the standard error of the slope (from regression output). The critical value \\(t^*\\) uses \\(df = n - 2\\). Conditions: LINE (Linear, Independent, Normal residuals, Equal variance).\n\n' +
           'General method: (1) Verify LINE conditions. (2) Obtain \\(b\\) and \\(SE_b\\) from technology. (3) Find \\(t^*\\) for the desired confidence level with \\(df = n-2\\). (4) Compute the interval. (5) Interpret: "We are C% confident that the interval from ___ to ___ captures the true slope (change in y per unit x) ..."',
         [
           'If the interval includes 0, we do not have evidence of a significant linear relationship.',
@@ -1068,7 +1068,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '9-3',
         'Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval',
-        'To justify a claim about the slope \\(\\beta\\) using a confidence interval: if the interval contains 0, the data are consistent with no linear relationship (\\(\\beta = 0\\)). If the interval does not contain 0, we have evidence of a linear relationship; the sign of the interval indicates whether the relationship is positive or negative. State the confidence level and interpret in context with units (change in y per unit x).'
+        'You can justify a claim about the slope \\(\\beta\\) using a confidence interval. If the interval contains 0, the data are consistent with no linear relationship (\\(\\beta = 0\\)). If the interval does not contain 0, we have evidence of a linear relationship. The sign of the interval indicates whether the relationship is positive or negative. State the confidence level and interpret in context with units (change in y per unit x).'
       ),
       subunit(
         '9-4',
@@ -1088,7 +1088,7 @@ const STATS_UNITS: UnitOverview[] = [
       subunit(
         '9-5',
         'Carrying Out a Test for the Slope of a Regression Model',
-        'Compute \\(t = \\frac{b}{SE_b}\\) with \\(df = n - 2\\). Find the p-value (two-tailed or one-tailed). Compare to \\(\\alpha\\): if \\(p \\le \\alpha\\), reject \\(H_0\\) and conclude there is convincing evidence of a linear relationship (or that the slope is positive/negative); if \\(p > \\alpha\\), fail to reject \\(H_0\\); there is not convincing evidence of a linear relationship. The test is equivalent to testing whether the correlation differs from 0. Always interpret in terms of the explanatory and response variables.',
+        'Compute \\(t = \\frac{b}{SE_b}\\) with \\(df = n - 2\\). Find the p-value (two-tailed or one-tailed). Compare to \\(\\alpha\\). If \\(p \\le \\alpha\\), reject \\(H_0\\) and conclude there is convincing evidence of a linear relationship (or that the slope is positive/negative). If \\(p > \\alpha\\), fail to reject \\(H_0\\): there is not convincing evidence of a linear relationship. The test is equivalent to testing whether the correlation differs from 0. Always interpret in terms of the explanatory and response variables.',
         [
           'Small p-value \\(\\Rightarrow\\) evidence of linear association; equivalent to testing correlation \\(\\neq 0\\).',
           'Interpret in context: name the explanatory and response variables and the direction of the relationship.',

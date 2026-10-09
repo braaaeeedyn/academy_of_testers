@@ -25,11 +25,11 @@ export const CSA_UNIT_OVERVIEWS: SubjectUnitOverview = {
           id: '1-2',
           title: 'Variables and Primitive Data Types',
           summary:
-            'Variables store information in your program. You can picture a variable as a labeled box: the type describes what kind of value the box can hold, the name is the label, and the value is what is currently inside.\n\n' +
+            'Variables store information in your program. You can picture a variable as a labeled box. The type describes what kind of value the box can hold. The name is the label, and the value is what is currently inside.\n\n' +
             'Primitive data types store simple values directly. In AP CSA you mainly work with int for whole numbers, double for decimals, and boolean for true/false conditions, plus char for single characters. Choosing the right type is important because it controls what operations are allowed and how the value behaves in expressions.\n\n' +
             'You will constantly declare variables, assign new values, and use them in expressions and method calls. Being fluent with variables and primitive types lets you focus on problem solving instead of getting stuck on basic syntax.',
           keyIdeas: [
-            'Primitive types: int, double, boolean, and others like char (char is not heavily emphasized on the exam).',
+            'Primitive types: int, double, boolean, and others like char (char rarely shows up on the exam).',
             'Variable declarations specify a type and a name; they must be declared before use.',
             'Type compatibility matters: you cannot assign a double to an int without casting.',
             'Meaningful variable names make programs easier to read and debug.',
@@ -47,7 +47,7 @@ export const CSA_UNIT_OVERVIEWS: SubjectUnitOverview = {
 }`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'This short program declares three variables of different primitive types and then prints them. Notice how the boolean expression average >= 70 is evaluated first, then stored in the passed variable. This pattern, declare, compute, print, is extremely common on the exam.',
+            'This short program declares three variables of different primitive types and then prints them. Notice how the boolean expression average >= 70 is evaluated first, then stored in the passed variable. This pattern (declare, compute, print) is extremely common on the exam.',
         },
         {
           id: '1-3',
@@ -57,7 +57,7 @@ export const CSA_UNIT_OVERVIEWS: SubjectUnitOverview = {
             'Assignment statements follow the pattern variable = value;. Java evaluates the expression on the right-hand side first, then stores that result into the variable on the left. This is how you update variables as your program runs.\n\n' +
             'On the AP exam, you will often trace expressions and assignments like these to predict final variable values. Practicing step-by-step evaluation builds confidence when reading unfamiliar code.',
           keyIdeas: [
-            'Operator precedence follows standard math (parentheses, multiplication/division, then addition/subtraction).',
+            'Operator precedence (the order operators are applied) follows standard math (parentheses, multiplication/division, then addition/subtraction).',
             'Integer division truncates decimals; 7 / 2 evaluates to 3, not 3.5.',
             'Compound expressions are evaluated left to right for operators of equal precedence.',
           ],
@@ -67,7 +67,7 @@ int total = 20;          // initial assignment
 total = total + 5;       // reassignment using an expression`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'In the first line, Java evaluates 10 + 4 to get 14, then stores 14 in result. In the second pair of lines, total starts as 20, then total + 5 is evaluated (25) and stored back into total. This pattern, evaluate on the right, assign on the left, is fundamental to reasoning about state changes in a program.',
+            'In the first line, Java evaluates 10 + 4 to get 14, then stores 14 in result. In the second pair of lines, total starts as 20, then total + 5 is evaluated (25) and stored back into total. This pattern (evaluate on the right, assign on the left) is how you reason about state changes in a program.',
         },
         {
           id: '1-4',
@@ -110,14 +110,14 @@ double x = 5;           // int 5 is widened to double 5.0 automatically
 int y = (int) 3.9;      // y becomes 3 (decimal part is truncated)`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'The first example shows integer overflow: adding 1 to a very large int does not throw an error, but instead wraps around into the negative range. In the second part, assigning 5 to a double is a widening conversion that keeps the value. Casting 3.9 to int performs a narrowing conversion, dropping the decimal portion and leaving y equal to 3.',
+            'The first example shows integer overflow (a result too big for its type). Adding 1 to a very large int does not throw an error. Instead, it wraps around into the negative range. In the second part, assigning 5 to a double is a widening conversion that keeps the value. Casting 3.9 to int performs a narrowing conversion, dropping the decimal portion and leaving y equal to 3.',
         },
         {
           id: '1-6',
           title: 'Compound Assignment Operators',
           summary:
             'Compound assignment operators like +=, -=, *=, and /= are shortcuts for updating a variable based on its current value. Instead of writing x = x + 5, you can write x += 5 to express the same idea more compactly.\n\n' +
-            'These shortcuts are extremely common in loops and counters, where a variable is updated on each iteration. They make code more concise and highlight that the variable is being changed relative to its previous value.\n\n' +
+            'These shortcuts are extremely common in loops and counters, where a variable is updated on each iteration. They make code shorter and make it obvious that the variable is changing relative to its previous value.\n\n' +
             'However, readability still matters. In simple arithmetic updates, compound assignment is helpful. In very complex expressions, using the long form can make it easier to see exactly what is happening.',
           keyIdeas: [
             'Compound operators such as +=, -=, *=, and /= update a variable using its current value.',
@@ -162,7 +162,7 @@ public class InputExample {
 }`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'This example imports the Scanner class from the java.util package, creates a Scanner object, and uses a method from the API (nextInt) to read input. Understanding how to import and call library methods lets you focus on solving problems instead of writing low-level code from scratch.',
+            'This example imports the Scanner class from the java.util package and creates a Scanner object. Then it uses a method from the API (nextInt) to read input. Understanding how to import and call library methods lets you focus on solving problems instead of writing low-level code from scratch.',
         },
         {
           id: '1-8',
@@ -218,7 +218,7 @@ public static double average(int a, int b) {
 printMessage("Hello");     // passes "Hello" as the argument`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'The printMessage method takes a String parameter called msg and prints it. When you call printMessage("Hello");, the literal "Hello" is passed into the method and bound to msg. Understanding how parameters receive arguments is essential for designing and using your own reusable methods.',
+            'The printMessage method takes a String parameter called msg and prints it. When you call printMessage("Hello");, the literal "Hello" is passed into the method and bound to msg. You need to understand how parameters receive arguments to design and use your own reusable methods.',
         },
         {
           id: '1-10',
@@ -249,8 +249,8 @@ public static void main(String[] args) {
           title: 'Using the Math Class',
           summary:
             'The Math class provides useful static methods for performing common numeric computations. Because these methods are static, you call them using the class name rather than creating a Math object.\n\n' +
-            'Commonly used methods in AP CSA include Math.sqrt for square roots, Math.pow for exponents, Math.abs for absolute value, and Math.random for generating random numbers between 0.0 (inclusive) and 1.0 (exclusive).\n\n' +
-            'These methods let you write powerful numeric expressions without implementing the underlying algorithms yourself. Understanding what each method returns and how to combine them in expressions is key for solving exam problems.',
+            'Commonly used methods in AP CSA include Math.sqrt for square roots, Math.pow for exponents, and Math.abs for absolute value. Math.random generates random numbers between 0.0 (inclusive) and 1.0 (exclusive).\n\n' +
+            'These methods let you write complex numeric expressions without implementing the underlying algorithms yourself. For exam problems, know what each method returns and how to combine them in expressions.',
           keyIdeas: [
             'Math methods are static; you call them using the class name, like Math.sqrt(9).',
             'Types matter: some methods return double even if arguments are integers.',
@@ -270,7 +270,7 @@ double r = Math.random() * 10;     // random double from 0.0 up to (but not incl
           summary:
             'A class is a blueprint that defines a new type in Java. It specifies what fields (data) and methods (behavior) objects of that type will have.\n\n' +
             'An object is a real instance created from a class. For example, String is a class provided by Java, and "Alex" is a specific String object.\n\n' +
-            'Objects combine data and behavior. Understanding how classes and objects relate is essential for object-oriented programming in AP CSA.',
+            'Objects combine data and behavior. Object-oriented programming in AP CSA depends on understanding how classes and objects relate.',
           keyIdeas: [
             'A class is a blueprint; an object is a constructed instance of that blueprint.',
             'Instance variables store the object’s state; methods implement its behavior.',
@@ -331,8 +331,8 @@ printHello();`,
           title: 'String Methods',
           summary:
             'Strings in Java are objects that represent sequences of characters. The String class includes many built-in methods (“powers”) for inspecting and transforming text.\n\n' +
-            'Common methods include length() to get the number of characters, toUpperCase() and toLowerCase() to change case, substring(start, end) to extract part of a String, and equals(...) to compare contents.\n\n' +
-            'Because Strings are immutable, methods like substring and toUpperCase do not change the original String; they create and return a new one instead. On the AP exam, you will frequently need to trace code that chains several String methods together.',
+            'Common methods include length() to get the number of characters, plus toUpperCase() and toLowerCase() to change case. Use substring(start, end) to extract part of a String and equals(...) to compare contents.\n\n' +
+            'Because Strings are immutable (they can\'t be changed once created), methods like substring and toUpperCase do not change the original String; they create and return a new one instead. On the AP exam, you will frequently need to trace code that chains several String methods together.',
           keyIdeas: [
             'Important methods: length, substring, indexOf, compareTo, and equals.',
             'Strings are immutable; methods like substring create new String objects.',
@@ -388,7 +388,7 @@ while (cerealRemaining) {
           summary:
             'A boolean value is either true or false. Boolean expressions are expressions that evaluate to one of these two values and are used to control decisions in your programs.\n\n' +
             'You create boolean expressions by comparing values (using relational operators like <, <=, >, >=, ==, !=) or by combining smaller boolean expressions with logical operators (&&, ||, !).\n\n' +
-            'On the AP exam, you will often see boolean expressions inside if statements and loops. Being able to read and evaluate them correctly is essential for predicting control flow.',
+            'On the AP exam, you will often see boolean expressions inside if statements and loops. You have to read and evaluate them correctly to predict control flow.',
           keyIdeas: [
             'Relational operators include <, <=, >, >=, ==, and !=.',
             'Logical operators &&, ||, and ! combine or negate boolean values.',
@@ -456,12 +456,12 @@ if (score >= 90) {
           title: 'Compound Boolean Expressions',
           summary:
             'Many real-world conditions depend on more than one piece of information. Compound boolean expressions let you combine multiple simple conditions using logical operators.\n\n' +
-            'AND (&&) requires that both conditions be true, OR (||) requires at least one to be true, and NOT (!) flips a boolean value. These tools let you represent rich decision logic in a single if statement.\n\n' +
-            'Short-circuit evaluation means that Java may stop evaluating as soon as the overall result is known, which can prevent unnecessary work or even runtime errors when used carefully.',
+            'AND (&&) requires that both conditions be true, OR (||) requires at least one to be true, and NOT (!) flips a boolean value. With these operators, a single if statement can express fairly complicated decision logic.\n\n' +
+            'Short-circuit evaluation means that Java may stop evaluating as soon as the overall result is known. Used carefully, that can prevent unnecessary work or even runtime errors.',
           keyIdeas: [
             'Short-circuit evaluation can prevent NullPointerException if used carefully.',
             'Parentheses make complex conditions easier to read and reason about.',
-            'De Morgan’s Laws help you rewrite logically equivalent conditions.',
+            'De Morgan’s Laws help you rewrite logically equivalent conditions (conditions that always give the same result).',
           ],
           exampleCode: `if (score >= 60 && attendance >= 80) {   // AND: both conditions must be true
     pass = true;
@@ -476,7 +476,7 @@ if (!isRainy) {                    // NOT: flips the value
 }`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'These examples show how &&, ||, and ! are used to combine and invert conditions. Compound boolean expressions are at the heart of many control-flow decisions, especially in programs that enforce multiple requirements at once.',
+            'These examples show how &&, ||, and ! are used to combine and invert conditions. Many control-flow decisions use compound boolean expressions, especially in programs that check several requirements at once.',
         },
         {
           id: '2-6',
@@ -506,7 +506,7 @@ x <= 5
           title: 'While Loops',
           summary:
             'While loops are used when you do not know ahead of time how many repetitions you need. The loop condition is checked before each iteration, so the body may run zero or more times.\n\n' +
-            'A typical while loop repeats an action while some condition remains true, such as while there is still data to process or while a game is not over.\n\n' +
+            'A typical while loop repeats an action while some condition remains true. For example, it might run while there is still data to process or while a game is not over.\n\n' +
             'Because the condition controls when the loop stops, it is critical to update any loop variables correctly. Failing to do so can create infinite loops.',
           keyIdeas: [
             'While loops may run zero or more times depending on the initial condition.',
@@ -534,7 +534,7 @@ while (count < 5) {
           summary:
             'For loops are typically used when you know in advance how many times you want to repeat a block of code. The loop header contains initialization, condition, and update all in one place.\n\n' +
             'This makes for loops especially useful for iterating through arrays or ranges of numbers. The structure closely matches the idea of “start here, run while this is true, and update each time.”\n\n' +
-            'Choosing between for and while often depends on clarity: use for when you have a clear count or index, and while when the stopping condition is based on something changing inside the loop.',
+            'Choosing between for and while often depends on clarity. Use for when you have a clear count or index. Use while when the stopping condition is based on something changing inside the loop.',
           keyIdeas: [
             'For loops consolidate initialization, condition, and update in a single header.',
             'They are a natural fit for traversing arrays from index 0 to length - 1.',
@@ -553,7 +553,7 @@ while (count < 5) {
           title: 'Implementing Selection and Iteration Algorithms',
           summary:
             'Implementing algorithms with selection and iteration means combining if/else statements with loops to solve real problems. This is how you move from isolated concepts to complete program logic.\n\n' +
-            'A common pattern is to loop over a range of values and use an if statement inside the loop to decide which values to process, such as printing only even numbers or counting certain items.\n\n' +
+            'A common pattern is to loop over a range of values with an if statement inside the loop. The if statement decides which values to process, such as printing only even numbers or counting certain items.\n\n' +
             'Most AP CSA loop-and-selection problems reduce to a small set of patterns. Recognizing these patterns will help you write code faster and avoid logical errors.',
           keyIdeas: [
             'Common patterns include counters, accumulators, and linear searches.',
@@ -573,7 +573,7 @@ while (count < 5) {
           id: '2-7',
           title: 'While Loops',
           summary:
-            'Covers pre-test loops that continue executing while a condition remains true. Mastering while loops helps you process unknown amounts of data and build robust input-validation logic.',
+            'Covers pre-test loops that continue executing while a condition remains true. While loops let you process an unknown amount of data and write input validation that keeps asking until the input is valid.',
           keyIdeas: [
             'While loops may run zero or more times depending on the initial condition.',
             'You must update loop control variables inside the loop to avoid infinite loops.',
@@ -631,7 +631,7 @@ while (count < 5) {
           title: 'Nested Iteration',
           summary:
             'Nested iteration means having one loop inside another loop. For each iteration of the outer loop, the inner loop runs through all of its iterations.\n\n' +
-            'This pattern is common when working with grids, tables, or any situation where you need to consider every pair of values (like every row and every column, or every i and j combination).\n\n' +
+            'This pattern is common when working with grids and tables. It fits any situation where you need to consider every pair of values (like every row and every column, or every i and j combination).\n\n' +
             'Understanding how many times the inner code runs and how variables change in nested loops is important for both correctness and performance.',
           keyIdeas: [
             'Nested loops often process grids or 2D data, such as seats in a theater.',
@@ -645,7 +645,7 @@ while (count < 5) {
 }`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'In this example, the outer loop runs 3 times (i = 0, 1, 2), and for each i value, the inner loop runs 2 times (j = 0, 1). That means the println executes 3 × 2 = 6 times total, printing all (i, j) combinations.',
+            'In this example, the outer loop runs 3 times (i = 0, 1, 2). For each i value, the inner loop runs 2 times (j = 0, 1). That means the println executes 3 × 2 = 6 times total, printing all (i, j) combinations.',
         },
         {
           id: '2-12',
@@ -655,7 +655,7 @@ while (count < 5) {
             'To do this, you track variable values, loop iterations, and branching decisions step by step. This skill is especially important on the AP exam, where you must often predict output or final variable values.\n\n' +
             'Developing comfort with tracing code will help you debug your own programs and understand unfamiliar ones more quickly.',
           keyIdeas: [
-            'Tracing by hand is essential for AP MCQs and FRQs.',
+            'You will need to trace code by hand on AP MCQs and FRQs.',
             'You should track variable values and loop iterations step by step.',
             'Look for patterns like unchanged variables or unreachable code to spot bugs.',
           ],
@@ -720,7 +720,7 @@ public class CounterClient {
 }`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'The Counter class hides how the value is stored and updated. Code in CounterClient only relies on the public methods increment and getValue. This is the essence of abstraction: other parts of the program do not need to know or care that value is an int or that we use ++ inside increment. On FRQs, you often design or modify classes in exactly this style.',
+            'The Counter class hides how the value is stored and updated. Code in CounterClient only relies on the public methods increment and getValue. This is the essence of abstraction (hiding the details of how something works). Other parts of the program do not need to know or care that value is an int or that we use ++ inside increment. On FRQs, you often design or modify classes in exactly this style.',
         },
         {
           id: '3-2',
@@ -731,8 +731,8 @@ public class CounterClient {
             'This separation of concerns makes your code more scalable, reduces bugs, and helps teams work together without constantly stepping on each other’s changes.',
           keyIdeas: [
             'Clear, consistent design reduces bugs and makes collaboration easier.',
-            'Encapsulation and information hiding limit how changes ripple through code.',
-            'Thoughtful design up front often saves significant debugging time later.',
+            'Encapsulation (keeping a class\'s data private) and information hiding limit how changes ripple through code.',
+            'Careful design up front often saves a lot of debugging time later.',
           ],
         },
         {
@@ -740,7 +740,7 @@ public class CounterClient {
           title: 'Anatomy of a Class',
           summary:
             'A class is a blueprint for objects. It groups together fields (data), constructors (initialization), and methods (behavior) into a single unit.\n\n' +
-            'In AP CSA, you will often define simple classes with private instance variables, a constructor that initializes them, and public methods that operate on that data.\n\n' +
+            'In AP CSA, you will often define simple classes. They usually have private instance variables, a constructor that initializes them, and public methods that operate on that data.\n\n' +
             'Understanding the standard structure of a class makes it much easier to read and write your own classes on exams and in projects.',
           keyIdeas: [
             'Access modifiers (public/private) control visibility of fields and methods.',
@@ -764,7 +764,7 @@ public class CounterClient {
 }`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'This Dog class shows the three main parts of a simple class: a field to store data, a constructor to initialize that data, and a method to define behavior. You will see and write many classes with this basic shape in AP CSA.',
+            'This Dog class shows the three main parts of a simple class. A field stores data, a constructor initializes that data, and a method defines behavior. You will see and write many classes with this basic shape in AP CSA.',
         },
         {
           id: '3-4',
@@ -894,7 +894,7 @@ Math.sqrt(9);   // static method call on Math`,
           title: 'This Keyword',
           summary:
             'The this keyword refers to the current object, the instance on which a method or constructor is running. It is especially useful when parameter names are the same as field names.\n\n' +
-            'Inside a constructor or method, writing this.fieldName makes it clear that you are referring to the instance variable, not a local variable or parameter with the same name.\n\n' +
+            'Inside a constructor or method, writing this.fieldName makes it clear that you mean the instance variable. That rules out a local variable or parameter with the same name.\n\n' +
             'On the AP exam, you will often see this used in constructors to assign parameter values to fields.',
           keyIdeas: [
             'this.fieldName explicitly refers to the instance variable of the current object.',
@@ -922,7 +922,7 @@ public Person(int age) {
           summary:
             'Programming affects real people. Every program that uses data can have consequences for privacy, fairness, security, and accessibility.\n\n' +
             'Recommendation systems can create bias, data leaks can expose sensitive information, algorithms can reinforce stereotypes, and poor design can exclude users with disabilities.\n\n' +
-            'As a programmer, you have a responsibility to think beyond whether your code “works” technically and consider who might be harmed, whether data is protected, and whether your algorithm is fair. Code is power, use it responsibly.',
+            'As a programmer, you have a responsibility to think beyond whether your code “works” technically. Consider who might be harmed, whether data is protected, and whether your algorithm is fair. Code is power. Use it responsibly.',
           keyIdeas: [
             'Algorithms can unintentionally encode bias present in training data.',
             'Data privacy and security are critical considerations in software design.',
@@ -1000,8 +1000,8 @@ for (int n : nums) {
           id: '4-5',
           title: 'Developing Algorithms Using Arrays',
           summary:
-            'Arrays are powerful because they let you apply a single algorithm to many values using a loop. Common tasks include computing sums and averages, counting how many elements meet a condition, finding maximum and minimum values, and searching for a target.\n\n' +
-            'Most array-based algorithms follow a familiar pattern: initialize a variable (such as sum or count), loop over the array, and update that variable based on each element.\n\n' +
+            'Arrays are useful because a loop lets you apply one algorithm to many values. Common tasks include computing sums and averages, counting how many elements meet a condition, finding maximum and minimum values, and searching for a target.\n\n' +
+            'Most array-based algorithms follow a familiar pattern. Initialize a variable (such as sum or count), loop over the array, and update that variable based on each element.\n\n' +
             'Once you recognize these patterns, you will see them throughout AP CSA questions and in real-world code.',
           keyIdeas: [
             'Linear search scans element by element until a match is found or the end is reached.',
@@ -1016,7 +1016,7 @@ for (int i = 0; i < nums.length; i++) {
 // sum now holds the total of all elements in nums`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'This example follows the initialize,loop,update pattern: sum starts at 0, the loop visits each element, and sum accumulates the values. Many other algorithms (counts, max/min, search) use a very similar structure.',
+            'This example follows the initialize–loop–update pattern: sum starts at 0, the loop visits each element, and sum accumulates the values. Many other algorithms (counts, max/min, search) use a very similar structure.',
         },
         {
           id: '4-6',
@@ -1046,7 +1046,7 @@ while (input.hasNext()) {
           summary:
             'Primitive types like int and double have corresponding wrapper classes Integer and Double. Wrapper objects store numeric values but can be used anywhere an object is required.\n\n' +
             'Collections such as ArrayList can only store objects, not primitives. Wrapper classes bridge this gap so you can still work with numeric collections.\n\n' +
-            'Java automatically converts between primitives and their wrappers in many situations (autoboxing and unboxing), but you should still be aware that wrappers can be null and therefore cause NullPointerException if misused.',
+            'Java automatically converts between primitives and their wrappers in many situations (autoboxing and unboxing). Still, wrappers can be null, so they can cause NullPointerException if misused.',
           keyIdeas: [
             'ArrayList cannot store primitive types, so you use wrapper types instead.',
             'Autoboxing and unboxing automatically convert between primitives and wrappers.',
@@ -1059,14 +1059,14 @@ Integer x = 10;
 int y = x;          // unboxing: Integer to int`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'The wrapper classes let you put numeric values into an ArrayList. Java takes care of creating and extracting Integer objects behind the scenes most of the time, but it is helpful to remember that wrapper objects can be null whereas primitives cannot.',
+            'The wrapper classes let you put numeric values into an ArrayList. Java takes care of creating and extracting Integer objects behind the scenes most of the time. Remember, though, that wrapper objects can be null, whereas primitives cannot.',
         },
         {
           id: '4-8',
           title: 'ArrayList Methods',
           summary:
             'An ArrayList is a resizable array-like structure that can grow and shrink as needed. You interact with it using methods rather than direct index assignment.\n\n' +
-            'Key methods include add to insert elements, get to access them, set to replace them, remove to delete them, and size to find out how many elements are stored.\n\n' +
+            'Key methods include add to insert elements, get to access them, and set to replace them. Use remove to delete them and size to find out how many elements are stored.\n\n' +
             'Because ArrayLists shift elements when you insert or remove items, it is important to think about how indices change during mutations, especially inside loops.',
           keyIdeas: [
             'Key methods include add, get, set, remove, size, and indexOf.',
@@ -1113,7 +1113,7 @@ for (int n : list) {
           title: 'Developing Algorithms Using ArrayLists',
           summary:
             'ArrayLists support many of the same algorithmic patterns as arrays: counting, searching, averaging, and filtering. The main difference is that ArrayLists can grow and shrink as elements are added or removed.\n\n' +
-            'When removing elements while traversing, a common pattern is to loop from the end of the list toward the beginning so that index shifts do not cause you to skip items.\n\n' +
+            'When removing elements while traversing (stepping through the list), a common pattern is to loop from the end of the list toward the beginning. That way, index shifts do not cause you to skip items.\n\n' +
             'You can also build new ArrayLists from existing ones when you want to filter or transform data without modifying the original.',
           keyIdeas: [
             'Removing elements while iterating usually requires looping from the end toward the beginning.',
@@ -1128,7 +1128,7 @@ for (int n : list) {
 }`,
           exampleLanguage: 'java',
           exampleExplanation:
-            'This example removes negative numbers from a list. After a removal, all later elements shift left, so i-- adjusts the index so that the next iteration examines the element that shifted into the current position.',
+            'This example removes negative numbers from a list. After a removal, all later elements shift left. The i-- adjusts the index so that the next iteration examines the element that shifted into the current position.',
         },
         {
           id: '4-11',
@@ -1305,14 +1305,14 @@ export const CSP_UNIT_OVERVIEWS: SubjectUnitOverview = {
           keyIdeas: [
             'Algorithms are step-by-step processes that can be expressed in many ways.',
             'Multiple algorithms can solve the same problem with different trade-offs.',
-            'Creativity in computing comes from how we combine tools and ideas, not just from code syntax.',
+            'Creativity in computing comes from how we combine tools and ideas, more than from code syntax.',
           ],
         },
         {
           id: '1-2',
           title: 'Collaborative Development',
           summary:
-            'Emphasizes teamwork, documentation, and communication when building computing projects.',
+            'Covers teamwork, documentation, and communication when building computing projects.',
           keyIdeas: [
             'Version control, planning, and clear roles help teams avoid conflicts.',
             'Pair programming and code reviews can improve quality and learning.',

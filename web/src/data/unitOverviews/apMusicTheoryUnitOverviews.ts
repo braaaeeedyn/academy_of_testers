@@ -1,7 +1,6 @@
 import type { SubjectUnitOverview } from './types'
 import { parseRawOverview } from './parseRawOverview'
 
-// NOTE: Source-preserving content. Paste your AP Music Theory raw unit overview text into RAW_AP_MUSIC_THEORY.
 // Expected format (same as other unit-overview files in this folder):
 //   Unit N – Title
 //   N.N Subunit title
@@ -17,11 +16,11 @@ AP Music Theory
 
 ### 1.0 Unit Overview: Foundations of Musical Notation
 
-This unit establishes the fundamental building blocks of Western music theory: how pitch and rhythm are notated, how major scales are constructed, and how composers communicate expression through written symbols. These concepts form the vocabulary and grammar that all subsequent units build upon. Mastery here is essential—every harmonic analysis, melodic dictation, and part-writing exercise in the course depends on fluent understanding of these basics.
+This unit covers the basics of Western music theory: how pitch and rhythm are notated, how major scales are built, and how composers write down expression. Every later unit builds on this vocabulary, and every harmonic analysis, melodic dictation, and part-writing exercise in the course assumes you can read these basics fluently.
 
-Music notation is a technology for preserving and transmitting sound across time. The staff, clefs, note values, and expressive markings studied in this unit represent centuries of refinement. Understanding these conventions allows musicians to read works from the Baroque era to the present day, and to communicate their own musical ideas with precision.
+Music notation is a technology for preserving and transmitting sound across time. The staff, clefs, note values, and expressive markings in this unit were refined over centuries. Understanding these conventions allows musicians to read works from the Baroque era to the present day, and to communicate their own musical ideas with precision.
 
-The major scale serves as the organizational framework for most Western tonal music. Its pattern of whole and half steps, its seven scale degrees with their distinct tendencies, and its relationship to key signatures provide the foundation for understanding melody, harmony, and musical structure. Rhythm and meter give music its temporal organization, creating patterns of strong and weak beats that listeners feel physically.
+The major scale is the organizing framework for most Western tonal music. Its pattern of whole and half steps, its seven scale degrees with their distinct tendencies, and its relationship to key signatures provide the foundation for understanding melody, harmony, and musical structure. Rhythm and meter give music its temporal organization, creating patterns of strong and weak beats that listeners feel physically.
 
 **Key ideas:** Pitch notation on the staff and clefs is the foundation of reading music. Rhythmic values organize music in time. The major scale's whole-step/half-step pattern is the basis of tonal organization. Meter creates hierarchical patterns of strong and weak beats. Expressive markings communicate tempo, dynamics, and articulation.
 
@@ -29,21 +28,21 @@ The major scale serves as the organizational framework for most Western tonal mu
 
 Pitch refers to the perceived highness or lowness of a musical sound, determined by the frequency of vibration. Western music organizes pitch into a system of named notes (A through G) arranged on a five-line staff. The treble clef (G clef) and bass clef (F clef) indicate which pitches correspond to which lines and spaces. Ledger lines extend the staff for pitches above or below its range.
 
-The grand staff combines treble and bass clefs, connected by middle C, providing the full range needed for piano music and score reading. Octave designations (C4, A3, etc.) specify exact register. Accidentals—sharps, flats, and naturals—modify pitches by half steps and remain in effect for the duration of a measure unless canceled.
+The grand staff combines treble and bass clefs, connected by middle C, providing the full range needed for piano music and score reading. Octave designations (C4, A3, etc.) specify exact register. Accidentals (sharps, flats, and naturals) modify pitches by half steps and remain in effect for the duration of a measure unless canceled.
 
 **Key ideas:** Pitch is organized into a repeating pattern of seven letter names. Clefs assign specific pitches to staff lines and spaces. Ledger lines extend notation beyond the five-line staff. Accidentals raise or lower pitches by half steps within a measure.
 
 ### 1.2 Rhythmic Values and Notation
 
-Rhythm organizes music in time through patterns of duration. Standard note values—whole, half, quarter, eighth, sixteenth—exist in a proportional relationship where each value is half the duration of the next larger. Corresponding rests indicate measured silence. Dots extend a note's value by half; ties connect notes across barlines or within measures to create durations not available through single note values.
+Rhythm organizes music in time through patterns of duration. The standard note values (whole, half, quarter, eighth, sixteenth) are proportional: each one lasts half as long as the next larger value. Corresponding rests indicate measured silence. Dots extend a note's value by half; ties connect notes across barlines or within measures to create durations not available through single note values.
 
-Beaming groups smaller note values according to beat units, making rhythmic patterns visually clear. Proper beaming reflects the meter: in 4/4, eighth notes are typically beamed in groups of two or four; in 6/8, groups of three. Understanding these conventions is essential for both reading and notating rhythm accurately.
+Beaming groups smaller note values according to beat units, making rhythmic patterns visually clear. Proper beaming reflects the meter: in 4/4, eighth notes are typically beamed in groups of two or four; in 6/8, groups of three. You need these conventions to read and notate rhythm accurately.
 
 **Key ideas:** Note values exist in proportional relationships (each half of the previous). Dots add half the original value; ties connect durations across beats or barlines. Rests indicate measured silence. Beaming reflects metric organization and clarifies beat groupings.
 
 ### 1.3 Half Steps and Whole Steps
 
-The half step is the smallest interval in standard Western music—the distance between any key and its immediate neighbor on the piano, whether white or black. A whole step equals two half steps. These intervals are the building blocks for scales, melodies, and harmonic motion. On the piano keyboard, half steps occur naturally between E-F and B-C (adjacent white keys with no black key between); all other adjacent white keys are a whole step apart.
+The half step is the smallest interval in standard Western music: the distance between any key and its immediate neighbor on the piano, whether white or black. A whole step equals two half steps. These intervals are the building blocks for scales, melodies, and harmonic motion. On the piano keyboard, half steps occur naturally between E-F and B-C (adjacent white keys with no black key between); all other adjacent white keys are a whole step apart.
 
 Enharmonic equivalents are pitches that sound the same but are spelled differently (F♯ and G♭, for example). While they sound identical on a piano, their spelling matters in tonal contexts because it reflects their function within a scale or key.
 
@@ -53,7 +52,7 @@ Enharmonic equivalents are pitches that sound the same but are spelled different
 
 The major scale consists of seven distinct pitches arranged in a specific pattern of whole and half steps: W-W-H-W-W-W-H. This pattern, starting from any pitch, generates all major scales. Each scale degree has a name reflecting its function: tonic (1), supertonic (2), mediant (3), subdominant (4), dominant (5), submediant (6), and leading tone (7). These names describe how each pitch relates to the tonic and behaves within the key.
 
-The leading tone, a half step below the tonic, has a strong pull upward. The dominant, a perfect fifth above the tonic, provides harmonic stability second only to the tonic itself. Understanding these tendencies is essential for melody, harmony, and voice leading.
+The leading tone, a half step below the tonic, has a strong pull upward. The dominant, a perfect fifth above the tonic, provides harmonic stability second only to the tonic itself. These tendencies drive melody, harmony, and voice leading.
 
 **Key ideas:** The major scale follows the pattern W-W-H-W-W-W-H. Scale degree names reflect functional relationships to the tonic. The leading tone (7) has a strong tendency to resolve upward to tonic. Dominant (5) and tonic (1) are the most stable scale degrees.
 
@@ -63,15 +62,15 @@ A key signature is a collection of sharps or flats placed at the beginning of ea
 
 The circle of fifths organizes all major (and minor) keys by their relationships: moving clockwise adds one sharp; moving counterclockwise adds one flat. This diagram is a powerful tool for understanding key relationships, transposition, and harmonic motion between keys.
 
-**Key ideas:** Key signatures indicate which pitches are consistently altered in a key. Sharps and flats follow a specific order of addition. The circle of fifths organizes keys by their fifth relationships. Recognizing key signatures is essential for reading and analysis.
+**Key ideas:** Key signatures indicate which pitches are consistently altered in a key. Sharps and flats follow a specific order of addition. The circle of fifths organizes keys by their fifth relationships. Reading and analysis start with recognizing the key signature.
 
 ### 1.6 Beat Division and Meter (Simple vs Compound)
 
-Meter organizes beats into recurring patterns of strong and weak pulses. In simple meter, each beat divides naturally into two equal parts. In compound meter, each beat divides into three. This distinction fundamentally affects rhythmic feel: simple meters have a duple subdivision feel; compound meters have a lilting, triple subdivision feel.
+Meter organizes beats into recurring patterns of strong and weak pulses. In simple meter, each beat divides naturally into two equal parts. In compound meter, each beat divides into three. This distinction changes the rhythmic feel: simple meters have a duple subdivision feel; compound meters have a lilting, triple subdivision feel.
 
 Duple, triple, and quadruple refer to how many beats per measure (2, 3, or 4). Combined with simple or compound division, this creates six common meter types: simple duple (2/4), simple triple (3/4), simple quadruple (4/4), compound duple (6/8), compound triple (9/8), and compound quadruple (12/8).
 
-**Key ideas:** Simple meter divides beats into two; compound meter divides beats into three. Duple, triple, and quadruple describe beats per measure. The feel of music depends significantly on its metric organization. Recognizing meter by ear and in notation is a core skill.
+**Key ideas:** Simple meter divides beats into two; compound meter divides beats into three. Duple, triple, and quadruple describe beats per measure. The feel of music depends heavily on its metric organization. Recognizing meter by ear and in notation is a core skill.
 
 ### 1.7 Time Signatures and Rhythmic Patterns
 
@@ -93,9 +92,9 @@ Expression markings communicate the character and style of performance beyond te
 
 Dynamics indicate relative loudness, from pianissimo (pp, very soft) through piano, mezzo-piano, mezzo-forte, forte, to fortissimo (ff, very loud). Crescendo indicates growing louder; decrescendo (or diminuendo) indicates growing softer. Sforzando (sfz) and forte-piano (fp) indicate sudden dynamic accents or changes.
 
-Articulation markings specify how individual notes should be attacked and released. Staccato (dot) indicates shortened, detached notes. Legato (slur) indicates smooth connection between notes. Tenuto (line) indicates full value with slight emphasis. Accent marks (>, ^) indicate stressed attacks. These markings profoundly affect musical character.
+Articulation markings specify how individual notes should be attacked and released. Staccato (dot) indicates shortened, detached notes. Legato (slur) indicates smooth connection between notes. Tenuto (line) indicates full value with slight emphasis. Accent marks (>, ^) indicate stressed attacks. These markings change the character of the music a great deal.
 
-**Key ideas:** Dynamic markings indicate relative loudness from pp to ff. Crescendo and decrescendo indicate gradual changes. Articulation markings (staccato, legato, tenuto, accent) specify attack and connection. Dynamics and articulation are essential to musical expression.
+**Key ideas:** Dynamic markings indicate relative loudness from pp to ff. Crescendo and decrescendo indicate gradual changes. Articulation markings (staccato, legato, tenuto, accent) specify attack and connection. Dynamics and articulation carry much of the music's expression.
 
 ---
 
@@ -103,11 +102,11 @@ Articulation markings specify how individual notes should be attacked and releas
 
 ### 2.0 Unit Overview: Expanding the Tonal Palette
 
-This unit expands beyond the major scale to explore minor modes, intervals, and the broader sonic landscape of melody, timbre, and texture. While Unit 1 established the major scale as the primary organizing framework, Unit 2 reveals the rich variety of tonal possibilities that give music its emotional depth and color.
+This unit moves past the major scale to minor modes, intervals, and the wider world of melody, timbre, and texture. Unit 1 set up the major scale as the main organizing framework, and Unit 2 adds the other tonal options that give music much of its emotional range and color.
 
-Minor scales provide the harmonic and melodic vocabulary for music that sounds darker, more complex, or more emotionally intense than major-key music. The three forms of minor—natural, harmonic, and melodic—each serve different musical purposes and create distinct sounds. Understanding their construction and application is essential for analysis and composition.
+Minor scales provide the harmonic and melodic vocabulary for music that sounds darker, more complex, or more emotionally intense than major-key music. The three forms of minor (natural, harmonic, and melodic) each have different musical uses and sound different. You need to know how each is built and used for both analysis and composition.
 
-Intervals—the distance between two pitches—are the molecules from which scales, melodies, and chords are built. Precise interval identification by ear and on the page is a foundational skill that enables melodic dictation, harmonic analysis, and part-writing. Combined with understanding of melody, timbre, and texture, intervals complete the basic vocabulary needed for deeper study.
+An interval is the distance between two pitches, and intervals are the units that scales, melodies, and chords are built from. Identifying intervals precisely, by ear and on the page, underlies melodic dictation, harmonic analysis, and part-writing. Combined with understanding of melody, timbre, and texture, intervals complete the basic vocabulary needed for deeper study.
 
 **Key ideas:** Minor scales provide alternatives to major for darker or more complex expression. Three forms of minor serve different harmonic and melodic functions. Intervals are the building blocks of melody and harmony. Timbre and texture describe the color and layering of musical sound.
 
@@ -115,7 +114,7 @@ Intervals—the distance between two pitches—are the molecules from which scal
 
 The natural minor scale follows the pattern W-H-W-W-H-W-W, creating a sound that lacks the strong leading-tone pull of major. The harmonic minor scale raises the seventh degree, creating a leading tone that provides dominant function, but also produces an augmented second between scale degrees 6 and 7. The melodic minor scale addresses this by raising both the sixth and seventh degrees when ascending, then reverting to natural minor when descending.
 
-Each form serves specific purposes: natural minor for modal color and certain chord constructions; harmonic minor for dominant harmonies; melodic minor for smooth stepwise melodies. Recognizing which form is in use—and why—is essential for analysis.
+Each form serves specific purposes: natural minor for modal color and certain chord constructions; harmonic minor for dominant harmonies; melodic minor for smooth stepwise melodies. In analysis, you need to recognize which form is in use and why.
 
 **Key ideas:** Natural minor has no raised leading tone (whole step between 7 and 1). Harmonic minor raises 7 to create a leading tone and dominant function. Melodic minor raises 6 and 7 ascending, reverts descending. Each form serves distinct harmonic and melodic purposes.
 
@@ -125,11 +124,11 @@ Relative keys share the same key signature but have different tonics. Every majo
 
 Understanding these relationships aids modulation analysis, explains tonal color shifts within pieces, and assists with sight-transposition. The relationship between relative major and minor keys is particularly important for Baroque and Classical form analysis.
 
-**Key ideas:** Relative keys share a key signature but differ in tonic. Parallel keys share a tonic but differ in key signature. Relative minor is built on the sixth degree of major. These relationships are essential for modulation and form analysis.
+**Key ideas:** Relative keys share a key signature but differ in tonic. Parallel keys share a tonic but differ in key signature. Relative minor is built on the sixth degree of major. Modulation and form analysis rely on these relationships.
 
 ### 2.3 Other Scales (Chromatic, Whole-Tone, Pentatonic)
 
-Beyond major and minor, other scale types appear frequently in Western music. The chromatic scale includes all twelve pitches, each a half step apart, and serves ornamental and modulatory functions. The whole-tone scale contains only whole steps, creating an ambiguous, floating quality (used prominently by Debussy). The pentatonic scale uses five pitches—often scale degrees 1, 2, 3, 5, 6 of major or 1, 3, 4, 5, 7 of minor—and appears worldwide in folk music and in classical repertoire.
+Beyond major and minor, other scale types appear frequently in Western music. The chromatic scale includes all twelve pitches, each a half step apart, and serves ornamental and modulatory functions. The whole-tone scale contains only whole steps, creating an ambiguous, floating quality (used prominently by Debussy). The pentatonic scale uses five pitches (often scale degrees 1, 2, 3, 5, 6 of major or 1, 3, 4, 5, 7 of minor) and appears worldwide in folk music and in classical repertoire.
 
 These scales provide alternatives to the strict major/minor system, expanding tonal color and enabling composers to evoke different moods, styles, or cultural associations.
 
@@ -139,7 +138,7 @@ These scales provide alternatives to the strict major/minor system, expanding to
 
 An interval's size is the distance in letter names (second, third, fourth, etc.). Its quality describes the precise number of half steps: perfect (unison, fourth, fifth, octave), major, minor, augmented, or diminished. Major intervals become minor when reduced by a half step, and augmented when expanded; minor intervals become diminished when reduced, major when expanded. Perfect intervals become augmented when expanded, diminished when reduced.
 
-Interval recognition requires knowing the half-step count for each quality and size. Instant identification—by eye and by ear—is essential for melodic dictation, sight-singing, and harmonic analysis.
+Interval recognition requires knowing the half-step count for each quality and size. Melodic dictation, sight-singing, and harmonic analysis all require instant identification by eye and by ear.
 
 **Key ideas:** Size measures letter-name distance; quality measures exact half steps. Perfect, major, and minor are standard qualities. Augmented expands; diminished contracts. Interval identification is foundational for all melodic and harmonic work.
 
@@ -155,25 +154,25 @@ Compound intervals span more than an octave. A ninth is an octave plus a second;
 
 Many instruments sound at a pitch different from written. Transposing instruments include B♭ clarinet (sounds a major second lower than written), F horn (sounds a perfect fifth lower), and E♭ alto saxophone (sounds a major sixth lower). Composers and arrangers must write parts that produce the desired sounding pitch.
 
-Understanding transposition is essential for score reading, arranging, and analyzing music for mixed ensembles. It also develops intervallic thinking and key-relationship awareness.
+Score reading, arranging, and analyzing music for mixed ensembles all require transposition. It also develops intervallic thinking and key-relationship awareness.
 
 **Key ideas:** Transposing instruments sound different pitches than written. Common transpositions include B♭, F, and E♭ instruments. Score reading requires mental transposition. Transposition develops interval and key-relationship skills.
 
 ### 2.7 Melody and Melodic Features
 
-Melody is a succession of pitches perceived as a single coherent line. Melodic analysis considers range (the span from lowest to highest pitch), contour (the shape of melodic motion—ascending, descending, arched, wavelike), conjunct vs. disjunct motion (stepwise vs. leaping), and the relationship between melody and underlying harmony.
+Melody is a succession of pitches perceived as a single coherent line. Melodic analysis considers range (the span from lowest to highest pitch), contour (the shape of melodic motion: ascending, descending, arched, wavelike), conjunct vs. disjunct motion (stepwise vs. leaping), and the relationship between melody and underlying harmony.
 
-Melodies often feature a climax—the highest or most intense point—and a return to rest. Phrasing, the grouping of melodic ideas into breath-length units, shapes musical meaning. Understanding how melodies are constructed aids composition, dictation, and analysis.
+Melodies often have a climax, the highest or most intense point, followed by a return to rest. Phrasing, the grouping of melodic ideas into breath-length units, shapes musical meaning. Understanding how melodies are constructed aids composition, dictation, and analysis.
 
 **Key ideas:** Melody involves range, contour, and conjunct/disjunct motion. Phrasing groups melodic ideas into coherent units. Climax provides structural emphasis. Melodic analysis connects line to underlying harmony.
 
 ### 2.8 Timbre
 
-Timbre (tone color) distinguishes one sound source from another—a violin from a flute playing the same pitch, or different vowel sounds in singing. Timbre results from the unique combination of overtones (harmonics) each instrument or voice produces. Orchestration and arrangement depend on understanding how different timbres blend, contrast, or stand out.
+Timbre (tone color) is what distinguishes one sound source from another, such as a violin from a flute playing the same pitch, or one vowel sound from another in singing. Timbre results from the unique combination of overtones (harmonics) each instrument or voice produces. Orchestration and arrangement depend on understanding how different timbres blend, contrast, or stand out.
 
 Descriptive vocabulary for timbre includes bright, dark, warm, harsh, nasal, reedy, mellow, and piercing. Aural skills development includes identifying instruments and voices by timbre alone.
 
-**Key ideas:** Timbre is the characteristic color of a sound source. Overtone content determines timbral quality. Timbral vocabulary enables precise description. Identifying timbre is essential for score reading and ear training.
+**Key ideas:** Timbre is the characteristic color of a sound source. Overtone content determines timbral quality. Timbral vocabulary enables precise description. Score reading and ear training both depend on identifying timbre.
 
 ### 2.9 Texture and Rhythmic Devices
 
@@ -181,7 +180,7 @@ Texture describes how musical lines relate to one another. Monophonic texture co
 
 Rhythmic devices include hemiola (superimposing a 3-pattern over 2 or vice versa), rhythmic ostinato (repeated rhythmic pattern), and polyrhythm (simultaneous contrasting rhythmic patterns). These devices add complexity and interest to musical texture.
 
-**Key ideas:** Texture types include monophonic, homophonic, polyphonic, and heterophonic. Density and independence of lines define texture. Rhythmic devices like hemiola and ostinato add complexity. Texture analysis is essential for style identification.
+**Key ideas:** Texture types include monophonic, homophonic, polyphonic, and heterophonic. Density and independence of lines define texture. Rhythmic devices like hemiola and ostinato add complexity. Texture analysis helps identify style.
 
 ---
 
@@ -191,7 +190,7 @@ Rhythmic devices include hemiola (superimposing a 3-pattern over 2 or vice versa
 
 This unit introduces the vertical dimension of music: harmony built from triads and seventh chords. While earlier units focused on pitch organization and melody, Unit 3 examines how pitches combine simultaneously to create chords, and how those chords function within keys. This is the foundation of Western harmonic practice from the Common Practice Period through contemporary popular music.
 
-Triads—three-note chords built in thirds—are the basic harmonic building blocks. Their qualities (major, minor, diminished, augmented) and their positions within a key (identified by Roman numerals) create the harmonic vocabulary that composers use to create tension, resolution, stability, and motion.
+Triads, three-note chords built in thirds, are the basic harmonic building blocks. Their qualities (major, minor, diminished, augmented) and their positions within a key (identified by Roman numerals) create the harmonic vocabulary that composers use to create tension, resolution, stability, and motion.
 
 Seventh chords add a fourth note, creating richer sonorities with increased harmonic drive. The figured bass system, developed in the Baroque era, provides shorthand notation for chord inversions. Understanding these structures prepares students for voice leading, harmonic progression, and formal analysis.
 
@@ -203,7 +202,7 @@ A triad consists of three notes: a root, a third above the root, and a fifth abo
 
 Identifying triad quality by eye (analyzing the intervals) and by ear (recognizing the characteristic sound) is foundational. Each quality has a distinct character: major sounds bright and stable, minor sounds darker, diminished sounds tense and unstable, augmented sounds ambiguous and unresolved.
 
-**Key ideas:** Triads contain root, third, and fifth. Quality depends on the intervals between these notes. Four triad qualities: major, minor, diminished, augmented. Quality recognition by ear and sight is essential.
+**Key ideas:** Triads contain root, third, and fifth. Quality depends on the intervals between these notes. Four triad qualities: major, minor, diminished, augmented. You need to recognize quality by ear and by sight.
 
 ### 3.2 Diatonic Chords and Roman Numerals
 
@@ -217,7 +216,7 @@ Roman numerals identify chord roots by scale degree: uppercase for major/augment
 
 A triad's inversion depends on which note is in the bass. Root position has the root in bass (figured bass: 5/3, often abbreviated to no figures). First inversion has the third in bass (6 or 6/3). Second inversion has the fifth in bass (6/4). Inversions affect the chord's stability and voice-leading behavior.
 
-Figured bass, developed for Baroque continuo playing, uses numbers below the bass line to indicate intervals above. Modern analysis combines Roman numerals with figured bass (V6, I6/4) to show both function and inversion. Understanding figured bass is essential for historical repertoire and contemporary analysis.
+Figured bass, developed for Baroque continuo playing, uses numbers below the bass line to indicate intervals above. Modern analysis combines Roman numerals with figured bass (V6, I6/4) to show both function and inversion. Figured bass is needed for historical repertoire and for contemporary analysis.
 
 **Key ideas:** Inversion depends on which chord member is in the bass. Root position: 5/3; first inversion: 6; second inversion: 6/4. Roman numerals combine with figures to show function and inversion. Inversions affect stability and voice leading.
 
@@ -225,7 +224,7 @@ Figured bass, developed for Baroque continuo playing, uses numbers below the bas
 
 Seventh chords add a fourth note, a seventh above the root, creating a more complex sonority with increased harmonic tension. The five common seventh chord qualities are: major-major (MM7 or Maj7), major-minor (Mm7 or dominant 7), minor-minor (mm7 or min7), half-diminished (ø7), and fully diminished (°7). Each has a characteristic sound and typical harmonic function.
 
-The dominant seventh (V7, Mm7) is particularly important—its tritone between the third and seventh creates strong pull toward resolution. The half-diminished viiø7 and fully diminished vii°7 serve similar dominant function.
+The dominant seventh (V7, Mm7) matters most: the tritone between its third and seventh pulls strongly toward resolution. The half-diminished viiø7 and fully diminished vii°7 serve similar dominant function.
 
 **Key ideas:** Seventh chords add a seventh above the triad. Five qualities: Maj7, dominant 7, min7, half-diminished, fully diminished. The tritone in dominant seventh chords drives resolution. Seventh chord quality affects function and color.
 
@@ -243,7 +242,7 @@ Harmonic analysis interprets chords in context, identifying their Roman numeral 
 
 Non-chord tones (addressed in Unit 6) must be distinguished from chord tones. Context matters: the same collection of pitches can function differently in different keys. Analysis reveals compositional logic and aids performance interpretation.
 
-**Key ideas:** Analysis determines key, identifies each chord, and assigns Roman numerals. Context determines function—the same pitches can function differently. Non-chord tones must be distinguished from chord members. Analysis reveals compositional structure and logic.
+**Key ideas:** Analysis determines key, identifies each chord, and assigns Roman numerals. Context determines function, so the same pitches can function differently. Non-chord tones must be distinguished from chord members. Analysis reveals compositional structure and logic.
 
 ### 3.7 Chord Spacing and Doubling
 
@@ -275,17 +274,17 @@ Basic progressions often follow the phrase model: tonic → pre-dominant → dom
 
 ### 4.0 Unit Overview: Harmony in Motion
 
-This unit examines how chords function within tonal music—not as isolated sonorities but as components of a dynamic system of tension and resolution. The concept of harmonic function explains why certain chords move to certain others, why phrases feel complete or incomplete, and how composers create musical narrative through harmony.
+This unit looks at how chords function in tonal music as parts of a system of tension and resolution, rather than as isolated sonorities. The concept of harmonic function explains why certain chords move to certain others, why phrases feel complete or incomplete, and how composers create musical narrative through harmony.
 
 Functional harmony organizes chords into three categories: tonic (stability and resolution), predominant (motion away from tonic, preparation for dominant), and dominant (tension requiring resolution to tonic). This framework explains harmonic behavior across centuries of Western music, from Bach to the Beatles.
 
-Cadences—the punctuation marks of music—articulate phrase structure. The authentic cadence (V–I) confirms the key; the half cadence (ending on V) creates expectation; the deceptive cadence (V–vi) provides surprise. Understanding cadences enables analysis of phrase structure and formal organization.
+Cadences, the punctuation marks of music, mark off phrases. The authentic cadence (V–I) confirms the key; the half cadence (ending on V) creates expectation; the deceptive cadence (V–vi) provides surprise. Understanding cadences enables analysis of phrase structure and formal organization.
 
 **Key ideas:** Harmonic function categorizes chords by their role: tonic, predominant, dominant. Function explains chord behavior and progression logic. Cadences punctuate phrases and articulate form. Part-writing applies voice-leading principles to functional progressions.
 
 ### 4.1 Harmony and Voice Leading Fundamentals
 
-Harmony involves the simultaneous sounding of pitches and the progression of chords through time. Voice leading governs how individual voices connect between chords. The principles of voice leading—stepwise motion preferred, common tones retained, tendency tones resolved—emerge from the desire for smooth, independent lines within a coherent harmonic framework.
+Harmony involves the simultaneous sounding of pitches and the progression of chords through time. Voice leading governs how individual voices connect between chords. The principles of voice leading (prefer stepwise motion, keep common tones, resolve tendency tones) come from the goal of smooth, independent lines within a coherent harmonic framework.
 
 Four-part texture (soprano, alto, tenor, bass) provides enough voices for complete triads and seventh chords while maintaining clarity. Each voice should be singable and maintain its own melodic integrity while participating in harmonic progression.
 
@@ -309,7 +308,7 @@ The typical progression moves tonic → predominant → dominant → tonic, thou
 
 ### 4.4 Harmonic Progressions
 
-Certain progressions are standard in tonal music: I–IV–V–I, I–ii–V–I, I–vi–IV–V–I (the "50s progression"), and countless variants. Understanding typical progressions develops expectations—knowing what usually happens helps identify when composers do something unusual or expressive.
+Certain progressions are standard in tonal music: I–IV–V–I, I–ii–V–I, I–vi–IV–V–I (the "50s progression"), and countless variants. Knowing the typical progressions builds expectations, and knowing what usually happens helps you notice when a composer does something unusual or expressive.
 
 Functional analysis reduces complex surfaces to underlying harmonic logic. A long passage might reduce to T–PD–D–T with elaborations. This analytical skill transfers across styles: the same functional logic operates in Bach chorales, Mozart sonatas, and contemporary pop songs.
 
@@ -317,9 +316,9 @@ Functional analysis reduces complex surfaces to underlying harmonic logic. A lon
 
 ### 4.5 Cadences (Authentic, Half, Plagal, Deceptive)
 
-A perfect authentic cadence (PAC) features V–I with both chords in root position and tonic in the soprano; this is the strongest possible conclusion. An imperfect authentic cadence (IAC) weakens one element (inverted chord, non-tonic soprano note). A half cadence ends on V, creating pause without resolution—the "question" to the PAC's "answer."
+A perfect authentic cadence (PAC) features V–I with both chords in root position and tonic in the soprano; this is the strongest possible conclusion. An imperfect authentic cadence (IAC) weakens one element (inverted chord, non-tonic soprano note). A half cadence ends on V, creating a pause without resolution: the "question" to the PAC's "answer."
 
-The plagal cadence (IV–I) often follows an authentic cadence as an "amen" extension. The deceptive cadence (V–vi) substitutes vi where I is expected, prolonging the phrase. Recognizing cadence types is essential for phrase and form analysis.
+The plagal cadence (IV–I) often follows an authentic cadence as an "amen" extension. The deceptive cadence (V–vi) substitutes vi where I is expected, prolonging the phrase. Phrase and form analysis depend on recognizing cadence types.
 
 **Key ideas:** PAC (V–I, root position, soprano on tonic) is the strongest conclusion. IAC weakens one element. Half cadence ends on V, creating expectation. Deceptive cadence (V–vi) surprises; plagal (IV–I) extends.
 
@@ -343,7 +342,7 @@ Inner voice resolutions can be more flexible, but outer voices (soprano and bass
 
 Inversions create smoother bass lines and enable passing motion between root-position chords. First-inversion triads are relatively stable and frequently used. Second-inversion triads are treated more carefully: the cadential 6/4 functions as a dominant prolongation; passing and pedal 6/4s serve specific linear functions.
 
-Inverted seventh chords follow similar principles. Inversions allow bass lines that move stepwise rather than in leaps, creating more melodic bass parts. Understanding inversion usage is essential for stylistic part-writing.
+Inverted seventh chords follow similar principles. Inversions allow bass lines that move stepwise rather than in leaps, creating more melodic bass parts. Stylistic part-writing depends on using inversions well.
 
 **Key ideas:** First-inversion triads are common and relatively stable. Second-inversion triads have restricted use (cadential, passing, pedal). Inversions enable stepwise bass motion. Seventh chord inversions follow predictable resolution patterns.
 
@@ -361,11 +360,11 @@ Analysis reveals compositional choices: why a composer used a deceptive cadence 
 
 ### 5.0 Unit Overview: Expanding the Harmonic Palette
 
-This unit deepens understanding of harmonic function by exploring predominant chords in detail and examining the nuanced behaviors of chords within progressions. Building on Unit 4's introduction to tonic, predominant, and dominant function, this unit examines specific chord usages, the treatment of second-inversion chords, and techniques for expanding progressions beyond basic templates.
+This unit deepens understanding of harmonic function by exploring predominant chords in detail and examining the finer behaviors of chords within progressions. Building on Unit 4's introduction to tonic, predominant, and dominant function, this unit examines specific chord usages, the treatment of second-inversion chords, and techniques for expanding progressions beyond basic templates.
 
 The predominant category includes more than just IV and ii. The vi chord can serve multiple functions depending on context. Seventh chords on predominant degrees add harmonic richness. Understanding these possibilities expands compositional and analytical vocabulary.
 
-Second-inversion triads—the cadential 6/4, passing 6/4, and pedal 6/4—require special treatment because of their acoustical instability. Mastering their use is essential for stylistic part-writing. The unit concludes with techniques for expanding progressions through prolongation and elaboration.
+Second-inversion triads (the cadential 6/4, passing 6/4, and pedal 6/4) need special treatment because they are acoustically unstable, and stylistic part-writing requires handling them correctly. The unit concludes with techniques for expanding progressions through prolongation and elaboration.
 
 **Key ideas:** Predominant function is served by multiple chords (IV, ii, vi, and others). Seventh chords on predominant degrees add harmonic color. Second-inversion triads have restricted, specific uses. Progressions can be expanded through prolongation and elaboration.
 
@@ -387,7 +386,7 @@ In minor, VI (a major chord) is particularly colorful and versatile. The vi/VI c
 
 ### 5.3 Predominant Seventh Chords
 
-Adding sevenths to predominant chords (ii7, IV7) increases harmonic richness and voice-leading intensity. The ii7 chord (or iiø7 in minor) is particularly common—its seventh resolves to the third of V, creating smooth connection. These chords add complexity to predominant areas without changing fundamental function.
+Adding sevenths to predominant chords (ii7, IV7) increases harmonic richness and voice-leading intensity. The ii7 chord (or iiø7 in minor) is especially common; its seventh resolves to the third of V, which makes for a smooth connection. These chords add complexity to predominant areas without changing their basic function.
 
 Voicing and resolution follow standard seventh chord principles: the seventh resolves down by step, common tones are retained where possible, and smooth voice leading is prioritized.
 
@@ -395,11 +394,11 @@ Voicing and resolution follow standard seventh chord principles: the seventh res
 
 ### 5.4 The iii Chord
 
-The iii chord is less common than other diatonic harmonies, partly because its function is ambiguous—it shares notes with both I and V but connects awkwardly to primary predominants. When it appears, iii often moves to vi (descending-fifth motion) or serves as a passing harmony between I and IV.
+The iii chord is less common than other diatonic harmonies, partly because its function is ambiguous: it shares notes with both I and V but connects awkwardly to the primary predominants. When it appears, iii often moves to vi (descending-fifth motion) or acts as a passing harmony between I and IV.
 
 In minor, III (a major chord) is the relative major and serves more prominent roles, particularly in progressions moving toward VI. The iii chord's relative rarity makes its appearance notable.
 
-**Key ideas:** iii has ambiguous function and is relatively rare. Common progressions: iii–vi or iii as passing between I and IV. In minor, III (relative major) is more prominent. Rarity makes iii appearances analytically significant.
+**Key ideas:** iii has ambiguous function and is relatively rare. Common progressions: iii–vi or iii as passing between I and IV. In minor, III (relative major) is more prominent. Because iii is rare, an appearance is worth noting in analysis.
 
 ### 5.5 Functional Progressions and Cadences
 
@@ -421,13 +420,13 @@ This analysis reflects the chord's behavior: it doesn't provide tonic stability 
 
 Unlike the cadential 6/4, passing and pedal 6/4 chords serve linear functions. A passing 6/4 connects two chords via stepwise bass motion (I–V6/4–I6 or IV–I6/4–ii6). The bass passes through the 6/4 chord without harmonic emphasis. A pedal 6/4 sustains a bass note while upper voices move (I–IV6/4–I, with bass remaining on scale degree 1).
 
-These 6/4 usages are metrically weak—they occur on weak beats or weak parts of beats. This distinguishes them from the metrically strong cadential 6/4. Recognizing these functions requires attention to metric placement and bass behavior.
+These 6/4 usages are metrically weak, occurring on weak beats or weak parts of beats. This distinguishes them from the metrically strong cadential 6/4. Recognizing these functions requires attention to metric placement and bass behavior.
 
 **Key ideas:** Passing 6/4 connects chords via stepwise bass motion. Pedal 6/4 sustains bass while upper voices move. Both are metrically weak, unlike cadential 6/4. Linear function distinguishes passing and pedal 6/4 from cadential.
 
 ### 5.8 Expanding Harmonic Progressions
 
-Basic progressions can be expanded through several techniques. Prolongation sustains one harmony over multiple chords (I–V4/2–I6 prolongs tonic). Sequence repeats a harmonic pattern at different pitch levels (falling fifths: I–IV–vii°–iii–vi–ii–V–I). Interpolation inserts chords between expected harmonies without changing fundamental function.
+Basic progressions can be expanded through several techniques. Prolongation sustains one harmony over multiple chords (I–V4/2–I6 prolongs tonic). Sequence repeats a harmonic pattern at different pitch levels (falling fifths: I–IV–vii°–iii–vi–ii–V–I). Interpolation inserts chords between expected harmonies without changing the underlying function.
 
 These techniques create longer, more complex progressions while maintaining underlying functional logic. Analysis reveals both surface elaboration and deeper structure.
 
@@ -447,11 +446,11 @@ Effective phrases establish tonic, move through predominant to dominant, and res
 
 ### 6.0 Unit Overview: Decorating the Framework
 
-This unit examines the elements that add life and interest to the harmonic and melodic framework established in earlier units. Embellishing tones—non-chord tones that decorate structural harmonies—create motion and expression. Motives and their transformations provide melodic coherence. Sequences create extended passages through systematic repetition. These techniques transform basic progressions into living music.
+This unit examines the elements that add life and interest to the harmonic and melodic framework established in earlier units. Embellishing tones, the non-chord tones that decorate structural harmonies, create motion and expression. Motives and their transformations hold melodies together, and sequences build longer passages through systematic repetition. With these techniques, a basic progression becomes a finished piece of music.
 
-Non-chord tones have been present in all the music studied so far, but this unit treats them systematically. Each type (passing tone, neighbor, suspension, etc.) has characteristic behavior and expressive quality. Distinguishing chord tones from embellishments is essential for accurate harmonic analysis.
+Non-chord tones have been present in all the music studied so far, but this unit treats them systematically. Each type (passing tone, neighbor, suspension, etc.) has characteristic behavior and expressive quality. Accurate harmonic analysis depends on telling chord tones from embellishments.
 
-Motivic development—the process of varying a basic melodic idea—is a primary compositional technique from Bach through Brahms and beyond. Understanding how composers develop motives reveals compositional logic and aids both analysis and composition.
+Motivic development, the process of varying a basic melodic idea, is a primary compositional technique from Bach through Brahms and beyond. Understanding how composers develop motives reveals compositional logic and aids both analysis and composition.
 
 **Key ideas:** Embellishing tones decorate structural harmonies with motion and expression. Each type of non-chord tone has characteristic behavior. Motives and their transformations create melodic coherence. Sequences extend passages through systematic repetition.
 
@@ -465,7 +464,7 @@ Neighbor tones (also called auxiliary tones) decorate a chord tone by stepping a
 
 ### 6.2 Anticipations, Escape Tones, and Appoggiaturas
 
-Anticipations arrive early—a tone belonging to the next chord sounds before the chord change. They are approached by step and left by common tone (as the anticipated chord arrives). Anticipations are typically unaccented, occurring on weak beats.
+Anticipations arrive early: a tone belonging to the next chord sounds before the chord change. They are approached by step and left by common tone (as the anticipated chord arrives). Anticipations are typically unaccented, occurring on weak beats.
 
 Escape tones (or échappées) are approached by step and left by leap in the opposite direction. Appoggiaturas are the reverse: approached by leap and left by step in the opposite direction. Appoggiaturas are typically accented and create expressive dissonance.
 
@@ -523,7 +522,7 @@ Other techniques include deceptive cadence (which extends by forcing continuatio
 
 Applied to four-part writing, embellishing tones add life to basic progressions. Voice leading becomes more complex when accounting for non-chord tones: suspensions require preparation on a weak beat, passing tones fill in thirds, and neighbors decorate static voices.
 
-Writing with embellishments requires planning: identify the underlying chord progression, write structural voices, then add embellishments that enhance voice leading and melodic interest without creating forbidden parallels or awkward motion.
+Writing with embellishments requires planning: identify the underlying chord progression, write structural voices, then add embellishments that improve voice leading and melodic interest without creating forbidden parallels or awkward motion.
 
 **Key ideas:** Embellishing tones add life to four-part writing. Voice leading becomes more complex with non-chord tones. Suspensions require preparation; passing tones fill thirds. Plan chord progression before adding embellishments.
 
@@ -533,11 +532,11 @@ Writing with embellishments requires planning: identify the underlying chord pro
 
 ### 7.0 Unit Overview: Tonicizing Other Keys
 
-This unit introduces secondary function—the technique of temporarily treating a chord other than I as a tonic, creating momentary shifts that add color and intensity without leaving the home key. Secondary dominants and secondary leading-tone chords borrow from other keys, creating chromatic interest within an otherwise diatonic context.
+This unit introduces secondary function, the technique of briefly treating a chord other than I as a tonic. These momentary shifts add color and intensity without leaving the home key. Secondary dominants and secondary leading-tone chords borrow from other keys, creating chromatic interest within an otherwise diatonic context.
 
-Tonicization is distinct from modulation: in tonicization, the emphasis on a non-tonic chord is brief and the music returns quickly to the home key. Modulation establishes a new key more permanently. Understanding this distinction is essential for accurate analysis.
+Tonicization is distinct from modulation: in tonicization, the emphasis on a non-tonic chord is brief and the music returns quickly to the home key. Modulation establishes a new key more permanently. Accurate analysis depends on this distinction.
 
-Secondary function chords are identified with slash notation: V/V means "five of five" or "the dominant of the dominant." This unit teaches how to identify, analyze, write, and hear these chords in context—essential skills for understanding music from the Baroque era through jazz and pop.
+Secondary function chords are identified with slash notation: V/V means "five of five" or "the dominant of the dominant." This unit teaches how to identify, analyze, write, and hear these chords in context, skills you need for music from the Baroque era through jazz and pop.
 
 **Key ideas:** Secondary function temporarily treats a non-tonic chord as tonic. Tonicization is brief; modulation establishes a new key. Secondary dominants (V/x) and leading-tone chords (vii°/x) create chromatic intensity. Slash notation identifies the target of tonicization.
 
@@ -575,7 +574,7 @@ Because these chords are often fully diminished, they may be spelled enharmonica
 
 ### 7.5 Identifying Tonicization in Music
 
-Aural identification of tonicization requires hearing the momentary pull to a non-tonic chord—the sense that one chord briefly sounds like "home" before the music returns to the actual tonic. Visual identification requires finding accidentals that create leading-tone relationships to diatonic chords.
+To identify tonicization by ear, listen for the momentary pull to a non-tonic chord: the sense that one chord briefly sounds like "home" before the music returns to the actual tonic. Visual identification requires finding accidentals that create leading-tone relationships to diatonic chords.
 
 Signs of tonicization include: chromatic alterations resolving by half step, dominant-to-tonic motion targeting a diatonic chord, and brief emphasis on a chord without establishment of a new key.
 
@@ -583,7 +582,7 @@ Signs of tonicization include: chromatic alterations resolving by half step, dom
 
 ### 7.6 Harmonic Analysis with Secondary Function
 
-In Roman numeral analysis, secondary function chords are labeled with slash notation: V/V, viio7/ii, etc. The chord after the slash is the target—the chord being tonicized. Both the secondary chord and its resolution should be included in the analysis.
+In Roman numeral analysis, secondary function chords are labeled with slash notation: V/V, viio7/ii, etc. The chord after the slash is the target, the chord being tonicized. Both the secondary chord and its resolution should be included in the analysis.
 
 Analysis should distinguish between tonicization and modulation. Tonicization involves isolated secondary chords; modulation involves multiple chords from a new key and often a cadence confirming the new tonic.
 
@@ -593,9 +592,9 @@ Analysis should distinguish between tonicization and modulation. Tonicization in
 
 Adding secondary dominants to progressions creates chromatic interest. The basic technique: identify a diatonic chord to tonicize, add its V or V7 (or vii°) before it, and voice-lead with proper resolution of tendency tones. V/V–V–I is a common pattern; V/ii–ii–V–I adds more chromatic color.
 
-Secondary function chords intensify motion toward their targets. Used strategically, they highlight important structural moments or add color to otherwise predictable progressions.
+Secondary function chords intensify motion toward their targets. Used strategically, they mark important structural moments or add color to otherwise predictable progressions.
 
-**Key ideas:** Insert secondary chords before their targets. Voice-lead with proper tendency-tone resolution. Secondary function intensifies motion toward target. Strategic use highlights important moments.
+**Key ideas:** Insert secondary chords before their targets. Voice-lead with proper tendency-tone resolution. Secondary function intensifies motion toward target. Strategic use draws attention to important moments.
 
 ### 7.8 Common Tonicization Patterns
 
@@ -623,13 +622,13 @@ This unit expands beyond the major/minor system to explore church modes and exam
 
 Church modes predate the major/minor system and continue to appear in folk music, jazz, rock, and contemporary classical music. Each mode has a distinctive character determined by its pattern of whole and half steps and the placement of its half steps relative to the final (tonic).
 
-Musical form describes the organization of phrases into larger structures: periods, binary form, ternary form, and beyond. Understanding form reveals how composers create coherence, contrast, and drama across entire movements. Form analysis integrates all skills from the course into comprehensive interpretation.
+Musical form describes the organization of phrases into larger structures: periods, binary form, ternary form, and beyond. Understanding form reveals how composers create coherence, contrast, and drama across entire movements. Form analysis draws on every skill in the course to interpret a whole piece.
 
 **Key ideas:** Church modes predate and extend beyond major/minor. Each mode has distinctive character from its interval pattern. Form organizes phrases into larger structures. Form analysis integrates all course skills.
 
 ### 8.1 Church Modes
 
-The seven church modes can be understood as scales built on each white key of the piano from that note to its octave: Ionian (C–C), Dorian (D–D), Phrygian (E–E), Lydian (F–F), Mixolydian (G–G), Aeolian (A–A), and Locrian (B–B). Each has a unique pattern of whole and half steps.
+The seven church modes can be understood as scales built on each white key of the piano, running from that note to its octave. They are Ionian (C–C), Dorian (D–D), Phrygian (E–E), Lydian (F–F), Mixolydian (G–G), Aeolian (A–A), and Locrian (B–B). Each has a unique pattern of whole and half steps.
 
 Ionian is identical to major; Aeolian is identical to natural minor. The other modes have distinctive characteristics: Dorian's raised sixth, Phrygian's lowered second, Lydian's raised fourth, Mixolydian's lowered seventh, and Locrian's diminished tonic triad.
 
@@ -637,7 +636,7 @@ Ionian is identical to major; Aeolian is identical to natural minor. The other m
 
 ### 8.2 Modal Scales and Characteristics
 
-Each mode can be transposed to begin on any pitch while maintaining its characteristic interval pattern. Dorian on D sounds different from Dorian on E, but both have the Dorian pattern (W-H-W-W-W-H-W). The characteristic tone—the pitch that most distinguishes the mode from major or minor—is essential for modal identity.
+Each mode can be transposed to begin on any pitch while maintaining its characteristic interval pattern. Dorian on D sounds different from Dorian on E, but both have the Dorian pattern (W-H-W-W-W-H-W). The characteristic tone, the pitch that most sets the mode apart from major or minor, is what gives the mode its identity.
 
 Comparing modes to major or minor clarifies their characteristics: Dorian is minor with raised 6; Mixolydian is major with lowered 7; Lydian is major with raised 4; Phrygian is minor with lowered 2.
 
@@ -645,9 +644,9 @@ Comparing modes to major or minor clarifies their characteristics: Dorian is min
 
 ### 8.3 Modal Harmony
 
-Modal harmony operates differently from tonal harmony. The absence or weakness of the leading tone in many modes reduces dominant pull, creating a more static, coloristic harmonic language. Progressions often emphasize the characteristic tone through chords built on it.
+Modal harmony operates differently from tonal harmony. The absence or weakness of the leading tone in many modes reduces dominant pull, creating a more static, coloristic harmonic language. Progressions often stress the characteristic tone through chords built on it.
 
-In Dorian, for example, the iv chord is major (not minor as in Aeolian), emphasizing the raised sixth. In Mixolydian, the VII chord is major and functions prominently. Modal harmony avoids or de-emphasizes the V–I relationship that defines tonal music.
+In Dorian, for example, the iv chord is major (not minor as in Aeolian), which brings out the raised sixth. In Mixolydian, the VII chord is major and functions prominently. Modal harmony avoids or de-emphasizes the V–I relationship that defines tonal music.
 
 **Key ideas:** Modal harmony emphasizes characteristic tones through chords. Weakened leading tone reduces dominant function. Progressions differ from tonal conventions. Modal harmony is more static and coloristic.
 
@@ -671,7 +670,7 @@ The sentence is an alternative phrase structure: a two-measure basic idea is sta
 
 Binary form divides a piece into two sections, often labeled A and B. Rounded binary returns to opening material after contrasting material (||: A :||: B A' :||). Simple binary does not return (||: A :||: B :||). Both sections are typically repeated.
 
-Ternary form (ABA) presents opening material, contrasting material, then a return of the opening. Compound ternary nests smaller forms within each section. These forms organize complete movements or pieces, not just phrases.
+Ternary form (ABA) presents opening material, contrasting material, then a return of the opening. Compound ternary nests smaller forms within each section. These forms organize complete movements or pieces, beyond the level of single phrases.
 
 **Key ideas:** Binary form: two sections, with or without return. Rounded binary: A B A'; simple binary: A B. Ternary form: ABA with contrasting middle section. These forms organize complete pieces or movements.
 
@@ -695,9 +694,9 @@ Analytical diagrams show form visually: timelines, letter labels, measure number
 
 Large-scale forms include sonata form (exposition–development–recapitulation), rondo (ABACABA and variants), theme and variations, and others. These forms organize complete movements, coordinating tonal motion with thematic development.
 
-Understanding large-scale structure connects all skills from the course: hearing and identifying cadences and keys, recognizing thematic material and its development, understanding harmonic motion and prolongation, and interpreting how structure creates musical meaning. This synthesis represents the culmination of AP Music Theory.
+Understanding large-scale structure connects all skills from the course: hearing and identifying cadences and keys, recognizing thematic material and its development, understanding harmonic motion and prolongation, and interpreting how structure creates musical meaning. This is where everything in AP Music Theory comes together.
 
-**Key ideas:** Large-scale forms include sonata, rondo, and theme and variations. Forms coordinate tonal motion with thematic development. Analysis integrates all course skills. Large-scale understanding is the culmination of music theory study.
+**Key ideas:** Large-scale forms include sonata, rondo, and theme and variations. Forms coordinate tonal motion with thematic development. Analysis integrates all course skills. Large-scale understanding brings together all of music theory study.
 `
 
 const CLEANED_AP_MUSIC_THEORY = RAW_AP_MUSIC_THEORY
