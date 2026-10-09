@@ -24,7 +24,7 @@ const ExamHubPage = lazy(() => import('./pages/ExamHubPage'))
 const ExamInfoPage = lazy(() => import('./pages/ExamInfoPage'))
 const ApPlannerPage = lazy(() => import('./pages/ApPlannerPage'))
 const ThemesPage = lazy(() => import('./pages/ThemesPage'))
-const MissionPage = lazy(() => import('./pages/MissionPage'))
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 const LoginPage = lazy(() => import('./pages/LoginPage'))
 const RegisterPage = lazy(() => import('./pages/RegisterPage'))
 const VerifyPage = lazy(() => import('./pages/VerifyPage'))
@@ -344,7 +344,7 @@ function App() {
                   <Route path="/notebook" element={<MistakeNotebookPage />} />
                   <Route path="/themes" element={<ThemesPage />} />
                   <Route path="/about" element={<ExternalRedirect to={PORTFOLIO_URL} />} />
-                  <Route path="/mission" element={<MissionPage />} />
+                  <Route path="*" element={<NotFoundPage />} />
                 </Routes>
                 </Suspense>
                 </ChatProvider>
