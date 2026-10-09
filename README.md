@@ -1,18 +1,21 @@
 # Academy of Testers
 
-A full-stack AP/SAT study platform that provides curated practice exams, subject-specific resources, unit overviews, and topical practice content.
+A full-stack AP and SAT study platform: practice questions for 29 AP subjects, an adaptive SAT Math engine (IRT + Bayesian Knowledge Tracing), AI FRQ grading and a study chatbot grounded with RAG, and a spaced-repetition Mistake Notebook.
 
 ## Tech Stack
 
 **Frontend:**
-- React + TypeScript + Vite
-- TailwindCSS
+- React 18 + TypeScript + Vite
+- TailwindCSS, `motion` for animation
 - React Router
+- KaTeX for math rendering
 
 **Backend:**
 - Spring Boot 3.2
 - PostgreSQL 16
 - Flyway Migrations
+- OpenAI (chat, embeddings) for Testy, FRQ grading, and RAG
+- Brevo SMTP for verification email
 
 **Deployment:**
 - Frontend: Vercel
@@ -37,7 +40,7 @@ docker compose up
 ```
 
 This will start:
-- PostgreSQL database on port 5432
+- PostgreSQL database on port 5432 (5433 on this machine via `docker-compose.override.yml`)
 - Spring Boot API on port 8080
 
 **Verify the backend is running:**
@@ -70,7 +73,7 @@ Frontend will be available at `http://localhost:5173`
 docker compose up postgres -d
 ```
 
-2. Run Spring Boot:
+2. Run Spring Boot (set the env vars from [RUNNING.md](RUNNING.md) first; the datasource must point at port 5433):
 ```bash
 cd server
 mvn spring-boot:run
@@ -93,73 +96,86 @@ academy_of_testers/
 │   ├── src/
 │   ├── package.json
 │   └── vite.config.ts
+├── tools/               # sat-import (SAT bank pipeline), rag-ingest, frq-release, bank-stats
+├── eval/frq-grader/     # offline A/B eval of the RAG FRQ grader
+├── scripts/             # start-dev.ps1
 └── docker-compose.yml
 ```
 
-## What the Platform Actually Does
+## What the Platform Does
 
-- Browse exams (`AP`, `SAT`) and drill into exam-specific subject hubs.
-- Search subjects by name and filter subjects by category in the AP hub.
-- Open each subject page and access:
-  - Unit Overviews
-  - Practice Problems
-  - Topical Unit Review (when available)
-  - Video Resources
-  - Practice Exams (from seeded `study_resources`)
+*Current as of 2026-10-07.*
 
-## API Surface (Core Endpoints)
+### AP (29 subjects)
+- **Exam hubs** for each subject: unit overviews, video resources, and College Board practice exams/PDFs.
+- **Unit practice**: 5,160 multiple-choice questions across 172 units (30 per unit, 10 easy / 10 medium
+  / 10 hard), plus timed mock exams and an interleaved review mode that mixes units.
+- **FRQ practice + AI grading**: the real 2025 released free-response questions, graded by a RAG
+  grader that retrieves rubric clauses and score-banded exemplars (see "AI features" below).
+- **AP planner**: pick your courses, then get a week-by-week study plan ordered by mastery.
+- **Flashcards**: premade decks plus your own stacks, with per-card progress.
 
-- `GET /api/health` - health check.
-- `GET /api/exams` - list all exams.
-- `GET /api/exams/{id}/subjects` - list subjects under an exam.
-- `GET /api/subjects/{id}` - single subject.
-- `GET /api/resources?subjectId=&q=&page=&size=&sort=` - paginated subject resources with optional query.
-- `GET /api/resources/{id}` - single resource.
+### SAT (Math)
+- **Adaptive engine** (`/sat/adaptive`): a 24-question diagnostic seeds eight skill weights, then
+  10-question sessions pick items with IRT, update mastery with Bayesian Knowledge Tracing, decay it
+  with a forgetting curve, and propagate penalties to prerequisite skills. 590 questions in the bank.
+  Mastery radar, streak calendar, and a practice builder for focusing on chosen skills.
+- **Prep lessons** for each of the eight skills, a **Desmos calculator strategy guide**, and a
+  week-by-week **study plan**.
 
-## Database Schema (Used in Production)
+### Across both
+- **Testy** (`/testy` and a floating chat): an AI study assistant grounded in AP curriculum,
+  rubrics, and exemplars, with per-user hourly limits.
+- **Mistake Notebook** (`/notebook`): every missed AP or SAT question goes into a Leitner
+  spaced-repetition queue (1/3/7/14/30 days). Reviewing a SAT question here never changes mastery.
+- **"Explain my mistake"**: one click pre-fills Testy with the missed question and your answer.
+- **Exam logistics** pages for AP and SAT, linking to College Board for dates and policies.
+- Accounts with email verification (Brevo SMTP), JWT auth with refresh tokens, a contact form,
+  and selectable site themes.
 
-Schema is created in `server/src/main/resources/db/migration/V1__create_tables.sql`.
+### AI features
+- **RAG layer**: chunks stored in Postgres with OpenAI embeddings; retrieval is in-app cosine
+  similarity (no pgvector). Corpus loaded via `tools/rag-ingest`.
+- **FRQ grader eval** (`eval/frq-grader`): an offline A/B harness against official College Board
+  scores. Grounding cut mean absolute error ~23% vs. a no-rubric baseline (QWK 0.62), and held up on
+  a fresh APUSH set it was never tuned on.
 
-### `exams`
-- `id` `BIGSERIAL` primary key
-- `name` `VARCHAR(50)` not null, unique
-- `description` `VARCHAR(500)`
-- `created_at` `TIMESTAMP` default `CURRENT_TIMESTAMP`
+## API Surface
 
-### `subjects`
-- `id` `BIGSERIAL` primary key
-- `name` `VARCHAR(100)` not null
-- `description` `VARCHAR(500)`
-- `exam_id` `BIGINT` not null, FK -> `exams(id)` with `ON DELETE CASCADE`
-- `created_at` `TIMESTAMP` default `CURRENT_TIMESTAMP`
+All under `/api`. Everything except health, exams/subjects/resources, auth, and contact needs a JWT.
 
-Index:
-- `idx_subjects_exam_id` on `subjects(exam_id)`
+| Area | Endpoints |
+| --- | --- |
+| Health | `GET /health` |
+| Catalog | `GET /exams`, `GET /exams/{id}/subjects`, `GET /subjects/{id}`, `GET /resources`, `GET /resources/{id}` |
+| Auth | `POST /auth/register`, `/login`, `/refresh`, `/logout`, `/verify`, `/verify/resend` |
+| User | `GET`/`PUT /users/me`, `POST /users/me/password` |
+| Flashcards | `/flashcards`, `/stacks` (CRUD), `/progress` (GET/POST/DELETE) |
+| AP planner | `GET`/`PUT /ap/courses` |
+| AI | `POST /ai/chat`, `GET /ai/chat/usage`, `POST /ai/frq/grade` |
+| RAG admin | `POST /ai/rag/chunks`, `POST /ai/rag/reembed`, `GET /ai/rag/stats`, `GET /ai/rag/chunk` (ingest token) |
+| SAT adaptive | `/sat/adaptive/status`, `/mastery`, `/dashboard`, `/prefs`, `/streak/repair`, `/diagnostic`, `/diagnostic/answer`, `/catalog`, `/session`, `/session/current`, `/session/{id}/answer`, `/session/{id}/summary`, `/session/{id}/end`, `/review/{questionId}`, `/review/{questionId}/check` |
+| Contact | `POST /contact` |
 
-### `study_resources`
-- `id` `BIGSERIAL` primary key
-- `title` `VARCHAR(200)` not null
-- `description` `VARCHAR(1000)`
-- `file_path` `VARCHAR(500)` not null
-- `file_type` `VARCHAR(20)`
-- `exam_year` `INTEGER`
-- `subject_id` `BIGINT` not null, FK -> `subjects(id)` with `ON DELETE CASCADE`
-- `created_at` `TIMESTAMP` default `CURRENT_TIMESTAMP`
+## Database and Migrations
 
-Indexes:
-- `idx_study_resources_subject_id` on `study_resources(subject_id)`
-- `idx_study_resources_exam_year` on `study_resources(exam_year)`
+Schema lives entirely in Flyway migrations in `server/src/main/resources/db/migration`
+(`ddl-auto=none`). Main groups:
 
-## Migrations
+- `V1`–`V10`: exams, subjects, study resources, auth tables, SAT resource fixes.
+- `V11`–`V12`: flashcards, stacks, card progress.
+- `V13`–`V21`: SAT adaptive engine: question bank, skills and prerequisites, per-student weights,
+  responses, sessions, streaks, prefs. `V15` and `V21` are generated seeds; edit the JSON in
+  `server/src/main/resources/sat/bank/` and regenerate them, never by hand.
+- `V22`: users' AP course selections.
+- `V23`–`V24`: SAT cleanup (Math only, stem formatting).
+- `V25`: RAG chunks + embeddings.
 
-Flyway migration files live in `server/src/main/resources/db/migration`.
+## Tests
 
-- `V1__create_tables.sql` - schema creation
-- `V2__seed_data.sql` - exam/subject seeds
-- `V3__add_sat_resources.sql` - SAT resources
-- `V4__add_ap_resources.sql` - AP resources
-- `V5__add_ap_research_subject.sql` - AP Research subject
-- `V6__remove_ap_foreign_languages.sql` - removes AP Foreign Languages + associated resources
+`cd server && mvn test` runs JUnit 5 tests for the pure SAT engine classes (`com.aot.sat.engine`).
+`web/scripts/acceptance/check.mjs` is a behavior check for the Mistake Notebook / study plan
+features. There is no frontend unit test runner.
 
 ## Unit Overview System
 
@@ -193,5 +209,6 @@ npm run format
 
 ## Deployment
 
-See deployment documentation in `/docs` folder (coming soon).
+Frontend on Vercel, backend and Postgres on Render. UptimeRobot pings the backend to avoid Render
+cold starts, and the frontend retries GETs if the backend is waking up.
 

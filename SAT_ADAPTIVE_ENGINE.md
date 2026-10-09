@@ -1,6 +1,6 @@
 # SAT Adaptive Learning Engine
 
-> **Status:** design locked. **No code written yet.** Question bank import in progress.
+> **Status:** Phases 1–4 shipped and live (see §0). Phase 5 not started, Phase 6 deferred.
 > **Scope:** SAT Math only. Reading & Writing is explicitly out of scope for v1.
 > **Questions:** pure text — LaTeX and characters. No images, figures, or diagrams, ever.
 > **v1 ships multiple choice only.** Numeric fill-in questions are fully designed (§4.8, §9.5) and the
@@ -13,14 +13,14 @@
 
 ## 0. Current progress
 
-*Last updated: 2026-07-11. Update this section whenever the state below stops being true.*
+*Last updated: 2026-10-07. Update this section whenever the state below stops being true.*
 
 ### Where things actually stand
 
 **Design is settled and Phases 1–4 are implemented, running, and verified end to end** against the live
 Docker stack (Postgres + Spring Boot api + Vite frontend). A user can register, take the 24-question
-diagnostic, see their radar chart, and run adaptive 10-question sessions. The bank holds 273 validated
-questions with 24 diagnostics marked.
+diagnostic, see their radar chart, and run adaptive 10-question sessions. The bank holds 590 questions
+(273 imported from practice tests in V15, plus 317 authored in V21); 27 are flagged diagnostic.
 
 Verified on 2026-07-11 against a real authenticated user: diagnostic initializes the eight weights to
 the §4.7 values; sessions serve questions weighted toward the weakest skills (IRT gap term); BKT raises
@@ -32,7 +32,7 @@ the idempotency and completion guards return 400.
 | Phase | State | Notes |
 | --- | --- | --- |
 | 1 — pure engine classes | **done** | `com.aot.sat.engine`: constants, BKT, forgetting, IRT, prereq, selector, diagnostic init. Pure, no Spring. |
-| 2 — schema + bank | **done** | V13 (bank + skill/prereq seed), V14 (per-student state), V15 (generated 273-question seed). Applied cleanly. |
+| 2 — schema + bank | **done** | V13 (bank + skill/prereq seed), V14 (per-student state), V15 (generated 273-question seed), V21 (317-question additive expansion), V16–V20 (streaks, focus, session queue, prefs, max-weight tracking). |
 | 3 — diagnostic end to end | **done** | Services + `/api/sat/adaptive/*` + `DiagnosticFlow.tsx` + `MasteryRadar.tsx`. |
 | 4 — adaptive loop | **done** | `AdaptiveSessionService` (§4.5), session endpoints, `AdaptiveSession.tsx`, `SessionSummary.tsx`. |
 | 5 — instrumentation | not started | Audit trail is captured (sat_responses); no analytics/recalibration job yet. |
@@ -40,7 +40,7 @@ the idempotency and completion guards return 400.
 
 ### How to run it
 
-1. `docker compose up -d` (Postgres + api; api applies V13–V15 on boot).
+1. `docker compose up -d` (Postgres + api; api applies V13–V25 on boot).
 2. `cd web && npm run dev`, then open `/sat/adaptive` and sign in.
 
 Rebuild the api after backend changes: `docker compose build api && docker compose up -d api`.
@@ -73,14 +73,34 @@ Rebuild the api after backend changes: `docker compose build api && docker compo
 | `SAT_ADAPTIVE_ENGINE.md` | this document — complete |
 | `server/src/main/resources/sat/bank/README.md` | authoring guide — complete |
 | `server/src/main/resources/sat/bank/_TEMPLATE.json` | 3 worked examples + 1 blank; LaTeX verified through KaTeX |
-| `server/src/main/resources/sat/bank/<skill>.json` × 8 | **populated: 273 questions, validated, 24 diagnostics marked** |
+| `server/src/main/resources/sat/bank/<skill>.json` × 8 | **populated: 590 questions, 27 flagged diagnostic** |
 | `tools/sat-import/raw/practice-test-{4..11}.json` | 273 raw questions, pristine originals (provenance) |
 | `tools/sat-import/diagnostics.json` | the 24 diagnostic picks, keyed by stable `source`; edit to reselect |
 | `tools/sat-import/normalize.mjs` | converter: renumbers ids, wraps LaTeX, KaTeX-validates, stamps diagnostics |
 | `tools/sat-import/normalized/` | per-file converted intermediates + `_id-map.json` (old→new id audit trail) |
-| everything else | does not exist |
+| `tools/sat-import/generate-seed.mjs` | emits the V15/V21 seed SQL from the bank JSON |
+| `server/src/main/java/com/aot/sat/` | engine, services, controller, DTOs (Phases 1–4) |
+| `web/src/components/adaptive/` | diagnostic, session, radar, dashboard, streak calendar, practice builder |
 
-### Question bank: 273 questions, converted and validated
+### Question bank: 590 questions
+
+Current per-skill counts (2026-10-07), after the V21 expansion brought every skill to 30 easy / 30 medium:
+
+| Skill | easy | medium | hard | total |
+| --- | --- | --- | --- | --- |
+| `arithmetic-percentages` | 30 | 30 | 10 | 70 |
+| `algebra-equations` | 30 | 30 | 16 | 76 |
+| `linear-functions` | 30 | 30 | 10 | 70 |
+| `systems-of-equations` | 30 | 30 | 10 | 70 |
+| `quadratics-polynomials` | 30 | 30 | 17 | 77 |
+| `exponential-functions` | 30 | 30 | 13 | 73 |
+| `data-statistics` | 30 | 30 | 10 | 70 |
+| `geometry-trigonometry` | 30 | 30 | 24 | 84 |
+| **total** | 240 | 240 | 110 | **590** |
+
+Hard items are the thinnest cell now. The history below covers the original 273-question import.
+
+#### Original import (2026-07-11)
 
 Eight practice tests (P4–P11) were imported into `tools/sat-import/raw/` and run through
 `tools/sat-import/normalize.mjs`, which regroups them into the eight skill files. Re-run it any time
@@ -128,19 +148,16 @@ diagnostic slots are fillable.
 1. **Skim skill assignments.** e.g. an early P4 item asks which *system of inequalities* has `(8, 2)` as
    a solution but sits under `algebra-equations`. The id prefix is the skill, and skill drives the whole
    weight vector, so a quick audit is worth it. Any move changes the id, so do it before seeding.
-2. **Top up the four thin skills** toward ~40 each before launch: `systems-of-equations` (15),
-   `data-statistics` (19), `arithmetic-percentages` (20), `exponential-functions` (28). Phase 4, not 3.
+2. ~~Top up the four thin skills~~ — done in V21 (every skill now ≥ 70).
+3. **More hard items**: four skills sit at 10 hard questions.
 
 ### Next actions
 
-The bank is ready; everything left is code. See §10 Phases 1–3. In order:
+Phases 1–4 are done. Remaining, in order:
 
-1. **Phase 1** — write the pure engine classes (`AdaptiveConstants`, `BayesianKnowledgeTracer`,
-   `ForgettingCurve`, `ItemResponseTheory`, `PrerequisitePropagator`, `QuestionSelector`) with unit
-   tests. No Spring, no DB. This is the highest-value next step and depends on nothing.
-2. **Phase 2 (finish)** — write V13/V14 migrations and the `sat_skills` seed (§5), then the generator
-   that emits `V15__seed_sat_questions.sql` from the bank (§9).
-3. **Phase 3** — diagnostic end to end: services, endpoints, `DiagnosticFlow.tsx`, `MasteryRadar.tsx`.
+1. **Phase 5** — instrumentation: analytics over `sat_responses` and an `irt_b` recalibration job (§4.6).
+2. **Wire real recency** into selection (see Known simplifications).
+3. **Phase 6** — fill-in questions. Still deliberately deferred.
 
 ### Decisions made along the way
 
